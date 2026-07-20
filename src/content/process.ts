@@ -11,85 +11,79 @@ export const processSteps: ProcessStep[] = [
   {
     id: 'kualifikasi-awal',
     stepNumber: 1,
-    title: 'Kualifikasi Awal (Assessment)',
-    description: 'Kami mempelajari kebutuhan dasar dan ekspektasi Anda untuk memastikan kecocokan profil proyek dengan layanan kami.',
+    title: 'Penilaian Awal Proyek',
+    description: 'Kami meninjau jenis pekerjaan, lokasi, kisaran anggaran, target waktu, dan skema pembayaran untuk menilai kecocokan proyek.',
     icon: 'ClipboardList',
     details: [
-      'Pengisian formulir kuesioner digital.',
-      'Analisis awal cakupan pekerjaan.',
-      'Konfirmasi estimasi budget awal.'
+      'Mengisi formulir kebutuhan proyek.',
+      'Pemeriksaan awal jenis pekerjaan, lokasi, anggaran, dan jadwal.',
+      
     ]
   },
   {
     id: 'konsultasi-pertama',
     stepNumber: 2,
-    title: 'Konsultasi Perdana (Discovery Call)',
-    description: 'Diskusi mendalam untuk memahami visi, tantangan, dan target waktu proyek Anda.',
+    title: 'Konsultasi Awal',
+    description: 'Kami membahas kebutuhan, prioritas, kendala, dan target proyek bersama pengambil keputusan.',
     icon: 'PhoneCall',
     details: [
       'Pertemuan daring atau tatap muka.',
-      'Penyelarasan visi proyek.',
-      'Penjelasan prosedur dan sistem kerja TEGAKARA.'
+      'Konfirmasi kebutuhan dan langkah berikutnya.'
     ]
   },
   {
     id: 'survei-lokasi',
     stepNumber: 3,
     title: 'Survei Lokasi & Pengumpulan Data',
-    description: 'Tim ahli kami mengunjungi lokasi untuk mengumpulkan data riil dan mengidentifikasi potensi kendala teknis.',
+    description: 'Tim teknis mengunjungi lokasi untuk mengukur kondisi aktual dan mengidentifikasi kendala yang dapat memengaruhi pekerjaan.',
     icon: 'MapPin',
     details: [
-      'Pengukuran dan dokumentasi kondisi eksisting.',
-      'Identifikasi akses dan logistik proyek.',
-      'Pemetaan potensi risiko di lapangan.'
+      'Pengukuran dan dokumentasi kondisi lokasi.',
+      'Pemeriksaan akses, lingkungan kerja, dan kebutuhan logistik.'
     ]
   },
   {
     id: 'pengajuan-proposal',
     stepNumber: 4,
-    title: 'Pengajuan Proposal Awal',
-    description: 'Penyajian konsep awal dan estimasi kasar (Rough Order of Magnitude) berdasarkan hasil diskusi dan survei.',
+    title: 'Penyampaian Proposal Awal',
+    description: 'Kami menyampaikan gambaran awal ruang lingkup, metode pelaksanaan, kisaran anggaran, dan rencana tahapan pekerjaan.',
     icon: 'FileText',
     details: [
-      'Sketsa konsep atau diagram sirkulasi ruang.',
-      'Estimasi biaya awal (rentang harga).',
-      'Estimasi timeline kasar.'
+      'Gambaran awal kebutuhan dan ruang lingkup.',
+      'Perkiraan anggaran dalam bentuk rentang harga.'
     ]
   },
   {
     id: 'perjanjian-desain',
     stepNumber: 5,
-    title: 'Perjanjian Perencanaan (Design & Build)',
-    description: 'Bila proposal awal disetujui, kita memasuki tahap perencanaan detail yang terikat komitmen.',
+    title: 'Perjanjian Tahap Perencanaan',
+    description: 'Jika proposal awal disetujui, proyek dilanjutkan ke tahap perencanaan rinci melalui perjanjian dan biaya yang disepakati.',
     icon: 'PenTool',
     details: [
-      'Penandatanganan kontrak perencanaan.',
-      'Pembayaran fee desain/perencanaan.',
-      'Kick-off meeting tahap desain.'
+      'Penandatanganan perjanjian tahap perencanaan.',
+      'Pembayaran biaya desain atau perencanaan sesuai kebutuhan proyek.'
     ]
   },
   {
     id: 'pengembangan-desain',
     stepNumber: 6,
-    title: 'Pengembangan Desain Detail',
-    description: 'Penyusunan gambar kerja, spesifikasi material, dan perizinan.',
+    title: 'Perencanaan Detail',
+    description: 'Penyusunan gambar kerja, spesifikasi material, serta dokumen teknis yang dibutuhkan sebelum pelaksanaan.',
     icon: 'Compass',
     details: [
-      'Pembuatan Gambar Kerja (DED).',
-      'Pemilihan material spesifik.',
-      'Proses pengurusan izin (jika diperlukan).'
+      'Pembuatan gambar kerja teknis.',
+      'Pemilihan dan persetujuan spesifikasi material.'
     ]
   },
   {
     id: 'penyusunan-rab',
     stepNumber: 7,
-    title: 'Penyusunan RAB Final',
-    description: 'Pembuatan Rencana Anggaran Biaya yang akurat berdasarkan gambar kerja yang telah disetujui.',
+    title: 'Penyusunan RAB dan Penawaran Final',
+    description: 'RAB dan nilai kontrak disusun berdasarkan gambar, spesifikasi, serta ruang lingkup yang telah disetujui.',
     icon: 'Calculator',
     details: [
-      'Perhitungan volume pekerjaan terperinci.',
-      'Penawaran harga mengikat (Fixed Price).',
-      'Review dan persetujuan RAB.'
+      'Perhitungan volume dan biaya setiap pekerjaan.',
+      'Penetapan nilai kontrak, termin, dan prosedur perubahan pekerjaan.'
     ]
   },
   {

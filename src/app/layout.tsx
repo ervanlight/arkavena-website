@@ -71,7 +71,7 @@ export default function RootLayout({
       lang="id"
       className={`${manrope.variable} ${inter.variable} ${sourceSerif.variable}`}
     >
-      <body className="min-h-screen flex flex-col bg-warm-white text-body antialiased">
+      <body className="min-h-screen flex flex-col bg-white text-body antialiased">
         <a href="#main-content" className="skip-to-content">
           Langsung ke konten utama
         </a>

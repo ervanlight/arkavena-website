@@ -48,18 +48,21 @@ html {
   }
 }
 
-body {
-  background: var(--color-warm-white);
-  color: var(--color-body);
-  font-family: var(--font-body);
-  line-height: 1.7;
+@layer base {
+  body {
+    background: var(--color-warm-white);
+    color: var(--color-body);
+    font-family: var(--font-body);
+    line-height: 1.7;
+  }
 }
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading);
-  color: var(--color-midnight);
-  line-height: 1.2;
+@layer utilities {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--color-midnight);
+    line-height: 1.2;
+  }
 }
 
 /* Focus styles */
@@ -100,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: 40px 40px;
 }
 
-.bg-blueprint-dark {
+.bg-blueprint-light {
   background-image: 
     linear-gradient(rgba(184, 138, 74, 0.06) 1px, transparent 1px),
     linear-gradient(90deg, rgba(184, 138, 74, 0.06) 1px, transparent 1px);

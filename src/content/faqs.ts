@@ -10,47 +10,47 @@ export interface FaqGroup {
 
 export const generalFaqs: FaqItem[] = [
   {
-    question: 'Apakah TEGAKARA menerima semua jenis proyek pembangunan?',
+    question: 'Jenis proyek apa saja yang diterima TEGAKARA?',
     answer: 'Kami selektif dalam menerima proyek demi menjaga kualitas layanan. Kami melakukan kualifikasi awal (assessment) untuk memastikan bahwa ekspektasi, nilai, dan budaya kerja antara kami dan klien sejalan. Kami lebih mengutamakan proyek yang menghargai kualitas, transparansi, dan proses terstruktur.'
   },
   {
-    question: 'Berapa biaya rata-rata pembangunan atau renovasi dengan TEGAKARA?',
+    question: 'Bagaimana cara memperkirakan biaya pembangunan atau renovasi?',
     answer: 'Biaya sangat bervariasi bergantung pada kompleksitas, lokasi, dan spesifikasi material. Kami tidak memberikan "harga tebakan" per meter persegi tanpa data yang jelas, karena praktik tersebut sering menyesatkan. Kami menyusun Rencana Anggaran Biaya (RAB) terperinci setelah proses desain dan spesifikasi disepakati, memastikan tidak ada biaya tersembunyi.'
   },
   {
-    question: 'Bagaimana sistem pembayaran di TEGAKARA?',
+    question: 'Bagaimana sistem pembayaran proyek di TEGAKARA?',
     answer: 'Kami menggunakan sistem termin pembayaran yang terkait langsung dengan pencapaian progres fisik (milestones) yang nyata, dikelola melalui sistem ScopeLock kami. Pembayaran dilakukan secara proporsional sesuai dengan bobot pekerjaan yang telah diselesaikan dan disetujui, melindungi arus kas kedua belah pihak.'
   },
   {
-    question: 'Apakah TEGAKARA memberikan garansi pekerjaan?',
-    answer: 'Ya, setiap proyek kami dilindungi oleh Masa Pemeliharaan (Retensi), yang durasinya disesuaikan dengan jenis pekerjaan. Selama masa ini, kami bertanggung jawab penuh atas perbaikan cacat konstruksi (defect) yang disebabkan oleh pengerjaan tanpa biaya tambahan.'
+    question: 'Apa saja yang termasuk dalam garansi pekerjaan?',
+    answer: 'Setiap proyek kami dilindungi oleh Masa Pemeliharaan (Retensi), yang durasinya disesuaikan dengan jenis pekerjaan. Selama masa ini, kami bertanggung jawab penuh atas perbaikan cacat konstruksi (defect) yang disebabkan oleh pengerjaan tanpa biaya tambahan.'
   },
   {
-    question: 'Apa yang membuat TEGAKARA berbeda dari kontraktor lain?',
+    question: 'Apa perbedaan cara kerja TEGAKARA dengan kontraktor biasa?',
     answer: 'Perbedaan utama kami terletak pada transparansi total melalui ekosistem digital (ProjectView), kejujuran dalam berbisnis, dan kedisiplinan proses. Kami merancang alur kerja yang meminimalkan kejutan negatif di lapangan, dan jika ada masalah, kami menanganinya secara proaktif, bukan menutupinya.'
   },
   {
-    question: 'Bagaimana jika saya ingin mengubah desain atau material saat proyek sudah berjalan?',
+    question: 'Bagaimana proses perubahan desain atau material selama proyek berjalan?',
     answer: 'Perubahan di tengah jalan (Variation Order) sangat mungkin terjadi. Kami mengelolanya secara tertulis dan transparan melalui aplikasi. Setiap perubahan akan dievaluasi dampaknya terhadap biaya dan waktu, lalu membutuhkan persetujuan Anda sebelum dieksekusi, sehingga Anda memegang kendali penuh atas perubahan tersebut.'
   },
   {
-    question: 'Apakah saya bisa menggunakan material dari saya sendiri?',
+    question: 'Bolehkah saya membeli material utama secara langsung?',
     answer: 'Secara prinsip kami menyarankan agar material disuplai melalui kami untuk menjamin kualitas, ketepatan waktu pengiriman, dan kemudahan klaim garansi. Namun, untuk item tertentu (seperti lampu dekoratif khusus atau perabot lepas), kita dapat mendiskusikannya dan mengatur tanggung jawab secara tertulis.'
   },
   {
-    question: 'Bagaimana cara memantau progres proyek saya?',
+    question: 'Bagaimana saya dapat melihat progres proyek?',
     answer: 'Anda akan diberikan akses eksklusif ke ProjectView (melalui web atau perangkat seluler). Di sana, Anda dapat melihat foto harian, laporan progres mingguan, status keuangan, dokumen proyek, hingga rekaman CCTV (jika dipasang), kapan saja dan di mana saja.'
   },
   {
-    question: 'Berapa lama waktu yang dibutuhkan dari konsultasi pertama hingga mulai membangun?',
+    question: 'Berapa lama proses dari konsultasi hingga pekerjaan dimulai?',
     answer: 'Proses pra-konstruksi (desain, RAB, perizinan) adalah kunci keberhasilan dan tidak bisa diburu-buru. Waktunya berkisar antara 4 hingga 12 minggu, tergantung pada kompleksitas proyek, kecepatan pengambilan keputusan, dan waktu tunggu perizinan setempat.'
   },
   {
-    question: 'Apakah TEGAKARA yang mengurus IMB/PBG?',
+    question: 'Apakah TEGAKARA membantu pengurusan PBG dan perizinan terkait?',
     answer: 'Kami dapat membantu proses pengurusan perizinan (PBG) sebagai bagian dari layanan kami, bekerja sama dengan konsultan legal terpercaya kami. Biaya pengurusan akan dicantumkan secara transparan dalam penawaran awal.'
   },
   {
-    question: 'Siapa yang akan mengawasi pekerjaan di lapangan setiap hari?',
+    question: 'Siapa yang bertanggung jawab mengawasi pekerjaan di lokasi?',
     answer: 'Setiap proyek akan dipimpin oleh seorang Site Manager (atau Pelaksana Lapangan) yang didedikasikan dan kompeten. Mereka memastikan pekerjaan harian sesuai dengan gambar kerja, spesifikasi, standar kualitas (Quality Hold Points), serta jadwal yang telah ditetapkan.'
   },
   {

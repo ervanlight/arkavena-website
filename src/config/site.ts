@@ -1,20 +1,74 @@
+// =========================================
+// TEGAKARA — Centralized Site Configuration
+// =========================================
+// Change these values to update company information across the entire website.
+// No other files need to be edited for routine identity changes.
+
 export const siteConfig = {
-  brandName: 'TEGAKARA',
-  tagline: 'Karya Terukur. Aset Terjaga.',
-  description: 'TEGAKARA adalah spesialis konstruksi dan perawatan fasilitas profesional di Indonesia. Kami memberikan layanan terukur dan menjaga aset Anda dengan kualitas terbaik.',
-  businessEmail: 'halo@tegakara.co.id',
-  phone: '+62210000000',
-  whatsApp: '+628110000000',
-  officeAddress: 'Jl. Contoh No. 123, Jakarta Selatan, 12345, Indonesia',
-  serviceAreas: ['Jakarta', 'Bogor', 'Depok', 'Tangerang', 'Bekasi'],
-  googleMapsUrl: 'https://maps.google.com/?q=tegakara',
+  // Brand Identity
+  brandName: "TEGAKARA",
+  legalCompanyName: "", // Fill when company is legally registered
+  tagline: "Karya Terukur. Aset Terjaga.",
+  englishDescriptor: "Construction & Facility Care",
+  description:
+    "TEGAKARA mengelola ruang lingkup, biaya, progres, mutu, dan perubahan pekerjaan secara terdokumentasi — untuk rumah, sekolah, gedung komersial, dan fasilitas operasional di Surabaya dan sekitarnya.",
+
+  // Contact Information — leave empty string to hide from public website
+  businessEmail: "",
+  phone: "",
+  whatsApp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "",
+  officeAddress: "", // Fill when office address is confirmed
+
+  // Service Areas
+  primaryServiceAreas: ["Surabaya", "Sidoarjo", "Gresik"],
+  secondaryServiceAreas: [
+    "Mojokerto",
+    "Pasuruan",
+    "Lamongan",
+  ],
+  serviceAreaNote:
+    "Area lain di Jawa Timur untuk proyek yang memenuhi kualifikasi.",
+
+  // External Links — leave empty string to hide from public website
+  googleMapsUrl: "",
+  googleBusinessProfileUrl: "",
+  bookingUrl: process.env.NEXT_PUBLIC_BOOKING_URL || "",
+
+  // Social Media — leave empty string to hide from public website
   socialUrls: {
-    instagram: 'https://instagram.com/tegakara.id',
-    linkedin: 'https://linkedin.com/company/tegakara',
-    youtube: 'https://youtube.com/@tegakara'
+    instagram: "",
+    linkedin: "",
+    facebook: "",
+    youtube: "",
   },
-  bookingUrl: 'https://cal.com/tegakara',
-  domain: 'tegakara.co.id',
-  operatingHours: 'Senin - Jumat: 08:00 - 17:00 WIB',
-  googleBusinessProfileUrl: 'https://g.page/tegakara'
-};
+
+  // Domain Configuration
+  domain: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
+  appUrl: process.env.NEXT_PUBLIC_APP_URL || "",
+  clientPortalUrl: process.env.NEXT_PUBLIC_CLIENT_PORTAL_URL || "",
+  adminUrl: process.env.NEXT_PUBLIC_ADMIN_URL || "",
+
+  // Operating Hours — leave empty string to hide from public website
+  operatingHours: "",
+
+  // Project Value Range
+  maxProjectValue: "IDR 2 miliar",
+
+  // Ecosystem Product Names
+  ecosystem: {
+    platform: "BuildTrust OS",
+    clientPortal: "ProjectView",
+    fieldApp: "SiteFlow",
+    facilityRecord: "Facility Passport",
+    scopeControl: "ScopeLock",
+    qualityControl: "Quality Hold Point",
+  },
+} as const;
+
+// Type for site config
+export type SiteConfig = typeof siteConfig;
+
+// Helper to check if a config value is available for public display
+export function isConfigured(value: string | undefined): boolean {
+  return Boolean(value && value.trim() !== "");
+}

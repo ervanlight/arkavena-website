@@ -33,7 +33,7 @@ export const ecosystemData: EcosystemComponent[] = [
     name: 'ProjectView',
     description: 'Portal klien yang memberikan visibilitas penuh atas proyek mereka secara real-time. Menampilkan progres, dokumen, foto, dan status keuangan.',
     audience: 'Klien',
-    keyBenefits: ['Ketegangan klien menurun berkat transparansi', 'Akses mudah ke seluruh riwayat proyek', 'Persetujuan digital yang sah']
+    keyBenefits: ['Memudahkan komunikasi melalui informasi yang terpusat', 'Akses mudah ke seluruh riwayat proyek', 'Persetujuan digital yang sah']
   },
   {
     id: 'facility-passport',
@@ -45,7 +45,7 @@ export const ecosystemData: EcosystemComponent[] = [
   {
     id: 'scopelock',
     name: 'ScopeLock',
-    description: 'Protokol perlindungan ruang lingkup kerja dan termin pembayaran. Memastikan keselarasan antara progres fisik di lapangan dengan komitmen finansial.',
+    description: 'Sistem pencatatan ruang lingkup kerja dan tahapan termin pembayaran. Menyelaraskan antara progres fisik di lapangan dengan tahap pendanaan yang disepakati.',
     audience: 'Keduanya',
     keyBenefits: ['Menghindari perselisihan tagihan', 'Tata kelola Variation Order yang jelas', 'Perlindungan adil bagi klien dan kontraktor']
   }

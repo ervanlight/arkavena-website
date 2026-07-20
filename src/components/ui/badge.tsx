@@ -11,7 +11,7 @@ export function Badge({ className, variant = 'default', ...props }: BadgeProps) 
     success: 'bg-[#25775A]/10 text-[#25775A] border border-[#25775A]/20',
     warning: 'bg-[#A76B1F]/10 text-[#A76B1F] border border-[#A76B1F]/20',
     error: 'bg-[#A33C3C]/10 text-[#A33C3C] border border-[#A33C3C]/20',
-    neutral: 'bg-[#F6F3ED] text-[#68757D] border border-[#E8DED0]',
+    neutral: 'bg-white text-[#68757D] border border-[#E8DED0]',
   };
 
   return (
