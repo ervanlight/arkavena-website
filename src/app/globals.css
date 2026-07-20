@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+/* =========================================
+   TEGAKARA Design System — Global Styles
+   ========================================= */
+
+@theme inline {
+  /* Colors */
+  --color-midnight: #0E1B26;
+  --color-slate: #1C2D38;
+  --color-bronze: #B88A4A;
+  --color-bronze-light: #C9A06A;
+  --color-bronze-dark: #9A7340;
+  --color-sandstone: #E8DED0;
+  --color-warm-white: #F6F3ED;
+  --color-body: #26333C;
+  --color-muted: #68757D;
+  --color-success: #25775A;
+  --color-success-light: #E8F5EE;
+  --color-warning: #A76B1F;
+  --color-warning-light: #FFF3E0;
+  --color-error: #A33C3C;
+  --color-error-light: #FDEAEA;
+  --color-border: #D1D5DB;
+  --color-border-light: #E5E7EB;
+  
+  /* Fonts */
+  --font-heading: var(--font-manrope), system-ui, sans-serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+  --font-editorial: var(--font-source-serif), Georgia, serif;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background: var(--color-warm-white);
+  color: var(--color-body);
+  font-family: var(--font-body);
+  line-height: 1.7;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-midnight);
+  line-height: 1.2;
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--color-bronze);
+  outline-offset: 2px;
+}
+
+/* Skip to content link */
+.skip-to-content {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-midnight);
+  color: var(--color-warm-white);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+  z-index: 100;
+  font-weight: 600;
+  transition: top 0.2s;
+}
+.skip-to-content:focus {
+  top: 0;
+}
+
+/* Selection */
+::selection {
+  background: var(--color-bronze);
+  color: var(--color-midnight);
+}
+
+/* Blueprint grid subtle background pattern */
+.bg-blueprint {
+  background-image: 
+    linear-gradient(rgba(184, 138, 74, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(184, 138, 74, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.bg-blueprint-dark {
+  background-image: 
+    linear-gradient(rgba(184, 138, 74, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(184, 138, 74, 0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-warm-white);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-muted);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-slate);
+}
+
+/* Architectural line accent */
+.line-accent {
+  position: relative;
+}
+.line-accent::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: var(--color-bronze);
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 0;
+}
+
+/* Stagger delays */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+
+/* Image placeholder architectural patterns */
+.img-placeholder {
+  background: linear-gradient(135deg, var(--color-sandstone) 0%, #DDD5C6 100%);
+  position: relative;
+  overflow: hidden;
+}
+.img-placeholder::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(14, 27, 38, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(14, 27, 38, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
