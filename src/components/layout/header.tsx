@@ -14,7 +14,7 @@ const navItems = [
   { label: 'Perawatan Gedung', href: '/facility-care' },
   { label: 'Portofolio', href: '/portfolio' },
   { label: 'Cara Kerja', href: '/cara-kerja' },
-  { label: 'ProjectView', href: '/project-view' },
+  { label: 'ProjectView', href: '/projectview' },
   { label: 'Tentang', href: '/tentang' },
 ];
 

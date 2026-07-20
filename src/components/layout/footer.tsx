@@ -44,7 +44,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/project-view" className="text-slate-400 hover:text-[#B88A4A] transition-colors text-sm">
+                <Link href="/projectview" className="text-slate-400 hover:text-[#B88A4A] transition-colors text-sm">
                   ProjectView
                 </Link>
               </li>
