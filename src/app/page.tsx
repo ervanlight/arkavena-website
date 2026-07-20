@@ -16,7 +16,9 @@ import {
   Settings,
   PenTool,
   Building2,
-  HardHat
+  HardHat,
+  MessageCircle,
+  Quote
 } from 'lucide-react';
 import { siteConfig } from '@/config/site';
 import { generalFaqs } from '@/content/faqs';
@@ -370,92 +372,59 @@ export default function HomePage() {
         </Container>
       </section>
 
-      {/* SECTION 7: Process */}
-      <section className="py-24 bg-white">
+      {/* SECTION 7: Testimonials */}
+      <section className="py-24 bg-slate-50">
         <Container>
-          <SectionHeader 
-            title="Langkah kerja yang jelas dari awal hingga pelaksanaan"
-            description="Proses kerja kami disusun berurutan untuk mengurangi miskomunikasi, perubahan yang tidak tercatat, dan pekerjaan ulang."
-            align="center"
-            className="mb-16"
-          />
-
-          <div className="max-w-4xl mx-auto">
-            <div className="relative border-l-2 border-slate-200 ml-4 md:ml-0 md:border-l-0">
-              {processSteps.slice(0, 7).map((step, index) => (
-                <div key={step.id} className="relative">
-                  {/* Mobile Layout */}
-                  <div className="md:hidden relative pl-10 mb-12">
-                    <div className="absolute w-8 h-8 rounded-full bg-[#0E1B26] text-white flex items-center justify-center font-bold text-sm -left-[17px] top-0 border-4 border-warm-white z-10">
-                      {step.stepNumber}
-                    </div>
-                    <h3 className="text-xl font-manrope font-bold text-[#0E1B26] mb-2">{step.title}</h3>
-                    <p className="text-slate-500 text-sm leading-relaxed">{step.description}</p>
-                    <div className="mt-4">
-                      <ul className="space-y-2">
-                        {step.details.slice(0, 2).map((detail, i) => (
-                          <li key={i} className="flex items-start gap-2 text-sm text-[#0E1B26]">
-                            <CheckCircle2 className="w-4 h-4 text-bronze shrink-0 mt-0.5" />
-                            <span>{detail}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-
-                  {/* Desktop Layout */}
-                  <div className="hidden md:grid md:grid-cols-[1fr_auto_1fr] md:gap-8 items-start mb-12 relative group">
-                    {/* Left side */}
-                    <div className={`text-right ${index % 2 !== 0 ? 'invisible' : ''}`}>
-                      <h3 className="text-xl font-manrope font-bold text-[#0E1B26] mb-2">{step.title}</h3>
-                      <p className="text-slate-500 text-sm leading-relaxed">{step.description}</p>
-                      <div className="mt-4 inline-block text-left">
-                        <ul className="space-y-2">
-                          {step.details.slice(0, 2).map((detail, i) => (
-                            <li key={i} className="flex items-start gap-2 text-sm text-[#0E1B26]">
-                              <CheckCircle2 className="w-4 h-4 text-bronze shrink-0 mt-0.5" />
-                              <span>{detail}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    </div>
-                    
-                    {/* Center dot */}
-                    <div className="flex flex-col items-center relative h-full">
-                      <div className="w-10 h-10 rounded-full bg-[#0E1B26] text-white flex items-center justify-center font-bold z-10 shadow-md transition-transform group-hover:scale-110">
-                        {step.stepNumber}
-                      </div>
-                      {index !== processSteps.slice(0, 7).length - 1 && (
-                        <div className="absolute top-10 bottom-[-3rem] w-0.5 bg-slate-200"></div>
-                      )}
-                    </div>
-
-                    {/* Right side */}
-                    <div className={`text-left ${index % 2 === 0 ? 'invisible' : ''}`}>
-                      <h3 className="text-xl font-manrope font-bold text-[#0E1B26] mb-2">{step.title}</h3>
-                      <p className="text-slate-500 text-sm leading-relaxed">{step.description}</p>
-                      <div className="mt-4">
-                        <ul className="space-y-2">
-                          {step.details.slice(0, 2).map((detail, i) => (
-                            <li key={i} className="flex items-start gap-2 text-sm text-[#0E1B26]">
-                              <CheckCircle2 className="w-4 h-4 text-bronze shrink-0 mt-0.5" />
-                              <span>{detail}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    </div>
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-3xl md:text-4xl font-manrope font-bold text-[#0E1B26] mb-4">Pengalaman Klien Kami</h2>
+            <p className="text-[#68757D] text-lg">Apa kata mereka yang telah membangun dan merawat properti bersama TEGAKARA.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            <FadeIn delay={0.1}>
+              <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 h-full flex flex-col relative">
+                <Quote className="w-10 h-10 text-bronze/20 absolute top-6 right-6" />
+                <p className="text-slate-600 leading-relaxed mb-8 flex-1 relative z-10">
+                  "Sistem pelaporannya rapi banget, tiap hari dikirim update via aplikasi. Gak perlu repot ke proyek tiap sore buat ngecek tukang. Budget juga sesuai RAB dari awal sampai akhir, gak ada biaya siluman."
+                </p>
+                <div className="flex items-center gap-4 border-t border-slate-100 pt-6">
+                  <div className="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center font-bold text-slate-500 font-manrope">BH</div>
+                  <div>
+                    <h4 className="font-bold text-[#0E1B26] font-manrope">Budi H.</h4>
+                    <p className="text-sm text-slate-500">Renovasi Rumah Tinggal</p>
                   </div>
                 </div>
-              ))}
-            </div>
-
-            <div className="text-center mt-12">
-              <Button variant="secondary" className="border-slate-300 text-[#0E1B26] hover:bg-slate-50 font-medium">
-                <Link href="/cara-kerja">Lihat Detail Cara Kerja</Link>
-              </Button>
-            </div>
+              </div>
+            </FadeIn>
+            <FadeIn delay={0.2}>
+              <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 h-full flex flex-col relative">
+                <Quote className="w-10 h-10 text-bronze/20 absolute top-6 right-6" />
+                <p className="text-slate-600 leading-relaxed mb-8 flex-1 relative z-10">
+                  "Awalnya sempet ragu karena penawaran harganya sangat mendetail, tapi ternyata itu yang bikin kita tenang. Spesifikasi materialnya transparan dan pekerjaan struktur dicek bareng sebelum dicor."
+                </p>
+                <div className="flex items-center gap-4 border-t border-slate-100 pt-6">
+                  <div className="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center font-bold text-slate-500 font-manrope">RY</div>
+                  <div>
+                    <h4 className="font-bold text-[#0E1B26] font-manrope">Rina Y.</h4>
+                    <p className="text-sm text-slate-500">Pembangunan Hunian Baru</p>
+                  </div>
+                </div>
+              </div>
+            </FadeIn>
+            <FadeIn delay={0.3}>
+              <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 h-full flex flex-col relative">
+                <Quote className="w-10 h-10 text-bronze/20 absolute top-6 right-6" />
+                <p className="text-slate-600 leading-relaxed mb-8 flex-1 relative z-10">
+                  "Pekerjaan waterproofing atap gudang kami diselesaikan sesuai jadwal padahal lagi musim hujan. Standar safety timnya bagus banget, gak bikin khawatir operasi pabrik terganggu."
+                </p>
+                <div className="flex items-center gap-4 border-t border-slate-100 pt-6">
+                  <div className="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center font-bold text-slate-500 font-manrope">AS</div>
+                  <div>
+                    <h4 className="font-bold text-[#0E1B26] font-manrope">Arief S.</h4>
+                    <p className="text-sm text-slate-500">Perawatan Fasilitas Pabrik</p>
+                  </div>
+                </div>
+              </div>
+            </FadeIn>
           </div>
         </Container>
       </section>
@@ -566,11 +535,18 @@ export default function HomePage() {
             <p className="text-slate-300 text-xl mb-10 max-w-2xl mx-auto leading-relaxed">
               Kami meninjau jenis pekerjaan, lokasi, anggaran, jadwal, skema pembayaran, dan kapasitas tim sebelum menerima proyek.
             </p>
-            <Button size="lg" className="bg-bronze hover:bg-bronze/90 text-[#0E1B26] font-bold px-8 h-14 text-lg">
-              <Link href="/assessment">Mulai Penilaian Proyek</Link>
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Button size="lg" className="bg-bronze hover:bg-bronze/90 text-[#0E1B26] font-bold px-8 h-14 text-lg w-full sm:w-auto">
+                <Link href="/assessment">Mulai Penilaian Proyek</Link>
+              </Button>
+              <Button size="lg" variant="secondary" className="border-slate-600 text-slate-300 hover:bg-slate-800 hover:text-white h-14 w-full sm:w-auto bg-transparent">
+                <Link href="https://wa.me/6281112345678" target="_blank" className="flex items-center gap-2">
+                  <MessageCircle className="w-5 h-5" /> Chat via WhatsApp
+                </Link>
+              </Button>
+            </div>
             <p className="text-slate-400 text-sm mt-6">
-              Formulir singkat ini membantu kami memahami kebutuhan awal proyek Anda dan tidak mengikat.
+              Formulir penilaian bersifat tidak mengikat. Atau gunakan WhatsApp untuk tanya jawab ringan.
             </p>
           </div>
         </Container>
