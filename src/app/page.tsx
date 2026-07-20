@@ -594,7 +594,7 @@ export default function HomePage() {
             <div className="mt-12 text-center p-6 bg-slate-50 rounded-xl border border-slate-200">
               <p className="text-[#0E1B26] mb-4 font-medium">Masih memiliki pertanyaan tentang proyek Anda?</p>
               <Button variant="secondary" className="border-[#0E1B26] text-[#0E1B26] hover:bg-[#0E1B26] hover:text-white">
-                <Link href="/contact">Hubungi Tim TEGAKARA</Link>
+                <Link href="/kontak">Hubungi Tim TEGAKARA</Link>
               </Button>
             </div>
           </div>

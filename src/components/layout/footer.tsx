@@ -96,17 +96,14 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-[#1C2D38] flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-slate-400 text-sm">
-            © {currentYear} TEGAKARA. Hak cipta dilindungi.
-          </p>
-          <div className="flex space-x-6 text-sm">
-            <Link href="/privacy" className="text-slate-400 hover:text-white transition-colors">
-              Kebijakan Privasi
-            </Link>
-            <Link href="/terms" className="text-slate-400 hover:text-white transition-colors">
-              Syarat & Ketentuan
-            </Link>
-          </div>
+            <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-slate-500">
+              <p>&copy; {new Date().getFullYear()} TEGAKARA Construction & Facility Care. All rights reserved.</p>
+              <div className="flex gap-4">
+                <Link href="/kebijakan-privasi" className="hover:text-bronze transition-colors">Kebijakan Privasi</Link>
+                <span>•</span>
+                <Link href="/syarat-ketentuan" className="hover:text-bronze transition-colors">Syarat Ketentuan</Link>
+              </div>
+            </div>
         </div>
       </Container>
     </footer>
