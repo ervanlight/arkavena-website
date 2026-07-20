@@ -1,65 +1,116 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { FadeIn } from "@/components/shared/fade-in";
+import { CheckCircle2, ShieldCheck, Ruler, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Bangun Rumah Baru di Surabaya | TEGAKARA",
   description: "Layanan pembangunan rumah baru di Surabaya dengan definisi ruang lingkup yang jelas, Bill of Quantities (BOQ), dan dokumentasi yang transparan.",
 };
 
-export default function BangunRumahPage() {
+export default function ServicePage() {
   return (
     <main className="min-h-screen bg-white text-[#0E1B26]">
-      <section className="relative overflow-hidden z-0 bg-[#0E1B26] text-white py-20 px-6">
+      <section className="relative overflow-hidden z-0 bg-[#0E1B26] text-white py-24 px-6 min-h-[70vh] flex items-center">
         <Image 
           src="/images/hero_residential_bangun_1784553789892.jpg"
           alt="Hero Background"
           fill
-          className="object-cover opacity-20 mix-blend-overlay pointer-events-none"
+          className="object-cover opacity-30 mix-blend-overlay pointer-events-none"
           priority
         />
         <div className="relative z-10 w-full">
-        <div className="max-w-7xl mx-auto mt-10">
-          <div className="text-sm text-[#B88A4A] mb-4">
-            <Link href="/residential" className="hover:underline">Residential</Link> &gt; Bangun Rumah
-          </div>
-          <h1 className="text-4xl md:text-5xl font-bold font-manrope leading-tight mb-6 text-white">
-            Pembangunan Rumah yang Terdefinisi Sejak Awal
-          </h1>
-          <p className="text-xl text-[#E8DED0] max-w-3xl mb-10">
-            Tidak ada asumsi. Tidak ada 'nanti kita lihat'. Semua ruang lingkup, gambar, dan Bill of Quantities (BOQ) disepakati sebelum pekerjaan dimulai.
-          </p>
-        </div>
+          <div className="max-w-5xl mx-auto">
+            <FadeIn>
+              <div className="text-sm text-bronze font-semibold uppercase tracking-wider mb-6 flex items-center gap-2">
+                <Link href="/residential" className="hover:text-white transition-colors">Residential</Link> 
+                <span className="text-slate-500">/</span> Bangun Rumah Surabaya
               </div>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-manrope leading-tight mb-8 text-white max-w-4xl">
+                Pembangunan Rumah yang Terdefinisi Sejak Awal
+              </h1>
+              <p className="text-xl text-slate-300 max-w-2xl leading-relaxed">
+                Tidak ada asumsi. Tidak ada 'nanti kita lihat'. Semua ruang lingkup, gambar, dan Bill of Quantities (BOQ) disepakati sebelum pekerjaan dimulai.
+              </p>
+            </FadeIn>
+          </div>
+        </div>
       </section>
 
-      <section className="py-20 px-6">
-        <div className="max-w-4xl mx-auto space-y-12">
-          <div>
-            <h2 className="text-3xl font-bold font-manrope mb-6 text-[#0E1B26]">Fokus Kami dalam Membangun</h2>
-            <div className="space-y-6 text-[#68757D]">
-              <div className="bg-white p-6 rounded border border-[#E8DED0]">
-                <h3 className="text-xl font-bold text-[#0E1B26] mb-2">Definisi Ruang Lingkup & BOQ</h3>
-                <p>Kami menyusun Bill of Quantities (BOQ) yang mendetail, memastikan setiap material dan pekerjaan terukur dengan jelas.</p>
+      <section className="py-24 px-6">
+        <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <FadeIn direction="left">
+            <h2 className="text-3xl font-bold font-manrope mb-8 text-[#0E1B26]">Ruang Lingkup Pekerjaan</h2>
+            <div className="space-y-8">
+              
+              <div className="flex gap-4">
+                <div className="mt-1 bg-bronze/10 p-3 rounded-xl h-fit">
+                  <Ruler className="w-6 h-6 text-bronze" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-[#0E1B26] mb-2">Perencanaan & BOQ</h3>
+                  <p className="text-[#68757D] leading-relaxed">Pembuatan Bill of Quantities yang mendetail berdasarkan gambar kerja (DED).</p>
+                </div>
               </div>
-              <div className="bg-white p-6 rounded border border-[#E8DED0]">
-                <h3 className="text-xl font-bold text-[#0E1B26] mb-2">Milestone & Persetujuan Material</h3>
-                <p>Progres dibagi berdasarkan milestone yang jelas. Setiap material utama harus melalui proses persetujuan (approval) sebelum diaplikasikan.</p>
+              <div className="flex gap-4">
+                <div className="mt-1 bg-bronze/10 p-3 rounded-xl h-fit">
+                  <Ruler className="w-6 h-6 text-bronze" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-[#0E1B26] mb-2">Pekerjaan Sipil & Arsitektur</h3>
+                  <p className="text-[#68757D] leading-relaxed">Dari pondasi, struktur beton bertulang, dinding, hingga sentuhan akhir arsitektural (finishing).</p>
+                </div>
               </div>
-              <div className="bg-white p-6 rounded border border-[#E8DED0]">
-                <h3 className="text-xl font-bold text-[#0E1B26] mb-2">Dokumentasi Pekerjaan Tertutup</h3>
-                <p>Pekerjaan struktural, pemipaan, dan kelistrikan yang tertutup akan selalu didokumentasikan sebagai bukti (concealed-work evidence) untuk referensi di masa depan.</p>
+              <div className="flex gap-4">
+                <div className="mt-1 bg-bronze/10 p-3 rounded-xl h-fit">
+                  <Ruler className="w-6 h-6 text-bronze" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-[#0E1B26] mb-2">Mekanikal & Elektrikal (MEP)</h3>
+                  <p className="text-[#68757D] leading-relaxed">Instalasi listrik, perpipaan air bersih dan kotor, serta sistem tata udara.</p>
+                </div>
               </div>
             </div>
-          </div>
+          </FadeIn>
+
+          <FadeIn direction="right" delay={0.2}>
+            <div className="bg-slate-50 p-10 rounded-2xl border border-slate-200 h-full">
+              <h2 className="text-2xl font-bold font-manrope mb-8 text-[#0E1B26]">Mengapa Pendekatan TEGAKARA Berbeda?</h2>
+              <div className="space-y-8">
+                
+                <div className="flex gap-4">
+                  <CheckCircle2 className="w-6 h-6 text-[#25775A] shrink-0 mt-1" />
+                  <div>
+                    <h3 className="text-lg font-bold text-[#0E1B26] mb-2">Material Terjamin</h3>
+                    <p className="text-[#68757D] text-sm leading-relaxed">Semua material utama harus melalui proses persetujuan (approval) sebelum dikirim ke proyek.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4">
+                  <CheckCircle2 className="w-6 h-6 text-[#25775A] shrink-0 mt-1" />
+                  <div>
+                    <h3 className="text-lg font-bold text-[#0E1B26] mb-2">Quality Hold Point</h3>
+                    <p className="text-[#68757D] text-sm leading-relaxed">Setiap tahapan kritis (misal: sebelum pengecoran) wajib diperiksa dan disetujui bersama.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </FadeIn>
         </div>
       </section>
 
-      <section className="bg-[#E8DED0] py-20 px-6 text-center">
-        <h2 className="text-3xl font-bold font-manrope mb-6 text-[#0E1B26]">Rencanakan Rumah Baru Anda</h2>
-        <Link href="/assessment" className="inline-block bg-[#0E1B26] text-white px-8 py-4 rounded-md font-medium hover:bg-opacity-90">
-          Mulai Diskusi
-        </Link>
+      <section className="bg-[#1C2D38] py-24 px-6 relative overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-bronze/10 via-transparent to-transparent"></div>
+        <div className="max-w-3xl mx-auto text-center relative z-10">
+          <FadeIn>
+            <ShieldCheck className="w-16 h-16 text-bronze mx-auto mb-8" />
+            <h2 className="text-3xl md:text-4xl font-bold font-manrope mb-6 text-white">Siap Memulai Proyek Anda secara Profesional?</h2>
+            <p className="text-slate-400 mb-10 text-lg">Diskusikan kebutuhan spesifik Anda bersama tim kami. Dapatkan analisis awal mengenai waktu, biaya, dan tahapan kerja secara transparan.</p>
+            <Link href="/assessment" className="inline-block bg-bronze text-[#0E1B26] px-10 py-5 rounded-md font-bold hover:bg-opacity-90 transition-all text-lg shadow-lg hover:shadow-bronze/20">
+              Mulai Konsultasi Proyek
+            </Link>
+          </FadeIn>
+        </div>
       </section>
     </main>
   );
