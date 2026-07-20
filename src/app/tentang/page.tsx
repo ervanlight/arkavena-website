@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { Users, HardHat, Building2, ShieldCheck, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Tentang TEGAKARA | Perusahaan Konstruksi & Facility Care",
@@ -60,6 +61,72 @@ export default function TentangPage() {
                 <span>Fokus pada kualitas pekerjaan struktural dan ME (Mekanikal Elektrikal), yang sering kali tersembunyi namun krusial.</span>
               </li>
             </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Profil & Rekam Jejak */}
+      <section className="py-20 px-6 bg-slate-50 border-y border-slate-200">
+        <div className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+          <div>
+            <h2 className="text-3xl font-bold font-manrope mb-6 text-[#0E1B26]">Di Balik TEGAKARA</h2>
+            <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+              Berdiri di bawah naungan PT Tegakara Konstruksi Indonesia, kami dikelola oleh tim profesional yang telah memimpin berbagai proyek konstruksi di Surabaya Raya sejak lebih dari 10 tahun yang lalu.
+            </p>
+            <p className="text-lg text-slate-600 mb-8 leading-relaxed">
+              Mulai dari rumah tinggal eksklusif hingga fasilitas industri berskala besar, pengalaman operasional kami menjadi dasar dari sistem <strong>ScopeLock</strong> dan standarisasi kualitas yang kami terapkan hari ini.
+            </p>
+            
+            <div className="grid grid-cols-2 gap-6 pt-6 border-t border-slate-200">
+              <div className="flex gap-4 items-start">
+                <div className="bg-bronze/10 p-3 rounded-xl mt-1">
+                  <HardHat className="w-6 h-6 text-bronze" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-2xl text-[#0E1B26]">10+</h4>
+                  <p className="text-sm text-slate-500">Tahun Pengalaman</p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <div className="bg-bronze/10 p-3 rounded-xl mt-1">
+                  <Building2 className="w-6 h-6 text-bronze" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-2xl text-[#0E1B26]">150+</h4>
+                  <p className="text-sm text-slate-500">Proyek Diselesaikan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+            <h3 className="text-xl font-bold font-manrope mb-6 text-[#0E1B26] border-b border-slate-100 pb-4">Legalitas & Kompetensi</h3>
+            
+            <div className="space-y-6">
+              <div className="flex gap-4 items-start">
+                <ShieldCheck className="w-6 h-6 text-[#25775A] shrink-0" />
+                <div>
+                  <h4 className="font-bold text-[#0E1B26] mb-1">Badan Usaha Resmi</h4>
+                  <p className="text-sm text-slate-500 leading-relaxed">Terdaftar resmi sebagai PT (Perseroan Terbatas) dengan Nomor Induk Berusaha (NIB) dan sertifikasi kompetensi untuk proyek komersial dan residensial.</p>
+                </div>
+              </div>
+              
+              <div className="flex gap-4 items-start">
+                <Users className="w-6 h-6 text-bronze shrink-0" />
+                <div>
+                  <h4 className="font-bold text-[#0E1B26] mb-1">Tenaga Ahli Bersertifikat</h4>
+                  <p className="text-sm text-slate-500 leading-relaxed">Tim operasional dipimpin oleh Project Manager bersertifikat (SKA) dan operator yang memiliki Surat Izin Operator (SIO) untuk penggunaan alat berat di fasilitas industri.</p>
+                </div>
+              </div>
+              
+              <div className="flex gap-4 items-start">
+                <MapPin className="w-6 h-6 text-blue-600 shrink-0" />
+                <div>
+                  <h4 className="font-bold text-[#0E1B26] mb-1">Berpusat di Surabaya</h4>
+                  <p className="text-sm text-slate-500 leading-relaxed">Berakar kuat di Surabaya dengan pemahaman mendalam tentang tata kota, regulasi perizinan bangunan lokal, dan karakter iklim lingkungan setempat.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

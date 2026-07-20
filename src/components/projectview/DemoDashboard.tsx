@@ -142,9 +142,9 @@ export default function DemoDashboard() {
                       <span className="text-sm text-[#68757D]">Temuan Terbuka</span>
                       <span className="font-semibold text-[#A76B1F]">2</span>
                     </div>
-                    <Link href="#" onClick={(e) => { e.preventDefault(); setActiveTab('quality'); }} className="text-[#B88A4A] text-sm font-medium flex items-center mt-4">
+                    <button onClick={() => setActiveTab('quality')} className="text-[#B88A4A] text-sm font-medium flex items-center mt-4 hover:underline">
                       Lihat Laporan Kualitas <ChevronRight className="w-4 h-4 ml-1" />
-                    </Link>
+                    </button>
                   </div>
                 </div>
               </div>

@@ -12,8 +12,9 @@ export function generateStaticParams() {
   }));
 }
 
-export default function PortfolioDetailPage({ params }: { params: { slug: string } }) {
-  const project = projectsData.find(p => p.slug === params.slug);
+export default async function PortfolioDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const project = projectsData.find(p => p.slug === slug);
 
   if (!project) {
     notFound();

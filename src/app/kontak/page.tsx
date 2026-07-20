@@ -88,12 +88,17 @@ export default function KontakPage() {
                   Langkah tercepat untuk mendapatkan respons dari tim kami adalah dengan mengisi formulir asesmen, sehingga kami dapat mempelajari skala dan kebutuhan spesifik Anda terlebih dahulu.
                 </p>
                 
-                <Link href="/assessment" className="flex items-center justify-center w-full bg-bronze text-[#0E1B26] px-8 py-5 rounded-xl font-bold hover:bg-opacity-90 transition-all text-lg shadow-lg hover:shadow-bronze/20">
-                  Isi Informasi Proyek (Assessment)
-                </Link>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <Link href="/assessment" className="flex items-center justify-center flex-1 bg-bronze text-[#0E1B26] px-6 py-5 rounded-xl font-bold hover:bg-opacity-90 transition-all text-lg shadow-lg hover:shadow-bronze/20 text-center">
+                    Isi Assessment
+                  </Link>
+                  <Link href="https://wa.me/6281112345678" target="_blank" className="flex items-center justify-center flex-1 bg-transparent border-2 border-slate-600 text-slate-300 px-6 py-5 rounded-xl font-bold hover:bg-slate-800 hover:text-white transition-all text-lg text-center gap-2">
+                    <Phone className="w-5 h-5" /> Hubungi via WhatsApp
+                  </Link>
+                </div>
 
                 <p className="text-slate-400 text-sm mt-8 text-center">
-                  Estimasi waktu pengisian: ~3 Menit
+                  Atau jika butuh konsultasi cepat dan belum memiliki detail proyek, kami selalu tersedia di WhatsApp.
                 </p>
               </div>
             </div>
