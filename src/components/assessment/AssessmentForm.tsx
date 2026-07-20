@@ -1,7 +1,6 @@
 "use client";
-
-import React, { useState } from "react";
-import { useRouter } from "next/navigation";
+import React, { useState, useEffect, Suspense } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -24,9 +23,22 @@ type FormData = z.infer<typeof formSchema>;
 
 export default function AssessmentForm() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const [step, setStep] = useState(0);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [utms, setUtms] = useState<Record<string, string>>({});
+
+  useEffect(() => {
+    // Capture UTM parameters on load
+    const params: Record<string, string> = {};
+    const utmKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+    utmKeys.forEach(key => {
+      const val = searchParams.get(key);
+      if (val) params[key] = val;
+    });
+    setUtms(params);
+  }, [searchParams]);
 
   const { register, handleSubmit, watch, formState: { errors }, setValue, trigger } = useForm<FormData>({
     resolver: zodResolver(formSchema),
@@ -39,7 +51,6 @@ export default function AssessmentForm() {
   const serviceType = watch("serviceType");
 
   const nextStep = async () => {
-    // Basic validation per step can be added here
     let fieldsToValidate: any[] = [];
     if (step === 1) fieldsToValidate = ["name", "whatsapp", "email"];
     if (step === 2) fieldsToValidate = ["city"];
@@ -62,14 +73,17 @@ export default function AssessmentForm() {
     Object.entries(data).forEach(([key, value]) => {
       if (value) formData.append(key, value);
     });
+    
+    // Append UTMs
+    Object.entries(utms).forEach(([key, value]) => {
+      formData.append(key, value);
+    });
 
     const result = await submitAssessment(formData);
     
     setIsSubmitting(false);
     if (result.success) {
-      // Create simple success page inline for demo or redirect
-      alert(`Berhasil! Nomor Referensi Anda: ${result.reference}`);
-      router.push("/");
+      router.push("/terima-kasih");
     } else {
       setError(result.message || "Gagal mengirim data. Coba lagi.");
     }

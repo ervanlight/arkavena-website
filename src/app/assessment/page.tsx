@@ -1,4 +1,5 @@
 import React from "react";
+import { Suspense } from "react";
 import AssessmentForm from "@/components/assessment/AssessmentForm";
 import { Metadata } from "next";
 
@@ -21,7 +22,9 @@ export default function AssessmentPage() {
           </p>
         </div>
         
-        <AssessmentForm />
+        <Suspense fallback={<div className="flex justify-center p-12"><p className="text-slate-500">Memuat formulir...</p></div>}>
+          <AssessmentForm />
+        </Suspense>
       </div>
     </div>
   );
