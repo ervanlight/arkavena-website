@@ -16,11 +16,11 @@ export const desktopNav: NavItem[] = [
     href: '/residential',
     description: 'Layanan konstruksi dan renovasi untuk rumah tinggal Anda.',
     children: [
-      { label: 'Bangun Rumah', href: '/services/bangun-rumah' },
-      { label: 'Renovasi Besar', href: '/services/renovasi-besar' },
-      { label: 'Tambah Lantai', href: '/services/tambah-lantai' },
-      { label: 'Perbaikan dan Remedial', href: '/services/perbaikan-remedial' },
-      { label: 'HomeCare', href: '/services/homecare' },
+      { label: 'Bangun Rumah', href: '/residential/bangun-rumah-surabaya' },
+      { label: 'Renovasi Besar', href: '/residential/renovasi-rumah-surabaya' },
+      { label: 'Tambah Lantai', href: '/residential/tambah-lantai-rumah' },
+      { label: 'Perbaikan dan Remedial', href: '/residential' },
+      { label: 'HomeCare', href: '/residential' },
     ]
   },
   {
@@ -28,10 +28,10 @@ export const desktopNav: NavItem[] = [
     href: '/facility-care',
     description: 'Layanan perawatan dan perbaikan untuk bangunan komersial dan institusi.',
     children: [
-      { label: 'Maintenance Sekolah', href: '/services/maintenance-sekolah' },
-      { label: 'Maintenance Gedung', href: '/services/maintenance-gedung' },
-      { label: 'Waterproofing dan Atap', href: '/services/waterproofing-atap' },
-      { label: 'Minor Works Industri', href: '/services/minor-works-industri' },
+      { label: 'Maintenance Sekolah', href: '/facility-care/maintenance-sekolah' },
+      { label: 'Maintenance Gedung', href: '/facility-care/maintenance-gedung' },
+      { label: 'Waterproofing dan Atap', href: '/facility-care/waterproofing-dan-atap' },
+      { label: 'Minor Works Industri', href: '/facility-care/minor-works-industri' },
     ]
   },
   { label: 'Portfolio', href: '/portfolio' },
@@ -59,7 +59,6 @@ export const footerNav: NavGroup[] = [
     items: [
       { label: 'Tentang Kami', href: '/tentang' },
       { label: 'Cara Kerja', href: '/cara-kerja' },
-      { label: 'Karir', href: '/karir' },
       { label: 'Hubungi Kami', href: '/kontak' },
     ]
   },
@@ -67,7 +66,7 @@ export const footerNav: NavGroup[] = [
     title: 'Sistem Kami',
     items: [
       { label: 'ProjectView', href: '/projectview' },
-      { label: 'BuildTrust Ecosystem', href: '/ecosystem' },
+      { label: 'BuildTrust Ecosystem', href: '/tentang' },
     ]
   },
   {

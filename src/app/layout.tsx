@@ -5,6 +5,7 @@ import { siteConfig } from "@/config/site";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { CookieConsent } from "@/components/shared/cookie-consent";
+import { getOrganizationSchema } from "@/lib/structured-data";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -66,11 +67,19 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const orgSchema = getOrganizationSchema();
+  
   return (
     <html
       lang="id"
       className={`${manrope.variable} ${inter.variable} ${sourceSerif.variable}`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+        />
+      </head>
       <body className="min-h-screen flex flex-col bg-white text-body antialiased">
         <a href="#main-content" className="skip-to-content">
           Langsung ke konten utama

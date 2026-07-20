@@ -28,6 +28,7 @@ import { Button } from '@/components/ui/button';
 import { Container } from '@/components/ui/container';
 import { SectionHeader } from '@/components/ui/section-header';
 import { ProjectCard } from '@/components/sections/project-card';
+import { FadeIn } from '@/components/shared/fade-in';
 
 export const metadata: Metadata = {
   title: 'TEGAKARA — Karya Terukur. Aset Terjaga.',
@@ -94,6 +95,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#0E1B26] via-transparent to-transparent pointer-events-none"></div>
         
         <Container className="relative z-10">
+          <FadeIn>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
             <div className="space-y-8 max-w-2xl">
               <div>
@@ -122,6 +124,7 @@ export default function HomePage() {
               <HeroPanel />
             </div>
           </div>
+          </FadeIn>
         </Container>
               </div>
       </section>
@@ -157,6 +160,7 @@ export default function HomePage() {
         <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-purple-400/5 blur-[120px] rounded-full pointer-events-none"></div>
         
         <Container className="relative z-10">
+          <FadeIn>
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-manrope font-bold text-[#0E1B26] mb-4">Layanan untuk Rumah dan Gedung</h2>
             <p className="text-[#68757D] text-lg">Pilih layanan sesuai kebutuhan Anda. Setiap proyek menggunakan standar yang sama untuk perencanaan, dokumentasi progres, pemeriksaan mutu, dan perubahan pekerjaan.</p>
@@ -209,12 +213,14 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+          </FadeIn>
         </Container>
       </section>
 
       {/* SECTION 4: Client Anxieties */}
       <section className="py-24 bg-[#E8DED0]">
         <Container>
+          <FadeIn>
           <div className="max-w-3xl mb-16">
             <h2 className="text-3xl md:text-4xl font-manrope font-bold text-[#0E1B26] leading-tight mb-6">
               Banyak masalah konstruksi bukan semata persoalan tenaga lapangan, tetapi <span className="text-bronze">sistem kerja yang tidak jelas.</span>
@@ -269,12 +275,14 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+          </FadeIn>
         </Container>
       </section>
 
       {/* SECTION 5: Controlled Delivery System */}
       <section className="py-24 bg-white">
         <Container>
+          <FadeIn>
           <SectionHeader 
             title="Satu sistem untuk mengendalikan proyek dari awal hingga serah terima."
             description="Setiap tahap memiliki ruang lingkup, penanggung jawab, bukti pekerjaan, dan persetujuan yang jelas."
@@ -326,6 +334,7 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+          </FadeIn>
         </Container>
       </section>
 
@@ -335,6 +344,7 @@ export default function HomePage() {
         <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-blue-500/5 blur-[120px] rounded-full pointer-events-none"></div>
         
         <Container className="relative z-10">
+          <FadeIn>
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="inline-block py-1 px-3 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-medium tracking-wide mb-6">
               Informasi Proyek Lebih Jelas
@@ -356,6 +366,7 @@ export default function HomePage() {
               <Link href="/projectview">Lihat Seluruh Fitur ProjectView</Link>
             </Button>
           </div>
+          </FadeIn>
         </Container>
       </section>
 
