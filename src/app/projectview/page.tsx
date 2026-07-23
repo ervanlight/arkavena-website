@@ -4,7 +4,10 @@ import { Button } from '@/components/ui/button';
 import { Container } from '@/components/ui/container';
 import { FadeIn } from '@/components/shared/fade-in';
 import { ProjectViewPreview } from '@/components/home/projectview-preview';
-import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import { 
+  ArrowRight, CheckCircle2,
+  CalendarDays, Image as ImageIcon, GitMerge, FileText, Settings2, FileSignature 
+} from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'ProjectView — TEGAKARA',
@@ -69,15 +72,17 @@ export default function ProjectViewPage() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-zinc-800 border border-zinc-800">
               {[
-                { title: "Progress Mingguan", desc: "Persentase penyelesaian pekerjaan." },
-                { title: "Dokumentasi Lapangan", desc: "Foto kondisi terbaru." },
-                { title: "Timeline", desc: "Tahapan yang sudah selesai. Tahapan berikutnya." },
-                { title: "Catatan Lapangan", desc: "Informasi penting dari tim proyek." },
-                { title: "Perubahan Pekerjaan", desc: "Semua perubahan tercatat secara jelas." },
-                { title: "Approval", desc: "Riwayat keputusan yang telah disetujui." }
+                { title: "Progress Mingguan", desc: "Persentase penyelesaian pekerjaan.", icon: CalendarDays },
+                { title: "Dokumentasi Lapangan", desc: "Foto kondisi terbaru.", icon: ImageIcon },
+                { title: "Timeline", desc: "Tahapan yang sudah selesai. Tahapan berikutnya.", icon: GitMerge },
+                { title: "Catatan Lapangan", desc: "Informasi penting dari tim proyek.", icon: FileText },
+                { title: "Perubahan Pekerjaan", desc: "Semua perubahan tercatat secara jelas.", icon: Settings2 },
+                { title: "Approval", desc: "Riwayat keputusan yang telah disetujui.", icon: FileSignature }
               ].map((item, idx) => (
                 <div key={idx} className="bg-zinc-950 p-12 hover:bg-zinc-900 transition-colors">
-                  <CheckCircle2 className="w-6 h-6 text-zinc-400 mb-6" />
+                  <div className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-xl flex items-center justify-center mb-8 text-zinc-500">
+                    <item.icon className="w-6 h-6" />
+                  </div>
                   <h3 className="text-xl font-manrope font-bold text-zinc-100 mb-4">{item.title}</h3>
                   <p className="text-zinc-500 leading-relaxed">{item.desc}</p>
                 </div>

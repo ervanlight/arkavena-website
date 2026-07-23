@@ -5,7 +5,13 @@ import { Button } from '@/components/ui/button';
 import { Container } from '@/components/ui/container';
 import { FadeIn } from '@/components/shared/fade-in';
 import { FaqAccordion } from '@/components/home/faq-accordion';
-import { ArrowRight, MessageCircle } from 'lucide-react';
+import { 
+  ArrowRight,
+  Clock, CalendarX, FileMinus, Users, Building,
+  Shield, Settings, Search, Hammer, Activity,
+  FileSearch, CheckCircle2, ListChecks, FileSignature, BarChart3,
+  MessageCircle
+} from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Facility Care — TEGAKARA',
@@ -93,27 +99,35 @@ export default function FacilityCarePage() {
               {[
                 {
                   title: "Perawatan Bersifat Reaktif",
-                  desc: "Perbaikan baru dilakukan ketika kerusakan sudah mengganggu aktivitas."
+                  desc: "Perbaikan baru dilakukan ketika kerusakan sudah mengganggu aktivitas.",
+                  icon: Clock
                 },
                 {
                   title: "Tidak Ada Jadwal Berkala",
-                  desc: "Pemeriksaan dilakukan hanya ketika ada keluhan."
+                  desc: "Pemeriksaan dilakukan hanya ketika ada keluhan.",
+                  icon: CalendarX
                 },
                 {
                   title: "Dokumentasi Tidak Lengkap",
-                  desc: "Riwayat pekerjaan sulit ditelusuri sehingga evaluasi menjadi tidak efektif."
+                  desc: "Riwayat pekerjaan sulit ditelusuri sehingga evaluasi menjadi tidak efektif.",
+                  icon: FileMinus
                 },
                 {
                   title: "Vendor Berbeda-Beda",
-                  desc: "Koordinasi menjadi lebih sulit karena setiap pekerjaan ditangani pihak yang berbeda."
+                  desc: "Koordinasi menjadi lebih sulit karena setiap pekerjaan ditangani pihak yang berbeda.",
+                  icon: Users
                 },
                 {
                   title: "Gangguan Operasional",
-                  desc: "Kerusakan kecil berkembang menjadi downtime yang merugikan perusahaan."
+                  desc: "Kerusakan kecil berkembang menjadi downtime yang merugikan perusahaan.",
+                  icon: Building
                 }
               ].map((item, idx) => (
-                <div key={idx} className="bg-zinc-950 p-12 hover:bg-zinc-900/50 transition-colors">
-                  <span className="text-red-400 font-bold text-sm block mb-4">✕ MASALAH</span>
+                <div key={idx} className="bg-zinc-950 p-12 hover:bg-zinc-900 transition-colors">
+                  <div className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-xl flex items-center justify-center mb-8 text-zinc-500">
+                    <item.icon className="w-6 h-6" />
+                  </div>
+                  <span className="text-zinc-500 font-bold text-xs tracking-widest uppercase block mb-4">MASALAH</span>
                   <h3 className="text-xl font-manrope font-bold text-zinc-100 mb-4">{item.title}</h3>
                   <p className="text-zinc-500 leading-relaxed">{item.desc}</p>
                 </div>
@@ -155,13 +169,16 @@ export default function FacilityCarePage() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-zinc-200 border border-zinc-200 mb-16">
               {[
-                { title: "Preventive Maintenance", desc: "Perawatan berkala untuk menjaga kondisi bangunan dan fasilitas tetap optimal." },
-                { title: "Corrective Maintenance", desc: "Penanganan kerusakan secara sistematis dengan dokumentasi yang jelas." },
-                { title: "Building Inspection", desc: "Evaluasi kondisi bangunan untuk mengidentifikasi potensi masalah sebelum berkembang menjadi kerusakan yang lebih besar." },
-                { title: "Minor Renovation", desc: "Perbaikan maupun pengembangan ruang sesuai kebutuhan operasional." },
-                { title: "Facility Improvement", desc: "Peningkatan fungsi bangunan agar lebih efisien, aman, dan nyaman digunakan." }
+                { title: "Preventive Maintenance", desc: "Perawatan berkala untuk menjaga kondisi bangunan dan fasilitas tetap optimal.", icon: Shield },
+                { title: "Corrective Maintenance", desc: "Penanganan kerusakan secara sistematis dengan dokumentasi yang jelas.", icon: Settings },
+                { title: "Building Inspection", desc: "Evaluasi kondisi bangunan untuk mengidentifikasi potensi masalah sebelum berkembang menjadi kerusakan yang lebih besar.", icon: Search },
+                { title: "Minor Renovation", desc: "Perbaikan maupun pengembangan ruang sesuai kebutuhan operasional.", icon: Hammer },
+                { title: "Facility Improvement", desc: "Peningkatan fungsi bangunan agar lebih efisien, aman, dan nyaman digunakan.", icon: Activity }
               ].map((item, idx) => (
                 <div key={idx} className="bg-white p-12 hover:bg-zinc-50 transition-colors">
+                  <div className="w-12 h-12 bg-zinc-100 rounded-xl flex items-center justify-center mb-6 text-zinc-900">
+                    <item.icon className="w-6 h-6" />
+                  </div>
                   <h3 className="text-xl font-manrope font-bold text-zinc-900 mb-4">{item.title}</h3>
                   <p className="text-zinc-600 leading-relaxed">{item.desc}</p>
                 </div>
@@ -188,15 +205,20 @@ export default function FacilityCarePage() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
               {[
-                { step: "01", title: "Facility Assessment", desc: "Kami memahami kondisi eksisting bangunan." },
-                { step: "02", title: "Inspection", desc: "Tim melakukan pemeriksaan menyeluruh terhadap area yang menjadi tanggung jawab." },
-                { step: "03", title: "Recommendation", desc: "Kami menyusun prioritas pekerjaan berdasarkan tingkat risiko." },
-                { step: "04", title: "Execution", desc: "Pekerjaan dilakukan sesuai jadwal yang telah disepakati." },
-                { step: "05", title: "Documentation", desc: "Seluruh aktivitas dicatat dalam laporan." },
-                { step: "06", title: "Evaluation", desc: "Kami melakukan evaluasi berkala agar fasilitas tetap berada dalam kondisi terbaik." }
+                { step: "01", title: "Facility Assessment", desc: "Kami memahami kondisi eksisting bangunan.", icon: FileSearch },
+                { step: "02", title: "Inspection", desc: "Tim melakukan pemeriksaan menyeluruh terhadap area yang menjadi tanggung jawab.", icon: Search },
+                { step: "03", title: "Recommendation", desc: "Kami menyusun prioritas pekerjaan berdasarkan tingkat risiko.", icon: ListChecks },
+                { step: "04", title: "Execution", desc: "Pekerjaan dilakukan sesuai jadwal yang telah disepakati.", icon: Hammer },
+                { step: "05", title: "Documentation", desc: "Seluruh aktivitas dicatat dalam laporan.", icon: FileSignature },
+                { step: "06", title: "Evaluation", desc: "Kami melakukan evaluasi berkala agar fasilitas tetap berada dalam kondisi terbaik.", icon: BarChart3 }
               ].map((item, idx) => (
                 <div key={idx} className="relative">
-                  <div className="text-xs font-bold text-zinc-600 mb-4 font-mono">STEP {item.step}</div>
+                  <div className="flex items-center gap-4 mb-4 border-b border-zinc-800 pb-4">
+                    <div className="w-8 h-8 rounded bg-zinc-800 flex items-center justify-center text-zinc-400 shrink-0">
+                      <item.icon className="w-4 h-4" />
+                    </div>
+                    <div className="text-xs font-bold text-zinc-500 font-mono">STEP {item.step}</div>
+                  </div>
                   <h3 className="font-manrope font-bold text-zinc-100 text-xl mb-3">{item.title}</h3>
                   <p className="text-zinc-500 leading-relaxed text-sm">{item.desc}</p>
                 </div>

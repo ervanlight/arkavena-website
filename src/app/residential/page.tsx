@@ -5,7 +5,12 @@ import { Button } from '@/components/ui/button';
 import { Container } from '@/components/ui/container';
 import { FadeIn } from '@/components/shared/fade-in';
 import { FaqAccordion } from '@/components/home/faq-accordion';
-import { ArrowRight, MessageCircle } from 'lucide-react';
+import { 
+  ArrowRight, CheckCircle2,
+  TrendingUp, EyeOff, MessageSquareOff, ShieldAlert,
+  Target, Calculator, Activity, CheckSquare, Key,
+  Home, Wrench, Layers, PenTool, MessageCircle
+} from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Layanan Residential — TEGAKARA',
@@ -83,22 +88,29 @@ export default function ResidentialPage() {
               {[
                 {
                   title: "Budget Terus Bertambah",
-                  desc: "Perubahan kecil yang tidak terdokumentasi sering berkembang menjadi biaya tambahan yang tidak direncanakan."
+                  desc: "Perubahan kecil yang tidak terdokumentasi sering berkembang menjadi biaya tambahan yang tidak direncanakan.",
+                  icon: TrendingUp
                 },
                 {
                   title: "Sulit Memantau Progres",
-                  desc: "Tidak semua pemilik rumah memiliki waktu untuk datang ke lokasi setiap hari."
+                  desc: "Tidak semua pemilik rumah memiliki waktu untuk datang ke lokasi setiap hari.",
+                  icon: EyeOff
                 },
                 {
                   title: "Komunikasi Tidak Terarah",
-                  desc: "Informasi sering berpindah melalui banyak orang sehingga mudah terjadi salah persepsi."
+                  desc: "Informasi sering berpindah melalui banyak orang sehingga mudah terjadi salah persepsi.",
+                  icon: MessageSquareOff
                 },
                 {
                   title: "Hasil Tidak Sesuai Harapan",
-                  desc: "Tanpa standar pemeriksaan yang jelas, kualitas akhir sering bergantung pada masing-masing pekerja."
+                  desc: "Tanpa standar pemeriksaan yang jelas, kualitas akhir sering bergantung pada masing-masing pekerja.",
+                  icon: ShieldAlert
                 }
               ].map((item, idx) => (
-                <div key={idx} className="bg-zinc-950 p-12">
+                <div key={idx} className="bg-zinc-950 p-12 hover:bg-zinc-900 transition-colors">
+                  <div className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-xl flex items-center justify-center mb-8 text-zinc-500">
+                    <item.icon className="w-6 h-6" />
+                  </div>
                   <h3 className="text-xl font-manrope font-bold text-zinc-100 mb-4">{item.title}</h3>
                   <p className="text-zinc-500 leading-relaxed">{item.desc}</p>
                 </div>
@@ -132,27 +144,36 @@ export default function ResidentialPage() {
                   {[
                     {
                       title: "Perencanaan Yang Matang",
-                      desc: "Kami membantu memastikan ruang lingkup pekerjaan dipahami sejak awal sehingga mengurangi perubahan yang tidak diperlukan."
+                      desc: "Kami membantu memastikan ruang lingkup pekerjaan dipahami sejak awal sehingga mengurangi perubahan yang tidak diperlukan.",
+                      icon: Target
                     },
                     {
                       title: "Estimasi Yang Transparan",
-                      desc: "Setiap pekerjaan dijelaskan secara terbuka sehingga Anda memahami bagaimana anggaran digunakan."
+                      desc: "Setiap pekerjaan dijelaskan secara terbuka sehingga Anda memahami bagaimana anggaran digunakan.",
+                      icon: Calculator
                     },
                     {
                       title: "Pelaksanaan Yang Terarah",
-                      desc: "Tim bekerja mengikuti tahapan yang telah direncanakan agar kualitas tetap terjaga."
+                      desc: "Tim bekerja mengikuti tahapan yang telah direncanakan agar kualitas tetap terjaga.",
+                      icon: CheckSquare
                     },
                     {
                       title: "Monitoring Berkala",
-                      desc: "Anda memperoleh laporan perkembangan proyek tanpa harus selalu berada di lokasi."
+                      desc: "Anda memperoleh laporan perkembangan proyek tanpa harus selalu berada di lokasi.",
+                      icon: Activity
                     },
                     {
                       title: "Serah Terima Yang Jelas",
-                      desc: "Kami melakukan pemeriksaan bersama sebelum proyek dinyatakan selesai."
+                      desc: "Kami melakukan pemeriksaan bersama sebelum proyek dinyatakan selesai.",
+                      icon: Key
                     }
                   ].map((item, idx) => (
                     <div key={idx} className="flex gap-6">
-                      <div className="text-sm font-bold text-zinc-300 font-mono pt-1">0{idx + 1}</div>
+                      <div className="shrink-0 mt-1">
+                        <div className="w-10 h-10 bg-zinc-100 border border-zinc-200 rounded-lg flex items-center justify-center text-zinc-600">
+                          <item.icon className="w-5 h-5" />
+                        </div>
+                      </div>
                       <div>
                         <h4 className="text-xl font-manrope font-bold text-zinc-900 mb-3">{item.title}</h4>
                         <p className="text-zinc-600 leading-relaxed">{item.desc}</p>
@@ -181,12 +202,15 @@ export default function ResidentialPage() {
 
             <div className="grid md:grid-cols-2 gap-px bg-zinc-200 border border-zinc-200 mb-16">
               {[
-                { title: "Bangun Rumah Baru", desc: "Pendampingan pembangunan rumah dari tahap persiapan hingga serah terima." },
-                { title: "Renovasi Rumah", desc: "Mengembangkan rumah yang sudah ada agar lebih nyaman, fungsional, dan sesuai kebutuhan baru." },
-                { title: "Tambah Lantai", desc: "Perencanaan dan pelaksanaan penambahan ruang dengan memperhatikan struktur bangunan yang sudah ada." },
-                { title: "Interior Fit-Out", desc: "Penyelesaian interior untuk meningkatkan fungsi maupun kenyamanan ruang." }
+                { title: "Bangun Rumah Baru", desc: "Pendampingan pembangunan rumah dari tahap persiapan hingga serah terima.", icon: Home },
+                { title: "Renovasi Rumah", desc: "Mengembangkan rumah yang sudah ada agar lebih nyaman, fungsional, dan sesuai kebutuhan baru.", icon: Wrench },
+                { title: "Tambah Lantai", desc: "Perencanaan dan pelaksanaan penambahan ruang dengan memperhatikan struktur bangunan yang sudah ada.", icon: Layers },
+                { title: "Interior Fit-Out", desc: "Penyelesaian interior untuk meningkatkan fungsi maupun kenyamanan ruang.", icon: PenTool }
               ].map((item, idx) => (
                 <div key={idx} className="bg-white p-12 hover:bg-zinc-50 transition-colors">
+                  <div className="w-12 h-12 bg-zinc-100 rounded-xl flex items-center justify-center mb-6 text-zinc-900">
+                    <item.icon className="w-6 h-6" />
+                  </div>
                   <h3 className="text-xl font-manrope font-bold text-zinc-900 mb-4">{item.title}</h3>
                   <p className="text-zinc-600 leading-relaxed">{item.desc}</p>
                 </div>

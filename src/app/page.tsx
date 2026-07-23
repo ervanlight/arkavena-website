@@ -6,7 +6,12 @@ import { Container } from '@/components/ui/container';
 import { FadeIn } from '@/components/shared/fade-in';
 import { FaqAccordion } from '@/components/home/faq-accordion';
 import { ProjectViewPreview } from '@/components/home/projectview-preview';
-import { MessageCircle, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { 
+  MessageCircle, ArrowRight, CheckCircle2, 
+  AlertTriangle, EyeOff, MessageSquareOff, ShieldAlert,
+  Target, FileSignature, Activity, CheckSquare, Share2,
+  Map, PenTool, Handshake, Hammer, BarChart3, Key
+} from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'TEGAKARA — Project Control Partner',
@@ -122,12 +127,15 @@ export default function HomePage() {
 
             <div className="grid md:grid-cols-2 gap-px bg-zinc-800 border border-zinc-800">
               {[
-                { title: "Biaya Sulit Dikendalikan", desc: "Perubahan pekerjaan yang tidak tercatat sering menyebabkan anggaran berkembang tanpa disadari." },
-                { title: "Progress Tidak Transparan", desc: "Pemilik proyek sering tidak mengetahui pekerjaan apa yang sudah selesai dan apa yang sedang berjalan." },
-                { title: "Komunikasi Terputus", desc: "Keputusan penting sering hanya disampaikan secara lisan sehingga mudah terjadi salah persepsi." },
-                { title: "Kualitas Tidak Konsisten", desc: "Tanpa sistem pemeriksaan yang jelas, kualitas pekerjaan bergantung pada kebiasaan masing-masing pelaksana." }
+                { title: "Biaya Sulit Dikendalikan", desc: "Perubahan pekerjaan yang tidak tercatat sering menyebabkan anggaran berkembang tanpa disadari.", icon: AlertTriangle },
+                { title: "Progress Tidak Transparan", desc: "Pemilik proyek sering tidak mengetahui pekerjaan apa yang sudah selesai dan apa yang sedang berjalan.", icon: EyeOff },
+                { title: "Komunikasi Terputus", desc: "Keputusan penting sering hanya disampaikan secara lisan sehingga mudah terjadi salah persepsi.", icon: MessageSquareOff },
+                { title: "Kualitas Tidak Konsisten", desc: "Tanpa sistem pemeriksaan yang jelas, kualitas pekerjaan bergantung pada kebiasaan masing-masing pelaksana.", icon: ShieldAlert }
               ].map((item, idx) => (
                 <div key={idx} className="bg-zinc-950 p-12 hover:bg-zinc-900 transition-colors">
+                  <div className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-xl flex items-center justify-center mb-8 text-zinc-500">
+                    <item.icon className="w-6 h-6" />
+                  </div>
                   <h3 className="text-xl font-manrope font-bold text-zinc-100 mb-4">{item.title}</h3>
                   <p className="text-zinc-500 leading-relaxed">{item.desc}</p>
                 </div>
@@ -178,14 +186,18 @@ export default function HomePage() {
               <div className="lg:col-span-7">
                 <div className="space-y-12">
                   {[
-                    { title: "Scope yang Jelas", desc: "Seluruh ruang lingkup pekerjaan disepakati sejak awal sehingga semua pihak memahami apa yang akan dikerjakan." },
-                    { title: "Dokumentasi Perubahan", desc: "Setiap perubahan dibahas, dicatat, dan disetujui sebelum dilaksanakan." },
-                    { title: "Monitoring Berkala", desc: "Klien memperoleh laporan perkembangan proyek secara berkala tanpa harus selalu berada di lokasi." },
-                    { title: "Quality Control", desc: "Setiap tahapan pekerjaan diperiksa sebelum berlanjut ke tahap berikutnya." },
-                    { title: "Komunikasi Terpusat", desc: "Seluruh koordinasi dilakukan melalui jalur komunikasi yang jelas sehingga informasi tidak terpecah." }
+                    { title: "Scope yang Jelas", desc: "Seluruh ruang lingkup pekerjaan disepakati sejak awal sehingga semua pihak memahami apa yang akan dikerjakan.", icon: Target },
+                    { title: "Dokumentasi Perubahan", desc: "Setiap perubahan dibahas, dicatat, dan disetujui sebelum dilaksanakan.", icon: FileSignature },
+                    { title: "Monitoring Berkala", desc: "Klien memperoleh laporan perkembangan proyek secara berkala tanpa harus selalu berada di lokasi.", icon: Activity },
+                    { title: "Quality Control", desc: "Setiap tahapan pekerjaan diperiksa sebelum berlanjut ke tahap berikutnya.", icon: CheckSquare },
+                    { title: "Komunikasi Terpusat", desc: "Seluruh koordinasi dilakukan melalui jalur komunikasi yang jelas sehingga informasi tidak terpecah.", icon: Share2 }
                   ].map((item, idx) => (
                     <div key={idx} className="flex gap-6">
-                      <div className="text-sm font-bold text-zinc-300 font-mono pt-1">0{idx + 1}</div>
+                      <div className="shrink-0 mt-1">
+                        <div className="w-10 h-10 bg-zinc-100 border border-zinc-200 rounded-lg flex items-center justify-center text-zinc-600">
+                          <item.icon className="w-5 h-5" />
+                        </div>
+                      </div>
                       <div>
                         <h4 className="text-xl font-manrope font-bold text-zinc-900 mb-3">{item.title}</h4>
                         <p className="text-zinc-600 leading-relaxed">{item.desc}</p>
@@ -304,16 +316,21 @@ export default function HomePage() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-y-16 gap-x-12 mb-24">
               {[
-                { title: "Diskusi Awal", desc: "Kami memahami kebutuhan, tujuan, dan kondisi proyek Anda." },
-                { title: "Survey Lokasi", desc: "Tim melakukan peninjauan untuk memperoleh gambaran teknis secara langsung." },
-                { title: "Perencanaan", desc: "Kami menyusun ruang lingkup pekerjaan, estimasi biaya, dan pendekatan pelaksanaan." },
-                { title: "Kesepakatan", desc: "Seluruh pekerjaan disepakati sebelum proyek dimulai." },
-                { title: "Pelaksanaan", desc: "Tim menjalankan pekerjaan sesuai rencana yang telah disetujui." },
-                { title: "Monitoring", desc: "Kami memberikan laporan perkembangan proyek secara berkala." },
-                { title: "Serah Terima", desc: "Kami memastikan pekerjaan selesai sesuai standar yang telah ditetapkan." }
+                { title: "Diskusi Awal", desc: "Kami memahami kebutuhan, tujuan, dan kondisi proyek Anda.", icon: MessageCircle },
+                { title: "Survey Lokasi", desc: "Tim melakukan peninjauan untuk memperoleh gambaran teknis secara langsung.", icon: Map },
+                { title: "Perencanaan", desc: "Kami menyusun ruang lingkup pekerjaan, estimasi biaya, dan pendekatan pelaksanaan.", icon: PenTool },
+                { title: "Kesepakatan", desc: "Seluruh pekerjaan disepakati sebelum proyek dimulai.", icon: Handshake },
+                { title: "Pelaksanaan", desc: "Tim menjalankan pekerjaan sesuai rencana yang telah disetujui.", icon: Hammer },
+                { title: "Monitoring", desc: "Kami memberikan laporan perkembangan proyek secara berkala.", icon: BarChart3 },
+                { title: "Serah Terima", desc: "Kami memastikan pekerjaan selesai sesuai standar yang telah ditetapkan.", icon: Key }
               ].map((item, idx) => (
                 <div key={idx} className="relative">
-                  <div className="text-xs font-bold text-zinc-400 mb-4 font-mono border-b border-zinc-300 pb-2">STEP 0{idx + 1}</div>
+                  <div className="flex items-center gap-4 mb-4 border-b border-zinc-300 pb-4">
+                    <div className="w-8 h-8 rounded bg-zinc-200 flex items-center justify-center text-zinc-500 shrink-0">
+                      <item.icon className="w-4 h-4" />
+                    </div>
+                    <div className="text-xs font-bold text-zinc-400 font-mono">STEP 0{idx + 1}</div>
+                  </div>
                   <h3 className="font-manrope font-bold text-zinc-900 text-xl mb-3">{item.title}</h3>
                   <p className="text-zinc-600 leading-relaxed text-sm">{item.desc}</p>
                 </div>
