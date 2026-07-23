@@ -48,25 +48,25 @@ export function Header() {
             </span>
           </Link>
 
-          <nav className="hidden lg:flex items-center space-x-6 xl:space-x-8">
-            {navItems.map((item) => {
-              const isActive = pathname === item.href || pathname.startsWith(`${item.href}/`);
-              return (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={cn(
-                    'text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900 rounded-sm whitespace-nowrap',
-                    isActive ? 'text-zinc-900 font-bold' : 'text-zinc-500 hover:text-zinc-900 font-medium'
-                  )}
-                >
-                  {item.label}
-                </Link>
-              );
-            })}
-          </nav>
+          <div className="hidden lg:flex items-center ml-auto">
+            <nav className="flex items-center space-x-6 xl:space-x-8 mr-8">
+              {navItems.map((item) => {
+                const isActive = pathname === item.href || pathname.startsWith(`${item.href}/`);
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={cn(
+                      'text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900 rounded-sm whitespace-nowrap',
+                      isActive ? 'text-zinc-900 font-bold' : 'text-zinc-500 hover:text-zinc-900 font-medium'
+                    )}
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
+            </nav>
 
-          <div className="hidden lg:flex items-center shrink-0 ml-4">
             <Link href="/assessment">
               <Button size="sm">
                 Diskusikan Proyek

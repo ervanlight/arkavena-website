@@ -66,46 +66,49 @@ export default function HomePage() {
   return (
     <>
       {/* SECTION 01: HERO */}
-      <section className="bg-white pt-40 pb-40 border-b border-zinc-200">
+      <section className="bg-white pt-32 pb-24 lg:pt-40 lg:pb-32 border-b border-zinc-200 overflow-hidden">
         <Container>
-          <div className="grid lg:grid-cols-12 gap-16 items-center">
-            <div className="lg:col-span-6">
-              <FadeIn>
+          <div className="grid lg:grid-cols-2 gap-16 lg:gap-8 items-center">
+            <FadeIn>
+              <div className="max-w-2xl">
                 <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-8">
                   Construction • Renovation • Facility Care
                 </span>
-                <h1 className="text-5xl md:text-6xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
                   Bangunan Bukan Investasi Terbesar Anda.
                   <br /><span className="text-zinc-400">Yang Lebih Berharga Adalah Kendali Atas Proses Membangunnya.</span>
                 </h1>
-                <div className="text-xl text-zinc-600 leading-relaxed font-inter mb-12 space-y-6">
+                <div className="text-xl text-zinc-600 leading-relaxed font-inter space-y-6 mb-12">
                   <p>Membangun, merenovasi, atau merawat properti bukan hanya tentang pekerjaan konstruksi.</p>
                   <p>Yang menentukan keberhasilan sebuah proyek adalah bagaimana setiap keputusan, perubahan, biaya, kualitas, dan progres dikelola sejak hari pertama.</p>
                   <p>Di TEGAKARA, kami membantu pemilik properti menjaga seluruh proses tetap transparan, terdokumentasi, dan berada dalam kendali hingga proyek selesai.</p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Button size="lg" className="w-full sm:w-auto">
-                    <Link href="/assessment">Diskusikan Proyek Anda</Link>
-                  </Button>
-                  <Button size="lg" variant="secondary" className="w-full sm:w-auto">
-                    <Link href="#cara-kerja">Lihat Cara Kami Bekerja</Link>
-                  </Button>
+                  <Link href="/assessment">
+                    <Button size="lg" className="w-full sm:w-auto">
+                      Diskusikan Proyek Anda
+                    </Button>
+                  </Link>
+                  <Link href="/#cara-kerja">
+                    <Button size="lg" variant="secondary" className="w-full sm:w-auto">
+                      Lihat Cara Kami Bekerja
+                    </Button>
+                  </Link>
                 </div>
-              </FadeIn>
-            </div>
-            <div className="lg:col-span-6">
-              <FadeIn delay={200}>
-                <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-zinc-100 border border-zinc-200">
-                  <Image 
-                    src="/images/hero_home_1784553150926.jpg"
-                    alt="Tim TEGAKARA berdiskusi dengan klien di lapangan"
-                    fill
-                    className="object-cover"
-                    priority
-                  />
-                </div>
-              </FadeIn>
-            </div>
+              </div>
+            </FadeIn>
+
+            <FadeIn delay={150}>
+              <div className="relative aspect-[4/3] lg:aspect-square rounded-2xl overflow-hidden bg-zinc-100 border border-zinc-200">
+                <Image 
+                  src="/images/hero_home_1784553150926.jpg" 
+                  alt="TEGAKARA Project Manager and Client Site Supervision" 
+                  fill 
+                  className="object-cover"
+                  priority
+                />
+              </div>
+            </FadeIn>
           </div>
         </Container>
       </section>
