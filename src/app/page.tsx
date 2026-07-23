@@ -66,19 +66,19 @@ export default function HomePage() {
   return (
     <>
       {/* SECTION 01: HERO */}
-      <section className="bg-white pt-28 pb-20 lg:pt-36 lg:pb-28 border-b border-zinc-200 overflow-hidden">
+      <section className="bg-white pt-28 pb-16 lg:pt-32 lg:pb-24 border-b border-zinc-200 overflow-hidden">
         <Container>
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <FadeIn>
-              <div className="max-w-2xl">
-                <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-8">
+              <div>
+                <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-6">
                   Construction • Renovation • Facility Care
                 </span>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-6">
+                <h1 className="text-3xl md:text-4xl lg:text-[2.75rem] font-manrope font-bold text-zinc-900 leading-[1.15] tracking-tight mb-5">
                   Bangunan Bukan Investasi Terbesar Anda.
                   <br /><span className="text-zinc-400">Yang Lebih Berharga Adalah Kendali Atas Proses Membangunnya.</span>
                 </h1>
-                <div className="text-lg text-zinc-600 leading-relaxed font-inter space-y-6 mb-10">
+                <div className="text-base text-zinc-600 leading-relaxed font-inter space-y-4 mb-8">
                   <p>Membangun, merenovasi, atau merawat properti bukan hanya tentang pekerjaan konstruksi.</p>
                   <p>Yang menentukan keberhasilan sebuah proyek adalah bagaimana setiap keputusan, perubahan, biaya, kualitas, dan progres dikelola sejak hari pertama.</p>
                   <p>Di TEGAKARA, kami membantu pemilik properti menjaga seluruh proses tetap transparan, terdokumentasi, dan berada dalam kendali hingga proyek selesai.</p>
