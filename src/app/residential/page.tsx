@@ -40,18 +40,18 @@ export default function ResidentialPage() {
   return (
     <>
       {/* SECTION 01: HERO */}
-      <section className="bg-white pt-40 pb-40 border-b border-zinc-200">
+      <section className="bg-white pt-28 pb-20 lg:pt-36 lg:pb-28 border-b border-zinc-200">
         <Container>
           <FadeIn>
             <div className="max-w-4xl">
               <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-8">
                 Residential Construction
               </span>
-              <h1 className="text-5xl md:text-6xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
                 Rumah Yang Baik Tidak Hanya Dibangun Dengan Material Berkualitas.
                 <br /><span className="text-zinc-400">Tetapi Dengan Proses Yang Dikelola Dengan Benar.</span>
               </h1>
-              <p className="text-xl text-zinc-600 leading-relaxed font-inter max-w-2xl mb-12">
+              <p className="text-lg text-zinc-600 leading-relaxed font-inter max-w-2xl mb-8">
                 Membangun rumah adalah salah satu keputusan finansial terbesar dalam hidup. Karena itu, kami percaya prosesnya harus sama baiknya dengan hasil akhirnya.
                 <br /><br />
                 TEGAKARA membantu Anda mengelola pembangunan maupun renovasi rumah melalui sistem kerja yang transparan, terstruktur, dan terdokumentasi sehingga Anda dapat mengambil keputusan dengan lebih tenang.
@@ -70,14 +70,14 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 02: THE PROBLEM */}
-      <section className="py-40 bg-zinc-950 text-white">
+      <section className="py-24 lg:py-32 bg-zinc-950 text-white">
         <Container>
           <FadeIn>
-            <div className="max-w-3xl mb-24">
-              <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-8">
+            <div className="max-w-3xl mb-16">
+              <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-8">
                 MEMBANGUN RUMAH SEHARUSNYA TIDAK MENJADI SUMBER STRES
               </h2>
-              <div className="text-xl text-zinc-400 leading-relaxed space-y-6">
+              <div className="text-lg text-zinc-400 leading-relaxed space-y-6">
                 <p>Banyak pemilik rumah memulai proyek dengan penuh semangat.</p>
                 <p>Namun di tengah perjalanan mereka mulai menghadapi perubahan biaya, komunikasi yang tidak jelas, keterlambatan pekerjaan, hingga kualitas yang tidak sesuai harapan.</p>
                 <p>Sebagian besar masalah tersebut bukan terjadi karena niat yang buruk. Melainkan karena proyek tidak memiliki sistem pengendalian yang jelas.</p>
@@ -107,7 +107,7 @@ export default function ResidentialPage() {
                   icon: ShieldAlert
                 }
               ].map((item, idx) => (
-                <div key={idx} className="bg-zinc-950 p-12 hover:bg-zinc-900 transition-colors">
+                <div key={idx} className="bg-zinc-950 p-8 lg:p-10 hover:bg-zinc-900 transition-colors">
                   <div className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-xl flex items-center justify-center mb-8 text-zinc-500">
                     <item.icon className="w-6 h-6" />
                   </div>
@@ -121,7 +121,7 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 03: CARA KAMI MEMBANGUN RUMAH */}
-      <section id="cara-kerja" className="py-40 bg-zinc-50 border-b border-zinc-200">
+      <section id="cara-kerja" className="py-24 lg:py-32 bg-zinc-50 border-b border-zinc-200">
         <Container>
           <FadeIn>
             <div className="grid lg:grid-cols-12 gap-16">
@@ -129,7 +129,7 @@ export default function ResidentialPage() {
                 <h2 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-6">
                   CARA KAMI MEMBANGUN RUMAH
                 </h2>
-                <h3 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
+                <h3 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
                   Kami Tidak Hanya Membangun Rumah.
                   <br /><span className="text-zinc-400">Kami Mengelola Seluruh Perjalanannya.</span>
                 </h3>
@@ -188,14 +188,14 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 04: LAYANAN RESIDENTIAL */}
-      <section className="py-40 bg-white border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-white border-b border-zinc-200">
         <Container>
           <FadeIn>
-            <div className="max-w-3xl mb-24">
-              <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-6">
+            <div className="max-w-3xl mb-16">
+              <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-6">
                 LAYANAN RESIDENTIAL
               </h2>
-              <p className="text-xl text-zinc-600 leading-relaxed">
+              <p className="text-lg text-zinc-600 leading-relaxed">
                 Kami membantu berbagai kebutuhan pembangunan dan pengembangan rumah sesuai kondisi masing-masing keluarga.
               </p>
             </div>
@@ -207,7 +207,7 @@ export default function ResidentialPage() {
                 { title: "Tambah Lantai", desc: "Perencanaan dan pelaksanaan penambahan ruang dengan memperhatikan struktur bangunan yang sudah ada.", icon: Layers },
                 { title: "Interior Fit-Out", desc: "Penyelesaian interior untuk meningkatkan fungsi maupun kenyamanan ruang.", icon: PenTool }
               ].map((item, idx) => (
-                <div key={idx} className="bg-white p-12 hover:bg-zinc-50 transition-colors">
+                <div key={idx} className="bg-white p-8 lg:p-10 hover:bg-zinc-50 transition-colors">
                   <div className="w-12 h-12 bg-zinc-100 rounded-xl flex items-center justify-center mb-6 text-zinc-900">
                     <item.icon className="w-6 h-6" />
                   </div>
@@ -225,10 +225,10 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 05: KENAPA BANYAK PEMILIK RUMAH MEMILIH PENDEKATAN INI */}
-      <section className="py-40 bg-zinc-50 border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-zinc-50 border-b border-zinc-200">
         <Container>
           <FadeIn>
-            <h2 className="text-3xl font-manrope font-bold text-zinc-900 leading-[1.2] tracking-tight mb-16 max-w-2xl">
+            <h2 className="text-2xl md:text-3xl font-manrope font-bold text-zinc-900 leading-[1.2] tracking-tight mb-16 max-w-2xl">
               KENAPA BANYAK PEMILIK RUMAH MEMILIH PENDEKATAN INI
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-8">
@@ -249,16 +249,16 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 06: STUDI KASUS */}
-      <section className="py-40 bg-white border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-white border-b border-zinc-200">
         <Container>
           <FadeIn>
             <div className="grid lg:grid-cols-12 gap-16">
               <div className="lg:col-span-5">
                 <h2 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-6">STUDI KASUS</h2>
-                <h3 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
+                <h3 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
                   Setiap Rumah Memiliki Ceritanya Sendiri.
                 </h3>
-                <div className="text-lg text-zinc-600 leading-relaxed space-y-6 mb-12">
+                <div className="text-lg text-zinc-600 leading-relaxed space-y-6 mb-8">
                   <p>Kami percaya pengalaman membangun rumah tidak hanya dinilai dari hasil akhirnya. Tetapi juga dari bagaimana proses tersebut dijalankan.</p>
                 </div>
                 <Button variant="secondary">
@@ -289,10 +289,10 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 07: PROSES KERJA */}
-      <section className="py-40 bg-zinc-950 text-zinc-100">
+      <section className="py-24 lg:py-32 bg-zinc-950 text-zinc-100">
         <Container>
           <FadeIn>
-            <h2 className="text-4xl font-manrope font-bold text-white mb-24 tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-manrope font-bold text-white mb-16 tracking-tight">
               PROSES KERJA
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-16">
@@ -317,10 +317,10 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 08: FAQ */}
-      <section className="py-40 bg-white border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-white border-b border-zinc-200">
         <Container>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-manrope font-bold text-zinc-900 mb-16 tracking-tight">
+            <h2 className="text-2xl md:text-3xl font-manrope font-bold text-zinc-900 mb-16 tracking-tight">
               FAQ
             </h2>
             <FaqAccordion faqs={faqs} />
@@ -329,13 +329,13 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 09: FINAL CTA */}
-      <section className="py-40 bg-zinc-50">
+      <section className="py-24 lg:py-32 bg-zinc-50">
         <Container>
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 mb-8 tracking-tight leading-tight">
+            <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 mb-8 tracking-tight leading-tight">
               Rumah Yang Nyaman Dimulai Dari Proses Yang Tepat.
             </h2>
-            <p className="text-xl text-zinc-600 mb-12 leading-relaxed">
+            <p className="text-lg text-zinc-600 mb-8 leading-relaxed">
               Mari mulai dengan sebuah diskusi. Kami akan membantu Anda memahami langkah terbaik sebelum pembangunan dimulai sehingga setiap keputusan dapat diambil dengan lebih percaya diri.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

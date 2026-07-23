@@ -41,18 +41,18 @@ export default function FacilityCarePage() {
   return (
     <>
       {/* SECTION 01: HERO */}
-      <section className="bg-white pt-40 pb-40 border-b border-zinc-200">
+      <section className="bg-white pt-28 pb-20 lg:pt-36 lg:pb-28 border-b border-zinc-200">
         <Container>
           <FadeIn>
             <div className="max-w-4xl">
               <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-8">
                 Commercial Building • Industrial Facility • Building Maintenance
               </span>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
                 Bangunan Yang Terawat Bukan Sekadar Terlihat Lebih Baik.
                 <br /><span className="text-zinc-400">Tetapi Membantu Bisnis Tetap Berjalan.</span>
               </h1>
-              <div className="text-xl text-zinc-600 leading-relaxed font-inter max-w-3xl mb-12 space-y-6">
+              <div className="text-lg text-zinc-600 leading-relaxed font-inter max-w-3xl mb-8 space-y-6">
                 <p>Bangunan yang digunakan setiap hari akan terus mengalami perubahan. Peralatan bekerja. Material menua. Kerusakan kecil mulai muncul.</p>
                 <p>Jika tidak dikelola sejak awal, gangguan kecil dapat berkembang menjadi gangguan operasional yang jauh lebih mahal.</p>
                 <p>TEGAKARA membantu perusahaan menjaga fasilitas tetap aman, nyaman, dan siap digunakan melalui sistem Facility Care yang terencana dan terdokumentasi.</p>
@@ -81,14 +81,14 @@ export default function FacilityCarePage() {
       </section>
 
       {/* SECTION 02: MASALAH YANG SERING TERJADI */}
-      <section className="py-40 bg-zinc-950 text-white">
+      <section className="py-24 lg:py-32 bg-zinc-950 text-white">
         <Container>
           <FadeIn>
-            <div className="max-w-3xl mb-24">
-              <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-8">
+            <div className="max-w-3xl mb-16">
+              <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-8">
                 Banyak Gangguan Operasional Berawal Dari Hal-Hal Kecil Yang Diabaikan.
               </h2>
-              <div className="text-xl text-zinc-400 leading-relaxed space-y-6">
+              <div className="text-lg text-zinc-400 leading-relaxed space-y-6">
                 <p>Kerusakan besar jarang terjadi secara tiba-tiba.</p>
                 <p>Biasanya diawali oleh masalah kecil yang tidak terpantau, tidak terdokumentasi, atau tidak ditindaklanjuti tepat waktu.</p>
                 <p>Facility Care yang baik membantu mencegah hal tersebut sebelum berdampak pada operasional bisnis.</p>
@@ -123,7 +123,7 @@ export default function FacilityCarePage() {
                   icon: Building
                 }
               ].map((item, idx) => (
-                <div key={idx} className="bg-zinc-950 p-12 hover:bg-zinc-900 transition-colors">
+                <div key={idx} className="bg-zinc-950 p-8 lg:p-10 hover:bg-zinc-900 transition-colors">
                   <div className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-xl flex items-center justify-center mb-8 text-zinc-500">
                     <item.icon className="w-6 h-6" />
                   </div>
@@ -138,15 +138,15 @@ export default function FacilityCarePage() {
       </section>
 
       {/* SECTION 03: OUR PHILOSOPHY */}
-      <section className="py-40 bg-zinc-50 border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-zinc-50 border-b border-zinc-200">
         <Container>
           <FadeIn>
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-12">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-12">
                 Facility Care Bukan Tentang Memperbaiki Kerusakan.
                 <br /><span className="text-zinc-400">Tetapi Menjaga Agar Kerusakan Tidak Mengganggu Bisnis.</span>
               </h2>
-              <div className="text-xl text-zinc-600 leading-relaxed space-y-6">
+              <div className="text-lg text-zinc-600 leading-relaxed space-y-6">
                 <p>Kami percaya bahwa maintenance terbaik adalah maintenance yang direncanakan.</p>
                 <p>Pendekatan kami membantu perusahaan mengurangi gangguan operasional melalui inspeksi rutin, dokumentasi, dan tindakan preventif.</p>
                 <p>Dengan demikian, keputusan perawatan menjadi lebih terukur dan biaya lebih mudah dikendalikan.</p>
@@ -157,12 +157,12 @@ export default function FacilityCarePage() {
       </section>
 
       {/* SECTION 04: LAYANAN FACILITY CARE */}
-      <section className="py-40 bg-white border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-white border-b border-zinc-200">
         <Container>
           <FadeIn>
-            <div className="max-w-3xl mb-24">
+            <div className="max-w-3xl mb-16">
               <h2 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-6">LAYANAN FACILITY CARE</h2>
-              <p className="text-3xl font-manrope font-bold text-zinc-900 leading-[1.2] tracking-tight">
+              <p className="text-2xl md:text-3xl font-manrope font-bold text-zinc-900 leading-[1.2] tracking-tight">
                 Kami membantu pengelolaan berbagai kebutuhan bangunan komersial maupun industri.
               </p>
             </div>
@@ -175,7 +175,7 @@ export default function FacilityCarePage() {
                 { title: "Minor Renovation", desc: "Perbaikan maupun pengembangan ruang sesuai kebutuhan operasional.", icon: Hammer },
                 { title: "Facility Improvement", desc: "Peningkatan fungsi bangunan agar lebih efisien, aman, dan nyaman digunakan.", icon: Activity }
               ].map((item, idx) => (
-                <div key={idx} className="bg-white p-12 hover:bg-zinc-50 transition-colors">
+                <div key={idx} className="bg-white p-8 lg:p-10 hover:bg-zinc-50 transition-colors">
                   <div className="w-12 h-12 bg-zinc-100 rounded-xl flex items-center justify-center mb-6 text-zinc-900">
                     <item.icon className="w-6 h-6" />
                   </div>
@@ -193,11 +193,11 @@ export default function FacilityCarePage() {
       </section>
 
       {/* SECTION 05: BAGAIMANA KAMI BEKERJA */}
-      <section id="cara-kerja" className="py-40 bg-zinc-950 text-white border-b border-zinc-900">
+      <section id="cara-kerja" className="py-24 lg:py-32 bg-zinc-950 text-white border-b border-zinc-900">
         <Container>
           <FadeIn>
-            <div className="mb-24">
-              <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-6">
+            <div className="mb-16">
+              <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-6">
                 Setiap Aktivitas Memiliki Sistem.
                 <br /><span className="text-zinc-500">Setiap Sistem Menghasilkan Kepastian.</span>
               </h2>
@@ -229,12 +229,12 @@ export default function FacilityCarePage() {
       </section>
 
       {/* SECTION 06: MENGAPA PENDEKATAN INI BERBEDA */}
-      <section className="py-40 bg-zinc-50 border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-zinc-50 border-b border-zinc-200">
         <Container>
           <FadeIn>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="col-span-full mb-8">
-                <h2 className="text-3xl font-manrope font-bold text-zinc-900 tracking-tight">
+                <h2 className="text-2xl md:text-3xl font-manrope font-bold text-zinc-900 tracking-tight">
                   MENGAPA PENDEKATAN INI BERBEDA
                 </h2>
               </div>
@@ -259,16 +259,16 @@ export default function FacilityCarePage() {
       </section>
 
       {/* SECTION 07: STUDI KASUS */}
-      <section className="py-40 bg-white border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-white border-b border-zinc-200">
         <Container>
           <FadeIn>
             <div className="grid lg:grid-cols-12 gap-16">
               <div className="lg:col-span-5">
                 <h2 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-6">STUDI KASUS</h2>
-                <h3 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
+                <h3 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
                   Setiap Bangunan Memiliki Tantangan Yang Berbeda.
                 </h3>
-                <div className="text-lg text-zinc-600 leading-relaxed space-y-6 mb-12">
+                <div className="text-lg text-zinc-600 leading-relaxed space-y-6 mb-8">
                   <p>Kami mendokumentasikan bagaimana setiap tantangan diselesaikan sehingga dapat menjadi pembelajaran untuk proyek berikutnya.</p>
                 </div>
                 <Button variant="secondary">
@@ -301,12 +301,12 @@ export default function FacilityCarePage() {
       </section>
 
       {/* SECTION 08: INDUSTRI YANG KAMI LAYANI */}
-      <section className="py-40 bg-zinc-950 text-white">
+      <section className="py-24 lg:py-32 bg-zinc-950 text-white">
         <Container>
           <FadeIn>
             <div className="max-w-3xl mb-16">
               <h2 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-6">INDUSTRI YANG KAMI LAYANI</h2>
-              <p className="text-3xl font-manrope font-bold text-zinc-100 leading-[1.2] tracking-tight">
+              <p className="text-2xl md:text-3xl font-manrope font-bold text-zinc-100 leading-[1.2] tracking-tight">
                 Kami membantu berbagai jenis fasilitas.
               </p>
             </div>
@@ -322,11 +322,11 @@ export default function FacilityCarePage() {
       </section>
 
       {/* SECTION EXTRAS: COST OF DAMAGE */}
-      <section className="py-40 bg-zinc-50 border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-zinc-50 border-b border-zinc-200">
         <Container>
           <FadeIn>
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl font-manrope font-bold text-zinc-900 mb-16 tracking-tight">
+              <h2 className="text-2xl md:text-3xl font-manrope font-bold text-zinc-900 mb-16 tracking-tight">
                 Berapa Biaya Kerusakan Yang Tidak Direncanakan?
               </h2>
               
@@ -353,10 +353,10 @@ export default function FacilityCarePage() {
       </section>
 
       {/* SECTION 09: FAQ */}
-      <section className="py-40 bg-white border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-white border-b border-zinc-200">
         <Container>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-manrope font-bold text-zinc-900 mb-16 tracking-tight">
+            <h2 className="text-2xl md:text-3xl font-manrope font-bold text-zinc-900 mb-16 tracking-tight">
               FAQ
             </h2>
             <FaqAccordion faqs={faqs} />
@@ -365,13 +365,13 @@ export default function FacilityCarePage() {
       </section>
 
       {/* SECTION 10: FINAL CTA */}
-      <section className="py-40 bg-zinc-50">
+      <section className="py-24 lg:py-32 bg-zinc-50">
         <Container>
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 mb-8 tracking-tight leading-tight">
+            <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 mb-8 tracking-tight leading-tight">
               Bangunan Yang Terawat Membantu Bisnis Tetap Bergerak.
             </h2>
-            <p className="text-xl text-zinc-600 mb-12 leading-relaxed">
+            <p className="text-lg text-zinc-600 mb-8 leading-relaxed">
               Mari diskusikan bagaimana sistem Facility Care dapat membantu menjaga operasional bangunan Anda tetap berjalan secara lebih aman, efisien, dan terencana.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

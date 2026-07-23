@@ -47,7 +47,7 @@ export function MobileNav({ isOpen, onClose, items }: MobileNavProps) {
       />
 
       {/* Slide-over panel */}
-      <div className="relative flex w-full max-w-xs flex-col overflow-y-auto bg-white pb-12 shadow-xl ml-auto animate-in slide-in-from-right duration-300 border-l border-zinc-200">
+      <div className="relative flex w-full max-w-[280px] flex-col overflow-y-auto bg-white pb-12 shadow-xl ml-auto animate-in slide-in-from-right duration-300 border-l border-zinc-200">
         <div className="flex px-4 pb-2 pt-5">
           <button
             type="button"
@@ -60,8 +60,11 @@ export function MobileNav({ isOpen, onClose, items }: MobileNavProps) {
         </div>
 
         <div className="mt-2 space-y-2 px-4">
-          <Link href="/" className="mb-6 block" onClick={onClose}>
-            <span className="font-manrope text-2xl font-bold text-zinc-900">TEGAKARA</span>
+          <Link href="/" className="mb-6 flex flex-col focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900 rounded-sm" onClick={onClose}>
+            <span className="font-manrope text-2xl font-bold text-zinc-900 leading-none mb-1">TEGAKARA</span>
+            <span className="text-[10px] uppercase tracking-widest text-zinc-500 leading-none">
+              Project Control Partner
+            </span>
           </Link>
           
           <nav className="flex flex-col space-y-4 mb-8">

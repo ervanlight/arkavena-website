@@ -66,19 +66,19 @@ export default function HomePage() {
   return (
     <>
       {/* SECTION 01: HERO */}
-      <section className="bg-white pt-32 pb-24 lg:pt-40 lg:pb-32 border-b border-zinc-200 overflow-hidden">
+      <section className="bg-white pt-28 pb-20 lg:pt-36 lg:pb-28 border-b border-zinc-200 overflow-hidden">
         <Container>
-          <div className="grid lg:grid-cols-2 gap-16 lg:gap-8 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-12 items-center">
             <FadeIn>
               <div className="max-w-2xl">
                 <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-8">
                   Construction • Renovation • Facility Care
                 </span>
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-6">
                   Bangunan Bukan Investasi Terbesar Anda.
                   <br /><span className="text-zinc-400">Yang Lebih Berharga Adalah Kendali Atas Proses Membangunnya.</span>
                 </h1>
-                <div className="text-xl text-zinc-600 leading-relaxed font-inter space-y-6 mb-12">
+                <div className="text-lg text-zinc-600 leading-relaxed font-inter space-y-6 mb-10">
                   <p>Membangun, merenovasi, atau merawat properti bukan hanya tentang pekerjaan konstruksi.</p>
                   <p>Yang menentukan keberhasilan sebuah proyek adalah bagaimana setiap keputusan, perubahan, biaya, kualitas, dan progres dikelola sejak hari pertama.</p>
                   <p>Di TEGAKARA, kami membantu pemilik properti menjaga seluruh proses tetap transparan, terdokumentasi, dan berada dalam kendali hingga proyek selesai.</p>
@@ -114,14 +114,14 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 02: THE PROBLEM */}
-      <section className="py-40 bg-zinc-950 text-white">
+      <section className="py-24 lg:py-32 bg-zinc-950 text-white">
         <Container>
           <FadeIn>
-            <div className="max-w-3xl mb-24">
-              <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-8">
+            <div className="max-w-3xl mb-16">
+              <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-8">
                 Mengapa Banyak Proyek Menjadi Lebih Sulit Dari Yang Seharusnya?
               </h2>
-              <div className="text-xl text-zinc-400 leading-relaxed space-y-6">
+              <div className="text-lg text-zinc-400 leading-relaxed space-y-6">
                 <p>Sebagian besar proyek tidak bermasalah karena kurangnya tenaga kerja.</p>
                 <p>Masalah justru muncul ketika proses berjalan tanpa sistem yang jelas.</p>
                 <p>Tanpa dokumentasi, komunikasi yang baik, dan pengendalian yang konsisten, proyek yang seharusnya sederhana dapat berubah menjadi sumber stres, pembengkakan biaya, dan keterlambatan.</p>
@@ -135,7 +135,7 @@ export default function HomePage() {
                 { title: "Komunikasi Terputus", desc: "Keputusan penting sering hanya disampaikan secara lisan sehingga mudah terjadi salah persepsi.", icon: MessageSquareOff },
                 { title: "Kualitas Tidak Konsisten", desc: "Tanpa sistem pemeriksaan yang jelas, kualitas pekerjaan bergantung pada kebiasaan masing-masing pelaksana.", icon: ShieldAlert }
               ].map((item, idx) => (
-                <div key={idx} className="bg-zinc-950 p-12 hover:bg-zinc-900 transition-colors">
+                <div key={idx} className="bg-zinc-950 p-8 lg:p-10 hover:bg-zinc-900 transition-colors">
                   <div className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-xl flex items-center justify-center mb-8 text-zinc-500">
                     <item.icon className="w-6 h-6" />
                   </div>
@@ -149,15 +149,15 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 03: THE INSIGHT */}
-      <section className="py-40 bg-white border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-white border-b border-zinc-200">
         <Container>
           <FadeIn>
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-12">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-12">
                 Proyek Tidak Berhasil Karena Tidak Ada Masalah.
                 <br /><span className="text-zinc-400">Proyek Berhasil Karena Setiap Masalah Dikendalikan.</span>
               </h2>
-              <div className="text-xl text-zinc-600 leading-relaxed space-y-6">
+              <div className="text-lg text-zinc-600 leading-relaxed space-y-6">
                 <p>Dalam setiap proyek akan selalu ada perubahan, tantangan, dan keputusan yang harus diambil.</p>
                 <p>Yang membedakan proyek yang berjalan baik bukanlah tidak adanya masalah.</p>
                 <p>Melainkan adanya sistem yang memastikan setiap perubahan terdokumentasi, setiap keputusan memiliki dasar, dan setiap progres dapat dipantau dengan jelas.</p>
@@ -169,15 +169,15 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 04: OUR APPROACH */}
-      <section id="cara-kerja" className="py-40 bg-zinc-50 border-b border-zinc-200">
+      <section id="cara-kerja" className="py-24 lg:py-32 bg-zinc-50 border-b border-zinc-200">
         <Container>
           <FadeIn>
             <div className="grid lg:grid-cols-12 gap-16">
               <div className="lg:col-span-5">
-                <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
+                <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
                   Cara Kami Menjaga Proyek Tetap Dalam Kendali
                 </h2>
-                <div className="text-xl text-zinc-600 leading-relaxed space-y-6 mb-12">
+                <div className="text-lg text-zinc-600 leading-relaxed space-y-6 mb-8">
                   <p>Kami percaya bahwa hasil terbaik lahir dari proses yang dapat dipertanggungjawabkan.</p>
                   <p>Karena itu kami membangun setiap proyek menggunakan sistem kerja yang mengutamakan transparansi, koordinasi, dan dokumentasi.</p>
                 </div>
@@ -202,7 +202,7 @@ export default function HomePage() {
                         </div>
                       </div>
                       <div>
-                        <h4 className="text-xl font-manrope font-bold text-zinc-900 mb-3">{item.title}</h4>
+                        <h4 className="text-lg font-manrope font-bold text-zinc-900 mb-3">{item.title}</h4>
                         <p className="text-zinc-600 leading-relaxed">{item.desc}</p>
                       </div>
                     </div>
@@ -215,16 +215,16 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 05: WHY TEGAKARA */}
-      <section className="py-40 bg-zinc-950 text-white">
+      <section className="py-24 lg:py-32 bg-zinc-950 text-white">
         <Container>
           <FadeIn>
             <div className="grid lg:grid-cols-12 gap-16 items-center">
               <div className="lg:col-span-6">
-                <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-8">
+                <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-8">
                   Kami Tidak Menjanjikan Proyek Tanpa Tantangan.
                   <br /><span className="text-zinc-500">Kami Menjanjikan Proyek Yang Tetap Dalam Kendali.</span>
                 </h2>
-                <div className="text-xl text-zinc-400 leading-relaxed space-y-6">
+                <div className="text-lg text-zinc-400 leading-relaxed space-y-6">
                   <p>Keberhasilan proyek bukan ditentukan oleh janji bahwa semuanya akan berjalan sempurna.</p>
                   <p>Keberhasilan ditentukan oleh bagaimana setiap tantangan direspons secara cepat, transparan, dan terdokumentasi.</p>
                   <p>Itulah komitmen yang kami pegang dalam setiap proyek.</p>
@@ -252,18 +252,18 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 06: PROJECT CASE STUDIES */}
-      <section className="py-40 bg-white border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-white border-b border-zinc-200">
         <Container>
           <FadeIn>
-            <div className="grid lg:grid-cols-12 gap-16 mb-24">
+            <div className="grid lg:grid-cols-12 gap-16 mb-16">
               <div className="lg:col-span-6">
-                <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
+                <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
                   Bukti Terbaik Bukan Klaim.
                   <br /><span className="text-zinc-400">Tetapi Proyek Yang Dapat Dipertanggungjawabkan.</span>
                 </h2>
               </div>
               <div className="lg:col-span-6">
-                <div className="text-xl text-zinc-600 leading-relaxed space-y-6 mb-8">
+                <div className="text-lg text-zinc-600 leading-relaxed space-y-6 mb-8">
                   <p>Setiap proyek memiliki tantangan yang berbeda.</p>
                   <p>Karena itu kami tidak hanya menampilkan hasil akhirnya, tetapi juga bagaimana proses pengambilan keputusan dilakukan hingga proyek selesai.</p>
                 </div>
@@ -305,19 +305,19 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 07: OUR PROCESS */}
-      <section className="py-40 bg-zinc-50 border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-zinc-50 border-b border-zinc-200">
         <Container>
           <FadeIn>
-            <div className="max-w-3xl mb-24">
-              <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
+            <div className="max-w-3xl mb-16">
+              <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
                 Apa Yang Akan Terjadi Setelah Anda Menghubungi Kami?
               </h2>
-              <p className="text-xl text-zinc-600 leading-relaxed">
+              <p className="text-lg text-zinc-600 leading-relaxed">
                 Kami menggunakan proses yang jelas agar setiap tahap proyek dapat dipahami sejak awal.
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-y-16 gap-x-12 mb-24">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-y-16 gap-x-12 mb-16">
               {[
                 { title: "Diskusi Awal", desc: "Kami memahami kebutuhan, tujuan, dan kondisi proyek Anda.", icon: MessageCircle },
                 { title: "Survey Lokasi", desc: "Tim melakukan peninjauan untuk memperoleh gambaran teknis secara langsung.", icon: Map },
@@ -348,14 +348,14 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 08: TESTIMONIALS */}
-      <section className="py-40 bg-zinc-950 text-white">
+      <section className="py-24 lg:py-32 bg-zinc-950 text-white">
         <Container>
           <FadeIn>
-            <div className="max-w-4xl mx-auto text-center mb-24">
-              <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-8">
+            <div className="max-w-4xl mx-auto text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-8">
                 Kepercayaan Dibangun Dari Pengalaman Nyata.
               </h2>
-              <div className="text-xl text-zinc-400 leading-relaxed space-y-6">
+              <div className="text-lg text-zinc-400 leading-relaxed space-y-6">
                 <p>Kami percaya bahwa kepuasan klien tidak hanya diukur dari bangunan yang selesai.</p>
                 <p>Tetapi juga dari pengalaman selama proses pengerjaan berlangsung.</p>
               </div>
@@ -378,10 +378,10 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 09: FAQ */}
-      <section className="py-40 bg-white border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-white border-b border-zinc-200">
         <Container>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-4xl font-manrope font-bold text-zinc-900 mb-16 tracking-tight">
+            <h2 className="text-3xl font-manrope font-bold text-zinc-900 mb-16 tracking-tight">
               Pertanyaan Yang Sering Ditanyakan
             </h2>
             <FaqAccordion faqs={faqs} />
@@ -390,13 +390,13 @@ export default function HomePage() {
       </section>
 
       {/* SECTION 10: FINAL CTA */}
-      <section className="py-40 bg-zinc-50">
+      <section className="py-24 lg:py-32 bg-zinc-50">
         <Container>
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 mb-8 tracking-tight leading-tight">
+            <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 mb-8 tracking-tight leading-tight">
               Setiap Proyek Dimulai Dari Keputusan Yang Tepat.
             </h2>
-            <p className="text-xl text-zinc-600 mb-12 leading-relaxed">
+            <p className="text-lg text-zinc-600 mb-10 leading-relaxed">
               Jika Anda sedang merencanakan pembangunan, renovasi, atau pengelolaan fasilitas, mari mulai dengan sebuah percakapan.
               <br /><br />
               Kami akan membantu Anda memahami langkah yang perlu dipersiapkan agar proyek berjalan lebih terarah, transparan, dan terkendali.

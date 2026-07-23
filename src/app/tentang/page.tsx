@@ -14,18 +14,18 @@ export default function TentangPage() {
   return (
     <>
       {/* SECTION 01: HERO */}
-      <section className="bg-zinc-950 text-white pt-40 pb-40 border-b border-zinc-900">
+      <section className="bg-zinc-950 text-white pt-28 pb-20 lg:pt-36 lg:pb-28 border-b border-zinc-900">
         <Container>
           <FadeIn>
             <div className="max-w-4xl">
               <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-8">
                 About Tegakara
               </span>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-manrope font-bold text-zinc-50 leading-[1.05] tracking-tight mb-8">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-manrope font-bold text-zinc-50 leading-[1.05] tracking-tight mb-8">
                 Kami Percaya Bahwa
                 <br /><span className="text-zinc-500">Proyek Yang Baik Lahir Dari Sistem Yang Baik.</span>
               </h1>
-              <div className="text-xl text-zinc-400 leading-relaxed font-inter max-w-3xl space-y-6">
+              <div className="text-lg text-zinc-400 leading-relaxed font-inter max-w-3xl space-y-6">
                 <p>TEGAKARA dibangun dengan keyakinan sederhana.</p>
                 <p>Bangunan yang baik tidak hanya ditentukan oleh material maupun tenaga kerja. Tetapi oleh bagaimana seluruh proses dikelola.</p>
                 <p>Karena itu kami mengembangkan cara kerja yang mengutamakan transparansi, dokumentasi, koordinasi, dan tanggung jawab pada setiap tahap proyek.</p>
@@ -36,7 +36,7 @@ export default function TentangPage() {
       </section>
 
       {/* SECTION 02: FILOSOFI KAMI */}
-      <section className="py-40 bg-white border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-white border-b border-zinc-200">
         <Container>
           <FadeIn>
             <div className="grid md:grid-cols-12 gap-12">
@@ -47,7 +47,7 @@ export default function TentangPage() {
                 <h3 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 leading-[1.2] tracking-tight mb-6">
                   Kami tidak berusaha menjadi kontraktor terbesar.
                 </h3>
-                <p className="text-xl text-zinc-600 leading-relaxed">
+                <p className="text-lg text-zinc-600 leading-relaxed">
                   Kami ingin menjadi partner yang membantu pemilik properti mengambil keputusan dengan lebih percaya diri.
                 </p>
               </div>
@@ -57,7 +57,7 @@ export default function TentangPage() {
       </section>
 
       {/* SECTION 03: CARA KAMI BEKERJA */}
-      <section className="py-40 bg-zinc-50 border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-zinc-50 border-b border-zinc-200">
         <Container>
           <FadeIn>
             <div className="grid md:grid-cols-12 gap-12">
@@ -78,10 +78,10 @@ export default function TentangPage() {
       </section>
 
       {/* SECTION 04: NILAI YANG KAMI PEGANG */}
-      <section className="py-40 bg-zinc-950 text-white">
+      <section className="py-24 lg:py-32 bg-zinc-950 text-white">
         <Container>
           <FadeIn>
-            <div className="mb-24">
+            <div className="mb-16">
               <h2 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-6">NILAI YANG KAMI PEGANG</h2>
             </div>
             
@@ -92,7 +92,7 @@ export default function TentangPage() {
                 { title: "Disiplin", desc: "Proses yang baik menghasilkan hasil yang baik." },
                 { title: "Kolaborasi", desc: "Kami bekerja bersama klien, bukan hanya untuk klien." }
               ].map((item, idx) => (
-                <div key={idx} className="bg-zinc-950 p-12">
+                <div key={idx} className="bg-zinc-950 p-8 lg:p-10">
                   <h3 className="text-xl font-manrope font-bold text-zinc-100 mb-4">{item.title}</h3>
                   <p className="text-zinc-500 leading-relaxed">{item.desc}</p>
                 </div>
@@ -103,12 +103,12 @@ export default function TentangPage() {
       </section>
 
       {/* SECTION 05: TIM KAMI */}
-      <section className="py-40 bg-white border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-white border-b border-zinc-200">
         <Container>
           <FadeIn>
-            <div className="mb-24">
+            <div className="mb-16">
               <h2 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-6">TIM KAMI</h2>
-              <h3 className="text-3xl font-manrope font-bold text-zinc-900 tracking-tight">
+              <h3 className="text-2xl md:text-3xl font-manrope font-bold text-zinc-900 tracking-tight">
                 Perkenalkan tim yang berada di balik setiap proyek.
               </h3>
             </div>
@@ -137,7 +137,7 @@ export default function TentangPage() {
       </section>
 
       {/* SECTION 06: CTA */}
-      <section className="py-40 bg-zinc-50 text-center">
+      <section className="py-24 lg:py-32 bg-zinc-50 text-center">
         <Container>
           <FadeIn>
             <Button size="lg">

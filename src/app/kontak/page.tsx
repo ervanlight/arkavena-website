@@ -14,14 +14,14 @@ export default function KontakPage() {
   return (
     <>
       {/* SECTION 01: HERO */}
-      <section className="bg-white pt-40 pb-20">
+      <section className="bg-white pt-28 pb-20 lg:pt-36 lg:pb-20">
         <Container>
           <FadeIn>
             <div className="max-w-4xl">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
                 Mari Mulai Dengan Sebuah Percakapan.
               </h1>
-              <div className="text-xl text-zinc-600 leading-relaxed font-inter max-w-3xl space-y-6">
+              <div className="text-lg text-zinc-600 leading-relaxed font-inter max-w-3xl space-y-6">
                 <p>Setiap proyek memiliki kebutuhan yang berbeda.</p>
                 <p>Kami akan mendengarkan terlebih dahulu sebelum memberikan rekomendasi.</p>
                 <p>Diskusi awal membantu kami memahami kondisi proyek Anda sehingga solusi yang diberikan menjadi lebih relevan.</p>
@@ -39,7 +39,7 @@ export default function KontakPage() {
             {/* CONTACT FORM */}
             <div className="lg:col-span-7">
               <FadeIn>
-                <div className="bg-zinc-50 border border-zinc-200 rounded-2xl p-8 md:p-12">
+                <div className="bg-zinc-50 border border-zinc-200 rounded-2xl p-8 lg:p-10">
                   <div className="mb-12">
                     <h2 className="text-2xl font-manrope font-bold text-zinc-900 mb-2">Ceritakan Proyek Anda.</h2>
                     <p className="text-zinc-500">Semakin lengkap informasi yang Anda berikan, semakin baik kami memahami kebutuhan proyek Anda.</p>
@@ -150,13 +150,13 @@ export default function KontakPage() {
       </section>
 
       {/* SECTION 03: FINAL CTA */}
-      <section className="py-40 bg-zinc-950 text-white">
+      <section className="py-24 lg:py-32 bg-zinc-950 text-white">
         <Container>
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-50 mb-8 tracking-tight leading-tight">
+            <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-50 mb-8 tracking-tight leading-tight">
               Setiap Proyek Dimulai Dari Percakapan Yang Tepat.
             </h2>
-            <p className="text-xl text-zinc-400 mb-12 leading-relaxed">
+            <p className="text-lg text-zinc-400 mb-8 leading-relaxed">
               Jika Anda sedang mempertimbangkan pembangunan, renovasi, atau pengelolaan fasilitas, mari mulai dengan berdiskusi.
               <br /><br />
               Kami akan membantu Anda memahami langkah yang paling sesuai dengan kondisi proyek Anda.

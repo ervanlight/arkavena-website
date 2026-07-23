@@ -16,7 +16,7 @@ export default function AssessmentPage() {
   return (
     <>
       {/* SECTION 01: HERO */}
-      <section className="bg-white pt-40 pb-40 border-b border-zinc-200">
+      <section className="bg-white pt-28 pb-20 lg:pt-36 lg:pb-28 border-b border-zinc-200">
         <Container>
           <div className="grid lg:grid-cols-12 gap-16">
             <div className="lg:col-span-6">
@@ -24,11 +24,11 @@ export default function AssessmentPage() {
                 <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-8">
                   Project Readiness Assessment
                 </span>
-                <h1 className="text-5xl md:text-6xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
                   Sebelum Memulai Proyek,
                   <br /><span className="text-zinc-400">Pastikan Proyek Anda Sudah Siap.</span>
                 </h1>
-                <div className="text-xl text-zinc-600 leading-relaxed font-inter mb-12 space-y-6">
+                <div className="text-lg text-zinc-600 leading-relaxed font-inter mb-8 space-y-6">
                   <p>Banyak proyek mengalami kendala bukan karena pelaksanaannya. Tetapi karena persiapannya.</p>
                   <p>Assessment ini membantu Anda memahami kondisi proyek saat ini dan mengetahui apa saja yang masih perlu dipersiapkan sebelum pembangunan dimulai.</p>
                 </div>
@@ -70,7 +70,7 @@ export default function AssessmentPage() {
 
             <div className="lg:col-span-6">
               <FadeIn delay={200}>
-                <div className="bg-white border border-zinc-200 rounded-2xl p-8 md:p-12 shadow-sm sticky top-32">
+                <div className="bg-white border border-zinc-200 rounded-2xl p-8 lg:p-10 shadow-sm sticky top-32">
                   <div className="mb-8">
                     <h2 className="text-2xl font-manrope font-bold text-zinc-900 mb-2">Ceritakan Proyek Anda.</h2>
                     <p className="text-zinc-500">Semakin lengkap informasi yang Anda berikan, semakin baik kami memahami kebutuhan proyek Anda.</p>
