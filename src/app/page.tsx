@@ -1,576 +1,394 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import { 
-  ArrowRight, 
-  CheckCircle2, 
-  FileCheck2, 
-  Search, 
-  ShieldCheck, 
-  Eye, 
-  Layers, 
-  Clock, 
-  FileText, 
-  CheckSquare, 
-  Wallet,
-  Settings,
-  PenTool,
-  Building2,
-  HardHat,
-  MessageCircle,
-  Quote
-} from 'lucide-react';
-import { siteConfig } from '@/config/site';
-import { generalFaqs } from '@/content/faqs';
-import { processSteps } from '@/content/process';
-import { HeroPanel } from '@/components/home/hero-panel';
-import { FaqAccordion } from '@/components/home/faq-accordion';
-import { ProjectViewPreview } from '@/components/home/projectview-preview';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/ui/container';
-import { SectionHeader } from '@/components/ui/section-header';
-import { ProjectCard } from '@/components/sections/project-card';
 import { FadeIn } from '@/components/shared/fade-in';
+import { FaqAccordion } from '@/components/home/faq-accordion';
+import { ProjectViewPreview } from '@/components/home/projectview-preview';
+import { MessageCircle, ArrowRight, CheckCircle2 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'TEGAKARA — Karya Terukur. Aset Terjaga.',
-  description: 'TEGAKARA mengelola ruang lingkup, biaya, progres, mutu, dan perubahan pekerjaan secara terdokumentasi—untuk rumah, sekolah, gedung komersial, dan fasilitas operasional di Surabaya.',
-  alternates: {
-    canonical: '/',
-  }
+  title: 'TEGAKARA — Project Control Partner',
+  description: 'Kami membantu pemilik properti menjaga seluruh proses tetap transparan, terdokumentasi, dan berada dalam kendali hingga proyek selesai.',
 };
 
 export default function HomePage() {
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'Organization',
-        '@id': `${siteConfig.domain}/#organization`,
-        name: 'TEGAKARA Construction & Facility Care',
-        url: siteConfig.domain,
-        logo: `${siteConfig.domain}/images/logo.png`,
-        contactPoint: {
-          '@type': 'ContactPoint',
-          telephone: '+62-811-1234-5678', // Placeholder, update in siteConfig if available
-          contactType: 'customer service',
-          areaServed: 'ID',
-          availableLanguage: 'Indonesian'
-        },
-        address: {
-          '@type': 'PostalAddress',
-          addressLocality: 'Surabaya',
-          addressRegion: 'Jawa Timur',
-          addressCountry: 'ID'
-        }
-      },
-      {
-        '@type': 'WebSite',
-        '@id': `${siteConfig.domain}/#website`,
-        url: siteConfig.domain,
-        name: 'TEGAKARA',
-        publisher: {
-          '@id': `${siteConfig.domain}/#organization`
-        }
-      }
-    ]
-  };
+  const faqs = [
+    {
+      question: "Apakah saya harus memiliki gambar kerja sebelum menghubungi TEGAKARA?",
+      answer: "Tidak. Kami dapat membantu mengevaluasi kondisi proyek Anda terlebih dahulu dan memberikan arahan mengenai langkah yang perlu dipersiapkan."
+    },
+    {
+      question: "Bagaimana saya memantau progres proyek?",
+      answer: "Kami memberikan laporan perkembangan proyek secara berkala yang dilengkapi dokumentasi visual sehingga Anda mengetahui kondisi terbaru tanpa harus selalu berada di lokasi."
+    },
+    {
+      question: "Bagaimana jika terjadi perubahan pekerjaan?",
+      answer: "Setiap perubahan dibahas terlebih dahulu, didokumentasikan, dan hanya dilaksanakan setelah memperoleh persetujuan."
+    },
+    {
+      question: "Apakah TEGAKARA melayani renovasi maupun pembangunan baru?",
+      answer: "Ya. Kami membantu pembangunan baru, renovasi, serta layanan facility care sesuai kebutuhan proyek."
+    },
+    {
+      question: "Bagaimana proses konsultasi awal?",
+      answer: "Diskusi awal bertujuan memahami kebutuhan proyek Anda dan menentukan pendekatan terbaik sebelum pekerjaan dimulai."
+    }
+  ];
+
+  const testimonials = [
+    {
+      quote: "Saya tidak pernah merasa kehilangan kendali atas proyek. Setiap minggu selalu ada laporan progres yang jelas beserta dokumentasi foto. Keputusan yang diambil selalu didiskusikan terlebih dahulu.",
+      name: "Bpk. Hendra S.",
+      role: "Pemilik Rumah, Citraland",
+      initial: "Kondisi Awal: Khawatir budget membengkak karena sering dengar cerita miring tentang kontraktor."
+    },
+    {
+      quote: "Laporan harian dan dokumentasi mereka sangat membantu kami dalam audit internal. Sistem yang rapi membuat kami yakin bangunan fasilitas industri kami terawat dengan standar tinggi.",
+      name: "Ibu Rina M.",
+      role: "Facility Manager, Pabrik Sidoarjo",
+      initial: "Kondisi Awal: Kesulitan memantau jadwal perbaikan dan riwayat pemeliharaan di berbagai area pabrik."
+    },
+    {
+      quote: "Transparansi adalah kunci. Dari awal sampai serah terima, semua jelas. Tidak ada biaya tersembunyi, dan perubahan selalu melalui proses approval tertulis. Sangat profesional.",
+      name: "Bpk. Aditya P.",
+      role: "Pemilik Ruko Komersial, Surabaya Barat",
+      initial: "Kondisi Awal: Punya pengalaman buruk dengan kontraktor sebelumnya yang menghilang di tengah jalan."
+    }
+  ];
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      
-      {/* SECTION 1: Hero */}
-      <section className="z-0 relative bg-[#0E1B26] min-h-[90vh] flex items-center pt-24 pb-16 overflow-hidden">
-        <Image 
-          src="/images/hero_home_1784553150926.jpg"
-          alt="" aria-hidden="true"
-          fill
-          className="object-cover opacity-20 mix-blend-overlay pointer-events-none"
-          priority
-        />
-        <div className="relative z-10 w-full">
-        {/* Decorative blueprint pattern */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0E1B26] via-transparent to-transparent pointer-events-none"></div>
-        
-        <Container className="relative z-10">
-          <FadeIn>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
-            <div className="space-y-8 max-w-2xl">
-              <div>
-                <span className="inline-block py-1 px-3 rounded-full bg-bronze/10 border border-bronze/20 text-bronze text-sm font-medium tracking-wide mb-6">
-                  Konstruksi & Perawatan Properti — Surabaya
+      {/* SECTION 01: HERO */}
+      <section className="bg-white pt-40 pb-40 border-b border-zinc-200">
+        <Container>
+          <div className="grid lg:grid-cols-12 gap-16 items-center">
+            <div className="lg:col-span-6">
+              <FadeIn>
+                <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-8">
+                  Construction • Renovation • Facility Care
                 </span>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-manrope font-bold text-white leading-tight tracking-tight">
-                  Bangun dan rawat properti tanpa <span className="text-bronze">kehilangan kendali.</span>
+                <h1 className="text-5xl md:text-6xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
+                  Bangunan Bukan Investasi Terbesar Anda.
+                  <br /><span className="text-zinc-400">Yang Lebih Berharga Adalah Kendali Atas Proses Membangunnya.</span>
                 </h1>
-              </div>
-              <p className="text-lg text-slate-300 leading-relaxed font-inter max-w-xl">
-                TEGAKARA membantu pemilik rumah dan pengelola gedung mengendalikan ruang lingkup, biaya, progres, mutu, dan perubahan pekerjaan melalui sistem yang jelas dan terdokumentasi.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Button size="lg" className="bg-bronze hover:bg-bronze/90 text-[#0E1B26] font-bold px-8 text-base h-14">
-                  <Link href="/assessment">Konsultasikan Proyek</Link>
-                </Button>
-                <Button size="lg" variant="secondary" className="border-white/20 text-white hover:bg-white/5 font-medium px-8 text-base h-14">
-                  <Link href="/cara-kerja">Lihat Cara Kerja</Link>
-                </Button>
-              </div>
+                <div className="text-xl text-zinc-600 leading-relaxed font-inter mb-12 space-y-6">
+                  <p>Membangun, merenovasi, atau merawat properti bukan hanya tentang pekerjaan konstruksi.</p>
+                  <p>Yang menentukan keberhasilan sebuah proyek adalah bagaimana setiap keputusan, perubahan, biaya, kualitas, dan progres dikelola sejak hari pertama.</p>
+                  <p>Di TEGAKARA, kami membantu pemilik properti menjaga seluruh proses tetap transparan, terdokumentasi, dan berada dalam kendali hingga proyek selesai.</p>
+                </div>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <Button size="lg" className="w-full sm:w-auto">
+                    <Link href="/assessment">Diskusikan Proyek Anda</Link>
+                  </Button>
+                  <Button size="lg" variant="secondary" className="w-full sm:w-auto">
+                    <Link href="#cara-kerja">Lihat Cara Kami Bekerja</Link>
+                  </Button>
+                </div>
+              </FadeIn>
             </div>
-            <div className="flex justify-center lg:justify-end relative">
-              {/* Decorative glows */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-blue-500/10 blur-[100px] rounded-full pointer-events-none"></div>
-              <HeroPanel />
-            </div>
-          </div>
-          </FadeIn>
-        </Container>
-              </div>
-      </section>
-
-      {/* SECTION 2: Control Strip */}
-      <section className="bg-[#1C2D38] border-y border-white/5 py-8">
-        <Container>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-4 divide-x divide-white/10">
-            <div className="flex flex-col items-center text-center px-4 space-y-3">
-              <FileCheck2 className="w-8 h-8 text-bronze" />
-              <span className="text-sm font-medium text-white tracking-wide">Ruang Lingkup Jelas</span>
-            </div>
-            <div className="flex flex-col items-center text-center px-4 space-y-3">
-              <Eye className="w-8 h-8 text-bronze" />
-              <span className="text-sm font-medium text-white tracking-wide">Progres Dilengkapi Bukti</span>
-            </div>
-            <div className="flex flex-col items-center text-center px-4 space-y-3">
-              <Layers className="w-8 h-8 text-bronze" />
-              <span className="text-sm font-medium text-white tracking-wide">Perubahan Disetujui Tertulis</span>
-            </div>
-            <div className="flex flex-col items-center text-center px-4 space-y-3">
-              <ShieldCheck className="w-8 h-8 text-bronze" />
-              <span className="text-sm font-medium text-white tracking-wide">Garansi Tercatat</span>
+            <div className="lg:col-span-6">
+              <FadeIn delay={200}>
+                <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-zinc-100 border border-zinc-200">
+                  <Image 
+                    src="/images/hero_home_1784553150926.jpg"
+                    alt="Tim TEGAKARA berdiskusi dengan klien di lapangan"
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </div>
+              </FadeIn>
             </div>
           </div>
         </Container>
       </section>
 
-      {/* SECTION 3: Service Selection */}
-      <section className="py-24 bg-[#E8DED0] relative overflow-hidden">
-        {/* Subtle mesh background for glassmorphism pop */}
-        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-400/10 blur-[100px] rounded-full pointer-events-none"></div>
-        <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-purple-400/5 blur-[120px] rounded-full pointer-events-none"></div>
-        
-        <Container className="relative z-10">
-          <FadeIn>
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-4xl font-manrope font-bold text-[#0E1B26] mb-4">Layanan untuk Rumah dan Gedung</h2>
-            <p className="text-[#68757D] text-lg">Pilih layanan sesuai kebutuhan Anda. Setiap proyek menggunakan standar yang sama untuk perencanaan, dokumentasi progres, pemeriksaan mutu, dan perubahan pekerjaan.</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Residential Card */}
-            <div className="group bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-xl transition-all duration-300 flex flex-col">
-              <div className="h-64 bg-slate-100 relative overflow-hidden">
-                <Image 
-                  src="/images/house_renovation_1784551967214.jpg" 
-                  alt="Fasad rumah dua lantai dengan gaya modern"
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-              </div>
-              <div className="p-8 md:p-10 flex-1 flex flex-col">
-                <h3 className="text-2xl font-manrope font-bold text-[#0E1B26] mb-4">Bangun dan Renovasi Rumah</h3>
-                <p className="text-[#68757D] mb-8 leading-relaxed flex-1">
-                  Bangun rumah baru, renovasi besar, atau tambah lantai dengan ruang lingkup, spesifikasi, jadwal, dan perubahan pekerjaan yang dicatat sejak awal.\n\nPelaksanaan disesuaikan dengan kondisi lokasi, kesiapan desain, kebutuhan pemilik, dan skema pengadaan yang disepakati.
-                </p>
-                <Button className="w-full sm:w-auto group-hover:bg-[#0E1B26] group-hover:text-white transition-colors">
-                  <Link href="/residential" className="flex items-center justify-center gap-2">
-                    Lihat Layanan Rumah Tinggal <ArrowRight className="w-4 h-4" />
-                  </Link>
-                </Button>
-              </div>
-            </div>
-
-            {/* Facility Care Card */}
-            <div className="group bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-xl transition-all duration-300 flex flex-col">
-              <div className="h-64 bg-slate-100 relative overflow-hidden">
-                <Image 
-                  src="/images/commercial_building_1784551986230.jpg" 
-                  alt="Perawatan gedung komersial dan fasilitas industri"
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-              </div>
-              <div className="p-8 md:p-10 flex-1 flex flex-col">
-                <h3 className="text-2xl font-manrope font-bold text-[#0E1B26] mb-4">Facility Care</h3>
-                <p className="text-[#68757D] mb-8 leading-relaxed flex-1">
-                  Perbaikan dan perawatan terencana untuk sekolah, gedung komersial, gudang, dan fasilitas operasional, dengan pelaksanaan yang diatur agar gangguan kegiatan harian dapat ditekan.
-                </p>
-                <Button className="w-full sm:w-auto group-hover:bg-[#0E1B26] group-hover:text-white transition-colors">
-                  <Link href="/facility-care" className="flex items-center justify-center gap-2">
-                    Lihat Layanan Facility Care <ArrowRight className="w-4 h-4" />
-                  </Link>
-                </Button>
-              </div>
-            </div>
-          </div>
-          </FadeIn>
-        </Container>
-      </section>
-
-      {/* SECTION 4: Client Anxieties */}
-      <section className="py-24 bg-[#E8DED0]">
+      {/* SECTION 02: THE PROBLEM */}
+      <section className="py-40 bg-zinc-950 text-white">
         <Container>
           <FadeIn>
-          <div className="max-w-3xl mb-16">
-            <h2 className="text-3xl md:text-4xl font-manrope font-bold text-[#0E1B26] leading-tight mb-6">
-              Banyak masalah konstruksi bukan semata persoalan tenaga lapangan, tetapi <span className="text-bronze">sistem kerja yang tidak jelas.</span>
-            </h2>
-            <p className="text-lg text-[#0E1B26]">
-              TEGAKARA menggunakan mekanisme kontrol untuk mengurangi risiko biaya, mutu, keterlambatan, dan perubahan yang tidak terdokumentasi sejak awal proyek.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              { 
-                pain: "Biaya bertambah tanpa penjelasan yang jelas.", 
-                solution: "ScopeLock & Persetujuan Perubahan",
-                desc: "Setiap perubahan dihitung bersama dampaknya terhadap biaya dan jadwal, kemudian disetujui secara tertulis sebelum dikerjakan."
-              },
-              { 
-                pain: "Material atau hasil pekerjaan tidak sesuai dengan spesifikasi yang disepakati.", 
-                solution: "Pemeriksaan Mutu Terbuka",
-                desc: "Spesifikasi dan sampel disetujui sebelum pengadaan. Material yang tiba serta tahapan penting didokumentasikan sebelum pekerjaan ditutup atau dilanjutkan."
-              },
-              { 
-                pain: "Pembayaran dan progres pekerjaan tidak berada pada tahap yang sama.", 
-                solution: "Termin Berdasarkan Tahap Kerja",
-                desc: "Setiap tahap memiliki ruang lingkup, kebutuhan dana, bukti progres, dan kriteria penyelesaian yang jelas. Pekerjaan tahap berikutnya dimulai setelah termin terkait diterima."
-              },
-              { 
-                pain: "Progres sulit dipantau dan laporan proyek tidak tersusun dengan rapi.", 
-                solution: "ProjectView",
-                desc: "Lihat progres, foto pekerjaan, jadwal, keputusan, dan perubahan proyek dalam satu portal yang mudah dipahami."
-              },
-              { 
-                pain: "Kesalahan pada pekerjaan penting baru diketahui setelah pekerjaan ditutup.", 
-                solution: "Quality Hold Point",
-                desc: "Tahapan penting seperti pembesian, pengecoran, pipa tertanam, kelistrikan, dan waterproofing diperiksa sebelum pekerjaan berikutnya dilanjutkan."
-              },
-              { 
-                pain: "Keluhan selama masa garansi sulit dicatat dan dipantau penyelesaiannya.", 
-                solution: "Tiket Garansi Digital",
-                desc: "Setiap laporan dicatat, diperiksa, dan ditindaklanjuti sesuai cakupan serta masa garansi yang tercantum dalam kontrak."
-              }
-            ].map((item, idx) => (
-              <div key={idx} className="bg-white p-8 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
-                <div className="mb-4 text-red-500/90 font-medium text-sm flex items-start gap-2">
-                  <span className="text-red-500 mt-0.5">✕</span> {item.pain}
-                </div>
-                <div className="h-px bg-slate-200/50 w-full my-4"></div>
-                <div className="text-[#0E1B26] font-semibold text-sm flex items-center gap-2 mb-2">
-                  <CheckCircle2 className="w-4 h-4 text-[#25775A]" /> Solusi: {item.solution}
-                </div>
-                <p className="text-[#68757D] text-sm leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-          </FadeIn>
-        </Container>
-      </section>
-
-      {/* SECTION 5: Controlled Delivery System */}
-      <section className="py-24 bg-white">
-        <Container>
-          <FadeIn>
-          <SectionHeader 
-            title="Satu sistem untuk mengendalikan proyek dari awal hingga serah terima."
-            description="Setiap tahap memiliki ruang lingkup, penanggung jawab, bukti pekerjaan, dan persetujuan yang jelas."
-            align="center"
-            className="mb-16"
-          />
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                icon: <Search className="w-6 h-6 text-bronze" />,
-                title: "Project Assessment",
-                desc: "Peninjauan awal terhadap kondisi lokasi, kebutuhan proyek, risiko, dan kesiapan anggaran sebelum ruang lingkup final disusun."
-              },
-              {
-                icon: <FileCheck2 className="w-6 h-6 text-bronze" />,
-                title: "ScopeLock",
-                desc: "Dokumen dasar proyek yang menjelaskan pekerjaan yang termasuk, pekerjaan yang tidak termasuk, spesifikasi material, dan prosedur perubahan."
-              },
-              {
-                icon: <Clock className="w-6 h-6 text-bronze" />,
-                title: "Milestone Planning",
-                desc: "Proyek dibagi menjadi beberapa tahap kerja dengan jadwal, kebutuhan dana, dan kriteria penyelesaian yang jelas."
-              },
-              {
-                icon: <ShieldCheck className="w-6 h-6 text-bronze" />,
-                title: "Quality Hold Point",
-                desc: "Pemeriksaan pada pekerjaan penting—seperti struktur, pipa tertanam, kelistrikan, dan waterproofing—sebelum pekerjaan ditutup atau dilanjutkan."
-              },
-              {
-                icon: <Search className="w-6 h-6 text-bronze" />,
-                title: "ProjectView",
-                desc: "Portal klien untuk melihat progres per area, foto pekerjaan, keputusan, perubahan, dokumen mutu, dan status termin proyek."
-              },
-              {
-                icon: <HardHat className="w-6 h-6 text-bronze" />,
-                title: "Warranty & Facility Care",
-                desc: "Masa garansi, laporan kendala, inspeksi berkala, dan kebutuhan perawatan dicatat hingga tindak lanjut sesuai ketentuan layanan."
-              }
-            ].map((pillar, i) => (
-              <div key={i} className="flex gap-5 items-start">
-                <div className="bg-[#0E1B26]/5 p-3 rounded-lg shrink-0">
-                  {pillar.icon}
-                </div>
-                <div>
-                  <h3 className="font-manrope font-bold text-[#0E1B26] text-lg mb-2">{pillar.title}</h3>
-                  <p className="text-[#68757D] text-sm leading-relaxed">{pillar.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          </FadeIn>
-        </Container>
-      </section>
-
-      {/* SECTION 6: ProjectView Preview */}
-      <section className="py-24 bg-[#0E1B26] border-t border-slate-800 relative overflow-hidden">
-        {/* Glow effect */}
-        <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-blue-500/5 blur-[120px] rounded-full pointer-events-none"></div>
-        
-        <Container className="relative z-10">
-          <FadeIn>
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="inline-block py-1 px-3 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-medium tracking-wide mb-6">
-              Informasi Proyek Lebih Jelas
-            </span>
-            <h2 className="text-3xl md:text-4xl font-manrope font-bold text-white mb-6">
-              Lihat informasi penting proyek dalam satu tempat
-            </h2>
-            <p className="text-slate-400 text-lg">
-              ProjectView memberi Anda kendali penuh atas informasi proyek. Tidak perlu lagi bertanya-tanya &quot;sampai mana progres hari ini?&quot; atau &quot;mengapa biaya bertambah?&quot;.
-            </p>
-          </div>
-
-          <div className="mb-12">
-            <ProjectViewPreview />
-          </div>
-
-          <div className="text-center">
-            <Button size="lg" className="bg-bronze hover:bg-bronze/90 text-[#0E1B26] font-bold px-8 h-14">
-              <Link href="/projectview">Lihat Seluruh Fitur ProjectView</Link>
-            </Button>
-          </div>
-          </FadeIn>
-        </Container>
-      </section>
-
-      {/* SECTION 7: Testimonials */}
-      <section className="py-24 bg-slate-50">
-        <Container>
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-4xl font-manrope font-bold text-[#0E1B26] mb-4">Pengalaman Klien Kami</h2>
-            <p className="text-[#68757D] text-lg">Apa kata mereka yang telah membangun dan merawat properti bersama TEGAKARA.</p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            <FadeIn delay={0.1}>
-              <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 h-full flex flex-col relative">
-                <Quote className="w-10 h-10 text-bronze/20 absolute top-6 right-6" />
-                <p className="text-slate-600 leading-relaxed mb-8 flex-1 relative z-10">
-                  "Sistem pelaporannya rapi banget, tiap hari dikirim update via aplikasi. Gak perlu repot ke proyek tiap sore buat ngecek tukang. Budget juga sesuai RAB dari awal sampai akhir, gak ada biaya siluman."
-                </p>
-                <div className="flex items-center gap-4 border-t border-slate-100 pt-6">
-                  <div className="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center font-bold text-slate-500 font-manrope">BH</div>
-                  <div>
-                    <h4 className="font-bold text-[#0E1B26] font-manrope">Budi H.</h4>
-                    <p className="text-sm text-slate-500">Renovasi Rumah Tinggal</p>
-                  </div>
-                </div>
-              </div>
-            </FadeIn>
-            <FadeIn delay={0.2}>
-              <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 h-full flex flex-col relative">
-                <Quote className="w-10 h-10 text-bronze/20 absolute top-6 right-6" />
-                <p className="text-slate-600 leading-relaxed mb-8 flex-1 relative z-10">
-                  "Awalnya sempet ragu karena penawaran harganya sangat mendetail, tapi ternyata itu yang bikin kita tenang. Spesifikasi materialnya transparan dan pekerjaan struktur dicek bareng sebelum dicor."
-                </p>
-                <div className="flex items-center gap-4 border-t border-slate-100 pt-6">
-                  <div className="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center font-bold text-slate-500 font-manrope">RY</div>
-                  <div>
-                    <h4 className="font-bold text-[#0E1B26] font-manrope">Rina Y.</h4>
-                    <p className="text-sm text-slate-500">Pembangunan Hunian Baru</p>
-                  </div>
-                </div>
-              </div>
-            </FadeIn>
-            <FadeIn delay={0.3}>
-              <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 h-full flex flex-col relative">
-                <Quote className="w-10 h-10 text-bronze/20 absolute top-6 right-6" />
-                <p className="text-slate-600 leading-relaxed mb-8 flex-1 relative z-10">
-                  "Pekerjaan waterproofing atap gudang kami diselesaikan sesuai jadwal padahal lagi musim hujan. Standar safety timnya bagus banget, gak bikin khawatir operasi pabrik terganggu."
-                </p>
-                <div className="flex items-center gap-4 border-t border-slate-100 pt-6">
-                  <div className="w-12 h-12 bg-slate-200 rounded-full flex items-center justify-center font-bold text-slate-500 font-manrope">AS</div>
-                  <div>
-                    <h4 className="font-bold text-[#0E1B26] font-manrope">Arief S.</h4>
-                    <p className="text-sm text-slate-500">Perawatan Fasilitas Pabrik</p>
-                  </div>
-                </div>
-              </div>
-            </FadeIn>
-          </div>
-        </Container>
-      </section>
-
-      {/* SECTION 8: Portfolio placeholder/neutral layout */}
-      <section className="py-24 bg-[#1C2D38]">
-        <Container>
-          <div className="flex flex-col md:flex-row justify-between items-end gap-6 mb-12">
-            <div className="max-w-2xl">
-              <h2 className="text-3xl md:text-4xl font-manrope font-bold text-white mb-4">Lihat Proyek yang Telah Kami Kerjakan</h2>
-              <p className="text-slate-300 text-lg">
-                Kami hanya menampilkan proyek yang telah mendapat izin publikasi. Informasi proyek lainnya tetap kami jaga sesuai kesepakatan dengan klien.
-              </p>
-            </div>
-            <Button className="bg-white text-[#0E1B26] hover:bg-slate-100 shrink-0">
-              <Link href="/portfolio">Lihat Semua Proyek</Link>
-            </Button>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            <ProjectCard 
-              title="Pembangunan Rumah Tinggal Modern Minimalis"
-              category="Rumah Tinggal"
-              location="CitraLand, Surabaya"
-              href="/portfolio/rumah-tinggal-citraland"
-              imageUrl="/images/house_renovation_1784551967214.jpg"
-            />
-            <ProjectCard 
-              title="Fasad & Perawatan Gedung Perkantoran"
-              category="Gedung Komersial"
-              location="Pusat Kota Surabaya"
-              href="/portfolio/gedung-perkantoran-surabaya"
-              imageUrl="/images/commercial_building_1784551986230.jpg"
-            />
-          </div>
-        </Container>
-      </section>
-
-      {/* SECTION 9: Why Clients Choose */}
-      <section className="py-24 bg-white overflow-hidden">
-        <Container>
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-manrope font-bold text-[#0E1B26] mb-6 leading-tight">
-                Mengapa memilih TEGAKARA?
+            <div className="max-w-3xl mb-24">
+              <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-8">
+                Mengapa Banyak Proyek Menjadi Lebih Sulit Dari Yang Seharusnya?
               </h2>
-              <div className="space-y-8 mt-12">
-                {[
-                  {
-                    title: "Ruang Lingkup Jelas, Bukan Janji Umum",
-                    desc: "Ruang lingkup, spesifikasi, jadwal, dan prosedur perubahan dicatat sejak awal. Setiap perubahan dibahas dan disetujui sebelum dikerjakan."
-                  },
-                  {
-                    title: "Pekerjaan Penting Diperiksa Sebelum Ditutup",
-                    desc: "Quality Hold Point digunakan untuk memeriksa tahapan penting sebelum pekerjaan berikutnya dilanjutkan, sehingga risiko kesalahan tersembunyi dapat dikurangi."
-                  },
-                  {
-                    title: "Progres Dibuktikan, Bukan Sekadar Dilaporkan",
-                    desc: "Laporan progres dan status tahap pekerjaan dilengkapi foto, catatan lapangan, serta hasil pemeriksaan yang relevan."
-                  }
-                ].map((item, idx) => (
-                  <div key={idx} className="flex gap-4">
-                    <div className="mt-1 bg-bronze/10 p-2 rounded-full h-fit">
-                      <CheckSquare className="w-5 h-5 text-bronze" />
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-manrope font-bold text-[#0E1B26] mb-2">{item.title}</h3>
-                      <p className="text-[#68757D] leading-relaxed">{item.desc}</p>
-                    </div>
-                  </div>
-                ))}
+              <div className="text-xl text-zinc-400 leading-relaxed space-y-6">
+                <p>Sebagian besar proyek tidak bermasalah karena kurangnya tenaga kerja.</p>
+                <p>Masalah justru muncul ketika proses berjalan tanpa sistem yang jelas.</p>
+                <p>Tanpa dokumentasi, komunikasi yang baik, dan pengendalian yang konsisten, proyek yang seharusnya sederhana dapat berubah menjadi sumber stres, pembengkakan biaya, dan keterlambatan.</p>
               </div>
             </div>
-            
-            <div className="relative">
-              <div className="aspect-square max-w-md mx-auto rounded-full bg-[#1C2D38] flex items-center justify-center p-12 relative z-10">
-                <div className="text-center">
-                  <div className="w-20 h-20 bg-bronze rounded-full flex items-center justify-center mx-auto mb-6">
-                    <ShieldCheck className="w-10 h-10 text-white" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-white mb-4">Garansi Sesuai Lingkup Pekerjaan</h3>
-                  <p className="text-slate-300">Cakupan dan masa garansi dijelaskan dalam kontrak.</p>
-                  <p className="text-sm text-slate-400 mt-6 border-t border-slate-700 pt-6">
-                    Laporan kendala dapat dicatat dan dipantau melalui tiket garansi digital.
-                  </p>
+
+            <div className="grid md:grid-cols-2 gap-px bg-zinc-800 border border-zinc-800">
+              {[
+                { title: "Biaya Sulit Dikendalikan", desc: "Perubahan pekerjaan yang tidak tercatat sering menyebabkan anggaran berkembang tanpa disadari." },
+                { title: "Progress Tidak Transparan", desc: "Pemilik proyek sering tidak mengetahui pekerjaan apa yang sudah selesai dan apa yang sedang berjalan." },
+                { title: "Komunikasi Terputus", desc: "Keputusan penting sering hanya disampaikan secara lisan sehingga mudah terjadi salah persepsi." },
+                { title: "Kualitas Tidak Konsisten", desc: "Tanpa sistem pemeriksaan yang jelas, kualitas pekerjaan bergantung pada kebiasaan masing-masing pelaksana." }
+              ].map((item, idx) => (
+                <div key={idx} className="bg-zinc-950 p-12 hover:bg-zinc-900 transition-colors">
+                  <h3 className="text-xl font-manrope font-bold text-zinc-100 mb-4">{item.title}</h3>
+                  <p className="text-zinc-500 leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </FadeIn>
+        </Container>
+      </section>
+
+      {/* SECTION 03: THE INSIGHT */}
+      <section className="py-40 bg-white border-b border-zinc-200">
+        <Container>
+          <FadeIn>
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-12">
+                Proyek Tidak Berhasil Karena Tidak Ada Masalah.
+                <br /><span className="text-zinc-400">Proyek Berhasil Karena Setiap Masalah Dikendalikan.</span>
+              </h2>
+              <div className="text-xl text-zinc-600 leading-relaxed space-y-6">
+                <p>Dalam setiap proyek akan selalu ada perubahan, tantangan, dan keputusan yang harus diambil.</p>
+                <p>Yang membedakan proyek yang berjalan baik bukanlah tidak adanya masalah.</p>
+                <p>Melainkan adanya sistem yang memastikan setiap perubahan terdokumentasi, setiap keputusan memiliki dasar, dan setiap progres dapat dipantau dengan jelas.</p>
+                <p className="font-bold text-zinc-900">Inilah pendekatan yang menjadi dasar cara kerja TEGAKARA.</p>
+              </div>
+            </div>
+          </FadeIn>
+        </Container>
+      </section>
+
+      {/* SECTION 04: OUR APPROACH */}
+      <section id="cara-kerja" className="py-40 bg-zinc-50 border-b border-zinc-200">
+        <Container>
+          <FadeIn>
+            <div className="grid lg:grid-cols-12 gap-16">
+              <div className="lg:col-span-5">
+                <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
+                  Cara Kami Menjaga Proyek Tetap Dalam Kendali
+                </h2>
+                <div className="text-xl text-zinc-600 leading-relaxed space-y-6 mb-12">
+                  <p>Kami percaya bahwa hasil terbaik lahir dari proses yang dapat dipertanggungjawabkan.</p>
+                  <p>Karena itu kami membangun setiap proyek menggunakan sistem kerja yang mengutamakan transparansi, koordinasi, dan dokumentasi.</p>
+                </div>
+                <Button variant="secondary">
+                  <Link href="/projectview">Pelajari Cara Kami Mengelola Proyek</Link>
+                </Button>
+              </div>
+
+              <div className="lg:col-span-7">
+                <div className="space-y-12">
+                  {[
+                    { title: "Scope yang Jelas", desc: "Seluruh ruang lingkup pekerjaan disepakati sejak awal sehingga semua pihak memahami apa yang akan dikerjakan." },
+                    { title: "Dokumentasi Perubahan", desc: "Setiap perubahan dibahas, dicatat, dan disetujui sebelum dilaksanakan." },
+                    { title: "Monitoring Berkala", desc: "Klien memperoleh laporan perkembangan proyek secara berkala tanpa harus selalu berada di lokasi." },
+                    { title: "Quality Control", desc: "Setiap tahapan pekerjaan diperiksa sebelum berlanjut ke tahap berikutnya." },
+                    { title: "Komunikasi Terpusat", desc: "Seluruh koordinasi dilakukan melalui jalur komunikasi yang jelas sehingga informasi tidak terpecah." }
+                  ].map((item, idx) => (
+                    <div key={idx} className="flex gap-6">
+                      <div className="text-sm font-bold text-zinc-300 font-mono pt-1">0{idx + 1}</div>
+                      <div>
+                        <h4 className="text-xl font-manrope font-bold text-zinc-900 mb-3">{item.title}</h4>
+                        <p className="text-zinc-600 leading-relaxed">{item.desc}</p>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
-              {/* Decorative circles */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-lg aspect-square rounded-full border border-slate-200 -z-10"></div>
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-xl aspect-square rounded-full border border-slate-100 -z-10"></div>
             </div>
+          </FadeIn>
+        </Container>
+      </section>
+
+      {/* SECTION 05: WHY TEGAKARA */}
+      <section className="py-40 bg-zinc-950 text-white">
+        <Container>
+          <FadeIn>
+            <div className="grid lg:grid-cols-12 gap-16 items-center">
+              <div className="lg:col-span-6">
+                <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-8">
+                  Kami Tidak Menjanjikan Proyek Tanpa Tantangan.
+                  <br /><span className="text-zinc-500">Kami Menjanjikan Proyek Yang Tetap Dalam Kendali.</span>
+                </h2>
+                <div className="text-xl text-zinc-400 leading-relaxed space-y-6">
+                  <p>Keberhasilan proyek bukan ditentukan oleh janji bahwa semuanya akan berjalan sempurna.</p>
+                  <p>Keberhasilan ditentukan oleh bagaimana setiap tantangan direspons secara cepat, transparan, dan terdokumentasi.</p>
+                  <p>Itulah komitmen yang kami pegang dalam setiap proyek.</p>
+                </div>
+              </div>
+              <div className="lg:col-span-6">
+                <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 md:p-12 space-y-6">
+                  {[
+                    "Setiap perubahan memiliki dokumentasi.",
+                    "Setiap progres memiliki laporan.",
+                    "Setiap keputusan memiliki dasar.",
+                    "Setiap pekerjaan memiliki standar pemeriksaan.",
+                    "Setiap klien mengetahui perkembangan proyeknya."
+                  ].map((point, idx) => (
+                    <div key={idx} className="flex items-start gap-4">
+                      <CheckCircle2 className="w-6 h-6 text-zinc-500 shrink-0" />
+                      <p className="text-zinc-300 font-medium">{point}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </FadeIn>
+        </Container>
+      </section>
+
+      {/* SECTION 06: PROJECT CASE STUDIES */}
+      <section className="py-40 bg-white border-b border-zinc-200">
+        <Container>
+          <FadeIn>
+            <div className="grid lg:grid-cols-12 gap-16 mb-24">
+              <div className="lg:col-span-6">
+                <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
+                  Bukti Terbaik Bukan Klaim.
+                  <br /><span className="text-zinc-400">Tetapi Proyek Yang Dapat Dipertanggungjawabkan.</span>
+                </h2>
+              </div>
+              <div className="lg:col-span-6">
+                <div className="text-xl text-zinc-600 leading-relaxed space-y-6 mb-8">
+                  <p>Setiap proyek memiliki tantangan yang berbeda.</p>
+                  <p>Karena itu kami tidak hanya menampilkan hasil akhirnya, tetapi juga bagaimana proses pengambilan keputusan dilakukan hingga proyek selesai.</p>
+                </div>
+                <Button variant="secondary">
+                  <Link href="/portfolio">Lihat Semua Studi Kasus</Link>
+                </Button>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-px bg-zinc-200 border border-zinc-200">
+              <div className="bg-white hover:bg-zinc-50 transition-colors p-8 sm:p-12 block group cursor-pointer border border-transparent hover:border-zinc-300">
+                <Link href="/portfolio/rumah-tinggal-citraland">
+                  <div className="aspect-[4/3] bg-zinc-100 mb-8 relative overflow-hidden rounded-lg">
+                    <Image src="/images/hero_residential_1784553175729.jpg" fill alt="Residential" className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                  </div>
+                  <h3 className="text-2xl font-manrope font-bold text-zinc-900 mb-4">Rumah Tinggal Citraland</h3>
+                  <p className="text-zinc-600 leading-relaxed mb-6">Pembangunan hunian dengan sistem pelaporan terstruktur yang memudahkan klien memantau dari luar kota.</p>
+                  <span className="inline-flex items-center text-sm font-bold text-zinc-900">
+                    Baca Studi Kasus <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </span>
+                </Link>
+              </div>
+              
+              <div className="bg-white hover:bg-zinc-50 transition-colors p-8 sm:p-12 block group cursor-pointer border border-transparent hover:border-zinc-300">
+                <Link href="/portfolio/fasilitas-sekolah-sidoarjo">
+                  <div className="aspect-[4/3] bg-zinc-100 mb-8 relative overflow-hidden rounded-lg">
+                    <Image src="/images/school_facility_1784552005374.jpg" fill alt="Facility Care" className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                  </div>
+                  <h3 className="text-2xl font-manrope font-bold text-zinc-900 mb-4">Maintenance Fasilitas Sekolah</h3>
+                  <p className="text-zinc-600 leading-relaxed mb-6">Program pemeliharaan terjadwal untuk memastikan operasional sekolah berjalan tanpa gangguan.</p>
+                  <span className="inline-flex items-center text-sm font-bold text-zinc-900">
+                    Baca Studi Kasus <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </span>
+                </Link>
+              </div>
+            </div>
+          </FadeIn>
+        </Container>
+      </section>
+
+      {/* SECTION 07: OUR PROCESS */}
+      <section className="py-40 bg-zinc-50 border-b border-zinc-200">
+        <Container>
+          <FadeIn>
+            <div className="max-w-3xl mb-24">
+              <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
+                Apa Yang Akan Terjadi Setelah Anda Menghubungi Kami?
+              </h2>
+              <p className="text-xl text-zinc-600 leading-relaxed">
+                Kami menggunakan proses yang jelas agar setiap tahap proyek dapat dipahami sejak awal.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-y-16 gap-x-12 mb-24">
+              {[
+                { title: "Diskusi Awal", desc: "Kami memahami kebutuhan, tujuan, dan kondisi proyek Anda." },
+                { title: "Survey Lokasi", desc: "Tim melakukan peninjauan untuk memperoleh gambaran teknis secara langsung." },
+                { title: "Perencanaan", desc: "Kami menyusun ruang lingkup pekerjaan, estimasi biaya, dan pendekatan pelaksanaan." },
+                { title: "Kesepakatan", desc: "Seluruh pekerjaan disepakati sebelum proyek dimulai." },
+                { title: "Pelaksanaan", desc: "Tim menjalankan pekerjaan sesuai rencana yang telah disetujui." },
+                { title: "Monitoring", desc: "Kami memberikan laporan perkembangan proyek secara berkala." },
+                { title: "Serah Terima", desc: "Kami memastikan pekerjaan selesai sesuai standar yang telah ditetapkan." }
+              ].map((item, idx) => (
+                <div key={idx} className="relative">
+                  <div className="text-xs font-bold text-zinc-400 mb-4 font-mono border-b border-zinc-300 pb-2">STEP 0{idx + 1}</div>
+                  <h3 className="font-manrope font-bold text-zinc-900 text-xl mb-3">{item.title}</h3>
+                  <p className="text-zinc-600 leading-relaxed text-sm">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+
+            <Button size="lg">
+              <Link href="/kontak">Mulai Dengan Diskusi Awal</Link>
+            </Button>
+          </FadeIn>
+        </Container>
+      </section>
+
+      {/* SECTION 08: TESTIMONIALS */}
+      <section className="py-40 bg-zinc-950 text-white">
+        <Container>
+          <FadeIn>
+            <div className="max-w-4xl mx-auto text-center mb-24">
+              <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-8">
+                Kepercayaan Dibangun Dari Pengalaman Nyata.
+              </h2>
+              <div className="text-xl text-zinc-400 leading-relaxed space-y-6">
+                <p>Kami percaya bahwa kepuasan klien tidak hanya diukur dari bangunan yang selesai.</p>
+                <p>Tetapi juga dari pengalaman selama proses pengerjaan berlangsung.</p>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              {testimonials.map((testi, idx) => (
+                <div key={idx} className="bg-zinc-900 border border-zinc-800 p-8 rounded-2xl flex flex-col">
+                  <p className="text-zinc-300 leading-relaxed mb-8 flex-grow">"{testi.quote}"</p>
+                  <div className="pt-6 border-t border-zinc-800">
+                    <p className="text-zinc-500 text-sm mb-4 italic">{testi.initial}</p>
+                    <p className="font-bold text-zinc-100">{testi.name}</p>
+                    <p className="text-zinc-500 text-sm">{testi.role}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </FadeIn>
+        </Container>
+      </section>
+
+      {/* SECTION 09: FAQ */}
+      <section className="py-40 bg-white border-b border-zinc-200">
+        <Container>
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-4xl font-manrope font-bold text-zinc-900 mb-16 tracking-tight">
+              Pertanyaan Yang Sering Ditanyakan
+            </h2>
+            <FaqAccordion faqs={faqs} />
           </div>
         </Container>
       </section>
 
-      {/* SECTION 10: Qualification CTA */}
-      <section className="py-24 bg-[#0E1B26] relative overflow-hidden">
-        {/* Abstract pattern */}
-        <div className="absolute inset-0 opacity-10" 
-             style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, #B88A4A 1px, transparent 0)', backgroundSize: '32px 32px' }}>
-        </div>
-        
-        <Container className="relative z-10">
-          <div className="max-w-4xl mx-auto text-center border border-[#1C2D38] bg-[#0E1B26]/50 p-12 rounded-2xl backdrop-blur-sm">
-            <h2 className="text-3xl md:text-5xl font-manrope font-bold text-white mb-6">
-              Ceritakan kebutuhan proyek Anda.
+      {/* SECTION 10: FINAL CTA */}
+      <section className="py-40 bg-zinc-50">
+        <Container>
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 mb-8 tracking-tight leading-tight">
+              Setiap Proyek Dimulai Dari Keputusan Yang Tepat.
             </h2>
-            <p className="text-slate-300 text-xl mb-10 max-w-2xl mx-auto leading-relaxed">
-              Kami meninjau jenis pekerjaan, lokasi, anggaran, jadwal, skema pembayaran, dan kapasitas tim sebelum menerima proyek.
+            <p className="text-xl text-zinc-600 mb-12 leading-relaxed">
+              Jika Anda sedang merencanakan pembangunan, renovasi, atau pengelolaan fasilitas, mari mulai dengan sebuah percakapan.
+              <br /><br />
+              Kami akan membantu Anda memahami langkah yang perlu dipersiapkan agar proyek berjalan lebih terarah, transparan, dan terkendali.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button size="lg" className="bg-bronze hover:bg-bronze/90 text-[#0E1B26] font-bold px-8 h-14 text-lg w-full sm:w-auto">
-                <Link href="/assessment">Mulai Penilaian Proyek</Link>
+              <Button size="lg" className="w-full sm:w-auto">
+                <Link href="/assessment">Jadwalkan Diskusi Proyek</Link>
               </Button>
-              <Button size="lg" variant="secondary" className="border-slate-600 text-slate-300 hover:bg-slate-800 hover:text-white h-14 w-full sm:w-auto bg-transparent">
+              <Button size="lg" variant="secondary" className="w-full sm:w-auto">
                 <Link href="https://wa.me/6281112345678" target="_blank" className="flex items-center gap-2">
-                  <MessageCircle className="w-5 h-5" /> Chat via WhatsApp
+                  <MessageCircle className="w-4 h-4" /> Hubungi Kami via WhatsApp
                 </Link>
-              </Button>
-            </div>
-            <p className="text-slate-400 text-sm mt-6">
-              Formulir penilaian bersifat tidak mengikat. Atau gunakan WhatsApp untuk tanya jawab ringan.
-            </p>
-          </div>
-        </Container>
-      </section>
-
-      {/* SECTION 11: FAQ */}
-      <section className="py-24 bg-white">
-        <Container>
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-manrope font-bold text-[#0E1B26] mb-4">
-              Pertanyaan Umum
-            </h2>
-            <p className="text-[#68757D] text-lg">
-              Jawaban singkat atas pertanyaan yang paling sering diajukan calon klien.
-            </p>
-          </div>
-          
-          <div className="max-w-3xl mx-auto">
-            <FaqAccordion faqs={generalFaqs} />
-            
-            <div className="mt-12 text-center p-6 bg-slate-50 rounded-xl border border-slate-200">
-              <p className="text-[#0E1B26] mb-4 font-medium">Masih memiliki pertanyaan tentang proyek Anda?</p>
-              <Button variant="secondary" className="border-[#0E1B26] text-[#0E1B26] hover:bg-[#0E1B26] hover:text-white">
-                <Link href="/kontak">Hubungi Tim TEGAKARA</Link>
               </Button>
             </div>
           </div>

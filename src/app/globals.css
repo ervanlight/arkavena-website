@@ -2,32 +2,26 @@
 
 /* =========================================
    TEGAKARA Design System — Global Styles
+   Aesthetic: Project Control, Linear/Apple/Notion
    ========================================= */
 
 @theme inline {
-  /* Colors */
-  --color-midnight: #0E1B26;
-  --color-slate: #1C2D38;
-  --color-bronze: #B88A4A;
-  --color-bronze-light: #C9A06A;
-  --color-bronze-dark: #9A7340;
-  --color-sandstone: #E8DED0;
-  --color-warm-white: #F6F3ED;
-  --color-body: #26333C;
-  --color-muted: #68757D;
-  --color-success: #25775A;
-  --color-success-light: #E8F5EE;
-  --color-warning: #A76B1F;
-  --color-warning-light: #FFF3E0;
-  --color-error: #A33C3C;
-  --color-error-light: #FDEAEA;
-  --color-border: #D1D5DB;
-  --color-border-light: #E5E7EB;
+  /* Colors - Stark Monochromatic with subtle accents */
+  --color-midnight: #09090b; /* zinc-950 */
+  --color-slate: #18181b; /* zinc-900 */
+  --color-bronze: #8b5cf6; /* Let's use a subtle brand color if needed, but we'll mostly use zinc */
+  --color-sandstone: #f4f4f5; /* zinc-100 */
+  --color-warm-white: #ffffff; /* pure white */
+  --color-body: #3f3f46; /* zinc-700 */
+  --color-muted: #71717a; /* zinc-500 */
+  --color-success: #10b981; /* emerald-500 */
+  --color-warning: #f59e0b; /* amber-500 */
+  --color-error: #ef4444; /* red-500 */
+  --color-border: #e4e4e7; /* zinc-200 */
   
   /* Fonts */
-  --font-heading: var(--font-manrope), system-ui, sans-serif;
-  --font-body: var(--font-inter), system-ui, sans-serif;
-  --font-editorial: var(--font-source-serif), Georgia, serif;
+  --font-heading: var(--font-manrope), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-body: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 /* Base styles */
@@ -53,7 +47,8 @@ html {
     background: var(--color-warm-white);
     color: var(--color-body);
     font-family: var(--font-body);
-    line-height: 1.7;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
   }
 }
 
@@ -61,13 +56,16 @@ html {
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     color: var(--color-midnight);
-    line-height: 1.2;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
   }
+  
+  h1 { letter-spacing: -0.04em; }
 }
 
 /* Focus styles */
 :focus-visible {
-  outline: 2px solid var(--color-bronze);
+  outline: 2px solid var(--color-midnight);
   outline-offset: 2px;
 }
 
@@ -82,7 +80,7 @@ html {
   padding: 0.75rem 1.5rem;
   border-radius: 0 0 0.5rem 0.5rem;
   z-index: 100;
-  font-weight: 600;
+  font-weight: 500;
   transition: top 0.2s;
 }
 .skip-to-content:focus {
@@ -91,59 +89,31 @@ html {
 
 /* Selection */
 ::selection {
-  background: var(--color-bronze);
-  color: var(--color-midnight);
+  background: var(--color-slate);
+  color: var(--color-warm-white);
 }
 
-/* Blueprint grid subtle background pattern */
-.bg-blueprint {
-  background-image: 
-    linear-gradient(rgba(184, 138, 74, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(184, 138, 74, 0.03) 1px, transparent 1px);
-  background-size: 40px 40px;
-}
-
-.bg-blueprint-light {
-  background-image: 
-    linear-gradient(rgba(184, 138, 74, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(184, 138, 74, 0.06) 1px, transparent 1px);
-  background-size: 40px 40px;
-}
-
-/* Scrollbar */
+/* Scrollbar - Minimal */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
+  height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--color-warm-white);
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--color-muted);
-  border-radius: 4px;
+  background: var(--color-border);
+  border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-slate);
-}
-
-/* Architectural line accent */
-.line-accent {
-  position: relative;
-}
-.line-accent::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 3px;
-  height: 100%;
-  background: var(--color-bronze);
+  background: var(--color-muted);
 }
 
 /* Fade-in animation */
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(10px);
   }
   to {
     opacity: 1;
@@ -152,7 +122,7 @@ html {
 }
 
 .animate-fade-in-up {
-  animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation: fadeInUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   opacity: 0;
 }
 
@@ -163,18 +133,18 @@ html {
 .delay-400 { animation-delay: 400ms; }
 .delay-500 { animation-delay: 500ms; }
 
-/* Image placeholder architectural patterns */
-.img-placeholder {
-  background: linear-gradient(135deg, var(--color-sandstone) 0%, #DDD5C6 100%);
-  position: relative;
-  overflow: hidden;
+/* Custom scrollbar for horizontal containers */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
 }
-.img-placeholder::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: 
-    linear-gradient(rgba(14, 27, 38, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(14, 27, 38, 0.05) 1px, transparent 1px);
-  background-size: 20px 20px;
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.1);
+  border-radius: 2px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.2);
 }

@@ -1,78 +1,138 @@
-import { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
+import { Metadata } from 'next';
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
+import { Container } from '@/components/ui/container';
+import { FadeIn } from '@/components/shared/fade-in';
+import { CheckCircle2, ShieldCheck, FileText, Activity } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: "Trust Center | Transparansi & Kepatuhan TEGAKARA",
-  description: "Dokumentasi legal, kebijakan keselamatan (HSE), mutu (Quality), privasi, dan standar asuransi yang mengatur operasional TEGAKARA.",
+  title: 'Trust Center — TEGAKARA',
+  description: 'Dokumentasi legal, kebijakan keselamatan (HSE), mutu (Quality), privasi, dan standar asuransi yang mengatur operasional TEGAKARA.',
 };
 
 export default function TrustCenterPage() {
   return (
-    <main className="min-h-screen bg-white text-[#0E1B26]">
-      <section className="relative overflow-hidden z-0 bg-[#0E1B26] text-white py-16 px-6">
-        <Image 
-          src="/images/hero_trust_1784553259220.jpg"
-          alt="Hero Background"
-          fill
-          className="object-cover opacity-20 mix-blend-overlay pointer-events-none"
-          priority
-        />
-        <div className="relative z-10 w-full">
-        <div className="max-w-5xl mx-auto mt-10">
-          <h1 className="text-4xl font-bold font-manrope mb-4 text-white">Trust Center</h1>
-          <p className="text-xl text-[#E8DED0]">
-            Pusat informasi mengenai legalitas, kebijakan mutu, kepatuhan keselamatan (HSE), dan komitmen privasi kami.
-          </p>
-        </div>
+    <>
+      {/* SECTION 01: HERO */}
+      <section className="bg-zinc-950 text-white pt-40 pb-40 border-b border-zinc-900">
+        <Container>
+          <FadeIn>
+            <div className="max-w-4xl">
+              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-8">
+                Trust & Compliance
+              </span>
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-manrope font-bold text-zinc-50 leading-[1.05] tracking-tight mb-8">
+                Kepercayaan Dibangun
+                <br /><span className="text-zinc-500">Dengan Transparansi & Kepatuhan.</span>
+              </h1>
+              <div className="text-xl text-zinc-400 leading-relaxed font-inter max-w-3xl space-y-6">
+                <p>Pusat informasi mengenai legalitas, kebijakan mutu, kepatuhan keselamatan (HSE), sertifikasi, dan komitmen privasi kami.</p>
               </div>
+            </div>
+          </FadeIn>
+        </Container>
       </section>
 
-      <section className="py-20 px-6">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-          <div className="md:col-span-1 space-y-4">
-            <h3 className="font-bold text-lg text-[#0E1B26] border-b pb-2 border-[#E8DED0]">Navigasi Kebijakan</h3>
-            <ul className="space-y-2 text-sm">
-              <li><a href="#kualitas" className="text-[#68757D] hover:text-[#B88A4A]">Standar Mutu (Quality)</a></li>
-              <li><a href="#keselamatan" className="text-[#68757D] hover:text-[#B88A4A]">HSE & Keselamatan</a></li>
-              <li><a href="#garansi" className="text-[#68757D] hover:text-[#B88A4A]">Garansi & Retensi</a></li>
-              <li><a href="#legal" className="text-[#68757D] hover:text-[#B88A4A]">Legal & Asuransi</a></li>
-            </ul>
-          </div>
-          
-          <div className="md:col-span-2 space-y-12">
+      {/* SECTION 02: CONTENT */}
+      <section className="py-40 bg-white border-b border-zinc-200">
+        <Container>
+          <div className="grid lg:grid-cols-12 gap-16">
             
-            <div id="kualitas" className="bg-white p-8 rounded-lg border border-[#E8DED0] shadow-sm">
-              <h2 className="text-2xl font-bold font-manrope text-[#0E1B26] mb-4">Manajemen Mutu & Material</h2>
-              <p className="text-sm text-[#68757D] mb-4">
-                Setiap penerimaan material utama di lapangan wajib melalui pemeriksaan kesesuaian dengan Rencana Anggaran Biaya (RAB) dan spesifikasi teknis. Kami menerapkan <strong>Quality Hold Points</strong>, di mana pekerjaan tidak bisa dilanjutkan ke tahap berikutnya sebelum tahap kritis (misalnya pembesian sebelum pengecoran) diinspeksi.
-              </p>
+            {/* SIDEBAR NAVIGATION */}
+            <div className="lg:col-span-4">
+              <FadeIn>
+                <div className="sticky top-32">
+                  <h3 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-6 border-b border-zinc-200 pb-4">
+                    Navigasi Kebijakan
+                  </h3>
+                  <ul className="space-y-4 font-medium text-zinc-600">
+                    <li><a href="#sertifikasi" className="hover:text-zinc-900 transition-colors">Legalitas & Sertifikasi</a></li>
+                    <li><a href="#kualitas" className="hover:text-zinc-900 transition-colors">Standar Mutu (Quality)</a></li>
+                    <li><a href="#keselamatan" className="hover:text-zinc-900 transition-colors">HSE & Keselamatan</a></li>
+                    <li><a href="#garansi" className="hover:text-zinc-900 transition-colors">Garansi & Retensi</a></li>
+                  </ul>
+                </div>
+              </FadeIn>
             </div>
 
-            <div id="keselamatan" className="bg-white p-8 rounded-lg border border-[#E8DED0] shadow-sm">
-              <h2 className="text-2xl font-bold font-manrope text-[#0E1B26] mb-4">Health, Safety, and Environment (HSE)</h2>
-              <p className="text-sm text-[#68757D] mb-4">
-                Kami mewajibkan penggunaan Alat Pelindung Diri (APD) standar bagi seluruh pekerja dan staf di lapangan. Untuk proyek komersial dan industri, kami dapat mematuhi sistem izin kerja (Permit to Work) sesuai regulasi fasilitas klien.
-              </p>
-            </div>
+            {/* MAIN CONTENT */}
+            <div className="lg:col-span-8 space-y-24">
+              
+              <FadeIn delay={100}>
+                <div id="sertifikasi" className="scroll-mt-32">
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="p-3 bg-zinc-100 rounded-lg">
+                      <FileText className="w-6 h-6 text-zinc-900" />
+                    </div>
+                    <h2 className="text-3xl font-manrope font-bold text-zinc-900 tracking-tight">Legalitas & Sertifikasi</h2>
+                  </div>
+                  <div className="text-lg text-zinc-600 leading-relaxed space-y-6 mb-8">
+                    <p>Sebagai perusahaan kontraktor yang profesional, TEGAKARA beroperasi di bawah payung hukum yang sah dan memiliki sertifikasi badan usaha yang diakui oleh negara untuk memastikan setiap proyek dapat dipertanggungjawabkan secara hukum dan regulasi.</p>
+                  </div>
+                  <div className="grid sm:grid-cols-2 gap-6">
+                    <div className="p-6 bg-zinc-50 border border-zinc-200 rounded-xl">
+                      <h4 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-2">Sertifikat Badan Usaha (SBU)</h4>
+                      <p className="font-bold text-zinc-900 text-lg mb-2">Jasa Pelaksana Konstruksi</p>
+                      <p className="text-sm text-zinc-600">Terdaftar dan diverifikasi oleh LPJK (Lembaga Pengembangan Jasa Konstruksi) untuk kualifikasi pelaksanaan bangunan gedung dan sipil.</p>
+                    </div>
+                    <div className="p-6 bg-zinc-50 border border-zinc-200 rounded-xl">
+                      <h4 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-2">Nomor Induk Berusaha (NIB)</h4>
+                      <p className="font-bold text-zinc-900 text-lg mb-2">Izin Usaha Terintegrasi</p>
+                      <p className="text-sm text-zinc-600">Memiliki izin usaha resmi melalui sistem OSS (Online Single Submission) dari Kementerian Investasi/BKPM.</p>
+                    </div>
+                  </div>
+                </div>
+              </FadeIn>
 
-            <div id="garansi" className="bg-white p-8 rounded-lg border border-[#E8DED0] shadow-sm">
-              <h2 className="text-2xl font-bold font-manrope text-[#0E1B26] mb-4">Kebijakan Garansi & Retensi</h2>
-              <p className="text-sm text-[#68757D] mb-4">
-                Setiap penyelesaian proyek konstruksi disertai dengan Masa Pemeliharaan (Defect Liability Period) yang diatur dalam kontrak, di mana sebagian nilai pembayaran ditahan sebagai retensi hingga masa pemeliharaan selesai dan cacat fisik yang mungkin timbul diperbaiki.
-              </p>
-            </div>
+              <FadeIn delay={150}>
+                <div id="kualitas" className="scroll-mt-32">
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="p-3 bg-zinc-100 rounded-lg">
+                      <ShieldCheck className="w-6 h-6 text-zinc-900" />
+                    </div>
+                    <h2 className="text-3xl font-manrope font-bold text-zinc-900 tracking-tight">Manajemen Mutu & Material</h2>
+                  </div>
+                  <div className="text-lg text-zinc-600 leading-relaxed space-y-6">
+                    <p>Setiap penerimaan material utama di lapangan wajib melalui pemeriksaan kesesuaian dengan Rencana Anggaran Biaya (RAB) dan spesifikasi teknis.</p>
+                    <p>Kami menerapkan <strong>Quality Hold Points</strong>, di mana pekerjaan tidak bisa dilanjutkan ke tahap berikutnya sebelum tahap kritis (misalnya pembesian sebelum pengecoran) diinspeksi dan disetujui bersama.</p>
+                  </div>
+                </div>
+              </FadeIn>
 
-            <div id="legal" className="bg-white p-8 rounded-lg border border-[#E8DED0] shadow-sm">
-              <h2 className="text-2xl font-bold font-manrope text-[#0E1B26] mb-4">Kepatuhan Hukum & Privasi</h2>
-              <p className="text-sm text-[#68757D] mb-4">
-                Informasi desain, anggaran, dan data pribadi klien dijaga kerahasiaannya dan hanya digunakan untuk keperluan eksekusi proyek. Baca lebih lanjut di <Link href="/kebijakan-privasi" className="text-[#B88A4A] hover:underline">Kebijakan Privasi</Link> dan <Link href="/syarat-ketentuan" className="text-[#B88A4A] hover:underline">Syarat & Ketentuan</Link> kami.
-              </p>
-            </div>
+              <FadeIn delay={200}>
+                <div id="keselamatan" className="scroll-mt-32">
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="p-3 bg-zinc-100 rounded-lg">
+                      <Activity className="w-6 h-6 text-zinc-900" />
+                    </div>
+                    <h2 className="text-3xl font-manrope font-bold text-zinc-900 tracking-tight">Health, Safety, and Environment (HSE)</h2>
+                  </div>
+                  <div className="text-lg text-zinc-600 leading-relaxed space-y-6">
+                    <p>Keselamatan bukan sekadar prioritas, tetapi nilai fundamental dalam setiap operasional kami.</p>
+                    <p>Kami mewajibkan penggunaan Alat Pelindung Diri (APD) standar bagi seluruh pekerja dan staf di lapangan. Untuk proyek komersial dan industri, kami mematuhi sistem izin kerja (Permit to Work) sesuai dengan prosedur dan regulasi fasilitas klien secara ketat.</p>
+                  </div>
+                </div>
+              </FadeIn>
 
+              <FadeIn delay={250}>
+                <div id="garansi" className="scroll-mt-32">
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="p-3 bg-zinc-100 rounded-lg">
+                      <CheckCircle2 className="w-6 h-6 text-zinc-900" />
+                    </div>
+                    <h2 className="text-3xl font-manrope font-bold text-zinc-900 tracking-tight">Kebijakan Garansi & Retensi</h2>
+                  </div>
+                  <div className="text-lg text-zinc-600 leading-relaxed space-y-6">
+                    <p>Setiap penyelesaian proyek konstruksi disertai dengan Masa Pemeliharaan (Defect Liability Period) yang diatur secara transparan dalam kontrak.</p>
+                    <p>Sesuai standar industri, sebagian nilai pembayaran ditahan sebagai jaminan retensi. Jaminan ini akan dicairkan hanya setelah masa pemeliharaan selesai dan seluruh cacat fisik (defect) yang timbul telah diperbaiki dengan memuaskan.</p>
+                  </div>
+                </div>
+              </FadeIn>
+
+            </div>
           </div>
-        </div>
+        </Container>
       </section>
-    </main>
+    </>
   );
 }

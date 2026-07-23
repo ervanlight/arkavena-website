@@ -1,79 +1,332 @@
-import { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
+import { Metadata } from 'next';
+import Link from 'next/link';
+import Image from 'next/image';
+import { Button } from '@/components/ui/button';
+import { Container } from '@/components/ui/container';
+import { FadeIn } from '@/components/shared/fade-in';
+import { FaqAccordion } from '@/components/home/faq-accordion';
+import { ArrowRight, MessageCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: "Bangun & Renovasi Rumah Sistematis | TEGAKARA",
-  description: "Layanan konstruksi dan renovasi rumah di Surabaya dengan sistem manajemen proyek yang terukur, transparan, dan dapat diandalkan.",
-  openGraph: {
-    title: "Bangun & Renovasi Rumah Sistematis | TEGAKARA",
-    description: "Layanan konstruksi dan renovasi rumah di Surabaya dengan sistem manajemen proyek yang terukur.",
-  },
+  title: 'Layanan Residential — TEGAKARA',
+  description: 'Kami tidak hanya membangun rumah. Kami mengelola seluruh perjalanannya agar proyek tetap dalam kendali.',
 };
 
 export default function ResidentialPage() {
+  const faqs = [
+    {
+      question: "Berapa lama proses pembangunan rumah?",
+      answer: "Durasi proyek bergantung pada luas bangunan, tingkat kompleksitas, serta ruang lingkup pekerjaan. Jadwal akan dijelaskan sebelum proyek dimulai."
+    },
+    {
+      question: "Apakah saya harus memiliki desain terlebih dahulu?",
+      answer: "Tidak. Kami dapat membantu mengevaluasi kebutuhan Anda terlebih dahulu sebelum menentukan langkah berikutnya."
+    },
+    {
+      question: "Apakah saya harus sering datang ke lokasi?",
+      answer: "Tidak selalu. Kami menyediakan sistem pelaporan berkala agar Anda tetap mengetahui perkembangan proyek."
+    },
+    {
+      question: "Bagaimana jika terjadi perubahan selama pembangunan?",
+      answer: "Perubahan akan dibahas terlebih dahulu, didokumentasikan, dan disetujui sebelum dilaksanakan."
+    }
+  ];
+
   return (
-    <main className="min-h-screen bg-white text-[#0E1B26]">
-      {/* Hero Section */}
-      <section className="relative overflow-hidden z-0 bg-[#0E1B26] text-white py-20 px-6">
-        <Image 
-          src="/images/hero_residential_1784553175729.jpg"
-          alt="Hero Background"
-          fill
-          className="object-cover opacity-20 mix-blend-overlay pointer-events-none"
-          priority
-        />
-        <div className="relative z-10 w-full">
-        <div className="max-w-7xl mx-auto mt-10">
-          <h1 className="text-4xl md:text-6xl font-bold font-manrope leading-tight mb-6 text-white">
-            Pembangunan dan renovasi rumah dengan proses yang jelas, <br className="hidden md:block" /> mutu yang terdokumentasi, dan komunikasi yang terarah.
-          </h1>
-          <p className="text-xl md:text-2xl text-[#E8DED0] max-w-3xl mb-10">
-            Kami mendokumentasikan perencanaan, pelaksanaan, dan serah terima rumah Anda dalam satu sistem yang mudah dipantau.
-          </p>
-          <Link href="/assessment" className="inline-block bg-[#B88A4A] text-[#0E1B26] px-8 py-4 rounded-md font-medium hover:bg-opacity-90 transition-colors">
-            Mulai Konsultasi Proyek
-          </Link>
-        </div>
+    <>
+      {/* SECTION 01: HERO */}
+      <section className="bg-white pt-40 pb-40 border-b border-zinc-200">
+        <Container>
+          <FadeIn>
+            <div className="max-w-4xl">
+              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-8">
+                Residential Construction
+              </span>
+              <h1 className="text-5xl md:text-6xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
+                Rumah Yang Baik Tidak Hanya Dibangun Dengan Material Berkualitas.
+                <br /><span className="text-zinc-400">Tetapi Dengan Proses Yang Dikelola Dengan Benar.</span>
+              </h1>
+              <p className="text-xl text-zinc-600 leading-relaxed font-inter max-w-2xl mb-12">
+                Membangun rumah adalah salah satu keputusan finansial terbesar dalam hidup. Karena itu, kami percaya prosesnya harus sama baiknya dengan hasil akhirnya.
+                <br /><br />
+                TEGAKARA membantu Anda mengelola pembangunan maupun renovasi rumah melalui sistem kerja yang transparan, terstruktur, dan terdokumentasi sehingga Anda dapat mengambil keputusan dengan lebih tenang.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button size="lg" className="w-full sm:w-auto">
+                  <Link href="/assessment">Diskusikan Rencana Rumah Anda</Link>
+                </Button>
+                <Button size="lg" variant="secondary" className="w-full sm:w-auto">
+                  <Link href="#cara-kerja">Lihat Cara Kami Bekerja</Link>
+                </Button>
               </div>
+            </div>
+          </FadeIn>
+        </Container>
       </section>
 
-      {/* Services Section */}
-      <section className="py-20 px-6">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold font-manrope mb-12 text-[#0E1B26]">Layanan Residensial Kami</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-sm border border-[#E8DED0]">
-              <h3 className="text-2xl font-bold font-manrope mb-4 text-[#0E1B26]">Bangun Rumah Baru</h3>
-              <p className="text-[#68757D] mb-6">Membangun dari lahan kosong atau bangunan lama yang diratakan. Terstruktur dari gambar hingga serah terima.</p>
-              <Link href="/residential/bangun-rumah-surabaya" className="text-[#B88A4A] font-medium hover:underline">Pelajari lebih lanjut &rarr;</Link>
+      {/* SECTION 02: THE PROBLEM */}
+      <section className="py-40 bg-zinc-950 text-white">
+        <Container>
+          <FadeIn>
+            <div className="max-w-3xl mb-24">
+              <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-8">
+                MEMBANGUN RUMAH SEHARUSNYA TIDAK MENJADI SUMBER STRES
+              </h2>
+              <div className="text-xl text-zinc-400 leading-relaxed space-y-6">
+                <p>Banyak pemilik rumah memulai proyek dengan penuh semangat.</p>
+                <p>Namun di tengah perjalanan mereka mulai menghadapi perubahan biaya, komunikasi yang tidak jelas, keterlambatan pekerjaan, hingga kualitas yang tidak sesuai harapan.</p>
+                <p>Sebagian besar masalah tersebut bukan terjadi karena niat yang buruk. Melainkan karena proyek tidak memiliki sistem pengendalian yang jelas.</p>
+              </div>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm border border-[#E8DED0]">
-              <h3 className="text-2xl font-bold font-manrope mb-4 text-[#0E1B26]">Renovasi Mayor</h3>
-              <p className="text-[#68757D] mb-6">Perombakan besar rumah Anda. Mengelola risiko kondisi bangunan lama dengan mitigasi yang direncanakan dan dikomunikasikan.</p>
-              <Link href="/residential/renovasi-rumah-surabaya" className="text-[#B88A4A] font-medium hover:underline">Pelajari lebih lanjut &rarr;</Link>
+
+            <div className="grid md:grid-cols-2 gap-px bg-zinc-800 border border-zinc-800">
+              {[
+                {
+                  title: "Budget Terus Bertambah",
+                  desc: "Perubahan kecil yang tidak terdokumentasi sering berkembang menjadi biaya tambahan yang tidak direncanakan."
+                },
+                {
+                  title: "Sulit Memantau Progres",
+                  desc: "Tidak semua pemilik rumah memiliki waktu untuk datang ke lokasi setiap hari."
+                },
+                {
+                  title: "Komunikasi Tidak Terarah",
+                  desc: "Informasi sering berpindah melalui banyak orang sehingga mudah terjadi salah persepsi."
+                },
+                {
+                  title: "Hasil Tidak Sesuai Harapan",
+                  desc: "Tanpa standar pemeriksaan yang jelas, kualitas akhir sering bergantung pada masing-masing pekerja."
+                }
+              ].map((item, idx) => (
+                <div key={idx} className="bg-zinc-950 p-12">
+                  <h3 className="text-xl font-manrope font-bold text-zinc-100 mb-4">{item.title}</h3>
+                  <p className="text-zinc-500 leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-sm border border-[#E8DED0]">
-              <h3 className="text-2xl font-bold font-manrope mb-4 text-[#0E1B26]">Tambah Lantai</h3>
-              <p className="text-[#68757D] mb-6">Ekspansi ke atas tanpa harus pindah rumah. Fokus pada keamanan struktur dan proteksi cuaca.</p>
-              <Link href="/residential/tambah-lantai-rumah" className="text-[#B88A4A] font-medium hover:underline">Pelajari lebih lanjut &rarr;</Link>
+          </FadeIn>
+        </Container>
+      </section>
+
+      {/* SECTION 03: CARA KAMI MEMBANGUN RUMAH */}
+      <section id="cara-kerja" className="py-40 bg-zinc-50 border-b border-zinc-200">
+        <Container>
+          <FadeIn>
+            <div className="grid lg:grid-cols-12 gap-16">
+              <div className="lg:col-span-5">
+                <h2 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-6">
+                  CARA KAMI MEMBANGUN RUMAH
+                </h2>
+                <h3 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
+                  Kami Tidak Hanya Membangun Rumah.
+                  <br /><span className="text-zinc-400">Kami Mengelola Seluruh Perjalanannya.</span>
+                </h3>
+                <div className="text-lg text-zinc-600 leading-relaxed space-y-6">
+                  <p>Setiap proyek rumah memiliki kebutuhan yang berbeda.</p>
+                  <p>Namun seluruhnya mengikuti prinsip yang sama: setiap keputusan harus jelas, setiap perubahan harus terdokumentasi, dan setiap progres harus dapat dipantau.</p>
+                </div>
+              </div>
+
+              <div className="lg:col-span-7">
+                <div className="space-y-12">
+                  {[
+                    {
+                      title: "Perencanaan Yang Matang",
+                      desc: "Kami membantu memastikan ruang lingkup pekerjaan dipahami sejak awal sehingga mengurangi perubahan yang tidak diperlukan."
+                    },
+                    {
+                      title: "Estimasi Yang Transparan",
+                      desc: "Setiap pekerjaan dijelaskan secara terbuka sehingga Anda memahami bagaimana anggaran digunakan."
+                    },
+                    {
+                      title: "Pelaksanaan Yang Terarah",
+                      desc: "Tim bekerja mengikuti tahapan yang telah direncanakan agar kualitas tetap terjaga."
+                    },
+                    {
+                      title: "Monitoring Berkala",
+                      desc: "Anda memperoleh laporan perkembangan proyek tanpa harus selalu berada di lokasi."
+                    },
+                    {
+                      title: "Serah Terima Yang Jelas",
+                      desc: "Kami melakukan pemeriksaan bersama sebelum proyek dinyatakan selesai."
+                    }
+                  ].map((item, idx) => (
+                    <div key={idx} className="flex gap-6">
+                      <div className="text-sm font-bold text-zinc-300 font-mono pt-1">0{idx + 1}</div>
+                      <div>
+                        <h4 className="text-xl font-manrope font-bold text-zinc-900 mb-3">{item.title}</h4>
+                        <p className="text-zinc-600 leading-relaxed">{item.desc}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </FadeIn>
+        </Container>
+      </section>
+
+      {/* SECTION 04: LAYANAN RESIDENTIAL */}
+      <section className="py-40 bg-white border-b border-zinc-200">
+        <Container>
+          <FadeIn>
+            <div className="max-w-3xl mb-24">
+              <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-6">
+                LAYANAN RESIDENTIAL
+              </h2>
+              <p className="text-xl text-zinc-600 leading-relaxed">
+                Kami membantu berbagai kebutuhan pembangunan dan pengembangan rumah sesuai kondisi masing-masing keluarga.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-px bg-zinc-200 border border-zinc-200 mb-16">
+              {[
+                { title: "Bangun Rumah Baru", desc: "Pendampingan pembangunan rumah dari tahap persiapan hingga serah terima." },
+                { title: "Renovasi Rumah", desc: "Mengembangkan rumah yang sudah ada agar lebih nyaman, fungsional, dan sesuai kebutuhan baru." },
+                { title: "Tambah Lantai", desc: "Perencanaan dan pelaksanaan penambahan ruang dengan memperhatikan struktur bangunan yang sudah ada." },
+                { title: "Interior Fit-Out", desc: "Penyelesaian interior untuk meningkatkan fungsi maupun kenyamanan ruang." }
+              ].map((item, idx) => (
+                <div key={idx} className="bg-white p-12 hover:bg-zinc-50 transition-colors">
+                  <h3 className="text-xl font-manrope font-bold text-zinc-900 mb-4">{item.title}</h3>
+                  <p className="text-zinc-600 leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+
+            <Button size="lg">
+              <Link href="/assessment">Diskusikan Kebutuhan Rumah Anda</Link>
+            </Button>
+          </FadeIn>
+        </Container>
+      </section>
+
+      {/* SECTION 05: KENAPA BANYAK PEMILIK RUMAH MEMILIH PENDEKATAN INI */}
+      <section className="py-40 bg-zinc-50 border-b border-zinc-200">
+        <Container>
+          <FadeIn>
+            <h2 className="text-3xl font-manrope font-bold text-zinc-900 leading-[1.2] tracking-tight mb-16 max-w-2xl">
+              KENAPA BANYAK PEMILIK RUMAH MEMILIH PENDEKATAN INI
+            </h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-8">
+              {[
+                "Anda mengetahui perkembangan proyek secara berkala.",
+                "Perubahan pekerjaan memiliki dokumentasi.",
+                "Komunikasi berjalan melalui sistem yang jelas.",
+                "Proses lebih mudah dipahami meskipun Anda tidak memiliki latar belakang teknik.",
+                "Keputusan dapat diambil berdasarkan informasi yang lengkap."
+              ].map((point, idx) => (
+                <div key={idx} className="border-t border-zinc-200 pt-6">
+                  <p className="text-zinc-900 font-medium text-lg leading-relaxed">{point}</p>
+                </div>
+              ))}
+            </div>
+          </FadeIn>
+        </Container>
+      </section>
+
+      {/* SECTION 06: STUDI KASUS */}
+      <section className="py-40 bg-white border-b border-zinc-200">
+        <Container>
+          <FadeIn>
+            <div className="grid lg:grid-cols-12 gap-16">
+              <div className="lg:col-span-5">
+                <h2 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-6">STUDI KASUS</h2>
+                <h3 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
+                  Setiap Rumah Memiliki Ceritanya Sendiri.
+                </h3>
+                <div className="text-lg text-zinc-600 leading-relaxed space-y-6 mb-12">
+                  <p>Kami percaya pengalaman membangun rumah tidak hanya dinilai dari hasil akhirnya. Tetapi juga dari bagaimana proses tersebut dijalankan.</p>
+                </div>
+                <Button variant="secondary">
+                  <Link href="/portfolio">Lihat Semua Proyek Residential</Link>
+                </Button>
+              </div>
+              <div className="lg:col-span-7">
+                <div className="bg-zinc-50 border border-zinc-200 p-8 sm:p-12 text-sm text-zinc-500 font-mono tracking-wide">
+                  <p className="mb-4 text-zinc-900 font-bold">CASE_STUDY_TEMPLATE</p>
+                  <p className="mb-4">Nama Proyek</p>
+                  <p className="mb-4">↓</p>
+                  <p className="mb-4">Kondisi Awal</p>
+                  <p className="mb-4">↓</p>
+                  <p className="mb-4">Kebutuhan Pemilik</p>
+                  <p className="mb-4">↓</p>
+                  <p className="mb-4">Pendekatan</p>
+                  <p className="mb-4">↓</p>
+                  <p className="mb-4">Dokumentasi Progress</p>
+                  <p className="mb-4">↓</p>
+                  <p className="mb-4">Hasil Akhir</p>
+                  <p className="mb-4">↓</p>
+                  <p>Testimoni Pemilik</p>
+                </div>
+              </div>
+            </div>
+          </FadeIn>
+        </Container>
+      </section>
+
+      {/* SECTION 07: PROSES KERJA */}
+      <section className="py-40 bg-zinc-950 text-zinc-100">
+        <Container>
+          <FadeIn>
+            <h2 className="text-4xl font-manrope font-bold text-white mb-24 tracking-tight">
+              PROSES KERJA
+            </h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-16">
+              {[
+                { step: "01", title: "Diskusi Awal", desc: "Kami memahami kebutuhan keluarga serta tujuan pembangunan." },
+                { step: "02", title: "Survey Lokasi", desc: "Tim melakukan pemeriksaan kondisi lahan atau bangunan." },
+                { step: "03", title: "Perencanaan", desc: "Penyusunan ruang lingkup, estimasi, dan jadwal pelaksanaan." },
+                { step: "04", title: "Kesepakatan", desc: "Seluruh pekerjaan disetujui sebelum dimulai." },
+                { step: "05", title: "Pelaksanaan", desc: "Pengerjaan dilakukan sesuai tahapan yang telah direncanakan." },
+                { step: "06", title: "Monitoring", desc: "Laporan perkembangan proyek diberikan secara berkala." },
+                { step: "07", title: "Serah Terima", desc: "Pemeriksaan bersama untuk memastikan hasil sesuai kesepakatan." }
+              ].map((item, idx) => (
+                <div key={idx} className="relative">
+                  <div className="text-xs font-bold text-zinc-600 mb-4 font-mono">STEP {item.step}</div>
+                  <h3 className="font-manrope font-bold text-zinc-100 text-xl mb-3">{item.title}</h3>
+                  <p className="text-zinc-500 leading-relaxed text-sm">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </FadeIn>
+        </Container>
+      </section>
+
+      {/* SECTION 08: FAQ */}
+      <section className="py-40 bg-white border-b border-zinc-200">
+        <Container>
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-manrope font-bold text-zinc-900 mb-16 tracking-tight">
+              FAQ
+            </h2>
+            <FaqAccordion faqs={faqs} />
+          </div>
+        </Container>
+      </section>
+
+      {/* SECTION 09: FINAL CTA */}
+      <section className="py-40 bg-zinc-50">
+        <Container>
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 mb-8 tracking-tight leading-tight">
+              Rumah Yang Nyaman Dimulai Dari Proses Yang Tepat.
+            </h2>
+            <p className="text-xl text-zinc-600 mb-12 leading-relaxed">
+              Mari mulai dengan sebuah diskusi. Kami akan membantu Anda memahami langkah terbaik sebelum pembangunan dimulai sehingga setiap keputusan dapat diambil dengan lebih percaya diri.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Button size="lg" className="w-full sm:w-auto">
+                <Link href="/assessment">Diskusikan Rencana Rumah Anda</Link>
+              </Button>
+              <Button size="lg" variant="secondary" className="w-full sm:w-auto">
+                <Link href="https://wa.me/6281112345678" target="_blank" className="flex items-center gap-2">
+                  <MessageCircle className="w-4 h-4" /> Hubungi Kami via WhatsApp
+                </Link>
+              </Button>
             </div>
           </div>
-        </div>
+        </Container>
       </section>
-
-      {/* FAQ & CTA Section */}
-      <section className="bg-[#1C2D38] text-white py-20 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold font-manrope mb-6 text-[#E8DED0]">Siap membangun dengan proses yang terstruktur?</h2>
-          <p className="text-lg text-slate-300 mb-10">
-            Ceritakan kebutuhan proyek Anda dan mari jadwalkan diskusi awal bersama kami.
-          </p>
-          <Link href="/assessment" className="inline-block bg-[#B88A4A] text-[#0E1B26] px-8 py-4 rounded-md font-medium hover:bg-opacity-90 transition-colors">
-            Isi Informasi Proyek
-          </Link>
-        </div>
-      </section>
-    </main>
+    </>
   );
 }

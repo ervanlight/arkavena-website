@@ -1,111 +1,179 @@
-import { Metadata } from "next";
-import Image from "next/image";
-import Link from "next/link";
-import { FadeIn } from "@/components/shared/fade-in";
-import { MapPin, Mail, Clock, Phone } from "lucide-react";
+import { Metadata } from 'next';
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
+import { Container } from '@/components/ui/container';
+import { FadeIn } from '@/components/shared/fade-in';
+import { MessageCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: "Kontak Kami | TEGAKARA Construction",
-  description: "Hubungi TEGAKARA untuk layanan konstruksi rumah atau perawatan fasilitas di area Surabaya dan sekitarnya.",
+  title: 'Kontak — TEGAKARA',
+  description: 'Mari mulai dengan sebuah percakapan. Diskusi awal membantu kami memahami kondisi proyek Anda.',
 };
 
 export default function KontakPage() {
   return (
-    <main className="min-h-screen bg-white text-[#0E1B26]">
-      <section className="relative overflow-hidden z-0 bg-[#0E1B26] text-white py-24 px-6 min-h-[50vh] flex items-center">
-        <Image 
-          src="/images/factory_roof_1784552012117.jpg"
-          alt="Hero Background"
-          fill
-          className="object-cover opacity-20 mix-blend-overlay pointer-events-none"
-          priority
-        />
-        <div className="relative z-10 w-full">
-          <div className="max-w-5xl mx-auto text-center">
-            <FadeIn>
-              <h1 className="text-4xl md:text-5xl font-bold font-manrope leading-tight mb-6 text-white">
-                Mari Bicarakan Proyek Anda
+    <>
+      {/* SECTION 01: HERO */}
+      <section className="bg-white pt-40 pb-20">
+        <Container>
+          <FadeIn>
+            <div className="max-w-4xl">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
+                Mari Mulai Dengan Sebuah Percakapan.
               </h1>
-              <p className="text-xl text-[#E8DED0] max-w-2xl mx-auto">
-                Fokus kami adalah melayani wilayah Surabaya Raya dan sekitarnya. Untuk memberikan layanan terbaik, kami melakukan kualifikasi pada setiap permintaan proyek.
-              </p>
-            </FadeIn>
+              <div className="text-xl text-zinc-600 leading-relaxed font-inter max-w-3xl space-y-6">
+                <p>Setiap proyek memiliki kebutuhan yang berbeda.</p>
+                <p>Kami akan mendengarkan terlebih dahulu sebelum memberikan rekomendasi.</p>
+                <p>Diskusi awal membantu kami memahami kondisi proyek Anda sehingga solusi yang diberikan menjadi lebih relevan.</p>
+              </div>
+            </div>
+          </FadeIn>
+        </Container>
+      </section>
+
+      {/* SECTION 02: FORM & INFO */}
+      <section className="py-20 bg-white border-b border-zinc-200">
+        <Container>
+          <div className="grid lg:grid-cols-12 gap-16">
+            
+            {/* CONTACT FORM */}
+            <div className="lg:col-span-7">
+              <FadeIn>
+                <div className="bg-zinc-50 border border-zinc-200 rounded-2xl p-8 md:p-12">
+                  <div className="mb-12">
+                    <h2 className="text-2xl font-manrope font-bold text-zinc-900 mb-2">Ceritakan Proyek Anda.</h2>
+                    <p className="text-zinc-500">Semakin lengkap informasi yang Anda berikan, semakin baik kami memahami kebutuhan proyek Anda.</p>
+                  </div>
+                  
+                  <form className="space-y-6">
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div className="space-y-2">
+                        <label className="text-sm font-bold text-zinc-700">Nama</label>
+                        <input type="text" className="w-full h-14 bg-white border border-zinc-200 rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-zinc-900 transition-shadow" />
+                      </div>
+                      <div className="space-y-2">
+                        <label className="text-sm font-bold text-zinc-700">Nomor WhatsApp</label>
+                        <input type="tel" className="w-full h-14 bg-white border border-zinc-200 rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-zinc-900 transition-shadow" />
+                      </div>
+                    </div>
+                    
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div className="space-y-2">
+                        <label className="text-sm font-bold text-zinc-700">Email <span className="text-zinc-400 font-normal">(opsional)</span></label>
+                        <input type="email" className="w-full h-14 bg-white border border-zinc-200 rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-zinc-900 transition-shadow" />
+                      </div>
+                      <div className="space-y-2">
+                        <label className="text-sm font-bold text-zinc-700">Lokasi Proyek</label>
+                        <input type="text" placeholder="Lokasi proyek..." className="w-full h-14 bg-white border border-zinc-200 rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-zinc-900 transition-shadow placeholder:text-zinc-400" />
+                      </div>
+                    </div>
+
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div className="space-y-2">
+                        <label className="text-sm font-bold text-zinc-700">Jenis Proyek</label>
+                        <select className="w-full h-14 bg-white border border-zinc-200 rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-zinc-900 transition-shadow appearance-none">
+                          <option value="">Pilih jenis proyek...</option>
+                          <option value="bangun_baru">Bangun Baru</option>
+                          <option value="renovasi">Renovasi</option>
+                          <option value="facility_care">Facility Care</option>
+                          <option value="lainnya">Lainnya</option>
+                        </select>
+                      </div>
+                      <div className="space-y-2">
+                        <label className="text-sm font-bold text-zinc-700">Tahap Saat Ini</label>
+                        <select className="w-full h-14 bg-white border border-zinc-200 rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-zinc-900 transition-shadow appearance-none">
+                          <option value="">Pilih tahap proyek...</option>
+                          <option value="berencana">Baru Berencana</option>
+                          <option value="ada_desain">Sudah Memiliki Desain</option>
+                          <option value="cari_kontraktor">Sedang Mencari Kontraktor</option>
+                          <option value="berjalan">Proyek Sedang Berjalan</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div className="space-y-2">
+                      <label className="text-sm font-bold text-zinc-700">Ceritakan Kebutuhan Anda</label>
+                      <textarea rows={5} placeholder="Ceritakan kebutuhan Anda..." className="w-full bg-white border border-zinc-200 rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-zinc-900 transition-shadow resize-none placeholder:text-zinc-400"></textarea>
+                    </div>
+
+                    <Button type="button" size="lg" className="w-full h-14 text-base">
+                      Kirim Permintaan Diskusi
+                    </Button>
+                  </form>
+                </div>
+              </FadeIn>
+            </div>
+
+            {/* CONTACT INFO & FAQ MINI */}
+            <div className="lg:col-span-5">
+              <FadeIn delay={200}>
+                <div className="space-y-16">
+                  <div>
+                    <h3 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-6">OFFICE</h3>
+                    <div className="space-y-6 text-zinc-600 leading-relaxed">
+                      <div>
+                        <p className="font-bold text-zinc-900">Headquarters</p>
+                        <p>Jl. Raya Pembangunan No. 123<br />Surabaya, Jawa Timur 60123</p>
+                      </div>
+                      <div>
+                        <p className="font-bold text-zinc-900">Jam Operasional</p>
+                        <p>Senin - Jumat: 08:00 - 17:00 WIB<br />Sabtu: 08:00 - 12:00 WIB</p>
+                      </div>
+                      <div>
+                        <p className="font-bold text-zinc-900">Kontak Langsung</p>
+                        <p>T. (031) 555-1234<br />E. hello@tegakara.com</p>
+                      </div>
+                      <a href="#" className="inline-block font-bold text-zinc-900 border-b border-zinc-900 pb-0.5 hover:text-zinc-600 hover:border-zinc-600 transition-colors">
+                        Lihat di Google Maps
+                      </a>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h3 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-6">FAQ MINI</h3>
+                    <div className="space-y-8">
+                      <div>
+                        <p className="font-bold text-zinc-900 mb-2">Berapa lama kami akan merespons?</p>
+                        <p className="text-zinc-600 leading-relaxed">Dalam hari kerja, tim kami akan berusaha merespons secepat mungkin setelah menerima informasi proyek Anda.</p>
+                      </div>
+                      <div>
+                        <p className="font-bold text-zinc-900 mb-2">Apakah konsultasi awal berbayar?</p>
+                        <p className="text-zinc-600 leading-relaxed">Diskusi awal bertujuan memahami kebutuhan proyek dan tidak mengharuskan Anda mengambil keputusan saat itu juga.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </FadeIn>
+            </div>
           </div>
-        </div>
+        </Container>
       </section>
 
-      <section className="py-24 px-6 relative">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
-          
-          <FadeIn direction="up">
-            <div className="space-y-12">
-              <div className="flex gap-6">
-                <div className="mt-1 bg-bronze/10 p-4 rounded-2xl h-fit">
-                  <MapPin className="w-8 h-8 text-bronze" />
-                </div>
-                <div>
-                  <h2 className="text-2xl font-bold font-manrope text-[#0E1B26] mb-3">Area Layanan</h2>
-                  <p className="text-slate-600 leading-relaxed text-lg">
-                    Surabaya, Sidoarjo, dan Gresik.<br/>
-                    <span className="text-sm text-slate-500 mt-2 block">Untuk proyek di luar area ini, kami akan mempertimbangkan berdasarkan skala proyek.</span>
-                  </p>
-                </div>
-              </div>
-              
-              <div className="flex gap-6">
-                <div className="mt-1 bg-bronze/10 p-4 rounded-2xl h-fit">
-                  <Clock className="w-8 h-8 text-bronze" />
-                </div>
-                <div>
-                  <h2 className="text-2xl font-bold font-manrope text-[#0E1B26] mb-3">Jam Operasional</h2>
-                  <p className="text-slate-600 leading-relaxed text-lg">
-                    Senin - Jumat: 08.00 - 17.00 WIB<br/>
-                    <span className="text-sm text-slate-500 mt-2 block">Sabtu - Minggu: Tutup (Kecuali kondisi darurat Facility Care)</span>
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex gap-6">
-                <div className="mt-1 bg-bronze/10 p-4 rounded-2xl h-fit">
-                  <Mail className="w-8 h-8 text-bronze" />
-                </div>
-                <div>
-                  <h2 className="text-2xl font-bold font-manrope text-[#0E1B26] mb-3">Hubungi Langsung</h2>
-                  <p className="text-slate-600 leading-relaxed text-lg font-medium">
-                    hello@tegakara.com
-                  </p>
-                </div>
-              </div>
+      {/* SECTION 03: FINAL CTA */}
+      <section className="py-40 bg-zinc-950 text-white">
+        <Container>
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-50 mb-8 tracking-tight leading-tight">
+              Setiap Proyek Dimulai Dari Percakapan Yang Tepat.
+            </h2>
+            <p className="text-xl text-zinc-400 mb-12 leading-relaxed">
+              Jika Anda sedang mempertimbangkan pembangunan, renovasi, atau pengelolaan fasilitas, mari mulai dengan berdiskusi.
+              <br /><br />
+              Kami akan membantu Anda memahami langkah yang paling sesuai dengan kondisi proyek Anda.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Button size="lg" className="w-full sm:w-auto bg-white text-zinc-950 hover:bg-zinc-200">
+                <Link href="/kontak">Jadwalkan Diskusi</Link>
+              </Button>
+              <Button size="lg" variant="secondary" className="w-full sm:w-auto border-zinc-700 text-zinc-300 hover:bg-zinc-800 hover:text-white">
+                <Link href="https://wa.me/6281112345678" target="_blank" className="flex items-center gap-2">
+                  <MessageCircle className="w-4 h-4" /> Hubungi via WhatsApp
+                </Link>
+              </Button>
             </div>
-          </FadeIn>
-
-          <FadeIn direction="up" delay={0.2}>
-            <div className="bg-[#1C2D38] p-10 lg:p-12 rounded-3xl text-white shadow-2xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-bronze/10 blur-[100px] rounded-full pointer-events-none"></div>
-              <div className="relative z-10">
-                <h2 className="text-3xl font-bold font-manrope mb-6 text-white">Formulir Asesmen Proyek</h2>
-                <p className="text-slate-300 mb-10 text-lg leading-relaxed">
-                  Langkah tercepat untuk mendapatkan respons dari tim kami adalah dengan mengisi formulir asesmen, sehingga kami dapat mempelajari skala dan kebutuhan spesifik Anda terlebih dahulu.
-                </p>
-                
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Link href="/assessment" className="flex items-center justify-center flex-1 bg-bronze text-[#0E1B26] px-6 py-5 rounded-xl font-bold hover:bg-opacity-90 transition-all text-lg shadow-lg hover:shadow-bronze/20 text-center">
-                    Isi Assessment
-                  </Link>
-                  <Link href="https://wa.me/6281112345678" target="_blank" className="flex items-center justify-center flex-1 bg-transparent border-2 border-slate-600 text-slate-300 px-6 py-5 rounded-xl font-bold hover:bg-slate-800 hover:text-white transition-all text-lg text-center gap-2">
-                    <Phone className="w-5 h-5" /> Hubungi via WhatsApp
-                  </Link>
-                </div>
-
-                <p className="text-slate-400 text-sm mt-8 text-center">
-                  Atau jika butuh konsultasi cepat dan belum memiliki detail proyek, kami selalu tersedia di WhatsApp.
-                </p>
-              </div>
-            </div>
-          </FadeIn>
-
-        </div>
+          </div>
+        </Container>
       </section>
-    </main>
+    </>
   );
 }

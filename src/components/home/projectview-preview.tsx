@@ -18,47 +18,47 @@ export function ProjectViewPreview() {
   const [activeTab, setActiveTab] = useState('overview');
 
   const tabs = [
-    { id: 'overview', label: 'Ringkasan', icon: <Activity size={16} /> },
-    { id: 'progress', label: 'Progres', icon: <BarChart3 size={16} /> },
-    { id: 'quality', label: 'Mutu', icon: <ShieldCheck size={16} /> },
-    { id: 'financial', label: 'Keuangan', icon: <Wallet size={16} /> },
+    { id: 'overview', label: 'Overview', icon: <Activity size={14} /> },
+    { id: 'progress', label: 'Progress', icon: <BarChart3 size={14} /> },
+    { id: 'quality', label: 'Quality', icon: <ShieldCheck size={14} /> },
+    { id: 'financial', label: 'Financial', icon: <Wallet size={14} /> },
   ];
 
   return (
-    <div className="w-full max-w-5xl mx-auto bg-[#1C2D38] rounded-2xl overflow-hidden border border-slate-700 shadow-2xl flex flex-col h-[500px]">
+    <div className="w-full max-w-5xl mx-auto bg-zinc-950 rounded-xl overflow-hidden border border-zinc-800 shadow-2xl flex flex-col h-[500px] font-inter text-sm">
       {/* App Header */}
-      <div className="bg-[#0E1B26] border-b border-slate-700 px-6 py-4 flex justify-between items-center">
+      <div className="bg-zinc-950 border-b border-zinc-800 px-5 py-3 flex justify-between items-center">
         <div className="flex items-center gap-3">
-          <div className="bg-bronze p-1.5 rounded text-[#0E1B26]">
-            <Activity size={20} />
+          <div className="bg-zinc-800 p-1.5 rounded text-zinc-300">
+            <Activity size={16} />
           </div>
           <div>
-            <h3 className="text-white font-semibold text-sm">Simulasi Renovasi Rumah Tinggal</h3>
-            <p className="text-slate-400 text-xs">Data simulasi • ProjectView Demo</p>
+            <h3 className="text-zinc-100 font-medium text-sm">Simulasi Renovasi Rumah Tinggal</h3>
+            <p className="text-zinc-500 text-xs">ProjectView Demo</p>
           </div>
         </div>
         <div className="flex items-center gap-4">
           <div className="text-right hidden sm:block">
-            <p className="text-xs text-slate-400">Status</p>
-            <p className="text-sm text-emerald-400 font-medium">Sedang Berjalan</p>
+            <p className="text-xs text-zinc-500">Status</p>
+            <p className="text-xs text-emerald-400 font-medium">In Progress</p>
           </div>
-          <Link href="/projectview" className="bg-white/10 hover:bg-white/20 text-white text-xs px-4 py-2 rounded transition-colors">
-            Buka Demo ProjectView
+          <Link href="/projectview" className="bg-zinc-100 hover:bg-white text-zinc-900 text-xs font-medium px-3 py-1.5 rounded-md transition-colors">
+            Open Demo
           </Link>
         </div>
       </div>
 
       {/* Tabs */}
-      <div className="flex bg-[#0E1B26]/50 border-b border-slate-700 px-4">
+      <div className="flex bg-zinc-900/50 border-b border-zinc-800 px-2">
         {tabs.map((tab) => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
             className={cn(
-              "flex items-center gap-2 px-4 py-3 text-sm font-medium border-b-2 transition-colors",
+              "flex items-center gap-2 px-4 py-2.5 text-xs font-medium border-b-2 transition-colors",
               activeTab === tab.id 
-                ? "border-bronze text-bronze" 
-                : "border-transparent text-slate-400 hover:text-white"
+                ? "border-zinc-300 text-zinc-100" 
+                : "border-transparent text-zinc-500 hover:text-zinc-300"
             )}
           >
             {tab.icon}
@@ -68,43 +68,43 @@ export function ProjectViewPreview() {
       </div>
 
       {/* Content Area */}
-      <div className="flex-1 p-6 overflow-y-auto custom-scrollbar">
+      <div className="flex-1 p-6 overflow-y-auto custom-scrollbar bg-zinc-950">
         {activeTab === 'overview' && (
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="col-span-1 md:col-span-2 space-y-6">
-              <div className="bg-[#0E1B26]/30 border border-slate-700 rounded-xl p-5">
-                <h4 className="text-white font-medium mb-4 flex items-center gap-2">
-                  <BarChart3 size={18} className="text-bronze" /> Progres Keseluruhan
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <div className="col-span-1 md:col-span-2 space-y-5">
+              <div className="bg-zinc-900/50 border border-zinc-800 rounded-lg p-5">
+                <h4 className="text-zinc-300 font-medium mb-4 flex items-center gap-2 text-xs uppercase tracking-wider">
+                  <BarChart3 size={14} /> Overall Progress
                 </h4>
-                <div className="flex justify-between text-sm mb-2">
-                  <span className="text-slate-400">Target periode ini: 42%</span>
-                  <span className="text-white font-medium">Progres aktual: 45%</span>
+                <div className="flex justify-between text-xs mb-2">
+                  <span className="text-zinc-500">Target: 42%</span>
+                  <span className="text-zinc-300 font-medium">Actual: 45%</span>
                 </div>
-                <div className="w-full bg-slate-800 h-2.5 rounded-full overflow-hidden">
-                  <div className="bg-emerald-500 h-full rounded-full" style={{ width: '45%' }}></div>
+                <div className="w-full bg-zinc-800 h-1.5 rounded-full overflow-hidden">
+                  <div className="bg-zinc-400 h-full rounded-full" style={{ width: '45%' }}></div>
                 </div>
-                <p className="text-emerald-400 text-xs mt-3">3 poin di atas target periode ini.</p>
+                <p className="text-zinc-400 text-xs mt-3">+3% ahead of schedule.</p>
               </div>
 
-              <div className="bg-[#0E1B26]/30 border border-slate-700 rounded-xl p-5">
-                <h4 className="text-white font-medium mb-4 flex items-center gap-2">
-                  <Clock size={18} className="text-bronze" /> Aktivitas Terbaru
+              <div className="bg-zinc-900/50 border border-zinc-800 rounded-lg p-5">
+                <h4 className="text-zinc-300 font-medium mb-4 flex items-center gap-2 text-xs uppercase tracking-wider">
+                  <Clock size={14} /> Recent Activity
                 </h4>
                 <div className="space-y-4">
                   {[
-                    { title: 'Pengecoran pelat lantai 2 selesai', time: 'Hari ini, 14:30', type: 'progress' },
-                    { title: 'Permintaan persetujuan keramik lantai utama', time: 'Kemarin, 10:15', type: 'decision' },
-                    { title: 'Pemeriksaan mutu struktur baja ringan', time: '18 Jul, 09:00', type: 'quality' },
+                    { title: 'Pengecoran pelat lantai 2 selesai', time: 'Today, 14:30', type: 'progress' },
+                    { title: 'Permintaan persetujuan keramik', time: 'Yesterday, 10:15', type: 'decision' },
+                    { title: 'Pemeriksaan mutu struktur baja', time: '18 Jul, 09:00', type: 'quality' },
                   ].map((item, i) => (
-                    <div key={i} className="flex gap-4">
-                      <div className="mt-1">
-                        {item.type === 'progress' && <CheckCircle2 size={16} className="text-emerald-500" />}
-                        {item.type === 'decision' && <MessageSquare size={16} className="text-blue-500" />}
-                        {item.type === 'quality' && <ShieldCheck size={16} className="text-amber-500" />}
+                    <div key={i} className="flex gap-3">
+                      <div className="mt-0.5">
+                        {item.type === 'progress' && <CheckCircle2 size={14} className="text-zinc-500" />}
+                        {item.type === 'decision' && <MessageSquare size={14} className="text-zinc-500" />}
+                        {item.type === 'quality' && <ShieldCheck size={14} className="text-zinc-500" />}
                       </div>
                       <div>
-                        <p className="text-sm text-white">{item.title}</p>
-                        <p className="text-xs text-slate-500">{item.time}</p>
+                        <p className="text-xs text-zinc-300">{item.title}</p>
+                        <p className="text-[11px] text-zinc-600">{item.time}</p>
                       </div>
                     </div>
                   ))}
@@ -112,32 +112,32 @@ export function ProjectViewPreview() {
               </div>
             </div>
 
-            <div className="space-y-6">
-              <div className="bg-[#0E1B26]/30 border border-slate-700 rounded-xl p-5">
-                <h4 className="text-white font-medium mb-4">Memerlukan Persetujuan Anda</h4>
-                <div className="bg-blue-500/10 border border-blue-500/20 rounded-lg p-3">
-                  <p className="text-sm text-blue-100 mb-2">Perubahan Pekerjaan 02 (VO-02)</p>
-                  <p className="text-xs text-blue-300 mb-3">Usulan penambahan titik lampu di ruang keluarga.</p>
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white text-xs px-3 py-1.5 rounded w-full transition-colors">
-                    Lihat dan Putuskan
+            <div className="space-y-5">
+              <div className="bg-zinc-900/50 border border-zinc-800 rounded-lg p-5">
+                <h4 className="text-zinc-300 font-medium mb-3 text-xs uppercase tracking-wider">Action Required</h4>
+                <div className="bg-zinc-800/50 border border-zinc-700/50 rounded-md p-3">
+                  <p className="text-xs text-zinc-200 font-medium mb-1">Variation Order 02 (VO-02)</p>
+                  <p className="text-[11px] text-zinc-400 mb-3 leading-relaxed">Penambahan titik lampu di ruang keluarga.</p>
+                  <button className="bg-zinc-100 hover:bg-white text-zinc-900 text-xs px-3 py-1.5 rounded w-full transition-colors font-medium">
+                    Review
                   </button>
                 </div>
               </div>
 
-              <div className="bg-[#0E1B26]/30 border border-slate-700 rounded-xl p-5">
-                <h4 className="text-white font-medium mb-4">Status Termin</h4>
+              <div className="bg-zinc-900/50 border border-zinc-800 rounded-lg p-5">
+                <h4 className="text-zinc-300 font-medium mb-3 text-xs uppercase tracking-wider">Payment Terms</h4>
                 <div className="space-y-3">
-                  <div className="flex justify-between items-center text-sm">
-                    <span className="text-slate-400">Termin 1 — Mobilisasi</span>
-                    <span className="text-emerald-500 bg-emerald-500/10 px-2 py-0.5 rounded text-xs">Diterima</span>
+                  <div className="flex justify-between items-center text-xs">
+                    <span className="text-zinc-500">Termin 1 — Mobilisasi</span>
+                    <span className="text-emerald-500 font-medium">Paid</span>
                   </div>
-                  <div className="flex justify-between items-center text-sm">
-                    <span className="text-white">Termin 2 — Struktur</span>
-                    <span className="text-emerald-500 bg-emerald-500/10 px-2 py-0.5 rounded text-xs">Diterima</span>
+                  <div className="flex justify-between items-center text-xs">
+                    <span className="text-zinc-300">Termin 2 — Struktur</span>
+                    <span className="text-emerald-500 font-medium">Paid</span>
                   </div>
-                  <div className="flex justify-between items-center text-sm">
-                    <span className="text-slate-500">Termin 3 — Finishing</span>
-                    <span className="text-slate-500 bg-slate-800 px-2 py-0.5 rounded text-xs">Menunggu pembayaran</span>
+                  <div className="flex justify-between items-center text-xs">
+                    <span className="text-zinc-500">Termin 3 — Finishing</span>
+                    <span className="text-zinc-600">Pending</span>
                   </div>
                 </div>
               </div>
@@ -147,13 +147,13 @@ export function ProjectViewPreview() {
         
         {activeTab !== 'overview' && (
           <div className="h-full flex flex-col items-center justify-center text-center">
-            <FileText size={48} className="text-slate-600 mb-4" />
-            <h4 className="text-white font-medium text-lg mb-2">Jelajahi Fitur Lengkap</h4>
-            <p className="text-slate-400 text-sm max-w-md mb-6">
-              Di versi demo, Anda dapat melihat bagaimana TEGAKARA mengelola proyek dengan informasi yang lebih jelas untuk tab {tabs.find(t => t.id === activeTab)?.label}.
+            <FileText size={32} className="text-zinc-700 mb-4" />
+            <h4 className="text-zinc-300 font-medium text-sm mb-2">Explore {tabs.find(t => t.id === activeTab)?.label}</h4>
+            <p className="text-zinc-500 text-xs max-w-sm mb-6 leading-relaxed">
+              This demo environment illustrates how TEGAKARA structures project documentation.
             </p>
-            <Link href="/projectview" className="bg-bronze hover:bg-bronze/90 text-[#0E1B26] px-6 py-2 rounded-md font-bold transition-colors">
-              Buka Demo ProjectView
+            <Link href="/projectview" className="bg-zinc-100 hover:bg-white text-zinc-900 px-4 py-2 rounded-md text-xs font-medium transition-colors">
+              Open Full Demo
             </Link>
           </div>
         )}

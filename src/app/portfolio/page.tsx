@@ -1,72 +1,84 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
-import { ProjectCard } from '@/components/sections/project-card';
+import Image from 'next/image';
+import { Button } from '@/components/ui/button';
+import { Container } from '@/components/ui/container';
+import { FadeIn } from '@/components/shared/fade-in';
+import { projectsData } from '@/content/projects';
+import { ArrowRight } from 'lucide-react';
 
-export const metadata = {
-  title: 'Portofolio | TEGAKARA Construction',
-  description: 'Lihat berbagai proyek konstruksi dan arsitektur yang telah kami selesaikan.',
+export const metadata: Metadata = {
+  title: 'Portofolio — TEGAKARA',
+  description: 'Studi kasus proyek yang pernah kami kerjakan. Bukti terbaik bukan klaim, melainkan proyek yang dapat dipertanggungjawabkan.',
 };
 
 export default function PortfolioPage() {
-  const projects = [
-    {
-      id: 1,
-      title: "Pembangunan Rumah Tinggal Modern Minimalis",
-      category: "Residensial",
-      location: "CitraLand, Surabaya",
-      href: "/portfolio/rumah-tinggal-citraland",
-      imageUrl: "/images/house_renovation_1784551967214.jpg"
-    },
-    {
-      id: 2,
-      title: "Fasad & Perawatan Gedung Perkantoran",
-      category: "Komersial",
-      location: "Pusat Kota Surabaya",
-      href: "/portfolio/gedung-perkantoran-surabaya",
-      imageUrl: "/images/commercial_building_1784551986230.jpg"
-    },
-    {
-      id: 3,
-      title: "Pemeliharaan Fasilitas Sekolah & Lapangan",
-      category: "Sekolah",
-      location: "Sidoarjo",
-      href: "/portfolio/fasilitas-sekolah-sidoarjo",
-      imageUrl: "/images/school_facility_1784552005374.jpg"
-    },
-    {
-      id: 4,
-      title: "Waterproofing Atap Pabrik Industri",
-      category: "Komersial",
-      location: "Kawasan Industri Gresik",
-      href: "/portfolio/waterproofing-pabrik-gresik",
-      imageUrl: "/images/industrial_facility_1784552026672.jpg"
-    }
-  ];
-
   return (
-    <main className="min-h-screen bg-white py-20 px-4">
-      <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-manrope font-bold text-[#0E1B26] mb-8">Portofolio Kami</h1>
-        
-        <div className="flex gap-4 mb-8 overflow-x-auto pb-4">
-          <button className="px-4 py-2 bg-[#0E1B26] text-white rounded-md whitespace-nowrap">Semua</button>
-          <button className="px-4 py-2 bg-white text-[#0E1B26] border border-[#1C2D38] rounded-md whitespace-nowrap">Residensial</button>
-          <button className="px-4 py-2 bg-white text-[#0E1B26] border border-[#1C2D38] rounded-md whitespace-nowrap">Komersial</button>
-          <button className="px-4 py-2 bg-white text-[#0E1B26] border border-[#1C2D38] rounded-md whitespace-nowrap">Sekolah</button>
-        </div>
+    <>
+      {/* SECTION 01: HERO */}
+      <section className="bg-white pt-40 pb-40 border-b border-zinc-200">
+        <Container>
+          <FadeIn>
+            <div className="max-w-4xl">
+              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-8">
+                Project Case Studies
+              </span>
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
+                Bukti Terbaik Bukan Klaim.
+                <br /><span className="text-zinc-400">Melainkan Proyek Yang Terkendali.</span>
+              </h1>
+              <div className="text-xl text-zinc-600 leading-relaxed font-inter max-w-3xl space-y-6 mb-12">
+                <p>Kami tidak hanya menampilkan hasil akhirnya, tetapi juga bagaimana proses pengambilan keputusan dilakukan hingga proyek selesai.</p>
+              </div>
+            </div>
+          </FadeIn>
+        </Container>
+      </section>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map(project => (
-              <ProjectCard 
-                key={project.id}
-                title={project.title}
-                category={project.category}
-                location={project.location}
-                href={project.href}
-                imageUrl={project.imageUrl}
-              />
+      {/* SECTION 02: PROJECTS */}
+      <section className="py-40 bg-zinc-50 border-b border-zinc-200">
+        <Container>
+          <div className="grid md:grid-cols-2 gap-px bg-zinc-200 border border-zinc-200">
+            {projectsData.map((project, idx) => (
+              <FadeIn key={idx} delay={idx * 0.1}>
+                <div className="bg-white hover:bg-zinc-50 transition-colors p-8 sm:p-12 h-full flex flex-col group border border-transparent hover:border-zinc-300 cursor-pointer">
+                  <Link href={`/portfolio/${project.slug}`} className="flex flex-col h-full">
+                    <div className="aspect-[4/3] bg-zinc-100 mb-8 relative overflow-hidden rounded-lg">
+                      <Image src={project.imageUrl} fill alt={project.title} className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                    </div>
+                    <div className="mb-4">
+                      <span className="text-[11px] font-bold tracking-widest uppercase text-zinc-500">{project.category}</span>
+                    </div>
+                    <h3 className="text-2xl font-manrope font-bold text-zinc-900 mb-4">{project.title}</h3>
+                    <p className="text-zinc-600 leading-relaxed mb-6 flex-grow">{project.challenge.substring(0, 100)}...</p>
+                    <div className="mt-auto pt-6 border-t border-zinc-100">
+                      <span className="inline-flex items-center text-sm font-bold text-zinc-900">
+                        Baca Studi Kasus <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                      </span>
+                    </div>
+                  </Link>
+                </div>
+              </FadeIn>
             ))}
           </div>
-      </div>
-    </main>
+        </Container>
+      </section>
+      
+      {/* SECTION 03: CTA */}
+      <section className="py-40 bg-white">
+        <Container>
+          <FadeIn>
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
+                Mari Diskusikan Proyek Anda.
+              </h2>
+              <Button size="lg">
+                <Link href="/assessment">Jadwalkan Diskusi</Link>
+              </Button>
+            </div>
+          </FadeIn>
+        </Container>
+      </section>
+    </>
   );
 }
