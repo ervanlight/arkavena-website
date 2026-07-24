@@ -1,73 +1,82 @@
 import { Metadata } from 'next';
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/ui/container';
 import { FadeIn } from '@/components/shared/fade-in';
 import { FaqAccordion } from '@/components/home/faq-accordion';
 import { ProjectViewPreview } from '@/components/home/projectview-preview';
 import { 
-  MessageCircle, ArrowRight, CheckCircle2, 
-  AlertTriangle, EyeOff, MessageSquareOff, ShieldAlert,
-  Target, FileSignature, Activity, CheckSquare, Share2,
-  Map, PenTool, Handshake, Hammer, BarChart3, Key
+  ShieldAlert, 
+  AlertTriangle, 
+  EyeOff, 
+  MessageSquareOff, 
+  Target, 
+  FileSignature, 
+  Activity, 
+  CheckSquare, 
+  Share2, 
+  CheckCircle2, 
+  ArrowRight,
+  MessageCircle,
+  Map,
+  PenTool,
+  Handshake,
+  Hammer,
+  BarChart3,
+  Key
 } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'TEGAKARA — Project Control Partner',
-  description: 'Kami membantu pemilik properti menjaga seluruh proses tetap transparan, terdokumentasi, dan berada dalam kendali hingga proyek selesai.',
+  description: 'Membangun, merenovasi, dan merawat fasilitas properti dengan sistem kerja terukur, transparan, dan terdokumentasi.',
 };
 
 export default function HomePage() {
-  const faqs = [
+  const testimonials = [
     {
-      question: "Apakah saya harus memiliki gambar kerja sebelum menghubungi TEGAKARA?",
-      answer: "Tidak. Kami dapat membantu mengevaluasi kondisi proyek Anda terlebih dahulu dan memberikan arahan mengenai langkah yang perlu dipersiapkan."
+      quote: "Dengan TEGAKARA, kami merasa sangat tenang karena setiap perubahan spesifikasi dan biaya selalu dibahas dan disetujui terlebih dahulu secara tertulis.",
+      initial: "Bpk. Hendra S.",
+      name: "Pemilik Rumah Tinggal",
+      role: "Surabaya Barat"
     },
     {
-      question: "Bagaimana saya memantau progres proyek?",
-      answer: "Kami memberikan laporan perkembangan proyek secara berkala yang dilengkapi dokumentasi visual sehingga Anda mengetahui kondisi terbaru tanpa harus selalu berada di lokasi."
+      quote: "Pemeliharaan fasilitas sekolah kami menjadiauh lebih terencana. Laporan rutin dan dokumentasi pekerjaan sangat membantu manajemen Yayasan.",
+      initial: "Ibu Maria L.",
+      name: "Pengurus Yayasan Pendidikan",
+      role: "Sidoarjo"
     },
     {
-      question: "Bagaimana jika terjadi perubahan pekerjaan?",
-      answer: "Setiap perubahan dibahas terlebih dahulu, didokumentasikan, dan hanya dilaksanakan setelah memperoleh persetujuan."
-    },
-    {
-      question: "Apakah TEGAKARA melayani renovasi maupun pembangunan baru?",
-      answer: "Ya. Kami membantu pembangunan baru, renovasi, serta layanan facility care sesuai kebutuhan proyek."
-    },
-    {
-      question: "Bagaimana proses konsultasi awal?",
-      answer: "Diskusi awal bertujuan memahami kebutuhan proyek Anda dan menentukan pendekatan terbaik sebelum pekerjaan dimulai."
+      quote: "ProjectView sangat membantu tim operasional kami memantau perbaikan gedung tanpa harus turun langsung ke lapangan setiap hari.",
+      initial: "Bpk. Bambang T.",
+      name: "Operational Manager Gedung",
+      role: "Surabaya Pusat"
     }
   ];
 
-  const testimonials = [
+  const faqs = [
     {
-      quote: "Saya tidak pernah merasa kehilangan kendali atas proyek. Setiap minggu selalu ada laporan progres yang jelas beserta dokumentasi foto. Keputusan yang diambil selalu didiskusikan terlebih dahulu.",
-      name: "Bpk. Hendra S.",
-      role: "Pemilik Rumah, Citraland",
-      initial: "Kondisi Awal: Khawatir budget membengkak karena sering dengar cerita miring tentang kontraktor."
+      question: "Apa perbedaan TEGAKARA dengan kontraktor konvensional?",
+      answer: "TEGAKARA bekerja sebagai Project Control Partner. Kami tidak hanya mengeksekusi pekerjaan fisik, tetapi mengelola ruang lingkup, biaya, perubahan, dan mutu pekerjaan dengan sistem yang transparan dan terdokumentasi."
     },
     {
-      quote: "Laporan harian dan dokumentasi mereka sangat membantu kami dalam audit internal. Sistem yang rapi membuat kami yakin bangunan fasilitas industri kami terawat dengan standar tinggi.",
-      name: "Ibu Rina M.",
-      role: "Facility Manager, Pabrik Sidoarjo",
-      initial: "Kondisi Awal: Kesulitan memantau jadwal perbaikan dan riwayat pemeliharaan di berbagai area pabrik."
+      question: "Bagaimana TEGAKARA mencegah pembengkakan biaya (cost overrun)?",
+      answer: "Kami menggunakan mekanisme ScopeLock di mana seluruh spesifikasi dan gambar kerja disepakati di awal. Jika ada perubahan di lapangan, perubahan tersebut harus disetujui secara tertulis melalui Change Order sebelum dikerjakan."
     },
     {
-      quote: "Transparansi adalah kunci. Dari awal sampai serah terima, semua jelas. Tidak ada biaya tersembunyi, dan perubahan selalu melalui proses approval tertulis. Sangat profesional.",
-      name: "Bpk. Aditya P.",
-      role: "Pemilik Ruko Komersial, Surabaya Barat",
-      initial: "Kondisi Awal: Punya pengalaman buruk dengan kontraktor sebelumnya yang menghilang di tengah jalan."
+      question: "Apakah saya bisa memantau perkembangan proyek jika berada di luar kota?",
+      answer: "Bisa. Seluruh laporan progres, foto hasil pekerjaan, dan status keputusan dapat diakses secara digital melalui platform ProjectView kami."
+    },
+    {
+      question: "Layanan apa saja yang disediakan oleh TEGAKARA?",
+      answer: "Kami melayani 2 divisi utama: Residential (Bangun Rumah Baru, Renovasi Besar, Tambah Lantai) dan Facility Care (Maintenance Sekolah, Maintenance Gedung, Waterproofing/Atap, dan Minor Works Industri)."
     }
   ];
 
   return (
     <>
-      {/* SECTION 01: HERO */}
+      {/* 1. HERO */}
       <section className="relative bg-[#14171B] pt-28 pb-16 lg:pt-32 lg:pb-24 overflow-hidden">
-        {/* Background Image with Gradient Overlay */}
         <div className="absolute inset-0 z-0 before:absolute before:inset-0 before:bg-gradient-to-r before:from-[#14171B] before:via-[#14171B]/80 before:to-transparent before:z-10">
           <Image 
             src="/images/hero_home_1784553150926.jpg" 
@@ -75,7 +84,8 @@ export default function HomePage() {
             fill 
             className="object-cover object-center"
             priority
-           sizes="(max-width: 1200px) 100vw, 50vw" />
+            sizes="(max-width: 1200px) 100vw, 50vw"
+          />
         </div>
         
         <Container className="relative z-20">
@@ -112,7 +122,7 @@ export default function HomePage() {
         </Container>
       </section>
 
-      {/* TRUST BAR (GOOGLE ADS / FAST SCANNERS) */}
+      {/* 2. TRUST BAR */}
       <section className="bg-[#14171B] border-b border-white/10 py-6">
         <Container>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
@@ -136,7 +146,7 @@ export default function HomePage() {
         </Container>
       </section>
 
-      {/* SECTION 02: THE PROBLEM */}
+      {/* 3. PROBLEM */}
       <section className="py-24 lg:py-32 bg-[#14171B] text-white">
         <Container>
           <FadeIn>
@@ -171,28 +181,80 @@ export default function HomePage() {
         </Container>
       </section>
 
-      {/* SECTION 03: THE INSIGHT */}
+      {/* 4. INSIGHT */}
       <section className="py-24 lg:py-32 bg-[#ECE8E1] border-b border-[#C9C3B8]">
         <Container>
           <FadeIn>
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-12">
-                Proyek Tidak Berhasil Karena Tidak Ada Masalah.
-                <br /><span className="text-[#3F4954]">Proyek Berhasil Karena Setiap Masalah Dikendalikan.</span>
+                Setiap Proyek Akan Menghadapi Tantangan.
+                <br /><span className="text-[#3F4954]">Yang Membedakan Adalah Cara Mengelolanya.</span>
               </h2>
-              <div className="text-lg text-[#3F4954] leading-relaxed space-y-6">
-                <p>Dalam setiap proyek akan selalu ada perubahan, tantangan, dan keputusan yang harus diambil.</p>
-                <p>Yang membedakan proyek yang berjalan baik bukanlah tidak adanya masalah.</p>
-                <p>Melainkan adanya sistem yang memastikan setiap perubahan terdokumentasi, setiap keputusan memiliki dasar, dan setiap progres dapat dipantau dengan jelas.</p>
-                <p className="font-bold text-[#14171B]">Inilah pendekatan yang menjadi dasar cara kerja TEGAKARA.</p>
+              <div className="text-lg text-[#3F4954] leading-relaxed space-y-6 max-w-3xl mx-auto">
+                <p>Tidak ada proyek yang berjalan persis sesuai rencana.</p>
+                <p>Perubahan kebutuhan, penyesuaian pekerjaan, maupun kendala di lapangan adalah bagian yang wajar dalam proses pembangunan.</p>
+                <p>Yang membedakan proyek yang berjalan baik bukanlah sedikitnya masalah, tetapi adanya sistem yang memastikan setiap perubahan terdokumentasi, setiap keputusan memiliki dasar, dan setiap progres tetap berada dalam kendali.</p>
               </div>
             </div>
           </FadeIn>
         </Container>
       </section>
 
-      {/* SECTION 04: OUR APPROACH */}
-      <section id="cara-kerja" className="py-24 lg:py-32 bg-[#ECE8E1] bg-structural-grid border-b border-[#C9C3B8]">
+      {/* 5. CASE STUDY ⭐ */}
+      <section className="py-24 lg:py-32 bg-[#ECE8E1] border-b border-[#C9C3B8]">
+        <Container>
+          <FadeIn>
+            <div className="grid lg:grid-cols-12 gap-16 mb-16">
+              <div className="lg:col-span-6">
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
+                  Bukti Terbaik Bukan Klaim.
+                  <br /><span className="text-[#3F4954]">Tetapi Proyek Yang Dapat Dipertanggungjawabkan.</span>
+                </h2>
+              </div>
+              <div className="lg:col-span-6">
+                <div className="text-lg text-[#3F4954] leading-relaxed space-y-6 mb-8">
+                  <p>Setiap proyek memiliki tantangan yang berbeda.</p>
+                  <p>Karena itu kami tidak hanya menampilkan hasil akhirnya, tetapi juga bagaimana proses pengambilan keputusan dilakukan hingga proyek selesai.</p>
+                </div>
+                <Button variant="secondary" className="border-[#C9C3B8] text-[#14171B] hover:bg-[#C9C3B8]/10 bg-transparent">
+                  <Link href="/portfolio">Lihat Semua Studi Kasus</Link>
+                </Button>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-px bg-[#C9C3B8] border border-[#C9C3B8]">
+              <div className="bg-[#ECE8E1] hover:bg-[#C9C3B8]/10 transition-colors p-8 sm:p-12 block group cursor-pointer border border-transparent hover:border-[#C9C3B8]">
+                <Link href="/portfolio/rumah-tinggal-citraland">
+                  <div className="aspect-[4/3] bg-[#C9C3B8]/20 mb-8 relative overflow-hidden rounded-lg">
+                    <Image src="/images/hero_residential_1784553175729.jpg" fill alt="Residential" className="object-cover group-hover:scale-105 transition-transform duration-700" sizes="(max-width: 1200px) 100vw, 50vw" />
+                  </div>
+                  <h3 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">Rumah Tinggal Citraland</h3>
+                  <p className="text-[#3F4954] leading-relaxed mb-6">Pembangunan hunian dengan sistem pelaporan terstruktur yang memudahkan klien memantau dari luar kota.</p>
+                  <span className="inline-flex items-center text-sm font-bold text-[#14171B]">
+                    Baca Studi Kasus <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </span>
+                </Link>
+              </div>
+              
+              <div className="bg-[#ECE8E1] hover:bg-[#C9C3B8]/10 transition-colors p-8 sm:p-12 block group cursor-pointer border border-transparent hover:border-[#C9C3B8]">
+                <Link href="/portfolio/fasilitas-sekolah-sidoarjo">
+                  <div className="aspect-[4/3] bg-[#C9C3B8]/20 mb-8 relative overflow-hidden rounded-lg">
+                    <Image src="/images/school_facility_1784552005374.jpg" fill alt="Facility Care" className="object-cover group-hover:scale-105 transition-transform duration-700" sizes="(max-width: 1200px) 100vw, 50vw" />
+                  </div>
+                  <h3 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">Maintenance Fasilitas Sekolah</h3>
+                  <p className="text-[#3F4954] leading-relaxed mb-6">Program pemeliharaan terjadwal untuk memastikan operasional sekolah berjalan tanpa gangguan.</p>
+                  <span className="inline-flex items-center text-sm font-bold text-[#14171B]">
+                    Baca Studi Kasus <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </span>
+                </Link>
+              </div>
+            </div>
+          </FadeIn>
+        </Container>
+      </section>
+
+      {/* 6. CARA KAMI MENGELOLA PROYEK */}
+      <section className="py-24 lg:py-32 bg-[#ECE8E1] bg-structural-grid border-b border-[#C9C3B8]">
         <Container>
           <FadeIn>
             <div className="grid lg:grid-cols-12 gap-16">
@@ -237,7 +299,7 @@ export default function HomePage() {
         </Container>
       </section>
 
-      {/* SECTION 05: WHY TEGAKARA */}
+      {/* WHY TEGAKARA COMMITMENT */}
       <section className="py-24 lg:py-32 bg-[#14171B] text-white">
         <Container>
           <FadeIn>
@@ -274,61 +336,29 @@ export default function HomePage() {
         </Container>
       </section>
 
-      {/* SECTION 06: PROJECT CASE STUDIES */}
+      {/* 7. PROJECTVIEW PREVIEW ⭐ */}
       <section className="py-24 lg:py-32 bg-[#ECE8E1] border-b border-[#C9C3B8]">
         <Container>
           <FadeIn>
-            <div className="grid lg:grid-cols-12 gap-16 mb-16">
-              <div className="lg:col-span-6">
-                <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
-                  Bukti Terbaik Bukan Klaim.
-                  <br /><span className="text-[#3F4954]">Tetapi Proyek Yang Dapat Dipertanggungjawabkan.</span>
-                </h2>
-              </div>
-              <div className="lg:col-span-6">
-                <div className="text-lg text-[#3F4954] leading-relaxed space-y-6 mb-8">
-                  <p>Setiap proyek memiliki tantangan yang berbeda.</p>
-                  <p>Karena itu kami tidak hanya menampilkan hasil akhirnya, tetapi juga bagaimana proses pengambilan keputusan dilakukan hingga proyek selesai.</p>
-                </div>
-                <Button variant="secondary" className="border-[#C9C3B8] text-[#14171B] hover:bg-[#C9C3B8]/10 bg-transparent">
-                  <Link href="/portfolio">Lihat Semua Studi Kasus</Link>
-                </Button>
-              </div>
+            <div className="max-w-4xl mx-auto text-center mb-16">
+              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-4 font-[family-name:var(--font-ibm-plex-mono)]">
+                SIMULASI PROJECTVIEW
+              </span>
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-6">
+                Transparansi Proyek Dalam Satu Dashboard
+              </h2>
+              <p className="text-lg text-[#3F4954] leading-relaxed max-w-2xl mx-auto">
+                Pantau perkembangan pekerjaan, laporan progres, riwayat keputusan, dan penyesuaian biaya secara real-time dari mana saja.
+              </p>
             </div>
-
-            <div className="grid md:grid-cols-2 gap-px bg-[#C9C3B8] border border-[#C9C3B8]">
-              <div className="bg-[#ECE8E1] hover:bg-[#C9C3B8]/10 transition-colors p-8 sm:p-12 block group cursor-pointer border border-transparent hover:border-[#C9C3B8]">
-                <Link href="/portfolio/rumah-tinggal-citraland">
-                  <div className="aspect-[4/3] bg-[#C9C3B8]/20 mb-8 relative overflow-hidden rounded-lg">
-                    <Image src="/images/hero_residential_1784553175729.jpg" fill alt="Residential" className="object-cover group-hover:scale-105 transition-transform duration-700"  sizes="(max-width: 1200px) 100vw, 50vw" />
-                  </div>
-                  <h3 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">Rumah Tinggal Citraland</h3>
-                  <p className="text-[#3F4954] leading-relaxed mb-6">Pembangunan hunian dengan sistem pelaporan terstruktur yang memudahkan klien memantau dari luar kota.</p>
-                  <span className="inline-flex items-center text-sm font-bold text-[#14171B]">
-                    Baca Studi Kasus <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </span>
-                </Link>
-              </div>
-              
-              <div className="bg-[#ECE8E1] hover:bg-[#C9C3B8]/10 transition-colors p-8 sm:p-12 block group cursor-pointer border border-transparent hover:border-[#C9C3B8]">
-                <Link href="/portfolio/fasilitas-sekolah-sidoarjo">
-                  <div className="aspect-[4/3] bg-[#C9C3B8]/20 mb-8 relative overflow-hidden rounded-lg">
-                    <Image src="/images/school_facility_1784552005374.jpg" fill alt="Facility Care" className="object-cover group-hover:scale-105 transition-transform duration-700"  sizes="(max-width: 1200px) 100vw, 50vw" />
-                  </div>
-                  <h3 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">Maintenance Fasilitas Sekolah</h3>
-                  <p className="text-[#3F4954] leading-relaxed mb-6">Program pemeliharaan terjadwal untuk memastikan operasional sekolah berjalan tanpa gangguan.</p>
-                  <span className="inline-flex items-center text-sm font-bold text-[#14171B]">
-                    Baca Studi Kasus <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </span>
-                </Link>
-              </div>
-            </div>
+            
+            <ProjectViewPreview />
           </FadeIn>
         </Container>
       </section>
 
-      {/* SECTION 07: OUR PROCESS */}
-      <section className="py-24 lg:py-32 bg-[#ECE8E1] bg-structural-grid border-b border-[#C9C3B8]">
+      {/* 8. CARA KERJA */}
+      <section id="cara-kerja" className="py-24 lg:py-32 bg-[#ECE8E1] bg-structural-grid border-b border-[#C9C3B8]">
         <Container>
           <FadeIn>
             <div className="max-w-3xl mb-16">
@@ -370,7 +400,7 @@ export default function HomePage() {
         </Container>
       </section>
 
-      {/* SECTION 08: TESTIMONIALS */}
+      {/* 9. TESTIMONI */}
       <section className="py-24 lg:py-32 bg-[#14171B] text-white">
         <Container>
           <FadeIn>
@@ -400,7 +430,7 @@ export default function HomePage() {
         </Container>
       </section>
 
-      {/* SECTION 09: FAQ */}
+      {/* 10. FAQ */}
       <section className="py-24 lg:py-32 bg-[#ECE8E1] border-b border-[#C9C3B8]">
         <Container>
           <div className="max-w-3xl mx-auto">
@@ -412,7 +442,7 @@ export default function HomePage() {
         </Container>
       </section>
 
-      {/* SECTION 10: FINAL CTA */}
+      {/* 11. CTA */}
       <section className="py-24 lg:py-32 bg-[#1C3A5C]">
         <Container>
           <div className="max-w-3xl mx-auto text-center">
