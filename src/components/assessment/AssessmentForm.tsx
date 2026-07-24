@@ -90,12 +90,12 @@ export default function AssessmentForm() {
   };
 
   return (
-    <div className="max-w-3xl mx-auto w-full bg-white rounded-2xl shadow-xl border border-[#E8DED0] overflow-hidden">
+    <div className="max-w-3xl mx-auto w-full bg-white rounded-2xl shadow-xl border border-[#C9C3B8] overflow-hidden">
       {/* Progress Bar */}
       {step > 0 && (
         <div className="w-full bg-white h-2">
           <div 
-            className="bg-[#B88A4A] h-2 transition-all duration-300" 
+            className="bg-[#E2A63C] h-2 transition-all duration-300" 
             style={{ width: `${(step / 5) * 100}%` }}
           />
         </div>
@@ -108,34 +108,34 @@ export default function AssessmentForm() {
           {step === 0 && (
             <div className="space-y-8 animate-in fade-in">
               <div className="text-center">
-                <h2 className="text-3xl font-manrope font-bold text-[#0E1B26] mb-4">Mulai Proyek Anda</h2>
-                <p className="text-[#68757D]">Pilih layanan yang Anda butuhkan untuk melanjutkan</p>
+                <h2 className="text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">Mulai Proyek Anda</h2>
+                <p className="text-[#5B6570]">Pilih layanan yang Anda butuhkan untuk melanjutkan</p>
               </div>
 
               <div className="grid md:grid-cols-2 gap-6">
                 <div 
-                  className={`cursor-pointer rounded-xl border-2 p-6 transition-all ${serviceType === 'residential' ? 'border-[#B88A4A] bg-white' : 'border-[#E8DED0] hover:border-[#B88A4A]/50'}`}
+                  className={`cursor-pointer rounded-xl border-2 p-6 transition-all ${serviceType === 'residential' ? 'border-[#E2A63C] bg-white' : 'border-[#C9C3B8] hover:border-[#E2A63C]/50'}`}
                   onClick={() => setValue("serviceType", "residential")}
                 >
-                  <Home className={`w-12 h-12 mb-4 ${serviceType === 'residential' ? 'text-[#B88A4A]' : 'text-[#68757D]'}`} />
+                  <Home className={`w-12 h-12 mb-4 ${serviceType === 'residential' ? 'text-[#E2A63C]' : 'text-[#5B6570]'}`} />
                   <h3 className="font-bold text-xl mb-2">Residential</h3>
-                  <p className="text-sm text-[#68757D]">Bangun atau renovasi rumah hunian, kost, atau vila dengan standar tinggi.</p>
+                  <p className="text-sm text-[#5B6570]">Bangun atau renovasi rumah hunian, kost, atau vila dengan standar tinggi.</p>
                 </div>
                 
                 <div 
-                  className={`cursor-pointer rounded-xl border-2 p-6 transition-all ${serviceType === 'facility' ? 'border-[#B88A4A] bg-white' : 'border-[#E8DED0] hover:border-[#B88A4A]/50'}`}
+                  className={`cursor-pointer rounded-xl border-2 p-6 transition-all ${serviceType === 'facility' ? 'border-[#E2A63C] bg-white' : 'border-[#C9C3B8] hover:border-[#E2A63C]/50'}`}
                   onClick={() => setValue("serviceType", "facility")}
                 >
-                  <Building className={`w-12 h-12 mb-4 ${serviceType === 'facility' ? 'text-[#B88A4A]' : 'text-[#68757D]'}`} />
+                  <Building className={`w-12 h-12 mb-4 ${serviceType === 'facility' ? 'text-[#E2A63C]' : 'text-[#5B6570]'}`} />
                   <h3 className="font-bold text-xl mb-2">Facility Care</h3>
-                  <p className="text-sm text-[#68757D]">Perawatan, perbaikan, dan manajemen fasilitas untuk sekolah, kantor, atau komersial.</p>
+                  <p className="text-sm text-[#5B6570]">Perawatan, perbaikan, dan manajemen fasilitas untuk sekolah, kantor, atau komersial.</p>
                 </div>
               </div>
 
               <button 
                 type="button" 
                 onClick={nextStep}
-                className="w-full bg-[#0E1B26] text-white py-4 rounded-lg font-bold flex justify-center items-center hover:bg-[#1C2D38] transition-colors"
+                className="w-full bg-[#14171B] text-white py-4 rounded-lg font-bold flex justify-center items-center hover:bg-[#14171B/90] transition-colors"
               >
                 Mulai Assessment <ChevronRight className="w-5 h-5 ml-2" />
               </button>
@@ -145,33 +145,33 @@ export default function AssessmentForm() {
           {/* STEP 1: Contact */}
           {step === 1 && (
             <div className="space-y-6 animate-in slide-in-from-right-4">
-              <h2 className="text-2xl font-manrope font-bold text-[#0E1B26] mb-6">Informasi Kontak</h2>
+              <h2 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-6">Informasi Kontak</h2>
               
               <div>
-                <label className="block text-sm font-medium text-[#0E1B26] mb-2">Nama Lengkap</label>
+                <label className="block text-sm font-medium text-[#14171B] mb-2">Nama Lengkap</label>
                 <input 
                   {...register("name")}
-                  className="w-full border border-[#E8DED0] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#B88A4A]"
+                  className="w-full border border-[#C9C3B8] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#E2A63C]"
                   placeholder="Budi Santoso"
                 />
                 {errors.name && <p className="text-[#A33C3C] text-sm mt-1">{errors.name.message}</p>}
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-[#0E1B26] mb-2">Nomor WhatsApp</label>
+                <label className="block text-sm font-medium text-[#14171B] mb-2">Nomor WhatsApp</label>
                 <input 
                   {...register("whatsapp")}
-                  className="w-full border border-[#E8DED0] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#B88A4A]"
+                  className="w-full border border-[#C9C3B8] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#E2A63C]"
                   placeholder="08123456789"
                 />
                 {errors.whatsapp && <p className="text-[#A33C3C] text-sm mt-1">{errors.whatsapp.message}</p>}
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-[#0E1B26] mb-2">Email</label>
+                <label className="block text-sm font-medium text-[#14171B] mb-2">Email</label>
                 <input 
                   {...register("email")}
-                  className="w-full border border-[#E8DED0] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#B88A4A]"
+                  className="w-full border border-[#C9C3B8] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#E2A63C]"
                   placeholder="budi@email.com"
                 />
                 {errors.email && <p className="text-[#A33C3C] text-sm mt-1">{errors.email.message}</p>}
@@ -182,23 +182,23 @@ export default function AssessmentForm() {
           {/* STEP 2: Location/Project Details */}
           {step === 2 && (
             <div className="space-y-6 animate-in slide-in-from-right-4">
-              <h2 className="text-2xl font-manrope font-bold text-[#0E1B26] mb-6">Detail Lokasi</h2>
+              <h2 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-6">Detail Lokasi</h2>
               
               <div>
-                <label className="block text-sm font-medium text-[#0E1B26] mb-2">Kota / Kabupaten</label>
+                <label className="block text-sm font-medium text-[#14171B] mb-2">Kota / Kabupaten</label>
                 <input 
                   {...register("city")}
-                  className="w-full border border-[#E8DED0] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#B88A4A]"
+                  className="w-full border border-[#C9C3B8] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#E2A63C]"
                   placeholder="Surabaya"
                 />
                 {errors.city && <p className="text-[#A33C3C] text-sm mt-1">{errors.city.message}</p>}
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-[#0E1B26] mb-2">Estimasi Anggaran</label>
+                <label className="block text-sm font-medium text-[#14171B] mb-2">Estimasi Anggaran</label>
                 <select 
                   {...register("budget")}
-                  className="w-full border border-[#E8DED0] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#B88A4A] bg-white"
+                  className="w-full border border-[#C9C3B8] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#E2A63C] bg-white"
                 >
                   <option value="">Pilih Anggaran</option>
                   <option value="<500m">&lt; Rp 500 Juta</option>
@@ -209,11 +209,11 @@ export default function AssessmentForm() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-[#0E1B26] mb-2">Keterangan Singkat</label>
+                <label className="block text-sm font-medium text-[#14171B] mb-2">Keterangan Singkat</label>
                 <textarea 
                   {...register("description")}
                   rows={4}
-                  className="w-full border border-[#E8DED0] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#B88A4A]"
+                  className="w-full border border-[#C9C3B8] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#E2A63C]"
                   placeholder="Jelaskan secara singkat rencana proyek Anda..."
                 />
               </div>
@@ -224,8 +224,8 @@ export default function AssessmentForm() {
           {step === 3 && (
             <div className="space-y-6 animate-in slide-in-from-right-4 text-center py-8">
               <CheckCircle className="w-16 h-16 text-[#25775A] mx-auto mb-4" />
-              <h2 className="text-2xl font-manrope font-bold text-[#0E1B26] mb-2">Konfirmasi Pengiriman</h2>
-              <p className="text-[#68757D] mb-8">
+              <h2 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-2">Konfirmasi Pengiriman</h2>
+              <p className="text-[#5B6570] mb-8">
                 Data Anda siap dikirim. Tim TEGAKARA akan meninjau dan menghubungi Anda maksimal 1x24 jam kerja.
               </p>
               
@@ -238,7 +238,7 @@ export default function AssessmentForm() {
               <button 
                 type="submit" 
                 disabled={isSubmitting}
-                className="w-full bg-[#B88A4A] text-[#0E1B26] py-4 rounded-lg font-bold flex justify-center items-center hover:bg-[#A76B1F] transition-colors disabled:opacity-50"
+                className="w-full bg-[#E2A63C] text-[#14171B] py-4 rounded-lg font-bold flex justify-center items-center hover:bg-[#A76B1F] transition-colors disabled:opacity-50"
               >
                 {isSubmitting ? (
                   <><Loader2 className="w-5 h-5 mr-2 animate-spin" /> Mengirim...</>
@@ -251,11 +251,11 @@ export default function AssessmentForm() {
 
           {/* Navigation Controls */}
           {step > 0 && step < 3 && (
-            <div className="flex justify-between mt-12 pt-6 border-t border-[#E8DED0]">
+            <div className="flex justify-between mt-12 pt-6 border-t border-[#C9C3B8]">
               <button 
                 type="button" 
                 onClick={prevStep}
-                className="text-[#68757D] hover:text-[#0E1B26] font-medium flex items-center"
+                className="text-[#5B6570] hover:text-[#14171B] font-medium flex items-center"
               >
                 <ArrowLeft className="w-4 h-4 mr-1" /> Kembali
               </button>
@@ -263,7 +263,7 @@ export default function AssessmentForm() {
               <button 
                 type="button" 
                 onClick={nextStep}
-                className="bg-[#0E1B26] text-white px-8 py-3 rounded-lg font-medium hover:bg-[#1C2D38] transition-colors flex items-center"
+                className="bg-[#14171B] text-white px-8 py-3 rounded-lg font-medium hover:bg-[#14171B/90] transition-colors flex items-center"
               >
                 Lanjut <ChevronRight className="w-4 h-4 ml-1" />
               </button>

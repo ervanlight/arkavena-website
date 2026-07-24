@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function ServicePage() {
   return (
-    <main className="min-h-screen bg-white text-[#0E1B26]">
+    <main className="min-h-screen bg-[#ECE8E1] text-[#0E1B26]">
       <section className="relative overflow-hidden z-0 bg-[#0E1B26] text-white py-24 px-6 min-h-[70vh] flex items-center">
         <Image 
           src="/images/hero_residential_tambah_lantai_1784553801629.jpg"
@@ -27,7 +27,7 @@ export default function ServicePage() {
                 <Link href="/residential" className="hover:text-white transition-colors">Residential</Link> 
                 <span className="text-slate-500">/</span> Tambah Lantai Rumah
               </div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-manrope leading-tight mb-8 text-white max-w-4xl">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-[family-name:var(--font-space-grotesk)] leading-tight mb-8 text-white max-w-4xl">
                 Ekspansi Vertikal yang Aman dan Terukur
               </h1>
               <p className="text-xl text-slate-300 max-w-2xl leading-relaxed">
@@ -41,7 +41,7 @@ export default function ServicePage() {
       <section className="py-24 px-6">
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
           <FadeIn direction="left">
-            <h2 className="text-3xl font-bold font-manrope mb-8 text-[#0E1B26]">Ruang Lingkup Pekerjaan</h2>
+            <h2 className="text-3xl font-bold font-[family-name:var(--font-space-grotesk)] mb-8 text-[#0E1B26]">Ruang Lingkup Pekerjaan</h2>
             <div className="space-y-8">
               
               <div className="flex gap-4">
@@ -76,7 +76,7 @@ export default function ServicePage() {
 
           <FadeIn direction="right" delay={0.2}>
             <div className="bg-slate-50 p-10 rounded-2xl border border-slate-200 h-full">
-              <h2 className="text-2xl font-bold font-manrope mb-8 text-[#0E1B26]">Mengapa Pendekatan TEGAKARA Berbeda?</h2>
+              <h2 className="text-2xl font-bold font-[family-name:var(--font-space-grotesk)] mb-8 text-[#0E1B26]">Mengapa Pendekatan TEGAKARA Berbeda?</h2>
               <div className="space-y-8">
                 
                 <div className="flex gap-4">
@@ -104,7 +104,7 @@ export default function ServicePage() {
         <div className="max-w-3xl mx-auto text-center relative z-10">
           <FadeIn>
             <ShieldCheck className="w-16 h-16 text-bronze mx-auto mb-8" />
-            <h2 className="text-3xl md:text-4xl font-bold font-manrope mb-6 text-white">Siap Memulai Proyek Anda secara Profesional?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-space-grotesk)] mb-6 text-white">Siap Memulai Proyek Anda secara Profesional?</h2>
             <p className="text-slate-400 mb-10 text-lg">Diskusikan kebutuhan spesifik Anda bersama tim kami. Dapatkan analisis awal mengenai waktu, biaya, dan tahapan kerja secara transparan.</p>
             <Link href="/assessment" className="inline-block bg-bronze text-[#0E1B26] px-10 py-5 rounded-md font-bold hover:bg-opacity-90 transition-all text-lg shadow-lg hover:shadow-bronze/20">
               Mulai Konsultasi Proyek

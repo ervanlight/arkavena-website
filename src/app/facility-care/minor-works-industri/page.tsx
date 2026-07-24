@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function FacilityServicePage() {
   return (
-    <main className="min-h-screen bg-white text-[#0E1B26]">
+    <main className="min-h-screen bg-[#ECE8E1] text-[#0E1B26]">
       <section className="relative overflow-hidden z-0 bg-[#0E1B26] text-white py-24 px-6 min-h-[70vh] flex items-center">
         <Image 
           src="/images/hero_facility_industri_1784553840673.jpg"
@@ -27,7 +27,7 @@ export default function FacilityServicePage() {
                 <Link href="/facility-care" className="hover:text-white transition-colors">Facility Care</Link> 
                 <span className="text-slate-500">/</span> Minor Works Industri
               </div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-manrope leading-tight mb-8 text-white max-w-4xl">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-[family-name:var(--font-space-grotesk)] leading-tight mb-8 text-white max-w-4xl">
                 Pekerjaan Sipil Industri yang Mematuhi HSE
               </h1>
               <p className="text-xl text-slate-300 max-w-2xl leading-relaxed">
@@ -41,7 +41,7 @@ export default function FacilityServicePage() {
       <section className="py-24 px-6">
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
           <FadeIn direction="left">
-            <h2 className="text-3xl font-bold font-manrope mb-8 text-[#0E1B26]">Ruang Lingkup Pekerjaan</h2>
+            <h2 className="text-3xl font-bold font-[family-name:var(--font-space-grotesk)] mb-8 text-[#0E1B26]">Ruang Lingkup Pekerjaan</h2>
             <div className="space-y-8">
               
               <div className="flex gap-4">
@@ -76,7 +76,7 @@ export default function FacilityServicePage() {
 
           <FadeIn direction="right" delay={0.2}>
             <div className="bg-[#1C2D38] text-white p-10 rounded-2xl h-full border border-slate-700 shadow-xl shadow-slate-900/10">
-              <h2 className="text-2xl font-bold font-manrope mb-8 text-[#E8DED0]">Standar & Jaminan TEGAKARA</h2>
+              <h2 className="text-2xl font-bold font-[family-name:var(--font-space-grotesk)] mb-8 text-[#E8DED0]">Standar & Jaminan TEGAKARA</h2>
               <div className="space-y-8">
                 
                 <div className="flex gap-4">
@@ -103,7 +103,7 @@ export default function FacilityServicePage() {
         <div className="max-w-3xl mx-auto text-center relative z-10">
           <FadeIn>
             <ShieldCheck className="w-16 h-16 text-[#0E1B26] mx-auto mb-8" />
-            <h2 className="text-3xl md:text-4xl font-bold font-manrope mb-6 text-[#0E1B26]">Amankan Aset Bisnis Anda</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-space-grotesk)] mb-6 text-[#0E1B26]">Amankan Aset Bisnis Anda</h2>
             <p className="text-[#68757D] mb-10 text-lg">Jangan biarkan kerusakan minor menghentikan operasi bisnis Anda. Jadwalkan audit kondisi gedung hari ini.</p>
             <Link href="/assessment" className="inline-block bg-[#0E1B26] text-white px-10 py-5 rounded-md font-bold hover:bg-opacity-90 transition-all text-lg shadow-lg">
               Jadwalkan Audit Fasilitas

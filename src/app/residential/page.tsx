@@ -40,18 +40,18 @@ export default function ResidentialPage() {
   return (
     <>
       {/* SECTION 01: HERO */}
-      <section className="bg-white pt-28 pb-20 lg:pt-36 lg:pb-28 border-b border-zinc-200">
+      <section className="bg-[#ECE8E1] pt-28 pb-20 lg:pt-36 lg:pb-28 border-b border-[#C9C3B8]">
         <Container>
           <FadeIn>
             <div className="max-w-4xl">
-              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-8">
+              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
                 Residential Construction
               </span>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Rumah Yang Baik Tidak Hanya Dibangun Dengan Material Berkualitas.
-                <br /><span className="text-zinc-400">Tetapi Dengan Proses Yang Dikelola Dengan Benar.</span>
+                <br /><span className="text-white/50">Tetapi Dengan Proses Yang Dikelola Dengan Benar.</span>
               </h1>
-              <p className="text-lg text-zinc-600 leading-relaxed font-inter max-w-2xl mb-8">
+              <p className="text-lg text-[#5B6570] leading-relaxed font-inter max-w-2xl mb-8">
                 Membangun rumah adalah salah satu keputusan finansial terbesar dalam hidup. Karena itu, kami percaya prosesnya harus sama baiknya dengan hasil akhirnya.
                 <br /><br />
                 TEGAKARA membantu Anda mengelola pembangunan maupun renovasi rumah melalui sistem kerja yang transparan, terstruktur, dan terdokumentasi sehingga Anda dapat mengambil keputusan dengan lebih tenang.
@@ -70,21 +70,21 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 02: THE PROBLEM */}
-      <section className="py-24 lg:py-32 bg-zinc-950 text-white">
+      <section className="py-24 lg:py-32 bg-[#14171B] text-white">
         <Container>
           <FadeIn>
             <div className="max-w-3xl mb-16">
-              <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight mb-8">
+              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-8">
                 MEMBANGUN RUMAH SEHARUSNYA TIDAK MENJADI SUMBER STRES
               </h2>
-              <div className="text-lg text-zinc-400 leading-relaxed space-y-6">
+              <div className="text-lg text-white/50 leading-relaxed space-y-6">
                 <p>Banyak pemilik rumah memulai proyek dengan penuh semangat.</p>
                 <p>Namun di tengah perjalanan mereka mulai menghadapi perubahan biaya, komunikasi yang tidak jelas, keterlambatan pekerjaan, hingga kualitas yang tidak sesuai harapan.</p>
                 <p>Sebagian besar masalah tersebut bukan terjadi karena niat yang buruk. Melainkan karena proyek tidak memiliki sistem pengendalian yang jelas.</p>
               </div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-px bg-zinc-800 border border-zinc-800">
+            <div className="grid md:grid-cols-2 gap-px bg-[#ECE8E1]/10 border border-white/10">
               {[
                 {
                   title: "Budget Terus Bertambah",
@@ -107,12 +107,12 @@ export default function ResidentialPage() {
                   icon: ShieldAlert
                 }
               ].map((item, idx) => (
-                <div key={idx} className="bg-zinc-950 p-8 lg:p-10 hover:bg-zinc-900 transition-colors">
-                  <div className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-xl flex items-center justify-center mb-8 text-zinc-500">
+                <div key={idx} className="bg-[#14171B] p-8 lg:p-10 hover:bg-[#14171B] transition-colors">
+                  <div className="w-12 h-12 bg-[#14171B] border border-white/10 rounded-xl flex items-center justify-center mb-8 text-[#5B6570]">
                     <item.icon className="w-6 h-6" />
                   </div>
-                  <h3 className="text-xl font-manrope font-bold text-zinc-100 mb-4">{item.title}</h3>
-                  <p className="text-zinc-500 leading-relaxed">{item.desc}</p>
+                  <h3 className="text-xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-4">{item.title}</h3>
+                  <p className="text-[#5B6570] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -121,19 +121,19 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 03: CARA KAMI MEMBANGUN RUMAH */}
-      <section id="cara-kerja" className="py-24 lg:py-32 bg-zinc-50 border-b border-zinc-200">
+      <section id="cara-kerja" className="py-24 lg:py-32 bg-[#ECE8E1] border-b border-[#C9C3B8]">
         <Container>
           <FadeIn>
             <div className="grid lg:grid-cols-12 gap-16">
               <div className="lg:col-span-5">
-                <h2 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-6">
+                <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-6">
                   CARA KAMI MEMBANGUN RUMAH
                 </h2>
-                <h3 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
+                <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                   Kami Tidak Hanya Membangun Rumah.
-                  <br /><span className="text-zinc-400">Kami Mengelola Seluruh Perjalanannya.</span>
+                  <br /><span className="text-white/50">Kami Mengelola Seluruh Perjalanannya.</span>
                 </h3>
-                <div className="text-lg text-zinc-600 leading-relaxed space-y-6">
+                <div className="text-lg text-[#5B6570] leading-relaxed space-y-6">
                   <p>Setiap proyek rumah memiliki kebutuhan yang berbeda.</p>
                   <p>Namun seluruhnya mengikuti prinsip yang sama: setiap keputusan harus jelas, setiap perubahan harus terdokumentasi, dan setiap progres harus dapat dipantau.</p>
                 </div>
@@ -170,13 +170,13 @@ export default function ResidentialPage() {
                   ].map((item, idx) => (
                     <div key={idx} className="flex gap-6">
                       <div className="shrink-0 mt-1">
-                        <div className="w-10 h-10 bg-zinc-100 border border-zinc-200 rounded-lg flex items-center justify-center text-zinc-600">
+                        <div className="w-10 h-10 bg-[#C9C3B8]/20 border border-[#C9C3B8] rounded-lg flex items-center justify-center text-[#5B6570]">
                           <item.icon className="w-5 h-5" />
                         </div>
                       </div>
                       <div>
-                        <h4 className="text-xl font-manrope font-bold text-zinc-900 mb-3">{item.title}</h4>
-                        <p className="text-zinc-600 leading-relaxed">{item.desc}</p>
+                        <h4 className="text-xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-3">{item.title}</h4>
+                        <p className="text-[#5B6570] leading-relaxed">{item.desc}</p>
                       </div>
                     </div>
                   ))}
@@ -188,31 +188,31 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 04: LAYANAN RESIDENTIAL */}
-      <section className="py-24 lg:py-32 bg-white border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-[#ECE8E1] border-b border-[#C9C3B8]">
         <Container>
           <FadeIn>
             <div className="max-w-3xl mb-16">
-              <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-6">
+              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-6">
                 LAYANAN RESIDENTIAL
               </h2>
-              <p className="text-lg text-zinc-600 leading-relaxed">
+              <p className="text-lg text-[#5B6570] leading-relaxed">
                 Kami membantu berbagai kebutuhan pembangunan dan pengembangan rumah sesuai kondisi masing-masing keluarga.
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-px bg-zinc-200 border border-zinc-200 mb-16">
+            <div className="grid md:grid-cols-2 gap-px bg-[#C9C3B8] border border-[#C9C3B8] mb-16">
               {[
                 { title: "Bangun Rumah Baru", desc: "Pendampingan pembangunan rumah dari tahap persiapan hingga serah terima.", icon: Home },
                 { title: "Renovasi Rumah", desc: "Mengembangkan rumah yang sudah ada agar lebih nyaman, fungsional, dan sesuai kebutuhan baru.", icon: Wrench },
                 { title: "Tambah Lantai", desc: "Perencanaan dan pelaksanaan penambahan ruang dengan memperhatikan struktur bangunan yang sudah ada.", icon: Layers },
                 { title: "Interior Fit-Out", desc: "Penyelesaian interior untuk meningkatkan fungsi maupun kenyamanan ruang.", icon: PenTool }
               ].map((item, idx) => (
-                <div key={idx} className="bg-white p-8 lg:p-10 hover:bg-zinc-50 transition-colors">
-                  <div className="w-12 h-12 bg-zinc-100 rounded-xl flex items-center justify-center mb-6 text-zinc-900">
+                <div key={idx} className="bg-[#ECE8E1] p-8 lg:p-10 hover:bg-[#ECE8E1] transition-colors">
+                  <div className="w-12 h-12 bg-[#C9C3B8]/20 rounded-xl flex items-center justify-center mb-6 text-[#14171B]">
                     <item.icon className="w-6 h-6" />
                   </div>
-                  <h3 className="text-xl font-manrope font-bold text-zinc-900 mb-4">{item.title}</h3>
-                  <p className="text-zinc-600 leading-relaxed">{item.desc}</p>
+                  <h3 className="text-xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">{item.title}</h3>
+                  <p className="text-[#5B6570] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -225,10 +225,10 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 05: KENAPA BANYAK PEMILIK RUMAH MEMILIH PENDEKATAN INI */}
-      <section className="py-24 lg:py-32 bg-zinc-50 border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-[#ECE8E1] border-b border-[#C9C3B8]">
         <Container>
           <FadeIn>
-            <h2 className="text-2xl md:text-3xl font-manrope font-bold text-zinc-900 leading-[1.2] tracking-tight mb-16 max-w-2xl">
+            <h2 className="text-2xl md:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.2] tracking-tight mb-16 max-w-2xl">
               KENAPA BANYAK PEMILIK RUMAH MEMILIH PENDEKATAN INI
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-8">
@@ -239,8 +239,8 @@ export default function ResidentialPage() {
                 "Proses lebih mudah dipahami meskipun Anda tidak memiliki latar belakang teknik.",
                 "Keputusan dapat diambil berdasarkan informasi yang lengkap."
               ].map((point, idx) => (
-                <div key={idx} className="border-t border-zinc-200 pt-6">
-                  <p className="text-zinc-900 font-medium text-lg leading-relaxed">{point}</p>
+                <div key={idx} className="border-t border-[#C9C3B8] pt-6">
+                  <p className="text-[#14171B] font-medium text-lg leading-relaxed">{point}</p>
                 </div>
               ))}
             </div>
@@ -249,16 +249,16 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 06: STUDI KASUS */}
-      <section className="py-24 lg:py-32 bg-white border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-[#ECE8E1] border-b border-[#C9C3B8]">
         <Container>
           <FadeIn>
             <div className="grid lg:grid-cols-12 gap-16">
               <div className="lg:col-span-5">
-                <h2 className="text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-6">STUDI KASUS</h2>
-                <h3 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
+                <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-6">STUDI KASUS</h2>
+                <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                   Setiap Rumah Memiliki Ceritanya Sendiri.
                 </h3>
-                <div className="text-lg text-zinc-600 leading-relaxed space-y-6 mb-8">
+                <div className="text-lg text-[#5B6570] leading-relaxed space-y-6 mb-8">
                   <p>Kami percaya pengalaman membangun rumah tidak hanya dinilai dari hasil akhirnya. Tetapi juga dari bagaimana proses tersebut dijalankan.</p>
                 </div>
                 <Button variant="secondary">
@@ -266,8 +266,8 @@ export default function ResidentialPage() {
                 </Button>
               </div>
               <div className="lg:col-span-7">
-                <div className="bg-zinc-50 border border-zinc-200 p-8 sm:p-12 text-sm text-zinc-500 font-mono tracking-wide">
-                  <p className="mb-4 text-zinc-900 font-bold">CASE_STUDY_TEMPLATE</p>
+                <div className="bg-[#ECE8E1] border border-[#C9C3B8] p-8 sm:p-12 text-sm text-[#5B6570] font-mono tracking-wide">
+                  <p className="mb-4 text-[#14171B] font-bold">CASE_STUDY_TEMPLATE</p>
                   <p className="mb-4">Nama Proyek</p>
                   <p className="mb-4">↓</p>
                   <p className="mb-4">Kondisi Awal</p>
@@ -289,10 +289,10 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 07: PROSES KERJA */}
-      <section className="py-24 lg:py-32 bg-zinc-950 text-zinc-100">
+      <section className="py-24 lg:py-32 bg-[#14171B] text-white">
         <Container>
           <FadeIn>
-            <h2 className="text-3xl md:text-4xl font-manrope font-bold text-white mb-16 tracking-tight">
+            <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-16 tracking-tight">
               PROSES KERJA
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-16">
@@ -306,9 +306,9 @@ export default function ResidentialPage() {
                 { step: "07", title: "Serah Terima", desc: "Pemeriksaan bersama untuk memastikan hasil sesuai kesepakatan." }
               ].map((item, idx) => (
                 <div key={idx} className="relative">
-                  <div className="text-xs font-bold text-zinc-600 mb-4 font-mono">STEP {item.step}</div>
-                  <h3 className="font-manrope font-bold text-zinc-100 text-xl mb-3">{item.title}</h3>
-                  <p className="text-zinc-500 leading-relaxed text-sm">{item.desc}</p>
+                  <div className="text-xs font-bold text-[#5B6570] mb-4 font-mono">STEP {item.step}</div>
+                  <h3 className="font-[family-name:var(--font-space-grotesk)] font-bold text-white text-xl mb-3">{item.title}</h3>
+                  <p className="text-[#5B6570] leading-relaxed text-sm">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -317,10 +317,10 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 08: FAQ */}
-      <section className="py-24 lg:py-32 bg-white border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-[#ECE8E1] border-b border-[#C9C3B8]">
         <Container>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-manrope font-bold text-zinc-900 mb-16 tracking-tight">
+            <h2 className="text-2xl md:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-16 tracking-tight">
               FAQ
             </h2>
             <FaqAccordion faqs={faqs} />
@@ -329,13 +329,13 @@ export default function ResidentialPage() {
       </section>
 
       {/* SECTION 09: FINAL CTA */}
-      <section className="py-24 lg:py-32 bg-zinc-50">
+      <section className="py-24 lg:py-32 bg-[#ECE8E1]">
         <Container>
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 mb-8 tracking-tight leading-tight">
+            <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-8 tracking-tight leading-tight">
               Rumah Yang Nyaman Dimulai Dari Proses Yang Tepat.
             </h2>
-            <p className="text-lg text-zinc-600 mb-8 leading-relaxed">
+            <p className="text-lg text-[#5B6570] mb-8 leading-relaxed">
               Mari mulai dengan sebuah diskusi. Kami akan membantu Anda memahami langkah terbaik sebelum pembangunan dimulai sehingga setiap keputusan dapat diambil dengan lebih percaya diri.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

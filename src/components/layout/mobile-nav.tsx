@@ -41,17 +41,17 @@ export function MobileNav({ isOpen, onClose, items }: MobileNavProps) {
     <div className="fixed inset-0 z-50 flex" role="dialog" aria-modal="true" ref={menuRef}>
       {/* Backdrop */}
       <div 
-        className="fixed inset-0 bg-zinc-950/20 backdrop-blur-sm transition-opacity"
+        className="fixed inset-0 bg-black/40 backdrop-blur-sm transition-opacity"
         onClick={onClose}
         aria-hidden="true"
       />
 
       {/* Slide-over panel */}
-      <div className="relative flex w-full max-w-[280px] flex-col overflow-y-auto bg-white pb-12 shadow-xl ml-auto animate-in slide-in-from-right duration-300 border-l border-zinc-200">
+      <div className="relative flex w-full max-w-[280px] flex-col overflow-y-auto bg-[#14171B] pb-12 shadow-xl ml-auto animate-in slide-in-from-right duration-300 border-l border-[#C9C3B8]/20">
         <div className="flex px-4 pb-2 pt-5">
           <button
             type="button"
-            className="ml-auto flex h-10 w-10 items-center justify-center rounded-md text-zinc-500 hover:text-zinc-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900"
+            className="ml-auto flex h-10 w-10 items-center justify-center rounded-md text-white/50 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C]"
             onClick={onClose}
           >
             <span className="sr-only">Close menu</span>
@@ -60,9 +60,9 @@ export function MobileNav({ isOpen, onClose, items }: MobileNavProps) {
         </div>
 
         <div className="mt-2 space-y-2 px-4">
-          <Link href="/" className="mb-6 flex flex-col focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900 rounded-sm" onClick={onClose}>
-            <span className="font-manrope text-2xl font-bold text-zinc-900 leading-none mb-1">TEGAKARA</span>
-            <span className="text-[10px] uppercase tracking-widest text-zinc-500 leading-none">
+          <Link href="/" className="mb-6 flex flex-col focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C] rounded-sm" onClick={onClose}>
+            <span className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-white leading-none mb-1">TEGAKARA</span>
+            <span className="text-[10px] uppercase tracking-widest text-[#5B6570] leading-none">
               Project Control Partner
             </span>
           </Link>
@@ -77,7 +77,7 @@ export function MobileNav({ isOpen, onClose, items }: MobileNavProps) {
                   onClick={onClose}
                   className={cn(
                     'text-lg transition-colors',
-                    isActive ? 'text-zinc-900 font-bold' : 'text-zinc-600 font-medium hover:text-zinc-900'
+                    isActive ? 'text-white font-bold' : 'text-white/60 font-medium hover:text-white'
                   )}
                 >
                   {item.label}
@@ -86,7 +86,7 @@ export function MobileNav({ isOpen, onClose, items }: MobileNavProps) {
             })}
           </nav>
           
-          <div className="pt-6 border-t border-zinc-100">
+          <div className="pt-6 border-t border-[#C9C3B8]/20">
             <Link href="/assessment">
               <Button className="w-full">
                 Diskusikan Proyek

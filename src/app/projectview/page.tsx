@@ -18,18 +18,18 @@ export default function ProjectViewPage() {
   return (
     <>
       {/* SECTION 01: HERO */}
-      <section className="bg-white pt-28 pb-20 lg:pt-36 lg:pb-28 border-b border-zinc-200">
+      <section className="bg-[#ECE8E1] pt-28 pb-20 lg:pt-36 lg:pb-28 border-b border-[#C9C3B8]">
         <Container>
           <FadeIn>
             <div className="max-w-4xl">
-              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-8">
+              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
                 Project Transparency System
               </span>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-manrope font-bold text-zinc-900 leading-[1.05] tracking-tight mb-8">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Tetap Mengetahui Perkembangan Proyek,
-                <br /><span className="text-zinc-400">Tanpa Harus Selalu Berada di Lokasi.</span>
+                <br /><span className="text-white/50">Tanpa Harus Selalu Berada di Lokasi.</span>
               </h1>
-              <div className="text-lg text-zinc-600 leading-relaxed font-inter max-w-3xl mb-8 space-y-6">
+              <div className="text-lg text-[#5B6570] leading-relaxed font-inter max-w-3xl mb-8 space-y-6">
                 <p>Kami percaya bahwa pemilik proyek tidak seharusnya menunggu laporan untuk mengetahui apa yang sedang terjadi.</p>
                 <p>Melalui sistem ProjectView, setiap perkembangan proyek didokumentasikan secara terstruktur sehingga Anda mengetahui progres, keputusan, perubahan, dan kondisi lapangan dengan lebih jelas.</p>
               </div>
@@ -47,11 +47,11 @@ export default function ProjectViewPage() {
       </section>
 
       {/* PREVIEW SECTION */}
-      <section id="preview" className="py-24 lg:py-32 bg-zinc-50 border-b border-zinc-200">
+      <section id="preview" className="py-24 lg:py-32 bg-[#ECE8E1] border-b border-[#C9C3B8]">
         <Container>
           <FadeIn>
             <div className="mb-16">
-              <h2 className="text-2xl md:text-3xl font-manrope font-bold text-zinc-900 tracking-tight">
+              <h2 className="text-2xl md:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] tracking-tight">
                 Simulasi ProjectView
               </h2>
             </div>
@@ -61,16 +61,16 @@ export default function ProjectViewPage() {
       </section>
 
       {/* SECTION 02: APA YANG BISA ANDA PANTAU */}
-      <section className="py-24 lg:py-32 bg-zinc-950 text-white">
+      <section className="py-24 lg:py-32 bg-[#14171B] text-white">
         <Container>
           <FadeIn>
             <div className="max-w-3xl mb-16">
-              <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-50 leading-[1.1] tracking-tight">
+              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight">
                 Apa Yang Bisa Anda Pantau
               </h2>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-zinc-800 border border-zinc-800">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#ECE8E1]/10 border border-white/10">
               {[
                 { title: "Progress Mingguan", desc: "Persentase penyelesaian pekerjaan.", icon: CalendarDays },
                 { title: "Dokumentasi Lapangan", desc: "Foto kondisi terbaru.", icon: ImageIcon },
@@ -79,12 +79,12 @@ export default function ProjectViewPage() {
                 { title: "Perubahan Pekerjaan", desc: "Semua perubahan tercatat secara jelas.", icon: Settings2 },
                 { title: "Approval", desc: "Riwayat keputusan yang telah disetujui.", icon: FileSignature }
               ].map((item, idx) => (
-                <div key={idx} className="bg-zinc-950 p-8 lg:p-10 hover:bg-zinc-900 transition-colors">
-                  <div className="w-12 h-12 bg-zinc-900 border border-zinc-800 rounded-xl flex items-center justify-center mb-8 text-zinc-500">
+                <div key={idx} className="bg-[#14171B] p-8 lg:p-10 hover:bg-[#14171B] transition-colors">
+                  <div className="w-12 h-12 bg-[#14171B] border border-white/10 rounded-xl flex items-center justify-center mb-8 text-[#5B6570]">
                     <item.icon className="w-6 h-6" />
                   </div>
-                  <h3 className="text-xl font-manrope font-bold text-zinc-100 mb-4">{item.title}</h3>
-                  <p className="text-zinc-500 leading-relaxed">{item.desc}</p>
+                  <h3 className="text-xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-4">{item.title}</h3>
+                  <p className="text-[#5B6570] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -93,14 +93,14 @@ export default function ProjectViewPage() {
       </section>
 
       {/* SECTION 03: MENGAPA TRANSPARANSI ITU PENTING? */}
-      <section className="py-24 lg:py-32 bg-white border-b border-zinc-200">
+      <section className="py-24 lg:py-32 bg-[#ECE8E1] border-b border-[#C9C3B8]">
         <Container>
           <FadeIn>
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-12">
+              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-12">
                 Mengapa Transparansi Itu Penting?
               </h2>
-              <div className="text-lg text-zinc-600 leading-relaxed space-y-6 mb-16">
+              <div className="text-lg text-[#5B6570] leading-relaxed space-y-6 mb-16">
                 <p>Semakin besar nilai investasi sebuah proyek, semakin penting pemilik proyek mengetahui apa yang sedang terjadi.</p>
                 <p>Kami percaya bahwa kepercayaan dibangun melalui visibilitas, bukan asumsi.</p>
               </div>

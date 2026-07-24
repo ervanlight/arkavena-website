@@ -1,27 +1,30 @@
 @import "tailwindcss";
 
 /* =========================================
-   TEGAKARA Design System — Global Styles
-   Aesthetic: Project Control, Linear/Apple/Notion
+   TEGAKARA Design System — v2.0
+   Aesthetic: Construction Authority
+   Palette: Concrete, Blueprint, Steel, Safety
    ========================================= */
 
 @theme inline {
-  /* Colors - Stark Monochromatic with subtle accents */
-  --color-midnight: #09090b; /* zinc-950 */
-  --color-slate: #18181b; /* zinc-900 */
-  --color-bronze: #8b5cf6; /* Let's use a subtle brand color if needed, but we'll mostly use zinc */
-  --color-sandstone: #f4f4f5; /* zinc-100 */
-  --color-warm-white: #ffffff; /* pure white */
-  --color-body: #3f3f46; /* zinc-700 */
-  --color-muted: #71717a; /* zinc-500 */
-  --color-success: #10b981; /* emerald-500 */
-  --color-warning: #f59e0b; /* amber-500 */
-  --color-error: #ef4444; /* red-500 */
-  --color-border: #e4e4e7; /* zinc-200 */
-  
-  /* Fonts */
-  --font-heading: var(--font-manrope), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --font-body: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  /* === COLORS — derived from construction materials === */
+  --color-ink-900: #14171B;        /* Teks utama, section gelap (baja/struktur) */
+  --color-concrete-100: #ECE8E1;   /* Background utama (beton terang, bukan putih polos) */
+  --color-concrete-300: #C9C3B8;   /* Divider, border, card background alternatif */
+  --color-blueprint-700: #1C3A5C;  /* Aksen teknis — garis grid, ikon, link, data spesifikasi */
+  --color-safety-500: #E2A63C;     /* Aksen utama/CTA — warna rompi & rambu K3 */
+  --color-steel-500: #5B6570;      /* Teks sekunder, caption, ikon non-aktif */
+  --color-white: #FFFFFF;          /* Teks di atas section gelap */
+
+  /* Semantic aliases */
+  --color-success: #25775A;
+  --color-warning: #A76B1F;
+  --color-error: #A33C3C;
+
+  /* === FONTS === */
+  --font-heading: var(--font-space-grotesk), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: var(--font-ibm-plex-mono), "SF Mono", "Fira Code", monospace;
 }
 
 /* Base styles */
@@ -44,28 +47,67 @@ html {
 
 @layer base {
   body {
-    background: var(--color-warm-white);
-    color: var(--color-body);
+    background: var(--color-concrete-100);
+    color: var(--color-ink-900);
     font-family: var(--font-body);
-    line-height: 1.6;
+    font-size: 1.05rem;
+    line-height: 1.7;
     letter-spacing: -0.01em;
   }
-}
 
-@layer utilities {
+  /* === TYPOGRAPHY SCALE === */
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
-    color: var(--color-midnight);
-    line-height: 1.15;
+    color: var(--color-ink-900);
+    line-height: 1.1;
     letter-spacing: -0.03em;
+    font-weight: 700;
   }
-  
-  h1 { letter-spacing: -0.04em; }
+
+  h1 {
+    font-size: clamp(2.75rem, 6vw, 5.5rem);
+    letter-spacing: -0.04em;
+  }
+
+  h2 {
+    font-size: clamp(2rem, 4vw, 3.25rem);
+  }
+
+  h3 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+  }
 }
 
-/* Focus styles */
+/* === UTILITY CLASSES === */
+@layer utilities {
+  /* Mono font for data/specs/numbers */
+  .font-mono-data {
+    font-family: var(--font-mono);
+    font-weight: 500;
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  /* Structural grid background — blueprint motif */
+  .bg-structural-grid {
+    background-image:
+      linear-gradient(to right, var(--color-concrete-300) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--color-concrete-300) 1px, transparent 1px);
+    background-size: calc(100% / 12) 80px;
+  }
+
+  .bg-structural-grid-dark {
+    background-image:
+      linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: calc(100% / 12) 80px;
+  }
+}
+
+/* Focus styles — safety-500 for visibility */
 :focus-visible {
-  outline: 2px solid var(--color-midnight);
+  outline: 2px solid var(--color-safety-500);
   outline-offset: 2px;
 }
 
@@ -75,8 +117,8 @@ html {
   top: -100%;
   left: 50%;
   transform: translateX(-50%);
-  background: var(--color-midnight);
-  color: var(--color-warm-white);
+  background: var(--color-ink-900);
+  color: var(--color-white);
   padding: 0.75rem 1.5rem;
   border-radius: 0 0 0.5rem 0.5rem;
   z-index: 100;
@@ -89,8 +131,8 @@ html {
 
 /* Selection */
 ::selection {
-  background: var(--color-slate);
-  color: var(--color-warm-white);
+  background: var(--color-blueprint-700);
+  color: var(--color-white);
 }
 
 /* Scrollbar - Minimal */
@@ -102,11 +144,11 @@ html {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--color-border);
+  background: var(--color-concrete-300);
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-muted);
+  background: var(--color-steel-500);
 }
 
 /* Fade-in animation */

@@ -11,9 +11,9 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant = 'primary', size = 'md', isLoading = false, children, disabled, ...props }, ref) => {
     const variants = {
-      primary: 'bg-zinc-900 text-white hover:bg-zinc-800 shadow-sm border border-transparent',
-      secondary: 'bg-white border border-zinc-200 text-zinc-900 hover:bg-zinc-50 shadow-sm',
-      ghost: 'text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900',
+      primary: 'bg-[#E2A63C] text-[#14171B] hover:bg-[#c9922f] shadow-sm border border-transparent font-semibold',
+      secondary: 'bg-transparent border border-[#C9C3B8] text-[#14171B] hover:bg-[#14171B]/5',
+      ghost: 'text-[#5B6570] hover:bg-[#14171B]/5',
       danger: 'bg-red-500 text-white hover:bg-red-600 shadow-sm border border-transparent',
     };
 
@@ -28,7 +28,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         ref={ref}
         disabled={isLoading || disabled}
         className={cn(
-          'inline-flex items-center justify-center font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-900 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 rounded-md',
+          'inline-flex items-center justify-center font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C] focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 rounded-md',
           variants[variant],
           sizes[size],
           className
