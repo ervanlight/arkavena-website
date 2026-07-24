@@ -21,7 +21,7 @@ export default function KontakPage() {
               <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Mari Mulai Dengan Sebuah Percakapan.
               </h1>
-              <div className="text-lg text-[#5B6570] leading-relaxed font-inter max-w-3xl space-y-6">
+              <div className="text-lg text-[#3F4954] leading-relaxed font-inter max-w-3xl space-y-6">
                 <p>Setiap proyek memiliki kebutuhan yang berbeda.</p>
                 <p>Kami akan mendengarkan terlebih dahulu sebelum memberikan rekomendasi.</p>
                 <p>Diskusi awal membantu kami memahami kondisi proyek Anda sehingga solusi yang diberikan menjadi lebih relevan.</p>
@@ -42,35 +42,35 @@ export default function KontakPage() {
                 <div className="bg-white border border-[#C9C3B8] rounded-2xl p-8 lg:p-10">
                   <div className="mb-12">
                     <h2 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-2">Ceritakan Proyek Anda.</h2>
-                    <p className="text-[#5B6570]">Semakin lengkap informasi yang Anda berikan, semakin baik kami memahami kebutuhan proyek Anda.</p>
+                    <p className="text-[#3F4954]">Semakin lengkap informasi yang Anda berikan, semakin baik kami memahami kebutuhan proyek Anda.</p>
                   </div>
                   
                   <form className="space-y-6">
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="space-y-2">
-                        <label className="text-sm font-bold text-[#5B6570]">Nama</label>
+                        <label className="text-sm font-bold text-[#3F4954]">Nama</label>
                         <input type="text" className="w-full h-14 bg-white border border-[#C9C3B8] rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-[#14171B] transition-shadow" />
                       </div>
                       <div className="space-y-2">
-                        <label className="text-sm font-bold text-[#5B6570]">Nomor WhatsApp</label>
+                        <label className="text-sm font-bold text-[#3F4954]">Nomor WhatsApp</label>
                         <input type="tel" className="w-full h-14 bg-white border border-[#C9C3B8] rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-[#14171B] transition-shadow" />
                       </div>
                     </div>
                     
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="space-y-2">
-                        <label className="text-sm font-bold text-[#5B6570]">Email <span className="text-[#5B6570] font-normal">(opsional)</span></label>
+                        <label className="text-sm font-bold text-[#3F4954]">Email <span className="text-[#3F4954] font-normal">(opsional)</span></label>
                         <input type="email" className="w-full h-14 bg-white border border-[#C9C3B8] rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-[#14171B] transition-shadow" />
                       </div>
                       <div className="space-y-2">
-                        <label className="text-sm font-bold text-[#5B6570]">Lokasi Proyek</label>
-                        <input type="text" placeholder="Lokasi proyek..." className="w-full h-14 bg-white border border-[#C9C3B8] rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-[#14171B] transition-shadow placeholder:text-[#5B6570]" />
+                        <label className="text-sm font-bold text-[#3F4954]">Lokasi Proyek</label>
+                        <input type="text" placeholder="Lokasi proyek..." className="w-full h-14 bg-white border border-[#C9C3B8] rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-[#14171B] transition-shadow placeholder:text-[#3F4954]" />
                       </div>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="space-y-2">
-                        <label className="text-sm font-bold text-[#5B6570]">Jenis Proyek</label>
+                        <label className="text-sm font-bold text-[#3F4954]">Jenis Proyek</label>
                         <select className="w-full h-14 bg-white border border-[#C9C3B8] rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-[#14171B] transition-shadow appearance-none">
                           <option value="">Pilih jenis proyek...</option>
                           <option value="bangun_baru">Bangun Baru</option>
@@ -80,7 +80,7 @@ export default function KontakPage() {
                         </select>
                       </div>
                       <div className="space-y-2">
-                        <label className="text-sm font-bold text-[#5B6570]">Tahap Saat Ini</label>
+                        <label className="text-sm font-bold text-[#3F4954]">Tahap Saat Ini</label>
                         <select className="w-full h-14 bg-white border border-[#C9C3B8] rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-[#14171B] transition-shadow appearance-none">
                           <option value="">Pilih tahap proyek...</option>
                           <option value="berencana">Baru Berencana</option>
@@ -92,8 +92,8 @@ export default function KontakPage() {
                     </div>
 
                     <div className="space-y-2">
-                      <label className="text-sm font-bold text-[#5B6570]">Ceritakan Kebutuhan Anda</label>
-                      <textarea rows={5} placeholder="Ceritakan kebutuhan Anda..." className="w-full bg-white border border-[#C9C3B8] rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-[#14171B] transition-shadow resize-none placeholder:text-[#5B6570]"></textarea>
+                      <label className="text-sm font-bold text-[#3F4954]">Ceritakan Kebutuhan Anda</label>
+                      <textarea rows={5} placeholder="Ceritakan kebutuhan Anda..." className="w-full bg-white border border-[#C9C3B8] rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-[#14171B] transition-shadow resize-none placeholder:text-[#3F4954]"></textarea>
                     </div>
 
                     <Button type="button" size="lg" className="w-full h-14 text-base">
@@ -109,8 +109,8 @@ export default function KontakPage() {
               <FadeIn delay={200}>
                 <div className="space-y-16">
                   <div>
-                    <h3 className="text-[11px] font-[family-name:var(--font-ibm-plex-mono)] font-bold tracking-widest uppercase text-[#5B6570] mb-6">OFFICE</h3>
-                    <div className="space-y-6 text-[#5B6570] leading-relaxed">
+                    <h3 className="text-[11px] font-[family-name:var(--font-ibm-plex-mono)] font-bold tracking-widest uppercase text-[#3F4954] mb-6">OFFICE</h3>
+                    <div className="space-y-6 text-[#3F4954] leading-relaxed">
                       <div>
                         <p className="font-bold text-[#14171B]">Headquarters</p>
                         <p>Jl. Raya Pembangunan No. 123<br />Surabaya, Jawa Timur 60123</p>
@@ -123,22 +123,22 @@ export default function KontakPage() {
                         <p className="font-bold text-[#14171B]">Kontak Langsung</p>
                         <p>T. (031) 555-1234<br />WA. <a href="https://wa.me/6281112345678" target="_blank" className="hover:text-[#1C3A5C] transition-colors">0811-1234-5678</a><br />E. hello@tegakara.com</p>
                       </div>
-                      <a href="#" className="inline-block font-bold text-[#14171B] border-b border-white/10 pb-0.5 hover:text-[#5B6570] hover:border-[#5B6570] transition-colors">
+                      <a href="#" className="inline-block font-bold text-[#14171B] border-b border-white/10 pb-0.5 hover:text-[#3F4954] hover:border-[#5B6570] transition-colors">
                         Lihat di Google Maps
                       </a>
                     </div>
                   </div>
 
                   <div>
-                    <h3 className="text-[11px] font-[family-name:var(--font-ibm-plex-mono)] font-bold tracking-widest uppercase text-[#5B6570] mb-6">FAQ MINI</h3>
+                    <h3 className="text-[11px] font-[family-name:var(--font-ibm-plex-mono)] font-bold tracking-widest uppercase text-[#3F4954] mb-6">FAQ MINI</h3>
                     <div className="space-y-8">
                       <div>
                         <p className="font-bold text-[#14171B] mb-2">Berapa lama kami akan merespons?</p>
-                        <p className="text-[#5B6570] leading-relaxed">Dalam hari kerja, tim kami akan berusaha merespons secepat mungkin setelah menerima informasi proyek Anda.</p>
+                        <p className="text-[#3F4954] leading-relaxed">Dalam hari kerja, tim kami akan berusaha merespons secepat mungkin setelah menerima informasi proyek Anda.</p>
                       </div>
                       <div>
                         <p className="font-bold text-[#14171B] mb-2">Apakah konsultasi awal berbayar?</p>
-                        <p className="text-[#5B6570] leading-relaxed">Diskusi awal bertujuan memahami kebutuhan proyek dan tidak mengharuskan Anda mengambil keputusan saat itu juga.</p>
+                        <p className="text-[#3F4954] leading-relaxed">Diskusi awal bertujuan memahami kebutuhan proyek dan tidak mengharuskan Anda mengambil keputusan saat itu juga.</p>
                       </div>
                     </div>
                   </div>
@@ -156,7 +156,7 @@ export default function KontakPage() {
             <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-8 tracking-tight leading-tight">
               Setiap Proyek Dimulai Dari Percakapan Yang Tepat.
             </h2>
-            <p className="text-lg text-white/50 mb-8 leading-relaxed">
+            <p className="text-lg text-[#DCD6CD] mb-8 leading-relaxed">
               Jika Anda sedang mempertimbangkan pembangunan, renovasi, atau pengelolaan fasilitas, mari mulai dengan berdiskusi.
               <br /><br />
               Kami akan membantu Anda memahami langkah yang paling sesuai dengan kondisi proyek Anda.

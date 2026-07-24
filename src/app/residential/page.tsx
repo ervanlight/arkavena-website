@@ -44,14 +44,14 @@ export default function ResidentialPage() {
         <Container>
           <FadeIn>
             <div className="max-w-4xl">
-              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
+              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-8">
                 Residential Construction
               </span>
               <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Rumah Yang Baik Tidak Hanya Dibangun Dengan Material Berkualitas.
-                <br /><span className="text-[#5B6570]">Tetapi Dengan Proses Yang Dikelola Dengan Benar.</span>
+                <br /><span className="text-[#3F4954]">Tetapi Dengan Proses Yang Dikelola Dengan Benar.</span>
               </h1>
-              <p className="text-lg text-[#5B6570] leading-relaxed font-inter max-w-2xl mb-8">
+              <p className="text-lg text-[#3F4954] leading-relaxed font-inter max-w-2xl mb-8">
                 Membangun rumah adalah salah satu keputusan finansial terbesar dalam hidup. Karena itu, kami percaya prosesnya harus sama baiknya dengan hasil akhirnya.
                 <br /><br />
                 TEGAKARA membantu Anda mengelola pembangunan maupun renovasi rumah melalui sistem kerja yang transparan, terstruktur, dan terdokumentasi sehingga Anda dapat mengambil keputusan dengan lebih tenang.
@@ -77,7 +77,7 @@ export default function ResidentialPage() {
               <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-8">
                 MEMBANGUN RUMAH SEHARUSNYA TIDAK MENJADI SUMBER STRES
               </h2>
-              <div className="text-lg text-white/50 leading-relaxed space-y-6">
+              <div className="text-lg text-[#DCD6CD] leading-relaxed space-y-6">
                 <p>Banyak pemilik rumah memulai proyek dengan penuh semangat.</p>
                 <p>Namun di tengah perjalanan mereka mulai menghadapi perubahan biaya, komunikasi yang tidak jelas, keterlambatan pekerjaan, hingga kualitas yang tidak sesuai harapan.</p>
                 <p>Sebagian besar masalah tersebut bukan terjadi karena niat yang buruk. Melainkan karena proyek tidak memiliki sistem pengendalian yang jelas.</p>
@@ -108,11 +108,11 @@ export default function ResidentialPage() {
                 }
               ].map((item, idx) => (
                 <div key={idx} className="bg-[#14171B] p-8 lg:p-10 hover:bg-[#14171B] transition-colors">
-                  <div className="w-12 h-12 bg-[#14171B] border border-white/10 rounded-xl flex items-center justify-center mb-8 text-[#5B6570]">
+                  <div className="w-12 h-12 bg-[#14171B] border border-white/10 rounded-xl flex items-center justify-center mb-8 text-[#3F4954]">
                     <item.icon className="w-6 h-6" />
                   </div>
                   <h3 className="text-xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-4">{item.title}</h3>
-                  <p className="text-[#5B6570] leading-relaxed">{item.desc}</p>
+                  <p className="text-[#3F4954] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -126,14 +126,14 @@ export default function ResidentialPage() {
           <FadeIn>
             <div className="grid lg:grid-cols-12 gap-16">
               <div className="lg:col-span-5">
-                <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-6">
+                <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-6">
                   CARA KAMI MEMBANGUN RUMAH
                 </h2>
                 <h3 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                   Kami Tidak Hanya Membangun Rumah.
-                  <br /><span className="text-[#5B6570]">Kami Mengelola Seluruh Perjalanannya.</span>
+                  <br /><span className="text-[#3F4954]">Kami Mengelola Seluruh Perjalanannya.</span>
                 </h3>
-                <div className="text-lg text-[#5B6570] leading-relaxed space-y-6">
+                <div className="text-lg text-[#3F4954] leading-relaxed space-y-6">
                   <p>Setiap proyek rumah memiliki kebutuhan yang berbeda.</p>
                   <p>Namun seluruhnya mengikuti prinsip yang sama: setiap keputusan harus jelas, setiap perubahan harus terdokumentasi, dan setiap progres harus dapat dipantau.</p>
                 </div>
@@ -170,13 +170,13 @@ export default function ResidentialPage() {
                   ].map((item, idx) => (
                     <div key={idx} className="flex gap-6">
                       <div className="shrink-0 mt-1">
-                        <div className="w-10 h-10 bg-[#C9C3B8]/20 border border-[#C9C3B8] rounded-lg flex items-center justify-center text-[#5B6570]">
+                        <div className="w-10 h-10 bg-[#C9C3B8]/20 border border-[#C9C3B8] rounded-lg flex items-center justify-center text-[#3F4954]">
                           <item.icon className="w-5 h-5" />
                         </div>
                       </div>
                       <div>
                         <h4 className="text-xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-3">{item.title}</h4>
-                        <p className="text-[#5B6570] leading-relaxed">{item.desc}</p>
+                        <p className="text-[#3F4954] leading-relaxed">{item.desc}</p>
                       </div>
                     </div>
                   ))}
@@ -195,7 +195,7 @@ export default function ResidentialPage() {
               <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-6">
                 LAYANAN RESIDENTIAL
               </h2>
-              <p className="text-lg text-[#5B6570] leading-relaxed">
+              <p className="text-lg text-[#3F4954] leading-relaxed">
                 Kami membantu berbagai kebutuhan pembangunan dan pengembangan rumah sesuai kondisi masing-masing keluarga.
               </p>
             </div>
@@ -212,7 +212,7 @@ export default function ResidentialPage() {
                     <item.icon className="w-6 h-6" />
                   </div>
                   <h3 className="text-xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">{item.title}</h3>
-                  <p className="text-[#5B6570] leading-relaxed">{item.desc}</p>
+                  <p className="text-[#3F4954] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -254,11 +254,11 @@ export default function ResidentialPage() {
           <FadeIn>
             <div className="grid lg:grid-cols-12 gap-16">
               <div className="lg:col-span-5">
-                <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-6">STUDI KASUS</h2>
+                <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-6">STUDI KASUS</h2>
                 <h3 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                   Setiap Rumah Memiliki Ceritanya Sendiri.
                 </h3>
-                <div className="text-lg text-[#5B6570] leading-relaxed space-y-6 mb-8">
+                <div className="text-lg text-[#3F4954] leading-relaxed space-y-6 mb-8">
                   <p>Kami percaya pengalaman membangun rumah tidak hanya dinilai dari hasil akhirnya. Tetapi juga dari bagaimana proses tersebut dijalankan.</p>
                 </div>
                 <Button variant="secondary">
@@ -266,7 +266,7 @@ export default function ResidentialPage() {
                 </Button>
               </div>
               <div className="lg:col-span-7">
-                <div className="bg-[#ECE8E1] border border-[#C9C3B8] p-8 sm:p-12 text-sm text-[#5B6570] font-mono tracking-wide">
+                <div className="bg-[#ECE8E1] border border-[#C9C3B8] p-8 sm:p-12 text-sm text-[#3F4954] font-mono tracking-wide">
                   <p className="mb-4 text-[#14171B] font-bold">CASE_STUDY_TEMPLATE</p>
                   <p className="mb-4">Nama Proyek</p>
                   <p className="mb-4">↓</p>
@@ -306,9 +306,9 @@ export default function ResidentialPage() {
                 { step: "07", title: "Serah Terima", desc: "Pemeriksaan bersama untuk memastikan hasil sesuai kesepakatan." }
               ].map((item, idx) => (
                 <div key={idx} className="relative">
-                  <div className="text-xs font-bold text-[#5B6570] mb-4 font-mono">STEP {item.step}</div>
+                  <div className="text-xs font-bold text-[#3F4954] mb-4 font-mono">STEP {item.step}</div>
                   <h3 className="font-[family-name:var(--font-space-grotesk)] font-bold text-white text-xl mb-3">{item.title}</h3>
-                  <p className="text-[#5B6570] leading-relaxed text-sm">{item.desc}</p>
+                  <p className="text-[#3F4954] leading-relaxed text-sm">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -335,7 +335,7 @@ export default function ResidentialPage() {
             <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-8 tracking-tight leading-tight">
               Rumah Yang Nyaman Dimulai Dari Proses Yang Tepat.
             </h2>
-            <p className="text-lg text-[#5B6570] mb-8 leading-relaxed">
+            <p className="text-lg text-[#3F4954] mb-8 leading-relaxed">
               Mari mulai dengan sebuah diskusi. Kami akan membantu Anda memahami langkah terbaik sebelum pembangunan dimulai sehingga setiap keputusan dapat diambil dengan lebih percaya diri.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

@@ -109,7 +109,7 @@ export default function AssessmentForm() {
             <div className="space-y-8 animate-in fade-in">
               <div className="text-center">
                 <h2 className="text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">Mulai Proyek Anda</h2>
-                <p className="text-[#5B6570]">Pilih layanan yang Anda butuhkan untuk melanjutkan</p>
+                <p className="text-[#3F4954]">Pilih layanan yang Anda butuhkan untuk melanjutkan</p>
               </div>
 
               <div className="grid md:grid-cols-2 gap-6">
@@ -117,18 +117,18 @@ export default function AssessmentForm() {
                   className={`cursor-pointer rounded-xl border-2 p-6 transition-all ${serviceType === 'residential' ? 'border-[#E2A63C] bg-white' : 'border-[#C9C3B8] hover:border-[#E2A63C]/50'}`}
                   onClick={() => setValue("serviceType", "residential")}
                 >
-                  <Home className={`w-12 h-12 mb-4 ${serviceType === 'residential' ? 'text-[#E2A63C]' : 'text-[#5B6570]'}`} />
+                  <Home className={`w-12 h-12 mb-4 ${serviceType === 'residential' ? 'text-[#E2A63C]' : 'text-[#3F4954]'}`} />
                   <h3 className="font-bold text-xl mb-2">Residential</h3>
-                  <p className="text-sm text-[#5B6570]">Bangun atau renovasi rumah hunian, kost, atau vila dengan standar tinggi.</p>
+                  <p className="text-sm text-[#3F4954]">Bangun atau renovasi rumah hunian, kost, atau vila dengan standar tinggi.</p>
                 </div>
                 
                 <div 
                   className={`cursor-pointer rounded-xl border-2 p-6 transition-all ${serviceType === 'facility' ? 'border-[#E2A63C] bg-white' : 'border-[#C9C3B8] hover:border-[#E2A63C]/50'}`}
                   onClick={() => setValue("serviceType", "facility")}
                 >
-                  <Building className={`w-12 h-12 mb-4 ${serviceType === 'facility' ? 'text-[#E2A63C]' : 'text-[#5B6570]'}`} />
+                  <Building className={`w-12 h-12 mb-4 ${serviceType === 'facility' ? 'text-[#E2A63C]' : 'text-[#3F4954]'}`} />
                   <h3 className="font-bold text-xl mb-2">Facility Care</h3>
-                  <p className="text-sm text-[#5B6570]">Perawatan, perbaikan, dan manajemen fasilitas untuk sekolah, kantor, atau komersial.</p>
+                  <p className="text-sm text-[#3F4954]">Perawatan, perbaikan, dan manajemen fasilitas untuk sekolah, kantor, atau komersial.</p>
                 </div>
               </div>
 
@@ -225,7 +225,7 @@ export default function AssessmentForm() {
             <div className="space-y-6 animate-in slide-in-from-right-4 text-center py-8">
               <CheckCircle className="w-16 h-16 text-[#25775A] mx-auto mb-4" />
               <h2 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-2">Konfirmasi Pengiriman</h2>
-              <p className="text-[#5B6570] mb-8">
+              <p className="text-[#3F4954] mb-8">
                 Data Anda siap dikirim. Tim TEGAKARA akan meninjau dan menghubungi Anda maksimal 1x24 jam kerja.
               </p>
               
@@ -255,7 +255,7 @@ export default function AssessmentForm() {
               <button 
                 type="button" 
                 onClick={prevStep}
-                className="text-[#5B6570] hover:text-[#14171B] font-medium flex items-center"
+                className="text-[#3F4954] hover:text-[#14171B] font-medium flex items-center"
               >
                 <ArrowLeft className="w-4 h-4 mr-1" /> Kembali
               </button>

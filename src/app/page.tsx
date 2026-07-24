@@ -87,7 +87,7 @@ export default function HomePage() {
                 </span>
                 <h1 className="text-xl md:text-2xl lg:text-[2.75rem] font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.15] tracking-tight mb-5">
                   Bangunan Bukan Investasi Terbesar Anda.
-                  <br /><span className="text-white/50">Yang Lebih Berharga Adalah Kendali Atas Proses Membangunnya.</span>
+                  <br /><span className="text-[#DCD6CD]">Yang Lebih Berharga Adalah Kendali Atas Proses Membangunnya.</span>
                 </h1>
                 <div className="text-base text-white/60 leading-relaxed font-inter space-y-4 mb-8">
                   <p>Membangun, merenovasi, atau merawat properti bukan hanya tentang pekerjaan konstruksi.</p>
@@ -120,7 +120,7 @@ export default function HomePage() {
               <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-8">
                 Mengapa Banyak Proyek Menjadi Lebih Sulit Dari Yang Seharusnya?
               </h2>
-              <div className="text-lg text-white/50 leading-relaxed space-y-6">
+              <div className="text-lg text-[#DCD6CD] leading-relaxed space-y-6">
                 <p>Sebagian besar proyek tidak bermasalah karena kurangnya tenaga kerja.</p>
                 <p>Masalah justru muncul ketika proses berjalan tanpa sistem yang jelas.</p>
                 <p>Tanpa dokumentasi, komunikasi yang baik, dan pengendalian yang konsisten, proyek yang seharusnya sederhana dapat berubah menjadi sumber stres, pembengkakan biaya, dan keterlambatan.</p>
@@ -135,11 +135,11 @@ export default function HomePage() {
                 { title: "Kualitas Tidak Konsisten", desc: "Tanpa sistem pemeriksaan yang jelas, kualitas pekerjaan bergantung pada kebiasaan masing-masing pelaksana.", icon: ShieldAlert }
               ].map((item, idx) => (
                 <div key={idx} className="bg-[#14171B] p-8 lg:p-10 hover:bg-white/5 transition-colors">
-                  <div className="w-12 h-12 bg-white/5 border border-white/10 rounded-xl flex items-center justify-center mb-8 text-[#5B6570]">
+                  <div className="w-12 h-12 bg-white/5 border border-white/10 rounded-xl flex items-center justify-center mb-8 text-[#3F4954]">
                     <item.icon className="w-6 h-6" />
                   </div>
                   <h3 className="text-xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-4">{item.title}</h3>
-                  <p className="text-[#5B6570] leading-relaxed">{item.desc}</p>
+                  <p className="text-[#3F4954] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -154,9 +154,9 @@ export default function HomePage() {
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-12">
                 Proyek Tidak Berhasil Karena Tidak Ada Masalah.
-                <br /><span className="text-[#5B6570]">Proyek Berhasil Karena Setiap Masalah Dikendalikan.</span>
+                <br /><span className="text-[#3F4954]">Proyek Berhasil Karena Setiap Masalah Dikendalikan.</span>
               </h2>
-              <div className="text-lg text-[#5B6570] leading-relaxed space-y-6">
+              <div className="text-lg text-[#3F4954] leading-relaxed space-y-6">
                 <p>Dalam setiap proyek akan selalu ada perubahan, tantangan, dan keputusan yang harus diambil.</p>
                 <p>Yang membedakan proyek yang berjalan baik bukanlah tidak adanya masalah.</p>
                 <p>Melainkan adanya sistem yang memastikan setiap perubahan terdokumentasi, setiap keputusan memiliki dasar, dan setiap progres dapat dipantau dengan jelas.</p>
@@ -176,7 +176,7 @@ export default function HomePage() {
                 <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                   Cara Kami Menjaga Proyek Tetap Dalam Kendali
                 </h2>
-                <div className="text-lg text-[#5B6570] leading-relaxed space-y-6 mb-8">
+                <div className="text-lg text-[#3F4954] leading-relaxed space-y-6 mb-8">
                   <p>Kami percaya bahwa hasil terbaik lahir dari proses yang dapat dipertanggungjawabkan.</p>
                   <p>Karena itu kami membangun setiap proyek menggunakan sistem kerja yang mengutamakan transparansi, koordinasi, dan dokumentasi.</p>
                 </div>
@@ -202,7 +202,7 @@ export default function HomePage() {
                       </div>
                       <div>
                         <h4 className="text-lg font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-3">{item.title}</h4>
-                        <p className="text-[#5B6570] leading-relaxed">{item.desc}</p>
+                        <p className="text-[#3F4954] leading-relaxed">{item.desc}</p>
                       </div>
                     </div>
                   ))}
@@ -221,9 +221,9 @@ export default function HomePage() {
               <div className="lg:col-span-6">
                 <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-8">
                   Kami Tidak Menjanjikan Proyek Tanpa Tantangan.
-                  <br /><span className="text-white/50">Kami Menjanjikan Proyek Yang Tetap Dalam Kendali.</span>
+                  <br /><span className="text-[#DCD6CD]">Kami Menjanjikan Proyek Yang Tetap Dalam Kendali.</span>
                 </h2>
-                <div className="text-lg text-white/50 leading-relaxed space-y-6">
+                <div className="text-lg text-[#DCD6CD] leading-relaxed space-y-6">
                   <p>Keberhasilan proyek bukan ditentukan oleh janji bahwa semuanya akan berjalan sempurna.</p>
                   <p>Keberhasilan ditentukan oleh bagaimana setiap tantangan direspons secara cepat, transparan, dan terdokumentasi.</p>
                   <p>Itulah komitmen yang kami pegang dalam setiap proyek.</p>
@@ -258,11 +258,11 @@ export default function HomePage() {
               <div className="lg:col-span-6">
                 <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                   Bukti Terbaik Bukan Klaim.
-                  <br /><span className="text-[#5B6570]">Tetapi Proyek Yang Dapat Dipertanggungjawabkan.</span>
+                  <br /><span className="text-[#3F4954]">Tetapi Proyek Yang Dapat Dipertanggungjawabkan.</span>
                 </h2>
               </div>
               <div className="lg:col-span-6">
-                <div className="text-lg text-[#5B6570] leading-relaxed space-y-6 mb-8">
+                <div className="text-lg text-[#3F4954] leading-relaxed space-y-6 mb-8">
                   <p>Setiap proyek memiliki tantangan yang berbeda.</p>
                   <p>Karena itu kami tidak hanya menampilkan hasil akhirnya, tetapi juga bagaimana proses pengambilan keputusan dilakukan hingga proyek selesai.</p>
                 </div>
@@ -279,7 +279,7 @@ export default function HomePage() {
                     <Image src="/images/hero_residential_1784553175729.jpg" fill alt="Residential" className="object-cover group-hover:scale-105 transition-transform duration-700"  sizes="(max-width: 1200px) 100vw, 50vw" />
                   </div>
                   <h3 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">Rumah Tinggal Citraland</h3>
-                  <p className="text-[#5B6570] leading-relaxed mb-6">Pembangunan hunian dengan sistem pelaporan terstruktur yang memudahkan klien memantau dari luar kota.</p>
+                  <p className="text-[#3F4954] leading-relaxed mb-6">Pembangunan hunian dengan sistem pelaporan terstruktur yang memudahkan klien memantau dari luar kota.</p>
                   <span className="inline-flex items-center text-sm font-bold text-[#14171B]">
                     Baca Studi Kasus <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </span>
@@ -292,7 +292,7 @@ export default function HomePage() {
                     <Image src="/images/school_facility_1784552005374.jpg" fill alt="Facility Care" className="object-cover group-hover:scale-105 transition-transform duration-700"  sizes="(max-width: 1200px) 100vw, 50vw" />
                   </div>
                   <h3 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">Maintenance Fasilitas Sekolah</h3>
-                  <p className="text-[#5B6570] leading-relaxed mb-6">Program pemeliharaan terjadwal untuk memastikan operasional sekolah berjalan tanpa gangguan.</p>
+                  <p className="text-[#3F4954] leading-relaxed mb-6">Program pemeliharaan terjadwal untuk memastikan operasional sekolah berjalan tanpa gangguan.</p>
                   <span className="inline-flex items-center text-sm font-bold text-[#14171B]">
                     Baca Studi Kasus <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </span>
@@ -311,7 +311,7 @@ export default function HomePage() {
               <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                 Apa Yang Akan Terjadi Setelah Anda Menghubungi Kami?
               </h2>
-              <p className="text-lg text-[#5B6570] leading-relaxed">
+              <p className="text-lg text-[#3F4954] leading-relaxed">
                 Kami menggunakan proses yang jelas agar setiap tahap proyek dapat dipahami sejak awal.
               </p>
             </div>
@@ -328,13 +328,13 @@ export default function HomePage() {
               ].map((item, idx) => (
                 <div key={idx} className="relative">
                   <div className="flex items-center gap-4 mb-4 border-b border-[#C9C3B8] pb-4">
-                    <div className="w-8 h-8 rounded bg-[#C9C3B8]/20 flex items-center justify-center text-[#5B6570] shrink-0">
+                    <div className="w-8 h-8 rounded bg-[#C9C3B8]/20 flex items-center justify-center text-[#3F4954] shrink-0">
                       <item.icon className="w-4 h-4" />
                     </div>
-                    <div className="text-xs font-bold text-[#5B6570] font-[family-name:var(--font-ibm-plex-mono)]">STEP 0{idx + 1}</div>
+                    <div className="text-xs font-bold text-[#3F4954] font-[family-name:var(--font-ibm-plex-mono)]">STEP 0{idx + 1}</div>
                   </div>
                   <h3 className="font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] text-xl mb-3">{item.title}</h3>
-                  <p className="text-[#5B6570] leading-relaxed text-sm">{item.desc}</p>
+                  <p className="text-[#3F4954] leading-relaxed text-sm">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -354,7 +354,7 @@ export default function HomePage() {
               <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-8">
                 Kepercayaan Dibangun Dari Pengalaman Nyata.
               </h2>
-              <div className="text-lg text-white/50 leading-relaxed space-y-6">
+              <div className="text-lg text-[#DCD6CD] leading-relaxed space-y-6">
                 <p>Kami percaya bahwa kepuasan klien tidak hanya diukur dari bangunan yang selesai.</p>
                 <p>Tetapi juga dari pengalaman selama proses pengerjaan berlangsung.</p>
               </div>
@@ -365,9 +365,9 @@ export default function HomePage() {
                 <div key={idx} className="bg-white/5 border border-white/10 p-8 rounded-2xl flex flex-col">
                   <p className="text-white/70 leading-relaxed mb-8 flex-grow">"{testi.quote}"</p>
                   <div className="pt-6 border-t border-white/10">
-                    <p className="text-[#5B6570] text-sm mb-4 italic">{testi.initial}</p>
+                    <p className="text-[#3F4954] text-sm mb-4 italic">{testi.initial}</p>
                     <p className="font-bold text-white">{testi.name}</p>
-                    <p className="text-[#5B6570] text-sm">{testi.role}</p>
+                    <p className="text-[#3F4954] text-sm">{testi.role}</p>
                   </div>
                 </div>
               ))}

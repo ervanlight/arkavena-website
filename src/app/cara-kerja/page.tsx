@@ -33,13 +33,13 @@ export default function CaraKerjaPage() {
         <Container>
           <FadeIn>
             <div className="max-w-4xl">
-              <span className="inline-block text-[11px] font-[family-name:var(--font-ibm-plex-mono)] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
+              <span className="inline-block text-[11px] font-[family-name:var(--font-ibm-plex-mono)] font-bold tracking-widest uppercase text-[#3F4954] mb-8">
                 PROSES KAMI
               </span>
               <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Transparan, Terukur, & Terkendali
               </h1>
-              <p className="text-xl text-[#5B6570] leading-relaxed max-w-2xl font-[family-name:var(--font-inter)]">
+              <p className="text-xl text-[#3F4954] leading-relaxed max-w-2xl font-[family-name:var(--font-inter)]">
                 Kami menerapkan 14 langkah kerja yang terstruktur untuk memastikan setiap proyek berjalan sesuai standar kualitas, waktu, dan anggaran.
               </p>
             </div>
@@ -75,7 +75,7 @@ export default function CaraKerjaPage() {
                               <h3 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-3">
                                 {step.title}
                               </h3>
-                              <p className="text-[#5B6570] leading-relaxed mb-6 font-[family-name:var(--font-inter)]">
+                              <p className="text-[#3F4954] leading-relaxed mb-6 font-[family-name:var(--font-inter)]">
                                 {step.description}
                               </p>
                               <ul className="space-y-3">

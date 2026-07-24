@@ -26,7 +26,7 @@ export function ProjectCard({ title, category, location, href, imageUrl, classNa
               className="object-cover"
              sizes="(max-width: 1200px) 100vw, 50vw" />
           ) : (
-            <div className="absolute inset-0 flex items-center justify-center text-[#5B6570] text-sm">
+            <div className="absolute inset-0 flex items-center justify-center text-[#3F4954] text-sm">
               No image
             </div>
           )}
@@ -37,10 +37,10 @@ export function ProjectCard({ title, category, location, href, imageUrl, classNa
         </div>
         
         <div className="p-5 flex-1 flex flex-col">
-          <h3 className="font-[family-name:var(--font-space-grotesk)] text-lg font-semibold text-[#14171B] mb-1 leading-snug group-hover:text-[#5B6570] transition-colors line-clamp-2">
+          <h3 className="font-[family-name:var(--font-space-grotesk)] text-lg font-semibold text-[#14171B] mb-1 leading-snug group-hover:text-[#3F4954] transition-colors line-clamp-2">
             {title}
           </h3>
-          <p className="text-sm text-[#5B6570] mb-4">{location}</p>
+          <p className="text-sm text-[#3F4954] mb-4">{location}</p>
           
           <div className="mt-auto pt-4 border-t border-zinc-100 flex items-center text-sm font-medium text-[#14171B]">
             View Case Study 

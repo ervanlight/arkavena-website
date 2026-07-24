@@ -28,13 +28,13 @@ export default async function PortfolioDetailPage({ params }: { params: Promise<
         <Container>
           <FadeIn>
             <div className="max-w-4xl">
-              <Link href="/portfolio" className="inline-flex items-center text-sm font-bold text-[#5B6570] hover:text-[#14171B] mb-12 transition-colors">
+              <Link href="/portfolio" className="inline-flex items-center text-sm font-bold text-[#3F4954] hover:text-[#14171B] mb-12 transition-colors">
                 <ArrowLeft className="w-4 h-4 mr-2" /> Kembali ke Portofolio
               </Link>
               <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 {project.title}
               </h1>
-              <div className="flex flex-wrap gap-6 text-sm font-medium text-[#5B6570]">
+              <div className="flex flex-wrap gap-6 text-sm font-medium text-[#3F4954]">
                 <div className="flex items-center gap-2 font-[family-name:var(--font-ibm-plex-mono)] text-[#1C3A5C]">
                   <MapPin className="w-4 h-4" /> {project.location}
                 </div>
@@ -75,7 +75,7 @@ export default async function PortfolioDetailPage({ params }: { params: Promise<
               <FadeIn delay={150}>
                 <div className="sticky top-32 space-y-8">
                   <div>
-                    <h3 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-4">Ruang Lingkup Pekerjaan</h3>
+                    <h3 className="text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-4">Ruang Lingkup Pekerjaan</h3>
                     <p className="text-lg font-medium text-[#14171B]">{project.scope}</p>
                   </div>
                   <div className="pt-8 border-t border-[#C9C3B8]">
@@ -91,14 +91,14 @@ export default async function PortfolioDetailPage({ params }: { params: Promise<
               <FadeIn delay={200}>
                 <div>
                   <h2 className="text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] tracking-tight mb-6">Tantangan Proyek</h2>
-                  <p className="text-xl text-[#5B6570] leading-relaxed">{project.challenge}</p>
+                  <p className="text-xl text-[#3F4954] leading-relaxed">{project.challenge}</p>
                 </div>
               </FadeIn>
               
               <FadeIn delay={250}>
                 <div>
                   <h2 className="text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] tracking-tight mb-6">Pendekatan & Solusi</h2>
-                  <p className="text-xl text-[#5B6570] leading-relaxed">{project.solution}</p>
+                  <p className="text-xl text-[#3F4954] leading-relaxed">{project.solution}</p>
                 </div>
               </FadeIn>
 
@@ -108,7 +108,7 @@ export default async function PortfolioDetailPage({ params }: { params: Promise<
                   <div className="space-y-6">
                     {project.results.map((result, idx) => (
                       <div key={idx} className="flex items-start gap-4">
-                        <CheckCircle2 className="w-6 h-6 text-[#5B6570] shrink-0 mt-1" />
+                        <CheckCircle2 className="w-6 h-6 text-[#3F4954] shrink-0 mt-1" />
                         <p className="text-lg text-[#14171B] font-medium leading-relaxed">{result}</p>
                       </div>
                     ))}

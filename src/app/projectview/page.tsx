@@ -22,14 +22,14 @@ export default function ProjectViewPage() {
         <Container>
           <FadeIn>
             <div className="max-w-4xl">
-              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
+              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-8">
                 Project Transparency System
               </span>
               <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Tetap Mengetahui Perkembangan Proyek,
-                <br /><span className="text-[#5B6570]">Tanpa Harus Selalu Berada di Lokasi.</span>
+                <br /><span className="text-[#3F4954]">Tanpa Harus Selalu Berada di Lokasi.</span>
               </h1>
-              <div className="text-lg text-[#5B6570] leading-relaxed font-inter max-w-3xl mb-8 space-y-6">
+              <div className="text-lg text-[#3F4954] leading-relaxed font-inter max-w-3xl mb-8 space-y-6">
                 <p>Kami percaya bahwa pemilik proyek tidak seharusnya menunggu laporan untuk mengetahui apa yang sedang terjadi.</p>
                 <p>Melalui sistem ProjectView, setiap perkembangan proyek didokumentasikan secara terstruktur sehingga Anda mengetahui progres, keputusan, perubahan, dan kondisi lapangan dengan lebih jelas.</p>
               </div>
@@ -80,11 +80,11 @@ export default function ProjectViewPage() {
                 { title: "Approval", desc: "Riwayat keputusan yang telah disetujui.", icon: FileSignature }
               ].map((item, idx) => (
                 <div key={idx} className="bg-[#14171B] p-8 lg:p-10 hover:bg-[#14171B] transition-colors">
-                  <div className="w-12 h-12 bg-[#14171B] border border-white/10 rounded-xl flex items-center justify-center mb-8 text-[#5B6570]">
+                  <div className="w-12 h-12 bg-[#14171B] border border-white/10 rounded-xl flex items-center justify-center mb-8 text-[#3F4954]">
                     <item.icon className="w-6 h-6" />
                   </div>
                   <h3 className="text-xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-4">{item.title}</h3>
-                  <p className="text-[#5B6570] leading-relaxed">{item.desc}</p>
+                  <p className="text-[#3F4954] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -100,7 +100,7 @@ export default function ProjectViewPage() {
               <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-12">
                 Mengapa Transparansi Itu Penting?
               </h2>
-              <div className="text-lg text-[#5B6570] leading-relaxed space-y-6 mb-16">
+              <div className="text-lg text-[#3F4954] leading-relaxed space-y-6 mb-16">
                 <p>Semakin besar nilai investasi sebuah proyek, semakin penting pemilik proyek mengetahui apa yang sedang terjadi.</p>
                 <p>Kami percaya bahwa kepercayaan dibangun melalui visibilitas, bukan asumsi.</p>
               </div>

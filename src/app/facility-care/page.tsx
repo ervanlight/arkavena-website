@@ -45,14 +45,14 @@ export default function FacilityCarePage() {
         <Container>
           <FadeIn>
             <div className="max-w-4xl">
-              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
+              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-8">
                 Commercial Building • Industrial Facility • Building Maintenance
               </span>
               <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Bangunan Yang Terawat Bukan Sekadar Terlihat Lebih Baik.
-                <br /><span className="text-[#5B6570]">Tetapi Membantu Bisnis Tetap Berjalan.</span>
+                <br /><span className="text-[#3F4954]">Tetapi Membantu Bisnis Tetap Berjalan.</span>
               </h1>
-              <div className="text-lg text-[#5B6570] leading-relaxed font-inter max-w-3xl mb-8 space-y-6">
+              <div className="text-lg text-[#3F4954] leading-relaxed font-inter max-w-3xl mb-8 space-y-6">
                 <p>Bangunan yang digunakan setiap hari akan terus mengalami perubahan. Peralatan bekerja. Material menua. Kerusakan kecil mulai muncul.</p>
                 <p>Jika tidak dikelola sejak awal, gangguan kecil dapat berkembang menjadi gangguan operasional yang jauh lebih mahal.</p>
                 <p>TEGAKARA membantu perusahaan menjaga fasilitas tetap aman, nyaman, dan siap digunakan melalui sistem Facility Care yang terencana dan terdokumentasi.</p>
@@ -88,7 +88,7 @@ export default function FacilityCarePage() {
               <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-8">
                 Banyak Gangguan Operasional Berawal Dari Hal-Hal Kecil Yang Diabaikan.
               </h2>
-              <div className="text-lg text-white/50 leading-relaxed space-y-6">
+              <div className="text-lg text-[#DCD6CD] leading-relaxed space-y-6">
                 <p>Kerusakan besar jarang terjadi secara tiba-tiba.</p>
                 <p>Biasanya diawali oleh masalah kecil yang tidak terpantau, tidak terdokumentasi, atau tidak ditindaklanjuti tepat waktu.</p>
                 <p>Facility Care yang baik membantu mencegah hal tersebut sebelum berdampak pada operasional bisnis.</p>
@@ -124,12 +124,12 @@ export default function FacilityCarePage() {
                 }
               ].map((item, idx) => (
                 <div key={idx} className="bg-[#14171B] p-8 lg:p-10 hover:bg-[#14171B] transition-colors">
-                  <div className="w-12 h-12 bg-[#14171B] border border-white/10 rounded-xl flex items-center justify-center mb-8 text-[#5B6570]">
+                  <div className="w-12 h-12 bg-[#14171B] border border-white/10 rounded-xl flex items-center justify-center mb-8 text-[#3F4954]">
                     <item.icon className="w-6 h-6" />
                   </div>
-                  <span className="text-[#5B6570] font-bold text-xs tracking-widest uppercase block mb-4">MASALAH</span>
+                  <span className="text-[#3F4954] font-bold text-xs tracking-widest uppercase block mb-4">MASALAH</span>
                   <h3 className="text-xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-4">{item.title}</h3>
-                  <p className="text-[#5B6570] leading-relaxed">{item.desc}</p>
+                  <p className="text-[#3F4954] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -144,9 +144,9 @@ export default function FacilityCarePage() {
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-12">
                 Facility Care Bukan Tentang Memperbaiki Kerusakan.
-                <br /><span className="text-[#5B6570]">Tetapi Menjaga Agar Kerusakan Tidak Mengganggu Bisnis.</span>
+                <br /><span className="text-[#3F4954]">Tetapi Menjaga Agar Kerusakan Tidak Mengganggu Bisnis.</span>
               </h2>
-              <div className="text-lg text-[#5B6570] leading-relaxed space-y-6">
+              <div className="text-lg text-[#3F4954] leading-relaxed space-y-6">
                 <p>Kami percaya bahwa maintenance terbaik adalah maintenance yang direncanakan.</p>
                 <p>Pendekatan kami membantu perusahaan mengurangi gangguan operasional melalui inspeksi rutin, dokumentasi, dan tindakan preventif.</p>
                 <p>Dengan demikian, keputusan perawatan menjadi lebih terukur dan biaya lebih mudah dikendalikan.</p>
@@ -161,7 +161,7 @@ export default function FacilityCarePage() {
         <Container>
           <FadeIn>
             <div className="max-w-3xl mb-16">
-              <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-6">LAYANAN FACILITY CARE</h2>
+              <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-6">LAYANAN FACILITY CARE</h2>
               <p className="text-xl md:text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.2] tracking-tight">
                 Kami membantu pengelolaan berbagai kebutuhan bangunan komersial maupun industri.
               </p>
@@ -180,7 +180,7 @@ export default function FacilityCarePage() {
                     <item.icon className="w-6 h-6" />
                   </div>
                   <h3 className="text-xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">{item.title}</h3>
-                  <p className="text-[#5B6570] leading-relaxed">{item.desc}</p>
+                  <p className="text-[#3F4954] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -199,7 +199,7 @@ export default function FacilityCarePage() {
             <div className="mb-16">
               <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-6">
                 Setiap Aktivitas Memiliki Sistem.
-                <br /><span className="text-[#5B6570]">Setiap Sistem Menghasilkan Kepastian.</span>
+                <br /><span className="text-[#3F4954]">Setiap Sistem Menghasilkan Kepastian.</span>
               </h2>
             </div>
 
@@ -214,13 +214,13 @@ export default function FacilityCarePage() {
               ].map((item, idx) => (
                 <div key={idx} className="relative">
                   <div className="flex items-center gap-4 mb-4 border-b border-white/10 pb-4">
-                    <div className="w-8 h-8 rounded bg-[#ECE8E1]/10 flex items-center justify-center text-white/50 shrink-0">
+                    <div className="w-8 h-8 rounded bg-[#ECE8E1]/10 flex items-center justify-center text-[#DCD6CD] shrink-0">
                       <item.icon className="w-4 h-4" />
                     </div>
-                    <div className="text-xs font-bold text-[#5B6570] font-mono">STEP {item.step}</div>
+                    <div className="text-xs font-bold text-[#3F4954] font-mono">STEP {item.step}</div>
                   </div>
                   <h3 className="font-[family-name:var(--font-space-grotesk)] font-bold text-white text-xl mb-3">{item.title}</h3>
-                  <p className="text-[#5B6570] leading-relaxed text-sm">{item.desc}</p>
+                  <p className="text-[#3F4954] leading-relaxed text-sm">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -239,15 +239,15 @@ export default function FacilityCarePage() {
                 </h2>
               </div>
               <div className="border-t border-[#C9C3B8] pt-6">
-                <p className="text-[#5B6570] mb-2">Kami tidak hanya memperbaiki.</p>
+                <p className="text-[#3F4954] mb-2">Kami tidak hanya memperbaiki.</p>
                 <p className="text-[#14171B] font-bold text-lg">Kami membantu perusahaan mengelola fasilitas.</p>
               </div>
               <div className="border-t border-[#C9C3B8] pt-6">
-                <p className="text-[#5B6570] mb-2">Kami tidak hanya datang ketika ada masalah.</p>
+                <p className="text-[#3F4954] mb-2">Kami tidak hanya datang ketika ada masalah.</p>
                 <p className="text-[#14171B] font-bold text-lg">Kami membantu mencegah masalah.</p>
               </div>
               <div className="border-t border-[#C9C3B8] pt-6">
-                <p className="text-[#5B6570] mb-2">Kami tidak hanya mengirim teknisi.</p>
+                <p className="text-[#3F4954] mb-2">Kami tidak hanya mengirim teknisi.</p>
                 <p className="text-[#14171B] font-bold text-lg">Kami memberikan sistem dokumentasi.</p>
               </div>
               <div className="border-t border-[#C9C3B8] pt-6">
@@ -264,11 +264,11 @@ export default function FacilityCarePage() {
           <FadeIn>
             <div className="grid lg:grid-cols-12 gap-16">
               <div className="lg:col-span-5">
-                <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-6">STUDI KASUS</h2>
+                <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-6">STUDI KASUS</h2>
                 <h3 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                   Setiap Bangunan Memiliki Tantangan Yang Berbeda.
                 </h3>
-                <div className="text-lg text-[#5B6570] leading-relaxed space-y-6 mb-8">
+                <div className="text-lg text-[#3F4954] leading-relaxed space-y-6 mb-8">
                   <p>Kami mendokumentasikan bagaimana setiap tantangan diselesaikan sehingga dapat menjadi pembelajaran untuk proyek berikutnya.</p>
                 </div>
                 <Button variant="secondary">
@@ -276,7 +276,7 @@ export default function FacilityCarePage() {
                 </Button>
               </div>
               <div className="lg:col-span-7">
-                <div className="bg-[#ECE8E1] border border-[#C9C3B8] p-8 sm:p-12 text-sm text-[#5B6570] font-mono tracking-wide">
+                <div className="bg-[#ECE8E1] border border-[#C9C3B8] p-8 sm:p-12 text-sm text-[#3F4954] font-mono tracking-wide">
                   <p className="mb-4 text-[#14171B] font-bold">CASE_STUDY_TEMPLATE</p>
                   <p className="mb-4">Client</p>
                   <p className="mb-4">↓</p>
@@ -305,7 +305,7 @@ export default function FacilityCarePage() {
         <Container>
           <FadeIn>
             <div className="max-w-3xl mb-16">
-              <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-6">INDUSTRI YANG KAMI LAYANI</h2>
+              <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-6">INDUSTRI YANG KAMI LAYANI</h2>
               <p className="text-xl md:text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.2] tracking-tight">
                 Kami membantu berbagai jenis fasilitas.
               </p>
@@ -371,7 +371,7 @@ export default function FacilityCarePage() {
             <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-8 tracking-tight leading-tight">
               Bangunan Yang Terawat Membantu Bisnis Tetap Bergerak.
             </h2>
-            <p className="text-lg text-[#5B6570] mb-8 leading-relaxed">
+            <p className="text-lg text-[#3F4954] mb-8 leading-relaxed">
               Mari diskusikan bagaimana sistem Facility Care dapat membantu menjaga operasional bangunan Anda tetap berjalan secara lebih aman, efisien, dan terencana.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

@@ -20,14 +20,14 @@ export default function PortfolioPage() {
         <Container>
           <FadeIn>
             <div className="max-w-4xl">
-              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
+              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-8">
                 Project Case Studies
               </span>
               <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Bukti Terbaik Bukan Klaim.
-                <br /><span className="text-[#5B6570]">Melainkan Proyek Yang Terkendali.</span>
+                <br /><span className="text-[#3F4954]">Melainkan Proyek Yang Terkendali.</span>
               </h1>
-              <div className="text-xl text-[#5B6570] leading-relaxed font-inter max-w-3xl space-y-6 mb-12">
+              <div className="text-xl text-[#3F4954] leading-relaxed font-inter max-w-3xl space-y-6 mb-12">
                 <p>Kami tidak hanya menampilkan hasil akhirnya, tetapi juga bagaimana proses pengambilan keputusan dilakukan hingga proyek selesai.</p>
               </div>
             </div>
@@ -47,10 +47,10 @@ export default function PortfolioPage() {
                       <Image src={project.imageUrl} fill alt={project.title} className="object-cover group-hover:scale-105 transition-transform duration-700"  sizes="(max-width: 1200px) 100vw, 50vw" />
                     </div>
                     <div className="mb-4">
-                      <span className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570]">{project.category}</span>
+                      <span className="text-[11px] font-bold tracking-widest uppercase text-[#3F4954]">{project.category}</span>
                     </div>
                     <h3 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">{project.title}</h3>
-                    <p className="text-[#5B6570] leading-relaxed mb-6 flex-grow">{project.challenge.substring(0, 100)}...</p>
+                    <p className="text-[#3F4954] leading-relaxed mb-6 flex-grow">{project.challenge.substring(0, 100)}...</p>
                     <div className="mt-auto pt-6 border-t border-zinc-100">
                       <span className="inline-flex items-center text-sm font-bold text-[#14171B]">
                         Baca Studi Kasus <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />

@@ -18,14 +18,14 @@ export default function TentangPage() {
         <Container>
           <FadeIn>
             <div className="max-w-4xl">
-              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
+              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-8">
                 About Tegakara
               </span>
               <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.05] tracking-tight mb-8">
                 Kami Percaya Bahwa
-                <br /><span className="text-[#5B6570]">Proyek Yang Baik Lahir Dari Sistem Yang Baik.</span>
+                <br /><span className="text-[#3F4954]">Proyek Yang Baik Lahir Dari Sistem Yang Baik.</span>
               </h1>
-              <div className="text-lg text-white/50 leading-relaxed font-inter max-w-3xl space-y-6">
+              <div className="text-lg text-[#DCD6CD] leading-relaxed font-inter max-w-3xl space-y-6">
                 <p>TEGAKARA dibangun dengan keyakinan sederhana.</p>
                 <p>Bangunan yang baik tidak hanya ditentukan oleh material maupun tenaga kerja. Tetapi oleh bagaimana seluruh proses dikelola.</p>
                 <p>Karena itu kami mengembangkan cara kerja yang mengutamakan transparansi, dokumentasi, koordinasi, dan tanggung jawab pada setiap tahap proyek.</p>
@@ -41,13 +41,13 @@ export default function TentangPage() {
           <FadeIn>
             <div className="grid md:grid-cols-12 gap-12">
               <div className="md:col-span-4">
-                <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570]">FILOSOFI KAMI</h2>
+                <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#3F4954]">FILOSOFI KAMI</h2>
               </div>
               <div className="md:col-span-8">
                 <h3 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.2] tracking-tight mb-6">
                   Kami tidak berusaha menjadi kontraktor terbesar.
                 </h3>
-                <p className="text-lg text-[#5B6570] leading-relaxed">
+                <p className="text-lg text-[#3F4954] leading-relaxed">
                   Kami ingin menjadi partner yang membantu pemilik properti mengambil keputusan dengan lebih percaya diri.
                 </p>
               </div>
@@ -62,13 +62,13 @@ export default function TentangPage() {
           <FadeIn>
             <div className="grid md:grid-cols-12 gap-12">
               <div className="md:col-span-4">
-                <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570]">CARA KAMI BEKERJA</h2>
+                <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#3F4954]">CARA KAMI BEKERJA</h2>
               </div>
               <div className="md:col-span-8">
                 <div className="space-y-6 text-xl md:text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.3] tracking-tight">
                   <p>Kami percaya bahwa setiap keputusan harus memiliki dasar.</p>
-                  <p className="text-[#5B6570]">Setiap perubahan harus memiliki dokumentasi.</p>
-                  <p className="text-[#5B6570]">Setiap progres harus dapat dipantau.</p>
+                  <p className="text-[#3F4954]">Setiap perubahan harus memiliki dokumentasi.</p>
+                  <p className="text-[#3F4954]">Setiap progres harus dapat dipantau.</p>
                   <p>Setiap pekerjaan harus dapat dipertanggungjawabkan.</p>
                 </div>
               </div>
@@ -82,7 +82,7 @@ export default function TentangPage() {
         <Container>
           <FadeIn>
             <div className="mb-16">
-              <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-6">NILAI YANG KAMI PEGANG</h2>
+              <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-6">NILAI YANG KAMI PEGANG</h2>
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-[#ECE8E1]/10 border border-white/10">
@@ -94,7 +94,7 @@ export default function TentangPage() {
               ].map((item, idx) => (
                 <div key={idx} className="bg-[#14171B] p-8 lg:p-10">
                   <h3 className="text-xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-4">{item.title}</h3>
-                  <p className="text-[#5B6570] leading-relaxed">{item.desc}</p>
+                  <p className="text-[#3F4954] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -107,7 +107,7 @@ export default function TentangPage() {
         <Container>
           <FadeIn>
             <div className="mb-16">
-              <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-6">TIM KAMI</h2>
+              <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-6">TIM KAMI</h2>
               <h3 className="text-xl md:text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] tracking-tight">
                 Perkenalkan tim yang berada di balik setiap proyek.
               </h3>
@@ -124,7 +124,7 @@ export default function TentangPage() {
                 <div key={idx} className="bg-[#ECE8E1] p-8 group">
                   <div className="aspect-square bg-[#C9C3B8]/20 mb-6 relative overflow-hidden rounded-lg">
                     {/* Placeholder for real photos */}
-                    <div className="absolute inset-0 flex items-center justify-center text-[#5B6570] font-mono text-xs group-hover:scale-105 transition-transform duration-500">
+                    <div className="absolute inset-0 flex items-center justify-center text-[#3F4954] font-mono text-xs group-hover:scale-105 transition-transform duration-500">
                       PHOTO
                     </div>
                   </div>

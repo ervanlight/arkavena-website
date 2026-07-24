@@ -12,7 +12,7 @@ export function StatBlock({ value, label, className }: StatBlockProps) {
       <div className="font-[family-name:var(--font-ibm-plex-mono)] text-xl md:text-2xl lg:text-3xl lg:text-5xl font-medium tracking-tight text-[#E2A63C] mb-3">
         {value}
       </div>
-      <div className="font-[family-name:var(--font-ibm-plex-mono)] text-xs uppercase tracking-[0.04em] text-[#5B6570]">
+      <div className="font-[family-name:var(--font-ibm-plex-mono)] text-xs uppercase tracking-[0.04em] text-[#3F4954]">
         {label}
       </div>
     </div>

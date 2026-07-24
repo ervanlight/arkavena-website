@@ -13,7 +13,7 @@
   --color-concrete-300: #C9C3B8;   /* Divider, border, card background alternatif */
   --color-blueprint-700: #1C3A5C;  /* Aksen teknis — garis grid, ikon, link, data spesifikasi */
   --color-safety-500: #E2A63C;     /* Aksen utama/CTA — warna rompi & rambu K3 */
-  --color-steel-500: #5B6570;      /* Teks sekunder, caption, ikon non-aktif */
+  --color-steel-500: #3F4954;      /* Teks sekunder (dark steel, contrast 8.5:1) */
   --color-white: #FFFFFF;          /* Teks di atas section gelap */
 
   /* Semantic aliases */
@@ -92,19 +92,19 @@ html {
     text-transform: uppercase;
   }
 
-  /* Structural grid background — blueprint motif */
+  /* Structural grid background — subtle architectural motif */
   .bg-structural-grid {
     background-image:
-      linear-gradient(to right, var(--color-concrete-300) 1px, transparent 1px),
-      linear-gradient(to bottom, var(--color-concrete-300) 1px, transparent 1px);
-    background-size: calc(100% / 12) 80px;
+      linear-gradient(to right, rgba(20, 23, 27, 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(20, 23, 27, 0.04) 1px, transparent 1px);
+    background-size: 64px 64px;
   }
 
   .bg-structural-grid-dark {
     background-image:
-      linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px);
-    background-size: calc(100% / 12) 80px;
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 64px 64px;
   }
 }
 

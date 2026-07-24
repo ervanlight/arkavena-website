@@ -14,13 +14,13 @@ export default function SyaratKetentuanPage() {
         <Container>
           <FadeIn>
             <div className="max-w-3xl mx-auto text-center">
-              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
+              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-8">
                 Legal
               </span>
               <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                 Syarat & Ketentuan
               </h1>
-              <p className="text-lg text-[#5B6570]">Terakhir diperbarui: 23 Juli 2026</p>
+              <p className="text-lg text-[#3F4954]">Terakhir diperbarui: 23 Juli 2026</p>
             </div>
           </FadeIn>
         </Container>

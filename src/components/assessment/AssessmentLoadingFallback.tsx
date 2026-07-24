@@ -15,7 +15,7 @@ export function AssessmentLoadingFallback() {
   }, []);
 
   return (
-    <div className="h-64 flex flex-col items-center justify-center text-[#5B6570]">
+    <div className="h-64 flex flex-col items-center justify-center text-[#3F4954]">
       <p className="mb-4">Loading form...</p>
       {showWA && (
          <Link href="https://wa.me/6281112345678" target="_blank">

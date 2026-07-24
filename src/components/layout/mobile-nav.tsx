@@ -51,7 +51,7 @@ export function MobileNav({ isOpen, onClose, items }: MobileNavProps) {
         <div className="flex px-4 pb-2 pt-5">
           <button
             type="button"
-            className="ml-auto flex h-10 w-10 items-center justify-center rounded-md text-[#5B6570] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C]"
+            className="ml-auto flex h-10 w-10 items-center justify-center rounded-md text-[#3F4954] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C]"
             onClick={onClose}
           >
             <span className="sr-only">Close menu</span>
@@ -62,7 +62,7 @@ export function MobileNav({ isOpen, onClose, items }: MobileNavProps) {
         <div className="mt-2 space-y-2 px-4">
           <Link href="/" className="mb-6 flex flex-col focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C] rounded-sm" onClick={onClose}>
             <span className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-white leading-none mb-1">TEGAKARA</span>
-            <span className="text-[10px] uppercase tracking-widest text-[#5B6570] leading-none">
+            <span className="text-[10px] uppercase tracking-widest text-[#3F4954] leading-none">
               Project Control Partner
             </span>
           </Link>
@@ -77,7 +77,7 @@ export function MobileNav({ isOpen, onClose, items }: MobileNavProps) {
                   onClick={onClose}
                   className={cn(
                     'text-lg transition-colors',
-                    isActive ? 'text-white font-bold' : 'text-[#5B6570] font-medium hover:text-white'
+                    isActive ? 'text-white font-bold' : 'text-[#3F4954] font-medium hover:text-white'
                   )}
                 >
                   {item.label}

@@ -17,9 +17,9 @@ export function Footer() {
           <div className="space-y-4">
             <div>
               <h3 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold tracking-tight">TEGAKARA</h3>
-              <p className="text-[10px] text-[#5B6570] uppercase tracking-widest mt-1">Project Control Partner</p>
+              <p className="text-[10px] text-[#3F4954] uppercase tracking-widest mt-1">Project Control Partner</p>
             </div>
-            <p className="text-[#5B6570] text-sm leading-relaxed max-w-xs">
+            <p className="text-[#3F4954] text-sm leading-relaxed max-w-xs">
               Kami percaya bahwa proyek terbaik lahir dari proses yang dapat dipertanggungjawabkan. TEGAKARA membantu pemilik properti menjaga setiap keputusan, biaya, kualitas, dan progres tetap berada dalam kendali.
             </p>
           </div>
@@ -29,22 +29,22 @@ export function Footer() {
             <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6">Layanan</h4>
             <ul className="space-y-3">
               <li>
-                <Link href="/residential" className="text-[#5B6570] hover:text-white transition-colors text-sm">
+                <Link href="/residential" className="text-[#3F4954] hover:text-white transition-colors text-sm">
                   Residential
                 </Link>
               </li>
               <li>
-                <Link href="/facility-care" className="text-[#5B6570] hover:text-white transition-colors text-sm">
+                <Link href="/facility-care" className="text-[#3F4954] hover:text-white transition-colors text-sm">
                   Facility Care
                 </Link>
               </li>
               <li>
-                <Link href="/portfolio" className="text-[#5B6570] hover:text-white transition-colors text-sm">
+                <Link href="/portfolio" className="text-[#3F4954] hover:text-white transition-colors text-sm">
                   Portofolio Proyek
                 </Link>
               </li>
               <li>
-                <Link href="/projectview" className="text-[#5B6570] hover:text-white transition-colors text-sm">
+                <Link href="/projectview" className="text-[#3F4954] hover:text-white transition-colors text-sm">
                   ProjectView
                 </Link>
               </li>
@@ -56,17 +56,17 @@ export function Footer() {
             <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6">Perusahaan</h4>
             <ul className="space-y-3">
               <li>
-                <Link href="/tentang" className="text-[#5B6570] hover:text-white transition-colors text-sm">
+                <Link href="/tentang" className="text-[#3F4954] hover:text-white transition-colors text-sm">
                   Tentang Kami
                 </Link>
               </li>
               <li>
-                <Link href="/trust-center" className="text-[#5B6570] hover:text-white transition-colors text-sm">
+                <Link href="/trust-center" className="text-[#3F4954] hover:text-white transition-colors text-sm">
                   Trust Center
                 </Link>
               </li>
               <li>
-                <Link href="/kontak" className="text-[#5B6570] hover:text-white transition-colors text-sm">
+                <Link href="/kontak" className="text-[#3F4954] hover:text-white transition-colors text-sm">
                   Hubungi Kami
                 </Link>
               </li>
@@ -76,14 +76,14 @@ export function Footer() {
           {/* Newsletter / Contact */}
           <div>
             <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6">Newsletter</h4>
-            <p className="text-[#5B6570] text-sm mb-4">
+            <p className="text-[#3F4954] text-sm mb-4">
               Dapatkan panduan tentang pengelolaan proyek konstruksi dan perawatannya.
             </p>
             <form className="flex flex-col gap-2" onSubmit={(e) => e.preventDefault()}>
               <Input 
                 type="email" 
                 placeholder="Masukkan alamat email" 
-                className="bg-white/5 border-white/10 text-white placeholder:text-[#5B6570] h-10"
+                className="bg-white/5 border-white/10 text-white placeholder:text-[#3F4954] h-10"
               />
               <Button className="w-full">Berlangganan</Button>
             </form>
@@ -91,12 +91,12 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-[#5B6570]">
+            <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-[#3F4954]">
               <p>&copy; {currentYear} TEGAKARA. All rights reserved.</p>
               <div className="flex gap-4">
-                <Link href="/kebijakan-privasi" className="hover:text-[#5B6570] transition-colors">Kebijakan Privasi</Link>
+                <Link href="/kebijakan-privasi" className="hover:text-[#3F4954] transition-colors">Kebijakan Privasi</Link>
                 <span>•</span>
-                <Link href="/syarat-ketentuan" className="hover:text-[#5B6570] transition-colors">Syarat & Ketentuan</Link>
+                <Link href="/syarat-ketentuan" className="hover:text-[#3F4954] transition-colors">Syarat & Ketentuan</Link>
               </div>
             </div>
         </div>
