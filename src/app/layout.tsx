@@ -5,6 +5,7 @@ import { siteConfig } from "@/config/site";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { CookieConsent } from "@/components/shared/cookie-consent";
+import { WhatsAppFloatingButton } from "@/components/shared/whatsapp-floating-button";
 import { getOrganizationSchema } from "@/lib/structured-data";
 
 const spaceGrotesk = Space_Grotesk({
@@ -90,6 +91,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <WhatsAppFloatingButton />
         <CookieConsent />
       </body>
     </html>

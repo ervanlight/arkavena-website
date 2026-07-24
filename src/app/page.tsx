@@ -112,6 +112,30 @@ export default function HomePage() {
         </Container>
       </section>
 
+      {/* TRUST BAR (GOOGLE ADS / FAST SCANNERS) */}
+      <section className="bg-[#14171B] border-b border-white/10 py-6">
+        <Container>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div>
+              <div className="font-[family-name:var(--font-ibm-plex-mono)] text-2xl md:text-3xl font-bold text-[#E2A63C]">100%</div>
+              <div className="text-xs text-white/60 font-[family-name:var(--font-inter)] uppercase tracking-wider mt-1">ScopeLock & Transparansi</div>
+            </div>
+            <div>
+              <div className="font-[family-name:var(--font-ibm-plex-mono)] text-2xl md:text-3xl font-bold text-[#E2A63C]">Overrun 0%</div>
+              <div className="text-xs text-white/60 font-[family-name:var(--font-inter)] uppercase tracking-wider mt-1">Pengendalian Biaya</div>
+            </div>
+            <div>
+              <div className="font-[family-name:var(--font-ibm-plex-mono)] text-2xl md:text-3xl font-bold text-[#E2A63C]">Real-time</div>
+              <div className="text-xs text-white/60 font-[family-name:var(--font-inter)] uppercase tracking-wider mt-1">Laporan ProjectView</div>
+            </div>
+            <div>
+              <div className="font-[family-name:var(--font-ibm-plex-mono)] text-2xl md:text-3xl font-bold text-[#E2A63C]">Surabaya+</div>
+              <div className="text-xs text-white/60 font-[family-name:var(--font-inter)] uppercase tracking-wider mt-1">Sidoarjo & Gresik</div>
+            </div>
+          </div>
+        </Container>
+      </section>
+
       {/* SECTION 02: THE PROBLEM */}
       <section className="py-24 lg:py-32 bg-[#14171B] text-white">
         <Container>
@@ -340,7 +364,7 @@ export default function HomePage() {
             </div>
 
             <Button size="lg" className="bg-[#E2A63C] text-[#14171B] hover:bg-[#c9922f]">
-              <Link href="/kontak">Mulai Dengan Diskusi Awal</Link>
+              <Link href="/assessment">Diskusikan Proyek Anda</Link>
             </Button>
           </FadeIn>
         </Container>
