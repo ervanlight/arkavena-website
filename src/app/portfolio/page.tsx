@@ -23,7 +23,7 @@ export default function PortfolioPage() {
               <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
                 Project Case Studies
               </span>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
+              <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Bukti Terbaik Bukan Klaim.
                 <br /><span className="text-white/50">Melainkan Proyek Yang Terkendali.</span>
               </h1>
@@ -69,7 +69,7 @@ export default function PortfolioPage() {
         <Container>
           <FadeIn>
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
+              <h2 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                 Mari Diskusikan Proyek Anda.
               </h2>
               <Button size="lg">

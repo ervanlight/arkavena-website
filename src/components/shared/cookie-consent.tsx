@@ -32,7 +32,7 @@ export function CookieConsent() {
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 p-4 sm:p-6 md:max-w-md">
       <div className="bg-[#0E1B26] text-white p-6 rounded-lg shadow-2xl border border-[#1C2D38] animate-in slide-in-from-bottom-5">
-        <h4 className="font-manrope font-semibold mb-2">Penggunaan Cookie</h4>
+        <h4 className="font-[family-name:var(--font-space-grotesk)] font-semibold mb-2">Penggunaan Cookie</h4>
         <p className="text-sm text-[#E8DED0] mb-6">
           Kami menggunakan cookie untuk meningkatkan pengalaman Anda dan menganalisis trafik situs. 
           Dengan melanjutkan, Anda menyetujui penggunaan cookie kami.

@@ -22,7 +22,7 @@ export function MetricCard({ label, value, trend, icon, className }: MetricCardP
           {icon && <div className="text-[#B88A4A]">{icon}</div>}
         </div>
         <div className="flex items-baseline gap-2">
-          <span className="font-manrope text-3xl font-bold text-[#0E1B26]">{value}</span>
+          <span className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold text-[#0E1B26]">{value}</span>
           {trend && (
             <span 
               className={cn(

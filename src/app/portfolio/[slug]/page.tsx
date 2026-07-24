@@ -31,7 +31,7 @@ export default async function PortfolioDetailPage({ params }: { params: Promise<
               <Link href="/portfolio" className="inline-flex items-center text-sm font-bold text-[#5B6570] hover:text-[#14171B] mb-12 transition-colors">
                 <ArrowLeft className="w-4 h-4 mr-2" /> Kembali ke Portofolio
               </Link>
-              <h1 className="text-5xl md:text-6xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
+              <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 {project.title}
               </h1>
               <div className="flex flex-wrap gap-6 text-sm font-medium text-[#5B6570]">

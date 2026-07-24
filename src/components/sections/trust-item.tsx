@@ -29,7 +29,7 @@ export function TrustItem({ title, category, status, validUntil, documentUrl, cl
         </div>
         <div className="flex-1 min-w-0">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-1">
-            <h4 className="font-manrope font-semibold text-[#0E1B26] truncate" title={title}>{title}</h4>
+            <h4 className="font-[family-name:var(--font-space-grotesk)] font-semibold text-[#0E1B26] truncate" title={title}>{title}</h4>
             <Badge variant={statusMap[status].variant}>{statusMap[status].label}</Badge>
           </div>
           <div className="flex items-center gap-3 text-xs text-[#68757D]">

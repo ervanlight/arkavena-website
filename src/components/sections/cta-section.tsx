@@ -24,7 +24,7 @@ export function CtaSection({
     <section className={cn('py-24', dark ? 'bg-[#0E1B26] text-white' : 'bg-white text-[#0E1B26]', className)}>
       <Container>
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="font-manrope text-3xl font-bold tracking-tight sm:text-4xl mb-6">
+          <h2 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold tracking-tight sm:text-4xl mb-6">
             {title}
           </h2>
           <p className={cn('text-lg mb-10 max-w-2xl mx-auto', dark ? 'text-[#E8DED0]' : 'text-[#68757D]')}>

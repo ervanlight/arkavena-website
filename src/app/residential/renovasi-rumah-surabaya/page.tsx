@@ -27,7 +27,7 @@ export default function ServicePage() {
                 <Link href="/residential" className="hover:text-white transition-colors">Residential</Link> 
                 <span className="text-slate-500">/</span> Renovasi Rumah Surabaya
               </div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-[family-name:var(--font-space-grotesk)] leading-tight mb-8 text-white max-w-4xl">
+              <h1 className="text-xl md:text-2xl lg:text-4xl font-bold font-[family-name:var(--font-space-grotesk)] leading-tight mb-8 text-white max-w-4xl">
                 Renovasi Besar Tanpa Kejutan Biaya
               </h1>
               <p className="text-xl text-slate-300 max-w-2xl leading-relaxed">
@@ -104,7 +104,7 @@ export default function ServicePage() {
         <div className="max-w-3xl mx-auto text-center relative z-10">
           <FadeIn>
             <ShieldCheck className="w-16 h-16 text-bronze mx-auto mb-8" />
-            <h2 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-space-grotesk)] mb-6 text-white">Siap Memulai Proyek Anda secara Profesional?</h2>
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold font-[family-name:var(--font-space-grotesk)] mb-6 text-white">Siap Memulai Proyek Anda secara Profesional?</h2>
             <p className="text-slate-400 mb-10 text-lg">Diskusikan kebutuhan spesifik Anda bersama tim kami. Dapatkan analisis awal mengenai waktu, biaya, dan tahapan kerja secara transparan.</p>
             <Link href="/assessment" className="inline-block bg-bronze text-[#0E1B26] px-10 py-5 rounded-md font-bold hover:bg-opacity-90 transition-all text-lg shadow-lg hover:shadow-bronze/20">
               Mulai Konsultasi Proyek

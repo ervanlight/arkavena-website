@@ -25,7 +25,7 @@ export default function ProjectViewPage() {
               <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
                 Project Transparency System
               </span>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
+              <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Tetap Mengetahui Perkembangan Proyek,
                 <br /><span className="text-white/50">Tanpa Harus Selalu Berada di Lokasi.</span>
               </h1>
@@ -51,7 +51,7 @@ export default function ProjectViewPage() {
         <Container>
           <FadeIn>
             <div className="mb-16">
-              <h2 className="text-2xl md:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] tracking-tight">
+              <h2 className="text-xl md:text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] tracking-tight">
                 Simulasi ProjectView
               </h2>
             </div>
@@ -65,7 +65,7 @@ export default function ProjectViewPage() {
         <Container>
           <FadeIn>
             <div className="max-w-3xl mb-16">
-              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight">
                 Apa Yang Bisa Anda Pantau
               </h2>
             </div>
@@ -97,7 +97,7 @@ export default function ProjectViewPage() {
         <Container>
           <FadeIn>
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-12">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-12">
                 Mengapa Transparansi Itu Penting?
               </h2>
               <div className="text-lg text-[#5B6570] leading-relaxed space-y-6 mb-16">

@@ -25,31 +25,31 @@ export function ProjectViewPreview() {
   ];
 
   return (
-    <div className="w-full max-w-5xl mx-auto bg-zinc-950 rounded-xl overflow-hidden border border-zinc-800 shadow-2xl flex flex-col h-[500px] font-inter text-sm">
+    <div className="w-full max-w-5xl mx-auto bg-[#14171B] rounded-xl overflow-hidden border border-white/10 shadow-2xl flex flex-col h-[500px] font-inter text-sm">
       {/* App Header */}
-      <div className="bg-zinc-950 border-b border-zinc-800 px-5 py-3 flex justify-between items-center">
+      <div className="bg-[#14171B] border-b border-white/10 px-5 py-3 flex justify-between items-center">
         <div className="flex items-center gap-3">
-          <div className="bg-zinc-800 p-1.5 rounded text-zinc-300">
+          <div className="bg-zinc-800 p-1.5 rounded text-white/70">
             <Activity size={16} />
           </div>
           <div>
-            <h3 className="text-zinc-100 font-medium text-sm">Simulasi Renovasi Rumah Tinggal</h3>
-            <p className="text-zinc-500 text-xs">ProjectView Demo</p>
+            <h3 className="text-white font-medium text-sm">Simulasi Renovasi Rumah Tinggal</h3>
+            <p className="text-[#5B6570] text-xs">ProjectView Demo</p>
           </div>
         </div>
         <div className="flex items-center gap-4">
           <div className="text-right hidden sm:block">
-            <p className="text-xs text-zinc-500">Status</p>
+            <p className="text-xs text-[#5B6570]">Status</p>
             <p className="text-xs text-emerald-400 font-medium">In Progress</p>
           </div>
-          <Link href="/projectview" className="bg-zinc-100 hover:bg-white text-zinc-900 text-xs font-medium px-3 py-1.5 rounded-md transition-colors">
+          <Link href="/projectview" className="bg-[#C9C3B8]/20 hover:bg-white text-[#14171B] text-xs font-medium px-3 py-1.5 rounded-md transition-colors">
             Open Demo
           </Link>
         </div>
       </div>
 
       {/* Tabs */}
-      <div className="flex bg-zinc-900/50 border-b border-zinc-800 px-2">
+      <div className="flex bg-[#14171B]/50 border-b border-white/10 px-2">
         {tabs.map((tab) => (
           <button
             key={tab.id}
@@ -57,8 +57,8 @@ export function ProjectViewPreview() {
             className={cn(
               "flex items-center gap-2 px-4 py-2.5 text-xs font-medium border-b-2 transition-colors",
               activeTab === tab.id 
-                ? "border-zinc-300 text-zinc-100" 
-                : "border-transparent text-zinc-500 hover:text-zinc-300"
+                ? "border-zinc-300 text-white" 
+                : "border-transparent text-[#5B6570] hover:text-white/70"
             )}
           >
             {tab.icon}
@@ -68,26 +68,26 @@ export function ProjectViewPreview() {
       </div>
 
       {/* Content Area */}
-      <div className="flex-1 p-6 overflow-y-auto custom-scrollbar bg-zinc-950">
+      <div className="flex-1 p-6 overflow-y-auto custom-scrollbar bg-[#14171B]">
         {activeTab === 'overview' && (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             <div className="col-span-1 md:col-span-2 space-y-5">
-              <div className="bg-zinc-900/50 border border-zinc-800 rounded-lg p-5">
-                <h4 className="text-zinc-300 font-medium mb-4 flex items-center gap-2 text-xs uppercase tracking-wider">
+              <div className="bg-[#14171B]/50 border border-white/10 rounded-lg p-5">
+                <h4 className="text-white/70 font-medium mb-4 flex items-center gap-2 text-xs uppercase tracking-wider">
                   <BarChart3 size={14} /> Overall Progress
                 </h4>
                 <div className="flex justify-between text-xs mb-2">
-                  <span className="text-zinc-500">Target: 42%</span>
-                  <span className="text-zinc-300 font-medium">Actual: 45%</span>
+                  <span className="text-[#5B6570]">Target: 42%</span>
+                  <span className="text-white/70 font-medium">Actual: 45%</span>
                 </div>
                 <div className="w-full bg-zinc-800 h-1.5 rounded-full overflow-hidden">
                   <div className="bg-zinc-400 h-full rounded-full" style={{ width: '45%' }}></div>
                 </div>
-                <p className="text-zinc-400 text-xs mt-3">+3% ahead of schedule.</p>
+                <p className="text-white/50 text-xs mt-3">+3% ahead of schedule.</p>
               </div>
 
-              <div className="bg-zinc-900/50 border border-zinc-800 rounded-lg p-5">
-                <h4 className="text-zinc-300 font-medium mb-4 flex items-center gap-2 text-xs uppercase tracking-wider">
+              <div className="bg-[#14171B]/50 border border-white/10 rounded-lg p-5">
+                <h4 className="text-white/70 font-medium mb-4 flex items-center gap-2 text-xs uppercase tracking-wider">
                   <Clock size={14} /> Recent Activity
                 </h4>
                 <div className="space-y-4">
@@ -98,13 +98,13 @@ export function ProjectViewPreview() {
                   ].map((item, i) => (
                     <div key={i} className="flex gap-3">
                       <div className="mt-0.5">
-                        {item.type === 'progress' && <CheckCircle2 size={14} className="text-zinc-500" />}
-                        {item.type === 'decision' && <MessageSquare size={14} className="text-zinc-500" />}
-                        {item.type === 'quality' && <ShieldCheck size={14} className="text-zinc-500" />}
+                        {item.type === 'progress' && <CheckCircle2 size={14} className="text-[#5B6570]" />}
+                        {item.type === 'decision' && <MessageSquare size={14} className="text-[#5B6570]" />}
+                        {item.type === 'quality' && <ShieldCheck size={14} className="text-[#5B6570]" />}
                       </div>
                       <div>
-                        <p className="text-xs text-zinc-300">{item.title}</p>
-                        <p className="text-[11px] text-zinc-600">{item.time}</p>
+                        <p className="text-xs text-white/70">{item.title}</p>
+                        <p className="text-[11px] text-[#5B6570]">{item.time}</p>
                       </div>
                     </div>
                   ))}
@@ -113,31 +113,31 @@ export function ProjectViewPreview() {
             </div>
 
             <div className="space-y-5">
-              <div className="bg-zinc-900/50 border border-zinc-800 rounded-lg p-5">
-                <h4 className="text-zinc-300 font-medium mb-3 text-xs uppercase tracking-wider">Action Required</h4>
+              <div className="bg-[#14171B]/50 border border-white/10 rounded-lg p-5">
+                <h4 className="text-white/70 font-medium mb-3 text-xs uppercase tracking-wider">Action Required</h4>
                 <div className="bg-zinc-800/50 border border-zinc-700/50 rounded-md p-3">
                   <p className="text-xs text-zinc-200 font-medium mb-1">Variation Order 02 (VO-02)</p>
-                  <p className="text-[11px] text-zinc-400 mb-3 leading-relaxed">Penambahan titik lampu di ruang keluarga.</p>
-                  <button className="bg-zinc-100 hover:bg-white text-zinc-900 text-xs px-3 py-1.5 rounded w-full transition-colors font-medium">
+                  <p className="text-[11px] text-white/50 mb-3 leading-relaxed">Penambahan titik lampu di ruang keluarga.</p>
+                  <button className="bg-[#C9C3B8]/20 hover:bg-white text-[#14171B] text-xs px-3 py-1.5 rounded w-full transition-colors font-medium">
                     Review
                   </button>
                 </div>
               </div>
 
-              <div className="bg-zinc-900/50 border border-zinc-800 rounded-lg p-5">
-                <h4 className="text-zinc-300 font-medium mb-3 text-xs uppercase tracking-wider">Payment Terms</h4>
+              <div className="bg-[#14171B]/50 border border-white/10 rounded-lg p-5">
+                <h4 className="text-white/70 font-medium mb-3 text-xs uppercase tracking-wider">Payment Terms</h4>
                 <div className="space-y-3">
                   <div className="flex justify-between items-center text-xs">
-                    <span className="text-zinc-500">Termin 1 — Mobilisasi</span>
+                    <span className="text-[#5B6570]">Termin 1 — Mobilisasi</span>
                     <span className="text-emerald-500 font-medium">Paid</span>
                   </div>
                   <div className="flex justify-between items-center text-xs">
-                    <span className="text-zinc-300">Termin 2 — Struktur</span>
+                    <span className="text-white/70">Termin 2 — Struktur</span>
                     <span className="text-emerald-500 font-medium">Paid</span>
                   </div>
                   <div className="flex justify-between items-center text-xs">
-                    <span className="text-zinc-500">Termin 3 — Finishing</span>
-                    <span className="text-zinc-600">Pending</span>
+                    <span className="text-[#5B6570]">Termin 3 — Finishing</span>
+                    <span className="text-[#5B6570]">Pending</span>
                   </div>
                 </div>
               </div>
@@ -148,11 +148,11 @@ export function ProjectViewPreview() {
         {activeTab !== 'overview' && (
           <div className="h-full flex flex-col items-center justify-center text-center">
             <FileText size={32} className="text-zinc-700 mb-4" />
-            <h4 className="text-zinc-300 font-medium text-sm mb-2">Explore {tabs.find(t => t.id === activeTab)?.label}</h4>
-            <p className="text-zinc-500 text-xs max-w-sm mb-6 leading-relaxed">
+            <h4 className="text-white/70 font-medium text-sm mb-2">Explore {tabs.find(t => t.id === activeTab)?.label}</h4>
+            <p className="text-[#5B6570] text-xs max-w-sm mb-6 leading-relaxed">
               This demo environment illustrates how TEGAKARA structures project documentation.
             </p>
-            <Link href="/projectview" className="bg-zinc-100 hover:bg-white text-zinc-900 px-4 py-2 rounded-md text-xs font-medium transition-colors">
+            <Link href="/projectview" className="bg-[#C9C3B8]/20 hover:bg-white text-[#14171B] px-4 py-2 rounded-md text-xs font-medium transition-colors">
               Open Full Demo
             </Link>
           </div>

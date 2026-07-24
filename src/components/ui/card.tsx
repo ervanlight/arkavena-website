@@ -37,7 +37,7 @@ export const CardTitle = React.forwardRef<HTMLHeadingElement, React.HTMLAttribut
   ({ className, ...props }, ref) => (
     <h3
       ref={ref}
-      className={cn('font-manrope text-xl font-semibold leading-none tracking-tight text-[#0E1B26]', className)}
+      className={cn('font-[family-name:var(--font-space-grotesk)] text-xl font-semibold leading-none tracking-tight text-[#0E1B26]', className)}
       {...props}
     />
   )

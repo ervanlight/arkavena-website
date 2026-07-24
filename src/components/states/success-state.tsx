@@ -26,7 +26,7 @@ export function SuccessState({
       <div className="h-12 w-12 rounded-full bg-[#25775A]/10 flex items-center justify-center mb-4">
         <CheckCircle2 className="h-6 w-6 text-[#25775A]" />
       </div>
-      <h3 className="font-manrope text-lg font-semibold text-[#0E1B26] mb-2">{title}</h3>
+      <h3 className="font-[family-name:var(--font-space-grotesk)] text-lg font-semibold text-[#0E1B26] mb-2">{title}</h3>
       <p className="text-[#68757D] text-sm max-w-sm mb-6">{message}</p>
       {actionText && onAction && (
         <Button variant="primary" onClick={onAction}>

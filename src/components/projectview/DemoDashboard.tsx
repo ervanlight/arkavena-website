@@ -16,7 +16,7 @@ export default function DemoDashboard() {
           <div className="inline-block bg-[#B88A4A]/20 text-[#B88A4A] px-3 py-1 rounded-full text-sm font-semibold mb-6">
             Data simulasi untuk demonstrasi sistem
           </div>
-          <h1 className="text-4xl md:text-5xl font-manrope font-bold mb-4">
+          <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold mb-4">
             TEGAKARA ProjectView
           </h1>
           <p className="text-[#E8DED0] max-w-2xl text-lg mb-8">
@@ -69,7 +69,7 @@ export default function DemoDashboard() {
                   {/* Progress Card */}
                   <div className="bg-white rounded-xl p-6 border border-[#E8DED0]">
                     <div className="flex justify-between items-center mb-4">
-                      <h3 className="font-manrope font-bold text-xl text-[#0E1B26]">Overall Progress</h3>
+                      <h3 className="font-[family-name:var(--font-space-grotesk)] font-bold text-xl text-[#0E1B26]">Overall Progress</h3>
                       <span className="text-2xl font-bold text-[#25775A]">45%</span>
                     </div>
                     <div className="w-full bg-[#E8DED0] rounded-full h-3 mb-4">
@@ -110,7 +110,7 @@ export default function DemoDashboard() {
                 <div className="space-y-6">
                   {/* Financial Snapshot */}
                   <div className="bg-[#1C2D38] rounded-xl p-6 text-white">
-                    <h3 className="font-manrope font-bold text-lg text-[#E8DED0] mb-4 flex items-center">
+                    <h3 className="font-[family-name:var(--font-space-grotesk)] font-bold text-lg text-[#E8DED0] mb-4 flex items-center">
                       <DollarSign className="w-5 h-5 mr-2" /> Status Pembayaran
                     </h3>
                     <div className="space-y-4">
@@ -131,7 +131,7 @@ export default function DemoDashboard() {
 
                   {/* Quality Snapshot */}
                   <div className="bg-white rounded-xl p-6 border border-[#E8DED0] shadow-sm">
-                    <h3 className="font-manrope font-bold text-lg mb-4 flex items-center">
+                    <h3 className="font-[family-name:var(--font-space-grotesk)] font-bold text-lg mb-4 flex items-center">
                       <CheckCircle className="w-5 h-5 mr-2 text-[#25775A]" /> Quality Control
                     </h3>
                     <div className="flex justify-between items-center mb-2">
@@ -153,7 +153,7 @@ export default function DemoDashboard() {
             {activeTab !== "overview" && (
               <div className="py-12 text-center text-[#68757D]">
                 <FileText className="w-16 h-16 mx-auto mb-4 text-[#E8DED0]" />
-                <h3 className="text-xl font-manrope font-bold text-[#0E1B26] mb-2">Modul {activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}</h3>
+                <h3 className="text-xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#0E1B26] mb-2">Modul {activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}</h3>
                 <p className="max-w-md mx-auto">
                   Di versi penuh, area ini menampilkan detail interaktif untuk {activeTab}. 
                   Ini adalah data demonstrasi untuk memperlihatkan kapabilitas sistem TEGAKARA.
@@ -164,7 +164,7 @@ export default function DemoDashboard() {
         </div>
 
         <div className="mt-12 text-center">
-          <h2 className="text-2xl md:text-3xl font-manrope font-bold mb-6 text-[#0E1B26]">
+          <h2 className="text-xl md:text-2xl font-[family-name:var(--font-space-grotesk)] font-bold mb-6 text-[#0E1B26]">
             Siap Membangun dengan Transparansi?
           </h2>
           <Link 

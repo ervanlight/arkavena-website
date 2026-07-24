@@ -19,7 +19,7 @@ export function PainSolutionCard({ painPoint, solution, className }: PainSolutio
               <AlertCircle className="h-5 w-5" />
             </div>
             <div>
-              <h4 className="font-manrope font-semibold text-[#A33C3C] mb-2">Masalah Umum</h4>
+              <h4 className="font-[family-name:var(--font-space-grotesk)] font-semibold text-[#A33C3C] mb-2">Masalah Umum</h4>
               <p className="text-[#68757D] text-sm leading-relaxed">{painPoint}</p>
             </div>
           </div>
@@ -30,7 +30,7 @@ export function PainSolutionCard({ painPoint, solution, className }: PainSolutio
               <CheckCircle2 className="h-5 w-5" />
             </div>
             <div>
-              <h4 className="font-manrope font-semibold text-[#25775A] mb-2">Kontrol TEGAKARA</h4>
+              <h4 className="font-[family-name:var(--font-space-grotesk)] font-semibold text-[#25775A] mb-2">Kontrol TEGAKARA</h4>
               <p className="text-[#0E1B26] text-sm leading-relaxed font-medium">{solution}</p>
             </div>
           </div>

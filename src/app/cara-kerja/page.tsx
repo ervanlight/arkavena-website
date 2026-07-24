@@ -36,7 +36,7 @@ export default function CaraKerjaPage() {
               <span className="inline-block text-[11px] font-[family-name:var(--font-ibm-plex-mono)] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
                 PROSES KAMI
               </span>
-              <h1 className="text-5xl md:text-6xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
+              <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Transparan, Terukur, & Terkendali
               </h1>
               <p className="text-xl text-[#5B6570] leading-relaxed max-w-2xl font-[family-name:var(--font-inter)]">
@@ -103,7 +103,7 @@ export default function CaraKerjaPage() {
         <Container>
           <FadeIn>
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-6">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-6">
                 Siap Memulai Proyek Anda?
               </h2>
               <p className="text-[#C9C3B8] text-lg mb-10 font-[family-name:var(--font-inter)]">

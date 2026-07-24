@@ -13,7 +13,7 @@ export function HeroPanel() {
       
       <div className="mb-6 flex justify-between items-center">
         <div>
-          <h3 className="text-white font-manrope font-semibold text-lg">Panel Kendali Proyek</h3>
+          <h3 className="text-white font-[family-name:var(--font-space-grotesk)] font-semibold text-lg">Panel Kendali Proyek</h3>
           <p className="text-slate-400 text-xs">Simulasi ProjectView</p>
         </div>
         <div className="h-2 w-2 rounded-full bg-green-500 animate-pulse"></div>

@@ -48,7 +48,7 @@ export default function FacilityCarePage() {
               <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
                 Commercial Building • Industrial Facility • Building Maintenance
               </span>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
+              <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Bangunan Yang Terawat Bukan Sekadar Terlihat Lebih Baik.
                 <br /><span className="text-white/50">Tetapi Membantu Bisnis Tetap Berjalan.</span>
               </h1>
@@ -85,7 +85,7 @@ export default function FacilityCarePage() {
         <Container>
           <FadeIn>
             <div className="max-w-3xl mb-16">
-              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-8">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-8">
                 Banyak Gangguan Operasional Berawal Dari Hal-Hal Kecil Yang Diabaikan.
               </h2>
               <div className="text-lg text-white/50 leading-relaxed space-y-6">
@@ -142,7 +142,7 @@ export default function FacilityCarePage() {
         <Container>
           <FadeIn>
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-12">
+              <h2 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-12">
                 Facility Care Bukan Tentang Memperbaiki Kerusakan.
                 <br /><span className="text-white/50">Tetapi Menjaga Agar Kerusakan Tidak Mengganggu Bisnis.</span>
               </h2>
@@ -162,7 +162,7 @@ export default function FacilityCarePage() {
           <FadeIn>
             <div className="max-w-3xl mb-16">
               <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-6">LAYANAN FACILITY CARE</h2>
-              <p className="text-2xl md:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.2] tracking-tight">
+              <p className="text-xl md:text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.2] tracking-tight">
                 Kami membantu pengelolaan berbagai kebutuhan bangunan komersial maupun industri.
               </p>
             </div>
@@ -197,7 +197,7 @@ export default function FacilityCarePage() {
         <Container>
           <FadeIn>
             <div className="mb-16">
-              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-6">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-6">
                 Setiap Aktivitas Memiliki Sistem.
                 <br /><span className="text-[#5B6570]">Setiap Sistem Menghasilkan Kepastian.</span>
               </h2>
@@ -234,7 +234,7 @@ export default function FacilityCarePage() {
           <FadeIn>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="col-span-full mb-8">
-                <h2 className="text-2xl md:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] tracking-tight">
+                <h2 className="text-xl md:text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] tracking-tight">
                   MENGAPA PENDEKATAN INI BERBEDA
                 </h2>
               </div>
@@ -265,7 +265,7 @@ export default function FacilityCarePage() {
             <div className="grid lg:grid-cols-12 gap-16">
               <div className="lg:col-span-5">
                 <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-6">STUDI KASUS</h2>
-                <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
+                <h3 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                   Setiap Bangunan Memiliki Tantangan Yang Berbeda.
                 </h3>
                 <div className="text-lg text-[#5B6570] leading-relaxed space-y-6 mb-8">
@@ -306,7 +306,7 @@ export default function FacilityCarePage() {
           <FadeIn>
             <div className="max-w-3xl mb-16">
               <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-6">INDUSTRI YANG KAMI LAYANI</h2>
-              <p className="text-2xl md:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.2] tracking-tight">
+              <p className="text-xl md:text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.2] tracking-tight">
                 Kami membantu berbagai jenis fasilitas.
               </p>
             </div>
@@ -326,7 +326,7 @@ export default function FacilityCarePage() {
         <Container>
           <FadeIn>
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-2xl md:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-16 tracking-tight">
+              <h2 className="text-xl md:text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-16 tracking-tight">
                 Berapa Biaya Kerusakan Yang Tidak Direncanakan?
               </h2>
               
@@ -356,7 +356,7 @@ export default function FacilityCarePage() {
       <section className="py-24 lg:py-32 bg-[#ECE8E1] border-b border-[#C9C3B8]">
         <Container>
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-16 tracking-tight">
+            <h2 className="text-xl md:text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-16 tracking-tight">
               FAQ
             </h2>
             <FaqAccordion faqs={faqs} />
@@ -368,7 +368,7 @@ export default function FacilityCarePage() {
       <section className="py-24 lg:py-32 bg-[#ECE8E1]">
         <Container>
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-8 tracking-tight leading-tight">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-8 tracking-tight leading-tight">
               Bangunan Yang Terawat Membantu Bisnis Tetap Bergerak.
             </h2>
             <p className="text-lg text-[#5B6570] mb-8 leading-relaxed">

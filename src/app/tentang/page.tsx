@@ -21,7 +21,7 @@ export default function TentangPage() {
               <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
                 About Tegakara
               </span>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.05] tracking-tight mb-8">
+              <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.05] tracking-tight mb-8">
                 Kami Percaya Bahwa
                 <br /><span className="text-[#5B6570]">Proyek Yang Baik Lahir Dari Sistem Yang Baik.</span>
               </h1>
@@ -44,7 +44,7 @@ export default function TentangPage() {
                 <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570]">FILOSOFI KAMI</h2>
               </div>
               <div className="md:col-span-8">
-                <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.2] tracking-tight mb-6">
+                <h3 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.2] tracking-tight mb-6">
                   Kami tidak berusaha menjadi kontraktor terbesar.
                 </h3>
                 <p className="text-lg text-[#5B6570] leading-relaxed">
@@ -65,7 +65,7 @@ export default function TentangPage() {
                 <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570]">CARA KAMI BEKERJA</h2>
               </div>
               <div className="md:col-span-8">
-                <div className="space-y-6 text-2xl md:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.3] tracking-tight">
+                <div className="space-y-6 text-xl md:text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.3] tracking-tight">
                   <p>Kami percaya bahwa setiap keputusan harus memiliki dasar.</p>
                   <p className="text-white/50">Setiap perubahan harus memiliki dokumentasi.</p>
                   <p className="text-[#5B6570]">Setiap progres harus dapat dipantau.</p>
@@ -108,7 +108,7 @@ export default function TentangPage() {
           <FadeIn>
             <div className="mb-16">
               <h2 className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-6">TIM KAMI</h2>
-              <h3 className="text-2xl md:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] tracking-tight">
+              <h3 className="text-xl md:text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] tracking-tight">
                 Perkenalkan tim yang berada di balik setiap proyek.
               </h3>
             </div>

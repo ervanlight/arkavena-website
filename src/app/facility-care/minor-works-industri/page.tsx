@@ -27,7 +27,7 @@ export default function FacilityServicePage() {
                 <Link href="/facility-care" className="hover:text-white transition-colors">Facility Care</Link> 
                 <span className="text-slate-500">/</span> Minor Works Industri
               </div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-[family-name:var(--font-space-grotesk)] leading-tight mb-8 text-white max-w-4xl">
+              <h1 className="text-xl md:text-2xl lg:text-4xl font-bold font-[family-name:var(--font-space-grotesk)] leading-tight mb-8 text-white max-w-4xl">
                 Pekerjaan Sipil Industri yang Mematuhi HSE
               </h1>
               <p className="text-xl text-slate-300 max-w-2xl leading-relaxed">
@@ -103,7 +103,7 @@ export default function FacilityServicePage() {
         <div className="max-w-3xl mx-auto text-center relative z-10">
           <FadeIn>
             <ShieldCheck className="w-16 h-16 text-[#0E1B26] mx-auto mb-8" />
-            <h2 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-space-grotesk)] mb-6 text-[#0E1B26]">Amankan Aset Bisnis Anda</h2>
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold font-[family-name:var(--font-space-grotesk)] mb-6 text-[#0E1B26]">Amankan Aset Bisnis Anda</h2>
             <p className="text-[#68757D] mb-10 text-lg">Jangan biarkan kerusakan minor menghentikan operasi bisnis Anda. Jadwalkan audit kondisi gedung hari ini.</p>
             <Link href="/assessment" className="inline-block bg-[#0E1B26] text-white px-10 py-5 rounded-md font-bold hover:bg-opacity-90 transition-all text-lg shadow-lg">
               Jadwalkan Audit Fasilitas

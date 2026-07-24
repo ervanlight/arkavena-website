@@ -18,7 +18,7 @@ export default function KontakPage() {
         <Container>
           <FadeIn>
             <div className="max-w-4xl">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
+              <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Mari Mulai Dengan Sebuah Percakapan.
               </h1>
               <div className="text-lg text-[#5B6570] leading-relaxed font-inter max-w-3xl space-y-6">
@@ -153,7 +153,7 @@ export default function KontakPage() {
       <section className="py-24 lg:py-32 bg-[#14171B] text-white">
         <Container>
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-8 tracking-tight leading-tight">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-8 tracking-tight leading-tight">
               Setiap Proyek Dimulai Dari Percakapan Yang Tepat.
             </h2>
             <p className="text-lg text-white/50 mb-8 leading-relaxed">

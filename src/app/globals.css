@@ -55,26 +55,29 @@ html {
     letter-spacing: -0.01em;
   }
 
-  /* === TYPOGRAPHY SCALE === */
+  /* === ELEGANT TYPOGRAPHY SCALE === */
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     color: var(--color-ink-900);
-    line-height: 1.1;
-    letter-spacing: -0.03em;
+    line-height: 1.15;
+    letter-spacing: -0.025em;
     font-weight: 700;
   }
 
   h1 {
-    font-size: clamp(2.75rem, 6vw, 5.5rem);
-    letter-spacing: -0.04em;
+    font-size: clamp(2rem, 3.5vw, 3rem); /* 32px to 48px max */
+    letter-spacing: -0.03em;
+    line-height: 1.12;
   }
 
   h2 {
-    font-size: clamp(2rem, 4vw, 3.25rem);
+    font-size: clamp(1.5rem, 2.5vw, 2.25rem); /* 24px to 36px */
+    line-height: 1.18;
   }
 
   h3 {
-    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-size: clamp(1.25rem, 1.75vw, 1.5rem); /* 20px to 24px */
+    line-height: 1.25;
   }
 }
 

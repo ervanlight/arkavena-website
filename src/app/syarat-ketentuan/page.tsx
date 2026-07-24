@@ -10,17 +10,17 @@ export const metadata: Metadata = {
 export default function SyaratKetentuanPage() {
   return (
     <>
-      <section className="bg-white pt-40 pb-20 border-b border-zinc-200">
+      <section className="bg-white pt-40 pb-20 border-b border-[#C9C3B8]">
         <Container>
           <FadeIn>
             <div className="max-w-3xl mx-auto text-center">
-              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-zinc-500 mb-8">
+              <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
                 Legal
               </span>
-              <h1 className="text-4xl md:text-5xl font-manrope font-bold text-zinc-900 leading-[1.1] tracking-tight mb-8">
+              <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                 Syarat & Ketentuan
               </h1>
-              <p className="text-lg text-zinc-600">Terakhir diperbarui: 23 Juli 2026</p>
+              <p className="text-lg text-[#5B6570]">Terakhir diperbarui: 23 Juli 2026</p>
             </div>
           </FadeIn>
         </Container>

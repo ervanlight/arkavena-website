@@ -29,7 +29,7 @@ export function SectionHeader({
           {eyebrow}
         </span>
       )}
-      <h2 className="font-manrope text-3xl font-bold tracking-tight text-[#0E1B26] sm:text-4xl">
+      <h2 className="font-[family-name:var(--font-space-grotesk)] text-3xl font-bold tracking-tight text-[#0E1B26] sm:text-4xl">
         {title}
       </h2>
       {description && (

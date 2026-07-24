@@ -94,9 +94,9 @@ export function Footer() {
             <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-white/30">
               <p>&copy; {currentYear} TEGAKARA. All rights reserved.</p>
               <div className="flex gap-4">
-                <Link href="/kebijakan-privasi" className="hover:text-zinc-300 transition-colors">Kebijakan Privasi</Link>
+                <Link href="/kebijakan-privasi" className="hover:text-white/70 transition-colors">Kebijakan Privasi</Link>
                 <span>•</span>
-                <Link href="/syarat-ketentuan" className="hover:text-zinc-300 transition-colors">Syarat & Ketentuan</Link>
+                <Link href="/syarat-ketentuan" className="hover:text-white/70 transition-colors">Syarat & Ketentuan</Link>
               </div>
             </div>
         </div>

@@ -23,7 +23,7 @@ export function ProcessTimeline({ steps, className }: ProcessTimelineProps) {
           
           {/* Content */}
           <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-lg border border-[#E8DED0] shadow-sm transition-shadow hover:shadow-md hover:border-[#B88A4A]/30">
-            <h3 className="font-manrope font-semibold text-lg text-[#0E1B26] mb-2">{step.title}</h3>
+            <h3 className="font-[family-name:var(--font-space-grotesk)] font-semibold text-lg text-[#0E1B26] mb-2">{step.title}</h3>
             <p className="text-[#68757D] text-sm leading-relaxed">{step.description}</p>
           </div>
         </div>

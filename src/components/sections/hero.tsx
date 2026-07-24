@@ -47,7 +47,7 @@ export function Hero({
                 {eyebrow}
               </p>
             )}
-            <h1 className="font-manrope text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl mb-6 leading-tight">
+            <h1 className="font-[family-name:var(--font-space-grotesk)] text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl mb-6 leading-tight">
               {title}
             </h1>
             <p className="text-lg sm:text-xl text-[#E8DED0] mb-8 max-w-xl leading-relaxed opacity-90">

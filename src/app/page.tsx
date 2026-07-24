@@ -85,7 +85,7 @@ export default function HomePage() {
                 <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#E2A63C] mb-6">
                   Construction • Renovation • Facility Care
                 </span>
-                <h1 className="text-3xl md:text-4xl lg:text-[2.75rem] font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.15] tracking-tight mb-5">
+                <h1 className="text-xl md:text-2xl lg:text-3xl lg:text-[2.75rem] font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.15] tracking-tight mb-5">
                   Bangunan Bukan Investasi Terbesar Anda.
                   <br /><span className="text-white/50">Yang Lebih Berharga Adalah Kendali Atas Proses Membangunnya.</span>
                 </h1>
@@ -117,7 +117,7 @@ export default function HomePage() {
         <Container>
           <FadeIn>
             <div className="max-w-3xl mb-16">
-              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-8">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-8">
                 Mengapa Banyak Proyek Menjadi Lebih Sulit Dari Yang Seharusnya?
               </h2>
               <div className="text-lg text-white/50 leading-relaxed space-y-6">
@@ -152,7 +152,7 @@ export default function HomePage() {
         <Container>
           <FadeIn>
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-12">
+              <h2 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-12">
                 Proyek Tidak Berhasil Karena Tidak Ada Masalah.
                 <br /><span className="text-[#C9C3B8]">Proyek Berhasil Karena Setiap Masalah Dikendalikan.</span>
               </h2>
@@ -173,7 +173,7 @@ export default function HomePage() {
           <FadeIn>
             <div className="grid lg:grid-cols-12 gap-16">
               <div className="lg:col-span-5">
-                <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                   Cara Kami Menjaga Proyek Tetap Dalam Kendali
                 </h2>
                 <div className="text-lg text-[#5B6570] leading-relaxed space-y-6 mb-8">
@@ -219,7 +219,7 @@ export default function HomePage() {
           <FadeIn>
             <div className="grid lg:grid-cols-12 gap-16 items-center">
               <div className="lg:col-span-6">
-                <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-8">
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-8">
                   Kami Tidak Menjanjikan Proyek Tanpa Tantangan.
                   <br /><span className="text-white/50">Kami Menjanjikan Proyek Yang Tetap Dalam Kendali.</span>
                 </h2>
@@ -256,7 +256,7 @@ export default function HomePage() {
           <FadeIn>
             <div className="grid lg:grid-cols-12 gap-16 mb-16">
               <div className="lg:col-span-6">
-                <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                   Bukti Terbaik Bukan Klaim.
                   <br /><span className="text-[#C9C3B8]">Tetapi Proyek Yang Dapat Dipertanggungjawabkan.</span>
                 </h2>
@@ -308,7 +308,7 @@ export default function HomePage() {
         <Container>
           <FadeIn>
             <div className="max-w-3xl mb-16">
-              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                 Apa Yang Akan Terjadi Setelah Anda Menghubungi Kami?
               </h2>
               <p className="text-lg text-[#5B6570] leading-relaxed">
@@ -351,7 +351,7 @@ export default function HomePage() {
         <Container>
           <FadeIn>
             <div className="max-w-4xl mx-auto text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-8">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-8">
                 Kepercayaan Dibangun Dari Pengalaman Nyata.
               </h2>
               <div className="text-lg text-white/50 leading-relaxed space-y-6">
@@ -392,7 +392,7 @@ export default function HomePage() {
       <section className="py-24 lg:py-32 bg-[#1C3A5C]">
         <Container>
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-8 tracking-tight leading-tight">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-8 tracking-tight leading-tight">
               Setiap Proyek Dimulai Dari Keputusan Yang Tepat.
             </h2>
             <p className="text-lg text-white/80 mb-10 leading-relaxed">

@@ -22,7 +22,7 @@ export function ErrorState({
       {...props}
     >
       <AlertTriangle className="h-12 w-12 text-[#A33C3C] mb-4" />
-      <h3 className="font-manrope text-lg font-semibold text-[#0E1B26] mb-2">{title}</h3>
+      <h3 className="font-[family-name:var(--font-space-grotesk)] text-lg font-semibold text-[#0E1B26] mb-2">{title}</h3>
       <p className="text-[#68757D] text-sm max-w-sm mb-6">{message}</p>
       {onRetry && (
         <Button variant="secondary" onClick={onRetry} className="bg-white">

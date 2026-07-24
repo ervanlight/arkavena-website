@@ -34,7 +34,7 @@ export function Accordion({ items, className }: AccordionProps) {
               aria-controls={`accordion-content-${item.id}`}
               id={`accordion-header-${item.id}`}
             >
-              <span className="font-manrope text-lg font-semibold text-[#0E1B26]">
+              <span className="font-[family-name:var(--font-space-grotesk)] text-lg font-semibold text-[#0E1B26]">
                 {item.title}
               </span>
               <ChevronDown

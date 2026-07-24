@@ -25,7 +25,7 @@ export default function AssessmentPage() {
                 <span className="inline-block text-[11px] font-[family-name:var(--font-ibm-plex-mono)] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
                   Project Readiness Assessment
                 </span>
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
+                <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                   Sebelum Memulai Proyek,
                   <br /><span className="text-[#5B6570]">Pastikan Proyek Anda Sudah Siap.</span>
                 </h1>

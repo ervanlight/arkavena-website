@@ -27,7 +27,7 @@ export function EmptyState({
       <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white text-[#68757D] shadow-sm mb-4">
         {icon}
       </div>
-      <h3 className="font-manrope text-lg font-semibold text-[#0E1B26] mb-2">{title}</h3>
+      <h3 className="font-[family-name:var(--font-space-grotesk)] text-lg font-semibold text-[#0E1B26] mb-2">{title}</h3>
       <p className="text-[#68757D] text-sm max-w-sm mb-6">{description}</p>
       {actionText && onAction && (
         <Button variant="primary" onClick={onAction}>

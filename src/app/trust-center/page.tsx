@@ -21,7 +21,7 @@ export default function TrustCenterPage() {
               <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#5B6570] mb-8">
                 Trust & Compliance
               </span>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.05] tracking-tight mb-8">
+              <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.05] tracking-tight mb-8">
                 Kepercayaan Dibangun
                 <br /><span className="text-[#5B6570]">Dengan Transparansi & Kepatuhan.</span>
               </h1>

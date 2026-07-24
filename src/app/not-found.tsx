@@ -7,13 +7,13 @@ export default function NotFound() {
     <div className="min-h-screen bg-white flex items-center justify-center py-40">
       <Container>
         <div className="max-w-2xl mx-auto text-center">
-          <h1 className="text-[120px] font-manrope font-bold text-zinc-100 leading-none mb-8 tracking-tighter">
+          <h1 className="text-6xl md:text-7xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-none mb-8 tracking-tighter">
             404
           </h1>
-          <h2 className="text-3xl md:text-4xl font-manrope font-bold text-zinc-900 mb-6 tracking-tight">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-6 tracking-tight">
             Halaman tidak ditemukan.
           </h2>
-          <p className="text-xl text-zinc-600 mb-12 leading-relaxed">
+          <p className="text-xl text-[#5B6570] mb-12 leading-relaxed">
             Halaman yang Anda cari tidak tersedia. Mari kembali ke halaman utama atau hubungi tim kami apabila membutuhkan bantuan.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
