@@ -299,43 +299,6 @@ export default function HomePage() {
         </Container>
       </section>
 
-      {/* WHY TEGAKARA COMMITMENT */}
-      <section className="py-24 lg:py-32 bg-[#14171B] text-white">
-        <Container>
-          <FadeIn>
-            <div className="grid lg:grid-cols-12 gap-16 items-center">
-              <div className="lg:col-span-6">
-                <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.1] tracking-tight mb-8">
-                  Kami Tidak Menjanjikan Proyek Tanpa Tantangan.
-                  <br /><span className="text-[#DCD6CD]">Kami Menjanjikan Proyek Yang Tetap Dalam Kendali.</span>
-                </h2>
-                <div className="text-lg text-[#DCD6CD] leading-relaxed space-y-6">
-                  <p>Keberhasilan proyek bukan ditentukan oleh janji bahwa semuanya akan berjalan sempurna.</p>
-                  <p>Keberhasilan ditentukan oleh bagaimana setiap tantangan direspons secara cepat, transparan, dan terdokumentasi.</p>
-                  <p>Itulah komitmen yang kami pegang dalam setiap proyek.</p>
-                </div>
-              </div>
-              <div className="lg:col-span-6">
-                <div className="bg-white/5 border border-white/10 rounded-2xl p-8 md:p-12 space-y-6">
-                  {[
-                    "Setiap perubahan memiliki dokumentasi.",
-                    "Setiap progres memiliki laporan.",
-                    "Setiap keputusan memiliki dasar.",
-                    "Setiap pekerjaan memiliki standar pemeriksaan.",
-                    "Setiap klien mengetahui perkembangan proyeknya."
-                  ].map((point, idx) => (
-                    <div key={idx} className="flex items-start gap-4">
-                      <CheckCircle2 className="w-6 h-6 text-[#E2A63C] shrink-0" />
-                      <p className="text-white/70 font-medium">{point}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </FadeIn>
-        </Container>
-      </section>
-
       {/* 7. PROJECTVIEW PREVIEW ⭐ */}
       <section className="py-24 lg:py-32 bg-[#ECE8E1] border-b border-[#C9C3B8]">
         <Container>
