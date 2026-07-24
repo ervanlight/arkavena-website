@@ -69,7 +69,7 @@ export default function FacilityCarePage() {
             
             <div className="mt-24 aspect-[21/9] relative rounded-xl overflow-hidden bg-[#C9C3B8]/20 border border-[#C9C3B8]">
               <Image 
-                src="/images/commercial_building_v4.jpg"
+                src="/images/commercial_building_v5.jpg"
                 alt="Engineer melakukan inspeksi"
                 fill
                 className="object-cover grayscale hover:grayscale-0 transition-all duration-700"

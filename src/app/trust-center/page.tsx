@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Container } from '@/components/ui/container';
 import { FadeIn } from '@/components/shared/fade-in';
@@ -14,8 +15,16 @@ export default function TrustCenterPage() {
   return (
     <>
       {/* SECTION 01: HERO */}
-      <section className="bg-[#14171B] text-white pt-40 pb-40 border-b border-white/10">
-        <Container>
+      <section className="relative overflow-hidden bg-[#14171B] text-white pt-32 pb-28 border-b border-white/10">
+        <Image 
+          src="/images/hero_trust_v5.jpg" 
+          alt="Inspeksi Standar & Kualitas Struktur TEGAKARA" 
+          fill 
+          className="object-cover opacity-25 pointer-events-none"
+          priority
+          sizes="100vw"
+        />
+        <Container className="relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
               <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-8">

@@ -14,8 +14,16 @@ export default function TentangPage() {
   return (
     <>
       {/* SECTION 01: HERO */}
-      <section className="bg-[#14171B] text-white pt-28 pb-20 lg:pt-36 lg:pb-28 border-b border-white/10">
-        <Container>
+      <section className="relative overflow-hidden bg-[#14171B] text-white pt-28 pb-20 lg:pt-36 lg:pb-28 border-b border-white/10">
+        <Image 
+          src="/images/hero_about_v5.jpg" 
+          alt="Tim TEGAKARA Diskusi Gambar Kerja di Site Office" 
+          fill 
+          className="object-cover opacity-25 pointer-events-none"
+          priority
+          sizes="100vw"
+        />
+        <Container className="relative z-10">
           <FadeIn>
             <div className="max-w-4xl">
               <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-8">
