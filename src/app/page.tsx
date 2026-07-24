@@ -239,7 +239,7 @@ export default function HomePage() {
               <div className="bg-[#ECE8E1] hover:bg-[#C9C3B8]/10 transition-colors p-8 sm:p-12 block group cursor-pointer border border-transparent hover:border-[#C9C3B8]">
                 <Link href="/portfolio/fasilitas-sekolah-sidoarjo">
                   <div className="aspect-[4/3] bg-[#C9C3B8]/20 mb-8 relative overflow-hidden rounded-lg">
-                    <Image src="/images/school_facility_1784552005374.jpg" fill alt="Facility Care" className="object-cover group-hover:scale-105 transition-transform duration-700" sizes="(max-width: 1200px) 100vw, 50vw" />
+                    <Image src="/images/school_facility_v4.jpg" fill alt="Facility Care" className="object-cover group-hover:scale-105 transition-transform duration-700" sizes="(max-width: 1200px) 100vw, 50vw" />
                   </div>
                   <h3 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">Maintenance Fasilitas Sekolah</h3>
                   <p className="text-[#3F4954] leading-relaxed mb-6">Program pemeliharaan terjadwal untuk memastikan operasional sekolah berjalan tanpa gangguan.</p>
