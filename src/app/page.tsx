@@ -79,8 +79,8 @@ export default function HomePage() {
       <section className="relative bg-[#14171B] pt-28 pb-16 lg:pt-32 lg:pb-24 overflow-hidden">
         <div className="absolute inset-0 z-0 before:absolute before:inset-0 before:bg-gradient-to-r before:from-[#14171B] before:via-[#14171B]/80 before:to-transparent before:z-10">
           <Image 
-            src="/images/hero_home_v3.jpg" 
-            alt="TEGAKARA Project Manager and Client Site Supervision" 
+            src="/images/hero_home_v7.jpg" 
+            alt="TEGAKARA Project Control & Construction Overview" 
             fill 
             className="object-cover object-center"
             priority
