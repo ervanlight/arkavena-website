@@ -14,7 +14,7 @@ export default function FacilityServicePage() {
     <main className="min-h-screen bg-[#ECE8E1] text-[#0E1B26]">
       <section className="relative overflow-hidden z-0 bg-[#0E1B26] text-white py-24 px-6 min-h-[70vh] flex items-center">
         <Image 
-          src="/images/hero_facility_waterproofing_v4.jpg"
+          src="/images/waterproofing_pabrik_gresik_v6.jpg"
           alt="Hero Background"
           fill
           className="object-cover opacity-30 mix-blend-overlay pointer-events-none"
