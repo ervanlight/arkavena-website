@@ -45,7 +45,7 @@ export default function AssessmentPage() {
                       "Kesempatan berdiskusi bersama tim TEGAKARA"
                     ].map((item, idx) => (
                       <div key={idx} className="flex items-start gap-3">
-                        <CheckCircle2 className="w-6 h-6 text-[#C9C3B8] shrink-0" />
+                        <CheckCircle2 className="w-6 h-6 text-[#5B6570] shrink-0" />
                         <span className="text-[#5B6570] font-medium">{item}</span>
                       </div>
                     ))}
@@ -56,13 +56,13 @@ export default function AssessmentPage() {
                   <h3 className="text-sm font-[family-name:var(--font-ibm-plex-mono)] font-bold tracking-widest uppercase text-[#5B6570] mb-6">Assessment Mencakup</h3>
                   <div className="space-y-4 text-[#14171B] font-medium">
                     <p>Apakah lahan sudah siap?</p>
-                    <ArrowDown className="w-4 h-4 text-[#C9C3B8]" />
+                    <ArrowDown className="w-4 h-4 text-[#5B6570]" />
                     <p>Apakah desain sudah tersedia?</p>
-                    <ArrowDown className="w-4 h-4 text-[#C9C3B8]" />
+                    <ArrowDown className="w-4 h-4 text-[#5B6570]" />
                     <p>Apakah anggaran sudah ditentukan?</p>
-                    <ArrowDown className="w-4 h-4 text-[#C9C3B8]" />
+                    <ArrowDown className="w-4 h-4 text-[#5B6570]" />
                     <p>Apakah target waktu sudah jelas?</p>
-                    <ArrowDown className="w-4 h-4 text-[#C9C3B8]" />
+                    <ArrowDown className="w-4 h-4 text-[#5B6570]" />
                     <p>Apa tantangan terbesar proyek Anda?</p>
                   </div>
                 </div>

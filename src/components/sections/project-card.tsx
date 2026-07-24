@@ -26,7 +26,7 @@ export function ProjectCard({ title, category, location, href, imageUrl, classNa
               className="object-cover"
             />
           ) : (
-            <div className="absolute inset-0 flex items-center justify-center text-white/50 text-sm">
+            <div className="absolute inset-0 flex items-center justify-center text-[#5B6570] text-sm">
               No image
             </div>
           )}

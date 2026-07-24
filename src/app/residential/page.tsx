@@ -49,7 +49,7 @@ export default function ResidentialPage() {
               </span>
               <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Rumah Yang Baik Tidak Hanya Dibangun Dengan Material Berkualitas.
-                <br /><span className="text-white/50">Tetapi Dengan Proses Yang Dikelola Dengan Benar.</span>
+                <br /><span className="text-[#5B6570]">Tetapi Dengan Proses Yang Dikelola Dengan Benar.</span>
               </h1>
               <p className="text-lg text-[#5B6570] leading-relaxed font-inter max-w-2xl mb-8">
                 Membangun rumah adalah salah satu keputusan finansial terbesar dalam hidup. Karena itu, kami percaya prosesnya harus sama baiknya dengan hasil akhirnya.
@@ -131,7 +131,7 @@ export default function ResidentialPage() {
                 </h2>
                 <h3 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                   Kami Tidak Hanya Membangun Rumah.
-                  <br /><span className="text-white/50">Kami Mengelola Seluruh Perjalanannya.</span>
+                  <br /><span className="text-[#5B6570]">Kami Mengelola Seluruh Perjalanannya.</span>
                 </h3>
                 <div className="text-lg text-[#5B6570] leading-relaxed space-y-6">
                   <p>Setiap proyek rumah memiliki kebutuhan yang berbeda.</p>

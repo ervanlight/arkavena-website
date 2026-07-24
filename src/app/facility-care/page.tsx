@@ -50,7 +50,7 @@ export default function FacilityCarePage() {
               </span>
               <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Bangunan Yang Terawat Bukan Sekadar Terlihat Lebih Baik.
-                <br /><span className="text-white/50">Tetapi Membantu Bisnis Tetap Berjalan.</span>
+                <br /><span className="text-[#5B6570]">Tetapi Membantu Bisnis Tetap Berjalan.</span>
               </h1>
               <div className="text-lg text-[#5B6570] leading-relaxed font-inter max-w-3xl mb-8 space-y-6">
                 <p>Bangunan yang digunakan setiap hari akan terus mengalami perubahan. Peralatan bekerja. Material menua. Kerusakan kecil mulai muncul.</p>
@@ -144,7 +144,7 @@ export default function FacilityCarePage() {
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-12">
                 Facility Care Bukan Tentang Memperbaiki Kerusakan.
-                <br /><span className="text-white/50">Tetapi Menjaga Agar Kerusakan Tidak Mengganggu Bisnis.</span>
+                <br /><span className="text-[#5B6570]">Tetapi Menjaga Agar Kerusakan Tidak Mengganggu Bisnis.</span>
               </h2>
               <div className="text-lg text-[#5B6570] leading-relaxed space-y-6">
                 <p>Kami percaya bahwa maintenance terbaik adalah maintenance yang direncanakan.</p>

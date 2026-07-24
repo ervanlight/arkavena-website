@@ -51,7 +51,7 @@ export function MobileNav({ isOpen, onClose, items }: MobileNavProps) {
         <div className="flex px-4 pb-2 pt-5">
           <button
             type="button"
-            className="ml-auto flex h-10 w-10 items-center justify-center rounded-md text-white/50 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C]"
+            className="ml-auto flex h-10 w-10 items-center justify-center rounded-md text-[#5B6570] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C]"
             onClick={onClose}
           >
             <span className="sr-only">Close menu</span>
@@ -77,7 +77,7 @@ export function MobileNav({ isOpen, onClose, items }: MobileNavProps) {
                   onClick={onClose}
                   className={cn(
                     'text-lg transition-colors',
-                    isActive ? 'text-white font-bold' : 'text-white/60 font-medium hover:text-white'
+                    isActive ? 'text-white font-bold' : 'text-[#5B6570] font-medium hover:text-white'
                   )}
                 >
                   {item.label}

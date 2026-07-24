@@ -25,7 +25,7 @@ export default function PortfolioPage() {
               </span>
               <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Bukti Terbaik Bukan Klaim.
-                <br /><span className="text-white/50">Melainkan Proyek Yang Terkendali.</span>
+                <br /><span className="text-[#5B6570]">Melainkan Proyek Yang Terkendali.</span>
               </h1>
               <div className="text-xl text-[#5B6570] leading-relaxed font-inter max-w-3xl space-y-6 mb-12">
                 <p>Kami tidak hanya menampilkan hasil akhirnya, tetapi juga bagaimana proses pengambilan keputusan dilakukan hingga proyek selesai.</p>

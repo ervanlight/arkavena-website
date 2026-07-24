@@ -55,7 +55,7 @@ export function Header() {
                     href={item.href}
                     className={cn(
                       'text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C] rounded-sm whitespace-nowrap',
-                      isActive ? 'text-white font-bold' : 'text-white/70 hover:text-white font-medium'
+                      isActive ? 'text-white font-bold' : 'text-[#5B6570] hover:text-white font-medium'
                     )}
                   >
                     {item.label}

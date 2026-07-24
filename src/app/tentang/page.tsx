@@ -67,7 +67,7 @@ export default function TentangPage() {
               <div className="md:col-span-8">
                 <div className="space-y-6 text-xl md:text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.3] tracking-tight">
                   <p>Kami percaya bahwa setiap keputusan harus memiliki dasar.</p>
-                  <p className="text-white/50">Setiap perubahan harus memiliki dokumentasi.</p>
+                  <p className="text-[#5B6570]">Setiap perubahan harus memiliki dokumentasi.</p>
                   <p className="text-[#5B6570]">Setiap progres harus dapat dipantau.</p>
                   <p>Setiap pekerjaan harus dapat dipertanggungjawabkan.</p>
                 </div>
@@ -124,7 +124,7 @@ export default function TentangPage() {
                 <div key={idx} className="bg-[#ECE8E1] p-8 group">
                   <div className="aspect-square bg-[#C9C3B8]/20 mb-6 relative overflow-hidden rounded-lg">
                     {/* Placeholder for real photos */}
-                    <div className="absolute inset-0 flex items-center justify-center text-white/70 font-mono text-xs group-hover:scale-105 transition-transform duration-500">
+                    <div className="absolute inset-0 flex items-center justify-center text-[#5B6570] font-mono text-xs group-hover:scale-105 transition-transform duration-500">
                       PHOTO
                     </div>
                   </div>

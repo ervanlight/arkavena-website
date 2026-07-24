@@ -59,12 +59,12 @@ export default function KontakPage() {
                     
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="space-y-2">
-                        <label className="text-sm font-bold text-[#5B6570]">Email <span className="text-white/50 font-normal">(opsional)</span></label>
+                        <label className="text-sm font-bold text-[#5B6570]">Email <span className="text-[#5B6570] font-normal">(opsional)</span></label>
                         <input type="email" className="w-full h-14 bg-white border border-[#C9C3B8] rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-[#14171B] transition-shadow" />
                       </div>
                       <div className="space-y-2">
                         <label className="text-sm font-bold text-[#5B6570]">Lokasi Proyek</label>
-                        <input type="text" placeholder="Lokasi proyek..." className="w-full h-14 bg-white border border-[#C9C3B8] rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-[#14171B] transition-shadow placeholder:text-white/50" />
+                        <input type="text" placeholder="Lokasi proyek..." className="w-full h-14 bg-white border border-[#C9C3B8] rounded-xl px-4 focus:outline-none focus:ring-2 focus:ring-[#14171B] transition-shadow placeholder:text-[#5B6570]" />
                       </div>
                     </div>
 
@@ -93,7 +93,7 @@ export default function KontakPage() {
 
                     <div className="space-y-2">
                       <label className="text-sm font-bold text-[#5B6570]">Ceritakan Kebutuhan Anda</label>
-                      <textarea rows={5} placeholder="Ceritakan kebutuhan Anda..." className="w-full bg-white border border-[#C9C3B8] rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-[#14171B] transition-shadow resize-none placeholder:text-white/50"></textarea>
+                      <textarea rows={5} placeholder="Ceritakan kebutuhan Anda..." className="w-full bg-white border border-[#C9C3B8] rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-[#14171B] transition-shadow resize-none placeholder:text-[#5B6570]"></textarea>
                     </div>
 
                     <Button type="button" size="lg" className="w-full h-14 text-base">

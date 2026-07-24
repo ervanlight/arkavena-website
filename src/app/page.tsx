@@ -154,7 +154,7 @@ export default function HomePage() {
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-12">
                 Proyek Tidak Berhasil Karena Tidak Ada Masalah.
-                <br /><span className="text-[#C9C3B8]">Proyek Berhasil Karena Setiap Masalah Dikendalikan.</span>
+                <br /><span className="text-[#5B6570]">Proyek Berhasil Karena Setiap Masalah Dikendalikan.</span>
               </h2>
               <div className="text-lg text-[#5B6570] leading-relaxed space-y-6">
                 <p>Dalam setiap proyek akan selalu ada perubahan, tantangan, dan keputusan yang harus diambil.</p>
@@ -258,7 +258,7 @@ export default function HomePage() {
               <div className="lg:col-span-6">
                 <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.1] tracking-tight mb-8">
                   Bukti Terbaik Bukan Klaim.
-                  <br /><span className="text-[#C9C3B8]">Tetapi Proyek Yang Dapat Dipertanggungjawabkan.</span>
+                  <br /><span className="text-[#5B6570]">Tetapi Proyek Yang Dapat Dipertanggungjawabkan.</span>
                 </h2>
               </div>
               <div className="lg:col-span-6">
@@ -331,7 +331,7 @@ export default function HomePage() {
                     <div className="w-8 h-8 rounded bg-[#C9C3B8]/20 flex items-center justify-center text-[#5B6570] shrink-0">
                       <item.icon className="w-4 h-4" />
                     </div>
-                    <div className="text-xs font-bold text-[#C9C3B8] font-[family-name:var(--font-ibm-plex-mono)]">STEP 0{idx + 1}</div>
+                    <div className="text-xs font-bold text-[#5B6570] font-[family-name:var(--font-ibm-plex-mono)]">STEP 0{idx + 1}</div>
                   </div>
                   <h3 className="font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] text-xl mb-3">{item.title}</h3>
                   <p className="text-[#5B6570] leading-relaxed text-sm">{item.desc}</p>

@@ -27,7 +27,7 @@ export default function ProjectViewPage() {
               </span>
               <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] leading-[1.05] tracking-tight mb-8">
                 Tetap Mengetahui Perkembangan Proyek,
-                <br /><span className="text-white/50">Tanpa Harus Selalu Berada di Lokasi.</span>
+                <br /><span className="text-[#5B6570]">Tanpa Harus Selalu Berada di Lokasi.</span>
               </h1>
               <div className="text-lg text-[#5B6570] leading-relaxed font-inter max-w-3xl mb-8 space-y-6">
                 <p>Kami percaya bahwa pemilik proyek tidak seharusnya menunggu laporan untuk mengetahui apa yang sedang terjadi.</p>
