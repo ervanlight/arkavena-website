@@ -24,7 +24,7 @@ export function ProjectCard({ title, category, location, href, imageUrl, classNa
               alt={title}
               fill
               className="object-cover"
-            />
+             sizes="(max-width: 1200px) 100vw, 50vw" />
           ) : (
             <div className="absolute inset-0 flex items-center justify-center text-[#5B6570] text-sm">
               No image

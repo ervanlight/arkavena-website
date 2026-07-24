@@ -75,7 +75,7 @@ export default function HomePage() {
             fill 
             className="object-cover object-center"
             priority
-          />
+           sizes="(max-width: 1200px) 100vw, 50vw" />
         </div>
         
         <Container className="relative z-20">
@@ -85,7 +85,7 @@ export default function HomePage() {
                 <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#E2A63C] mb-6">
                   Construction • Renovation • Facility Care
                 </span>
-                <h1 className="text-xl md:text-2xl lg:text-3xl lg:text-[2.75rem] font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.15] tracking-tight mb-5">
+                <h1 className="text-xl md:text-2xl lg:text-[2.75rem] font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.15] tracking-tight mb-5">
                   Bangunan Bukan Investasi Terbesar Anda.
                   <br /><span className="text-white/50">Yang Lebih Berharga Adalah Kendali Atas Proses Membangunnya.</span>
                 </h1>
@@ -276,7 +276,7 @@ export default function HomePage() {
               <div className="bg-[#ECE8E1] hover:bg-[#C9C3B8]/10 transition-colors p-8 sm:p-12 block group cursor-pointer border border-transparent hover:border-[#C9C3B8]">
                 <Link href="/portfolio/rumah-tinggal-citraland">
                   <div className="aspect-[4/3] bg-[#C9C3B8]/20 mb-8 relative overflow-hidden rounded-lg">
-                    <Image src="/images/hero_residential_1784553175729.jpg" fill alt="Residential" className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                    <Image src="/images/hero_residential_1784553175729.jpg" fill alt="Residential" className="object-cover group-hover:scale-105 transition-transform duration-700"  sizes="(max-width: 1200px) 100vw, 50vw" />
                   </div>
                   <h3 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">Rumah Tinggal Citraland</h3>
                   <p className="text-[#5B6570] leading-relaxed mb-6">Pembangunan hunian dengan sistem pelaporan terstruktur yang memudahkan klien memantau dari luar kota.</p>
@@ -289,7 +289,7 @@ export default function HomePage() {
               <div className="bg-[#ECE8E1] hover:bg-[#C9C3B8]/10 transition-colors p-8 sm:p-12 block group cursor-pointer border border-transparent hover:border-[#C9C3B8]">
                 <Link href="/portfolio/fasilitas-sekolah-sidoarjo">
                   <div className="aspect-[4/3] bg-[#C9C3B8]/20 mb-8 relative overflow-hidden rounded-lg">
-                    <Image src="/images/school_facility_1784552005374.jpg" fill alt="Facility Care" className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                    <Image src="/images/school_facility_1784552005374.jpg" fill alt="Facility Care" className="object-cover group-hover:scale-105 transition-transform duration-700"  sizes="(max-width: 1200px) 100vw, 50vw" />
                   </div>
                   <h3 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">Maintenance Fasilitas Sekolah</h3>
                   <p className="text-[#5B6570] leading-relaxed mb-6">Program pemeliharaan terjadwal untuk memastikan operasional sekolah berjalan tanpa gangguan.</p>

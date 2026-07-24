@@ -19,7 +19,7 @@ export default function ServicePage() {
           fill
           className="object-cover opacity-30 mix-blend-overlay pointer-events-none"
           priority
-        />
+         sizes="(max-width: 1200px) 100vw, 50vw" />
         <div className="relative z-10 w-full">
           <div className="max-w-5xl mx-auto">
             <FadeIn>

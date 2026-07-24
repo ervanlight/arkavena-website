@@ -61,7 +61,7 @@ export default async function PortfolioDetailPage({ params }: { params: Promise<
                 fill
                 className="object-cover"
                 priority
-              />
+               sizes="(max-width: 1200px) 100vw, 50vw" />
             </div>
           </FadeIn>
         </Container>

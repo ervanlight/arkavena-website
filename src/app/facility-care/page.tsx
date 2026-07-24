@@ -74,7 +74,7 @@ export default function FacilityCarePage() {
                 fill
                 className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 priority
-              />
+               sizes="(max-width: 1200px) 100vw, 50vw" />
             </div>
           </FadeIn>
         </Container>

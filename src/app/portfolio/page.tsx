@@ -44,7 +44,7 @@ export default function PortfolioPage() {
                 <div className="bg-[#ECE8E1] hover:bg-[#ECE8E1] transition-colors p-8 sm:p-12 h-full flex flex-col group border border-transparent hover:border-[#C9C3B8] cursor-pointer">
                   <Link href={`/portfolio/${project.slug}`} className="flex flex-col h-full">
                     <div className="aspect-[4/3] bg-[#C9C3B8]/20 mb-8 relative overflow-hidden rounded-lg">
-                      <Image src={project.imageUrl} fill alt={project.title} className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                      <Image src={project.imageUrl} fill alt={project.title} className="object-cover group-hover:scale-105 transition-transform duration-700"  sizes="(max-width: 1200px) 100vw, 50vw" />
                     </div>
                     <div className="mb-4">
                       <span className="text-[11px] font-bold tracking-widest uppercase text-[#5B6570]">{project.category}</span>
