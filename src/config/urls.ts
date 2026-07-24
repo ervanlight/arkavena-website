@@ -1,4 +1,4 @@
-const domain = process.env.NEXT_PUBLIC_SITE_URL || 'https://tegakara-website.vercel.app';
+const domain = process.env.NEXT_PUBLIC_SITE_URL || 'https://arkavena-website.vercel.app';
 
 export const urls = {
   base: domain,

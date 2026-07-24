@@ -6,7 +6,7 @@ import { FadeIn } from '@/components/shared/fade-in';
 import { MessageCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Kontak — TEGAKARA',
+  title: 'Kontak — ARKAVENA',
   description: 'Mari mulai dengan sebuah percakapan. Diskusi awal membantu kami memahami kondisi proyek Anda.',
 };
 
@@ -121,7 +121,7 @@ export default function KontakPage() {
                       </div>
                       <div>
                         <p className="font-bold text-[#14171B]">Kontak Langsung</p>
-                        <p>T. (031) 555-1234<br />WA. <a href="https://wa.me/6281112345678" target="_blank" className="hover:text-[#1C3A5C] transition-colors">0811-1234-5678</a><br />E. hello@tegakara.com</p>
+                        <p>T. (031) 555-1234<br />WA. <a href="https://wa.me/6281112345678" target="_blank" className="hover:text-[#1C3A5C] transition-colors">0811-1234-5678</a><br />E. hello@arkavena.com</p>
                       </div>
                       <a href="#" className="inline-block font-bold text-[#14171B] border-b border-white/10 pb-0.5 hover:text-[#3F4954] hover:border-[#5B6570] transition-colors">
                         Lihat di Google Maps

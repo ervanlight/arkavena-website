@@ -1,17 +1,17 @@
 // =========================================
-// TEGAKARA — Centralized Site Configuration
+// ARKAVENA — Centralized Site Configuration
 // =========================================
 // Change these values to update company information across the entire website.
 // No other files need to be edited for routine identity changes.
 
 export const siteConfig = {
   // Brand Identity
-  brandName: "TEGAKARA",
+  brandName: "ARKAVENA",
   legalCompanyName: "", // Fill when company is legally registered
   tagline: "Karya Terukur. Aset Terjaga.",
   englishDescriptor: "Construction & Facility Care",
   description:
-    "TEGAKARA mengelola ruang lingkup, biaya, progres, mutu, dan perubahan pekerjaan secara terdokumentasi — untuk rumah, sekolah, gedung komersial, dan fasilitas operasional di Surabaya dan sekitarnya.",
+    "ARKAVENA mengelola ruang lingkup, biaya, progres, mutu, dan perubahan pekerjaan secara terdokumentasi — untuk rumah, sekolah, gedung komersial, dan fasilitas operasional di Surabaya dan sekitarnya.",
 
   // Contact Information — leave empty string to hide from public website
   businessEmail: "",
@@ -43,7 +43,7 @@ export const siteConfig = {
   },
 
   // Domain Configuration
-  domain: process.env.NEXT_PUBLIC_SITE_URL || "https://tegakara-website.vercel.app",
+  domain: process.env.NEXT_PUBLIC_SITE_URL || "https://arkavena-website.vercel.app",
   appUrl: process.env.NEXT_PUBLIC_APP_URL || "",
   clientPortalUrl: process.env.NEXT_PUBLIC_CLIENT_PORTAL_URL || "",
   adminUrl: process.env.NEXT_PUBLIC_ADMIN_URL || "",

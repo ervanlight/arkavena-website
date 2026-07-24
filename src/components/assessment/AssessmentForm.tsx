@@ -226,7 +226,7 @@ export default function AssessmentForm() {
               <CheckCircle className="w-16 h-16 text-[#25775A] mx-auto mb-4" />
               <h2 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-2">Konfirmasi Pengiriman</h2>
               <p className="text-[#3F4954] mb-8">
-                Data Anda siap dikirim. Tim TEGAKARA akan meninjau dan menghubungi Anda maksimal 1x24 jam kerja.
+                Data Anda siap dikirim. Tim ARKAVENA akan meninjau dan menghubungi Anda maksimal 1x24 jam kerja.
               </p>
               
               {error && (

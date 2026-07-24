@@ -8,8 +8,8 @@ import { FadeIn } from "@/components/shared/fade-in";
 import { MapPin, Mail, Clock, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Kontak Kami | TEGAKARA Construction",
-  description: "Hubungi TEGAKARA untuk layanan konstruksi rumah atau perawatan fasilitas di area Surabaya dan sekitarnya.",
+  title: "Kontak Kami | ARKAVENA Construction",
+  description: "Hubungi ARKAVENA untuk layanan konstruksi rumah atau perawatan fasilitas di area Surabaya dan sekitarnya.",
 };
 
 export default function KontakPage() {
@@ -75,7 +75,7 @@ export default function KontakPage() {
                 <div>
                   <h2 className="text-2xl font-bold font-manrope text-[#0E1B26] mb-3">Hubungi Langsung</h2>
                   <p className="text-slate-600 leading-relaxed text-lg font-medium">
-                    hello@tegakara.com
+                    hello@arkavena.com
                   </p>
                 </div>
               </div>
@@ -114,8 +114,8 @@ privacy_page = """import { Metadata } from "next";
 import { FadeIn } from "@/components/shared/fade-in";
 
 export const metadata: Metadata = {
-  title: "Kebijakan Privasi | TEGAKARA",
-  description: "Kebijakan privasi dan pengelolaan data pengguna oleh TEGAKARA Construction.",
+  title: "Kebijakan Privasi | ARKAVENA",
+  description: "Kebijakan privasi dan pengelolaan data pengguna oleh ARKAVENA Construction.",
 };
 
 export default function KebijakanPrivasiPage() {
@@ -181,7 +181,7 @@ export default function KebijakanPrivasiPage() {
                   Hubungi Kami
                 </h2>
                 <p className="text-slate-600 leading-relaxed text-lg ml-12">
-                  Jika Anda memiliki pertanyaan mengenai data Anda atau ingin mengajukan penghapusan data dari sistem kami, silakan hubungi tim administrasi kami di <strong>hello@tegakara.com</strong>.
+                  Jika Anda memiliki pertanyaan mengenai data Anda atau ingin mengajukan penghapusan data dari sistem kami, silakan hubungi tim administrasi kami di <strong>hello@arkavena.com</strong>.
                 </p>
               </section>
             </div>
@@ -198,8 +198,8 @@ terms_page = """import { Metadata } from "next";
 import { FadeIn } from "@/components/shared/fade-in";
 
 export const metadata: Metadata = {
-  title: "Syarat & Ketentuan | TEGAKARA",
-  description: "Syarat dan ketentuan layanan penggunaan website dan layanan TEGAKARA Construction.",
+  title: "Syarat & Ketentuan | ARKAVENA",
+  description: "Syarat dan ketentuan layanan penggunaan website dan layanan ARKAVENA Construction.",
 };
 
 export default function SyaratKetentuanPage() {
@@ -219,7 +219,7 @@ export default function SyaratKetentuanPage() {
                   Penerimaan Syarat
                 </h2>
                 <p className="text-slate-600 leading-relaxed text-lg ml-12">
-                  Dengan mengakses dan menggunakan situs web TEGAKARA, Anda menyetujui untuk terikat dengan Syarat dan Ketentuan ini. Jika Anda tidak setuju dengan sebagian atau seluruh syarat ini, Anda disarankan untuk tidak menggunakan situs ini.
+                  Dengan mengakses dan menggunakan situs web ARKAVENA, Anda menyetujui untuk terikat dengan Syarat dan Ketentuan ini. Jika Anda tidak setuju dengan sebagian atau seluruh syarat ini, Anda disarankan untuk tidak menggunakan situs ini.
                 </p>
               </section>
 
@@ -239,7 +239,7 @@ export default function SyaratKetentuanPage() {
                   Hak Kekayaan Intelektual
                 </h2>
                 <p className="text-slate-600 leading-relaxed text-lg ml-12">
-                  Seluruh konten, gambar proyek, logo, kode desain (ProjectView UI), dan teks pada situs web ini adalah hak milik eksklusif TEGAKARA atau dilisensikan kepada kami. Dilarang menyalin, mereproduksi, atau mendistribusikan materi apa pun dari situs ini tanpa izin tertulis dari manajemen TEGAKARA.
+                  Seluruh konten, gambar proyek, logo, kode desain (ProjectView UI), dan teks pada situs web ini adalah hak milik eksklusif ARKAVENA atau dilisensikan kepada kami. Dilarang menyalin, mereproduksi, atau mendistribusikan materi apa pun dari situs ini tanpa izin tertulis dari manajemen ARKAVENA.
                 </p>
               </section>
               

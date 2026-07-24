@@ -13,7 +13,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Layanan Residential — TEGAKARA',
+  title: 'Layanan Residential — ARKAVENA',
   description: 'Kami tidak hanya membangun rumah. Kami mengelola seluruh perjalanannya agar proyek tetap dalam kendali.',
 };
 
@@ -54,7 +54,7 @@ export default function ResidentialPage() {
               <p className="text-lg text-[#3F4954] leading-relaxed font-inter max-w-2xl mb-8">
                 Membangun rumah adalah salah satu keputusan finansial terbesar dalam hidup. Karena itu, kami percaya prosesnya harus sama baiknya dengan hasil akhirnya.
                 <br /><br />
-                TEGAKARA membantu Anda mengelola pembangunan maupun renovasi rumah melalui sistem kerja yang transparan, terstruktur, dan terdokumentasi sehingga Anda dapat mengambil keputusan dengan lebih tenang.
+                ARKAVENA membantu Anda mengelola pembangunan maupun renovasi rumah melalui sistem kerja yang transparan, terstruktur, dan terdokumentasi sehingga Anda dapat mengambil keputusan dengan lebih tenang.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="w-full sm:w-auto">

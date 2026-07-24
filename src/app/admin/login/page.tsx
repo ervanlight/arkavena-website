@@ -23,7 +23,7 @@ export default function AdminLogin() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-bronze" 
-              placeholder="admin@tegakara.com"
+              placeholder="admin@arkavena.com"
               required 
             />
           </div>

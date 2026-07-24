@@ -10,7 +10,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'ProjectView — TEGAKARA',
+  title: 'ProjectView — ARKAVENA',
   description: 'Tetap mengetahui perkembangan proyek tanpa harus selalu berada di lokasi. ProjectView adalah bukti transparansi kami.',
 };
 

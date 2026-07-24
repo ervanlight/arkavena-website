@@ -10,7 +10,7 @@ export function CookieConsent() {
   React.useEffect(() => {
     // Only show if analytics are configured (simulated here)
     const hasAnalytics = process.env.NEXT_PUBLIC_ANALYTICS_ID;
-    const hasConsent = localStorage.getItem('tegakara_cookie_consent');
+    const hasConsent = localStorage.getItem('arkavena_cookie_consent');
     
     if (hasAnalytics && !hasConsent) {
       setShow(true);
@@ -18,12 +18,12 @@ export function CookieConsent() {
   }, []);
 
   const handleAccept = () => {
-    localStorage.setItem('tegakara_cookie_consent', 'true');
+    localStorage.setItem('arkavena_cookie_consent', 'true');
     setShow(false);
   };
 
   const handleDecline = () => {
-    localStorage.setItem('tegakara_cookie_consent', 'false');
+    localStorage.setItem('arkavena_cookie_consent', 'false');
     setShow(false);
   };
 

@@ -5,7 +5,7 @@ import { FadeIn } from "@/components/shared/fade-in";
 import { CheckCircle2, ShieldCheck, Ruler } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Minor Works & Perbaikan Fasilitas Industri | TEGAKARA",
+  title: "Minor Works & Perbaikan Fasilitas Industri | ARKAVENA",
   description: "Layanan pekerjaan sipil minor untuk kawasan industri dan pabrik dengan kepatuhan tinggi terhadap standar K3/HSE.",
 };
 
@@ -99,7 +99,7 @@ export default function FacilityServicePage() {
 
           <FadeIn direction="right" delay={0.2}>
             <div className="bg-[#1C2D38] text-white p-10 rounded-2xl h-full border border-slate-700 shadow-xl shadow-slate-900/10">
-              <h2 className="text-2xl font-bold font-[family-name:var(--font-space-grotesk)] mb-8 text-[#E8DED0]">Standar & Jaminan TEGAKARA</h2>
+              <h2 className="text-2xl font-bold font-[family-name:var(--font-space-grotesk)] mb-8 text-[#E8DED0]">Standar & Jaminan ARKAVENA</h2>
               <div className="space-y-8">
                 
                 <div className="flex gap-4">
@@ -151,7 +151,7 @@ export default function FacilityServicePage() {
             Siap Memulai Diskusi Proyek Anda?
           </h2>
           <p className="text-white/60 max-w-xl mx-auto text-base">
-            Konsultasikan kebutuhan Anda bersama tim TEGAKARA. Kami melayani area Surabaya, Sidoarjo, dan Gresik.
+            Konsultasikan kebutuhan Anda bersama tim ARKAVENA. Kami melayani area Surabaya, Sidoarjo, dan Gresik.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">

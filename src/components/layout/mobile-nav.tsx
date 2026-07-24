@@ -61,7 +61,7 @@ export function MobileNav({ isOpen, onClose, items }: MobileNavProps) {
 
         <div className="mt-2 space-y-2 px-4">
           <Link href="/" className="mb-6 flex flex-col focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C] rounded-sm" onClick={onClose}>
-            <span className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-white leading-none mb-1">TEGAKARA</span>
+            <span className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-white leading-none mb-1">ARKAVENA</span>
             <span className="text-[10px] uppercase tracking-widest text-[#3F4954] leading-none">
               Project Control Partner
             </span>

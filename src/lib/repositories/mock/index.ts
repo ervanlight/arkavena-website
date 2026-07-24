@@ -11,7 +11,7 @@ export class MockLeadRepository implements LeadRepository {
   private leads: Lead[] = [
     {
       id: '1',
-      reference: 'TGK-2026-A1B2',
+      reference: 'ARK-2026-A1B2',
       name: 'Budi Santoso',
       email: 'budi@example.com',
       phone: '+628110000001',
@@ -102,7 +102,7 @@ export class MockContentRepository implements ContentRepository {
       id: 'c1',
       type: 'faq',
       key: 'faq-1',
-      title: 'Apakah TEGAKARA menyediakan garansi pekerjaan?',
+      title: 'Apakah ARKAVENA menyediakan garansi pekerjaan?',
       content: 'Ya, setiap pekerjaan konstruksi dan perawatan kami dilengkapi dengan garansi retensi sesuai kesepakatan kontrak untuk memastikan kualitas hasil akhir.',
       order: 1,
       isActive: true

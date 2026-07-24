@@ -1,5 +1,5 @@
 // =========================================
-// TEGAKARA — Feature Flags
+// ARKAVENA — Feature Flags
 // =========================================
 // Controls which features are enabled/disabled.
 // Default values are configured for zero-cost free mode.

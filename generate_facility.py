@@ -4,7 +4,7 @@ base_path = '/Users/macbook/kontraktor-website/src/app/facility-care'
 
 pages = {
     'maintenance-gedung': {
-        'title': 'Perawatan & Pemeliharaan Gedung | TEGAKARA',
+        'title': 'Perawatan & Pemeliharaan Gedung | ARKAVENA',
         'desc': 'Layanan maintenance gedung komersial untuk menjaga operasional berjalan lancar dengan sistem work order yang terdokumentasi.',
         'hero_title': 'Pemeliharaan Gedung Komersial yang Terukur',
         'hero_desc': 'Perawatan bangunan tidak seharusnya reaktif. Kami menyediakan layanan terencana untuk menjaga nilai aset dan kenyamanan tenant Anda tanpa mengganggu operasional harian.',
@@ -20,7 +20,7 @@ pages = {
         ]
     },
     'maintenance-sekolah': {
-        'title': 'Perbaikan & Maintenance Sekolah | TEGAKARA',
+        'title': 'Perbaikan & Maintenance Sekolah | ARKAVENA',
         'desc': 'Layanan perawatan fasilitas pendidikan dengan penjadwalan khusus saat libur semester untuk meminimalisasi gangguan belajar mengajar.',
         'hero_title': 'Fasilitas Pendidikan yang Aman dan Terawat',
         'hero_desc': 'Sekolah membutuhkan lingkungan yang aman bagi siswa. Kami mengkhususkan diri pada perbaikan fasilitas dengan memanfaatkan waktu libur semester secara optimal.',
@@ -36,7 +36,7 @@ pages = {
         ]
     },
     'waterproofing-dan-atap': {
-        'title': 'Waterproofing & Perbaikan Atap | TEGAKARA',
+        'title': 'Waterproofing & Perbaikan Atap | ARKAVENA',
         'desc': 'Solusi kebocoran atap dan dak beton industri maupun komersial dengan garansi pekerjaan yang jelas.',
         'hero_title': 'Tuntaskan Kebocoran Atap Secara Permanen',
         'hero_desc': 'Kebocoran bukan sekadar air yang menetes, melainkan risiko kerusakan mesin produksi dan dokumen penting. Kami mengatasi kebocoran dari sumbernya.',
@@ -52,7 +52,7 @@ pages = {
         ]
     },
     'minor-works-industri': {
-        'title': 'Minor Works & Perbaikan Fasilitas Industri | TEGAKARA',
+        'title': 'Minor Works & Perbaikan Fasilitas Industri | ARKAVENA',
         'desc': 'Layanan pekerjaan sipil minor untuk kawasan industri dan pabrik dengan kepatuhan tinggi terhadap standar K3/HSE.',
         'hero_title': 'Pekerjaan Sipil Industri yang Mematuhi HSE',
         'hero_desc': 'Kami mengerti bahwa di kawasan industri, standar keselamatan (Safety) sama pentingnya dengan hasil konstruksi itu sendiri. Tim kami tersertifikasi dan terbiasa dengan regulasi pabrik.',
@@ -120,7 +120,7 @@ export default function FacilityServicePage() {
 
           <FadeIn direction="right" delay={0.2}>
             <div className="bg-[#1C2D38] text-white p-10 rounded-2xl h-full border border-slate-700 shadow-xl shadow-slate-900/10">
-              <h2 className="text-2xl font-bold font-manrope mb-8 text-[#E8DED0]">Standar & Jaminan TEGAKARA</h2>
+              <h2 className="text-2xl font-bold font-manrope mb-8 text-[#E8DED0]">Standar & Jaminan ARKAVENA</h2>
               <div className="space-y-8">
                 {why_jsx}
               </div>

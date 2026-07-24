@@ -28,14 +28,14 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'TEGAKARA — Project Control Partner',
+  title: 'ARKAVENA — Project Control Partner',
   description: 'Membangun, merenovasi, dan merawat fasilitas properti dengan sistem kerja terukur, transparan, dan terdokumentasi.',
 };
 
 export default function HomePage() {
   const testimonials = [
     {
-      quote: "Dengan TEGAKARA, kami merasa sangat tenang karena setiap perubahan spesifikasi dan biaya selalu dibahas dan disetujui terlebih dahulu secara tertulis.",
+      quote: "Dengan ARKAVENA, kami merasa sangat tenang karena setiap perubahan spesifikasi dan biaya selalu dibahas dan disetujui terlebih dahulu secara tertulis.",
       initial: "Bpk. Hendra S.",
       name: "Pemilik Rumah Tinggal",
       role: "Surabaya Barat"
@@ -56,11 +56,11 @@ export default function HomePage() {
 
   const faqs = [
     {
-      question: "Apa perbedaan TEGAKARA dengan kontraktor konvensional?",
-      answer: "TEGAKARA bekerja sebagai Project Control Partner. Kami tidak hanya mengeksekusi pekerjaan fisik, tetapi mengelola ruang lingkup, biaya, perubahan, dan mutu pekerjaan dengan sistem yang transparan dan terdokumentasi."
+      question: "Apa perbedaan ARKAVENA dengan kontraktor konvensional?",
+      answer: "ARKAVENA bekerja sebagai Project Control Partner. Kami tidak hanya mengeksekusi pekerjaan fisik, tetapi mengelola ruang lingkup, biaya, perubahan, dan mutu pekerjaan dengan sistem yang transparan dan terdokumentasi."
     },
     {
-      question: "Bagaimana TEGAKARA mencegah pembengkakan biaya (cost overrun)?",
+      question: "Bagaimana ARKAVENA mencegah pembengkakan biaya (cost overrun)?",
       answer: "Kami menggunakan mekanisme ScopeLock di mana seluruh spesifikasi dan gambar kerja disepakati di awal. Jika ada perubahan di lapangan, perubahan tersebut harus disetujui secara tertulis melalui Change Order sebelum dikerjakan."
     },
     {
@@ -68,7 +68,7 @@ export default function HomePage() {
       answer: "Bisa. Seluruh laporan progres, foto hasil pekerjaan, dan status keputusan dapat diakses secara digital melalui platform ProjectView kami."
     },
     {
-      question: "Layanan apa saja yang disediakan oleh TEGAKARA?",
+      question: "Layanan apa saja yang disediakan oleh ARKAVENA?",
       answer: "Kami melayani 2 divisi utama: Residential (Bangun Rumah Baru, Renovasi Besar, Tambah Lantai) dan Facility Care (Maintenance Sekolah, Maintenance Gedung, Waterproofing/Atap, dan Minor Works Industri)."
     }
   ];
@@ -80,7 +80,7 @@ export default function HomePage() {
         <div className="absolute inset-0 z-0 before:absolute before:inset-0 before:bg-gradient-to-r before:from-[#14171B] before:via-[#14171B]/80 before:to-transparent before:z-10">
           <Image 
             src="/images/hero_home_v8.jpg" 
-            alt="TEGAKARA Project Control & Construction Overview" 
+            alt="ARKAVENA Project Control & Construction Overview" 
             fill 
             className="object-cover object-center"
             priority
@@ -103,7 +103,7 @@ export default function HomePage() {
                 <div className="text-base text-white/60 leading-relaxed font-inter space-y-4 mb-8">
                   <p>Membangun, merenovasi, atau merawat properti bukan hanya tentang pekerjaan konstruksi.</p>
                   <p>Yang menentukan keberhasilan sebuah proyek adalah bagaimana setiap keputusan, perubahan, biaya, kualitas, dan progres dikelola sejak hari pertama.</p>
-                  <p>Di TEGAKARA, kami membantu pemilik properti menjaga seluruh proses tetap transparan, terdokumentasi, dan berada dalam kendali hingga proyek selesai.</p>
+                  <p>Di ARKAVENA, kami membantu pemilik properti menjaga seluruh proses tetap transparan, terdokumentasi, dan berada dalam kendali hingga proyek selesai.</p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link href="/assessment">

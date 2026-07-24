@@ -41,7 +41,7 @@ export function Header() {
         <Container className="flex items-center justify-between">
           <Link href="/" className="flex focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C] rounded-sm shrink-0 items-center">
             <span className={cn("font-[family-name:var(--font-space-grotesk)] text-2xl font-bold tracking-tight leading-none text-white")}>
-              TEGAKARA
+              ARKAVENA
             </span>
           </Link>
 

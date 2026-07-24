@@ -6,8 +6,8 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Cara Kerja — TEGAKARA',
-  description: 'Proses kerja terstruktur TEGAKARA dari perencanaan hingga serah terima dan pemeliharaan.',
+  title: 'Cara Kerja — ARKAVENA',
+  description: 'Proses kerja terstruktur ARKAVENA dari perencanaan hingga serah terima dan pemeliharaan.',
 };
 
 const phases = [
@@ -107,7 +107,7 @@ export default function CaraKerjaPage() {
                 Siap Memulai Proyek Anda?
               </h2>
               <p className="text-[#C9C3B8] text-lg mb-10 font-[family-name:var(--font-inter)]">
-                Konsultasikan rencana Anda dan mari kita mulai langkah pertama dari 14 tahap kesuksesan proyek bersama TEGAKARA.
+                Konsultasikan rencana Anda dan mari kita mulai langkah pertama dari 14 tahap kesuksesan proyek bersama ARKAVENA.
               </p>
               <Button className="bg-[#E2A63C] text-[#14171B] hover:bg-[#c9922f] px-8 py-6 text-lg font-bold h-auto">
                 <Link href="/assessment">Mulai Assessment Proyek</Link>

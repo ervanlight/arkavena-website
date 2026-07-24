@@ -10,7 +10,7 @@ export interface FaqGroup {
 
 export const generalFaqs: FaqItem[] = [
   {
-    question: 'Jenis proyek apa saja yang diterima TEGAKARA?',
+    question: 'Jenis proyek apa saja yang diterima ARKAVENA?',
     answer: 'Kami selektif dalam menerima proyek demi menjaga kualitas layanan. Kami melakukan kualifikasi awal (assessment) untuk memastikan bahwa ekspektasi, nilai, dan budaya kerja antara kami dan klien sejalan. Kami lebih mengutamakan proyek yang menghargai kualitas, transparansi, dan proses terstruktur.'
   },
   {
@@ -18,7 +18,7 @@ export const generalFaqs: FaqItem[] = [
     answer: 'Biaya sangat bervariasi bergantung pada kompleksitas, lokasi, dan spesifikasi material. Kami tidak memberikan "harga tebakan" per meter persegi tanpa data yang jelas, karena praktik tersebut sering menyesatkan. Kami menyusun Rencana Anggaran Biaya (RAB) terperinci setelah proses desain dan spesifikasi disepakati, memastikan tidak ada biaya tersembunyi.'
   },
   {
-    question: 'Bagaimana sistem pembayaran proyek di TEGAKARA?',
+    question: 'Bagaimana sistem pembayaran proyek di ARKAVENA?',
     answer: 'Kami menggunakan sistem termin pembayaran yang terkait langsung dengan pencapaian progres fisik (milestones) yang nyata, dikelola melalui sistem ScopeLock kami. Pembayaran dilakukan secara proporsional sesuai dengan bobot pekerjaan yang telah diselesaikan dan disetujui, melindungi arus kas kedua belah pihak.'
   },
   {
@@ -26,7 +26,7 @@ export const generalFaqs: FaqItem[] = [
     answer: 'Setiap proyek kami dilindungi oleh Masa Pemeliharaan (Retensi), yang durasinya disesuaikan dengan jenis pekerjaan. Selama masa ini, kami bertanggung jawab penuh atas perbaikan cacat konstruksi (defect) yang disebabkan oleh pengerjaan tanpa biaya tambahan.'
   },
   {
-    question: 'Apa perbedaan cara kerja TEGAKARA dengan kontraktor biasa?',
+    question: 'Apa perbedaan cara kerja ARKAVENA dengan kontraktor biasa?',
     answer: 'Perbedaan utama kami terletak pada transparansi total melalui ekosistem digital (ProjectView), kejujuran dalam berbisnis, dan kedisiplinan proses. Kami merancang alur kerja yang meminimalkan kejutan negatif di lapangan, dan jika ada masalah, kami menanganinya secara proaktif, bukan menutupinya.'
   },
   {
@@ -46,7 +46,7 @@ export const generalFaqs: FaqItem[] = [
     answer: 'Proses pra-konstruksi (desain, RAB, perizinan) adalah kunci keberhasilan dan tidak bisa diburu-buru. Waktunya berkisar antara 4 hingga 12 minggu, tergantung pada kompleksitas proyek, kecepatan pengambilan keputusan, dan waktu tunggu perizinan setempat.'
   },
   {
-    question: 'Apakah TEGAKARA membantu pengurusan PBG dan perizinan terkait?',
+    question: 'Apakah ARKAVENA membantu pengurusan PBG dan perizinan terkait?',
     answer: 'Kami dapat membantu proses pengurusan perizinan (PBG) sebagai bagian dari layanan kami, bekerja sama dengan konsultan legal terpercaya kami. Biaya pengurusan akan dicantumkan secara transparan dalam penawaran awal.'
   },
   {
@@ -61,7 +61,7 @@ export const generalFaqs: FaqItem[] = [
 
 export const residentialFaqs: FaqItem[] = [
   {
-    question: 'Apakah TEGAKARA mengerjakan proyek interior/furniture kustom?',
+    question: 'Apakah ARKAVENA mengerjakan proyek interior/furniture kustom?',
     answer: 'Ya, pekerjaan interior dan built-in furniture sering kali menjadi satu kesatuan dalam layanan bangun baru atau renovasi besar kami. Namun, untuk proyek yang semata-mata hanya interior skala kecil, kami akan mengevaluasinya pada tahap kualifikasi.'
   },
   {
@@ -73,7 +73,7 @@ export const residentialFaqs: FaqItem[] = [
     answer: 'Untuk renovasi sebagian, sangat mungkin. Kami akan memasang partisi pelindung debu dan memisahkan jalur akses pekerja untuk menjaga privasi dan kebersihan area hunian Anda. Namun, untuk renovasi struktural besar, demi keselamatan dan kenyamanan Anda, kami menyarankan Anda pindah sementara.'
   },
   {
-    question: 'Apakah layanan HomeCare bisa digunakan jika rumah tidak dibangun oleh TEGAKARA?',
+    question: 'Apakah layanan HomeCare bisa digunakan jika rumah tidak dibangun oleh ARKAVENA?',
     answer: 'Bisa. Kami akan melakukan inspeksi awal (audit kondisi rumah) sebelum Anda tergabung dalam program HomeCare. Audit ini bertujuan untuk memetakan kondisi eksisting sehingga perawatan dapat dilakukan secara akurat.'
   },
   {
@@ -84,7 +84,7 @@ export const residentialFaqs: FaqItem[] = [
 
 export const facilityCareFaqs: FaqItem[] = [
   {
-    question: 'Apakah TEGAKARA menerima panggilan perbaikan darurat untuk fasilitas komersial?',
+    question: 'Apakah ARKAVENA menerima panggilan perbaikan darurat untuk fasilitas komersial?',
     answer: 'Untuk klien yang terdaftar dalam kontrak Maintenance berkala, kami menyediakan layanan respon darurat (Emergency Call-out) sesuai Service Level Agreement (SLA). Untuk klien baru, kami akan jadwalkan survei secepat mungkin tergantung ketersediaan tim.'
   },
   {
@@ -92,7 +92,7 @@ export const facilityCareFaqs: FaqItem[] = [
     answer: 'Tentu. Penjadwalan fleksibel (out-of-hours working) adalah standar layanan Facility Care kami. Kami mengutamakan kelancaran operasional bisnis/sekolah Anda sehingga pekerjaan yang berisiko bising, berdebu, atau mengganggu akses akan dilakukan di luar jam sibuk.'
   },
   {
-    question: 'Apakah pekerja TEGAKARA mematuhi standar K3 (Keselamatan Kerja) industri?',
+    question: 'Apakah pekerja ARKAVENA mematuhi standar K3 (Keselamatan Kerja) industri?',
     answer: 'Sangat patuh. Keselamatan adalah nilai non-negosiasi kami. Tim kami dibekali APD lengkap, pelatihan K3, dan kami terbiasa mematuhi prosedur Permit to Work (PTW) ketat yang berlaku di area pabrik atau fasilitas komersial berisiko tinggi.'
   },
   {
@@ -100,7 +100,7 @@ export const facilityCareFaqs: FaqItem[] = [
     answer: 'Facility Passport adalah rekam medis digital untuk gedung Anda. Kami mendokumentasikan setiap jadwal perawatan, riwayat perbaikan, buku manual peralatan, hingga rencana anggaran pemeliharaan tahunan. Semuanya dapat diakses secara real-time.'
   },
   {
-    question: 'Apakah TEGAKARA menangani maintenance sistem MEP (Mekanikal, Elektrikal, Plumbing)?',
+    question: 'Apakah ARKAVENA menangani maintenance sistem MEP (Mekanikal, Elektrikal, Plumbing)?',
     answer: 'Ya, layanan Facility Care kami mencakup perawatan preventif dan perbaikan sistem dasar gedung (MEP), berkoordinasi dengan teknisi spesialis kami untuk memastikan sistem utilitas vital Anda berfungsi optimal tanpa interupsi.'
   }
 ];

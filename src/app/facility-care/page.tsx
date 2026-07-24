@@ -14,7 +14,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Facility Care — TEGAKARA',
+  title: 'Facility Care — ARKAVENA',
   description: 'Bangunan yang terawat bukan sekadar terlihat lebih baik. Tetapi membantu bisnis tetap berjalan.',
 };
 
@@ -55,7 +55,7 @@ export default function FacilityCarePage() {
               <div className="text-lg text-[#3F4954] leading-relaxed font-inter max-w-3xl mb-8 space-y-6">
                 <p>Bangunan yang digunakan setiap hari akan terus mengalami perubahan. Peralatan bekerja. Material menua. Kerusakan kecil mulai muncul.</p>
                 <p>Jika tidak dikelola sejak awal, gangguan kecil dapat berkembang menjadi gangguan operasional yang jauh lebih mahal.</p>
-                <p>TEGAKARA membantu perusahaan menjaga fasilitas tetap aman, nyaman, dan siap digunakan melalui sistem Facility Care yang terencana dan terdokumentasi.</p>
+                <p>ARKAVENA membantu perusahaan menjaga fasilitas tetap aman, nyaman, dan siap digunakan melalui sistem Facility Care yang terencana dan terdokumentasi.</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="w-full sm:w-auto">

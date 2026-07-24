@@ -43,7 +43,7 @@ update_file('/Users/macbook/kontraktor-website/src/app/facility-care/page.tsx', 
 tentang_replacements = [
     ("Dibangun untuk membuat pelaksanaan konstruksi lebih dapat dikendalikan.", "Sistem kerja untuk mengelola pelaksanaan konstruksi yang lebih terarah."),
     ("transparansi proses, definisi spesifikasi yang kaku sebelum eksekusi", "keterbukaan proses, kesepakatan spesifikasi yang jelas sebelum eksekusi"),
-    ("TEGAKARA tidak menjual janji berlebihan.", "TEGAKARA fokus pada penyusunan rencana kerja yang realistis."),
+    ("ARKAVENA tidak menjual janji berlebihan.", "ARKAVENA fokus pada penyusunan rencana kerja yang realistis."),
     ("mengandalkan ingatan atau komunikasi via chat semata adalah resep untuk kegagalan proyek dan perselisihan.", "mengandalkan komunikasi lisan tanpa dokumentasi sering kali menjadi sumber kesalahpahaman."),
     ("Tidak ada penurunan spesifikasi material secara diam-diam. Semua pergantian harus tertulis.", "Spesifikasi material disesuaikan dengan kesepakatan. Setiap perubahan akan diinformasikan dan membutuhkan persetujuan."),
     ("Transparansi Bill of Quantities (BOQ). Klien berhak tahu apa yang mereka bayar.", "Rencana Anggaran Biaya (RAB) dirinci dengan jelas untuk memudahkan klien memahami cakupan pekerjaannya.")

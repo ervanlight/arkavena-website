@@ -17,7 +17,7 @@ export default function DemoDashboard() {
             Data simulasi untuk demonstrasi sistem
           </div>
           <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold mb-4">
-            TEGAKARA ProjectView
+            ARKAVENA ProjectView
           </h1>
           <p className="text-[#E8DED0] max-w-2xl text-lg mb-8">
             Informasi proyek yang lebih jelas. Lihat progres, catatan mutu, dan status termin dari mana saja.
@@ -156,7 +156,7 @@ export default function DemoDashboard() {
                 <h3 className="text-xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#0E1B26] mb-2">Modul {activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}</h3>
                 <p className="max-w-md mx-auto">
                   Di versi penuh, area ini menampilkan detail interaktif untuk {activeTab}. 
-                  Ini adalah data demonstrasi untuk memperlihatkan kapabilitas sistem TEGAKARA.
+                  Ini adalah data demonstrasi untuk memperlihatkan kapabilitas sistem ARKAVENA.
                 </p>
               </div>
             )}

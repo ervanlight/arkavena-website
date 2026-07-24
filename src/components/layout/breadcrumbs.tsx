@@ -20,7 +20,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
       '@type': 'ListItem',
       position: index + 1,
       name: item.label,
-      item: `https://tegakara.com${item.href}`, // replace with actual domain config later
+      item: `https://arkavena.com${item.href}`, // replace with actual domain config later
     })),
   };
 

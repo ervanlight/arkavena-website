@@ -5,7 +5,7 @@ import { FadeIn } from "@/components/shared/fade-in";
 import { CheckCircle2, ShieldCheck, Ruler, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Tambah Lantai Rumah di Surabaya | TEGAKARA",
+  title: "Tambah Lantai Rumah di Surabaya | ARKAVENA",
   description: "Layanan penambahan lantai (ngedak) atau ekstensi vertikal rumah dengan perhitungan struktur yang aman dan teruji.",
 };
 
@@ -99,7 +99,7 @@ export default function ServicePage() {
 
           <FadeIn direction="right" delay={0.2}>
             <div className="bg-slate-50 p-10 rounded-2xl border border-slate-200 h-full">
-              <h2 className="text-2xl font-bold font-[family-name:var(--font-space-grotesk)] mb-8 text-[#0E1B26]">Mengapa Pendekatan TEGAKARA Berbeda?</h2>
+              <h2 className="text-2xl font-bold font-[family-name:var(--font-space-grotesk)] mb-8 text-[#0E1B26]">Mengapa Pendekatan ARKAVENA Berbeda?</h2>
               <div className="space-y-8">
                 
                 <div className="flex gap-4">
@@ -152,7 +152,7 @@ export default function ServicePage() {
             Siap Memulai Diskusi Proyek Anda?
           </h2>
           <p className="text-white/60 max-w-xl mx-auto text-base">
-            Konsultasikan kebutuhan Anda bersama tim TEGAKARA. Kami melayani area Surabaya, Sidoarjo, dan Gresik.
+            Konsultasikan kebutuhan Anda bersama tim ARKAVENA. Kami melayani area Surabaya, Sidoarjo, dan Gresik.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">

@@ -6,7 +6,7 @@ import { Container } from '@/components/ui/container';
 import { FadeIn } from '@/components/shared/fade-in';
 
 export const metadata: Metadata = {
-  title: 'Tentang Kami — TEGAKARA',
+  title: 'Tentang Kami — ARKAVENA',
   description: 'Kami percaya bahwa proyek yang baik lahir dari sistem yang baik. Kami membantu pemilik properti mengambil keputusan dengan lebih percaya diri.',
 };
 
@@ -17,7 +17,7 @@ export default function TentangPage() {
       <section className="relative overflow-hidden bg-[#14171B] text-white pt-28 pb-20 lg:pt-36 lg:pb-28 border-b border-white/10">
         <Image 
           src="/images/hero_about_v5.jpg" 
-          alt="Tim TEGAKARA Diskusi Gambar Kerja di Site Office" 
+          alt="Tim ARKAVENA Diskusi Gambar Kerja di Site Office" 
           fill 
           className="object-cover opacity-25 pointer-events-none"
           priority
@@ -27,14 +27,14 @@ export default function TentangPage() {
           <FadeIn>
             <div className="max-w-4xl">
               <span className="inline-block text-[11px] font-bold tracking-widest uppercase text-[#3F4954] mb-8">
-                About Tegakara
+                About Arkavena
               </span>
               <h1 className="text-xl md:text-2xl lg:text-4xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-[1.05] tracking-tight mb-8">
                 Kami Percaya Bahwa
                 <br /><span className="text-[#3F4954]">Proyek Yang Baik Lahir Dari Sistem Yang Baik.</span>
               </h1>
               <div className="text-lg text-[#DCD6CD] leading-relaxed font-inter max-w-3xl space-y-6">
-                <p>TEGAKARA dibangun dengan keyakinan sederhana.</p>
+                <p>ARKAVENA dibangun dengan keyakinan sederhana.</p>
                 <p>Bangunan yang baik tidak hanya ditentukan oleh material maupun tenaga kerja. Tetapi oleh bagaimana seluruh proses dikelola.</p>
                 <p>Karena itu kami mengembangkan cara kerja yang mengutamakan transparansi, dokumentasi, koordinasi, dan tanggung jawab pada setiap tahap proyek.</p>
               </div>

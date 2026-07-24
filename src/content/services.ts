@@ -23,8 +23,8 @@ export const residentialServices: ServiceData[] = [
     painPoints: ['Biaya bertambah tanpa penjelasan yang jelas', 'Progres terlambat dari jadwal', 'Kualitas material tidak sesuai kesepakatan'],
     ctaText: 'Mulai Rencana Pembangunan',
     ctaUrl: '/assessment?service=bangun-rumah',
-    seoTitle: 'Jasa Bangun Rumah Profesional | TEGAKARA',
-    seoDescription: 'Jasa bangun rumah dengan manajemen proyek transparan dan standar kualitas terbaik oleh TEGAKARA.'
+    seoTitle: 'Jasa Bangun Rumah Profesional | ARKAVENA',
+    seoDescription: 'Jasa bangun rumah dengan manajemen proyek transparan dan standar kualitas terbaik oleh ARKAVENA.'
   },
   {
     slug: 'renovasi-besar',
@@ -36,8 +36,8 @@ export const residentialServices: ServiceData[] = [
     painPoints: ['Rumah kotor dan berantakan berlarut-larut', 'Biaya tersembunyi yang muncul di tengah jalan', 'Hasil akhir tidak rapi'],
     ctaText: 'Konsultasikan Renovasi',
     ctaUrl: '/assessment?service=renovasi-besar',
-    seoTitle: 'Jasa Renovasi Rumah Terpercaya | TEGAKARA',
-    seoDescription: 'Renovasi rumah profesional dengan hasil rapi dan minim gangguan. Hubungi TEGAKARA sekarang.'
+    seoTitle: 'Jasa Renovasi Rumah Terpercaya | ARKAVENA',
+    seoDescription: 'Renovasi rumah profesional dengan hasil rapi dan minim gangguan. Hubungi ARKAVENA sekarang.'
   },
   {
     slug: 'tambah-lantai',
@@ -49,8 +49,8 @@ export const residentialServices: ServiceData[] = [
     painPoints: ['Khawatir rumah ambruk karena struktur tidak kuat', 'Terganggunya rutinitas selama proses', 'Bocor pada area sambungan'],
     ctaText: 'Cek Kelayakan Struktur',
     ctaUrl: '/assessment?service=tambah-lantai',
-    seoTitle: 'Jasa Tambah Lantai Rumah | TEGAKARA',
-    seoDescription: 'Tambah lantai aman dengan perhitungan struktur akurat dari TEGAKARA.'
+    seoTitle: 'Jasa Tambah Lantai Rumah | ARKAVENA',
+    seoDescription: 'Tambah lantai aman dengan perhitungan struktur akurat dari ARKAVENA.'
   },
   {
     slug: 'perbaikan-remedial',
@@ -62,7 +62,7 @@ export const residentialServices: ServiceData[] = [
     painPoints: ['Bocor yang tak kunjung sembuh', 'Retak dinding yang semakin melebar', 'Dibutuhkan tenaga spesialis untuk identifikasi akar masalah'],
     ctaText: 'Jadwalkan Inspeksi',
     ctaUrl: '/assessment?service=perbaikan-remedial',
-    seoTitle: 'Jasa Perbaikan & Remedial Bangunan | TEGAKARA',
+    seoTitle: 'Jasa Perbaikan & Remedial Bangunan | ARKAVENA',
     seoDescription: 'Solusi tuntas untuk masalah bangunan membandel seperti bocor dan retak struktur.'
   },
   {
@@ -75,8 +75,8 @@ export const residentialServices: ServiceData[] = [
     painPoints: ['Sulit mencari tukang handal untuk perbaikan kecil', 'Kerusakan kecil yang menjadi besar karena dibiarkan', 'Tidak ada riwayat perbaikan'],
     ctaText: 'Daftar Program HomeCare',
     ctaUrl: '/assessment?service=homecare',
-    seoTitle: 'Layanan Perawatan Rumah (HomeCare) | TEGAKARA',
-    seoDescription: 'Jaga kondisi rumah tetap prima dengan layanan HomeCare berkala dari TEGAKARA.'
+    seoTitle: 'Layanan Perawatan Rumah (HomeCare) | ARKAVENA',
+    seoDescription: 'Jaga kondisi rumah tetap prima dengan layanan HomeCare berkala dari ARKAVENA.'
   }
 ];
 
@@ -91,8 +91,8 @@ export const facilityCareServices: ServiceData[] = [
     painPoints: ['Pekerjaan yang mengganggu proses belajar', 'Material berbahaya bagi anak-anak', 'Fasilitas rusak yang membahayakan siswa'],
     ctaText: 'Konsultasi Perawatan Sekolah',
     ctaUrl: '/assessment?service=maintenance-sekolah',
-    seoTitle: 'Layanan Maintenance Sekolah & Kampus | TEGAKARA',
-    seoDescription: 'Pemeliharaan fasilitas pendidikan yang aman dan minim gangguan. Hubungi TEGAKARA Facility Care.'
+    seoTitle: 'Layanan Maintenance Sekolah & Kampus | ARKAVENA',
+    seoDescription: 'Pemeliharaan fasilitas pendidikan yang aman dan minim gangguan. Hubungi ARKAVENA Facility Care.'
   },
   {
     slug: 'maintenance-gedung',
@@ -104,7 +104,7 @@ export const facilityCareServices: ServiceData[] = [
     painPoints: ['Kerusakan yang menghentikan operasional bisnis', 'Biaya perawatan yang tidak terprediksi', 'Penurunan nilai aset bangunan'],
     ctaText: 'Optimalkan Perawatan Gedung',
     ctaUrl: '/assessment?service=maintenance-gedung',
-    seoTitle: 'Maintenance Gedung & Komersial | TEGAKARA',
+    seoTitle: 'Maintenance Gedung & Komersial | ARKAVENA',
     seoDescription: 'Perawatan gedung perkantoran dan komersial terpercaya untuk operasional bisnis yang lancar.'
   },
   {
@@ -117,7 +117,7 @@ export const facilityCareServices: ServiceData[] = [
     painPoints: ['Rembes yang merusak mesin/barang di dalam', 'Perbaikan kebocoran yang sering berulang', 'Sulit menemukan titik pasti kebocoran'],
     ctaText: 'Atasi Masalah Kebocoran',
     ctaUrl: '/assessment?service=waterproofing-atap',
-    seoTitle: 'Jasa Waterproofing & Perbaikan Atap Industri | TEGAKARA',
+    seoTitle: 'Jasa Waterproofing & Perbaikan Atap Industri | ARKAVENA',
     seoDescription: 'Solusi tuntas masalah kebocoran atap dan waterproofing untuk fasilitas industri & komersial.'
   },
   {
@@ -130,7 +130,7 @@ export const facilityCareServices: ServiceData[] = [
     painPoints: ['Kontraktor tidak paham prosedur safety pabrik', 'Pekerjaan molor yang menghambat produksi', 'Hasil kerja tidak tahan kondisi industri'],
     ctaText: 'Rencanakan Minor Works',
     ctaUrl: '/assessment?service=minor-works-industri',
-    seoTitle: 'Kontraktor Minor Works Industri | TEGAKARA',
+    seoTitle: 'Kontraktor Minor Works Industri | ARKAVENA',
     seoDescription: 'Pekerjaan sipil dan modifikasi fasilitas pabrik/industri dengan standar K3 yang ketat.'
   }
 ];

@@ -20,7 +20,7 @@ export default function AdminSidebar() {
   return (
     <div className="w-64 bg-midnight text-white flex flex-col">
       <div className="p-6">
-        <h2 className="text-2xl font-bold font-[family-name:var(--font-space-grotesk)] text-bronze">TEGAKARA</h2>
+        <h2 className="text-2xl font-bold font-[family-name:var(--font-space-grotesk)] text-bronze">ARKAVENA</h2>
         <p className="text-xs text-gray-400 mt-1">Admin Portal</p>
       </div>
       <nav className="flex-1 px-4 space-y-2">

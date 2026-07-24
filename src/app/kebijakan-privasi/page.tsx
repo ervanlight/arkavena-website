@@ -3,8 +3,8 @@ import { Container } from '@/components/ui/container';
 import { FadeIn } from '@/components/shared/fade-in';
 
 export const metadata: Metadata = {
-  title: 'Kebijakan Privasi — TEGAKARA',
-  description: 'Kebijakan privasi TEGAKARA dalam mengelola dan melindungi data Anda.',
+  title: 'Kebijakan Privasi — ARKAVENA',
+  description: 'Kebijakan privasi ARKAVENA dalam mengelola dan melindungi data Anda.',
 };
 
 export default function KebijakanPrivasiPage() {
@@ -30,7 +30,7 @@ export default function KebijakanPrivasiPage() {
         <Container>
           <FadeIn delay={100}>
             <div className="max-w-3xl mx-auto prose prose-zinc prose-lg">
-              <p>Di TEGAKARA, kami menghargai privasi Anda dan berkomitmen untuk melindungi informasi pribadi yang Anda bagikan kepada kami. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan menjaga data Anda saat mengunjungi situs web kami atau menggunakan layanan kami.</p>
+              <p>Di ARKAVENA, kami menghargai privasi Anda dan berkomitmen untuk melindungi informasi pribadi yang Anda bagikan kepada kami. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan menjaga data Anda saat mengunjungi situs web kami atau menggunakan layanan kami.</p>
               
               <h3>1. Informasi yang Kami Kumpulkan</h3>
               <p>Kami dapat mengumpulkan informasi pribadi seperti nama, alamat email, nomor telepon, dan detail proyek saat Anda mengisi formulir kontak, form penilaian (assessment), atau mendaftar untuk menerima pembaruan dari kami.</p>
@@ -53,7 +53,7 @@ export default function KebijakanPrivasiPage() {
               <p>Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Setiap perubahan akan dipublikasikan di halaman ini dengan memperbarui tanggal "Terakhir diperbarui".</p>
               
               <h3>6. Hubungi Kami</h3>
-              <p>Jika Anda memiliki pertanyaan mengenai Kebijakan Privasi ini, silakan hubungi kami melalui email di <strong>hello@tegakara.com</strong>.</p>
+              <p>Jika Anda memiliki pertanyaan mengenai Kebijakan Privasi ini, silakan hubungi kami melalui email di <strong>hello@arkavena.com</strong>.</p>
             </div>
           </FadeIn>
         </Container>

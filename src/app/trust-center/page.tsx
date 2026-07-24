@@ -7,8 +7,8 @@ import { FadeIn } from '@/components/shared/fade-in';
 import { CheckCircle2, ShieldCheck, FileText, Activity } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Trust Center — TEGAKARA',
-  description: 'Dokumentasi legal, kebijakan keselamatan (HSE), mutu (Quality), privasi, dan standar asuransi yang mengatur operasional TEGAKARA.',
+  title: 'Trust Center — ARKAVENA',
+  description: 'Dokumentasi legal, kebijakan keselamatan (HSE), mutu (Quality), privasi, dan standar asuransi yang mengatur operasional ARKAVENA.',
 };
 
 export default function TrustCenterPage() {
@@ -18,7 +18,7 @@ export default function TrustCenterPage() {
       <section className="relative overflow-hidden bg-[#14171B] text-white pt-32 pb-28 border-b border-white/10">
         <Image 
           src="/images/hero_trust_v5.jpg" 
-          alt="Inspeksi Standar & Kualitas Struktur TEGAKARA" 
+          alt="Inspeksi Standar & Kualitas Struktur ARKAVENA" 
           fill 
           className="object-cover opacity-25 pointer-events-none"
           priority
@@ -76,7 +76,7 @@ export default function TrustCenterPage() {
                     <h2 className="text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] tracking-tight">Legalitas & Sertifikasi</h2>
                   </div>
                   <div className="text-lg text-[#3F4954] leading-relaxed space-y-6 mb-8">
-                    <p>Sebagai perusahaan kontraktor yang profesional, TEGAKARA beroperasi di bawah payung hukum yang sah dan memiliki sertifikasi badan usaha yang diakui oleh negara untuk memastikan setiap proyek dapat dipertanggungjawabkan secara hukum dan regulasi.</p>
+                    <p>Sebagai perusahaan kontraktor yang profesional, ARKAVENA beroperasi di bawah payung hukum yang sah dan memiliki sertifikasi badan usaha yang diakui oleh negara untuk memastikan setiap proyek dapat dipertanggungjawabkan secara hukum dan regulasi.</p>
                   </div>
                   <div className="grid sm:grid-cols-2 gap-6">
                     <div className="p-6 bg-[#ECE8E1] border border-[#C9C3B8] rounded-xl">

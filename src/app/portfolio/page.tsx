@@ -8,7 +8,7 @@ import { projectsData } from '@/content/projects';
 import { ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Portofolio — TEGAKARA',
+  title: 'Portofolio — ARKAVENA',
   description: 'Studi kasus proyek yang pernah kami kerjakan. Bukti terbaik bukan klaim, melainkan proyek yang dapat dipertanggungjawabkan.',
 };
 

@@ -43,7 +43,7 @@ process_replacements = [
     
     ("Konsultasi Perdana (Discovery Call)", "Konsultasi Awal"),
     ("Diskusi mendalam untuk memahami visi, tantangan, dan target waktu proyek Anda.", "Kami membahas kebutuhan, prioritas, kendala, dan target proyek bersama pengambil keputusan."),
-    ("'Pertemuan daring atau tatap muka.',\\n      'Penyelarasan visi proyek.',\\n      'Penjelasan prosedur dan sistem kerja TEGAKARA.'", "'Pertemuan daring atau tatap muka.',\\n      'Konfirmasi kebutuhan dan langkah berikutnya.'"),
+    ("'Pertemuan daring atau tatap muka.',\\n      'Penyelarasan visi proyek.',\\n      'Penjelasan prosedur dan sistem kerja ARKAVENA.'", "'Pertemuan daring atau tatap muka.',\\n      'Konfirmasi kebutuhan dan langkah berikutnya.'"),
     
     ("Tim ahli kami mengunjungi lokasi untuk mengumpulkan data riil dan mengidentifikasi potensi kendala teknis.", "Tim teknis mengunjungi lokasi untuk mengukur kondisi aktual dan mengidentifikasi kendala yang dapat memengaruhi pekerjaan."),
     ("'Pengukuran dan dokumentasi kondisi eksisting.',\\n      'Identifikasi akses dan logistik proyek.',\\n      'Pemetaan potensi risiko di lapangan.'", "'Pengukuran dan dokumentasi kondisi lokasi.',\\n      'Pemeriksaan akses, lingkungan kerja, dan kebutuhan logistik.'"),

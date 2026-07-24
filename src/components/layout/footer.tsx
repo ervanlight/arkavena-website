@@ -16,11 +16,11 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div>
-              <h3 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold tracking-tight">TEGAKARA</h3>
+              <h3 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold tracking-tight">ARKAVENA</h3>
               <p className="text-[10px] text-[#3F4954] uppercase tracking-widest mt-1">Project Control Partner</p>
             </div>
             <p className="text-[#3F4954] text-sm leading-relaxed max-w-xs">
-              Kami percaya bahwa proyek terbaik lahir dari proses yang dapat dipertanggungjawabkan. TEGAKARA membantu pemilik properti menjaga setiap keputusan, biaya, kualitas, dan progres tetap berada dalam kendali.
+              Kami percaya bahwa proyek terbaik lahir dari proses yang dapat dipertanggungjawabkan. ARKAVENA membantu pemilik properti menjaga setiap keputusan, biaya, kualitas, dan progres tetap berada dalam kendali.
             </p>
           </div>
 
@@ -92,7 +92,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-[#3F4954]">
-              <p>&copy; {currentYear} TEGAKARA. All rights reserved.</p>
+              <p>&copy; {currentYear} ARKAVENA. All rights reserved.</p>
               <div className="flex gap-4">
                 <Link href="/kebijakan-privasi" className="hover:text-[#3F4954] transition-colors">Kebijakan Privasi</Link>
                 <span>•</span>

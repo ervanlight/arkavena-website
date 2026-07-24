@@ -27,7 +27,7 @@ export async function submitAssessment(formData: FormData) {
     
     // Generate simulated reference
     const timestamp = new Date().getTime().toString().slice(-4);
-    const reference = `TGK-2026-${timestamp}`;
+    const reference = `ARK-2026-${timestamp}`;
     
     return { success: true, reference };
   } catch (error) {

@@ -2,8 +2,8 @@ export function getOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "GeneralContractor",
-    "name": "TEGAKARA Construction & Facility Care",
-    "url": process.env.NEXT_PUBLIC_SITE_URL || "https://tegakara.id",
+    "name": "ARKAVENA Construction & Facility Care",
+    "url": process.env.NEXT_PUBLIC_SITE_URL || "https://arkavena.id",
     "logo": `${process.env.NEXT_PUBLIC_SITE_URL}/logo.png`,
     "description": "Jasa Kontraktor Sipil, Arsitektur, dan Perawatan Fasilitas Berpengalaman.",
     "address": {
@@ -25,7 +25,7 @@ export function getServiceSchema(serviceName: string, description: string) {
     "@type": "Service",
     "provider": {
       "@type": "GeneralContractor",
-      "name": "TEGAKARA Construction & Facility Care"
+      "name": "ARKAVENA Construction & Facility Care"
     },
     "name": serviceName,
     "description": description

@@ -14,7 +14,7 @@ def update_file(filepath):
     
     # Step 2
     content = re.sub(
-        r"details: \[\s*'Pertemuan daring atau tatap muka\.',\s*'Penyelarasan visi proyek\.',\s*'Penjelasan prosedur dan sistem kerja TEGAKARA\.'\s*\]",
+        r"details: \[\s*'Pertemuan daring atau tatap muka\.',\s*'Penyelarasan visi proyek\.',\s*'Penjelasan prosedur dan sistem kerja ARKAVENA\.'\s*\]",
         "details: [\n      'Pertemuan daring atau tatap muka.',\n      'Konfirmasi kebutuhan dan langkah berikutnya.'\n    ]",
         content
     )

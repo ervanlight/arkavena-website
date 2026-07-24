@@ -150,7 +150,7 @@ export function ProjectViewPreview() {
             <FileText size={32} className="text-zinc-700 mb-4" />
             <h4 className="text-[#3F4954] font-medium text-sm mb-2">Explore {tabs.find(t => t.id === activeTab)?.label}</h4>
             <p className="text-[#3F4954] text-xs max-w-sm mb-6 leading-relaxed">
-              This demo environment illustrates how TEGAKARA structures project documentation.
+              This demo environment illustrates how ARKAVENA structures project documentation.
             </p>
             <Link href="/projectview" className="bg-[#C9C3B8]/20 hover:bg-white text-[#14171B] px-4 py-2 rounded-md text-xs font-medium transition-colors">
               Open Full Demo

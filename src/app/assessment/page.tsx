@@ -9,8 +9,8 @@ import AssessmentForm from '@/components/assessment/AssessmentForm';
 import { AssessmentLoadingFallback } from '@/components/assessment/AssessmentLoadingFallback';
 
 export const metadata: Metadata = {
-  title: 'Project Assessment — TEGAKARA',
-  description: 'Sebelum memulai proyek, pastikan proyek Anda sudah siap. Evaluasi kesiapan proyek Anda bersama TEGAKARA.',
+  title: 'Project Assessment — ARKAVENA',
+  description: 'Sebelum memulai proyek, pastikan proyek Anda sudah siap. Evaluasi kesiapan proyek Anda bersama ARKAVENA.',
 };
 
 export default function AssessmentPage() {
@@ -42,7 +42,7 @@ export default function AssessmentPage() {
                       "Area yang perlu dipersiapkan",
                       "Potensi risiko",
                       "Rekomendasi langkah berikutnya",
-                      "Kesempatan berdiskusi bersama tim TEGAKARA"
+                      "Kesempatan berdiskusi bersama tim ARKAVENA"
                     ].map((item, idx) => (
                       <div key={idx} className="flex items-start gap-3">
                         <CheckCircle2 className="w-6 h-6 text-[#3F4954] shrink-0" />

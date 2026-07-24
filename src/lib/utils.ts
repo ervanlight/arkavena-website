@@ -17,7 +17,7 @@ export function formatCurrency(amount: number): string {
 export function generateLeadReference(): string {
   const year = new Date().getFullYear();
   const randomChars = Math.random().toString(36).substring(2, 6).toUpperCase();
-  return `TGK-${year}-${randomChars}`;
+  return `ARK-${year}-${randomChars}`;
 }
 
 export function normalizePhone(phone: string): string {

@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'TEGAKARA Construction & Facility Care',
-    short_name: 'TEGAKARA',
+    name: 'ARKAVENA Construction & Facility Care',
+    short_name: 'ARKAVENA',
     description: 'Jasa Kontraktor Sipil, Arsitektur, dan Perawatan Fasilitas Berpengalaman.',
     start_url: '/',
     display: 'standalone',

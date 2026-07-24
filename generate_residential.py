@@ -4,7 +4,7 @@ base_path = '/Users/macbook/kontraktor-website/src/app/residential'
 
 pages = {
     'bangun-rumah-surabaya': {
-        'title': 'Bangun Rumah Baru di Surabaya | TEGAKARA',
+        'title': 'Bangun Rumah Baru di Surabaya | ARKAVENA',
         'desc': 'Layanan pembangunan rumah baru di Surabaya dengan definisi ruang lingkup yang jelas, Bill of Quantities (BOQ), dan dokumentasi yang transparan.',
         'hero_title': 'Pembangunan Rumah yang Terdefinisi Sejak Awal',
         'hero_desc': 'Tidak ada asumsi. Tidak ada \'nanti kita lihat\'. Semua ruang lingkup, gambar, dan Bill of Quantities (BOQ) disepakati sebelum pekerjaan dimulai.',
@@ -20,7 +20,7 @@ pages = {
         ]
     },
     'renovasi-rumah-surabaya': {
-        'title': 'Renovasi Rumah Mayor di Surabaya | TEGAKARA',
+        'title': 'Renovasi Rumah Mayor di Surabaya | ARKAVENA',
         'desc': 'Layanan renovasi rumah skala menengah hingga besar di Surabaya dengan penjadwalan ketat dan minim risiko bongkar-pasang.',
         'hero_title': 'Renovasi Besar Tanpa Kejutan Biaya',
         'hero_desc': 'Renovasi sering kali dipenuhi biaya tak terduga. Kami memulai dengan audit kondisi eksisting untuk mengunci ruang lingkup pekerjaan.',
@@ -36,7 +36,7 @@ pages = {
         ]
     },
     'tambah-lantai-rumah': {
-        'title': 'Tambah Lantai Rumah di Surabaya | TEGAKARA',
+        'title': 'Tambah Lantai Rumah di Surabaya | ARKAVENA',
         'desc': 'Layanan penambahan lantai (ngedak) atau ekstensi vertikal rumah dengan perhitungan struktur yang aman dan teruji.',
         'hero_title': 'Ekspansi Vertikal yang Aman dan Terukur',
         'hero_desc': 'Menambah lantai bukan sekadar mengecor. Ini tentang memastikan pondasi lama Anda mampu menopang beban baru tanpa risiko kegagalan struktur.',
@@ -104,7 +104,7 @@ export default function ServicePage() {
 
           <FadeIn direction="right" delay={0.2}>
             <div className="bg-slate-50 p-10 rounded-2xl border border-slate-200 h-full">
-              <h2 className="text-2xl font-bold font-manrope mb-8 text-[#0E1B26]">Mengapa Pendekatan TEGAKARA Berbeda?</h2>
+              <h2 className="text-2xl font-bold font-manrope mb-8 text-[#0E1B26]">Mengapa Pendekatan ARKAVENA Berbeda?</h2>
               <div className="space-y-8">
                 {why_jsx}
               </div>
