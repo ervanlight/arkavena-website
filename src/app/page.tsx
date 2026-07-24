@@ -79,7 +79,7 @@ export default function HomePage() {
       <section className="relative bg-[#14171B] pt-28 pb-16 lg:pt-32 lg:pb-24 overflow-hidden">
         <div className="absolute inset-0 z-0 before:absolute before:inset-0 before:bg-gradient-to-r before:from-[#14171B] before:via-[#14171B]/80 before:to-transparent before:z-10">
           <Image 
-            src="/images/hero_home_1784553150926.jpg" 
+            src="/images/hero_home_v3.jpg" 
             alt="TEGAKARA Project Manager and Client Site Supervision" 
             fill 
             className="object-cover object-center"
@@ -226,7 +226,7 @@ export default function HomePage() {
               <div className="bg-[#ECE8E1] hover:bg-[#C9C3B8]/10 transition-colors p-8 sm:p-12 block group cursor-pointer border border-transparent hover:border-[#C9C3B8]">
                 <Link href="/portfolio/rumah-tinggal-citraland">
                   <div className="aspect-[4/3] bg-[#C9C3B8]/20 mb-8 relative overflow-hidden rounded-lg">
-                    <Image src="/images/hero_residential_1784553175729.jpg" fill alt="Residential" className="object-cover group-hover:scale-105 transition-transform duration-700" sizes="(max-width: 1200px) 100vw, 50vw" />
+                    <Image src="/images/hero_residential_v3.jpg" fill alt="Residential" className="object-cover group-hover:scale-105 transition-transform duration-700" sizes="(max-width: 1200px) 100vw, 50vw" />
                   </div>
                   <h3 className="text-2xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-4">Rumah Tinggal Citraland</h3>
                   <p className="text-[#3F4954] leading-relaxed mb-6">Pembangunan hunian dengan sistem pelaporan terstruktur yang memudahkan klien memantau dari luar kota.</p>
