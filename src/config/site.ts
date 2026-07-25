@@ -43,7 +43,7 @@ export const siteConfig = {
   },
 
   // Domain Configuration
-  domain: process.env.NEXT_PUBLIC_SITE_URL || "https://arkavena-website.vercel.app",
+  domain: process.env.NEXT_PUBLIC_SITE_URL || "https://arkavena.com",
   appUrl: process.env.NEXT_PUBLIC_APP_URL || "",
   clientPortalUrl: process.env.NEXT_PUBLIC_CLIENT_PORTAL_URL || "",
   adminUrl: process.env.NEXT_PUBLIC_ADMIN_URL || "",
