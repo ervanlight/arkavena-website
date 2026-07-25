@@ -77,12 +77,14 @@ export default function HomePage() {
     <>
       {/* 1. HERO */}
       <section className="relative bg-[#14171B] pt-28 pb-16 lg:pt-32 lg:pb-24 overflow-hidden">
-        <div className="absolute inset-0 z-0 before:absolute before:inset-0 before:bg-gradient-to-r before:from-[#14171B] before:via-[#14171B]/80 before:to-transparent before:z-10">
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-gradient-to-r from-[#14171B] via-[#14171B]/90 via-50% to-transparent z-10" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#14171B] via-transparent to-[#14171B]/40 z-10" />
           <Image 
-            src="/images/hero_home_v10.jpg" 
-            alt="ARKAVENA Project Control & Construction Architectural View" 
+            src="/images/hero_home_v13.jpg" 
+            alt="ARKAVENA Middle-Up Construction & Project Control" 
             fill 
-            className="object-cover object-right lg:object-center"
+            className="object-cover object-right md:object-center"
             priority
             unoptimized
           />
