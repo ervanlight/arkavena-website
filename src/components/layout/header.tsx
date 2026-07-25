@@ -40,19 +40,16 @@ export function Header() {
         )}
       >
         <Container className="flex items-center justify-between">
-          <Link href="/" className="flex focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C] rounded-sm shrink-0 items-center gap-2.5">
+          <Link href="/" className="flex focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C] rounded-sm shrink-0 items-center">
             <Image 
-              src="/logo-icon.png" 
-              alt="ARKAVENA Logo" 
-              width={32} 
-              height={32} 
-              className="h-8 w-auto object-contain"
+              src="/logo.png" 
+              alt="ARKAVENA Construction & Facility Care" 
+              width={180} 
+              height={50} 
+              className="h-10 md:h-11 w-auto object-contain"
               priority
               unoptimized
             />
-            <span className={cn("font-[family-name:var(--font-space-grotesk)] text-2xl font-bold tracking-tight leading-none text-white")}>
-              ARKAVENA
-            </span>
           </Link>
 
           <div className="hidden lg:flex items-center ml-auto">

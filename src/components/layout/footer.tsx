@@ -16,19 +16,15 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
+            <div className="space-y-3">
               <Image 
-                src="/logo-icon.png" 
-                alt="ARKAVENA Logo" 
-                width={36} 
-                height={36} 
-                className="h-9 w-auto object-contain"
+                src="/logo.png" 
+                alt="ARKAVENA Construction & Facility Care" 
+                width={200} 
+                height={60} 
+                className="h-12 w-auto object-contain"
                 unoptimized
               />
-              <div>
-                <h3 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold tracking-tight">ARKAVENA</h3>
-                <p className="text-[10px] text-[#3F4954] uppercase tracking-widest mt-0.5">Project Control Partner</p>
-              </div>
             </div>
             <p className="text-[#3F4954] text-sm leading-relaxed max-w-xs">
               Kami percaya bahwa proyek terbaik lahir dari proses yang dapat dipertanggungjawabkan. ARKAVENA membantu pemilik properti menjaga setiap keputusan, biaya, kualitas, dan progres tetap berada dalam kendali.
