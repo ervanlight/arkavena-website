@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 import { Button } from '../ui/button';
 import { Container } from '../ui/container';
 import { MobileNav } from './mobile-nav';
@@ -39,7 +40,16 @@ export function Header() {
         )}
       >
         <Container className="flex items-center justify-between">
-          <Link href="/" className="flex focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C] rounded-sm shrink-0 items-center">
+          <Link href="/" className="flex focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C] rounded-sm shrink-0 items-center gap-2.5">
+            <Image 
+              src="/logo-icon.png" 
+              alt="ARKAVENA Logo" 
+              width={32} 
+              height={32} 
+              className="h-8 w-auto object-contain"
+              priority
+              unoptimized
+            />
             <span className={cn("font-[family-name:var(--font-space-grotesk)] text-2xl font-bold tracking-tight leading-none text-white")}>
               ARKAVENA
             </span>

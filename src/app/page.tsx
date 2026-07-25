@@ -81,8 +81,8 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#14171B] via-[#14171B]/90 via-50% to-transparent z-10" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#14171B] via-transparent to-[#14171B]/40 z-10" />
           <Image 
-            src="/images/hero_home_v13.jpg" 
-            alt="ARKAVENA Middle-Up Construction & Project Control" 
+            src="/images/hero_home_v15.jpg" 
+            alt="ARKAVENA Proyek Pembangunan Rumah Tinggal LT 2 Surabaya" 
             fill 
             className="object-cover object-right md:object-center"
             priority
