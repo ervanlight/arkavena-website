@@ -1,0 +1,105 @@
+---
+schemaVersion: 1
+id: svc-contoh-layanan
+type: service
+status: draft
+
+title: "Contoh Layanan"
+slug: contoh-layanan
+description: "Halaman contoh untuk menguji template layanan, validasi frontmatter, metadata, dan structured data pada scaffold Arkavena."
+excerpt: "Halaman uji coba template layanan. Tidak memuat klaim bisnis, harga, atau kredensial apa pun."
+
+seoTitle: null
+primaryKeyword: null
+secondaryKeywords: []
+searchIntent: transactional
+
+cluster: contoh-cluster
+tags:
+  - contoh-tag
+  - scaffold
+
+publishedAt: null
+updatedAt: null
+lastReviewedAt: null
+author: arkavena-editorial
+reviewedBy: null
+
+hero:
+  eyebrow: "Contoh"
+  heading: "Contoh Heading Layanan"
+  summary: "Ringkasan hero untuk menguji rendering ServiceTemplate beserta blok konten yang diizinkan."
+  image: "/images/placeholders/hero.png"
+  imageAlt: "Gambar placeholder abu-abu untuk pengujian template Arkavena"
+
+relationships:
+  services: []
+  sectors: []
+  locations: []
+  guides: []
+  projects: []
+  pinnedRelated: []
+  excludedRelated: []
+
+conversion:
+  goal: consultation
+  primaryCta:
+    label: "Konsultasikan Proyek"
+    href: "/kontak"
+    whatsappMessage: null
+  secondaryCta: null
+
+faq:
+  - question: "Apakah halaman ini konten produksi?"
+    answer: "Bukan. Ini halaman uji coba scaffold yang berstatus draft dan tidak diindeks."
+
+sources: []
+ownerVerified: false
+
+service:
+  serviceType: "Contoh jenis layanan"
+  audience:
+    - "Contoh audiens A"
+    - "Contoh audiens B"
+  deliverables:
+    - "Contoh keluaran pertama"
+    - "Contoh keluaran kedua"
+  areaServed:
+    - "Contoh Area"
+  pricingMode: consultation
+---
+
+## Cara membaca halaman contoh ini
+
+Halaman ini hanya membuktikan bahwa pipeline MDX, validasi frontmatter, dan
+`ServiceTemplate` bekerja. Seluruh isinya adalah placeholder.
+
+<Callout tone="info" title="Status halaman">
+  Halaman ini berstatus draft, menghasilkan `noindex`, dan tidak masuk sitemap.
+</Callout>
+
+<Checklist
+  title="Yang diuji oleh halaman ini"
+  items={[
+    "Frontmatter tervalidasi oleh Zod",
+    "Route dan canonical dihasilkan application layer",
+    "Blok MDX hanya berasal dari allowlist",
+    "Modul related content tidak error saat hasilnya kosong",
+  ]}
+/>
+
+<ProcessSteps
+  title="Contoh alur"
+  steps={[
+    { title: "Langkah satu", description: "Deskripsi placeholder langkah pertama.", output: "Contoh keluaran" },
+    { title: "Langkah dua", description: "Deskripsi placeholder langkah kedua." },
+  ]}
+/>
+
+Tautan internal untuk menguji validator: [halaman kontak](/kontak).
+
+<CTA
+  heading="Contoh blok CTA di dalam MDX"
+  body="Blok ini membuktikan komponen CTA tersedia melalui allowlist."
+  primary={{ label: "Hubungi Kami", href: "/kontak" }}
+/>
