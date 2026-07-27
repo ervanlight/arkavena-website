@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-07-27T02:06:27.724Z",
+  "nodes": {
+    "svc-contoh-layanan": {
+      "id": "svc-contoh-layanan",
+      "route": "/layanan/contoh-layanan",
+      "type": "service",
+      "outbound": [],
+      "inbound": [],
+      "related": []
+    },
+    "sec-contoh-sektor": {
+      "id": "sec-contoh-sektor",
+      "route": "/sektor/contoh-sektor",
+      "type": "sector",
+      "outbound": [],
+      "inbound": [],
+      "related": []
+    },
+    "loc-contoh-wilayah": {
+      "id": "loc-contoh-wilayah",
+      "route": "/wilayah/contoh-wilayah",
+      "type": "location",
+      "outbound": [],
+      "inbound": [],
+      "related": []
+    },
+    "guide-contoh-panduan": {
+      "id": "guide-contoh-panduan",
+      "route": "/panduan/contoh-panduan",
+      "type": "guide",
+      "outbound": [],
+      "inbound": [],
+      "related": []
+    }
+  }
+}

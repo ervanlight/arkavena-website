@@ -1,0 +1,82 @@
+---
+schemaVersion: 1
+id: sec-contoh-sektor
+type: sector
+status: draft
+
+title: "Contoh Sektor"
+slug: contoh-sektor
+description: "Halaman contoh untuk menguji template sektor, blok risiko, dan pembentukan structured data Service pada scaffold Arkavena."
+excerpt: "Halaman uji coba template sektor. Tidak memuat klaim bisnis atau data pasar nyata."
+
+seoTitle: null
+primaryKeyword: null
+secondaryKeywords: []
+searchIntent: transactional
+
+cluster: contoh-cluster
+tags:
+  - contoh-tag
+  - scaffold
+
+publishedAt: null
+updatedAt: null
+lastReviewedAt: null
+author: arkavena-editorial
+reviewedBy: null
+
+hero:
+  eyebrow: "Contoh"
+  heading: "Contoh Heading Sektor"
+  summary: "Ringkasan hero untuk menguji rendering SectorTemplate dan blok RiskMatrix."
+  image: "/images/placeholders/hero.png"
+  imageAlt: "Gambar placeholder abu-abu untuk pengujian template sektor Arkavena"
+
+relationships:
+  services: []
+  sectors: []
+  locations: []
+  guides: []
+  projects: []
+  pinnedRelated: []
+  excludedRelated: []
+
+conversion:
+  goal: consultation
+  primaryCta:
+    label: "Konsultasikan Proyek"
+    href: "/kontak"
+    whatsappMessage: null
+  secondaryCta: null
+
+faq: []
+sources: []
+ownerVerified: false
+
+sector:
+  buildingType: "Contoh jenis bangunan"
+  primaryUseCases:
+    - "Contoh penggunaan A"
+    - "Contoh penggunaan B"
+  commonRisks:
+    - "Contoh risiko pelaksanaan"
+    - "Contoh risiko koordinasi"
+  relevantServices: []
+---
+
+## Halaman contoh sektor
+
+Isi halaman ini adalah placeholder untuk membuktikan `SectorTemplate` dapat
+dirender beserta blok tabel risiko.
+
+<RiskMatrix
+  caption="Contoh matriks risiko"
+  entries={[
+    { risk: "Contoh risiko A", likelihood: "sedang", impact: "tinggi", mitigation: "Contoh pengendalian A" },
+    { risk: "Contoh risiko B", likelihood: "rendah", impact: "sedang", mitigation: "Contoh pengendalian B" },
+  ]}
+/>
+
+<Callout tone="warning" title="Placeholder">
+  Angka, risiko, dan pengendalian di atas tidak mewakili kondisi proyek nyata.
+</Callout>

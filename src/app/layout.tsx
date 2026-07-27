@@ -6,7 +6,8 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { CookieConsent } from "@/components/shared/cookie-consent";
 import { WhatsAppFloatingButton } from "@/components/shared/whatsapp-floating-button";
-import { getOrganizationSchema } from "@/lib/structured-data";
+import { JsonLd } from "@/components/seo/json-ld";
+import { buildSiteEntityGraph } from "@/lib/seo/schema-builders";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -75,7 +76,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const orgSchema = getOrganizationSchema();
+  const siteEntityGraph = buildSiteEntityGraph();
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
   const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
@@ -120,10 +121,12 @@ gtag('config', '${gaId}', { page_path: window.location.pathname });`,
           </>
         )}
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
-        />
+        {/*
+          Single sitewide source of Organization/WebSite JSON-LD. Content
+          pages (buildJsonLdGraph) reference these by @id rather than
+          re-declaring them, so no route ever renders two Organization nodes.
+        */}
+        <JsonLd data={siteEntityGraph} />
       </head>
       <body className="min-h-screen flex flex-col bg-[#ECE8E1] text-[#14171B] antialiased">
         {gtmId && (
