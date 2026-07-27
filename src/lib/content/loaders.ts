@@ -12,6 +12,7 @@ import {
   COLLECTIONS,
   COLLECTION_NAMES,
   CONTENT_ROOT,
+  HOME_PAGE_SLUG,
   type CollectionName,
   collectionForType,
   routeForContent,
@@ -53,6 +54,9 @@ function buildBreadcrumb(
   slug: string,
   title: string
 ): BreadcrumbEntry[] {
+  // The homepage never carries a breadcrumb (ARCHITECTURE.md Batch 01 §14).
+  if (type === "page" && slug === HOME_PAGE_SLUG) return [];
+
   const definition = collectionForType(type);
   const trail: BreadcrumbEntry[] = [{ name: "Beranda", path: "/" }];
 
@@ -85,6 +89,11 @@ function deriveIndexability(
     data.type === "project" &&
     (!data.project.factsVerified || !data.project.clientPermission)
   ) {
+    indexable = false;
+  }
+  // Editorial override — e.g. /proyek must stay noindex,follow even once
+  // published, until real verified projects exist (Batch 01 §3.3).
+  if (data.type === "page" && data.page.index === false) {
     indexable = false;
   }
 

@@ -4,18 +4,18 @@ import { contentModules } from "@/generated/content-modules.generated";
 import { mdxComponents } from "@/components/content/mdx-components";
 import { PageTemplate } from "@/components/content/templates/PageTemplate";
 import { JsonLd } from "@/components/seo/json-ld";
-import { bySlug, publicListing } from "@/lib/content/queries";
+import { bySlug } from "@/lib/content/queries";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { buildJsonLdGraph } from "@/lib/seo/schema-builders";
 
-const SLUG = "panduan";
+const SLUG = "faq";
 
 export async function generateMetadata(): Promise<Metadata> {
   const item = bySlug("pages", "page", SLUG);
   return item ? buildMetadata(item) : {};
 }
 
-export default async function PanduanHubPage() {
+export default async function FaqPage() {
   const item = bySlug("pages", "page", SLUG);
   const loadModule = contentModules[`pages/${SLUG}`];
 
@@ -26,11 +26,7 @@ export default async function PanduanHubPage() {
   return (
     <>
       <JsonLd data={buildJsonLdGraph(item)} />
-      <PageTemplate
-        item={item}
-        hubChildren={publicListing("guides", "guide")}
-        hubChildrenTitle="Panduan yang tersedia"
-      >
+      <PageTemplate item={item}>
         <MdxContent components={mdxComponents} />
       </PageTemplate>
     </>

@@ -1,0 +1,157 @@
+import { describe, expect, it } from "vitest";
+import { loadAllContent } from "@/lib/content/loaders";
+import { validateUniqueness } from "@/lib/content/validators";
+import { selectSitemapItems } from "@/lib/content/sitemap";
+import { navItems } from "@/components/layout/header";
+
+const REQUIRED_PAGE_SLUGS = [
+  "home",
+  "tentang",
+  "mengapa-arkavena",
+  "cara-kerja",
+  "kontak",
+  "konsultasi-proyek",
+  "layanan",
+  "proyek",
+  "sektor",
+  "wilayah",
+  "faq",
+  "panduan",
+] as const;
+
+const { items, issues } = loadAllContent();
+const pages = items.filter((item) => item.type === "page");
+
+describe("Batch 01 — content/pages schema", () => {
+  it("seluruh 12 file MDX lolos schema tanpa error", () => {
+    expect(issues).toEqual([]);
+  });
+
+  it("keduabelas halaman wajib ada", () => {
+    const slugs = pages.map((item) => item.slug).sort();
+    expect(slugs).toEqual([...REQUIRED_PAGE_SLUGS].sort());
+  });
+
+  it("semua id unik di seluruh manifest", () => {
+    const issues = validateUniqueness(items);
+    expect(issues.filter((issue) => issue.rule === "duplicate-id")).toEqual([]);
+  });
+
+  it("semua slug unik dalam koleksi pages", () => {
+    const issues = validateUniqueness(items);
+    expect(issues.filter((issue) => issue.rule === "duplicate-slug")).toEqual(
+      []
+    );
+  });
+
+  it("primary keyword unik antar halaman", () => {
+    // Keywords are set even while status is "review" so promotion to
+    // "published" later doesn't collide — uniqueness only bites published
+    // pages today, so this asserts on the raw set directly.
+    const keywords = pages
+      .map((item) => item.primaryKeyword)
+      .filter((keyword): keyword is string => Boolean(keyword))
+      .map((keyword) => keyword.trim().toLowerCase());
+    expect(new Set(keywords).size).toBe(keywords.length);
+  });
+
+  it("home.mdx dipetakan ke route /", () => {
+    const home = pages.find((item) => item.slug === "home");
+    expect(home?.route).toBe("/");
+    expect(home?.breadcrumb).toEqual([]);
+  });
+
+  it("setiap halaman non-home memiliki breadcrumb dua tingkat", () => {
+    for (const item of pages.filter((p) => p.slug !== "home")) {
+      expect(item.breadcrumb.length).toBeGreaterThanOrEqual(2);
+      expect(item.breadcrumb[0]).toEqual({ name: "Beranda", path: "/" });
+    }
+  });
+
+  it("seluruh halaman berstatus review menghasilkan noindex", () => {
+    for (const item of pages) {
+      expect(item.status).toBe("review");
+      expect(item.isIndexable).toBe(false);
+      expect(item.isFollowable).toBe(true);
+    }
+  });
+
+  it("/proyek memaksa noindex melalui page.index meskipun kelak published", () => {
+    const proyek = pages.find((item) => item.slug === "proyek");
+    expect(proyek?.type).toBe("page");
+    if (proyek?.type === "page") {
+      expect(proyek.page.index).toBe(false);
+      expect(proyek.page.showInPrimaryNavigation).toBe(false);
+    }
+  });
+
+  it("halaman hub memiliki hubCollection yang sesuai", () => {
+    const expected: Record<string, string> = {
+      layanan: "services",
+      sektor: "sectors",
+      wilayah: "locations",
+      panduan: "guides",
+      proyek: "projects",
+    };
+    for (const [slug, collection] of Object.entries(expected)) {
+      const item = pages.find((p) => p.slug === slug);
+      expect(item?.type).toBe("page");
+      if (item?.type === "page") {
+        expect(item.page.kind).toBe("hub");
+        expect(item.page.hubCollection).toBe(collection);
+      }
+    }
+  });
+
+  it("ownerVerified: false berarti tidak ada satu pun halaman baru masuk sitemap", () => {
+    const eligible = selectSitemapItems(items).map((item) => item.route);
+    for (const slug of REQUIRED_PAGE_SLUGS) {
+      const item = pages.find((p) => p.slug === slug);
+      expect(eligible).not.toContain(item?.route);
+    }
+  });
+});
+
+describe("Batch 01 — navigation contract", () => {
+  it("/proyek tidak muncul di primary navigation", () => {
+    expect(navItems.some((item) => item.href === "/proyek")).toBe(false);
+  });
+
+  it("primary navigation berisi enam route yang diwajibkan", () => {
+    const hrefs = navItems.map((item) => item.href).sort();
+    expect(hrefs).toEqual(
+      ["/kontak", "/layanan", "/panduan", "/sektor", "/tentang", "/wilayah"].sort()
+    );
+  });
+
+  it("setiap item navigasi menunjuk ke halaman nyata di manifest", () => {
+    const knownRoutes = new Set(items.map((item) => item.route));
+    for (const item of navItems) {
+      expect(knownRoutes.has(item.href)).toBe(true);
+    }
+  });
+});
+
+describe("Batch 01 — hub empty-state", () => {
+  it("hub tidak error dan tidak menghasilkan child ketika belum ada service/sector/location/guide/project published", () => {
+    const publishedChildren = items.filter(
+      (item) =>
+        ["service", "sector", "location", "guide", "project"].includes(
+          item.type
+        ) && item.isIndexable
+    );
+    expect(publishedChildren).toEqual([]);
+  });
+
+  it("draft/review child tidak pernah indexable", () => {
+    const draftChildren = items.filter(
+      (item) =>
+        ["service", "sector", "location", "guide", "project"].includes(
+          item.type
+        ) && item.status !== "published"
+    );
+    for (const child of draftChildren) {
+      expect(child.isIndexable).toBe(false);
+    }
+  });
+});

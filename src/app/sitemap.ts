@@ -1,14 +1,17 @@
 import type { MetadataRoute } from "next";
-import { COLLECTIONS } from "@/config/collections";
 import { absoluteUrl } from "@/lib/seo/canonical";
-import { publicListing, sitemapEligible } from "@/lib/content/queries";
+import { sitemapEligible } from "@/lib/content/queries";
 
 /**
- * Legacy routes that still serve hand-built pages and are not part of the
- * content manifest yet. They move into the manifest as they are migrated.
+ * Routes that still serve hand-built pages entirely outside the content
+ * manifest. "/" moved into content/pages/home.mdx in Batch 01 and must NOT
+ * be listed here — a hardcoded entry would bypass its own published/
+ * ownerVerified gate. Same reasoning applies to /layanan, /sektor, /wilayah,
+ * /panduan, /proyek: they are now real "pages" collection entries and are
+ * only ever included via sitemapEligible() below, never via a "has children"
+ * heuristic — a hub with unpublished child content is not itself published.
  */
 const LEGACY_ROUTES: { path: string; priority: number }[] = [
-  { path: "/", priority: 1 },
   { path: "/portfolio", priority: 0.8 },
 ];
 
@@ -22,30 +25,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: route.priority,
   }));
 
-  // A hub only enters the sitemap once it actually lists published content.
-  const hubs: MetadataRoute.Sitemap = Object.values(COLLECTIONS)
-    .filter((definition) => definition.hasHub && definition.routeBase)
-    .filter(
-      (definition) => publicListing(definition.dir, definition.type).length > 0
-    )
-    .map((definition) => ({
-      url: absoluteUrl(definition.routeBase),
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority: 0.8,
-    }));
-
   /**
    * Content entries. `sitemapEligible` already enforces the three gates from
    * ARCHITECTURE.md §12.3: published, indexable, owner-verified. Drafts,
-   * review, archived and every /lp/* route are excluded by construction.
+   * review, archived and every /lp/* route are excluded by construction —
+   * this covers the homepage, every corporate page, and every hub uniformly.
    */
   const content: MetadataRoute.Sitemap = sitemapEligible().map((item) => ({
     url: absoluteUrl(item.route),
     lastModified: item.updatedAt ? new Date(item.updatedAt) : now,
     changeFrequency: item.type === "guide" ? "monthly" : "weekly",
-    priority: item.type === "service" ? 0.9 : 0.7,
+    priority: item.route === "/" ? 1 : item.type === "service" ? 0.9 : 0.7,
   }));
 
-  return [...legacy, ...hubs, ...content];
+  return [...legacy, ...content];
 }

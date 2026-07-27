@@ -14,6 +14,7 @@ import type {
   ContentItem,
   GuideItem,
   LocationItem,
+  PageItem,
   ProjectItem,
   SectorItem,
   ServiceItem,
@@ -95,10 +96,14 @@ export function buildWebsiteSchema(): JsonLdNode {
 
 /**
  * The single business entity. Returns null when the owner has not verified
- * enough facts to describe a real business.
+ * enough facts to describe a real business — a GeneralContractor node with no
+ * verified physical address is not meaningfully different from Organization
+ * and must not be emitted (ARCHITECTURE.md Batch 01 §14: "GeneralContractor /
+ * LocalBusiness hanya setelah physical-business data terverifikasi").
  */
 export function buildBusinessSchema(): JsonLdNode | null {
   if (!schemaFlags.enableBusinessEntity) return null;
+  if (!businessFacts.address) return null;
 
   return stripEmpty({
     "@type": "GeneralContractor",
@@ -190,9 +195,12 @@ export function buildProjectSchema(item: ProjectItem): JsonLdNode {
   });
 }
 
-export function buildWebPageSchema(item: ContentItem): JsonLdNode {
+export function buildWebPageSchema(
+  item: ContentItem,
+  subtype: "WebPage" | "AboutPage" | "ContactPage" | "CollectionPage" = "WebPage"
+): JsonLdNode {
   return stripEmpty({
-    "@type": "WebPage",
+    "@type": subtype,
     "@id": canonicalOf(item),
     url: canonicalOf(item),
     name: item.title,
@@ -202,6 +210,34 @@ export function buildWebPageSchema(item: ContentItem): JsonLdNode {
     datePublished: item.publishedAt,
     dateModified: item.updatedAt ?? item.publishedAt,
   });
+}
+
+/**
+ * Maps a corporate/hub page to its structured-data subtype, driven by
+ * page.kind — editors choose the kind, never the schema type directly
+ * (ARCHITECTURE.md §9, Batch 01 §14).
+ *
+ * /tentang is the one documented exception: Batch 01 §14 requires AboutPage
+ * specifically for it, but the page.kind enum (home/corporate/contact/
+ * consultation/hub/faq) has no dedicated "about" value — adding one would be
+ * a schema field invented for a single page. Slug is used instead, the same
+ * pattern already used for the homepage route exception.
+ */
+export function buildPageSchema(item: PageItem): JsonLdNode {
+  if (item.slug === "tentang") return buildWebPageSchema(item, "AboutPage");
+
+  switch (item.page.kind) {
+    case "contact":
+    case "consultation":
+      return buildWebPageSchema(item, "ContactPage");
+    case "hub":
+      return buildWebPageSchema(item, "CollectionPage");
+    case "home":
+    case "corporate":
+    case "faq":
+    default:
+      return buildWebPageSchema(item, "WebPage");
+  }
 }
 
 export function buildBreadcrumbSchema(trail: BreadcrumbEntry[]): JsonLdNode {
@@ -260,7 +296,10 @@ export function buildJsonLdGraph(item: ContentItem): JsonLdNode {
       nodes.push(buildProjectSchema(item));
       break;
     case "page":
-      nodes.push(buildWebPageSchema(item));
+      // The homepage carries no page-specific WebPage/AboutPage/etc node —
+      // it is represented sitewide by Organization/WebSite (from the root
+      // layout) plus the conditional business entity (see buildHomepageGraph).
+      if (item.page.kind !== "home") nodes.push(buildPageSchema(item));
       break;
     case "landing":
       // Paid landing pages are not an organic SEO surface — no graph beyond
@@ -268,7 +307,11 @@ export function buildJsonLdGraph(item: ContentItem): JsonLdNode {
       return { "@context": "https://schema.org", "@graph": [] };
   }
 
-  nodes.push(buildBreadcrumbSchema(item.breadcrumb));
+  // The homepage has no breadcrumb (ARCHITECTURE.md Batch 01 §14); an empty
+  // BreadcrumbList is pointless schema, so it is only pushed when non-empty.
+  if (item.breadcrumb.length > 0) {
+    nodes.push(buildBreadcrumbSchema(item.breadcrumb));
+  }
 
   const faq = buildFaqSchema(item.faq);
   if (faq) nodes.push(faq);
@@ -288,10 +331,13 @@ export function buildSiteEntityGraph(): JsonLdNode {
   };
 }
 
-/** Homepage graph: WebSite, Organization and the verified business entity. */
+/**
+ * Homepage-specific graph: the verified business entity only, when present.
+ * Organization/WebSite are NOT repeated here — layout.tsx already renders
+ * them sitewide via buildSiteEntityGraph, and duplicating them on the
+ * homepage would reintroduce the double-Organization bug fixed previously.
+ */
 export function buildHomepageGraph(): JsonLdNode {
   const business = buildBusinessSchema();
-  const nodes = [buildWebsiteSchema(), buildOrganizationSchema()];
-  if (business) nodes.push(business);
-  return { "@context": "https://schema.org", "@graph": nodes };
+  return { "@context": "https://schema.org", "@graph": business ? [business] : [] };
 }

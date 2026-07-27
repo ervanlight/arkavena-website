@@ -1,11 +1,178 @@
 {
-  "generatedAt": "2026-07-27T02:06:27.724Z",
+  "generatedAt": "2026-07-27T23:29:30.831Z",
   "nodes": {
+    "page-cara-kerja": {
+      "id": "page-cara-kerja",
+      "route": "/cara-kerja",
+      "type": "page",
+      "outbound": [
+        "page-konsultasi-proyek",
+        "page-layanan"
+      ],
+      "inbound": [
+        "guide-contoh-panduan",
+        "page-faq",
+        "page-home",
+        "page-layanan",
+        "page-mengapa-arkavena"
+      ],
+      "related": []
+    },
+    "page-faq": {
+      "id": "page-faq",
+      "route": "/faq",
+      "type": "page",
+      "outbound": [
+        "page-cara-kerja",
+        "page-konsultasi-proyek",
+        "page-layanan"
+      ],
+      "inbound": [],
+      "related": []
+    },
+    "page-home": {
+      "id": "page-home",
+      "route": "/",
+      "type": "page",
+      "outbound": [
+        "page-cara-kerja",
+        "page-layanan",
+        "page-sektor",
+        "page-wilayah"
+      ],
+      "inbound": [],
+      "related": []
+    },
+    "page-konsultasi-proyek": {
+      "id": "page-konsultasi-proyek",
+      "route": "/konsultasi-proyek",
+      "type": "page",
+      "outbound": [
+        "page-kontak"
+      ],
+      "inbound": [
+        "page-cara-kerja",
+        "page-faq",
+        "page-kontak",
+        "page-panduan"
+      ],
+      "related": []
+    },
+    "page-kontak": {
+      "id": "page-kontak",
+      "route": "/kontak",
+      "type": "page",
+      "outbound": [
+        "page-konsultasi-proyek",
+        "page-wilayah"
+      ],
+      "inbound": [
+        "page-konsultasi-proyek",
+        "svc-contoh-layanan"
+      ],
+      "related": []
+    },
+    "page-layanan": {
+      "id": "page-layanan",
+      "route": "/layanan",
+      "type": "page",
+      "outbound": [
+        "page-cara-kerja",
+        "page-mengapa-arkavena"
+      ],
+      "inbound": [
+        "page-cara-kerja",
+        "page-faq",
+        "page-home",
+        "page-mengapa-arkavena",
+        "page-panduan",
+        "page-proyek",
+        "page-sektor",
+        "page-tentang",
+        "page-wilayah"
+      ],
+      "related": []
+    },
+    "page-mengapa-arkavena": {
+      "id": "page-mengapa-arkavena",
+      "route": "/mengapa-arkavena",
+      "type": "page",
+      "outbound": [
+        "page-cara-kerja",
+        "page-layanan"
+      ],
+      "inbound": [
+        "page-layanan",
+        "page-tentang"
+      ],
+      "related": []
+    },
+    "page-panduan": {
+      "id": "page-panduan",
+      "route": "/panduan",
+      "type": "page",
+      "outbound": [
+        "page-konsultasi-proyek",
+        "page-layanan"
+      ],
+      "inbound": [],
+      "related": []
+    },
+    "page-proyek": {
+      "id": "page-proyek",
+      "route": "/proyek",
+      "type": "page",
+      "outbound": [
+        "page-layanan"
+      ],
+      "inbound": [],
+      "related": []
+    },
+    "page-sektor": {
+      "id": "page-sektor",
+      "route": "/sektor",
+      "type": "page",
+      "outbound": [
+        "page-layanan"
+      ],
+      "inbound": [
+        "page-home"
+      ],
+      "related": []
+    },
+    "page-tentang": {
+      "id": "page-tentang",
+      "route": "/tentang",
+      "type": "page",
+      "outbound": [
+        "page-layanan",
+        "page-mengapa-arkavena",
+        "page-wilayah"
+      ],
+      "inbound": [],
+      "related": []
+    },
+    "page-wilayah": {
+      "id": "page-wilayah",
+      "route": "/wilayah",
+      "type": "page",
+      "outbound": [
+        "page-layanan"
+      ],
+      "inbound": [
+        "page-home",
+        "page-kontak",
+        "page-tentang"
+      ],
+      "related": []
+    },
     "svc-contoh-layanan": {
       "id": "svc-contoh-layanan",
       "route": "/layanan/contoh-layanan",
       "type": "service",
-      "outbound": [],
+      "outbound": [
+        "page-kontak"
+      ],
       "inbound": [],
       "related": []
     },
@@ -29,7 +196,9 @@
       "id": "guide-contoh-panduan",
       "route": "/panduan/contoh-panduan",
       "type": "guide",
-      "outbound": [],
+      "outbound": [
+        "page-cara-kerja"
+      ],
       "inbound": [],
       "related": []
     }

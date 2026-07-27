@@ -9,7 +9,7 @@ import {
   stripEmpty,
 } from "@/lib/seo/schema-builders";
 import { serializeJsonLd } from "@/lib/seo/jsonld";
-import { schemaFlags } from "@/config/business";
+import { businessFacts, schemaFlags } from "@/config/business";
 import {
   asContentItem,
   guideFrontmatter,
@@ -158,12 +158,33 @@ describe("structured data", () => {
     expect(graph["@graph"]).toHaveLength(0);
   });
 
-  it("entitas bisnis tunggal hanya memuat fakta terverifikasi", () => {
-    const business = buildBusinessSchema();
-    expect(business).not.toBeNull();
-    expect(business).not.toHaveProperty("address");
-    expect(business).not.toHaveProperty("geo");
-    expect(business).not.toHaveProperty("openingHoursSpecification");
+  it("business entity null selama physicalAddress belum terverifikasi", () => {
+    // Current real state: businessFacts.address is null (no verified office).
+    // A GeneralContractor with no physical address is indistinguishable from
+    // Organization and must not be emitted (Batch 01 §14).
+    expect(businessFacts.address).toBeNull();
+    expect(buildBusinessSchema()).toBeNull();
+  });
+
+  it("business entity, ketika alamat terverifikasi, tidak menyerialisasi fakta lain yang masih null", () => {
+    const originalAddress = businessFacts.address;
+    businessFacts.address = {
+      streetAddress: "Jl. Fixture No. 1",
+      addressLocality: "Surabaya",
+      addressRegion: "Jawa Timur",
+      postalCode: "60111",
+      addressCountry: "ID",
+    };
+
+    try {
+      const business = buildBusinessSchema();
+      expect(business).not.toBeNull();
+      expect(business).toHaveProperty("address");
+      expect(business).not.toHaveProperty("geo");
+      expect(business).not.toHaveProperty("openingHoursSpecification");
+    } finally {
+      businessFacts.address = originalAddress;
+    }
   });
 
   it("JSON-LD diserialisasi dengan aman terhadap tag penutup", () => {

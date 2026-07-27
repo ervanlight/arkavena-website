@@ -10,6 +10,9 @@ import type { BreadcrumbEntry, ContentItem } from "@/schemas/content-types";
  * BreadcrumbList node is part of the page graph built by schema-builders.
  */
 export function ContentBreadcrumbs({ trail }: { trail: BreadcrumbEntry[] }) {
+  // Homepage has no breadcrumb (ARCHITECTURE.md Batch 01 §14).
+  if (trail.length === 0) return null;
+
   return (
     <nav aria-label="Breadcrumb" className="mb-6">
       <ol className="flex flex-wrap items-center gap-2 text-sm text-[#68757D]">
