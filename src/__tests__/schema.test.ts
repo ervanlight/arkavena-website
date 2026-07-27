@@ -5,6 +5,7 @@ import {
   buildFaqSchema,
   buildJsonLdGraph,
   buildOrganizationSchema,
+  buildSiteEntityGraph,
   stripEmpty,
 } from "@/lib/seo/schema-builders";
 import { serializeJsonLd } from "@/lib/seo/jsonld";
@@ -41,6 +42,37 @@ describe("structured data", () => {
     ) as unknown as Graph;
     expect(typesIn(graph)).toContain("Service");
     expect(typesIn(graph)).toContain("BreadcrumbList");
+  });
+
+  it("graph per-halaman tidak pernah menyertakan Organization atau WebSite", () => {
+    // Organization/WebSite are rendered exactly once, sitewide, by the root
+    // layout (buildSiteEntityGraph). A page-level graph that inlined them too
+    // would render two Organization entities on the same document.
+    const service = buildJsonLdGraph(
+      asContentItem(publishedFrontmatter())
+    ) as unknown as Graph;
+    expect(typesIn(service)).not.toContain("Organization");
+    expect(typesIn(service)).not.toContain("WebSite");
+
+    const guide = buildJsonLdGraph(
+      asContentItem({
+        ...guideFrontmatter(),
+        status: "published",
+        primaryKeyword: "fixture panduan dedup",
+        publishedAt: "2026-01-01",
+        updatedAt: "2026-01-01",
+        ownerVerified: true,
+      })
+    ) as unknown as Graph;
+    expect(typesIn(guide)).not.toContain("Organization");
+    expect(typesIn(guide)).not.toContain("WebSite");
+  });
+
+  it("buildSiteEntityGraph berisi tepat satu Organization dan satu WebSite", () => {
+    const graph = buildSiteEntityGraph() as unknown as Graph;
+    const types = typesIn(graph);
+    expect(types.filter((type) => type === "Organization")).toHaveLength(1);
+    expect(types.filter((type) => type === "WebSite")).toHaveLength(1);
   });
 
   it("panduan menghasilkan node Article", () => {

@@ -236,9 +236,14 @@ export function buildFaqSchema(
   };
 }
 
-/** Assemble the full @graph for a content page. */
+/**
+ * Assemble the @graph for a content page. Organization and WebSite are
+ * deliberately NOT inlined here — they are rendered exactly once sitewide by
+ * the root layout (see buildSiteEntityGraph). Page-specific nodes reference
+ * them by @id instead, so no page ever carries two Organization entities.
+ */
 export function buildJsonLdGraph(item: ContentItem): JsonLdNode {
-  const nodes: JsonLdNode[] = [buildOrganizationSchema(), buildWebsiteSchema()];
+  const nodes: JsonLdNode[] = [];
 
   switch (item.type) {
     case "service":
@@ -269,6 +274,18 @@ export function buildJsonLdGraph(item: ContentItem): JsonLdNode {
   if (faq) nodes.push(faq);
 
   return { "@context": "https://schema.org", "@graph": nodes };
+}
+
+/**
+ * Sitewide entity graph: Organization and WebSite only. Rendered once, in the
+ * root layout, on every route. This is the single source of Organization
+ * JSON-LD for the whole site — no other file may emit an Organization node.
+ */
+export function buildSiteEntityGraph(): JsonLdNode {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [buildWebsiteSchema(), buildOrganizationSchema()],
+  };
 }
 
 /** Homepage graph: WebSite, Organization and the verified business entity. */
