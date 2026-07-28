@@ -6046,7 +6046,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "guide-biaya-bangun-rumah-per-meter",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Biaya Bangun Rumah per Meter: Memahami Kisaran dan Apa yang Memengaruhinya",
     "slug": "biaya-bangun-rumah-per-meter",
     "description": "Biaya bangun rumah per meter mulai dari Rp4.000.000/m² untuk spesifikasi kelas menengah-atas — beserta variabel yang memengaruhi angka ini dan cara membacanya dengan benar.",
@@ -6063,9 +6063,9 @@ export const contentManifest: ContentItem[] = [
       "residensial",
       "biaya"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -6135,7 +6135,7 @@ export const contentManifest: ContentItem[] = [
         "accessedAt": "2026-07-28"
       }
     ],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "cost",
       "pillar": "guide-tahapan-bangun-rumah-dari-nol",
@@ -6168,14 +6168,14 @@ export const contentManifest: ContentItem[] = [
       "/layanan/bangun-rumah",
       "/panduan/tahapan-bangun-rumah-dari-nol"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-borongan-vs-harian-bangun-rumah",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Borongan vs Harian Bangun Rumah: Perbandingan Model Kerja",
     "slug": "borongan-vs-harian-bangun-rumah",
     "description": "Perbandingan model kerja borongan dan harian untuk proyek bangun rumah — kepastian ruang lingkup, visibilitas biaya, keterlibatan owner, dan penanganan perubahan.",
@@ -6192,9 +6192,9 @@ export const contentManifest: ContentItem[] = [
       "residensial",
       "kontrak"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -6253,7 +6253,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "comparison",
       "pillar": "guide-tahapan-bangun-rumah-dari-nol",
@@ -6285,14 +6285,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/kontraktor-vs-tukang",
       "/panduan/kontrak-kerja-konstruksi-rumah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-cara-membaca-rab-rumah",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Cara Membaca RAB Rumah yang Diberikan Kontraktor",
     "slug": "cara-membaca-rab-rumah",
     "description": "Cara membaca dan memahami RAB (Rencana Anggaran Biaya) rumah dari kontraktor — item, volume, satuan, harga satuan, subtotal, asumsi, dan exclusion.",
@@ -6309,9 +6309,9 @@ export const contentManifest: ContentItem[] = [
       "residensial",
       "biaya"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -6371,7 +6371,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "process",
       "pillar": "guide-tahapan-bangun-rumah-dari-nol",
@@ -6404,14 +6404,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/biaya-bangun-rumah-per-meter",
       "/panduan/kontrak-kerja-konstruksi-rumah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-cara-memilih-kontraktor-rumah",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Cara Memilih Kontraktor Rumah secara Terukur",
     "slug": "cara-memilih-kontraktor-rumah",
     "description": "Panduan memilih kontraktor rumah berdasarkan ruang lingkup, dokumen penawaran, metode kerja, komunikasi, pengendalian biaya, mutu, jadwal, dan risiko.",
@@ -6429,9 +6429,9 @@ export const contentManifest: ContentItem[] = [
       "kontrak",
       "risiko"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -6492,7 +6492,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "process",
       "pillar": "guide-tahapan-bangun-rumah-dari-nol",
@@ -6525,14 +6525,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/borongan-vs-harian-bangun-rumah",
       "/panduan/kontrak-kerja-konstruksi-rumah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-cara-menghitung-biaya-bangun-rumah",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Cara Menghitung Biaya Bangun Rumah: Metode dan Komponen Perhitungan",
     "slug": "cara-menghitung-biaya-bangun-rumah",
     "description": "Metode menghitung biaya bangun rumah — ruang lingkup, work breakdown, quantity, unit rate, preliminaries, dan contingency. Menjelaskan metode, bukan harga pasar.",
@@ -6550,9 +6550,9 @@ export const contentManifest: ContentItem[] = [
       "biaya",
       "perencanaan"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -6612,7 +6612,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "process",
       "pillar": "guide-tahapan-bangun-rumah-dari-nol",
@@ -6645,14 +6645,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/cara-membaca-rab-rumah",
       "/panduan/checklist-persiapan-bangun-rumah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-checklist-persiapan-bangun-rumah",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Checklist Persiapan Bangun Rumah Sebelum Konstruksi Dimulai",
     "slug": "checklist-persiapan-bangun-rumah",
     "description": "Checklist praktis untuk memastikan kesiapan sebelum memulai proyek bangun rumah — mencakup tujuan, lahan, desain, anggaran, dan dokumen.",
@@ -6669,9 +6669,9 @@ export const contentManifest: ContentItem[] = [
       "residensial",
       "perencanaan"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -6731,7 +6731,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "checklist",
       "pillar": "guide-tahapan-bangun-rumah-dari-nol",
@@ -6764,7 +6764,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan/cara-menghitung-biaya-bangun-rumah",
       "/panduan/tahapan-bangun-rumah-dari-nol"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -6870,7 +6870,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "guide-kontrak-kerja-konstruksi-rumah",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Mengenal Elemen Umum Kontrak Kerja Konstruksi Rumah",
     "slug": "kontrak-kerja-konstruksi-rumah",
     "description": "Penjelasan umum elemen yang biasanya diatur dalam kontrak kerja konstruksi rumah — ruang lingkup, harga, jadwal, dan perubahan pekerjaan. Bukan nasihat hukum.",
@@ -6888,9 +6888,9 @@ export const contentManifest: ContentItem[] = [
       "kontrak",
       "risiko"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -6950,7 +6950,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "explainer",
       "pillar": "guide-tahapan-bangun-rumah-dari-nol",
@@ -6983,14 +6983,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/borongan-vs-harian-bangun-rumah",
       "/panduan/cara-membaca-rab-rumah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-kontraktor-vs-tukang",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Kontraktor vs Tukang: Memahami Perbedaan untuk Proyek Bangun Rumah",
     "slug": "kontraktor-vs-tukang",
     "description": "Perbedaan kontraktor dan tukang dari sisi organisasi kerja, tanggung jawab, dokumentasi, dan alokasi risiko dalam proyek bangun rumah.",
@@ -7007,9 +7007,9 @@ export const contentManifest: ContentItem[] = [
       "residensial",
       "kontrak"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -7067,7 +7067,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "comparison",
       "pillar": "guide-tahapan-bangun-rumah-dari-nol",
@@ -7099,14 +7099,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/borongan-vs-harian-bangun-rumah",
       "/panduan/cara-memilih-kontraktor-rumah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-tahapan-bangun-rumah-dari-nol",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Tahapan Bangun Rumah dari Nol: Panduan Lengkap dari Perencanaan hingga Serah Terima",
     "slug": "tahapan-bangun-rumah-dari-nol",
     "description": "Panduan lengkap tahapan membangun rumah dari nol — mulai dari menentukan kebutuhan, data lahan, desain, estimasi biaya, kontrak, pelaksanaan, hingga serah terima.",
@@ -7124,9 +7124,9 @@ export const contentManifest: ContentItem[] = [
       "perencanaan",
       "pelaksanaan"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -7194,7 +7194,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "pillar",
       "pillar": null,
@@ -7232,7 +7232,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan/kontrak-kerja-konstruksi-rumah",
       "/layanan/bangun-rumah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T06:03:18.682Z",
+  "generatedAt": "2026-07-28T06:19:40.477Z",
   "nodes": {
     "page-cara-kerja": {
       "id": "page-cara-kerja",
@@ -16,7 +16,6 @@
       "inbound": [
         "guide-contoh-panduan",
         "loc-gresik",
-        "loc-jawa-timur",
         "loc-lamongan",
         "loc-malang",
         "loc-mojokerto",
@@ -68,7 +67,6 @@
         "page-tentang"
       ],
       "inbound": [
-        "loc-jawa-timur",
         "page-cara-kerja",
         "page-home",
         "page-konsultasi-proyek",
@@ -78,8 +76,7 @@
         "page-panduan",
         "page-proyek",
         "page-sektor",
-        "page-tentang",
-        "page-wilayah"
+        "page-tentang"
       ],
       "related": [
         {
@@ -263,7 +260,6 @@
         "page-tentang"
       ],
       "inbound": [
-        "loc-jawa-timur",
         "page-cara-kerja",
         "page-faq",
         "page-layanan",
@@ -462,20 +458,15 @@
       "route": "/wilayah",
       "type": "page",
       "outbound": [
+        "guide-biaya-bangun-rumah-per-meter",
         "page-cara-kerja",
-        "page-faq",
         "page-layanan",
         "page-sektor"
       ],
       "inbound": [
         "loc-gresik",
         "loc-jawa-timur",
-        "loc-lamongan",
-        "loc-malang",
-        "loc-mojokerto",
         "loc-pasuruan",
-        "loc-sidoarjo",
-        "loc-surabaya",
         "page-home",
         "page-kontak",
         "page-tentang",
@@ -496,11 +487,11 @@
           "score": 3
         },
         {
-          "id": "page-cara-kerja",
-          "score": 1
+          "id": "guide-biaya-bangun-rumah-per-meter",
+          "score": 2
         },
         {
-          "id": "page-faq",
+          "id": "page-cara-kerja",
           "score": 1
         }
       ]
@@ -519,18 +510,7 @@
         "svc-penyusunan-rab"
       ],
       "inbound": [
-        "guide-biaya-bangun-rumah-per-meter",
-        "guide-borongan-vs-harian-bangun-rumah",
-        "guide-cara-membaca-rab-rumah",
-        "guide-cara-memilih-kontraktor-rumah",
-        "guide-cara-menghitung-biaya-bangun-rumah",
-        "guide-checklist-persiapan-bangun-rumah",
         "guide-contoh-panduan",
-        "guide-kontrak-kerja-konstruksi-rumah",
-        "guide-kontraktor-vs-tukang",
-        "guide-tahapan-bangun-rumah-dari-nol",
-        "loc-contoh-wilayah",
-        "loc-sidoarjo",
         "project-hunian-lamongan-2022",
         "project-kos-dau-malang-2020",
         "project-kos-sidoarjo-2023-2026",
@@ -538,8 +518,6 @@
         "project-perumahan-karangploso-malang-2018",
         "project-rumah-tinggal-malang-kota-2019",
         "project-rumah-tinggal-solo-2024",
-        "svc-bangun-rumah",
-        "svc-contoh-layanan",
         "svc-estimasi-biaya-konstruksi",
         "svc-owner-representative",
         "svc-pengendalian-cashflow-proyek",
@@ -582,11 +560,7 @@
       ],
       "inbound": [
         "guide-contoh-panduan",
-        "loc-contoh-wilayah",
         "loc-gresik",
-        "loc-lamongan",
-        "loc-malang",
-        "loc-mojokerto",
         "loc-pasuruan",
         "loc-sidoarjo",
         "loc-surabaya",
@@ -602,8 +576,6 @@
         "sec-kos",
         "sec-pabrik",
         "sec-ruko",
-        "svc-bangun-rumah",
-        "svc-contoh-layanan",
         "svc-design-and-build",
         "svc-renovasi-bangunan-komersial",
         "svc-renovasi-rumah",
@@ -633,10 +605,11 @@
       "route": "/layanan/bangun-rumah",
       "type": "service",
       "outbound": [
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
         "page-panduan",
         "sec-rumah-tinggal",
-        "svc-audit-biaya-proyek",
-        "svc-bangun-bangunan-komersial",
         "svc-design-and-build",
         "svc-pengawasan-proyek",
         "svc-pengendalian-biaya-proyek",
@@ -653,8 +626,6 @@
         "guide-kontrak-kerja-konstruksi-rumah",
         "guide-kontraktor-vs-tukang",
         "guide-tahapan-bangun-rumah-dari-nol",
-        "loc-contoh-wilayah",
-        "loc-gresik",
         "loc-lamongan",
         "loc-malang",
         "loc-mojokerto",
@@ -669,7 +640,6 @@
         "project-rumah-tinggal-malang-kota-2019",
         "project-rumah-tinggal-solo-2024",
         "sec-rumah-tinggal",
-        "svc-contoh-layanan",
         "svc-design-and-build"
       ],
       "related": [
@@ -678,16 +648,16 @@
           "score": 48
         },
         {
-          "id": "svc-design-and-build",
-          "score": 29
+          "id": "guide-biaya-bangun-rumah-per-meter",
+          "score": 41
         },
         {
-          "id": "svc-audit-biaya-proyek",
-          "score": 15
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 41
         },
         {
-          "id": "svc-bangun-bangunan-komersial",
-          "score": 15
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 41
         }
       ]
     },
@@ -706,13 +676,7 @@
       ],
       "inbound": [
         "guide-contoh-panduan",
-        "loc-contoh-wilayah",
-        "loc-gresik",
-        "loc-lamongan",
-        "loc-malang",
-        "loc-mojokerto",
         "loc-pasuruan",
-        "loc-surabaya",
         "project-hunian-lamongan-2022",
         "project-kos-dau-malang-2020",
         "project-kos-sidoarjo-2023-2026",
@@ -722,7 +686,6 @@
         "project-rumah-tinggal-solo-2024",
         "sec-kantor",
         "sec-kos",
-        "svc-contoh-layanan",
         "svc-corrective-maintenance-bangunan",
         "svc-preventive-maintenance-bangunan"
       ],
@@ -750,29 +713,29 @@
       "route": "/layanan/contoh-layanan",
       "type": "service",
       "outbound": [
-        "page-kontak",
-        "svc-audit-biaya-proyek",
-        "svc-bangun-bangunan-komersial",
-        "svc-bangun-rumah",
-        "svc-building-maintenance"
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
+        "page-kontak"
       ],
       "inbound": [],
       "related": [
         {
-          "id": "svc-audit-biaya-proyek",
-          "score": 3
+          "id": "guide-biaya-bangun-rumah-per-meter",
+          "score": 7
         },
         {
-          "id": "svc-bangun-bangunan-komersial",
-          "score": 3
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 7
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 3
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 7
         },
         {
-          "id": "svc-building-maintenance",
-          "score": 3
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 7
         }
       ]
     },
@@ -824,15 +787,6 @@
         "svc-value-engineering"
       ],
       "inbound": [
-        "guide-biaya-bangun-rumah-per-meter",
-        "guide-borongan-vs-harian-bangun-rumah",
-        "guide-cara-membaca-rab-rumah",
-        "guide-cara-memilih-kontraktor-rumah",
-        "guide-cara-menghitung-biaya-bangun-rumah",
-        "guide-checklist-persiapan-bangun-rumah",
-        "guide-kontrak-kerja-konstruksi-rumah",
-        "guide-kontraktor-vs-tukang",
-        "guide-tahapan-bangun-rumah-dari-nol",
         "loc-lamongan",
         "loc-malang",
         "loc-mojokerto",
@@ -1451,28 +1405,28 @@
       "route": "/sektor/contoh-sektor",
       "type": "sector",
       "outbound": [
-        "sec-gudang",
-        "sec-kantor",
-        "sec-kos",
-        "sec-pabrik"
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah"
       ],
       "inbound": [],
       "related": [
         {
-          "id": "sec-gudang",
-          "score": 3
+          "id": "guide-biaya-bangun-rumah-per-meter",
+          "score": 7
         },
         {
-          "id": "sec-kantor",
-          "score": 3
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 7
         },
         {
-          "id": "sec-kos",
-          "score": 3
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 7
         },
         {
-          "id": "sec-pabrik",
-          "score": 3
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 7
         }
       ]
     },
@@ -1498,12 +1452,10 @@
       "inbound": [
         "loc-gresik",
         "loc-pasuruan",
-        "sec-contoh-sektor",
         "sec-kantor",
         "sec-kos",
         "sec-pabrik",
         "sec-ruko",
-        "sec-rumah-tinggal",
         "svc-bangun-bangunan-komersial"
       ],
       "related": [
@@ -1545,12 +1497,10 @@
       ],
       "inbound": [
         "loc-surabaya",
-        "sec-contoh-sektor",
         "sec-gudang",
         "sec-kos",
         "sec-pabrik",
         "sec-ruko",
-        "sec-rumah-tinggal",
         "svc-bangun-bangunan-komersial",
         "svc-building-maintenance",
         "svc-corrective-maintenance-bangunan",
@@ -1599,12 +1549,10 @@
         "loc-malang",
         "loc-sidoarjo",
         "loc-surabaya",
-        "sec-contoh-sektor",
         "sec-gudang",
         "sec-kantor",
         "sec-pabrik",
         "sec-ruko",
-        "sec-rumah-tinggal",
         "svc-bangun-bangunan-komersial",
         "svc-building-maintenance",
         "svc-corrective-maintenance-bangunan",
@@ -1651,7 +1599,6 @@
       "inbound": [
         "loc-gresik",
         "loc-pasuruan",
-        "sec-contoh-sektor",
         "sec-gudang",
         "sec-kantor",
         "sec-kos",
@@ -1729,12 +1676,13 @@
       "route": "/sektor/rumah-tinggal",
       "type": "sector",
       "outbound": [
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
         "page-cara-kerja",
         "page-panduan",
         "page-wilayah",
-        "sec-gudang",
-        "sec-kantor",
-        "sec-kos",
         "svc-bangun-rumah",
         "svc-design-and-build",
         "svc-pengawasan-proyek",
@@ -1763,20 +1711,20 @@
       ],
       "related": [
         {
-          "id": "svc-bangun-rumah",
-          "score": 34
+          "id": "guide-biaya-bangun-rumah-per-meter",
+          "score": 39
         },
         {
-          "id": "sec-gudang",
-          "score": 15
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 39
         },
         {
-          "id": "sec-kantor",
-          "score": 15
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 39
         },
         {
-          "id": "sec-kos",
-          "score": 15
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 39
         }
       ]
     },
@@ -1785,28 +1733,28 @@
       "route": "/wilayah/contoh-wilayah",
       "type": "location",
       "outbound": [
-        "svc-audit-biaya-proyek",
-        "svc-bangun-bangunan-komersial",
-        "svc-bangun-rumah",
-        "svc-building-maintenance"
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah"
       ],
       "inbound": [],
       "related": [
         {
-          "id": "svc-audit-biaya-proyek",
-          "score": 2
+          "id": "guide-biaya-bangun-rumah-per-meter",
+          "score": 7
         },
         {
-          "id": "svc-bangun-bangunan-komersial",
-          "score": 2
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 7
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 2
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 7
         },
         {
-          "id": "svc-building-maintenance",
-          "score": 2
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 7
         }
       ]
     },
@@ -1815,6 +1763,9 @@
       "route": "/wilayah/gresik",
       "type": "location",
       "outbound": [
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
         "loc-jawa-timur",
         "page-cara-kerja",
         "page-wilayah",
@@ -1822,8 +1773,6 @@
         "sec-pabrik",
         "sec-rumah-tinggal",
         "svc-bangun-bangunan-komersial",
-        "svc-bangun-rumah",
-        "svc-building-maintenance",
         "svc-manajemen-konstruksi",
         "svc-owner-representative",
         "svc-pengawasan-proyek",
@@ -1838,16 +1787,16 @@
           "score": 20
         },
         {
-          "id": "svc-bangun-bangunan-komersial",
-          "score": 14
+          "id": "guide-biaya-bangun-rumah-per-meter",
+          "score": 17
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 14
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 17
         },
         {
-          "id": "svc-building-maintenance",
-          "score": 14
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 17
         }
       ]
     },
@@ -1856,6 +1805,9 @@
       "route": "/wilayah/jawa-timur",
       "type": "location",
       "outbound": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
         "loc-gresik",
         "loc-lamongan",
         "loc-malang",
@@ -1863,10 +1815,7 @@
         "loc-pasuruan",
         "loc-sidoarjo",
         "loc-surabaya",
-        "page-cara-kerja",
-        "page-faq",
         "page-layanan",
-        "page-mengapa-arkavena",
         "page-panduan",
         "page-wilayah"
       ],
@@ -1885,16 +1834,16 @@
           "score": 20
         },
         {
-          "id": "page-cara-kerja",
-          "score": 2
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 9
         },
         {
-          "id": "page-faq",
-          "score": 2
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 9
         },
         {
-          "id": "page-mengapa-arkavena",
-          "score": 2
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 9
         }
       ]
     },
@@ -1903,14 +1852,15 @@
       "route": "/wilayah/lamongan",
       "type": "location",
       "outbound": [
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
         "loc-jawa-timur",
         "page-cara-kerja",
-        "page-wilayah",
         "project-hunian-lamongan-2022",
         "sec-rumah-tinggal",
-        "svc-bangun-bangunan-komersial",
         "svc-bangun-rumah",
-        "svc-building-maintenance",
         "svc-design-and-build",
         "svc-pengawasan-proyek",
         "svc-renovasi-rumah"
@@ -1921,20 +1871,20 @@
       ],
       "related": [
         {
-          "id": "page-wilayah",
-          "score": 20
+          "id": "guide-biaya-bangun-rumah-per-meter",
+          "score": 29
         },
         {
-          "id": "svc-bangun-bangunan-komersial",
-          "score": 14
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 29
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 14
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 29
         },
         {
-          "id": "svc-building-maintenance",
-          "score": 14
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 29
         }
       ]
     },
@@ -1943,17 +1893,18 @@
       "route": "/wilayah/malang",
       "type": "location",
       "outbound": [
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
         "loc-jawa-timur",
         "page-cara-kerja",
-        "page-wilayah",
         "project-kos-dau-malang-2020",
         "project-perumahan-karangploso-malang-2018",
         "project-rumah-tinggal-malang-kota-2019",
         "sec-kos",
         "sec-rumah-tinggal",
-        "svc-bangun-bangunan-komersial",
         "svc-bangun-rumah",
-        "svc-building-maintenance",
         "svc-design-and-build",
         "svc-pengawasan-proyek",
         "svc-renovasi-rumah"
@@ -1966,20 +1917,20 @@
       ],
       "related": [
         {
-          "id": "page-wilayah",
-          "score": 20
+          "id": "guide-biaya-bangun-rumah-per-meter",
+          "score": 29
         },
         {
-          "id": "svc-bangun-bangunan-komersial",
-          "score": 14
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 29
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 14
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 29
         },
         {
-          "id": "svc-building-maintenance",
-          "score": 14
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 29
         }
       ]
     },
@@ -1988,14 +1939,15 @@
       "route": "/wilayah/mojokerto",
       "type": "location",
       "outbound": [
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
         "loc-jawa-timur",
         "page-cara-kerja",
-        "page-wilayah",
         "sec-ruko",
         "sec-rumah-tinggal",
-        "svc-bangun-bangunan-komersial",
         "svc-bangun-rumah",
-        "svc-building-maintenance",
         "svc-design-and-build",
         "svc-pengawasan-proyek",
         "svc-renovasi-rumah"
@@ -2005,20 +1957,20 @@
       ],
       "related": [
         {
-          "id": "page-wilayah",
-          "score": 20
+          "id": "guide-biaya-bangun-rumah-per-meter",
+          "score": 29
         },
         {
-          "id": "svc-bangun-bangunan-komersial",
-          "score": 14
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 29
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 14
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 29
         },
         {
-          "id": "svc-building-maintenance",
-          "score": 14
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 29
         }
       ]
     },
@@ -2066,14 +2018,16 @@
       "route": "/wilayah/sidoarjo",
       "type": "location",
       "outbound": [
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
         "loc-jawa-timur",
         "page-cara-kerja",
-        "page-wilayah",
         "project-kos-sidoarjo-2023-2026",
         "sec-kos",
         "sec-ruko",
         "sec-rumah-tinggal",
-        "svc-audit-biaya-proyek",
         "svc-bangun-bangunan-komersial",
         "svc-bangun-rumah",
         "svc-pengawasan-proyek",
@@ -2086,20 +2040,20 @@
       ],
       "related": [
         {
-          "id": "page-wilayah",
-          "score": 20
+          "id": "guide-biaya-bangun-rumah-per-meter",
+          "score": 29
         },
         {
-          "id": "svc-audit-biaya-proyek",
-          "score": 14
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 29
         },
         {
-          "id": "svc-bangun-bangunan-komersial",
-          "score": 14
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 29
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 14
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 29
         }
       ]
     },
@@ -2108,16 +2062,18 @@
       "route": "/wilayah/surabaya",
       "type": "location",
       "outbound": [
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
         "loc-jawa-timur",
         "page-cara-kerja",
-        "page-wilayah",
         "project-kos-surabaya-2023-2026",
         "sec-kantor",
         "sec-kos",
         "sec-rumah-tinggal",
         "svc-bangun-bangunan-komersial",
         "svc-bangun-rumah",
-        "svc-building-maintenance",
         "svc-manajemen-konstruksi",
         "svc-pengawasan-proyek",
         "svc-renovasi-rumah"
@@ -2128,20 +2084,20 @@
       ],
       "related": [
         {
-          "id": "page-wilayah",
-          "score": 20
+          "id": "guide-biaya-bangun-rumah-per-meter",
+          "score": 29
         },
         {
-          "id": "svc-bangun-bangunan-komersial",
-          "score": 14
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 29
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 14
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 29
         },
         {
-          "id": "svc-building-maintenance",
-          "score": 14
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 29
         }
       ]
     },
@@ -2150,35 +2106,47 @@
       "route": "/panduan/biaya-bangun-rumah-per-meter",
       "type": "guide",
       "outbound": [
+        "guide-borongan-vs-harian-bangun-rumah",
         "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
         "guide-cara-menghitung-biaya-bangun-rumah",
         "guide-tahapan-bangun-rumah-dari-nol",
         "sec-rumah-tinggal",
-        "svc-audit-biaya-proyek",
-        "svc-bangun-rumah",
-        "svc-design-and-build"
+        "svc-bangun-rumah"
       ],
       "inbound": [
         "guide-cara-membaca-rab-rumah",
         "guide-cara-menghitung-biaya-bangun-rumah",
-        "guide-tahapan-bangun-rumah-dari-nol"
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "loc-contoh-wilayah",
+        "loc-gresik",
+        "loc-lamongan",
+        "loc-malang",
+        "loc-mojokerto",
+        "loc-sidoarjo",
+        "loc-surabaya",
+        "page-wilayah",
+        "sec-contoh-sektor",
+        "sec-rumah-tinggal",
+        "svc-bangun-rumah",
+        "svc-contoh-layanan"
       ],
       "related": [
         {
-          "id": "sec-rumah-tinggal",
-          "score": 40
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 43
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 28
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 43
         },
         {
-          "id": "svc-design-and-build",
-          "score": 20
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 43
         },
         {
-          "id": "svc-audit-biaya-proyek",
-          "score": 8
+          "id": "guide-cara-menghitung-biaya-bangun-rumah",
+          "score": 43
         }
       ]
     },
@@ -2187,36 +2155,53 @@
       "route": "/panduan/borongan-vs-harian-bangun-rumah",
       "type": "guide",
       "outbound": [
+        "guide-cara-membaca-rab-rumah",
         "guide-cara-memilih-kontraktor-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-checklist-persiapan-bangun-rumah",
         "guide-kontrak-kerja-konstruksi-rumah",
         "guide-kontraktor-vs-tukang",
         "sec-rumah-tinggal",
-        "svc-audit-biaya-proyek",
-        "svc-bangun-rumah",
-        "svc-design-and-build"
+        "svc-bangun-rumah"
       ],
       "inbound": [
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-cara-membaca-rab-rumah",
         "guide-cara-memilih-kontraktor-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-checklist-persiapan-bangun-rumah",
         "guide-kontrak-kerja-konstruksi-rumah",
         "guide-kontraktor-vs-tukang",
-        "guide-tahapan-bangun-rumah-dari-nol"
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "loc-contoh-wilayah",
+        "loc-gresik",
+        "loc-jawa-timur",
+        "loc-lamongan",
+        "loc-malang",
+        "loc-mojokerto",
+        "loc-sidoarjo",
+        "loc-surabaya",
+        "sec-contoh-sektor",
+        "sec-rumah-tinggal",
+        "svc-bangun-rumah",
+        "svc-contoh-layanan"
       ],
       "related": [
         {
-          "id": "sec-rumah-tinggal",
-          "score": 40
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 45
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 28
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 45
         },
         {
-          "id": "svc-design-and-build",
-          "score": 20
+          "id": "guide-cara-menghitung-biaya-bangun-rumah",
+          "score": 45
         },
         {
-          "id": "svc-audit-biaya-proyek",
-          "score": 8
+          "id": "guide-checklist-persiapan-bangun-rumah",
+          "score": 45
         }
       ]
     },
@@ -2226,36 +2211,53 @@
       "type": "guide",
       "outbound": [
         "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
         "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-checklist-persiapan-bangun-rumah",
         "guide-kontrak-kerja-konstruksi-rumah",
         "guide-tahapan-bangun-rumah-dari-nol",
         "sec-rumah-tinggal",
-        "svc-audit-biaya-proyek",
-        "svc-bangun-rumah",
-        "svc-design-and-build"
+        "svc-bangun-rumah"
       ],
       "inbound": [
         "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
         "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-checklist-persiapan-bangun-rumah",
         "guide-kontrak-kerja-konstruksi-rumah",
-        "guide-tahapan-bangun-rumah-dari-nol"
+        "guide-kontraktor-vs-tukang",
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "loc-contoh-wilayah",
+        "loc-gresik",
+        "loc-jawa-timur",
+        "loc-lamongan",
+        "loc-malang",
+        "loc-mojokerto",
+        "loc-sidoarjo",
+        "loc-surabaya",
+        "sec-contoh-sektor",
+        "sec-rumah-tinggal",
+        "svc-bangun-rumah",
+        "svc-contoh-layanan"
       ],
       "related": [
         {
-          "id": "sec-rumah-tinggal",
-          "score": 40
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 45
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 28
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 45
         },
         {
-          "id": "svc-design-and-build",
-          "score": 20
+          "id": "guide-cara-menghitung-biaya-bangun-rumah",
+          "score": 45
         },
         {
-          "id": "svc-audit-biaya-proyek",
-          "score": 8
+          "id": "guide-checklist-persiapan-bangun-rumah",
+          "score": 45
         }
       ]
     },
@@ -2265,38 +2267,51 @@
       "type": "guide",
       "outbound": [
         "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
         "guide-checklist-persiapan-bangun-rumah",
         "guide-kontrak-kerja-konstruksi-rumah",
         "guide-kontraktor-vs-tukang",
         "guide-tahapan-bangun-rumah-dari-nol",
         "sec-rumah-tinggal",
-        "svc-audit-biaya-proyek",
-        "svc-bangun-rumah",
-        "svc-design-and-build"
+        "svc-bangun-rumah"
       ],
       "inbound": [
+        "guide-biaya-bangun-rumah-per-meter",
         "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
         "guide-checklist-persiapan-bangun-rumah",
         "guide-kontrak-kerja-konstruksi-rumah",
         "guide-kontraktor-vs-tukang",
-        "guide-tahapan-bangun-rumah-dari-nol"
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "loc-contoh-wilayah",
+        "loc-jawa-timur",
+        "loc-lamongan",
+        "loc-malang",
+        "loc-mojokerto",
+        "loc-sidoarjo",
+        "loc-surabaya",
+        "sec-contoh-sektor",
+        "sec-rumah-tinggal",
+        "svc-contoh-layanan"
       ],
       "related": [
         {
-          "id": "sec-rumah-tinggal",
-          "score": 40
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 45
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 28
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 45
         },
         {
-          "id": "svc-design-and-build",
-          "score": 20
+          "id": "guide-cara-menghitung-biaya-bangun-rumah",
+          "score": 45
         },
         {
-          "id": "svc-audit-biaya-proyek",
-          "score": 8
+          "id": "guide-checklist-persiapan-bangun-rumah",
+          "score": 45
         }
       ]
     },
@@ -2306,36 +2321,40 @@
       "type": "guide",
       "outbound": [
         "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
         "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
         "guide-checklist-persiapan-bangun-rumah",
         "guide-tahapan-bangun-rumah-dari-nol",
         "sec-rumah-tinggal",
-        "svc-audit-biaya-proyek",
-        "svc-bangun-rumah",
-        "svc-design-and-build"
+        "svc-bangun-rumah"
       ],
       "inbound": [
         "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
         "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
         "guide-checklist-persiapan-bangun-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-kontraktor-vs-tukang",
         "guide-tahapan-bangun-rumah-dari-nol"
       ],
       "related": [
         {
-          "id": "sec-rumah-tinggal",
-          "score": 40
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 45
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 28
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 45
         },
         {
-          "id": "svc-design-and-build",
-          "score": 20
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 45
         },
         {
-          "id": "svc-audit-biaya-proyek",
-          "score": 8
+          "id": "guide-checklist-persiapan-bangun-rumah",
+          "score": 45
         }
       ]
     },
@@ -2344,36 +2363,38 @@
       "route": "/panduan/checklist-persiapan-bangun-rumah",
       "type": "guide",
       "outbound": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
         "guide-cara-memilih-kontraktor-rumah",
         "guide-cara-menghitung-biaya-bangun-rumah",
         "guide-kontrak-kerja-konstruksi-rumah",
         "guide-tahapan-bangun-rumah-dari-nol",
         "sec-rumah-tinggal",
-        "svc-audit-biaya-proyek",
-        "svc-bangun-rumah",
-        "svc-design-and-build"
+        "svc-bangun-rumah"
       ],
       "inbound": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
         "guide-cara-memilih-kontraktor-rumah",
         "guide-cara-menghitung-biaya-bangun-rumah",
         "guide-tahapan-bangun-rumah-dari-nol"
       ],
       "related": [
         {
-          "id": "sec-rumah-tinggal",
-          "score": 40
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 45
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 28
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 45
         },
         {
-          "id": "svc-design-and-build",
-          "score": 20
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 45
         },
         {
-          "id": "svc-audit-biaya-proyek",
-          "score": 8
+          "id": "guide-cara-menghitung-biaya-bangun-rumah",
+          "score": 45
         }
       ]
     },
@@ -2416,11 +2437,10 @@
         "guide-borongan-vs-harian-bangun-rumah",
         "guide-cara-membaca-rab-rumah",
         "guide-cara-memilih-kontraktor-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
         "guide-tahapan-bangun-rumah-dari-nol",
         "sec-rumah-tinggal",
-        "svc-audit-biaya-proyek",
-        "svc-bangun-rumah",
-        "svc-design-and-build"
+        "svc-bangun-rumah"
       ],
       "inbound": [
         "guide-borongan-vs-harian-bangun-rumah",
@@ -2431,20 +2451,20 @@
       ],
       "related": [
         {
-          "id": "sec-rumah-tinggal",
-          "score": 40
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 45
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 28
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 45
         },
         {
-          "id": "svc-design-and-build",
-          "score": 20
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 45
         },
         {
-          "id": "svc-audit-biaya-proyek",
-          "score": 8
+          "id": "guide-cara-menghitung-biaya-bangun-rumah",
+          "score": 45
         }
       ]
     },
@@ -2454,11 +2474,11 @@
       "type": "guide",
       "outbound": [
         "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
         "guide-cara-memilih-kontraktor-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
         "sec-rumah-tinggal",
-        "svc-audit-biaya-proyek",
-        "svc-bangun-rumah",
-        "svc-design-and-build"
+        "svc-bangun-rumah"
       ],
       "inbound": [
         "guide-borongan-vs-harian-bangun-rumah",
@@ -2467,20 +2487,20 @@
       ],
       "related": [
         {
-          "id": "sec-rumah-tinggal",
-          "score": 40
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 45
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 28
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 45
         },
         {
-          "id": "svc-design-and-build",
-          "score": 20
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 45
         },
         {
-          "id": "svc-audit-biaya-proyek",
-          "score": 8
+          "id": "guide-cara-menghitung-biaya-bangun-rumah",
+          "score": 45
         }
       ]
     },
@@ -2498,9 +2518,7 @@
         "guide-kontrak-kerja-konstruksi-rumah",
         "guide-kontraktor-vs-tukang",
         "sec-rumah-tinggal",
-        "svc-audit-biaya-proyek",
-        "svc-bangun-rumah",
-        "svc-design-and-build"
+        "svc-bangun-rumah"
       ],
       "inbound": [
         "guide-biaya-bangun-rumah-per-meter",
@@ -2512,20 +2530,20 @@
       ],
       "related": [
         {
-          "id": "sec-rumah-tinggal",
-          "score": 40
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 45
         },
         {
-          "id": "svc-bangun-rumah",
-          "score": 28
+          "id": "guide-cara-membaca-rab-rumah",
+          "score": 45
         },
         {
-          "id": "svc-design-and-build",
-          "score": 20
+          "id": "guide-cara-memilih-kontraktor-rumah",
+          "score": 45
         },
         {
-          "id": "svc-audit-biaya-proyek",
-          "score": 8
+          "id": "guide-cara-menghitung-biaya-bangun-rumah",
+          "score": 45
         }
       ]
     },

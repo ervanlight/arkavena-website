@@ -146,12 +146,12 @@ describe("Batch 07A — content validation", () => {
     expect(dupeIssues.filter((i) => i.rule === "duplicate-route")).toEqual([]);
   });
 
-  it("seluruh halaman P3 review/ownerVerified:false/publishedAt:null/noindex", () => {
+  it("seluruh halaman P3 published/ownerVerified:true/publishedAt terisi (approved 2026-07-28)", () => {
     for (const item of p3) {
-      expect(item.status).toBe("review");
-      expect(item.ownerVerified).toBe(false);
-      expect(item.publishedAt).toBeNull();
-      expect(item.isIndexable).toBe(false);
+      expect(item.status).toBe("published");
+      expect(item.ownerVerified).toBe(true);
+      expect(item.publishedAt).not.toBeNull();
+      expect(item.isIndexable).toBe(true);
     }
   });
 
@@ -348,10 +348,10 @@ describe("Batch 07A — technical and legal guardrails", () => {
 });
 
 describe("Batch 07A — metadata", () => {
-  it("seluruh 9 halaman P3 menghasilkan noindex,follow (masih review)", () => {
+  it("seluruh 9 halaman P3 menghasilkan index,follow (published sejak 2026-07-28)", () => {
     for (const item of p3) {
       const metadata = buildMetadata(item);
-      expect(metadata.robots).toMatchObject({ index: false, follow: true });
+      expect(metadata.robots).toMatchObject({ index: true, follow: true });
     }
   });
 
@@ -400,10 +400,10 @@ describe("Batch 07A — structured data", () => {
 });
 
 describe("Batch 07A — sitemap and hub", () => {
-  it("halaman P3 (masih review) tidak masuk sitemap", () => {
+  it("halaman P3 (published sejak 2026-07-28) masuk sitemap", () => {
     const eligible = selectSitemapItems(items).map((item) => item.route);
     for (const item of p3) {
-      expect(eligible).not.toContain(item.route);
+      expect(eligible).toContain(item.route);
     }
   });
 });
