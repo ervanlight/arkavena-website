@@ -8,7 +8,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "page-cara-kerja",
     "type": "page",
-    "status": "review",
+    "status": "published",
     "title": "Cara Kerja Arkavena",
     "slug": "cara-kerja",
     "description": "Proses kerja Arkavena dari konsultasi awal hingga serah terima, mencakup penetapan ruang lingkup, perencanaan, pelaksanaan, pelaporan, dan tindak lanjut.",
@@ -25,9 +25,9 @@ export const contentManifest: ContentItem[] = [
       "korporat",
       "perencanaan"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -57,7 +57,7 @@ export const contentManifest: ContentItem[] = [
     },
     "faq": [],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "page": {
       "kind": "corporate",
       "hubCollection": null,
@@ -83,14 +83,14 @@ export const contentManifest: ContentItem[] = [
       "/layanan",
       "/konsultasi-proyek"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "page-faq",
     "type": "page",
-    "status": "review",
+    "status": "published",
     "title": "Pertanyaan Umum Arkavena",
     "slug": "faq",
     "description": "Jawaban atas pertanyaan umum seputar layanan, area, pengendalian biaya, dan cara kerja Arkavena sebelum Anda memulai konsultasi proyek.",
@@ -106,9 +106,9 @@ export const contentManifest: ContentItem[] = [
       "korporat",
       "dokumentasi"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -199,7 +199,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "page": {
       "kind": "faq",
       "hubCollection": null,
@@ -226,14 +226,14 @@ export const contentManifest: ContentItem[] = [
       "/layanan",
       "/cara-kerja"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "page-home",
     "type": "page",
-    "status": "review",
+    "status": "published",
     "title": "Arkavena — Mitra Konstruksi dan Pengendalian Proyek",
     "slug": "home",
     "description": "Arkavena membantu pemilik proyek mengendalikan ruang lingkup, biaya, jadwal, mutu, dan risiko selama pelaksanaan konstruksi dan perawatan fasilitas.",
@@ -250,9 +250,9 @@ export const contentManifest: ContentItem[] = [
       "korporat",
       "perencanaan"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -299,7 +299,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "page": {
       "kind": "home",
       "hubCollection": null,
@@ -318,14 +318,14 @@ export const contentManifest: ContentItem[] = [
       "/cara-kerja",
       "/wilayah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "page-konsultasi-proyek",
     "type": "page",
-    "status": "review",
+    "status": "published",
     "title": "Konsultasi Proyek Arkavena",
     "slug": "konsultasi-proyek",
     "description": "Mulai diskusi mengenai rencana proyek konstruksi atau perawatan fasilitas Anda bersama Arkavena. Sampaikan kebutuhan Anda untuk ditindaklanjuti.",
@@ -341,9 +341,9 @@ export const contentManifest: ContentItem[] = [
       "korporat",
       "konsultasi"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -382,7 +382,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "page": {
       "kind": "consultation",
       "hubCollection": null,
@@ -407,14 +407,14 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [
       "/kontak"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "page-kontak",
     "type": "page",
-    "status": "review",
+    "status": "published",
     "title": "Kontak Arkavena",
     "slug": "kontak",
     "description": "Hubungi Arkavena untuk mendiskusikan rencana proyek konstruksi atau perawatan fasilitas Anda di Surabaya dan area sekitarnya.",
@@ -430,9 +430,9 @@ export const contentManifest: ContentItem[] = [
       "korporat",
       "kontak"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -471,7 +471,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "page": {
       "kind": "contact",
       "hubCollection": null,
@@ -497,14 +497,14 @@ export const contentManifest: ContentItem[] = [
       "/wilayah",
       "/konsultasi-proyek"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "page-layanan",
     "type": "page",
-    "status": "review",
+    "status": "published",
     "title": "Layanan Arkavena",
     "slug": "layanan",
     "description": "Cakupan layanan Arkavena meliputi pembangunan, renovasi, bangunan komersial, building maintenance, design and build, hingga manajemen konstruksi.",
@@ -520,9 +520,9 @@ export const contentManifest: ContentItem[] = [
       "korporat",
       "pelaksanaan"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -552,7 +552,7 @@ export const contentManifest: ContentItem[] = [
     },
     "faq": [],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "page": {
       "kind": "hub",
       "hubCollection": "services",
@@ -578,14 +578,14 @@ export const contentManifest: ContentItem[] = [
       "/mengapa-arkavena",
       "/cara-kerja"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "page-mengapa-arkavena",
     "type": "page",
-    "status": "review",
+    "status": "published",
     "title": "Mengapa Arkavena",
     "slug": "mengapa-arkavena",
     "description": "Arkavena mengendalikan ruang lingkup, biaya dan cashflow, jadwal, mutu, serta perubahan pekerjaan — bukan hanya melaksanakan pekerjaan fisik konstruksi.",
@@ -602,9 +602,9 @@ export const contentManifest: ContentItem[] = [
       "korporat",
       "risiko"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -634,7 +634,7 @@ export const contentManifest: ContentItem[] = [
     },
     "faq": [],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "page": {
       "kind": "corporate",
       "hubCollection": null,
@@ -660,14 +660,14 @@ export const contentManifest: ContentItem[] = [
       "/cara-kerja",
       "/layanan"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "page-panduan",
     "type": "page",
-    "status": "review",
+    "status": "published",
     "title": "Panduan Konstruksi Arkavena",
     "slug": "panduan",
     "description": "Pusat panduan Arkavena berisi informasi praktis seputar perencanaan, biaya, pelaksanaan, dan pengendalian proyek konstruksi serta perawatan bangunan.",
@@ -683,9 +683,9 @@ export const contentManifest: ContentItem[] = [
       "korporat",
       "dokumentasi"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -715,7 +715,7 @@ export const contentManifest: ContentItem[] = [
     },
     "faq": [],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "page": {
       "kind": "hub",
       "hubCollection": "guides",
@@ -741,7 +741,7 @@ export const contentManifest: ContentItem[] = [
       "/konsultasi-proyek",
       "/layanan"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -826,7 +826,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "page-sektor",
     "type": "page",
-    "status": "review",
+    "status": "published",
     "title": "Sektor Bangunan Arkavena",
     "slug": "sektor",
     "description": "Arkavena menyesuaikan pendekatan kerja dengan jenis bangunan — mulai dari rumah tinggal, ruko, gudang, pabrik, hingga fasilitas institusi.",
@@ -842,9 +842,9 @@ export const contentManifest: ContentItem[] = [
       "korporat",
       "struktur"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -874,7 +874,7 @@ export const contentManifest: ContentItem[] = [
     },
     "faq": [],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "page": {
       "kind": "hub",
       "hubCollection": "sectors",
@@ -899,14 +899,14 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [
       "/layanan"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "page-tentang",
     "type": "page",
-    "status": "review",
+    "status": "published",
     "title": "Tentang Arkavena",
     "slug": "tentang",
     "description": "Arkavena adalah identitas baru dari ManajemenKonstruksi.id, dibangun di atas prinsip transparansi, keterukuran, akuntabilitas, dan dokumentasi kerja.",
@@ -923,9 +923,9 @@ export const contentManifest: ContentItem[] = [
       "korporat",
       "dokumentasi"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -955,7 +955,7 @@ export const contentManifest: ContentItem[] = [
     },
     "faq": [],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "page": {
       "kind": "corporate",
       "hubCollection": null,
@@ -982,14 +982,14 @@ export const contentManifest: ContentItem[] = [
       "/wilayah",
       "/mengapa-arkavena"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "page-wilayah",
     "type": "page",
-    "status": "review",
+    "status": "published",
     "title": "Wilayah Layanan Arkavena",
     "slug": "wilayah",
     "description": "Arkavena melayani proyek konstruksi dan perawatan fasilitas di Surabaya, Sidoarjo, Gresik, Mojokerto, Pasuruan, dan Lamongan.",
@@ -1005,9 +1005,9 @@ export const contentManifest: ContentItem[] = [
       "korporat",
       "perencanaan"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -1037,7 +1037,7 @@ export const contentManifest: ContentItem[] = [
     },
     "faq": [],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "page": {
       "kind": "hub",
       "hubCollection": "locations",
@@ -1062,7 +1062,7 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [
       "/layanan"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {

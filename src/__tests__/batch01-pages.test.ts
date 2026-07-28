@@ -68,20 +68,34 @@ describe("Batch 01 — content/pages schema", () => {
     }
   });
 
-  it("seluruh halaman berstatus review menghasilkan noindex", () => {
-    for (const item of pages) {
-      expect(item.status).toBe("review");
-      expect(item.isIndexable).toBe(false);
+  it("owner-approved corporate/hub pages are published and indexable", () => {
+    // Approved 2026-07-28: all 12 pages except /proyek, which stays in
+    // review per its own documented exception (no verified projects yet).
+    for (const item of pages.filter((p) => p.slug !== "proyek")) {
+      expect(item.status).toBe("published");
+      expect(item.ownerVerified).toBe(true);
+      expect(item.isIndexable).toBe(true);
       expect(item.isFollowable).toBe(true);
     }
   });
 
-  it("/proyek memaksa noindex melalui page.index meskipun kelak published", () => {
+  it("/proyek tetap review dan noindex meskipun batch lain sudah dipromosikan", () => {
     const proyek = pages.find((item) => item.slug === "proyek");
+    expect(proyek?.status).toBe("review");
+    expect(proyek?.ownerVerified).toBe(false);
+    expect(proyek?.isIndexable).toBe(false);
     expect(proyek?.type).toBe("page");
     if (proyek?.type === "page") {
       expect(proyek.page.index).toBe(false);
       expect(proyek.page.showInPrimaryNavigation).toBe(false);
+    }
+  });
+
+  it("/proyek akan tetap memaksa noindex melalui page.index seandainya dipromosikan tanpa mengubah flag ini", () => {
+    // Guards the safety net itself, independent of current status.
+    const proyek = pages.find((item) => item.slug === "proyek");
+    if (proyek?.type === "page") {
+      expect(proyek.page.index).toBe(false);
     }
   });
 
@@ -103,12 +117,14 @@ describe("Batch 01 — content/pages schema", () => {
     }
   });
 
-  it("ownerVerified: false berarti tidak ada satu pun halaman baru masuk sitemap", () => {
+  it("published+ownerVerified pages masuk sitemap; /proyek tidak", () => {
     const eligible = selectSitemapItems(items).map((item) => item.route);
-    for (const slug of REQUIRED_PAGE_SLUGS) {
+    for (const slug of REQUIRED_PAGE_SLUGS.filter((s) => s !== "proyek")) {
       const item = pages.find((p) => p.slug === slug);
-      expect(eligible).not.toContain(item?.route);
+      expect(eligible).toContain(item?.route);
     }
+    const proyek = pages.find((item) => item.slug === "proyek");
+    expect(eligible).not.toContain(proyek?.route);
   });
 });
 

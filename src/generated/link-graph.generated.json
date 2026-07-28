@@ -1,22 +1,50 @@
 {
-  "generatedAt": "2026-07-27T23:56:24.168Z",
+  "generatedAt": "2026-07-28T00:10:10.539Z",
   "nodes": {
     "page-cara-kerja": {
       "id": "page-cara-kerja",
       "route": "/cara-kerja",
       "type": "page",
       "outbound": [
+        "page-faq",
         "page-konsultasi-proyek",
-        "page-layanan"
+        "page-layanan",
+        "page-mengapa-arkavena",
+        "page-panduan",
+        "page-tentang"
       ],
       "inbound": [
         "guide-contoh-panduan",
         "page-faq",
         "page-home",
+        "page-konsultasi-proyek",
+        "page-kontak",
         "page-layanan",
-        "page-mengapa-arkavena"
+        "page-mengapa-arkavena",
+        "page-panduan",
+        "page-proyek",
+        "page-sektor",
+        "page-tentang",
+        "page-wilayah"
       ],
-      "related": []
+      "related": [
+        {
+          "id": "page-faq",
+          "score": 23
+        },
+        {
+          "id": "page-mengapa-arkavena",
+          "score": 23
+        },
+        {
+          "id": "page-panduan",
+          "score": 23
+        },
+        {
+          "id": "page-tentang",
+          "score": 23
+        }
+      ]
     },
     "page-faq": {
       "id": "page-faq",
@@ -25,10 +53,43 @@
       "outbound": [
         "page-cara-kerja",
         "page-konsultasi-proyek",
-        "page-layanan"
+        "page-layanan",
+        "page-mengapa-arkavena",
+        "page-panduan",
+        "page-tentang"
       ],
-      "inbound": [],
-      "related": []
+      "inbound": [
+        "guide-contoh-panduan",
+        "page-cara-kerja",
+        "page-home",
+        "page-konsultasi-proyek",
+        "page-kontak",
+        "page-layanan",
+        "page-mengapa-arkavena",
+        "page-panduan",
+        "page-proyek",
+        "page-sektor",
+        "page-tentang",
+        "page-wilayah"
+      ],
+      "related": [
+        {
+          "id": "page-cara-kerja",
+          "score": 23
+        },
+        {
+          "id": "page-mengapa-arkavena",
+          "score": 23
+        },
+        {
+          "id": "page-panduan",
+          "score": 23
+        },
+        {
+          "id": "page-tentang",
+          "score": 23
+        }
+      ]
     },
     "page-home": {
       "id": "page-home",
@@ -36,41 +97,111 @@
       "type": "page",
       "outbound": [
         "page-cara-kerja",
+        "page-faq",
+        "page-konsultasi-proyek",
+        "page-kontak",
         "page-layanan",
         "page-sektor",
         "page-wilayah"
       ],
-      "inbound": [],
-      "related": []
+      "inbound": [
+        "page-konsultasi-proyek",
+        "page-kontak",
+        "page-layanan",
+        "page-sektor"
+      ],
+      "related": [
+        {
+          "id": "page-kontak",
+          "score": 23
+        },
+        {
+          "id": "page-cara-kerja",
+          "score": 21
+        },
+        {
+          "id": "page-faq",
+          "score": 21
+        },
+        {
+          "id": "page-konsultasi-proyek",
+          "score": 21
+        }
+      ]
     },
     "page-konsultasi-proyek": {
       "id": "page-konsultasi-proyek",
       "route": "/konsultasi-proyek",
       "type": "page",
       "outbound": [
+        "page-cara-kerja",
+        "page-faq",
+        "page-home",
         "page-kontak"
       ],
       "inbound": [
+        "loc-contoh-wilayah",
         "page-cara-kerja",
         "page-faq",
+        "page-home",
         "page-kontak",
-        "page-panduan"
+        "page-panduan",
+        "sec-contoh-sektor",
+        "svc-contoh-layanan"
       ],
-      "related": []
+      "related": [
+        {
+          "id": "page-cara-kerja",
+          "score": 21
+        },
+        {
+          "id": "page-faq",
+          "score": 21
+        },
+        {
+          "id": "page-home",
+          "score": 21
+        },
+        {
+          "id": "page-kontak",
+          "score": 21
+        }
+      ]
     },
     "page-kontak": {
       "id": "page-kontak",
       "route": "/kontak",
       "type": "page",
       "outbound": [
+        "page-cara-kerja",
+        "page-faq",
+        "page-home",
         "page-konsultasi-proyek",
         "page-wilayah"
       ],
       "inbound": [
+        "page-home",
         "page-konsultasi-proyek",
         "svc-contoh-layanan"
       ],
-      "related": []
+      "related": [
+        {
+          "id": "page-home",
+          "score": 23
+        },
+        {
+          "id": "page-cara-kerja",
+          "score": 21
+        },
+        {
+          "id": "page-faq",
+          "score": 21
+        },
+        {
+          "id": "page-konsultasi-proyek",
+          "score": 21
+        }
+      ]
     },
     "page-layanan": {
       "id": "page-layanan",
@@ -78,7 +209,10 @@
       "type": "page",
       "outbound": [
         "page-cara-kerja",
-        "page-mengapa-arkavena"
+        "page-faq",
+        "page-home",
+        "page-mengapa-arkavena",
+        "page-sektor"
       ],
       "inbound": [
         "page-cara-kerja",
@@ -91,7 +225,24 @@
         "page-tentang",
         "page-wilayah"
       ],
-      "related": []
+      "related": [
+        {
+          "id": "page-sektor",
+          "score": 23
+        },
+        {
+          "id": "page-cara-kerja",
+          "score": 21
+        },
+        {
+          "id": "page-faq",
+          "score": 21
+        },
+        {
+          "id": "page-home",
+          "score": 21
+        }
+      ]
     },
     "page-mengapa-arkavena": {
       "id": "page-mengapa-arkavena",
@@ -99,108 +250,289 @@
       "type": "page",
       "outbound": [
         "page-cara-kerja",
-        "page-layanan"
-      ],
-      "inbound": [
+        "page-faq",
         "page-layanan",
+        "page-panduan",
         "page-tentang"
       ],
-      "related": []
+      "inbound": [
+        "guide-contoh-panduan",
+        "page-cara-kerja",
+        "page-faq",
+        "page-layanan",
+        "page-panduan",
+        "page-proyek",
+        "page-tentang"
+      ],
+      "related": [
+        {
+          "id": "page-cara-kerja",
+          "score": 23
+        },
+        {
+          "id": "page-faq",
+          "score": 23
+        },
+        {
+          "id": "page-panduan",
+          "score": 23
+        },
+        {
+          "id": "page-tentang",
+          "score": 23
+        }
+      ]
     },
     "page-panduan": {
       "id": "page-panduan",
       "route": "/panduan",
       "type": "page",
       "outbound": [
+        "page-cara-kerja",
+        "page-faq",
         "page-konsultasi-proyek",
-        "page-layanan"
+        "page-layanan",
+        "page-mengapa-arkavena",
+        "page-tentang"
       ],
-      "inbound": [],
-      "related": []
+      "inbound": [
+        "guide-contoh-panduan",
+        "page-cara-kerja",
+        "page-faq",
+        "page-mengapa-arkavena",
+        "page-proyek",
+        "page-tentang"
+      ],
+      "related": [
+        {
+          "id": "page-cara-kerja",
+          "score": 23
+        },
+        {
+          "id": "page-faq",
+          "score": 23
+        },
+        {
+          "id": "page-mengapa-arkavena",
+          "score": 23
+        },
+        {
+          "id": "page-tentang",
+          "score": 23
+        }
+      ]
     },
     "page-proyek": {
       "id": "page-proyek",
       "route": "/proyek",
       "type": "page",
       "outbound": [
-        "page-layanan"
+        "page-cara-kerja",
+        "page-faq",
+        "page-layanan",
+        "page-mengapa-arkavena",
+        "page-panduan"
       ],
       "inbound": [],
-      "related": []
+      "related": [
+        {
+          "id": "page-cara-kerja",
+          "score": 3
+        },
+        {
+          "id": "page-faq",
+          "score": 3
+        },
+        {
+          "id": "page-mengapa-arkavena",
+          "score": 3
+        },
+        {
+          "id": "page-panduan",
+          "score": 3
+        }
+      ]
     },
     "page-sektor": {
       "id": "page-sektor",
       "route": "/sektor",
       "type": "page",
       "outbound": [
+        "page-cara-kerja",
+        "page-faq",
+        "page-home",
         "page-layanan"
       ],
       "inbound": [
-        "page-home"
+        "page-home",
+        "page-layanan",
+        "page-wilayah"
       ],
-      "related": []
+      "related": [
+        {
+          "id": "page-layanan",
+          "score": 23
+        },
+        {
+          "id": "page-cara-kerja",
+          "score": 21
+        },
+        {
+          "id": "page-faq",
+          "score": 21
+        },
+        {
+          "id": "page-home",
+          "score": 21
+        }
+      ]
     },
     "page-tentang": {
       "id": "page-tentang",
       "route": "/tentang",
       "type": "page",
       "outbound": [
+        "page-cara-kerja",
+        "page-faq",
         "page-layanan",
         "page-mengapa-arkavena",
+        "page-panduan",
         "page-wilayah"
       ],
-      "inbound": [],
-      "related": []
+      "inbound": [
+        "page-cara-kerja",
+        "page-faq",
+        "page-mengapa-arkavena",
+        "page-panduan"
+      ],
+      "related": [
+        {
+          "id": "page-cara-kerja",
+          "score": 23
+        },
+        {
+          "id": "page-faq",
+          "score": 23
+        },
+        {
+          "id": "page-mengapa-arkavena",
+          "score": 23
+        },
+        {
+          "id": "page-panduan",
+          "score": 23
+        }
+      ]
     },
     "page-wilayah": {
       "id": "page-wilayah",
       "route": "/wilayah",
       "type": "page",
       "outbound": [
-        "page-layanan"
+        "page-cara-kerja",
+        "page-faq",
+        "page-layanan",
+        "page-sektor"
       ],
       "inbound": [
         "page-home",
         "page-kontak",
         "page-tentang"
       ],
-      "related": []
+      "related": [
+        {
+          "id": "page-layanan",
+          "score": 3
+        },
+        {
+          "id": "page-sektor",
+          "score": 3
+        },
+        {
+          "id": "page-cara-kerja",
+          "score": 1
+        },
+        {
+          "id": "page-faq",
+          "score": 1
+        }
+      ]
     },
     "svc-contoh-layanan": {
       "id": "svc-contoh-layanan",
       "route": "/layanan/contoh-layanan",
       "type": "service",
       "outbound": [
+        "page-konsultasi-proyek",
         "page-kontak"
       ],
       "inbound": [],
-      "related": []
+      "related": [
+        {
+          "id": "page-konsultasi-proyek",
+          "score": 2
+        }
+      ]
     },
     "sec-contoh-sektor": {
       "id": "sec-contoh-sektor",
       "route": "/sektor/contoh-sektor",
       "type": "sector",
-      "outbound": [],
+      "outbound": [
+        "page-konsultasi-proyek"
+      ],
       "inbound": [],
-      "related": []
+      "related": [
+        {
+          "id": "page-konsultasi-proyek",
+          "score": 2
+        }
+      ]
     },
     "loc-contoh-wilayah": {
       "id": "loc-contoh-wilayah",
       "route": "/wilayah/contoh-wilayah",
       "type": "location",
-      "outbound": [],
+      "outbound": [
+        "page-konsultasi-proyek"
+      ],
       "inbound": [],
-      "related": []
+      "related": [
+        {
+          "id": "page-konsultasi-proyek",
+          "score": 2
+        }
+      ]
     },
     "guide-contoh-panduan": {
       "id": "guide-contoh-panduan",
       "route": "/panduan/contoh-panduan",
       "type": "guide",
       "outbound": [
-        "page-cara-kerja"
+        "page-cara-kerja",
+        "page-faq",
+        "page-mengapa-arkavena",
+        "page-panduan"
       ],
       "inbound": [],
-      "related": []
+      "related": [
+        {
+          "id": "page-cara-kerja",
+          "score": 2
+        },
+        {
+          "id": "page-faq",
+          "score": 2
+        },
+        {
+          "id": "page-mengapa-arkavena",
+          "score": 2
+        },
+        {
+          "id": "page-panduan",
+          "score": 2
+        }
+      ]
     }
   }
 }

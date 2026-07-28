@@ -38,10 +38,10 @@ describe("Batch 01 — metadata", () => {
     expect(metadata.robots).toMatchObject({ index: false, follow: true });
   });
 
-  it("seluruh halaman review menghasilkan noindex,follow", () => {
-    for (const item of pages) {
+  it("published+ownerVerified pages menghasilkan index,follow; /proyek tetap noindex", () => {
+    for (const item of pages.filter((p) => p.slug !== "proyek")) {
       const metadata = buildMetadata(item);
-      expect(metadata.robots).toMatchObject({ index: false, follow: true });
+      expect(metadata.robots).toMatchObject({ index: true, follow: true });
     }
   });
 
