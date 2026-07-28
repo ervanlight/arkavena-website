@@ -4,7 +4,6 @@
 **Version:** 1.0  
 **Date:** 2026-07-26  
 **Primary domain:** `https://arkavena.com`  
-**Previous domain:** `https://manajemenkonstruksi.id`  
 **Implementation owner:** Claude Code  
 **Business reviewer:** Owner Arkavena  
 **Fixed stack:** Next.js App Router, GitHub, Vercel
@@ -22,9 +21,8 @@ The system must:
 3. Separate content, presentation, SEO metadata, structured data, and internal-linking logic.
 4. Build all public content statically where possible.
 5. prevent duplicate, thin, doorway-like, or unsupported location pages.
-6. Preserve relevant SEO signals from `manajemenkonstruksi.id`.
-7. Allow work to be delivered in reviewable batches through Git branches and Vercel Preview Deployments.
-8. Make claims, project details, prices, locations, and credentials publishable only after owner verification.
+6. Allow work to be delivered in reviewable batches through Git branches and Vercel Preview Deployments.
+7. Make claims, project details, prices, locations, and credentials publishable only after owner verification.
 
 ---
 
@@ -1329,46 +1327,15 @@ Implementation rules:
 
 ---
 
-## 13. Domain migration from ManajemenKonstruksi.id
+## 13. Domain migration
 
-This migration is a launch-critical workstream, not an optional cleanup task.
-
-## 13.1 Required deliverables
-
-1. Export every indexable old URL.
-2. Export old sitemap URLs.
-3. Collect top landing pages from analytics.
-4. Collect linked pages from Search Console.
-5. Create `migration/redirect-map.csv`:
-
-```csv
-old_url,new_url,reason,status,verified
-https://manajemenkonstruksi.id/old-page,https://arkavena.com/new-page,closest-equivalent,301,true
-```
-
-6. Implement one-to-one `301` or `308` redirects.
-7. Avoid redirect chains.
-8. Do not redirect unrelated old URLs to the homepage.
-9. Update canonical URLs, internal links, images, and sitemap references.
-10. Verify old and new domain properties in Search Console.
-11. Submit Change of Address.
-12. Submit the new sitemap.
-13. Monitor 404s, soft 404s, indexed counts, clicks, and impressions.
-14. Keep redirects for at least one year; preferably retain valuable redirects longer.
-
-Google recommends permanent server-side redirects, a URL-by-URL mapping, avoiding irrelevant homepage redirects, submitting Change of Address, and retaining redirects generally for at least one year. citeturn664593view0turn664593view2turn664593view3
-
-## 13.2 Migration launch gate
-
-Do not switch the old domain until:
-
-- the new site has passed production QA,
-- the redirect map is complete,
-- all major old URLs have valid destinations,
-- canonicals use Arkavena URLs,
-- no production page is accidentally `noindex`,
-- analytics and Search Console are ready,
-- the owner approves launch.
+Not applicable. There is no prior live domain to migrate from — `arkavena.com`
+is the only domain this site has ever run on. Any earlier reference to a
+different domain in this repository's history was a placeholder/concept that
+was never actually deployed; it has been removed (owner confirmation,
+2026-07-28). If a genuine domain migration is ever needed in the future, this
+section should be rewritten with the real old domain, real redirect-map
+deliverables, and a real launch gate at that time — not restored from history.
 
 ---
 
@@ -1739,7 +1706,6 @@ The owner must provide:
 business:
   brandName: Arkavena
   legalName: null
-  previousBrandName: ManajemenKonstruksi.id
   website: https://arkavena.com
   logo: /images/brand/logo.svg
   phone: null

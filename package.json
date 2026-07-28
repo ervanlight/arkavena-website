@@ -13,6 +13,7 @@
     "content:links": "tsx scripts/validate-links.ts",
     "content:audit": "tsx scripts/audit-indexability.ts",
     "content:redirects": "tsx scripts/generate-redirect-report.ts",
+    "migration:launch-manifest": "tsx scripts/generate-launch-manifest.ts",
     "typecheck": "tsc --noEmit",
     "lint": "eslint",
     "test": "vitest run",
