@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T13:26:21.583Z",
+  "generatedAt": "2026-07-28T15:05:41.555Z",
   "nodes": {
     "page-cara-kerja": {
       "id": "page-cara-kerja",
@@ -573,7 +573,18 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-gudang",
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-klinik",
+        "guide-biaya-bangun-kos",
+        "guide-biaya-bangun-masjid",
+        "guide-biaya-bangun-pabrik",
+        "guide-biaya-bangun-restoran",
+        "guide-biaya-bangun-ruko",
+        "guide-biaya-bangun-sekolah",
         "guide-contoh-panduan",
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-gresik",
         "loc-pasuruan",
         "loc-sidoarjo",
@@ -696,6 +707,7 @@
         "svc-preventive-maintenance-bangunan"
       ],
       "inbound": [
+        "guide-biaya-bangun-masjid",
         "guide-contoh-panduan",
         "loc-pasuruan",
         "project-hunian-lamongan-2022",
@@ -811,6 +823,7 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-lamongan",
         "loc-malang",
         "loc-mojokerto",
@@ -904,6 +917,11 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-restoran",
+        "guide-biaya-bangun-ruko",
+        "guide-tahapan-proyek-bangunan-komersial",
         "sec-cafe",
         "sec-kantor",
         "sec-restoran",
@@ -944,6 +962,10 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-biaya-bangun-gudang",
+        "guide-biaya-bangun-pabrik",
+        "guide-biaya-bangun-restoran",
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-gresik",
         "loc-pasuruan",
         "loc-surabaya",
@@ -996,6 +1018,7 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-biaya-bangun-klinik",
         "loc-gresik",
         "sec-hotel",
         "sec-klinik",
@@ -1042,6 +1065,9 @@
         "svc-pengendalian-jadwal-proyek"
       ],
       "inbound": [
+        "guide-biaya-bangun-masjid",
+        "guide-biaya-bangun-sekolah",
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-gresik",
         "loc-lamongan",
         "loc-malang",
@@ -1106,9 +1132,15 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-gudang",
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-kos",
+        "guide-biaya-bangun-ruko",
         "guide-biaya-renovasi-rumah",
         "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-risiko-pembengkakan-biaya-renovasi",
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-sidoarjo",
         "sec-gudang",
         "sec-kantor",
@@ -1197,6 +1229,7 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-pasuruan",
         "sec-gudang",
         "sec-pabrik",
@@ -1302,6 +1335,10 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "guide-biaya-bangun-klinik",
+        "guide-biaya-bangun-pabrik",
+        "guide-biaya-bangun-sekolah",
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-gresik",
         "sec-gudang",
         "sec-klinik",
@@ -1447,6 +1484,8 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "guide-biaya-bangun-kos",
+        "guide-tahapan-proyek-bangunan-komersial",
         "sec-kos",
         "sec-rumah-tinggal",
         "sec-villa",
@@ -1495,6 +1534,17 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-gudang",
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-klinik",
+        "guide-biaya-bangun-kos",
+        "guide-biaya-bangun-masjid",
+        "guide-biaya-bangun-pabrik",
+        "guide-biaya-bangun-restoran",
+        "guide-biaya-bangun-ruko",
+        "guide-biaya-bangun-sekolah",
+        "guide-tahapan-proyek-bangunan-komersial",
         "sec-gudang",
         "sec-hotel",
         "sec-kantor",
@@ -1579,6 +1629,17 @@
         "svc-quality-control-konstruksi"
       ],
       "inbound": [
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-gudang",
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-klinik",
+        "guide-biaya-bangun-kos",
+        "guide-biaya-bangun-masjid",
+        "guide-biaya-bangun-pabrik",
+        "guide-biaya-bangun-restoran",
+        "guide-biaya-bangun-ruko",
+        "guide-biaya-bangun-sekolah",
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-gresik",
         "loc-pasuruan",
         "sec-cafe",
@@ -1633,6 +1694,17 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-gudang",
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-klinik",
+        "guide-biaya-bangun-kos",
+        "guide-biaya-bangun-masjid",
+        "guide-biaya-bangun-pabrik",
+        "guide-biaya-bangun-restoran",
+        "guide-biaya-bangun-ruko",
+        "guide-biaya-bangun-sekolah",
+        "guide-tahapan-proyek-bangunan-komersial",
         "sec-cafe",
         "sec-gudang",
         "sec-kantor",
@@ -1685,6 +1757,9 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-klinik",
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-surabaya",
         "sec-cafe",
         "sec-gudang",
@@ -1737,6 +1812,8 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-biaya-bangun-klinik",
+        "guide-tahapan-proyek-bangunan-komersial",
         "sec-cafe",
         "sec-gudang",
         "sec-hotel",
@@ -1780,6 +1857,8 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-biaya-bangun-kos",
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-malang",
         "loc-sidoarjo",
         "loc-surabaya",
@@ -1824,6 +1903,8 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-biaya-bangun-masjid",
+        "guide-tahapan-proyek-bangunan-komersial",
         "sec-sekolah",
         "svc-building-maintenance"
       ],
@@ -1866,6 +1947,8 @@
         "svc-quality-control-konstruksi"
       ],
       "inbound": [
+        "guide-biaya-bangun-pabrik",
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-gresik",
         "loc-pasuruan"
       ],
@@ -1907,6 +1990,8 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-biaya-bangun-restoran",
+        "guide-tahapan-proyek-bangunan-komersial",
         "svc-interior-fit-out"
       ],
       "related": [
@@ -1947,6 +2032,8 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-biaya-bangun-ruko",
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-mojokerto",
         "loc-sidoarjo",
         "sec-showroom-retail",
@@ -2060,6 +2147,8 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-biaya-bangun-sekolah",
+        "guide-tahapan-proyek-bangunan-komersial",
         "sec-masjid"
       ],
       "related": [
@@ -2533,6 +2622,369 @@
         }
       ]
     },
+    "guide-biaya-bangun-cafe": {
+      "id": "guide-biaya-bangun-cafe",
+      "route": "/panduan/biaya-bangun-cafe",
+      "type": "guide",
+      "outbound": [
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-restoran",
+        "guide-biaya-bangun-ruko",
+        "guide-tahapan-proyek-bangunan-komersial",
+        "sec-cafe",
+        "sec-gudang",
+        "sec-hotel",
+        "svc-bangun-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "inbound": [
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-restoran",
+        "guide-biaya-bangun-ruko",
+        "guide-tahapan-proyek-bangunan-komersial"
+      ],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 40
+        },
+        {
+          "id": "sec-cafe",
+          "score": 40
+        },
+        {
+          "id": "sec-gudang",
+          "score": 40
+        },
+        {
+          "id": "sec-hotel",
+          "score": 40
+        }
+      ]
+    },
+    "guide-biaya-bangun-gudang": {
+      "id": "guide-biaya-bangun-gudang",
+      "route": "/panduan/biaya-bangun-gudang",
+      "type": "guide",
+      "outbound": [
+        "guide-biaya-bangun-pabrik",
+        "guide-tahapan-proyek-bangunan-komersial",
+        "sec-cafe",
+        "sec-gudang",
+        "sec-hotel",
+        "svc-bangun-bangunan-komersial",
+        "svc-manajemen-konstruksi",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "inbound": [
+        "guide-biaya-bangun-pabrik",
+        "guide-tahapan-proyek-bangunan-komersial"
+      ],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 40
+        },
+        {
+          "id": "sec-cafe",
+          "score": 40
+        },
+        {
+          "id": "sec-gudang",
+          "score": 40
+        },
+        {
+          "id": "sec-hotel",
+          "score": 40
+        }
+      ]
+    },
+    "guide-biaya-bangun-kantor": {
+      "id": "guide-biaya-bangun-kantor",
+      "route": "/panduan/biaya-bangun-kantor",
+      "type": "guide",
+      "outbound": [
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-restoran",
+        "guide-biaya-bangun-ruko",
+        "guide-tahapan-proyek-bangunan-komersial",
+        "sec-cafe",
+        "sec-gudang",
+        "sec-hotel",
+        "sec-kantor",
+        "svc-bangun-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "inbound": [
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-restoran",
+        "guide-biaya-bangun-ruko",
+        "guide-tahapan-proyek-bangunan-komersial"
+      ],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 40
+        },
+        {
+          "id": "sec-cafe",
+          "score": 40
+        },
+        {
+          "id": "sec-gudang",
+          "score": 40
+        },
+        {
+          "id": "sec-hotel",
+          "score": 40
+        }
+      ]
+    },
+    "guide-biaya-bangun-klinik": {
+      "id": "guide-biaya-bangun-klinik",
+      "route": "/panduan/biaya-bangun-klinik",
+      "type": "guide",
+      "outbound": [
+        "guide-biaya-bangun-masjid",
+        "guide-biaya-bangun-sekolah",
+        "guide-tahapan-proyek-bangunan-komersial",
+        "sec-cafe",
+        "sec-gudang",
+        "sec-hotel",
+        "sec-kantor",
+        "sec-klinik",
+        "svc-bangun-bangunan-komersial",
+        "svc-owner-representative",
+        "svc-quality-control-konstruksi"
+      ],
+      "inbound": [
+        "guide-biaya-bangun-masjid",
+        "guide-biaya-bangun-sekolah",
+        "guide-tahapan-proyek-bangunan-komersial"
+      ],
+      "related": [
+        {
+          "id": "sec-cafe",
+          "score": 40
+        },
+        {
+          "id": "sec-gudang",
+          "score": 40
+        },
+        {
+          "id": "sec-hotel",
+          "score": 40
+        },
+        {
+          "id": "sec-kantor",
+          "score": 40
+        }
+      ]
+    },
+    "guide-biaya-bangun-kos": {
+      "id": "guide-biaya-bangun-kos",
+      "route": "/panduan/biaya-bangun-kos",
+      "type": "guide",
+      "outbound": [
+        "guide-biaya-bangun-ruko",
+        "guide-tahapan-proyek-bangunan-komersial",
+        "sec-cafe",
+        "sec-gudang",
+        "sec-hotel",
+        "sec-kos",
+        "svc-bangun-bangunan-komersial",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ],
+      "inbound": [
+        "guide-biaya-bangun-ruko",
+        "guide-tahapan-proyek-bangunan-komersial"
+      ],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 40
+        },
+        {
+          "id": "sec-cafe",
+          "score": 40
+        },
+        {
+          "id": "sec-gudang",
+          "score": 40
+        },
+        {
+          "id": "sec-hotel",
+          "score": 40
+        }
+      ]
+    },
+    "guide-biaya-bangun-masjid": {
+      "id": "guide-biaya-bangun-masjid",
+      "route": "/panduan/biaya-bangun-masjid",
+      "type": "guide",
+      "outbound": [
+        "guide-biaya-bangun-klinik",
+        "guide-biaya-bangun-sekolah",
+        "guide-tahapan-proyek-bangunan-komersial",
+        "sec-cafe",
+        "sec-gudang",
+        "sec-hotel",
+        "sec-masjid",
+        "svc-bangun-bangunan-komersial",
+        "svc-building-maintenance",
+        "svc-pengawasan-proyek"
+      ],
+      "inbound": [
+        "guide-biaya-bangun-klinik",
+        "guide-biaya-bangun-sekolah",
+        "guide-tahapan-proyek-bangunan-komersial"
+      ],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 40
+        },
+        {
+          "id": "sec-cafe",
+          "score": 40
+        },
+        {
+          "id": "sec-gudang",
+          "score": 40
+        },
+        {
+          "id": "sec-hotel",
+          "score": 40
+        }
+      ]
+    },
+    "guide-biaya-bangun-pabrik": {
+      "id": "guide-biaya-bangun-pabrik",
+      "route": "/panduan/biaya-bangun-pabrik",
+      "type": "guide",
+      "outbound": [
+        "guide-biaya-bangun-gudang",
+        "guide-tahapan-proyek-bangunan-komersial",
+        "sec-cafe",
+        "sec-gudang",
+        "sec-hotel",
+        "sec-pabrik",
+        "svc-bangun-bangunan-komersial",
+        "svc-manajemen-konstruksi",
+        "svc-quality-control-konstruksi"
+      ],
+      "inbound": [
+        "guide-biaya-bangun-gudang",
+        "guide-tahapan-proyek-bangunan-komersial"
+      ],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 40
+        },
+        {
+          "id": "sec-cafe",
+          "score": 40
+        },
+        {
+          "id": "sec-gudang",
+          "score": 40
+        },
+        {
+          "id": "sec-hotel",
+          "score": 40
+        }
+      ]
+    },
+    "guide-biaya-bangun-restoran": {
+      "id": "guide-biaya-bangun-restoran",
+      "route": "/panduan/biaya-bangun-restoran",
+      "type": "guide",
+      "outbound": [
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-ruko",
+        "guide-tahapan-proyek-bangunan-komersial",
+        "sec-cafe",
+        "sec-gudang",
+        "sec-hotel",
+        "sec-restoran",
+        "svc-bangun-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-manajemen-konstruksi"
+      ],
+      "inbound": [
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-ruko",
+        "guide-tahapan-proyek-bangunan-komersial"
+      ],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 40
+        },
+        {
+          "id": "sec-cafe",
+          "score": 40
+        },
+        {
+          "id": "sec-gudang",
+          "score": 40
+        },
+        {
+          "id": "sec-hotel",
+          "score": 40
+        }
+      ]
+    },
+    "guide-biaya-bangun-ruko": {
+      "id": "guide-biaya-bangun-ruko",
+      "route": "/panduan/biaya-bangun-ruko",
+      "type": "guide",
+      "outbound": [
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-kos",
+        "guide-biaya-bangun-restoran",
+        "guide-tahapan-proyek-bangunan-komersial",
+        "sec-cafe",
+        "sec-gudang",
+        "sec-hotel",
+        "sec-ruko",
+        "svc-bangun-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "inbound": [
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-kos",
+        "guide-biaya-bangun-restoran",
+        "guide-tahapan-proyek-bangunan-komersial"
+      ],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 40
+        },
+        {
+          "id": "sec-cafe",
+          "score": 40
+        },
+        {
+          "id": "sec-gudang",
+          "score": 40
+        },
+        {
+          "id": "sec-hotel",
+          "score": 40
+        }
+      ]
+    },
     "guide-biaya-bangun-rumah-per-meter": {
       "id": "guide-biaya-bangun-rumah-per-meter",
       "route": "/panduan/biaya-bangun-rumah-per-meter",
@@ -2579,6 +3031,46 @@
         {
           "id": "guide-cara-menghitung-biaya-bangun-rumah",
           "score": 43
+        }
+      ]
+    },
+    "guide-biaya-bangun-sekolah": {
+      "id": "guide-biaya-bangun-sekolah",
+      "route": "/panduan/biaya-bangun-sekolah",
+      "type": "guide",
+      "outbound": [
+        "guide-biaya-bangun-klinik",
+        "guide-biaya-bangun-masjid",
+        "guide-tahapan-proyek-bangunan-komersial",
+        "sec-cafe",
+        "sec-gudang",
+        "sec-hotel",
+        "sec-sekolah",
+        "svc-bangun-bangunan-komersial",
+        "svc-pengawasan-proyek",
+        "svc-quality-control-konstruksi"
+      ],
+      "inbound": [
+        "guide-biaya-bangun-klinik",
+        "guide-biaya-bangun-masjid",
+        "guide-tahapan-proyek-bangunan-komersial"
+      ],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 40
+        },
+        {
+          "id": "sec-cafe",
+          "score": 40
+        },
+        {
+          "id": "sec-gudang",
+          "score": 40
+        },
+        {
+          "id": "sec-hotel",
+          "score": 40
         }
       ]
     },
@@ -3549,6 +4041,73 @@
         {
           "id": "guide-cara-menghitung-biaya-bangun-rumah",
           "score": 45
+        }
+      ]
+    },
+    "guide-tahapan-proyek-bangunan-komersial": {
+      "id": "guide-tahapan-proyek-bangunan-komersial",
+      "route": "/panduan/tahapan-proyek-bangunan-komersial",
+      "type": "guide",
+      "outbound": [
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-gudang",
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-klinik",
+        "guide-biaya-bangun-kos",
+        "guide-biaya-bangun-masjid",
+        "guide-biaya-bangun-pabrik",
+        "guide-biaya-bangun-restoran",
+        "guide-biaya-bangun-ruko",
+        "guide-biaya-bangun-sekolah",
+        "sec-cafe",
+        "sec-gudang",
+        "sec-hotel",
+        "sec-kantor",
+        "sec-klinik",
+        "sec-kos",
+        "sec-masjid",
+        "sec-pabrik",
+        "sec-restoran",
+        "sec-ruko",
+        "sec-sekolah",
+        "svc-bangun-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-interior-fit-out",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-pengendalian-jadwal-proyek",
+        "svc-quality-control-konstruksi",
+        "svc-value-engineering"
+      ],
+      "inbound": [
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-gudang",
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-klinik",
+        "guide-biaya-bangun-kos",
+        "guide-biaya-bangun-masjid",
+        "guide-biaya-bangun-pabrik",
+        "guide-biaya-bangun-restoran",
+        "guide-biaya-bangun-ruko",
+        "guide-biaya-bangun-sekolah"
+      ],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 40
+        },
+        {
+          "id": "sec-cafe",
+          "score": 40
+        },
+        {
+          "id": "sec-gudang",
+          "score": 40
+        },
+        {
+          "id": "sec-hotel",
+          "score": 40
         }
       ]
     },
