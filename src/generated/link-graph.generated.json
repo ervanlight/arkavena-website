@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T06:55:44.243Z",
+  "generatedAt": "2026-07-28T11:23:52.534Z",
   "nodes": {
     "page-cara-kerja": {
       "id": "page-cara-kerja",
@@ -526,7 +526,10 @@
         "svc-penyusunan-rab"
       ],
       "inbound": [
+        "guide-biaya-renovasi-rumah",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-contoh-panduan",
+        "guide-risiko-pembengkakan-biaya-renovasi",
         "project-hunian-lamongan-2022",
         "project-kos-dau-malang-2020",
         "project-kos-sidoarjo-2023-2026",
@@ -575,7 +578,10 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "guide-biaya-renovasi-rumah",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-contoh-panduan",
+        "guide-risiko-pembengkakan-biaya-renovasi",
         "loc-gresik",
         "loc-pasuruan",
         "loc-sidoarjo",
@@ -1108,6 +1114,9 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-biaya-renovasi-rumah",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-risiko-pembengkakan-biaya-renovasi",
         "loc-sidoarjo",
         "sec-gudang",
         "sec-kantor",
@@ -1343,6 +1352,20 @@
         "svc-renovasi-rumah"
       ],
       "inbound": [
+        "guide-biaya-renovasi-rumah",
+        "guide-cara-memilih-kontraktor-renovasi",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-memperkuat-struktur-rumah-lama",
+        "guide-renovasi-atap-bocor",
+        "guide-renovasi-dapur",
+        "guide-renovasi-fasad-rumah",
+        "guide-renovasi-kamar-mandi",
+        "guide-renovasi-rumah-sambil-dihuni",
+        "guide-renovasi-rumah-satu-jadi-dua-lantai",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-risiko-pembengkakan-biaya-renovasi",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
         "sec-cafe",
         "sec-hotel",
         "sec-kantor",
@@ -1390,6 +1413,20 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-biaya-renovasi-rumah",
+        "guide-cara-memilih-kontraktor-renovasi",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-memperkuat-struktur-rumah-lama",
+        "guide-renovasi-atap-bocor",
+        "guide-renovasi-dapur",
+        "guide-renovasi-fasad-rumah",
+        "guide-renovasi-kamar-mandi",
+        "guide-renovasi-rumah-sambil-dihuni",
+        "guide-renovasi-rumah-satu-jadi-dua-lantai",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-risiko-pembengkakan-biaya-renovasi",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
         "loc-lamongan",
         "loc-malang",
         "loc-mojokerto",
@@ -1981,14 +2018,28 @@
       ],
       "inbound": [
         "guide-biaya-bangun-rumah-per-meter",
+        "guide-biaya-renovasi-rumah",
         "guide-borongan-vs-harian-bangun-rumah",
         "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-renovasi",
         "guide-cara-memilih-kontraktor-rumah",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-cara-menghitung-biaya-bangun-rumah",
         "guide-checklist-persiapan-bangun-rumah",
+        "guide-checklist-survei-sebelum-renovasi",
         "guide-kontrak-kerja-konstruksi-rumah",
         "guide-kontraktor-vs-tukang",
+        "guide-memperkuat-struktur-rumah-lama",
+        "guide-renovasi-atap-bocor",
+        "guide-renovasi-dapur",
+        "guide-renovasi-fasad-rumah",
+        "guide-renovasi-kamar-mandi",
+        "guide-renovasi-rumah-sambil-dihuni",
+        "guide-renovasi-rumah-satu-jadi-dua-lantai",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-risiko-pembengkakan-biaya-renovasi",
         "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
         "loc-gresik",
         "loc-lamongan",
         "loc-malang",
@@ -2115,6 +2166,17 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-cara-memilih-kontraktor-renovasi",
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-memperkuat-struktur-rumah-lama",
+        "guide-renovasi-atap-bocor",
+        "guide-renovasi-dapur",
+        "guide-renovasi-fasad-rumah",
+        "guide-renovasi-kamar-mandi",
+        "guide-renovasi-rumah-sambil-dihuni",
+        "guide-renovasi-rumah-satu-jadi-dua-lantai",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
         "svc-renovasi-rumah"
       ],
       "related": [
@@ -2558,6 +2620,45 @@
         }
       ]
     },
+    "guide-biaya-renovasi-rumah": {
+      "id": "guide-biaya-renovasi-rumah",
+      "route": "/panduan/biaya-renovasi-rumah",
+      "type": "guide",
+      "outbound": [
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-risiko-pembengkakan-biaya-renovasi",
+        "sec-rumah-tinggal",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-pengendalian-biaya-proyek",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-risiko-pembengkakan-biaya-renovasi"
+      ],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 40
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 40
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 20
+        }
+      ]
+    },
     "guide-borongan-vs-harian-bangun-rumah": {
       "id": "guide-borongan-vs-harian-bangun-rumah",
       "route": "/panduan/borongan-vs-harian-bangun-rumah",
@@ -2669,6 +2770,43 @@
         }
       ]
     },
+    "guide-cara-memilih-kontraktor-renovasi": {
+      "id": "guide-cara-memilih-kontraktor-renovasi",
+      "route": "/panduan/cara-memilih-kontraktor-renovasi",
+      "type": "guide",
+      "outbound": [
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-risiko-pembengkakan-biaya-renovasi",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
+        "sec-rumah-tinggal",
+        "sec-villa",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-renovasi-total-vs-renovasi-sebagian"
+      ],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 28
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 28
+        },
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 20
+        },
+        {
+          "id": "sec-villa",
+          "score": 20
+        }
+      ]
+    },
     "guide-cara-memilih-kontraktor-rumah": {
       "id": "guide-cara-memilih-kontraktor-rumah",
       "route": "/panduan/cara-memilih-kontraktor-rumah",
@@ -2720,6 +2858,48 @@
         {
           "id": "guide-checklist-persiapan-bangun-rumah",
           "score": 45
+        }
+      ]
+    },
+    "guide-cara-menghitung-anggaran-renovasi-rumah": {
+      "id": "guide-cara-menghitung-anggaran-renovasi-rumah",
+      "route": "/panduan/cara-menghitung-anggaran-renovasi-rumah",
+      "type": "guide",
+      "outbound": [
+        "guide-biaya-renovasi-rumah",
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-risiko-pembengkakan-biaya-renovasi",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
+        "sec-rumah-tinggal",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-pengendalian-biaya-proyek",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "guide-biaya-renovasi-rumah",
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-risiko-pembengkakan-biaya-renovasi"
+      ],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 40
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 40
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 20
         }
       ]
     },
@@ -2803,6 +2983,50 @@
         {
           "id": "guide-cara-menghitung-biaya-bangun-rumah",
           "score": 45
+        }
+      ]
+    },
+    "guide-checklist-survei-sebelum-renovasi": {
+      "id": "guide-checklist-survei-sebelum-renovasi",
+      "route": "/panduan/checklist-survei-sebelum-renovasi",
+      "type": "guide",
+      "outbound": [
+        "guide-cara-memilih-kontraktor-renovasi",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
+        "sec-rumah-tinggal",
+        "sec-villa",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "guide-cara-memilih-kontraktor-renovasi",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-renovasi-atap-bocor",
+        "guide-renovasi-fasad-rumah",
+        "guide-renovasi-rumah-sambil-dihuni",
+        "guide-renovasi-rumah-satu-jadi-dua-lantai",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-risiko-pembengkakan-biaya-renovasi",
+        "guide-tanda-rumah-perlu-perkuatan-struktur"
+      ],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 28
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 28
+        },
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 20
+        },
+        {
+          "id": "sec-villa",
+          "score": 20
         }
       ]
     },
@@ -2912,6 +3136,365 @@
         }
       ]
     },
+    "guide-memperkuat-struktur-rumah-lama": {
+      "id": "guide-memperkuat-struktur-rumah-lama",
+      "route": "/panduan/memperkuat-struktur-rumah-lama",
+      "type": "guide",
+      "outbound": [
+        "guide-renovasi-rumah-satu-jadi-dua-lantai",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
+        "sec-rumah-tinggal",
+        "sec-villa",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "guide-renovasi-rumah-satu-jadi-dua-lantai",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-tanda-rumah-perlu-perkuatan-struktur"
+      ],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 28
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 28
+        },
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 20
+        },
+        {
+          "id": "sec-villa",
+          "score": 20
+        }
+      ]
+    },
+    "guide-renovasi-atap-bocor": {
+      "id": "guide-renovasi-atap-bocor",
+      "route": "/panduan/renovasi-atap-bocor",
+      "type": "guide",
+      "outbound": [
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-renovasi-fasad-rumah",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
+        "sec-rumah-tinggal",
+        "sec-villa",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "guide-renovasi-fasad-rumah",
+        "guide-renovasi-total-vs-renovasi-sebagian"
+      ],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 28
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 28
+        },
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 20
+        },
+        {
+          "id": "sec-villa",
+          "score": 20
+        }
+      ]
+    },
+    "guide-renovasi-dapur": {
+      "id": "guide-renovasi-dapur",
+      "route": "/panduan/renovasi-dapur",
+      "type": "guide",
+      "outbound": [
+        "guide-renovasi-kamar-mandi",
+        "guide-renovasi-rumah-sambil-dihuni",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "sec-rumah-tinggal",
+        "sec-villa",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "guide-renovasi-kamar-mandi",
+        "guide-renovasi-rumah-sambil-dihuni",
+        "guide-renovasi-total-vs-renovasi-sebagian"
+      ],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 28
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 28
+        },
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 20
+        },
+        {
+          "id": "sec-villa",
+          "score": 20
+        }
+      ]
+    },
+    "guide-renovasi-fasad-rumah": {
+      "id": "guide-renovasi-fasad-rumah",
+      "route": "/panduan/renovasi-fasad-rumah",
+      "type": "guide",
+      "outbound": [
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-renovasi-atap-bocor",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
+        "sec-rumah-tinggal",
+        "sec-villa",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "guide-renovasi-atap-bocor",
+        "guide-renovasi-total-vs-renovasi-sebagian"
+      ],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 28
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 28
+        },
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 20
+        },
+        {
+          "id": "sec-villa",
+          "score": 20
+        }
+      ]
+    },
+    "guide-renovasi-kamar-mandi": {
+      "id": "guide-renovasi-kamar-mandi",
+      "route": "/panduan/renovasi-kamar-mandi",
+      "type": "guide",
+      "outbound": [
+        "guide-renovasi-dapur",
+        "guide-renovasi-rumah-sambil-dihuni",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "sec-rumah-tinggal",
+        "sec-villa",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "guide-renovasi-dapur",
+        "guide-renovasi-rumah-sambil-dihuni",
+        "guide-renovasi-total-vs-renovasi-sebagian"
+      ],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 28
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 28
+        },
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 20
+        },
+        {
+          "id": "sec-villa",
+          "score": 20
+        }
+      ]
+    },
+    "guide-renovasi-rumah-sambil-dihuni": {
+      "id": "guide-renovasi-rumah-sambil-dihuni",
+      "route": "/panduan/renovasi-rumah-sambil-dihuni",
+      "type": "guide",
+      "outbound": [
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-renovasi-dapur",
+        "guide-renovasi-kamar-mandi",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "sec-rumah-tinggal",
+        "sec-villa",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "guide-renovasi-dapur",
+        "guide-renovasi-kamar-mandi",
+        "guide-renovasi-total-vs-renovasi-sebagian"
+      ],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 28
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 28
+        },
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 20
+        },
+        {
+          "id": "sec-villa",
+          "score": 20
+        }
+      ]
+    },
+    "guide-renovasi-rumah-satu-jadi-dua-lantai": {
+      "id": "guide-renovasi-rumah-satu-jadi-dua-lantai",
+      "route": "/panduan/renovasi-rumah-satu-jadi-dua-lantai",
+      "type": "guide",
+      "outbound": [
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-memperkuat-struktur-rumah-lama",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
+        "sec-rumah-tinggal",
+        "sec-villa",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "guide-memperkuat-struktur-rumah-lama",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-tanda-rumah-perlu-perkuatan-struktur"
+      ],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 28
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 28
+        },
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 20
+        },
+        {
+          "id": "sec-villa",
+          "score": 20
+        }
+      ]
+    },
+    "guide-renovasi-total-vs-renovasi-sebagian": {
+      "id": "guide-renovasi-total-vs-renovasi-sebagian",
+      "route": "/panduan/renovasi-total-vs-renovasi-sebagian",
+      "type": "guide",
+      "outbound": [
+        "guide-biaya-renovasi-rumah",
+        "guide-cara-memilih-kontraktor-renovasi",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-memperkuat-struktur-rumah-lama",
+        "guide-renovasi-atap-bocor",
+        "guide-renovasi-dapur",
+        "guide-renovasi-fasad-rumah",
+        "guide-renovasi-kamar-mandi",
+        "guide-renovasi-rumah-sambil-dihuni",
+        "guide-renovasi-rumah-satu-jadi-dua-lantai",
+        "guide-risiko-pembengkakan-biaya-renovasi",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
+        "sec-rumah-tinggal",
+        "sec-villa",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "guide-biaya-renovasi-rumah",
+        "guide-cara-memilih-kontraktor-renovasi",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-memperkuat-struktur-rumah-lama",
+        "guide-renovasi-atap-bocor",
+        "guide-renovasi-dapur",
+        "guide-renovasi-fasad-rumah",
+        "guide-renovasi-kamar-mandi",
+        "guide-renovasi-rumah-sambil-dihuni",
+        "guide-renovasi-rumah-satu-jadi-dua-lantai",
+        "guide-risiko-pembengkakan-biaya-renovasi",
+        "guide-tanda-rumah-perlu-perkuatan-struktur"
+      ],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 28
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 28
+        },
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 20
+        },
+        {
+          "id": "sec-villa",
+          "score": 20
+        }
+      ]
+    },
+    "guide-risiko-pembengkakan-biaya-renovasi": {
+      "id": "guide-risiko-pembengkakan-biaya-renovasi",
+      "route": "/panduan/risiko-pembengkakan-biaya-renovasi",
+      "type": "guide",
+      "outbound": [
+        "guide-biaya-renovasi-rumah",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "sec-rumah-tinggal",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-pengendalian-biaya-proyek",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "guide-biaya-renovasi-rumah",
+        "guide-cara-memilih-kontraktor-renovasi",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-renovasi-total-vs-renovasi-sebagian"
+      ],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 40
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 40
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 20
+        }
+      ]
+    },
     "guide-tahapan-bangun-rumah-dari-nol": {
       "id": "guide-tahapan-bangun-rumah-dari-nol",
       "route": "/panduan/tahapan-bangun-rumah-dari-nol",
@@ -2952,6 +3535,49 @@
         {
           "id": "guide-cara-menghitung-biaya-bangun-rumah",
           "score": 45
+        }
+      ]
+    },
+    "guide-tanda-rumah-perlu-perkuatan-struktur": {
+      "id": "guide-tanda-rumah-perlu-perkuatan-struktur",
+      "route": "/panduan/tanda-rumah-perlu-perkuatan-struktur",
+      "type": "guide",
+      "outbound": [
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-memperkuat-struktur-rumah-lama",
+        "guide-renovasi-rumah-satu-jadi-dua-lantai",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "sec-rumah-tinggal",
+        "sec-villa",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "guide-cara-memilih-kontraktor-renovasi",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-memperkuat-struktur-rumah-lama",
+        "guide-renovasi-atap-bocor",
+        "guide-renovasi-fasad-rumah",
+        "guide-renovasi-rumah-satu-jadi-dua-lantai",
+        "guide-renovasi-total-vs-renovasi-sebagian"
+      ],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 28
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 28
+        },
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 20
+        },
+        {
+          "id": "sec-villa",
+          "score": 20
         }
       ]
     },
