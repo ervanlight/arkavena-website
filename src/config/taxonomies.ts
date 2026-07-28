@@ -78,6 +78,15 @@ export const TAGS = [
   "surabaya",
   "sidoarjo",
   "gresik",
+  // Location/project content (Batch 05) — Batch 00 only anticipated the
+  // first three service-area cities; the location and project collections
+  // need the remaining declared/candidate areas and a project-content tag.
+  "mojokerto",
+  "pasuruan",
+  "malang",
+  "lamongan",
+  "jawa-timur",
+  "studi-proyek",
   // Corporate/hub content (Batch 01) — Batch 00 only anticipated
   // service/sector/location/guide tagging, so these were missing.
   "korporat",
