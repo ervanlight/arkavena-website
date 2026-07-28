@@ -1069,7 +1069,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "svc-bangun-bangunan-komersial",
     "type": "service",
-    "status": "review",
+    "status": "published",
     "title": "Jasa Bangun Bangunan Komersial untuk Kebutuhan Operasional Bisnis",
     "slug": "bangun-bangunan-komersial",
     "description": "Jasa pembangunan bangunan komersial Arkavena dengan perhatian pada fungsi bisnis, operasional, koordinasi struktur dan MEP, serta pengendalian jadwal.",
@@ -1086,9 +1086,9 @@ export const contentManifest: ContentItem[] = [
       "pelaksanaan",
       "komersial"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -1156,7 +1156,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "service": {
       "serviceType": "Jasa Bangun Bangunan Komersial",
       "audience": [
@@ -1199,14 +1199,14 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [
       "/panduan"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "svc-bangun-rumah",
     "type": "service",
-    "status": "review",
+    "status": "published",
     "title": "Jasa Bangun Rumah dengan Pengendalian Proyek yang Terukur",
     "slug": "bangun-rumah",
     "description": "Jasa bangun rumah Arkavena dengan pengendalian ruang lingkup, biaya, cashflow, mutu, jadwal, dan risiko sesuai kebutuhan dan kontrak proyek.",
@@ -1223,9 +1223,9 @@ export const contentManifest: ContentItem[] = [
       "pelaksanaan",
       "residensial"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -1293,7 +1293,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "service": {
       "serviceType": "Jasa Bangun Rumah",
       "audience": [
@@ -1335,14 +1335,14 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [
       "/panduan"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "svc-building-maintenance",
     "type": "service",
-    "status": "review",
+    "status": "published",
     "title": "Jasa Building Maintenance untuk Perawatan Kondisi dan Fungsi Bangunan",
     "slug": "building-maintenance",
     "description": "Jasa building maintenance Arkavena mencakup inspeksi kondisi, prioritas pekerjaan, preventive maintenance, corrective action, dan dokumentasi.",
@@ -1359,9 +1359,9 @@ export const contentManifest: ContentItem[] = [
       "perawatan",
       "mutu"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -1427,7 +1427,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "service": {
       "serviceType": "Jasa Building Maintenance",
       "audience": [
@@ -1470,7 +1470,7 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [
       "/panduan"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -1573,7 +1573,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "svc-design-and-build",
     "type": "service",
-    "status": "review",
+    "status": "published",
     "title": "Jasa Design and Build untuk Koordinasi Desain dan Pelaksanaan",
     "slug": "design-and-build",
     "description": "Jasa design and build Arkavena mengoordinasikan kebutuhan, desain, biaya, constructability, dan pelaksanaan dalam satu delivery approach.",
@@ -1590,9 +1590,9 @@ export const contentManifest: ContentItem[] = [
       "perencanaan",
       "pelaksanaan"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -1660,7 +1660,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "service": {
       "serviceType": "Jasa Design and Build",
       "audience": [
@@ -1702,14 +1702,14 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [
       "/panduan"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "svc-manajemen-konstruksi",
     "type": "service",
-    "status": "review",
+    "status": "published",
     "title": "Jasa Manajemen Konstruksi untuk Pengelolaan Proyek Terintegrasi",
     "slug": "manajemen-konstruksi",
     "description": "Jasa manajemen konstruksi Arkavena mengelola scope, biaya, jadwal, mutu, risiko, komunikasi, dan koordinasi seluruh pihak dalam proyek.",
@@ -1726,9 +1726,9 @@ export const contentManifest: ContentItem[] = [
       "perencanaan",
       "pengawasan"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -1796,7 +1796,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "service": {
       "serviceType": "Jasa Manajemen Konstruksi",
       "audience": [
@@ -1839,14 +1839,14 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [
       "/panduan"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "svc-owner-representative",
     "type": "service",
-    "status": "review",
+    "status": "published",
     "title": "Jasa Owner Representative untuk Mendukung Kepentingan Pemilik Proyek",
     "slug": "owner-representative",
     "description": "Jasa owner representative Arkavena membantu owner memantau kepentingan proyek melalui mandat yang jelas, konsolidasi informasi, dan koordinasi.",
@@ -1863,9 +1863,9 @@ export const contentManifest: ContentItem[] = [
       "dokumentasi",
       "pengawasan"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -1933,7 +1933,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "service": {
       "serviceType": "Jasa Owner Representative",
       "audience": [
@@ -1974,14 +1974,14 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [
       "/panduan"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "svc-pengawasan-proyek",
     "type": "service",
-    "status": "review",
+    "status": "published",
     "title": "Jasa Pengawasan Proyek untuk Verifikasi Pekerjaan Lapangan",
     "slug": "pengawasan-proyek",
     "description": "Jasa pengawasan proyek Arkavena memantau pekerjaan lapangan terhadap ruang lingkup, gambar, spesifikasi, mutu, dan progres pekerjaan.",
@@ -1998,9 +1998,9 @@ export const contentManifest: ContentItem[] = [
       "pengawasan",
       "mutu"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -2067,7 +2067,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "service": {
       "serviceType": "Jasa Pengawasan Proyek",
       "audience": [
@@ -2109,14 +2109,14 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [
       "/panduan"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "svc-pengendalian-biaya-proyek",
     "type": "service",
-    "status": "review",
+    "status": "published",
     "title": "Jasa Pengendalian Biaya Proyek untuk Memantau Baseline dan Realisasi",
     "slug": "pengendalian-biaya-proyek",
     "description": "Jasa pengendalian biaya proyek Arkavena menetapkan dan memantau budget baseline, commitment, actual cost, variation, dan forecast biaya.",
@@ -2133,9 +2133,9 @@ export const contentManifest: ContentItem[] = [
       "biaya",
       "dokumentasi"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -2203,7 +2203,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "service": {
       "serviceType": "Jasa Pengendalian Biaya Proyek",
       "audience": [
@@ -2247,14 +2247,14 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [
       "/panduan"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "svc-renovasi-rumah",
     "type": "service",
-    "status": "review",
+    "status": "published",
     "title": "Jasa Renovasi Rumah dengan Perhatian pada Kondisi Eksisting",
     "slug": "renovasi-rumah",
     "description": "Jasa renovasi rumah Arkavena dengan perhatian khusus pada kondisi eksisting, pekerjaan tersembunyi, penghuni, dan pengendalian perubahan ruang lingkup.",
@@ -2271,9 +2271,9 @@ export const contentManifest: ContentItem[] = [
       "renovasi",
       "residensial"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -2341,7 +2341,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "service": {
       "serviceType": "Jasa Renovasi Rumah",
       "audience": [
@@ -2382,14 +2382,14 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [
       "/panduan"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "svc-value-engineering",
     "type": "service",
-    "status": "review",
+    "status": "published",
     "title": "Jasa Value Engineering untuk Evaluasi Alternatif Desain dan Biaya",
     "slug": "value-engineering",
     "description": "Jasa value engineering Arkavena mengevaluasi alternatif desain, material, dan metode kerja berdasarkan fungsi, biaya, risiko, dan constructability.",
@@ -2406,9 +2406,9 @@ export const contentManifest: ContentItem[] = [
       "perencanaan",
       "biaya"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -2476,7 +2476,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "service": {
       "serviceType": "Jasa Value Engineering",
       "audience": [
@@ -2517,7 +2517,7 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [
       "/panduan"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {

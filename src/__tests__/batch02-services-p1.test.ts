@@ -59,12 +59,15 @@ describe("Batch 02 — content validation", () => {
     }
   });
 
-  it("seluruh halaman P1 masih review/ownerVerified:false/publishedAt:null", () => {
+  it("owner-approved P1 pages are published, verified, and indexable", () => {
+    // Approved 2026-07-28 — owner reviewed all 10, including the three
+    // flagged for extra scrutiny (manajemen-konstruksi, owner-representative,
+    // pengendalian-biaya-proyek).
     for (const item of p1) {
-      expect(item.status).toBe("review");
-      expect(item.ownerVerified).toBe(false);
-      expect(item.publishedAt).toBeNull();
-      expect(item.isIndexable).toBe(false);
+      expect(item.status).toBe("published");
+      expect(item.ownerVerified).toBe(true);
+      expect(item.publishedAt).toBe("2026-07-28");
+      expect(item.isIndexable).toBe(true);
     }
   });
 
@@ -212,10 +215,10 @@ describe("Batch 02 — terminology guardrails", () => {
 });
 
 describe("Batch 02 — metadata", () => {
-  it("seluruh 10 halaman P1 menghasilkan noindex,follow (masih review)", () => {
+  it("owner-approved P1 pages menghasilkan index,follow", () => {
     for (const item of p1) {
       const metadata = buildMetadata(item);
-      expect(metadata.robots).toMatchObject({ index: false, follow: true });
+      expect(metadata.robots).toMatchObject({ index: true, follow: true });
     }
   });
 
@@ -270,10 +273,10 @@ describe("Batch 02 — structured data", () => {
 });
 
 describe("Batch 02 — sitemap", () => {
-  it("halaman P1 (masih review) tidak masuk sitemap", () => {
+  it("owner-approved P1 pages masuk sitemap", () => {
     const eligible = selectSitemapItems(items).map((item) => item.route);
     for (const item of p1) {
-      expect(eligible).not.toContain(item.route);
+      expect(eligible).toContain(item.route);
     }
   });
 });

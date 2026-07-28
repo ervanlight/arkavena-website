@@ -149,14 +149,20 @@ describe("Batch 01 — navigation contract", () => {
 });
 
 describe("Batch 01 — hub empty-state", () => {
-  it("hub tidak error dan tidak menghasilkan child ketika belum ada service/sector/location/guide/project published", () => {
+  it("sector/location/guide/project masih kosong (belum ada batch untuk itu); service sudah terisi sejak Batch 02", () => {
+    // Snapshot at Batch 01 time was "all empty" — Batch 02 published 10 real
+    // services, so only the other four collections are still expected empty.
     const publishedChildren = items.filter(
       (item) =>
-        ["service", "sector", "location", "guide", "project"].includes(
-          item.type
-        ) && item.isIndexable
+        ["sector", "location", "guide", "project"].includes(item.type) &&
+        item.isIndexable
     );
     expect(publishedChildren).toEqual([]);
+
+    const publishedServices = items.filter(
+      (item) => item.type === "service" && item.isIndexable
+    );
+    expect(publishedServices.length).toBe(10);
   });
 
   it("draft/review child tidak pernah indexable", () => {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T00:31:14.287Z",
+  "generatedAt": "2026-07-28T00:44:47.777Z",
   "nodes": {
     "page-cara-kerja": {
       "id": "page-cara-kerja",
@@ -59,7 +59,6 @@
         "page-tentang"
       ],
       "inbound": [
-        "guide-contoh-panduan",
         "page-cara-kerja",
         "page-home",
         "page-konsultasi-proyek",
@@ -140,24 +139,11 @@
         "page-kontak"
       ],
       "inbound": [
-        "loc-contoh-wilayah",
         "page-cara-kerja",
         "page-faq",
         "page-home",
         "page-kontak",
-        "page-panduan",
-        "sec-contoh-sektor",
-        "svc-bangun-bangunan-komersial",
-        "svc-bangun-rumah",
-        "svc-building-maintenance",
-        "svc-contoh-layanan",
-        "svc-design-and-build",
-        "svc-manajemen-konstruksi",
-        "svc-owner-representative",
-        "svc-pengawasan-proyek",
-        "svc-pengendalian-biaya-proyek",
-        "svc-renovasi-rumah",
-        "svc-value-engineering"
+        "page-panduan"
       ],
       "related": [
         {
@@ -266,7 +252,6 @@
         "page-tentang"
       ],
       "inbound": [
-        "guide-contoh-panduan",
         "page-cara-kerja",
         "page-faq",
         "page-layanan",
@@ -306,7 +291,6 @@
         "page-tentang"
       ],
       "inbound": [
-        "guide-contoh-panduan",
         "page-cara-kerja",
         "page-faq",
         "page-mengapa-arkavena",
@@ -483,21 +467,42 @@
       "route": "/layanan/bangun-bangunan-komersial",
       "type": "service",
       "outbound": [
-        "page-konsultasi-proyek",
         "page-panduan",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
         "svc-design-and-build",
         "svc-manajemen-konstruksi",
         "svc-pengawasan-proyek",
-        "svc-pengendalian-biaya-proyek"
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
       ],
       "inbound": [
+        "guide-contoh-panduan",
+        "loc-contoh-wilayah",
+        "sec-contoh-sektor",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-contoh-layanan",
         "svc-design-and-build",
+        "svc-renovasi-rumah",
         "svc-value-engineering"
       ],
       "related": [
         {
-          "id": "page-konsultasi-proyek",
-          "score": 2
+          "id": "svc-design-and-build",
+          "score": 29
+        },
+        {
+          "id": "svc-value-engineering",
+          "score": 29
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 15
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 15
         }
       ]
     },
@@ -506,8 +511,321 @@
       "route": "/layanan/bangun-rumah",
       "type": "service",
       "outbound": [
-        "page-konsultasi-proyek",
         "page-panduan",
+        "svc-bangun-bangunan-komersial",
+        "svc-building-maintenance",
+        "svc-design-and-build",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ],
+      "inbound": [
+        "guide-contoh-panduan",
+        "loc-contoh-wilayah",
+        "sec-contoh-sektor",
+        "svc-bangun-bangunan-komersial",
+        "svc-building-maintenance",
+        "svc-contoh-layanan",
+        "svc-design-and-build",
+        "svc-renovasi-rumah"
+      ],
+      "related": [
+        {
+          "id": "svc-design-and-build",
+          "score": 29
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 15
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 15
+        },
+        {
+          "id": "svc-manajemen-konstruksi",
+          "score": 15
+        }
+      ]
+    },
+    "svc-building-maintenance": {
+      "id": "svc-building-maintenance",
+      "route": "/layanan/building-maintenance",
+      "type": "service",
+      "outbound": [
+        "page-panduan",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek"
+      ],
+      "inbound": [
+        "guide-contoh-panduan",
+        "loc-contoh-wilayah",
+        "sec-contoh-sektor",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-contoh-layanan",
+        "svc-renovasi-rumah"
+      ],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 15
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 15
+        },
+        {
+          "id": "svc-manajemen-konstruksi",
+          "score": 15
+        },
+        {
+          "id": "svc-owner-representative",
+          "score": 15
+        }
+      ]
+    },
+    "svc-contoh-layanan": {
+      "id": "svc-contoh-layanan",
+      "route": "/layanan/contoh-layanan",
+      "type": "service",
+      "outbound": [
+        "page-kontak",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-design-and-build"
+      ],
+      "inbound": [],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 3
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 3
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 3
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 3
+        }
+      ]
+    },
+    "svc-design-and-build": {
+      "id": "svc-design-and-build",
+      "route": "/layanan/design-and-build",
+      "type": "service",
+      "outbound": [
+        "page-panduan",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-pengendalian-biaya-proyek",
+        "svc-renovasi-rumah",
+        "svc-value-engineering"
+      ],
+      "inbound": [
+        "guide-contoh-panduan",
+        "loc-contoh-wilayah",
+        "sec-contoh-sektor",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-contoh-layanan",
+        "svc-renovasi-rumah",
+        "svc-value-engineering"
+      ],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 29
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 29
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 29
+        },
+        {
+          "id": "svc-value-engineering",
+          "score": 29
+        }
+      ]
+    },
+    "svc-manajemen-konstruksi": {
+      "id": "svc-manajemen-konstruksi",
+      "route": "/layanan/manajemen-konstruksi",
+      "type": "service",
+      "outbound": [
+        "page-panduan",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ],
+      "inbound": [
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ],
+      "related": [
+        {
+          "id": "svc-owner-representative",
+          "score": 49
+        },
+        {
+          "id": "svc-pengawasan-proyek",
+          "score": 49
+        },
+        {
+          "id": "svc-pengendalian-biaya-proyek",
+          "score": 49
+        },
+        {
+          "id": "svc-value-engineering",
+          "score": 49
+        }
+      ]
+    },
+    "svc-owner-representative": {
+      "id": "svc-owner-representative",
+      "route": "/layanan/owner-representative",
+      "type": "service",
+      "outbound": [
+        "page-panduan",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ],
+      "inbound": [
+        "svc-building-maintenance",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ],
+      "related": [
+        {
+          "id": "svc-manajemen-konstruksi",
+          "score": 49
+        },
+        {
+          "id": "svc-pengawasan-proyek",
+          "score": 49
+        },
+        {
+          "id": "svc-pengendalian-biaya-proyek",
+          "score": 49
+        },
+        {
+          "id": "svc-value-engineering",
+          "score": 35
+        }
+      ]
+    },
+    "svc-pengawasan-proyek": {
+      "id": "svc-pengawasan-proyek",
+      "route": "/layanan/pengawasan-proyek",
+      "type": "service",
+      "outbound": [
+        "page-panduan",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ],
+      "inbound": [
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengendalian-biaya-proyek",
+        "svc-renovasi-rumah",
+        "svc-value-engineering"
+      ],
+      "related": [
+        {
+          "id": "svc-manajemen-konstruksi",
+          "score": 49
+        },
+        {
+          "id": "svc-owner-representative",
+          "score": 49
+        },
+        {
+          "id": "svc-pengendalian-biaya-proyek",
+          "score": 49
+        },
+        {
+          "id": "svc-value-engineering",
+          "score": 35
+        }
+      ]
+    },
+    "svc-pengendalian-biaya-proyek": {
+      "id": "svc-pengendalian-biaya-proyek",
+      "route": "/layanan/pengendalian-biaya-proyek",
+      "type": "service",
+      "outbound": [
+        "page-panduan",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-value-engineering"
+      ],
+      "inbound": [
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-design-and-build",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-renovasi-rumah",
+        "svc-value-engineering"
+      ],
+      "related": [
+        {
+          "id": "svc-manajemen-konstruksi",
+          "score": 49
+        },
+        {
+          "id": "svc-owner-representative",
+          "score": 49
+        },
+        {
+          "id": "svc-pengawasan-proyek",
+          "score": 49
+        },
+        {
+          "id": "svc-value-engineering",
+          "score": 49
+        }
+      ]
+    },
+    "svc-renovasi-rumah": {
+      "id": "svc-renovasi-rumah",
+      "route": "/layanan/renovasi-rumah",
+      "type": "service",
+      "outbound": [
+        "page-panduan",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
         "svc-design-and-build",
         "svc-pengawasan-proyek",
         "svc-pengendalian-biaya-proyek",
@@ -518,194 +836,20 @@
       ],
       "related": [
         {
-          "id": "page-konsultasi-proyek",
-          "score": 2
-        }
-      ]
-    },
-    "svc-building-maintenance": {
-      "id": "svc-building-maintenance",
-      "route": "/layanan/building-maintenance",
-      "type": "service",
-      "outbound": [
-        "page-konsultasi-proyek",
-        "page-panduan",
-        "svc-manajemen-konstruksi",
-        "svc-pengawasan-proyek"
-      ],
-      "inbound": [],
-      "related": [
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 15
+        },
         {
-          "id": "page-konsultasi-proyek",
-          "score": 2
-        }
-      ]
-    },
-    "svc-contoh-layanan": {
-      "id": "svc-contoh-layanan",
-      "route": "/layanan/contoh-layanan",
-      "type": "service",
-      "outbound": [
-        "page-konsultasi-proyek",
-        "page-kontak"
-      ],
-      "inbound": [],
-      "related": [
+          "id": "svc-bangun-rumah",
+          "score": 15
+        },
         {
-          "id": "page-konsultasi-proyek",
-          "score": 2
-        }
-      ]
-    },
-    "svc-design-and-build": {
-      "id": "svc-design-and-build",
-      "route": "/layanan/design-and-build",
-      "type": "service",
-      "outbound": [
-        "page-konsultasi-proyek",
-        "page-panduan",
-        "svc-bangun-bangunan-komersial",
-        "svc-bangun-rumah",
-        "svc-pengendalian-biaya-proyek",
-        "svc-value-engineering"
-      ],
-      "inbound": [
-        "svc-bangun-bangunan-komersial",
-        "svc-bangun-rumah",
-        "svc-renovasi-rumah",
-        "svc-value-engineering"
-      ],
-      "related": [
+          "id": "svc-building-maintenance",
+          "score": 15
+        },
         {
-          "id": "page-konsultasi-proyek",
-          "score": 2
-        }
-      ]
-    },
-    "svc-manajemen-konstruksi": {
-      "id": "svc-manajemen-konstruksi",
-      "route": "/layanan/manajemen-konstruksi",
-      "type": "service",
-      "outbound": [
-        "page-konsultasi-proyek",
-        "page-panduan",
-        "svc-owner-representative",
-        "svc-pengawasan-proyek",
-        "svc-pengendalian-biaya-proyek",
-        "svc-value-engineering"
-      ],
-      "inbound": [
-        "svc-bangun-bangunan-komersial",
-        "svc-building-maintenance",
-        "svc-owner-representative",
-        "svc-pengawasan-proyek",
-        "svc-pengendalian-biaya-proyek",
-        "svc-value-engineering"
-      ],
-      "related": [
-        {
-          "id": "page-konsultasi-proyek",
-          "score": 2
-        }
-      ]
-    },
-    "svc-owner-representative": {
-      "id": "svc-owner-representative",
-      "route": "/layanan/owner-representative",
-      "type": "service",
-      "outbound": [
-        "page-konsultasi-proyek",
-        "page-panduan",
-        "svc-manajemen-konstruksi",
-        "svc-pengawasan-proyek",
-        "svc-pengendalian-biaya-proyek",
-        "svc-value-engineering"
-      ],
-      "inbound": [
-        "svc-manajemen-konstruksi",
-        "svc-pengawasan-proyek",
-        "svc-pengendalian-biaya-proyek"
-      ],
-      "related": [
-        {
-          "id": "page-konsultasi-proyek",
-          "score": 2
-        }
-      ]
-    },
-    "svc-pengawasan-proyek": {
-      "id": "svc-pengawasan-proyek",
-      "route": "/layanan/pengawasan-proyek",
-      "type": "service",
-      "outbound": [
-        "page-konsultasi-proyek",
-        "page-panduan",
-        "svc-manajemen-konstruksi",
-        "svc-owner-representative",
-        "svc-pengendalian-biaya-proyek"
-      ],
-      "inbound": [
-        "svc-bangun-bangunan-komersial",
-        "svc-bangun-rumah",
-        "svc-building-maintenance",
-        "svc-manajemen-konstruksi",
-        "svc-owner-representative",
-        "svc-pengendalian-biaya-proyek",
-        "svc-renovasi-rumah"
-      ],
-      "related": [
-        {
-          "id": "page-konsultasi-proyek",
-          "score": 2
-        }
-      ]
-    },
-    "svc-pengendalian-biaya-proyek": {
-      "id": "svc-pengendalian-biaya-proyek",
-      "route": "/layanan/pengendalian-biaya-proyek",
-      "type": "service",
-      "outbound": [
-        "page-konsultasi-proyek",
-        "page-panduan",
-        "svc-manajemen-konstruksi",
-        "svc-owner-representative",
-        "svc-pengawasan-proyek",
-        "svc-value-engineering"
-      ],
-      "inbound": [
-        "svc-bangun-bangunan-komersial",
-        "svc-bangun-rumah",
-        "svc-design-and-build",
-        "svc-manajemen-konstruksi",
-        "svc-owner-representative",
-        "svc-pengawasan-proyek",
-        "svc-renovasi-rumah",
-        "svc-value-engineering"
-      ],
-      "related": [
-        {
-          "id": "page-konsultasi-proyek",
-          "score": 2
-        }
-      ]
-    },
-    "svc-renovasi-rumah": {
-      "id": "svc-renovasi-rumah",
-      "route": "/layanan/renovasi-rumah",
-      "type": "service",
-      "outbound": [
-        "page-konsultasi-proyek",
-        "page-panduan",
-        "svc-design-and-build",
-        "svc-pengawasan-proyek",
-        "svc-pengendalian-biaya-proyek",
-        "svc-value-engineering"
-      ],
-      "inbound": [],
-      "related": [
-        {
-          "id": "page-konsultasi-proyek",
-          "score": 2
+          "id": "svc-design-and-build",
+          "score": 15
         }
       ]
     },
@@ -714,25 +858,40 @@
       "route": "/layanan/value-engineering",
       "type": "service",
       "outbound": [
-        "page-konsultasi-proyek",
         "page-panduan",
         "svc-bangun-bangunan-komersial",
         "svc-design-and-build",
         "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "svc-bangun-bangunan-komersial",
         "svc-bangun-rumah",
         "svc-design-and-build",
         "svc-manajemen-konstruksi",
         "svc-owner-representative",
+        "svc-pengawasan-proyek",
         "svc-pengendalian-biaya-proyek",
         "svc-renovasi-rumah"
       ],
       "related": [
         {
-          "id": "page-konsultasi-proyek",
-          "score": 2
+          "id": "svc-manajemen-konstruksi",
+          "score": 49
+        },
+        {
+          "id": "svc-owner-representative",
+          "score": 49
+        },
+        {
+          "id": "svc-pengendalian-biaya-proyek",
+          "score": 49
+        },
+        {
+          "id": "svc-pengawasan-proyek",
+          "score": 35
         }
       ]
     },
@@ -741,12 +900,27 @@
       "route": "/sektor/contoh-sektor",
       "type": "sector",
       "outbound": [
-        "page-konsultasi-proyek"
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-design-and-build"
       ],
       "inbound": [],
       "related": [
         {
-          "id": "page-konsultasi-proyek",
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 2
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 2
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 2
+        },
+        {
+          "id": "svc-design-and-build",
           "score": 2
         }
       ]
@@ -756,12 +930,27 @@
       "route": "/wilayah/contoh-wilayah",
       "type": "location",
       "outbound": [
-        "page-konsultasi-proyek"
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-design-and-build"
       ],
       "inbound": [],
       "related": [
         {
-          "id": "page-konsultasi-proyek",
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 2
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 2
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 2
+        },
+        {
+          "id": "svc-design-and-build",
           "score": 2
         }
       ]
@@ -772,27 +961,28 @@
       "type": "guide",
       "outbound": [
         "page-cara-kerja",
-        "page-faq",
-        "page-mengapa-arkavena",
-        "page-panduan"
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-design-and-build"
       ],
       "inbound": [],
       "related": [
         {
-          "id": "page-cara-kerja",
-          "score": 2
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 8
         },
         {
-          "id": "page-faq",
-          "score": 2
+          "id": "svc-bangun-rumah",
+          "score": 8
         },
         {
-          "id": "page-mengapa-arkavena",
-          "score": 2
+          "id": "svc-building-maintenance",
+          "score": 8
         },
         {
-          "id": "page-panduan",
-          "score": 2
+          "id": "svc-design-and-build",
+          "score": 8
         }
       ]
     }
