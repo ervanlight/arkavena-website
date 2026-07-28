@@ -3663,7 +3663,9 @@ export const contentManifest: ContentItem[] = [
       "locations": [],
       "guides": [],
       "projects": [],
-      "pinnedRelated": [],
+      "pinnedRelated": [
+        "sec-villa"
+      ],
       "excludedRelated": []
     },
     "conversion": {
@@ -3885,6 +3887,148 @@ export const contentManifest: ContentItem[] = [
     "readingMinutes": 3,
     "internalLinks": [
       "/panduan"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "sec-cafe",
+    "type": "sector",
+    "status": "published",
+    "title": "Kontraktor Cafe dengan Koordinasi Fit-Out dan Utilitas Dapur",
+    "slug": "cafe",
+    "description": "Layanan konstruksi dan pengendalian proyek cafe Arkavena dengan perhatian pada fit-out, utilitas dapur ringan, ventilasi, dan pengalaman pengunjung.",
+    "excerpt": "Pendekatan pembangunan dan fit-out cafe yang mempertimbangkan alur pengunjung, area kerja staf, dan koordinasi utilitas dapur bersama spesialis peralatan.",
+    "seoTitle": "Kontraktor Cafe | Arkavena",
+    "primaryKeyword": "kontraktor cafe",
+    "secondaryKeywords": [
+      "jasa bangun cafe",
+      "kontraktor interior cafe"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "finishing"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Cafe",
+      "heading": "Cafe yang Nyaman untuk Pengunjung, Efisien untuk Operasional",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek pembangunan atau fit-out cafe, dikoordinasikan dengan kebutuhan utilitas dapur bersama spesialis peralatan Anda.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau fit-out cafe."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Interior Fit-Out",
+        "href": "/layanan/interior-fit-out",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menyediakan desain interior cafe, termasuk area dapur?",
+        "answer": "Ya. Arkavena menyediakan desain interior cafe, termasuk tata letak area dapur (kitchen interior design), sebagai bagian dari layanan interior fit-out. Yang tidak termasuk adalah pengadaan peralatan dapur/produksi F&B itu sendiri — pengadaan mesin dan peralatan produksi diserahkan ke vendor spesialis yang Anda tunjuk."
+      },
+      {
+        "question": "Apakah pengadaan peralatan dapur (mesin kopi, kulkas, oven) termasuk dalam layanan ini?",
+        "answer": "Tidak. Arkavena mendesain tata letak dan mengoordinasikan kebutuhan ruang untuk peralatan tersebut, tetapi pengadaan peralatan dapur/produksi F&B itu sendiri berada di luar cakupan Arkavena dan dilakukan langsung oleh pemilik usaha atau vendor peralatan terkait."
+      },
+      {
+        "question": "Apakah Arkavena membantu mengurus izin usaha F&B atau sertifikasi halal?",
+        "answer": "Tidak. Pengurusan izin usaha dan sertifikasi berada di luar kewenangan Arkavena dan bergantung pada otoritas terkait."
+      },
+      {
+        "question": "Bagaimana kebutuhan ventilasi dapur ditentukan?",
+        "answer": "Kebutuhan ventilasi dan exhaust perlu dikoordinasikan dengan spesifikasi peralatan dapur yang dipilih dan desain interior yang direncanakan — data spesifikasi peralatan dari vendor tetap diperlukan sebelum sistem ventilasi dapat dirancang dengan tepat."
+      },
+      {
+        "question": "Apakah desain interior dan branding cafe termasuk dalam layanan ini?",
+        "answer": "Desain interior, termasuk area dapur, termasuk dalam layanan interior fit-out Arkavena. Branding visual (identitas merek, logo, materi promosi) umumnya tetap memerlukan brand consultant terpisah."
+      },
+      {
+        "question": "Apakah area outdoor atau semi-outdoor cafe memerlukan pertimbangan khusus?",
+        "answer": "Area outdoor memerlukan pertimbangan tambahan seperti perlindungan cuaca dan drainase, yang perlu dibahas sejak tahap perencanaan sesuai kondisi lokasi Anda."
+      },
+      {
+        "question": "Bagaimana biaya proyek cafe ditentukan?",
+        "answer": "Biaya ditentukan setelah ruang lingkup, luas area, dan kompleksitas utilitas dapur dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "sector": {
+      "buildingType": "Cafe",
+      "primaryUseCases": [
+        "usaha F&B skala kecil-menengah",
+        "fit-out ruang sewa untuk cafe"
+      ],
+      "commonRisks": [
+        "Kebutuhan utilitas dapur belum jelas karena peralatan belum ditentukan sejak awal.",
+        "Ventilasi dan exhaust tidak sesuai dengan jenis peralatan dapur yang akhirnya dipilih.",
+        "Alur kerja staf dan alur pengunjung tidak dipisah dengan baik sehingga mengganggu operasional."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-design-and-build"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/cafe",
+    "sourcePath": "content/sectors/cafe.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Cafe dengan Koordinasi Fit-Out dan Utilitas Dapur",
+        "path": "/sektor/cafe"
+      }
+    ],
+    "wordCount": 621,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/interior-fit-out",
+      "/layanan/design-and-build",
+      "/layanan/pengawasan-proyek",
+      "/panduan",
+      "/wilayah"
     ],
     "isIndexable": true,
     "isFollowable": true
@@ -4124,6 +4268,150 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "sec-hotel",
+    "type": "sector",
+    "status": "published",
+    "title": "Kontraktor Hotel dengan Koordinasi Standar Operasional Hospitality",
+    "slug": "hotel",
+    "description": "Layanan konstruksi dan pengendalian proyek bangunan hotel Arkavena dengan perhatian pada kebutuhan tamu, area servis, utilitas, dan koordinasi dengan spesialis FF&E.",
+    "excerpt": "Pendekatan pembangunan dan renovasi hotel yang mempertimbangkan kenyamanan tamu, efisiensi operasional, dan koordinasi kebutuhan hospitality bersama spesialis terkait.",
+    "seoTitle": "Kontraktor Hotel | Arkavena",
+    "primaryKeyword": "kontraktor hotel",
+    "secondaryKeywords": [
+      "jasa bangun hotel",
+      "kontraktor renovasi hotel"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "mep"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Bangunan Hotel",
+      "heading": "Hotel yang Nyaman untuk Tamu, Efisien untuk Operasional",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek pembangunan atau renovasi hotel, dikoordinasikan dengan kebutuhan standar hospitality dan spesialis FF&E Anda.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau renovasi hotel."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Manajemen Konstruksi",
+        "href": "/layanan/manajemen-konstruksi",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menyediakan pengadaan FF&E (furniture, fixture, equipment)?",
+        "answer": "Tidak. Pengadaan FF&E berada di luar cakupan Arkavena dan biasanya dilakukan langsung oleh pemilik hotel atau vendor FF&E terkait, meskipun koordinasi jadwal pemasangan dapat dibahas dalam ruang lingkup proyek."
+      },
+      {
+        "question": "Apakah Arkavena menjamin kepatuhan terhadap standar desain brand hotel (franchise)?",
+        "answer": "Tidak. Kepatuhan terhadap standar desain brand atau franchise hotel tertentu (brand standard) memerlukan verifikasi langsung dari pemilik brand — Arkavena dapat mengoordinasikan pelaksanaan berdasarkan dokumen brand standard yang Anda sediakan, tetapi tidak menjamin kepatuhan tersebut secara independen."
+      },
+      {
+        "question": "Apakah Arkavena membantu mengurus izin operasional hotel?",
+        "answer": "Tidak. Pengurusan izin operasional hotel berada di luar kewenangan Arkavena dan bergantung pada otoritas terkait."
+      },
+      {
+        "question": "Bagaimana pemisahan alur tamu dan alur staf (back of house) dipertimbangkan?",
+        "answer": "Pemisahan alur tamu dan area servis staf menjadi salah satu pertimbangan penting dalam penataan layout hotel agar operasional berjalan efisien tanpa mengganggu kenyamanan tamu."
+      },
+      {
+        "question": "Apakah kebutuhan utilitas per kamar menjadi bagian dari perencanaan?",
+        "answer": "Ya, kapasitas listrik, air panas, dan sistem HVAC per kamar perlu direncanakan sesuai jumlah kamar dan standar kenyamanan yang ditetapkan, yang dibahas bersama pada tahap konsultasi awal."
+      },
+      {
+        "question": "Apakah fasilitas penunjang seperti kolam renang atau ballroom termasuk dalam ruang lingkup?",
+        "answer": "Dapat mencakup, tergantung ruang lingkup yang disepakati. Fasilitas seperti kolam renang memerlukan koordinasi dengan spesialis terkait untuk sistem filtrasi dan keselamatan."
+      },
+      {
+        "question": "Bagaimana biaya proyek hotel ditentukan?",
+        "answer": "Biaya ditentukan setelah jumlah kamar, kelas hotel, dan fasilitas penunjang dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "sector": {
+      "buildingType": "Hotel",
+      "primaryUseCases": [
+        "akomodasi dan hospitality",
+        "hotel dengan fasilitas penunjang"
+      ],
+      "commonRisks": [
+        "Standar brand hotel (brand standard) belum dikoordinasikan dengan jelas sejak tahap desain.",
+        "Alur tamu dan alur staf (back of house) tidak dipisahkan dengan baik.",
+        "Utilitas per kamar tidak direncanakan sesuai standar kenyamanan yang ditetapkan."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/hotel",
+    "sourcePath": "content/sectors/hotel.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Hotel dengan Koordinasi Standar Operasional Hospitality",
+        "path": "/sektor/hotel"
+      }
+    ],
+    "wordCount": 621,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/design-and-build",
+      "/layanan/manajemen-konstruksi",
+      "/layanan/owner-representative",
+      "/layanan/pengawasan-proyek",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "sec-kantor",
     "type": "sector",
     "status": "published",
@@ -4268,6 +4556,150 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "sec-klinik",
+    "type": "sector",
+    "status": "published",
+    "title": "Kontraktor Klinik dengan Perhatian pada Standar Fasilitas Kesehatan",
+    "slug": "klinik",
+    "description": "Layanan konstruksi dan pengendalian proyek bangunan klinik Arkavena dengan perhatian pada alur pasien, kontrol infeksi dasar, dan koordinasi dengan spesialis fasilitas kesehatan.",
+    "excerpt": "Pendekatan pembangunan dan renovasi klinik yang mempertimbangkan alur pasien, kenyamanan, dan koordinasi kebutuhan teknis fasilitas kesehatan bersama spesialis terkait.",
+    "seoTitle": "Kontraktor Klinik | Arkavena",
+    "primaryKeyword": "kontraktor klinik",
+    "secondaryKeywords": [
+      "jasa bangun klinik",
+      "kontraktor renovasi klinik"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "mep"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Bangunan Klinik",
+      "heading": "Bangunan Klinik yang Mendukung Alur Pasien dan Layanan yang Aman",
+      "summary": "Arkavena membantu mengelola pembangunan struktur dan utilitas bangunan klinik, dikoordinasikan dengan spesialis fasilitas kesehatan dan kebutuhan operasional Anda.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-quality-control-konstruksi"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau renovasi klinik."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Quality Control Konstruksi",
+        "href": "/layanan/quality-control-konstruksi",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menyediakan desain sistem gas medis atau proteksi radiasi?",
+        "answer": "Tidak. Desain sistem gas medis (medical gas) dan proteksi radiasi untuk peralatan seperti X-ray adalah keahlian spesialis bersertifikasi di luar cakupan Arkavena. Arkavena dapat mengoordinasikan pekerjaan sipil dan utilitas dasar dengan spesialis yang Anda tunjuk."
+      },
+      {
+        "question": "Apakah Arkavena membantu mengurus izin operasional klinik atau akreditasi fasilitas kesehatan?",
+        "answer": "Tidak. Pengurusan izin operasional dan akreditasi fasilitas kesehatan berada di luar kewenangan Arkavena dan bergantung pada otoritas kesehatan terkait."
+      },
+      {
+        "question": "Apakah pengadaan peralatan medis termasuk dalam layanan ini?",
+        "answer": "Tidak. Pengadaan peralatan medis berada di luar cakupan Arkavena dan biasanya dilakukan langsung oleh pemilik klinik atau vendor peralatan medis terkait."
+      },
+      {
+        "question": "Bagaimana standar kontrol infeksi dasar dipertimbangkan dalam konstruksi?",
+        "answer": "Pertimbangan dasar seperti pemilihan material yang mudah dibersihkan dan pemisahan alur bersih-kotor dapat dibahas pada tahap perencanaan, tetapi standar kontrol infeksi teknis tetap memerlukan kajian spesialis fasilitas kesehatan sesuai jenis layanan klinik Anda."
+      },
+      {
+        "question": "Apakah alur pasien menjadi pertimbangan dalam tata letak klinik?",
+        "answer": "Ya, pemisahan alur pasien, staf, dan area servis menjadi salah satu pertimbangan dalam penataan layout agar operasional klinik berjalan efisien dan nyaman bagi pasien."
+      },
+      {
+        "question": "Apakah klinik dengan ruang tindakan memerlukan pertimbangan khusus?",
+        "answer": "Ya, ruang tindakan memiliki kebutuhan utilitas dan finishing khusus yang perlu dikaji bersama spesialis fasilitas kesehatan berdasarkan jenis tindakan yang direncanakan."
+      },
+      {
+        "question": "Bagaimana biaya proyek klinik ditentukan?",
+        "answer": "Biaya ditentukan setelah ruang lingkup, jumlah ruang periksa, dan kompleksitas utilitas dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "sector": {
+      "buildingType": "Klinik",
+      "primaryUseCases": [
+        "fasilitas kesehatan skala kecil-menengah",
+        "klinik dengan ruang periksa dan/atau ruang tindakan"
+      ],
+      "commonRisks": [
+        "Kebutuhan teknis fasilitas kesehatan (gas medis, proteksi radiasi) belum dikaji spesialis sejak awal.",
+        "Alur pasien, staf, dan area servis tidak dipisahkan dengan baik.",
+        "Utilitas tidak disesuaikan dengan jenis layanan medis yang direncanakan."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-owner-representative"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/klinik",
+    "sourcePath": "content/sectors/klinik.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Klinik dengan Perhatian pada Standar Fasilitas Kesehatan",
+        "path": "/sektor/klinik"
+      }
+    ],
+    "wordCount": 594,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/design-and-build",
+      "/layanan/owner-representative",
+      "/layanan/pengawasan-proyek",
+      "/layanan/quality-control-konstruksi",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "sec-kos",
     "type": "sector",
     "status": "published",
@@ -4404,6 +4836,149 @@ export const contentManifest: ContentItem[] = [
       "/layanan/value-engineering",
       "/layanan/building-maintenance",
       "/layanan/pengawasan-proyek",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "sec-masjid",
+    "type": "sector",
+    "status": "published",
+    "title": "Kontraktor Masjid dengan Perhatian pada Kapasitas Jemaah dan Akustik",
+    "slug": "masjid",
+    "description": "Layanan konstruksi dan pengendalian proyek bangunan masjid Arkavena dengan perhatian pada kapasitas jemaah, akustik, sirkulasi, dan fasilitas penunjang ibadah.",
+    "excerpt": "Pendekatan pembangunan dan renovasi bangunan masjid yang mempertimbangkan kapasitas jemaah, kenyamanan ibadah, dan fasilitas penunjang.",
+    "seoTitle": "Kontraktor Masjid | Arkavena",
+    "primaryKeyword": "kontraktor masjid",
+    "secondaryKeywords": [
+      "jasa bangun masjid",
+      "kontraktor renovasi masjid"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "struktur"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Bangunan Masjid",
+      "heading": "Bangunan Masjid yang Nyaman untuk Jemaah dan Mudah Dikelola",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek pembangunan atau renovasi masjid dengan mempertimbangkan kapasitas jemaah, akustik, dan fasilitas penunjang.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek",
+        "svc-building-maintenance"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [
+        "sec-sekolah"
+      ],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau renovasi masjid."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangunan Komersial",
+        "href": "/layanan/bangun-bangunan-komersial",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menyediakan desain struktur kubah atau menara khusus?",
+        "answer": "Desain struktur kubah dan menara dengan bentang atau ketinggian khusus memerlukan kajian spesialis struktur berdasarkan data teknis spesifik — ini bukan bagian dari scope standar dan perlu dibahas secara khusus sesuai kompleksitas desain yang direncanakan."
+      },
+      {
+        "question": "Apakah Arkavena membantu pengadaan sistem sound system atau pengeras suara masjid?",
+        "answer": "Tidak secara otomatis. Pengadaan dan pemasangan sistem sound system umumnya dilakukan oleh vendor spesialis audio, meskipun koordinasi pekerjaan sipil terkait dapat dicakup dalam ruang lingkup proyek."
+      },
+      {
+        "question": "Apakah Arkavena membantu mengurus izin pendirian rumah ibadah?",
+        "answer": "Tidak. Pengurusan izin pendirian rumah ibadah berada di luar kewenangan Arkavena dan bergantung pada otoritas serta ketentuan yang berlaku di wilayah Anda."
+      },
+      {
+        "question": "Bagaimana kapasitas jemaah memengaruhi perencanaan bangunan?",
+        "answer": "Kapasitas jemaah yang direncanakan, termasuk perkiraan jemaah pada waktu shalat tertentu seperti Jumat, memengaruhi luas area shalat, jumlah pintu, dan kapasitas area wudhu — kebutuhan ini perlu dibahas sejak tahap konsultasi awal."
+      },
+      {
+        "question": "Apakah akustik ruang shalat menjadi pertimbangan dalam desain?",
+        "answer": "Ya, akustik menjadi salah satu pertimbangan agar suara imam dan bacaan dapat terdengar jelas ke seluruh ruang, meskipun solusi teknis akhirnya bergantung pada bentuk ruang dan kajian spesifik proyek Anda."
+      },
+      {
+        "question": "Apakah area wudhu dan toilet memerlukan pertimbangan khusus?",
+        "answer": "Ya, kapasitas dan sirkulasi area wudhu perlu direncanakan sesuai jumlah jemaah agar tidak terjadi antrean panjang, terutama menjelang waktu shalat berjamaah."
+      },
+      {
+        "question": "Bagaimana biaya proyek masjid ditentukan?",
+        "answer": "Biaya ditentukan setelah kapasitas jemaah, kompleksitas desain struktur, dan fasilitas penunjang dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "sector": {
+      "buildingType": "Masjid",
+      "primaryUseCases": [
+        "rumah ibadah komunitas",
+        "fasilitas ibadah dengan kapasitas jemaah besar"
+      ],
+      "commonRisks": [
+        "Kapasitas jemaah pada waktu shalat berjamaah tidak diperhitungkan sejak perencanaan awal.",
+        "Akustik ruang shalat tidak dipertimbangkan sehingga suara tidak terdengar jelas.",
+        "Sirkulasi area wudhu tidak memadai sehingga menyebabkan antrean panjang."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/masjid",
+    "sourcePath": "content/sectors/masjid.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Masjid dengan Perhatian pada Kapasitas Jemaah dan Akustik",
+        "path": "/sektor/masjid"
+      }
+    ],
+    "wordCount": 544,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/design-and-build",
+      "/layanan/pengawasan-proyek",
+      "/layanan/building-maintenance",
       "/panduan",
       "/wilayah"
     ],
@@ -4558,6 +5133,150 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "sec-restoran",
+    "type": "sector",
+    "status": "published",
+    "title": "Kontraktor Restoran dengan Koordinasi Dapur dan Area Servis",
+    "slug": "restoran",
+    "description": "Layanan konstruksi dan pengendalian proyek restoran Arkavena dengan perhatian pada area dapur, area makan, alur servis, dan koordinasi utilitas bersama spesialis peralatan.",
+    "excerpt": "Pendekatan pembangunan dan renovasi restoran yang mempertimbangkan alur servis, kapasitas dapur, dan kenyamanan pengunjung.",
+    "seoTitle": "Kontraktor Restoran | Arkavena",
+    "primaryKeyword": "kontraktor restoran",
+    "secondaryKeywords": [
+      "jasa bangun restoran",
+      "kontraktor renovasi restoran"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "finishing"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Restoran",
+      "heading": "Restoran yang Efisien untuk Servis, Nyaman untuk Pengunjung",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek pembangunan atau renovasi restoran, dikoordinasikan dengan kebutuhan dapur skala besar bersama spesialis peralatan Anda.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-design-and-build",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau renovasi restoran."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Manajemen Konstruksi",
+        "href": "/layanan/manajemen-konstruksi",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menyediakan desain interior dapur restoran skala besar?",
+        "answer": "Ya. Arkavena menyediakan desain interior restoran, termasuk desain interior area dapur (kitchen interior design), sebagai bagian dari layanan interior fit-out. Perencanaan alur kerja dapur berdasarkan volume menu dan kapasitas produksi (kitchen consultant) serta pengadaan peralatan produksi tetap memerlukan spesialis atau vendor terpisah yang ditunjuk."
+      },
+      {
+        "question": "Apakah pengadaan peralatan dapur dan perlengkapan servis termasuk dalam layanan ini?",
+        "answer": "Tidak. Arkavena mendesain tata letak interior dan mengoordinasikan kebutuhan ruang untuk peralatan tersebut, tetapi pengadaan peralatan dapur dan perlengkapan servis itu sendiri berada di luar cakupan Arkavena dan dilakukan langsung oleh pemilik usaha atau vendor terkait."
+      },
+      {
+        "question": "Apakah Arkavena membantu mengurus sertifikasi keamanan pangan atau izin usaha restoran?",
+        "answer": "Tidak. Pengurusan sertifikasi dan izin usaha berada di luar kewenangan Arkavena dan bergantung pada otoritas terkait."
+      },
+      {
+        "question": "Bagaimana kapasitas dapur ditentukan sesuai jumlah pengunjung yang direncanakan?",
+        "answer": "Kapasitas dapur perlu dikaji berdasarkan proyeksi jumlah pengunjung dan jenis menu — perencanaan alur kerja dan kapasitas produksi ini umumnya ditentukan bersama kitchen consultant, sebelum desain interior tata letak dapur dikerjakan oleh Arkavena."
+      },
+      {
+        "question": "Apakah area penyimpanan bahan baku (storage) memerlukan pertimbangan khusus?",
+        "answer": "Ya, area penyimpanan kering dan dingin perlu direncanakan sesuai volume operasional, termasuk kebutuhan suhu dan sirkulasi udara, yang bergantung pada jenis menu dan skala restoran Anda."
+      },
+      {
+        "question": "Apakah alur servis dari dapur ke area makan menjadi bagian dari perencanaan?",
+        "answer": "Ya, alur servis antara dapur, area cuci, dan area makan menjadi salah satu pertimbangan dalam penataan layout agar operasional berjalan efisien dan tidak mengganggu kenyamanan pengunjung."
+      },
+      {
+        "question": "Bagaimana biaya proyek restoran ditentukan?",
+        "answer": "Biaya ditentukan setelah ruang lingkup, luas area, dan kompleksitas dapur serta utilitas dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "sector": {
+      "buildingType": "Restoran",
+      "primaryUseCases": [
+        "usaha F&B skala menengah-besar",
+        "restoran dengan area makan dan dapur produksi"
+      ],
+      "commonRisks": [
+        "Kapasitas dapur tidak sesuai dengan proyeksi jumlah pengunjung dan volume menu.",
+        "Alur servis antara dapur dan area makan tidak direncanakan dengan baik.",
+        "Utilitas dapur skala besar tidak dikoordinasikan sejak awal dengan kebutuhan peralatan."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-manajemen-konstruksi"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/restoran",
+    "sourcePath": "content/sectors/restoran.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Restoran dengan Koordinasi Dapur dan Area Servis",
+        "path": "/sektor/restoran"
+      }
+    ],
+    "wordCount": 658,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/interior-fit-out",
+      "/layanan/design-and-build",
+      "/layanan/manajemen-konstruksi",
+      "/layanan/pengawasan-proyek",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "sec-ruko",
     "type": "sector",
     "status": "published",
@@ -4602,7 +5321,9 @@ export const contentManifest: ContentItem[] = [
       "locations": [],
       "guides": [],
       "projects": [],
-      "pinnedRelated": [],
+      "pinnedRelated": [
+        "sec-showroom-retail"
+      ],
       "excludedRelated": []
     },
     "conversion": {
@@ -4845,6 +5566,440 @@ export const contentManifest: ContentItem[] = [
       "/panduan",
       "/wilayah",
       "/cara-kerja"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "sec-sekolah",
+    "type": "sector",
+    "status": "published",
+    "title": "Kontraktor Sekolah dengan Perhatian pada Keselamatan dan Fungsi Ruang Belajar",
+    "slug": "sekolah",
+    "description": "Layanan konstruksi dan pengendalian proyek bangunan sekolah Arkavena dengan perhatian pada keselamatan, akustik ruang kelas, aksesibilitas, dan fasilitas penunjang.",
+    "excerpt": "Pendekatan pembangunan dan renovasi bangunan sekolah yang mempertimbangkan keselamatan siswa, kenyamanan ruang belajar, dan fasilitas penunjang.",
+    "seoTitle": "Kontraktor Sekolah | Arkavena",
+    "primaryKeyword": "kontraktor sekolah",
+    "secondaryKeywords": [
+      "jasa bangun gedung sekolah",
+      "kontraktor renovasi sekolah"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "struktur"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Bangunan Sekolah",
+      "heading": "Bangunan Sekolah yang Aman dan Mendukung Kegiatan Belajar",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek pembangunan atau renovasi bangunan sekolah dengan mempertimbangkan keselamatan siswa dan kenyamanan ruang belajar.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek",
+        "svc-quality-control-konstruksi",
+        "svc-building-maintenance"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [
+        "sec-masjid"
+      ],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau renovasi bangunan sekolah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Quality Control Konstruksi",
+        "href": "/layanan/quality-control-konstruksi",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena membantu mengurus izin operasional atau akreditasi sekolah?",
+        "answer": "Tidak. Pengurusan izin operasional dan akreditasi sekolah berada di luar kewenangan Arkavena dan bergantung pada otoritas pendidikan terkait."
+      },
+      {
+        "question": "Apakah standar keselamatan bangunan sekolah mengikuti ketentuan khusus?",
+        "answer": "Ya, bangunan sekolah umumnya perlu mengikuti standar keselamatan yang lebih ketat, termasuk jalur evakuasi dan proteksi kebakaran, sesuai ketentuan yang berlaku dan kajian spesialis terkait."
+      },
+      {
+        "question": "Bagaimana akustik ruang kelas dipertimbangkan dalam desain?",
+        "answer": "Akustik ruang kelas menjadi salah satu pertimbangan agar kegiatan belajar tidak terganggu kebisingan, meskipun solusi teknis akhirnya bergantung pada kondisi lahan dan kajian spesifik proyek Anda."
+      },
+      {
+        "question": "Apakah fasilitas penunjang seperti laboratorium atau perpustakaan termasuk dalam ruang lingkup?",
+        "answer": "Dapat mencakup, tergantung ruang lingkup yang disepakati. Kebutuhan fasilitas penunjang sebaiknya dibahas sejak awal karena memengaruhi tata letak dan spesifikasi utilitas bangunan."
+      },
+      {
+        "question": "Apakah aksesibilitas untuk siswa berkebutuhan khusus menjadi pertimbangan?",
+        "answer": "Ya, aksesibilitas seperti ramp dan jalur yang ramah difabel perlu dipertimbangkan sesuai kebutuhan dan ketentuan yang berlaku di wilayah Anda."
+      },
+      {
+        "question": "Apakah pembangunan sekolah dapat dilakukan bertahap tanpa mengganggu kegiatan belajar?",
+        "answer": "Pembangunan bertahap dapat direncanakan, tetapi memerlukan koordinasi jadwal yang cermat dengan kalender akademik agar kegiatan belajar tidak terganggu."
+      },
+      {
+        "question": "Bagaimana biaya proyek sekolah ditentukan?",
+        "answer": "Biaya ditentukan setelah ruang lingkup, jumlah ruang kelas, dan fasilitas penunjang dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "sector": {
+      "buildingType": "Sekolah",
+      "primaryUseCases": [
+        "fasilitas pendidikan formal",
+        "bangunan sekolah dengan fasilitas penunjang"
+      ],
+      "commonRisks": [
+        "Standar keselamatan dan jalur evakuasi tidak dikaji sesuai ketentuan yang berlaku.",
+        "Akustik ruang kelas tidak dipertimbangkan sehingga mengganggu kegiatan belajar.",
+        "Jadwal pembangunan tidak dikoordinasikan dengan kalender akademik sehingga mengganggu operasional sekolah."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-quality-control-konstruksi"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/sekolah",
+    "sourcePath": "content/sectors/sekolah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Sekolah dengan Perhatian pada Keselamatan dan Fungsi Ruang Belajar",
+        "path": "/sektor/sekolah"
+      }
+    ],
+    "wordCount": 526,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/design-and-build",
+      "/layanan/pengawasan-proyek",
+      "/layanan/quality-control-konstruksi",
+      "/layanan/building-maintenance",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "sec-showroom-retail",
+    "type": "sector",
+    "status": "published",
+    "title": "Kontraktor Showroom dan Retail dengan Koordinasi Fit-Out Display",
+    "slug": "showroom-retail",
+    "description": "Layanan konstruksi dan pengendalian proyek showroom dan retail Arkavena dengan perhatian pada alur pengunjung, area display, dan koordinasi visual merchandising.",
+    "excerpt": "Pendekatan pembangunan dan fit-out showroom atau ruang retail yang mempertimbangkan alur pengunjung, area display, dan koordinasi kebutuhan visual merchandising.",
+    "seoTitle": "Kontraktor Showroom dan Retail | Arkavena",
+    "primaryKeyword": "kontraktor showroom",
+    "secondaryKeywords": [
+      "jasa fit-out retail",
+      "kontraktor bangun showroom"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "finishing"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Showroom dan Retail",
+      "heading": "Ruang Showroom dan Retail yang Mendukung Pengalaman Pengunjung",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek pembangunan atau fit-out showroom dan retail, dikoordinasikan dengan kebutuhan visual merchandising dari spesialis yang Anda tunjuk.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [
+        "sec-ruko"
+      ],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau fit-out showroom/retail."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Interior Fit-Out",
+        "href": "/layanan/interior-fit-out",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menyediakan desain visual merchandising atau branding retail?",
+        "answer": "Tidak. Desain visual merchandising, konsep branding, dan penataan display produk adalah keahlian spesialis di luar cakupan Arkavena. Arkavena dapat mengoordinasikan pekerjaan sipil dan fit-out dengan visual merchandiser atau brand consultant yang Anda tunjuk."
+      },
+      {
+        "question": "Apakah pengadaan fixture display dan signage termasuk dalam layanan ini?",
+        "answer": "Tidak secara otomatis. Pengadaan fixture display dan signage umumnya dilakukan oleh vendor khusus, meskipun koordinasi pekerjaan sipil terkait pemasangannya dapat dicakup dalam ruang lingkup proyek."
+      },
+      {
+        "question": "Apakah Arkavena membantu mengurus izin usaha retail?",
+        "answer": "Tidak. Pengurusan izin usaha berada di luar kewenangan Arkavena dan bergantung pada otoritas terkait."
+      },
+      {
+        "question": "Bagaimana alur pengunjung dipertimbangkan dalam tata letak showroom?",
+        "answer": "Alur pengunjung menjadi salah satu pertimbangan utama dalam penataan layout agar produk dapat ditampilkan secara optimal, meskipun keputusan penataan display akhir umumnya ditentukan oleh visual merchandiser."
+      },
+      {
+        "question": "Apakah pencahayaan khusus untuk display produk termasuk dalam ruang lingkup?",
+        "answer": "Kebutuhan dasar sistem pencahayaan dapat dikoordinasikan dalam pekerjaan MEP, tetapi spesifikasi pencahayaan khusus untuk display produk tertentu umumnya ditentukan oleh spesialis visual merchandising."
+      },
+      {
+        "question": "Apakah showroom dengan kebutuhan keamanan tinggi (misalnya perhiasan) memerlukan pertimbangan khusus?",
+        "answer": "Ya, kebutuhan sistem keamanan tambahan perlu dibahas sejak tahap perencanaan dan dikoordinasikan dengan spesialis sistem keamanan sesuai jenis produk yang dipajang."
+      },
+      {
+        "question": "Bagaimana biaya proyek showroom atau retail ditentukan?",
+        "answer": "Biaya ditentukan setelah ruang lingkup, luas area, dan kompleksitas fit-out dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "sector": {
+      "buildingType": "Showroom dan Retail",
+      "primaryUseCases": [
+        "ruang pamer produk",
+        "fit-out ruang sewa untuk usaha retail"
+      ],
+      "commonRisks": [
+        "Kebutuhan visual merchandising belum dikoordinasikan dengan desain sipil sejak awal.",
+        "Alur pengunjung tidak direncanakan sehingga mengurangi efektivitas tampilan produk.",
+        "Sistem pencahayaan tidak disesuaikan dengan kebutuhan display yang akhirnya ditentukan."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-design-and-build"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/showroom-retail",
+    "sourcePath": "content/sectors/showroom-retail.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Showroom dan Retail dengan Koordinasi Fit-Out Display",
+        "path": "/sektor/showroom-retail"
+      }
+    ],
+    "wordCount": 581,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/interior-fit-out",
+      "/layanan/design-and-build",
+      "/layanan/pengawasan-proyek",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "sec-villa",
+    "type": "sector",
+    "status": "published",
+    "title": "Kontraktor Villa dengan Perencanaan Privasi dan Kenyamanan Tamu",
+    "slug": "villa",
+    "description": "Layanan konstruksi dan pengendalian proyek villa Arkavena dengan perhatian pada privasi, kenyamanan, area outdoor, dan kebutuhan pengelolaan jangka panjang.",
+    "excerpt": "Pendekatan pembangunan dan renovasi villa yang mempertimbangkan privasi, kenyamanan, area outdoor, dan kemudahan pengelolaan.",
+    "seoTitle": "Kontraktor Villa | Arkavena",
+    "primaryKeyword": "kontraktor villa",
+    "secondaryKeywords": [
+      "jasa bangun villa",
+      "kontraktor renovasi villa"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "residensial",
+      "komersial"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Villa",
+      "heading": "Villa yang Nyaman untuk Dihuni, Efisien untuk Dikelola",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek pembangunan atau renovasi villa dengan mempertimbangkan privasi, kenyamanan, dan kemudahan pengelolaan jangka panjang.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-design-and-build",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering",
+        "svc-building-maintenance"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau renovasi villa."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Value Engineering",
+        "href": "/layanan/value-engineering",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena dapat memberikan proyeksi pendapatan sewa villa?",
+        "answer": "Tidak. Arkavena berfokus pada perencanaan dan pelaksanaan konstruksi, bukan analisis investasi, proyeksi okupansi, atau perhitungan pendapatan sewa."
+      },
+      {
+        "question": "Apakah Arkavena membantu mengurus izin usaha penyewaan villa?",
+        "answer": "Tidak. Pengurusan izin usaha penyewaan berada di luar kewenangan Arkavena dan bergantung pada otoritas serta ketentuan yang berlaku di wilayah Anda."
+      },
+      {
+        "question": "Bagaimana kolam renang atau fasilitas outdoor dipertimbangkan dalam perencanaan?",
+        "answer": "Kebutuhan kolam renang dan fasilitas outdoor lain dapat dibahas pada tahap perencanaan, dengan koordinasi spesialis terkait untuk sistem filtrasi dan keselamatan, sesuai kondisi lahan Anda."
+      },
+      {
+        "question": "Apakah villa untuk disewakan memerlukan pertimbangan berbeda dari rumah tinggal pribadi?",
+        "answer": "Villa yang direncanakan untuk disewakan umumnya perlu mempertimbangkan daya tahan material terhadap penggunaan intensif dan kemudahan perawatan oleh pengelola, berbeda dari rumah tinggal untuk penggunaan pribadi."
+      },
+      {
+        "question": "Bagaimana privasi antar area villa dipertimbangkan dalam desain?",
+        "answer": "Privasi menjadi salah satu pertimbangan utama dalam penataan layout villa, terutama untuk area kamar dan area outdoor, meskipun solusi teknis akhirnya bergantung pada kondisi lahan dan kebutuhan spesifik Anda."
+      },
+      {
+        "question": "Apakah villa memerlukan pertimbangan khusus untuk pengelolaan jarak jauh?",
+        "answer": "Ya, villa yang dikelola dari jarak jauh atau disewakan sebaiknya mempertimbangkan sistem yang mudah dipantau dan dipelihara oleh pengelola atau staf setempat."
+      },
+      {
+        "question": "Bagaimana biaya proyek villa ditentukan?",
+        "answer": "Biaya ditentukan setelah ruang lingkup, luas lahan, dan spesifikasi fasilitas dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "sector": {
+      "buildingType": "Villa",
+      "primaryUseCases": [
+        "hunian pribadi dengan area outdoor",
+        "villa untuk disewakan"
+      ],
+      "commonRisks": [
+        "Kebutuhan privasi antar area belum diterjemahkan dengan jelas ke dalam desain.",
+        "Material dipilih tanpa mempertimbangkan penggunaan intensif untuk villa yang disewakan.",
+        "Fasilitas outdoor seperti kolam renang tidak dikoordinasikan dengan spesialis terkait sejak awal."
+      ],
+      "relevantServices": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-design-and-build",
+        "svc-value-engineering"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/villa",
+    "sourcePath": "content/sectors/villa.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Villa dengan Perencanaan Privasi dan Kenyamanan Tamu",
+        "path": "/sektor/villa"
+      }
+    ],
+    "wordCount": 543,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/layanan/renovasi-rumah",
+      "/layanan/design-and-build",
+      "/layanan/pengendalian-biaya-proyek",
+      "/layanan/value-engineering",
+      "/layanan/building-maintenance",
+      "/panduan",
+      "/wilayah"
     ],
     "isIndexable": true,
     "isFollowable": true
@@ -6044,6 +7199,1240 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "guide-biaya-bangun-rumah-per-meter",
+    "type": "guide",
+    "status": "published",
+    "title": "Biaya Bangun Rumah per Meter: Memahami Kisaran dan Apa yang Memengaruhinya",
+    "slug": "biaya-bangun-rumah-per-meter",
+    "description": "Biaya bangun rumah per meter mulai dari Rp4.000.000/m² untuk spesifikasi kelas menengah-atas — beserta variabel yang memengaruhi angka ini dan cara membacanya dengan benar.",
+    "excerpt": "Kisaran biaya bangun rumah per meter Arkavena dan penjelasan variabel yang memengaruhi angka tersebut, bukan angka pasar tunggal yang berlaku universal.",
+    "seoTitle": "Biaya Bangun Rumah per Meter | Arkavena",
+    "primaryKeyword": "biaya bangun rumah per meter",
+    "secondaryKeywords": [
+      "harga bangun rumah per m2",
+      "kisaran biaya bangun rumah"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "biaya"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Biaya Bangun Rumah per Meter: Mulai dari Rp4.000.000/m²",
+      "summary": "Angka awal untuk spesifikasi kelas menengah-atas, beserta variabel yang memengaruhi biaya akhir dan cara membaca kisaran ini dengan benar.",
+      "image": "/images/guides/biaya-bangun-rumah-per-meter/hero.webp",
+      "imageAlt": "Ilustrasi konseptual komponen biaya konstruksi rumah per meter persegi"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-cara-membaca-rab-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Anggaran Rumah Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya bangun rumah per meter untuk rencana saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Rp4.000.000/m² adalah harga final?",
+        "answer": "Tidak. Angka ini adalah titik awal (starting price) untuk spesifikasi kelas menengah-atas, bukan quote final. Harga aktual ditentukan setelah desain, spesifikasi material, dan kondisi lahan proyek Anda dibahas pada tahap konsultasi."
+      },
+      {
+        "question": "Mengapa Arkavena tidak menawarkan opsi harga yang lebih rendah?",
+        "answer": "Angka ini secara sengaja mencerminkan standar kualitas material, mutu pelaksanaan, dan pengendalian proyek yang menjadi pendekatan Arkavena — bukan harga yang dioptimalkan untuk menjadi opsi termurah di pasar."
+      },
+      {
+        "question": "Apa yang termasuk dalam estimasi Rp4.000.000/m² ini?",
+        "answer": "Angka ini mencerminkan spesifikasi kelas menengah-atas secara umum. Rincian komponen yang termasuk dan tidak termasuk (struktur, MEP, finishing, dsb.) untuk proyek Anda spesifik akan dijelaskan pada tahap konsultasi dan RAB, karena rincian tersebut bergantung pada desain dan pilihan spesifikasi Anda."
+      },
+      {
+        "question": "Apakah harga ini berlaku di semua kota?",
+        "answer": "Estimasi ini didasarkan pada pengalaman proyek Arkavena di area layanan utama. Biaya di lokasi lain dapat berbeda dan akan dibahas berdasarkan lokasi proyek Anda secara spesifik."
+      },
+      {
+        "question": "Apakah luas tanah dan luas bangunan sama untuk perhitungan ini?",
+        "answer": "Tidak. Perhitungan biaya per meter menggunakan luas bangunan (luas lantai yang dibangun), bukan luas tanah. Rumah dua lantai dengan luas tanah 100 m² misalnya dapat memiliki luas bangunan lebih dari 100 m²."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Estimasi internal Arkavena berdasarkan pengalaman proyek",
+        "url": "https://arkavena.com/layanan/bangun-rumah",
+        "publisher": "Arkavena",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "cost",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": "2026-07-28",
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/biaya-bangun-rumah-per-meter",
+    "sourcePath": "content/guides/biaya-bangun-rumah-per-meter.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Biaya Bangun Rumah per Meter: Memahami Kisaran dan Apa yang Memengaruhinya",
+        "path": "/panduan/biaya-bangun-rumah-per-meter"
+      }
+    ],
+    "wordCount": 728,
+    "readingMinutes": 4,
+    "internalLinks": [
+      "/panduan/cara-membaca-rab-rumah",
+      "/panduan/cara-menghitung-biaya-bangun-rumah",
+      "/layanan/bangun-rumah",
+      "/panduan/tahapan-bangun-rumah-dari-nol"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-biaya-renovasi-rumah",
+    "type": "guide",
+    "status": "published",
+    "title": "Biaya Renovasi Rumah: Kisaran per Kategori dan Faktor yang Mempengaruhinya",
+    "slug": "biaya-renovasi-rumah",
+    "description": "Kisaran biaya renovasi rumah per kategori — ringan, sedang, berat/total — beserta variabel yang mempengaruhinya dan mengapa renovasi berat bisa lebih mahal dari bangun baru.",
+    "excerpt": "Kisaran biaya renovasi rumah berdasarkan kategori pekerjaan, bukan satu angka tunggal, karena variasinya terlalu besar untuk direpresentasikan dengan satu harga.",
+    "seoTitle": "Biaya Renovasi Rumah per Kategori | Arkavena",
+    "primaryKeyword": "biaya renovasi rumah",
+    "secondaryKeywords": [
+      "kisaran biaya renovasi rumah",
+      "biaya renovasi rumah per meter"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "renovasi",
+    "tags": [
+      "renovasi",
+      "biaya",
+      "residensial"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Renovasi Rumah",
+      "heading": "Biaya Renovasi Rumah: Kenapa Tidak Ada Satu Angka Pasti",
+      "summary": "Kisaran biaya renovasi rumah per kategori pekerjaan — ringan, sedang, dan berat/total — beserta variabel yang mempengaruhi angka ini di dalam setiap kategori.",
+      "image": "/images/guides/biaya-renovasi-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual kategori dan komponen biaya renovasi rumah"
+    },
+    "relationships": {
+      "services": [
+        "svc-renovasi-rumah",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-risiko-pembengkakan-biaya-renovasi"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Estimasi untuk Rumah Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya renovasi rumah saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Renovasi Rumah",
+        "href": "/layanan/renovasi-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Mengapa biaya renovasi rumah tidak diberikan sebagai satu angka tunggal?",
+        "answer": "Karena variasinya terlalu besar untuk direpresentasikan secara bertanggung jawab dengan satu angka — kondisi bangunan eksisting, jenis pekerjaan, dan spesifikasi material sangat memengaruhi biaya aktual. Kerangka kategori (ringan, sedang, berat) memberikan gambaran yang lebih realistis dibandingkan satu angka \"mulai dari\"."
+      },
+      {
+        "question": "Apakah kisaran pada tabel ini adalah harga resmi Arkavena?",
+        "answer": "Tidak. Kisaran ini adalah gambaran pasar umum untuk konteks, bukan penawaran atau quote resmi Arkavena. Harga aktual untuk proyek Anda ditentukan setelah survei kondisi eksisting dan penyusunan RAB pada tahap konsultasi."
+      },
+      {
+        "question": "Kenapa renovasi berat bisa lebih mahal per meter dibandingkan bangun rumah baru?",
+        "answer": "Renovasi berat melibatkan pekerjaan tambahan yang tidak ada pada proyek bangun baru — pembongkaran, kerja di sekitar struktur lama yang lebih lambat, dan ketidakpastian kondisi tersembunyi. Faktor-faktor ini dijelaskan lebih detail pada bagian 'Kenapa renovasi berat bisa lebih mahal dari bangun baru per meter' di bawah."
+      },
+      {
+        "question": "Kapan sebaiknya mempertimbangkan bongkar total dan bangun baru dibanding renovasi?",
+        "answer": "Tidak ada titik pasti yang berlaku untuk semua kasus, tetapi banyak pemilik rumah mulai mempertimbangkan opsi ini ketika estimasi renovasi berat sudah mendekati sebagian besar biaya bangun ulang total. Ini adalah wawasan edukatif untuk membantu Anda bertanya pada pertanyaan yang tepat, bukan rekomendasi otomatis — keputusan tetap perlu didiskusikan berdasarkan kondisi rumah Anda."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan angka yang lebih presisi untuk rumah saya?",
+        "answer": "Angka yang presisi hanya bisa disusun setelah survei kondisi eksisting dan penyusunan RAB berdasarkan ruang lingkup spesifik rumah Anda — bukan dari kisaran umum di panduan ini."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Kisaran pasar umum industri konstruksi renovasi Indonesia — referensi kontekstual, bukan penawaran resmi Arkavena",
+        "url": "https://arkavena.com/layanan/renovasi-rumah",
+        "publisher": "Arkavena",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "cost",
+      "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
+      "dataAsOf": "2026-07-28",
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/biaya-renovasi-rumah",
+    "sourcePath": "content/guides/biaya-renovasi-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Biaya Renovasi Rumah: Kisaran per Kategori dan Faktor yang Mempengaruhinya",
+        "path": "/panduan/biaya-renovasi-rumah"
+      }
+    ],
+    "wordCount": 868,
+    "readingMinutes": 4,
+    "internalLinks": [
+      "/panduan/renovasi-total-vs-renovasi-sebagian",
+      "/layanan/renovasi-rumah",
+      "/layanan/pengendalian-biaya-proyek",
+      "/panduan/cara-menghitung-anggaran-renovasi-rumah",
+      "/panduan/risiko-pembengkakan-biaya-renovasi"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-borongan-vs-harian-bangun-rumah",
+    "type": "guide",
+    "status": "published",
+    "title": "Borongan vs Harian Bangun Rumah: Perbandingan Model Kerja",
+    "slug": "borongan-vs-harian-bangun-rumah",
+    "description": "Perbandingan model kerja borongan dan harian untuk proyek bangun rumah — kepastian ruang lingkup, visibilitas biaya, keterlibatan owner, dan penanganan perubahan.",
+    "excerpt": "Perbandingan dua model kerja umum dalam proyek bangun rumah, tanpa menyatakan salah satu selalu lebih baik.",
+    "seoTitle": "Borongan vs Harian Bangun Rumah | Arkavena",
+    "primaryKeyword": "borongan vs harian bangun rumah",
+    "secondaryKeywords": [
+      "sistem borongan bangun rumah",
+      "sistem harian bangun rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "kontrak"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Borongan atau Harian? Bandingkan Berdasarkan Kebutuhan Proyek Anda",
+      "summary": "Perbandingan model kerja borongan dan harian dari sisi kepastian ruang lingkup, biaya, dan keterlibatan owner.",
+      "image": "/images/guides/borongan-vs-harian-bangun-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual perbandingan dua model kerja konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-kontraktor-vs-tukang",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai persiapan pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah sistem borongan selalu lebih murah daripada harian?",
+        "answer": "Tidak selalu. Biaya akhir bergantung pada ruang lingkup, efisiensi pelaksanaan, dan seberapa banyak perubahan terjadi selama proyek — bukan semata-mata jenis sistem yang dipilih."
+      },
+      {
+        "question": "Apakah sistem harian berarti tanpa kontrak?",
+        "answer": "Tidak seharusnya. Sistem harian tetap sebaiknya dituangkan dalam kesepakatan tertulis mengenai tarif, jam kerja, dan tanggung jawab, meskipun strukturnya berbeda dari kontrak borongan."
+      },
+      {
+        "question": "Bisakah kedua sistem digabungkan dalam satu proyek?",
+        "answer": "Bisa. Sebagian proyek menggunakan borongan untuk pekerjaan utama dan harian untuk pekerjaan tambahan atau perbaikan kecil, tergantung kesepakatan dengan pelaksana."
+      },
+      {
+        "question": "Sistem mana yang membutuhkan pengawasan lebih intensif dari owner?",
+        "answer": "Secara umum, sistem harian cenderung membutuhkan keterlibatan owner yang lebih intensif dalam mengarahkan pekerjaan harian, dibandingkan sistem borongan yang menyerahkan pengelolaan ruang lingkup kepada pelaksana."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "comparison",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/borongan-vs-harian-bangun-rumah",
+    "sourcePath": "content/guides/borongan-vs-harian-bangun-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Borongan vs Harian Bangun Rumah: Perbandingan Model Kerja",
+        "path": "/panduan/borongan-vs-harian-bangun-rumah"
+      }
+    ],
+    "wordCount": 422,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/kontraktor-vs-tukang",
+      "/panduan/kontrak-kerja-konstruksi-rumah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-cara-membaca-rab-rumah",
+    "type": "guide",
+    "status": "published",
+    "title": "Cara Membaca RAB Rumah yang Diberikan Kontraktor",
+    "slug": "cara-membaca-rab-rumah",
+    "description": "Cara membaca dan memahami RAB (Rencana Anggaran Biaya) rumah dari kontraktor — item, volume, satuan, harga satuan, subtotal, asumsi, dan exclusion.",
+    "excerpt": "Panduan membaca RAB yang Anda terima dari kontraktor, termasuk pertanyaan yang perlu diajukan sebelum menyetujuinya.",
+    "seoTitle": "Cara Membaca RAB Rumah | Arkavena",
+    "primaryKeyword": "cara membaca RAB rumah",
+    "secondaryKeywords": [
+      "memahami RAB rumah",
+      "cara baca rencana anggaran biaya rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "biaya"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Cara Membaca RAB Rumah Sebelum Menyetujuinya",
+      "summary": "Pahami item, volume, satuan, harga satuan, dan asumsi dalam RAB yang Anda terima, serta pertanyaan yang perlu diajukan sebelum menyetujuinya.",
+      "image": "/images/guides/cara-membaca-rab-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual dokumen rencana anggaran biaya"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-tahapan-bangun-rumah-dari-nol"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai RAB proyek rumah saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah RAB dari kontraktor berbeda-beda formatnya?",
+        "answer": "Ya, format dapat bervariasi antar kontraktor, tetapi elemen dasarnya — item, volume, satuan, harga satuan, dan subtotal — umumnya serupa."
+      },
+      {
+        "question": "Apa yang harus saya lakukan jika ada item yang tidak saya pahami?",
+        "answer": "Tanyakan langsung kepada kontraktor. RAB yang baik seharusnya dapat dijelaskan item per item, termasuk asumsi dan spesifikasi yang mendasarinya."
+      },
+      {
+        "question": "Apakah RAB yang lebih rinci selalu lebih baik?",
+        "answer": "RAB yang rinci membantu Anda memahami ke mana anggaran dialokasikan, tetapi kejelasan asumsi dan exclusion sama pentingnya dengan tingkat kerincian itu sendiri."
+      },
+      {
+        "question": "Apa bedanya artikel ini dengan artikel komponen RAB rumah?",
+        "answer": "Artikel ini berfokus pada proses membaca dan mengajukan pertanyaan terhadap RAB yang sudah Anda terima. Anatomi lengkap struktur dokumen RAB dibahas pada panduan terpisah dalam cluster ini."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/cara-membaca-rab-rumah",
+    "sourcePath": "content/guides/cara-membaca-rab-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Cara Membaca RAB Rumah yang Diberikan Kontraktor",
+        "path": "/panduan/cara-membaca-rab-rumah"
+      }
+    ],
+    "wordCount": 516,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/cara-menghitung-biaya-bangun-rumah",
+      "/panduan/biaya-bangun-rumah-per-meter",
+      "/panduan/kontrak-kerja-konstruksi-rumah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-cara-memilih-kontraktor-renovasi",
+    "type": "guide",
+    "status": "published",
+    "title": "Cara Memilih Kontraktor Renovasi Rumah",
+    "slug": "cara-memilih-kontraktor-renovasi",
+    "description": "Kriteria memilih kontraktor renovasi rumah — pengalaman menangani bangunan eksisting, cara kerja, dan hal yang perlu diperiksa sebelum menyepakati kontrak.",
+    "excerpt": "Kriteria evaluasi kontraktor renovasi, dengan penekanan pada pengalaman menangani kondisi bangunan eksisting yang tidak dimiliki proyek bangun baru.",
+    "seoTitle": "Cara Memilih Kontraktor Renovasi Rumah | Arkavena",
+    "primaryKeyword": "cara memilih kontraktor renovasi",
+    "secondaryKeywords": [
+      "kontraktor renovasi rumah terpercaya",
+      "kriteria memilih kontraktor renovasi"
+    ],
+    "searchIntent": "informational",
+    "cluster": "renovasi",
+    "tags": [
+      "renovasi",
+      "kontrak",
+      "perencanaan"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Renovasi Rumah",
+      "heading": "Memilih Kontraktor Renovasi: Pengalaman dengan Bangunan Eksisting adalah Kuncinya",
+      "summary": "Kriteria evaluasi kontraktor renovasi rumah, dengan penekanan pada pengalaman menangani kondisi bangunan eksisting yang menjadi tantangan utama proyek renovasi.",
+      "image": "/images/guides/cara-memilih-kontraktor-renovasi/hero.webp",
+      "imageAlt": "Ilustrasi konseptual proses evaluasi dan pemilihan kontraktor renovasi rumah"
+    },
+    "relationships": {
+      "services": [
+        "svc-renovasi-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-risiko-pembengkakan-biaya-renovasi"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Rencana Renovasi Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai rencana renovasi rumah saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Renovasi Rumah",
+        "href": "/layanan/renovasi-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apa perbedaan memilih kontraktor renovasi dan kontraktor bangun baru?",
+        "answer": "Kontraktor renovasi memerlukan pengalaman tambahan dalam menangani kondisi bangunan eksisting — termasuk mengidentifikasi temuan tak terduga, bekerja dalam ruang terbatas, dan mengelola pekerjaan di sekitar bagian rumah yang masih digunakan. Tidak semua kontraktor bangun baru memiliki pengalaman yang sama kuatnya untuk konteks ini."
+      },
+      {
+        "question": "Apa yang perlu ditanyakan saat wawancara calon kontraktor renovasi?",
+        "answer": "Tanyakan pengalaman mereka dengan proyek renovasi serupa, cara mereka menangani temuan tak terduga di lapangan, bagaimana mereka mengomunikasikan progres, dan bagaimana mekanisme perubahan ruang lingkup diatur dalam kontrak."
+      },
+      {
+        "question": "Apakah harga termurah adalah indikator kontraktor renovasi yang baik?",
+        "answer": "Tidak. Harga yang jauh lebih rendah tanpa penjelasan ruang lingkup yang setara berpotensi tidak mencakup seluruh pekerjaan yang dibutuhkan, yang dapat memunculkan biaya tambahan atau kualitas pekerjaan yang tidak sesuai harapan."
+      },
+      {
+        "question": "Apakah referensi proyek sebelumnya penting saat memilih kontraktor renovasi?",
+        "answer": "Ya, terutama jika Anda dapat melihat langsung atau mendapatkan testimoni dari proyek renovasi sejenis yang pernah dikerjakan kontraktor tersebut — ini membantu menilai kesesuaian pengalaman mereka dengan kebutuhan Anda."
+      },
+      {
+        "question": "Apa yang perlu ada dalam kontrak kerja renovasi?",
+        "answer": "Kontrak sebaiknya mencantumkan ruang lingkup pekerjaan, spesifikasi, jadwal, harga, dan mekanisme perubahan jika ditemukan kondisi tak terduga — elemen terakhir ini sangat penting untuk proyek renovasi mengingat sifat pekerjaannya yang penuh ketidakpastian."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/cara-memilih-kontraktor-renovasi",
+    "sourcePath": "content/guides/cara-memilih-kontraktor-renovasi.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Cara Memilih Kontraktor Renovasi Rumah",
+        "path": "/panduan/cara-memilih-kontraktor-renovasi"
+      }
+    ],
+    "wordCount": 534,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan/tanda-rumah-perlu-perkuatan-struktur",
+      "/layanan/renovasi-rumah",
+      "/panduan/checklist-survei-sebelum-renovasi",
+      "/panduan/risiko-pembengkakan-biaya-renovasi",
+      "/panduan/renovasi-total-vs-renovasi-sebagian"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-cara-memilih-kontraktor-rumah",
+    "type": "guide",
+    "status": "published",
+    "title": "Cara Memilih Kontraktor Rumah secara Terukur",
+    "slug": "cara-memilih-kontraktor-rumah",
+    "description": "Panduan memilih kontraktor rumah berdasarkan ruang lingkup, dokumen penawaran, metode kerja, komunikasi, pengendalian biaya, mutu, jadwal, dan risiko.",
+    "excerpt": "Kriteria praktis untuk mengevaluasi calon kontraktor tanpa hanya membandingkan harga penawaran.",
+    "seoTitle": "Cara Memilih Kontraktor Rumah | Arkavena",
+    "primaryKeyword": "cara memilih kontraktor rumah",
+    "secondaryKeywords": [
+      "memilih jasa kontraktor rumah",
+      "kriteria kontraktor rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "kontrak",
+      "risiko"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Pilih Kontraktor Berdasarkan Sistem Kerja, Bukan Harga Saja",
+      "summary": "Evaluasi ruang lingkup, dokumen, metode, komunikasi, dan mekanisme pengendalian sebelum membuat keputusan.",
+      "image": "/images/guides/cara-memilih-kontraktor-rumah/hero.webp",
+      "imageAlt": "Ilustrasi evaluasi dokumen dan ruang lingkup kontraktor rumah"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-kontraktor-vs-tukang",
+        "guide-checklist-persiapan-bangun-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai persiapan pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah harga penawaran terendah selalu pilihan terbaik?",
+        "answer": "Tidak selalu. Penawaran terendah yang tidak menjelaskan ruang lingkup dan exclusion secara jelas dapat menyebabkan biaya tambahan di kemudian hari. Bandingkan ruang lingkup yang setara, bukan hanya angka akhir."
+      },
+      {
+        "question": "Apakah saya perlu meminta lebih dari satu penawaran?",
+        "answer": "Membandingkan beberapa penawaran dapat membantu Anda memahami variasi ruang lingkup dan pendekatan, selama Anda memastikan ruang lingkup yang dibandingkan setara."
+      },
+      {
+        "question": "Bagaimana cara memeriksa referensi proyek sebelumnya?",
+        "answer": "Anda dapat meminta contoh proyek dan, jika diizinkan pemilik proyek sebelumnya, referensi kontak. Tidak semua kontraktor dapat membagikan detail proyek klien tanpa izin."
+      },
+      {
+        "question": "Apa bedanya memilih kontraktor dengan memilih tukang harian?",
+        "answer": "Keduanya dibahas lebih detail pada panduan Kontraktor vs Tukang — secara umum, kontraktor menawarkan sistem kerja dan tanggung jawab yang lebih terstruktur, sementara tukang harian menawarkan fleksibilitas dengan pengelolaan yang lebih banyak berada di tangan pemilik proyek."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/cara-memilih-kontraktor-rumah",
+    "sourcePath": "content/guides/cara-memilih-kontraktor-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Cara Memilih Kontraktor Rumah secara Terukur",
+        "path": "/panduan/cara-memilih-kontraktor-rumah"
+      }
+    ],
+    "wordCount": 415,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/kontraktor-vs-tukang",
+      "/panduan/borongan-vs-harian-bangun-rumah",
+      "/panduan/kontrak-kerja-konstruksi-rumah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-cara-menghitung-anggaran-renovasi-rumah",
+    "type": "guide",
+    "status": "published",
+    "title": "Cara Menghitung Anggaran Renovasi Rumah",
+    "slug": "cara-menghitung-anggaran-renovasi-rumah",
+    "description": "Metode menyusun anggaran renovasi rumah — mulai dari menentukan ruang lingkup, mengidentifikasi kondisi eksisting, hingga menyisihkan cadangan untuk temuan tak terduga.",
+    "excerpt": "Langkah menyusun anggaran renovasi yang realistis, termasuk cara mengalokasikan cadangan untuk kondisi eksisting yang belum diketahui.",
+    "seoTitle": "Cara Menghitung Anggaran Renovasi Rumah | Arkavena",
+    "primaryKeyword": "cara menghitung anggaran renovasi rumah",
+    "secondaryKeywords": [
+      "menyusun anggaran renovasi rumah",
+      "estimasi biaya renovasi rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "renovasi",
+    "tags": [
+      "renovasi",
+      "biaya",
+      "perencanaan"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Renovasi Rumah",
+      "heading": "Menyusun Anggaran Renovasi yang Realistis, Bukan Hanya Berdasarkan Area yang Terlihat",
+      "summary": "Metode menyusun anggaran renovasi rumah, termasuk cara mengalokasikan cadangan untuk kondisi eksisting yang baru diketahui setelah pekerjaan dimulai.",
+      "image": "/images/guides/cara-menghitung-anggaran-renovasi-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual penyusunan anggaran proyek renovasi rumah"
+    },
+    "relationships": {
+      "services": [
+        "svc-renovasi-rumah",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-biaya-renovasi-rumah",
+        "guide-risiko-pembengkakan-biaya-renovasi",
+        "guide-checklist-survei-sebelum-renovasi"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Anggaran Renovasi",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai penyusunan anggaran renovasi rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Renovasi Rumah",
+        "href": "/layanan/renovasi-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah anggaran renovasi bisa dihitung sebelum survei kondisi eksisting?",
+        "answer": "Hanya secara kasar. Anggaran yang lebih akurat memerlukan survei kondisi eksisting terlebih dahulu, karena kondisi tersembunyi seperti struktur, instalasi listrik lama, atau kebocoran yang belum terlihat dapat mengubah ruang lingkup dan biaya pekerjaan."
+      },
+      {
+        "question": "Berapa besar cadangan yang sebaiknya disiapkan untuk renovasi?",
+        "answer": "Tidak ada persentase universal yang berlaku untuk semua proyek — besarnya cadangan yang wajar bergantung pada usia bangunan, riwayat perawatan, dan tingkat ketidakpastian kondisi eksisting yang teridentifikasi saat survei. Ini sebaiknya didiskusikan bersama kontraktor Anda berdasarkan kondisi spesifik rumah."
+      },
+      {
+        "question": "Apakah anggaran renovasi dihitung per meter persegi seperti bangun rumah baru?",
+        "answer": "Pendekatan per meter persegi kurang tepat untuk renovasi karena biaya sangat dipengaruhi kondisi eksisting yang bervariasi antar rumah, bukan hanya luas area yang dikerjakan. Anggaran renovasi biasanya disusun berdasarkan ruang lingkup pekerjaan spesifik setelah survei."
+      },
+      {
+        "question": "Apa yang terjadi jika anggaran ternyata tidak cukup di tengah proyek?",
+        "answer": "Jika ditemukan kondisi tak terduga yang mengubah ruang lingkup, perubahan tersebut perlu dievaluasi dan disepakati sebelum dilaksanakan — bukan dikerjakan begitu saja lalu ditagihkan. Kontrak kerja yang jelas mengenai mekanisme perubahan membantu mengelola situasi ini."
+      },
+      {
+        "question": "Apakah menyusun anggaran renovasi sama dengan membaca RAB?",
+        "answer": "Tidak sama, tetapi berkaitan. Menyusun anggaran adalah tahap awal menentukan target biaya, sementara membaca RAB adalah tahap memahami rincian penawaran yang diterima dari kontraktor."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/cara-menghitung-anggaran-renovasi-rumah",
+    "sourcePath": "content/guides/cara-menghitung-anggaran-renovasi-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Cara Menghitung Anggaran Renovasi Rumah",
+        "path": "/panduan/cara-menghitung-anggaran-renovasi-rumah"
+      }
+    ],
+    "wordCount": 692,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan/tanda-rumah-perlu-perkuatan-struktur",
+      "/layanan/renovasi-rumah",
+      "/layanan/pengendalian-biaya-proyek",
+      "/panduan/biaya-renovasi-rumah",
+      "/panduan/risiko-pembengkakan-biaya-renovasi",
+      "/panduan/checklist-survei-sebelum-renovasi",
+      "/panduan/renovasi-total-vs-renovasi-sebagian"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-cara-menghitung-biaya-bangun-rumah",
+    "type": "guide",
+    "status": "published",
+    "title": "Cara Menghitung Biaya Bangun Rumah: Metode dan Komponen Perhitungan",
+    "slug": "cara-menghitung-biaya-bangun-rumah",
+    "description": "Metode menghitung biaya bangun rumah — ruang lingkup, work breakdown, quantity, unit rate, preliminaries, dan contingency. Menjelaskan metode, bukan harga pasar.",
+    "excerpt": "Metode sistematis menyusun estimasi biaya bangun rumah, disertai variabel yang perlu Anda isi sendiri sesuai data proyek.",
+    "seoTitle": "Cara Menghitung Biaya Bangun Rumah | Arkavena",
+    "primaryKeyword": "cara menghitung biaya bangun rumah",
+    "secondaryKeywords": [
+      "metode hitung biaya rumah",
+      "menyusun estimasi biaya rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "biaya",
+      "perencanaan"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Metode Menghitung Biaya Bangun Rumah, Bukan Angka Pasar Tunggal",
+      "summary": "Pelajari komponen dan langkah menyusun estimasi biaya, dengan variabel yang Anda isi sendiri berdasarkan data proyek Anda.",
+      "image": "/images/guides/cara-menghitung-biaya-bangun-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual metode perhitungan biaya konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-cara-membaca-rab-rumah",
+        "guide-checklist-persiapan-bangun-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Mengapa panduan ini tidak mencantumkan harga per meter?",
+        "answer": "Harga bervariasi menurut wilayah, spesifikasi, dan waktu, serta memerlukan sumber data yang terverifikasi dan bertanggal. Panduan ini menjelaskan metode perhitungan yang dapat Anda terapkan dengan data harga dari wilayah dan pemasok Anda sendiri, atau dari penawaran kontraktor."
+      },
+      {
+        "question": "Dari mana saya bisa mendapatkan angka harga satuan yang valid?",
+        "answer": "Sumber yang valid termasuk penawaran resmi dari kontraktor atau pemasok, dengan tanggal dan spesifikasi yang jelas. Hindari menggunakan angka dari artikel lama atau sumber tanpa tanggal dan konteks."
+      },
+      {
+        "question": "Apakah estimasi awal ini bisa dijadikan acuan final?",
+        "answer": "Tidak. Estimasi awal berguna untuk perencanaan anggaran, tetapi angka final baru dapat ditentukan setelah desain, spesifikasi, dan penawaran kontraktor tersedia."
+      },
+      {
+        "question": "Apa itu contingency dan mengapa perlu dimasukkan?",
+        "answer": "Contingency adalah alokasi anggaran untuk kemungkinan biaya tak terduga yang wajar terjadi dalam proyek konstruksi. Besarannya bervariasi tergantung tingkat kepastian ruang lingkup dan desain proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/cara-menghitung-biaya-bangun-rumah",
+    "sourcePath": "content/guides/cara-menghitung-biaya-bangun-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Cara Menghitung Biaya Bangun Rumah: Metode dan Komponen Perhitungan",
+        "path": "/panduan/cara-menghitung-biaya-bangun-rumah"
+      }
+    ],
+    "wordCount": 675,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/biaya-bangun-rumah-per-meter",
+      "/panduan/cara-membaca-rab-rumah",
+      "/panduan/checklist-persiapan-bangun-rumah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-checklist-persiapan-bangun-rumah",
+    "type": "guide",
+    "status": "published",
+    "title": "Checklist Persiapan Bangun Rumah Sebelum Konstruksi Dimulai",
+    "slug": "checklist-persiapan-bangun-rumah",
+    "description": "Checklist praktis untuk memastikan kesiapan sebelum memulai proyek bangun rumah — mencakup tujuan, lahan, desain, anggaran, dan dokumen.",
+    "excerpt": "Daftar periksa kesiapan sebelum konstruksi dimulai, dari kejelasan tujuan hingga dokumen kontrak.",
+    "seoTitle": "Checklist Persiapan Bangun Rumah | Arkavena",
+    "primaryKeyword": "checklist persiapan bangun rumah",
+    "secondaryKeywords": [
+      "persiapan sebelum bangun rumah",
+      "kesiapan proyek bangun rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "perencanaan"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Pastikan Kesiapan Ini Sebelum Konstruksi Rumah Dimulai",
+      "summary": "Checklist praktis untuk memeriksa kesiapan tujuan, lahan, desain, anggaran, dan dokumen sebelum tahap teknis dimulai.",
+      "image": "/images/guides/checklist-persiapan-bangun-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual daftar periksa persiapan proyek bangun rumah"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai persiapan pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah checklist ini menggantikan konsultasi dengan kontraktor atau arsitek?",
+        "answer": "Tidak. Checklist ini membantu Anda mempersiapkan diri sebelum konsultasi, bukan menggantikan penilaian profesional terhadap lahan dan desain Anda."
+      },
+      {
+        "question": "Apakah semua item dalam checklist harus selesai sebelum menghubungi kontraktor?",
+        "answer": "Tidak selalu. Sebagian item, seperti desain detail, dapat dikembangkan bersama kontraktor atau arsitek. Namun semakin banyak yang sudah jelas, semakin lancar proses konsultasi awal."
+      },
+      {
+        "question": "Apa yang terjadi jika saya mulai konstruksi tanpa checklist ini?",
+        "answer": "Kekurangan persiapan pada tahap awal — misalnya kebutuhan ruang yang belum jelas atau anggaran tanpa ruang lingkup — sering menjadi sumber perubahan dan penundaan di tengah proyek."
+      },
+      {
+        "question": "Apakah checklist ini berlaku untuk semua skala rumah?",
+        "answer": "Prinsip umumnya berlaku untuk berbagai skala, tetapi detail kebutuhan dapat berbeda antara rumah sederhana dan rumah dengan kompleksitas desain tinggi."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "checklist",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/checklist-persiapan-bangun-rumah",
+    "sourcePath": "content/guides/checklist-persiapan-bangun-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Checklist Persiapan Bangun Rumah Sebelum Konstruksi Dimulai",
+        "path": "/panduan/checklist-persiapan-bangun-rumah"
+      }
+    ],
+    "wordCount": 454,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/cara-memilih-kontraktor-rumah",
+      "/panduan/cara-menghitung-biaya-bangun-rumah",
+      "/panduan/tahapan-bangun-rumah-dari-nol"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-checklist-survei-sebelum-renovasi",
+    "type": "guide",
+    "status": "published",
+    "title": "Checklist Survei Sebelum Renovasi Rumah",
+    "slug": "checklist-survei-sebelum-renovasi",
+    "description": "Checklist hal yang perlu diperiksa sebelum renovasi rumah dimulai — kondisi struktur, utilitas, area basah, hingga dokumen bangunan yang tersedia.",
+    "excerpt": "Daftar pemeriksaan awal yang membantu memetakan kondisi eksisting rumah sebelum menyusun ruang lingkup dan anggaran renovasi.",
+    "seoTitle": "Checklist Survei Sebelum Renovasi Rumah | Arkavena",
+    "primaryKeyword": "checklist survei sebelum renovasi",
+    "secondaryKeywords": [
+      "persiapan survei renovasi rumah",
+      "hal yang diperiksa sebelum renovasi"
+    ],
+    "searchIntent": "informational",
+    "cluster": "renovasi",
+    "tags": [
+      "renovasi",
+      "perencanaan",
+      "residensial"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Renovasi Rumah",
+      "heading": "Apa yang Perlu Diperiksa Sebelum Renovasi Rumah Dimulai",
+      "summary": "Checklist survei kondisi eksisting yang membantu memetakan ruang lingkup renovasi secara lebih akurat sebelum anggaran dan jadwal ditetapkan.",
+      "image": "/images/guides/checklist-survei-sebelum-renovasi/hero.webp",
+      "imageAlt": "Ilustrasi konseptual pemeriksaan kondisi bangunan sebelum renovasi"
+    },
+    "relationships": {
+      "services": [
+        "svc-renovasi-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-cara-memilih-kontraktor-renovasi"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Jadwalkan Survei Kondisi Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin menjadwalkan survei kondisi rumah sebelum renovasi."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Renovasi Rumah",
+        "href": "/layanan/renovasi-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah survei ini bisa dilakukan sendiri oleh pemilik rumah?",
+        "answer": "Sebagian item pada checklist ini bisa diperiksa sendiri secara visual, tetapi pemeriksaan kondisi struktur, instalasi listrik, dan sistem yang tersembunyi sebaiknya dilakukan bersama kontraktor atau profesional terkait untuk hasil yang lebih akurat."
+      },
+      {
+        "question": "Berapa lama proses survei kondisi eksisting biasanya berlangsung?",
+        "answer": "Durasi bergantung pada ukuran rumah dan kompleksitas area yang diperiksa — tidak ada durasi universal. Kontraktor Anda dapat memberikan estimasi waktu survei berdasarkan kondisi rumah Anda."
+      },
+      {
+        "question": "Apa yang terjadi jika survei menemukan masalah struktur?",
+        "answer": "Jika ditemukan indikasi masalah struktur, kajian lebih lanjut oleh insinyur struktur biasanya diperlukan sebelum ruang lingkup renovasi dapat ditentukan dengan pasti. Lihat Tanda Rumah Perlu Perkuatan Struktur untuk memahami indikasi yang perlu diwaspadai."
+      },
+      {
+        "question": "Apakah dokumen bangunan lama (seperti gambar arsitektur) wajib ada untuk survei ini?",
+        "answer": "Tidak wajib, tetapi jika tersedia, dokumen tersebut membantu mempercepat proses survei dan memberikan gambaran tambahan mengenai struktur asli bangunan. Jika tidak tersedia, survei tetap dapat dilakukan berdasarkan kondisi aktual di lapangan."
+      },
+      {
+        "question": "Apakah checklist ini berlaku untuk semua jenis renovasi?",
+        "answer": "Checklist ini bersifat umum dan relevan untuk sebagian besar renovasi rumah tinggal. Renovasi dengan cakupan khusus, seperti penambahan lantai, memerlukan pemeriksaan tambahan yang lebih spesifik."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "checklist",
+      "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/checklist-survei-sebelum-renovasi",
+    "sourcePath": "content/guides/checklist-survei-sebelum-renovasi.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Checklist Survei Sebelum Renovasi Rumah",
+        "path": "/panduan/checklist-survei-sebelum-renovasi"
+      }
+    ],
+    "wordCount": 500,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan/tanda-rumah-perlu-perkuatan-struktur",
+      "/layanan/renovasi-rumah",
+      "/panduan/cara-menghitung-anggaran-renovasi-rumah",
+      "/panduan/cara-memilih-kontraktor-renovasi",
+      "/panduan/renovasi-total-vs-renovasi-sebagian"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "guide-contoh-panduan",
     "type": "guide",
     "status": "draft",
@@ -6139,6 +8528,1624 @@ export const contentManifest: ContentItem[] = [
       "/cara-kerja"
     ],
     "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-kontrak-kerja-konstruksi-rumah",
+    "type": "guide",
+    "status": "published",
+    "title": "Mengenal Elemen Umum Kontrak Kerja Konstruksi Rumah",
+    "slug": "kontrak-kerja-konstruksi-rumah",
+    "description": "Penjelasan umum elemen yang biasanya diatur dalam kontrak kerja konstruksi rumah — ruang lingkup, harga, jadwal, dan perubahan pekerjaan. Bukan nasihat hukum.",
+    "excerpt": "Pengantar informasional mengenai apa yang umumnya diatur dalam kontrak kerja konstruksi rumah.",
+    "seoTitle": "Kontrak Kerja Konstruksi Rumah | Arkavena",
+    "primaryKeyword": "kontrak kerja konstruksi rumah",
+    "secondaryKeywords": [
+      "elemen kontrak bangun rumah",
+      "isi kontrak kontraktor rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "kontrak",
+      "risiko"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Mengenal Elemen Umum Kontrak Kerja Konstruksi Rumah",
+      "summary": "Pengantar informasional mengenai konsep dasar kontrak konstruksi — bukan template hukum atau nasihat hukum untuk situasi Anda.",
+      "image": "/images/guides/kontrak-kerja-konstruksi-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual dokumen kontrak kerja konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai persiapan pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah panduan ini bisa dijadikan template kontrak?",
+        "answer": "Tidak. Panduan ini bersifat informasional umum untuk mengenalkan konsep dasar kontrak konstruksi, bukan template hukum yang siap dipakai. Untuk kontrak spesifik proyek Anda, konsultasikan ke notaris atau profesional hukum yang berkompeten."
+      },
+      {
+        "question": "Apakah Arkavena menyediakan nasihat hukum untuk kontrak?",
+        "answer": "Tidak. Arkavena dapat menjelaskan elemen operasional kontrak konstruksi secara umum, tetapi nasihat hukum untuk kontrak spesifik Anda berada di luar cakupan layanan ini dan sebaiknya dikonsultasikan ke notaris atau profesional hukum."
+      },
+      {
+        "question": "Apa yang biasanya diatur mengenai perubahan pekerjaan dalam kontrak?",
+        "answer": "Kontrak konstruksi umumnya mengatur mekanisme change order untuk perubahan pekerjaan. Detail mekanisme yang sesuai untuk kontrak Anda sebaiknya didiskusikan dengan pelaksana dan, jika diperlukan, ditinjau oleh profesional hukum."
+      },
+      {
+        "question": "Siapa yang sebaiknya meninjau kontrak sebelum ditandatangani?",
+        "answer": "Untuk kepastian hukum atas kontrak spesifik Anda, konsultasikan ke notaris atau penasihat hukum yang memahami kontrak konstruksi, di luar pihak yang menyusun kontrak tersebut."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/kontrak-kerja-konstruksi-rumah",
+    "sourcePath": "content/guides/kontrak-kerja-konstruksi-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Mengenal Elemen Umum Kontrak Kerja Konstruksi Rumah",
+        "path": "/panduan/kontrak-kerja-konstruksi-rumah"
+      }
+    ],
+    "wordCount": 568,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/cara-memilih-kontraktor-rumah",
+      "/panduan/borongan-vs-harian-bangun-rumah",
+      "/panduan/cara-membaca-rab-rumah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-kontraktor-vs-tukang",
+    "type": "guide",
+    "status": "published",
+    "title": "Kontraktor vs Tukang: Memahami Perbedaan untuk Proyek Bangun Rumah",
+    "slug": "kontraktor-vs-tukang",
+    "description": "Perbedaan kontraktor dan tukang dari sisi organisasi kerja, tanggung jawab, dokumentasi, dan alokasi risiko dalam proyek bangun rumah.",
+    "excerpt": "Memahami perbedaan kontraktor dan tukang agar dapat memilih sesuai kompleksitas dan kebutuhan proyek Anda.",
+    "seoTitle": "Kontraktor vs Tukang | Arkavena",
+    "primaryKeyword": "kontraktor vs tukang",
+    "secondaryKeywords": [
+      "perbedaan kontraktor dan tukang",
+      "pilih kontraktor atau tukang"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "kontrak"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Kontraktor atau Tukang? Pahami Perbedaannya Sebelum Memilih",
+      "summary": "Perbedaan organisasi kerja, tanggung jawab, dan alokasi risiko antara kontraktor dan tukang.",
+      "image": "/images/guides/kontraktor-vs-tukang/hero.webp",
+      "imageAlt": "Ilustrasi konseptual perbedaan struktur kerja kontraktor dan tukang"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-memilih-kontraktor-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai persiapan pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah tukang tidak bisa menangani proyek bangun rumah?",
+        "answer": "Tukang dapat menangani berbagai pekerjaan konstruksi, termasuk proyek rumah berskala kecil. Perbedaannya lebih pada struktur organisasi, dokumentasi, dan tanggung jawab yang biasanya disediakan kontraktor untuk proyek yang lebih kompleks."
+      },
+      {
+        "question": "Apakah kontraktor selalu lebih mahal daripada tukang?",
+        "answer": "Tidak selalu dapat dibandingkan secara langsung karena cakupan tanggung jawab dan layanan biasanya berbeda. Kontraktor umumnya menyertakan manajemen, dokumentasi, dan koordinasi yang tidak selalu termasuk dalam kerja tukang langsung."
+      },
+      {
+        "question": "Bagaimana jika saya hanya memerlukan renovasi kecil?",
+        "answer": "Untuk pekerjaan kecil dengan ruang lingkup sederhana, tukang dengan pengalaman yang sesuai dapat menjadi pilihan yang wajar, tergantung kompleksitas dan kemampuan Anda mengawasi pekerjaan."
+      },
+      {
+        "question": "Apakah artikel ini menyatakan tukang kurang terampil?",
+        "answer": "Tidak. Perbandingan ini berfokus pada struktur organisasi kerja, tanggung jawab, dan dokumentasi — bukan tingkat keterampilan individu, yang dapat bervariasi pada kedua jenis pelaksana."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "comparison",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/kontraktor-vs-tukang",
+    "sourcePath": "content/guides/kontraktor-vs-tukang.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Kontraktor vs Tukang: Memahami Perbedaan untuk Proyek Bangun Rumah",
+        "path": "/panduan/kontraktor-vs-tukang"
+      }
+    ],
+    "wordCount": 403,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/borongan-vs-harian-bangun-rumah",
+      "/panduan/cara-memilih-kontraktor-rumah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-memperkuat-struktur-rumah-lama",
+    "type": "guide",
+    "status": "published",
+    "title": "Memperkuat Struktur Rumah Lama: Pertimbangan Umum",
+    "slug": "memperkuat-struktur-rumah-lama",
+    "description": "Pertimbangan umum seputar perkuatan struktur rumah lama — mengapa kajian teknis langsung diperlukan, dan apa yang biasanya menjadi bagian dari prosesnya.",
+    "excerpt": "Gambaran umum proses perkuatan struktur rumah lama, tanpa spesifikasi teknis — kajian dan solusi teknis hanya dapat ditentukan insinyur struktur.",
+    "seoTitle": "Memperkuat Struktur Rumah Lama | Panduan Arkavena",
+    "primaryKeyword": "memperkuat struktur rumah lama",
+    "secondaryKeywords": [
+      "perkuatan struktur bangunan lama",
+      "renovasi struktur rumah tua"
+    ],
+    "searchIntent": "informational",
+    "cluster": "renovasi",
+    "tags": [
+      "struktur",
+      "risiko",
+      "residensial"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": "ervanlight (owner)",
+    "hero": {
+      "eyebrow": "Panduan Renovasi Rumah",
+      "heading": "Memperkuat Struktur Rumah Lama: Proses Umum, Bukan Solusi Teknis Siap Pakai",
+      "summary": "Gambaran umum proses perkuatan struktur rumah lama — solusi teknis spesifik hanya dapat ditentukan insinyur struktur setelah kajian langsung.",
+      "image": "/images/guides/memperkuat-struktur-rumah-lama/hero.webp",
+      "imageAlt": "Ilustrasi konseptual proses kajian dan perkuatan struktur bangunan lama"
+    },
+    "relationships": {
+      "services": [
+        "svc-renovasi-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
+        "guide-renovasi-rumah-satu-jadi-dua-lantai"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Kajian Struktur Rumah Lama",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai kajian dan perkuatan struktur rumah lama saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Renovasi Rumah",
+        "href": "/layanan/renovasi-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah semua rumah lama memerlukan perkuatan struktur?",
+        "answer": "Tidak. Usia bangunan adalah salah satu faktor yang meningkatkan relevansi kajian, tetapi tidak semua rumah lama otomatis memerlukan perkuatan. Kebutuhan ini hanya dapat dipastikan melalui kajian langsung oleh insinyur struktur."
+      },
+      {
+        "question": "Berapa biaya untuk memperkuat struktur rumah lama?",
+        "answer": "Biaya sangat bergantung pada metode perkuatan yang direkomendasikan, luas area yang terdampak, dan kondisi struktur eksisting — panduan ini tidak memuat angka biaya karena setiap kasus memerlukan kajian dan rekomendasi teknis yang berbeda."
+      },
+      {
+        "question": "Apakah perkuatan struktur bisa dilakukan sambil rumah tetap dihuni?",
+        "answer": "Bergantung pada metode dan area yang dikerjakan. Sebagian pekerjaan perkuatan struktur memerlukan pengosongan area tertentu untuk alasan keselamatan. Insinyur struktur dan kontraktor pelaksana dapat menjelaskan dampak spesifik untuk metode yang direkomendasikan pada rumah Anda."
+      },
+      {
+        "question": "Siapa yang menentukan metode perkuatan struktur yang tepat?",
+        "answer": "Metode perkuatan hanya dapat ditentukan oleh insinyur struktur berdasarkan kajian teknis terhadap kondisi bangunan, bukan berdasarkan panduan umum atau pengalaman rumah lain."
+      },
+      {
+        "question": "Apakah panduan ini menjelaskan cara melakukan perkuatan struktur sendiri?",
+        "answer": "Tidak. Pekerjaan struktur harus dilakukan oleh profesional berdasarkan kajian dan desain teknis yang sesuai kondisi bangunan — panduan ini hanya menjelaskan gambaran umum proses, bukan instruksi pelaksanaan."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/memperkuat-struktur-rumah-lama",
+    "sourcePath": "content/guides/memperkuat-struktur-rumah-lama.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Memperkuat Struktur Rumah Lama: Pertimbangan Umum",
+        "path": "/panduan/memperkuat-struktur-rumah-lama"
+      }
+    ],
+    "wordCount": 632,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan/tanda-rumah-perlu-perkuatan-struktur",
+      "/layanan/renovasi-rumah",
+      "/panduan/renovasi-rumah-satu-jadi-dua-lantai",
+      "/panduan/renovasi-total-vs-renovasi-sebagian"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-renovasi-atap-bocor",
+    "type": "guide",
+    "status": "published",
+    "title": "Renovasi Atap Bocor: Penyebab Umum dan Langkah Penanganan",
+    "slug": "renovasi-atap-bocor",
+    "description": "Penyebab umum atap bocor dan langkah penanganannya — termasuk indikasi yang memerlukan penanganan segera oleh profesional.",
+    "excerpt": "Gambaran penyebab umum kebocoran atap dan langkah penanganan yang tepat, termasuk kapan situasi memerlukan penanganan segera.",
+    "seoTitle": "Renovasi Atap Bocor | Panduan Arkavena",
+    "primaryKeyword": "renovasi atap bocor",
+    "secondaryKeywords": [
+      "atap rumah bocor",
+      "perbaikan atap bocor"
+    ],
+    "searchIntent": "informational",
+    "cluster": "renovasi",
+    "tags": [
+      "renovasi",
+      "risiko",
+      "residensial"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Renovasi Rumah",
+      "heading": "Atap Bocor: Penyebab Umum dan Kapan Perlu Penanganan Segera",
+      "summary": "Gambaran penyebab umum kebocoran atap dan langkah penanganannya, termasuk indikasi yang memerlukan tindakan segera untuk mencegah kerusakan lebih lanjut.",
+      "image": "/images/guides/renovasi-atap-bocor/hero.webp",
+      "imageAlt": "Ilustrasi konseptual pemeriksaan dan perbaikan atap rumah yang bocor"
+    },
+    "relationships": {
+      "services": [
+        "svc-renovasi-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-renovasi-fasad-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Perbaikan Atap",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, atap rumah saya bocor dan saya ingin berkonsultasi mengenai penanganannya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Renovasi Rumah",
+        "href": "/layanan/renovasi-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apa penyebab paling umum atap bocor?",
+        "answer": "Penyebab umum meliputi genteng yang bergeser atau retak, talang yang tersumbat atau rusak, flashing (penutup sambungan) yang tidak terpasang dengan baik, dan kerusakan pada membran waterproofing di area dak atau atap datar. Penyebab pasti pada rumah Anda perlu dipastikan melalui pemeriksaan langsung."
+      },
+      {
+        "question": "Apakah kebocoran kecil bisa ditunda perbaikannya?",
+        "answer": "Tidak disarankan. Kebocoran yang dibiarkan dapat merembes ke struktur atap, plafon, dan dinding, yang berpotensi memperbesar area kerusakan dan biaya perbaikan dari waktu ke waktu — meskipun kecepatan kerusakan bervariasi tergantung kondisi dan intensitas hujan."
+      },
+      {
+        "question": "Apakah kebocoran atap bisa menandakan masalah struktur?",
+        "answer": "Pada sebagian kasus, kebocoran berkepanjangan yang merembes ke rangka atap dapat memengaruhi kondisi rangka tersebut. Jika ada indikasi kerusakan pada rangka atap, bukan hanya pada penutup atap, kajian tambahan mungkin diperlukan — lihat Tanda Rumah Perlu Perkuatan Struktur untuk indikasi terkait."
+      },
+      {
+        "question": "Apakah semua kebocoran atap memerlukan penggantian atap total?",
+        "answer": "Tidak selalu. Sebagian kebocoran dapat ditangani dengan perbaikan pada area tertentu, tergantung penyebab dan luas kerusakan. Pemeriksaan langsung diperlukan untuk menentukan apakah perbaikan sebagian atau penggantian yang lebih luas diperlukan."
+      },
+      {
+        "question": "Bagaimana cara mencegah kebocoran atap berulang?",
+        "answer": "Perawatan berkala seperti membersihkan talang dan memeriksa kondisi genteng atau waterproofing secara rutin dapat membantu mendeteksi masalah sejak dini, meskipun tidak menjamin kebocoran tidak akan pernah terjadi kembali."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/renovasi-atap-bocor",
+    "sourcePath": "content/guides/renovasi-atap-bocor.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Renovasi Atap Bocor: Penyebab Umum dan Langkah Penanganan",
+        "path": "/panduan/renovasi-atap-bocor"
+      }
+    ],
+    "wordCount": 584,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan/tanda-rumah-perlu-perkuatan-struktur",
+      "/layanan/renovasi-rumah",
+      "/panduan/checklist-survei-sebelum-renovasi",
+      "/panduan/renovasi-total-vs-renovasi-sebagian"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-renovasi-dapur",
+    "type": "guide",
+    "status": "published",
+    "title": "Renovasi Dapur Rumah: Pertimbangan dan Tahapannya",
+    "slug": "renovasi-dapur",
+    "description": "Pertimbangan utama dan tahapan renovasi dapur rumah — tata letak, utilitas, ventilasi, dan koordinasi dengan aktivitas memasak harian.",
+    "excerpt": "Gambaran tahapan dan pertimbangan renovasi dapur rumah, termasuk cara mengelola gangguan terhadap aktivitas memasak harian.",
+    "seoTitle": "Renovasi Dapur Rumah | Panduan Arkavena",
+    "primaryKeyword": "renovasi dapur rumah",
+    "secondaryKeywords": [
+      "renovasi dapur",
+      "tahapan renovasi dapur"
+    ],
+    "searchIntent": "informational",
+    "cluster": "renovasi",
+    "tags": [
+      "renovasi",
+      "residensial",
+      "mep"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Renovasi Rumah",
+      "heading": "Renovasi Dapur: Tata Letak, Utilitas, dan Kelancaran Aktivitas Harian",
+      "summary": "Pertimbangan dan tahapan renovasi dapur rumah, termasuk cara mengelola gangguan terhadap aktivitas memasak harian selama pekerjaan berlangsung.",
+      "image": "/images/guides/renovasi-dapur/hero.webp",
+      "imageAlt": "Ilustrasi konseptual proses renovasi dapur rumah tinggal"
+    },
+    "relationships": {
+      "services": [
+        "svc-renovasi-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-renovasi-rumah-sambil-dihuni",
+        "guide-renovasi-kamar-mandi"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Renovasi Dapur",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana renovasi dapur rumah saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Renovasi Rumah",
+        "href": "/layanan/renovasi-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Berapa lama renovasi dapur biasanya berlangsung?",
+        "answer": "Durasi bergantung pada luas dapur, ruang lingkup pekerjaan (apakah termasuk perubahan tata letak dan utilitas atau hanya penggantian finishing), dan ketersediaan material — tidak ada durasi universal yang berlaku untuk semua proyek."
+      },
+      {
+        "question": "Apakah dapur bisa tetap digunakan selama renovasi?",
+        "answer": "Tergantung skala pekerjaan. Renovasi sebagian yang tidak menyentuh area memasak utama mungkin memungkinkan penggunaan terbatas, sementara renovasi menyeluruh biasanya memerlukan pengaturan area memasak sementara. Lihat Renovasi Rumah Sambil Dihuni untuk pertimbangan lebih lanjut."
+      },
+      {
+        "question": "Apa yang perlu dipertimbangkan saat mengubah tata letak dapur?",
+        "answer": "Perubahan tata letak perlu mempertimbangkan posisi titik air, saluran pembuangan, dan instalasi listrik eksisting, karena memindahkan titik-titik ini dapat menambah kompleksitas dan biaya pekerjaan dibandingkan mempertahankan posisi eksisting."
+      },
+      {
+        "question": "Apakah ventilasi dapur perlu diperhatikan khusus saat renovasi?",
+        "answer": "Ya. Ventilasi dan sirkulasi udara yang memadai penting untuk mengelola asap dan kelembaban dari aktivitas memasak — kebutuhan ini sebaiknya didiskusikan dengan kontraktor berdasarkan tata letak dan peralatan memasak yang akan digunakan."
+      },
+      {
+        "question": "Apakah renovasi dapur termasuk penggantian peralatan memasak?",
+        "answer": "Renovasi dapur pada umumnya mencakup pekerjaan sipil, tata letak, dan utilitas, sementara pengadaan peralatan memasak (kompor, oven, dan sejenisnya) biasanya menjadi keputusan terpisah milik pemilik rumah, dikoordinasikan dengan kebutuhan ruang dan utilitas yang direncanakan."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/renovasi-dapur",
+    "sourcePath": "content/guides/renovasi-dapur.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Renovasi Dapur Rumah: Pertimbangan dan Tahapannya",
+        "path": "/panduan/renovasi-dapur"
+      }
+    ],
+    "wordCount": 480,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/renovasi-rumah",
+      "/panduan/renovasi-rumah-sambil-dihuni",
+      "/panduan/renovasi-total-vs-renovasi-sebagian"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-renovasi-fasad-rumah",
+    "type": "guide",
+    "status": "published",
+    "title": "Renovasi Fasad Rumah: Pertimbangan dan Tahapannya",
+    "slug": "renovasi-fasad-rumah",
+    "description": "Pertimbangan utama dan tahapan renovasi fasad rumah — kondisi eksisting, material, waterproofing dinding luar, dan koordinasi dengan lingkungan sekitar.",
+    "excerpt": "Gambaran tahapan renovasi fasad rumah, termasuk pertimbangan material dan waterproofing dinding luar.",
+    "seoTitle": "Renovasi Fasad Rumah | Panduan Arkavena",
+    "primaryKeyword": "renovasi fasad rumah",
+    "secondaryKeywords": [
+      "renovasi tampak depan rumah",
+      "perbaikan fasad rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "renovasi",
+    "tags": [
+      "renovasi",
+      "residensial",
+      "arsitektur"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Renovasi Rumah",
+      "heading": "Renovasi Fasad Rumah: Tampilan Baru dengan Perlindungan yang Tepat",
+      "summary": "Tahapan dan pertimbangan renovasi fasad rumah, dengan perhatian pada kondisi eksisting dan waterproofing dinding luar agar tampilan baru tidak menimbulkan masalah baru.",
+      "image": "/images/guides/renovasi-fasad-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual proses renovasi fasad atau tampak depan rumah"
+    },
+    "relationships": {
+      "services": [
+        "svc-renovasi-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-renovasi-atap-bocor"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Renovasi Fasad",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana renovasi fasad rumah saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Renovasi Rumah",
+        "href": "/layanan/renovasi-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apa yang termasuk dalam renovasi fasad rumah?",
+        "answer": "Renovasi fasad umumnya mencakup perubahan tampilan dinding luar, elemen arsitektur seperti kanopi atau lisplang, cat eksterior, dan kadang perubahan bukaan seperti jendela atau pintu depan — tergantung ruang lingkup yang direncanakan."
+      },
+      {
+        "question": "Apakah renovasi fasad memerlukan izin?",
+        "answer": "Tergantung skala perubahan dan ketentuan yang berlaku di wilayah Anda — perubahan yang mengubah tampak bangunan secara signifikan mungkin memerlukan penyesuaian dokumen perizinan. Sebaiknya didiskusikan dengan kontraktor atau pihak berwenang terkait di wilayah Anda."
+      },
+      {
+        "question": "Mengapa waterproofing dinding luar perlu diperhatikan saat renovasi fasad?",
+        "answer": "Dinding luar terpapar hujan dan cuaca secara langsung. Jika lapisan pelindung atau waterproofing tidak dikerjakan dengan baik, air dapat merembes ke dalam dinding dan menyebabkan kelembaban atau kerusakan pada interior dari waktu ke waktu."
+      },
+      {
+        "question": "Apakah renovasi fasad memengaruhi rumah tetangga atau lingkungan sekitar?",
+        "answer": "Berpotensi, terutama jika pekerjaan melibatkan area yang berbatasan langsung dengan properti tetangga atau menggunakan perancah yang memerlukan ruang tambahan. Koordinasi dengan tetangga sebaiknya dilakukan sebelum pekerjaan dimulai jika relevan."
+      },
+      {
+        "question": "Apakah mengubah bukaan jendela atau pintu pada fasad memerlukan kajian tambahan?",
+        "answer": "Jika perubahan bukaan memengaruhi elemen struktur seperti balok atau kolom di sekitarnya, kajian oleh insinyur struktur mungkin diperlukan sebelum pekerjaan dilaksanakan."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/renovasi-fasad-rumah",
+    "sourcePath": "content/guides/renovasi-fasad-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Renovasi Fasad Rumah: Pertimbangan dan Tahapannya",
+        "path": "/panduan/renovasi-fasad-rumah"
+      }
+    ],
+    "wordCount": 466,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/panduan/tanda-rumah-perlu-perkuatan-struktur",
+      "/layanan/renovasi-rumah",
+      "/panduan/renovasi-atap-bocor",
+      "/panduan/renovasi-total-vs-renovasi-sebagian"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-renovasi-kamar-mandi",
+    "type": "guide",
+    "status": "published",
+    "title": "Renovasi Kamar Mandi Rumah: Pertimbangan dan Tahapannya",
+    "slug": "renovasi-kamar-mandi",
+    "description": "Pertimbangan utama dan tahapan renovasi kamar mandi — waterproofing, tata letak, utilitas, dan langkah mengurangi risiko kebocoran setelah renovasi.",
+    "excerpt": "Gambaran tahapan renovasi kamar mandi rumah, dengan perhatian khusus pada waterproofing dan risiko kebocoran pasca-renovasi.",
+    "seoTitle": "Renovasi Kamar Mandi Rumah | Panduan Arkavena",
+    "primaryKeyword": "renovasi kamar mandi rumah",
+    "secondaryKeywords": [
+      "renovasi kamar mandi",
+      "waterproofing kamar mandi"
+    ],
+    "searchIntent": "informational",
+    "cluster": "renovasi",
+    "tags": [
+      "renovasi",
+      "residensial",
+      "mep"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Renovasi Rumah",
+      "heading": "Renovasi Kamar Mandi: Waterproofing sebagai Prioritas Utama",
+      "summary": "Tahapan dan pertimbangan renovasi kamar mandi, dengan perhatian khusus pada waterproofing untuk mengurangi risiko kebocoran ke area lain setelah renovasi.",
+      "image": "/images/guides/renovasi-kamar-mandi/hero.webp",
+      "imageAlt": "Ilustrasi konseptual proses renovasi kamar mandi rumah tinggal"
+    },
+    "relationships": {
+      "services": [
+        "svc-renovasi-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-renovasi-rumah-sambil-dihuni",
+        "guide-renovasi-dapur"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Renovasi Kamar Mandi",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana renovasi kamar mandi rumah saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Renovasi Rumah",
+        "href": "/layanan/renovasi-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Mengapa waterproofing menjadi perhatian utama saat renovasi kamar mandi?",
+        "answer": "Kamar mandi adalah area basah yang jika waterproofing-nya tidak dikerjakan dengan baik, air dapat merembes ke area atau lantai di bawahnya dan menyebabkan kerusakan yang lebih luas serta sulit dideteksi sejak dini. Waterproofing yang tepat sejak awal renovasi mengurangi risiko ini."
+      },
+      {
+        "question": "Berapa lama renovasi kamar mandi biasanya berlangsung?",
+        "answer": "Durasi bergantung pada ruang lingkup pekerjaan — renovasi finishing saja umumnya lebih singkat dibandingkan renovasi yang mengubah tata letak dan sistem plumbing. Tidak ada durasi universal yang berlaku untuk semua proyek."
+      },
+      {
+        "question": "Apakah kamar mandi bisa digunakan selama renovasi?",
+        "answer": "Jika hanya ada satu kamar mandi di rumah, ini perlu direncanakan sejak awal — misalnya menyediakan akses ke kamar mandi sementara atau kamar mandi lain jika tersedia. Diskusikan hal ini dengan kontraktor pada tahap perencanaan."
+      },
+      {
+        "question": "Apa yang menyebabkan kebocoran setelah renovasi kamar mandi?",
+        "answer": "Penyebab umum termasuk aplikasi waterproofing yang tidak sesuai prosedur, sambungan pipa yang tidak rapat, atau kemiringan lantai yang tidak mengarahkan air ke saluran pembuangan dengan baik — semua ini seharusnya diperiksa sebelum area ditutup dengan keramik atau finishing akhir."
+      },
+      {
+        "question": "Apakah mengubah posisi kloset atau shower menambah biaya signifikan?",
+        "answer": "Berpotensi ya, karena memindahkan titik saluran pembuangan biasanya memerlukan pekerjaan tambahan pada instalasi di bawah lantai. Mempertahankan posisi eksisting umumnya lebih sederhana dibandingkan mengubah tata letak sepenuhnya."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/renovasi-kamar-mandi",
+    "sourcePath": "content/guides/renovasi-kamar-mandi.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Renovasi Kamar Mandi Rumah: Pertimbangan dan Tahapannya",
+        "path": "/panduan/renovasi-kamar-mandi"
+      }
+    ],
+    "wordCount": 462,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/renovasi-rumah",
+      "/panduan/renovasi-rumah-sambil-dihuni",
+      "/panduan/renovasi-total-vs-renovasi-sebagian"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-renovasi-rumah-sambil-dihuni",
+    "type": "guide",
+    "status": "published",
+    "title": "Renovasi Rumah Sambil Dihuni: Pertimbangan dan Batasannya",
+    "slug": "renovasi-rumah-sambil-dihuni",
+    "description": "Pertimbangan renovasi rumah sambil tetap dihuni — kapan hal ini memungkinkan, batasannya, dan dampaknya terhadap jadwal dan kenyamanan penghuni.",
+    "excerpt": "Memahami kapan renovasi sambil dihuni memungkinkan, dan kapan sebaiknya penghuni pindah sementara selama pekerjaan berlangsung.",
+    "seoTitle": "Renovasi Rumah Sambil Dihuni | Panduan Arkavena",
+    "primaryKeyword": "renovasi rumah sambil dihuni",
+    "secondaryKeywords": [
+      "renovasi rumah tanpa pindah",
+      "tetap tinggal saat renovasi"
+    ],
+    "searchIntent": "informational",
+    "cluster": "renovasi",
+    "tags": [
+      "renovasi",
+      "perencanaan",
+      "residensial"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Renovasi Rumah",
+      "heading": "Renovasi Rumah Sambil Dihuni: Kapan Memungkinkan dan Kapan Sebaiknya Tidak",
+      "summary": "Pertimbangan yang menentukan apakah rumah Anda tetap bisa dihuni selama renovasi, beserta batasan dan dampaknya terhadap jadwal dan kenyamanan.",
+      "image": "/images/guides/renovasi-rumah-sambil-dihuni/hero.webp",
+      "imageAlt": "Ilustrasi konseptual rumah yang sebagian direnovasi sementara penghuni tetap tinggal"
+    },
+    "relationships": {
+      "services": [
+        "svc-renovasi-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-renovasi-dapur",
+        "guide-renovasi-kamar-mandi"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Rencana Renovasi Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai renovasi rumah sambil tetap dihuni."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Renovasi Rumah",
+        "href": "/layanan/renovasi-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah semua jenis renovasi bisa dilakukan sambil rumah tetap dihuni?",
+        "answer": "Tidak. Renovasi berskala kecil pada satu area seperti kamar mandi atau sebagian dapur lebih memungkinkan untuk dilakukan sambil dihuni, sementara renovasi total atau pekerjaan yang menyentuh struktur dan utilitas utama umumnya memerlukan penghuni untuk pindah sementara."
+      },
+      {
+        "question": "Apa dampak utama renovasi sambil dihuni terhadap penghuni?",
+        "answer": "Dampak yang umum termasuk gangguan debu dan kebisingan, keterbatasan akses ke area tertentu, gangguan pada pasokan air atau listrik secara berkala, dan potensi perpanjangan jadwal karena pekerjaan perlu disesuaikan dengan aktivitas penghuni."
+      },
+      {
+        "question": "Apakah renovasi sambil dihuni membuat proyek lebih lama?",
+        "answer": "Berpotensi, karena pekerjaan mungkin perlu dijeda atau disesuaikan pada jam-jam tertentu agar tidak terlalu mengganggu penghuni, terutama jika ada anggota keluarga dengan kebutuhan khusus seperti anak kecil, lansia, atau pekerjaan dari rumah."
+      },
+      {
+        "question": "Bagaimana menentukan area mana yang perlu ditutup selama renovasi?",
+        "answer": "Ini didiskusikan bersama kontraktor berdasarkan area yang direnovasi dan jalur akses yang diperlukan untuk pekerjaan — biasanya area yang berdekatan langsung dengan zona kerja perlu dibatasi untuk alasan keselamatan dan efisiensi kerja."
+      },
+      {
+        "question": "Apakah lebih murah jika rumah tetap dihuni selama renovasi?",
+        "answer": "Belum tentu. Renovasi sambil dihuni dapat memerlukan penyesuaian jadwal kerja dan langkah perlindungan tambahan terhadap area yang tidak direnovasi, yang berpotensi memengaruhi durasi dan biaya dibandingkan jika rumah dikosongkan sepenuhnya."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/renovasi-rumah-sambil-dihuni",
+    "sourcePath": "content/guides/renovasi-rumah-sambil-dihuni.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Renovasi Rumah Sambil Dihuni: Pertimbangan dan Batasannya",
+        "path": "/panduan/renovasi-rumah-sambil-dihuni"
+      }
+    ],
+    "wordCount": 501,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan/renovasi-dapur",
+      "/panduan/renovasi-kamar-mandi",
+      "/layanan/renovasi-rumah",
+      "/panduan/checklist-survei-sebelum-renovasi",
+      "/panduan/renovasi-total-vs-renovasi-sebagian"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-renovasi-rumah-satu-jadi-dua-lantai",
+    "type": "guide",
+    "status": "published",
+    "title": "Renovasi Rumah Satu Jadi Dua Lantai: Pertimbangan Utama",
+    "slug": "renovasi-rumah-satu-jadi-dua-lantai",
+    "description": "Pertimbangan utama sebelum menambah lantai pada rumah satu lantai — mengapa kajian struktur wajib dilakukan lebih dahulu, dan tahapan umum prosesnya.",
+    "excerpt": "Gambaran proses dan pertimbangan menambah lantai pada rumah eksisting, dengan kajian struktur sebagai langkah wajib sebelum keputusan diambil.",
+    "seoTitle": "Renovasi Rumah Satu Jadi Dua Lantai | Panduan Arkavena",
+    "primaryKeyword": "renovasi rumah satu jadi dua lantai",
+    "secondaryKeywords": [
+      "menambah lantai rumah",
+      "tambah lantai rumah eksisting"
+    ],
+    "searchIntent": "informational",
+    "cluster": "renovasi",
+    "tags": [
+      "struktur",
+      "risiko",
+      "residensial"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": "ervanlight (owner)",
+    "hero": {
+      "eyebrow": "Panduan Renovasi Rumah",
+      "heading": "Menambah Lantai Rumah: Kajian Struktur Dulu, Baru Desain",
+      "summary": "Pertimbangan utama sebelum menambah lantai pada rumah eksisting — kajian struktur adalah langkah wajib pertama, bukan opsional.",
+      "image": "/images/guides/renovasi-rumah-satu-jadi-dua-lantai/hero.webp",
+      "imageAlt": "Ilustrasi konseptual proses penambahan lantai pada rumah eksisting"
+    },
+    "relationships": {
+      "services": [
+        "svc-renovasi-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
+        "guide-memperkuat-struktur-rumah-lama",
+        "guide-checklist-survei-sebelum-renovasi"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Tambah Lantai",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana menambah lantai pada rumah saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Renovasi Rumah",
+        "href": "/layanan/renovasi-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah semua rumah satu lantai bisa ditambah menjadi dua lantai?",
+        "answer": "Tidak selalu. Kelayakan ini bergantung pada kondisi pondasi dan struktur eksisting, yang hanya dapat dipastikan melalui kajian oleh insinyur struktur. Sebagian rumah memerlukan perkuatan struktur terlebih dahulu sebelum lantai tambahan dapat dibangun, dan sebagian kondisi mungkin membuat penambahan lantai tidak disarankan."
+      },
+      {
+        "question": "Apakah izin bangunan diperlukan untuk menambah lantai?",
+        "answer": "Kemungkinan besar ya, tergantung ketentuan yang berlaku di wilayah Anda. Penambahan lantai umumnya mengubah spesifikasi bangunan yang tercatat, sehingga penyesuaian perizinan perlu dikoordinasikan — hal ini sebaiknya didiskusikan dengan kontraktor atau pihak berwenang terkait di wilayah Anda."
+      },
+      {
+        "question": "Berapa biaya menambah lantai pada rumah eksisting?",
+        "answer": "Biaya sangat bergantung pada hasil kajian struktur, kebutuhan perkuatan pondasi (jika ada), luas dan spesifikasi lantai tambahan, serta kondisi eksisting bangunan — panduan ini tidak memuat angka biaya karena setiap kasus berbeda signifikan."
+      },
+      {
+        "question": "Apakah rumah bisa tetap dihuni selama proses menambah lantai?",
+        "answer": "Umumnya tidak disarankan, terutama selama tahap pekerjaan struktur, karena melibatkan risiko keselamatan yang lebih tinggi dibandingkan renovasi non-struktural. Lihat Renovasi Rumah Sambil Dihuni untuk pertimbangan lebih lanjut."
+      },
+      {
+        "question": "Apa langkah pertama sebelum merencanakan tambah lantai?",
+        "answer": "Langkah pertama adalah kajian struktur oleh insinyur struktur untuk memastikan kondisi pondasi dan struktur eksisting mampu menerima beban tambahan — bukan langsung menentukan desain lantai tambahan."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/renovasi-rumah-satu-jadi-dua-lantai",
+    "sourcePath": "content/guides/renovasi-rumah-satu-jadi-dua-lantai.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Renovasi Rumah Satu Jadi Dua Lantai: Pertimbangan Utama",
+        "path": "/panduan/renovasi-rumah-satu-jadi-dua-lantai"
+      }
+    ],
+    "wordCount": 604,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan/tanda-rumah-perlu-perkuatan-struktur",
+      "/panduan/memperkuat-struktur-rumah-lama",
+      "/layanan/renovasi-rumah",
+      "/panduan/renovasi-total-vs-renovasi-sebagian"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-renovasi-total-vs-renovasi-sebagian",
+    "type": "guide",
+    "status": "published",
+    "title": "Renovasi Total vs Renovasi Sebagian: Cara Menentukan Skala Renovasi Rumah Anda",
+    "slug": "renovasi-total-vs-renovasi-sebagian",
+    "description": "Perbandingan renovasi total dan renovasi sebagian — kapan masing-masing masuk akal, apa yang memengaruhi keputusan ini, dan peta panduan renovasi rumah Arkavena.",
+    "excerpt": "Peta pengambilan keputusan renovasi rumah, dari menentukan skala hingga panduan mana yang relevan untuk setiap tahap.",
+    "seoTitle": "Renovasi Total vs Renovasi Sebagian | Panduan Arkavena",
+    "primaryKeyword": "renovasi total vs renovasi sebagian",
+    "secondaryKeywords": [
+      "renovasi rumah total atau sebagian",
+      "skala renovasi rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "renovasi",
+    "tags": [
+      "renovasi",
+      "residensial",
+      "perencanaan"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Renovasi Rumah",
+      "heading": "Renovasi Total atau Sebagian? Menentukan Skala Sebelum Menentukan Anggaran",
+      "summary": "Peta keputusan renovasi rumah — apa yang membedakan renovasi total dari renovasi sebagian, dan panduan mana yang relevan untuk tahap yang sedang Anda hadapi.",
+      "image": "/images/guides/renovasi-total-vs-renovasi-sebagian/hero.webp",
+      "imageAlt": "Ilustrasi konseptual perbandingan skala renovasi rumah sebagian dan menyeluruh"
+    },
+    "relationships": {
+      "services": [
+        "svc-renovasi-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-biaya-renovasi-rumah",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-tanda-rumah-perlu-perkuatan-struktur",
+        "guide-renovasi-rumah-satu-jadi-dua-lantai",
+        "guide-cara-memilih-kontraktor-renovasi"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Renovasi",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana renovasi rumah — belum yakin skala total atau sebagian."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Renovasi Rumah",
+        "href": "/layanan/renovasi-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apa perbedaan utama renovasi total dan renovasi sebagian?",
+        "answer": "Renovasi total mengubah sebagian besar atau seluruh bangunan, sering kali termasuk elemen struktur, dan biasanya membuat rumah tidak dapat dihuni selama periode tertentu. Renovasi sebagian berfokus pada satu atau beberapa area atau sistem tertentu, dengan dampak pada penghunian yang biasanya lebih terbatas — meskipun tetap bergantung pada area yang dikerjakan."
+      },
+      {
+        "question": "Bagaimana cara memutuskan skala renovasi yang tepat?",
+        "answer": "Keputusan ini bergantung pada kondisi eksisting bangunan, kebutuhan yang ingin dipenuhi, anggaran yang tersedia, dan toleransi Anda terhadap gangguan selama pekerjaan berlangsung. Checklist survei sebelum renovasi membantu memetakan kondisi eksisting sebagai dasar keputusan ini."
+      },
+      {
+        "question": "Apakah renovasi sebagian selalu lebih murah?",
+        "answer": "Tidak selalu. Renovasi sebagian pada area dengan masalah struktur atau utilitas tersembunyi dapat menjadi lebih mahal dari perkiraan awal karena kondisi eksisting yang baru diketahui saat pekerjaan berjalan. Risiko pembengkakan biaya renovasi membahas hal ini lebih detail."
+      },
+      {
+        "question": "Apakah rumah bisa tetap dihuni selama renovasi total?",
+        "answer": "Umumnya tidak disarankan untuk renovasi total berskala besar, terutama yang menyentuh struktur atau utilitas utama. Renovasi rumah sambil dihuni membahas pertimbangan dan batasan jika Anda tetap ingin tinggal selama pekerjaan berlangsung."
+      },
+      {
+        "question": "Apakah menambah lantai termasuk renovasi total atau sebagian?",
+        "answer": "Menambah lantai (mengubah rumah satu lantai menjadi dua lantai) termasuk kategori pekerjaan berskala besar yang hampir selalu menyentuh struktur eksisting, sehingga memerlukan kajian tersendiri — lihat panduan renovasi rumah satu jadi dua lantai untuk pertimbangan khususnya."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "pillar",
+      "pillar": null,
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/renovasi-total-vs-renovasi-sebagian",
+    "sourcePath": "content/guides/renovasi-total-vs-renovasi-sebagian.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Renovasi Total vs Renovasi Sebagian: Cara Menentukan Skala Renovasi Rumah Anda",
+        "path": "/panduan/renovasi-total-vs-renovasi-sebagian"
+      }
+    ],
+    "wordCount": 714,
+    "readingMinutes": 4,
+    "internalLinks": [
+      "/panduan/checklist-survei-sebelum-renovasi",
+      "/panduan/cara-memilih-kontraktor-renovasi",
+      "/panduan/biaya-renovasi-rumah",
+      "/panduan/cara-menghitung-anggaran-renovasi-rumah",
+      "/panduan/risiko-pembengkakan-biaya-renovasi",
+      "/panduan/tanda-rumah-perlu-perkuatan-struktur",
+      "/panduan/memperkuat-struktur-rumah-lama",
+      "/panduan/renovasi-rumah-satu-jadi-dua-lantai",
+      "/panduan/renovasi-atap-bocor",
+      "/panduan/renovasi-dapur",
+      "/panduan/renovasi-kamar-mandi",
+      "/panduan/renovasi-fasad-rumah",
+      "/panduan/renovasi-rumah-sambil-dihuni",
+      "/layanan/renovasi-rumah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-risiko-pembengkakan-biaya-renovasi",
+    "type": "guide",
+    "status": "published",
+    "title": "Risiko Pembengkakan Biaya Renovasi Rumah",
+    "slug": "risiko-pembengkakan-biaya-renovasi",
+    "description": "Sumber umum pembengkakan biaya pada proyek renovasi rumah, dan langkah mengelolanya sejak tahap perencanaan hingga pelaksanaan.",
+    "excerpt": "Memahami sumber pembengkakan biaya renovasi yang paling umum dan cara mengelolanya agar anggaran tetap terkendali.",
+    "seoTitle": "Risiko Pembengkakan Biaya Renovasi Rumah | Arkavena",
+    "primaryKeyword": "risiko pembengkakan biaya renovasi",
+    "secondaryKeywords": [
+      "biaya renovasi membengkak",
+      "cara mengendalikan biaya renovasi"
+    ],
+    "searchIntent": "informational",
+    "cluster": "renovasi",
+    "tags": [
+      "renovasi",
+      "biaya",
+      "risiko"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Renovasi Rumah",
+      "heading": "Mengapa Biaya Renovasi Sering Membengkak, dan Cara Mengelolanya",
+      "summary": "Sumber umum pembengkakan biaya pada proyek renovasi rumah, beserta langkah yang dapat membantu menjaga anggaran tetap terkendali.",
+      "image": "/images/guides/risiko-pembengkakan-biaya-renovasi/hero.webp",
+      "imageAlt": "Ilustrasi konseptual pengendalian anggaran proyek renovasi rumah"
+    },
+    "relationships": {
+      "services": [
+        "svc-renovasi-rumah",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-biaya-renovasi-rumah",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-checklist-survei-sebelum-renovasi"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Pengendalian Biaya Renovasi",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai cara mengendalikan biaya renovasi rumah saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Renovasi Rumah",
+        "href": "/layanan/renovasi-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apa penyebab paling umum pembengkakan biaya renovasi?",
+        "answer": "Penyebab umum termasuk kondisi eksisting yang baru diketahui setelah pembongkaran, perubahan keinginan pemilik di tengah proyek, ruang lingkup awal yang kurang jelas, dan tidak adanya cadangan anggaran untuk temuan tak terduga."
+      },
+      {
+        "question": "Apakah pembengkakan biaya bisa dihindari sepenuhnya?",
+        "answer": "Sulit dihindari sepenuhnya karena sifat renovasi yang melibatkan bangunan eksisting dengan kondisi yang tidak sepenuhnya diketahui sebelum pekerjaan dimulai. Namun, dampaknya dapat dikelola dengan perencanaan yang matang dan cadangan anggaran yang memadai."
+      },
+      {
+        "question": "Apakah perubahan permintaan di tengah proyek selalu menambah biaya?",
+        "answer": "Umumnya ya, terutama jika perubahan tersebut memengaruhi pekerjaan yang sudah berjalan atau selesai. Mekanisme perubahan yang jelas dalam kontrak membantu memastikan setiap perubahan dievaluasi dampaknya terhadap biaya dan jadwal sebelum dilaksanakan."
+      },
+      {
+        "question": "Bagaimana cara mengetahui apakah penawaran kontraktor sudah realistis?",
+        "answer": "Periksa apakah penawaran menjelaskan ruang lingkup, inklusi, dan eksklusi secara jelas. Penawaran yang jauh lebih rendah dari penawaran lain tanpa penjelasan ruang lingkup yang setara berpotensi tidak mencakup seluruh pekerjaan yang dibutuhkan, yang dapat memunculkan biaya tambahan di kemudian hari."
+      },
+      {
+        "question": "Apa peran cadangan anggaran dalam mengelola risiko ini?",
+        "answer": "Cadangan anggaran memberikan ruang untuk menangani temuan tak terduga tanpa harus menghentikan proyek atau mengurangi ruang lingkup pekerjaan penting. Besaran cadangan yang wajar bergantung pada kondisi bangunan dan sebaiknya didiskusikan dengan kontraktor Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/risiko-pembengkakan-biaya-renovasi",
+    "sourcePath": "content/guides/risiko-pembengkakan-biaya-renovasi.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Risiko Pembengkakan Biaya Renovasi Rumah",
+        "path": "/panduan/risiko-pembengkakan-biaya-renovasi"
+      }
+    ],
+    "wordCount": 490,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/renovasi-rumah",
+      "/layanan/pengendalian-biaya-proyek",
+      "/panduan/biaya-renovasi-rumah",
+      "/panduan/cara-menghitung-anggaran-renovasi-rumah",
+      "/panduan/renovasi-total-vs-renovasi-sebagian"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-tahapan-bangun-rumah-dari-nol",
+    "type": "guide",
+    "status": "published",
+    "title": "Tahapan Bangun Rumah dari Nol: Panduan Lengkap dari Perencanaan hingga Serah Terima",
+    "slug": "tahapan-bangun-rumah-dari-nol",
+    "description": "Panduan lengkap tahapan membangun rumah dari nol — mulai dari menentukan kebutuhan, data lahan, desain, estimasi biaya, kontrak, pelaksanaan, hingga serah terima.",
+    "excerpt": "Ringkasan seluruh tahapan proyek bangun rumah dari nol, dari perencanaan awal hingga rumah selesai dan diserahterimakan.",
+    "seoTitle": "Tahapan Bangun Rumah dari Nol | Panduan Arkavena",
+    "primaryKeyword": "tahapan bangun rumah dari nol",
+    "secondaryKeywords": [
+      "proses membangun rumah",
+      "urutan tahapan bangun rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "perencanaan",
+      "pelaksanaan"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Tahapan Bangun Rumah dari Nol, dari Perencanaan hingga Serah Terima",
+      "summary": "Peta lengkap proses membangun rumah — apa yang perlu diputuskan di setiap tahap, dan panduan mana yang relevan untuk masing-masing tahap tersebut.",
+      "image": "/images/guides/tahapan-bangun-rumah-dari-nol/hero.webp",
+      "imageAlt": "Ilustrasi konseptual tahapan proyek konstruksi rumah dari perencanaan hingga serah terima"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-checklist-persiapan-bangun-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-kontraktor-vs-tukang",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-cara-membaca-rab-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan rumah dari awal."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Berapa lama proses bangun rumah dari nol?",
+        "answer": "Durasi bergantung pada luas bangunan, kompleksitas desain, ketersediaan dana, kecepatan proses persetujuan, dan kondisi lapangan — tidak ada durasi universal yang berlaku untuk semua proyek. Panduan jadwal pembangunan akan membahas faktor-faktor ini lebih detail."
+      },
+      {
+        "question": "Apakah desain harus selesai sebelum menghubungi kontraktor?",
+        "answer": "Tidak selalu. Sebagian pemilik rumah menghubungi kontraktor setelah desain selesai, sebagian lain menggunakan layanan design and build yang menggabungkan desain dan pelaksanaan dalam satu alur kerja."
+      },
+      {
+        "question": "Apakah tahapan ini berlaku untuk renovasi juga?",
+        "answer": "Sebagian prinsip serupa, tetapi renovasi memiliki tahapan tambahan terkait kondisi eksisting bangunan yang tidak dibahas mendalam dalam panduan ini."
+      },
+      {
+        "question": "Dari mana sebaiknya memulai jika belum tahu harus mulai dari mana?",
+        "answer": "Checklist persiapan bangun rumah adalah titik awal yang baik untuk memetakan kebutuhan, data, dan keputusan yang perlu disiapkan sebelum masuk ke tahap teknis."
+      },
+      {
+        "question": "Apakah panduan ini menjelaskan biaya secara spesifik?",
+        "answer": "Panduan ini menjelaskan tahapan proses, bukan angka biaya. Metode menghitung biaya dan cara membaca RAB dibahas di panduan terpisah dalam cluster ini."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "pillar",
+      "pillar": null,
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/tahapan-bangun-rumah-dari-nol",
+    "sourcePath": "content/guides/tahapan-bangun-rumah-dari-nol.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Tahapan Bangun Rumah dari Nol: Panduan Lengkap dari Perencanaan hingga Serah Terima",
+        "path": "/panduan/tahapan-bangun-rumah-dari-nol"
+      }
+    ],
+    "wordCount": 804,
+    "readingMinutes": 4,
+    "internalLinks": [
+      "/panduan/checklist-persiapan-bangun-rumah",
+      "/panduan/biaya-bangun-rumah-per-meter",
+      "/panduan/cara-menghitung-biaya-bangun-rumah",
+      "/panduan/cara-membaca-rab-rumah",
+      "/panduan/cara-memilih-kontraktor-rumah",
+      "/panduan/kontraktor-vs-tukang",
+      "/panduan/borongan-vs-harian-bangun-rumah",
+      "/panduan/kontrak-kerja-konstruksi-rumah",
+      "/layanan/bangun-rumah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-tanda-rumah-perlu-perkuatan-struktur",
+    "type": "guide",
+    "status": "published",
+    "title": "Tanda Rumah Perlu Perkuatan Struktur",
+    "slug": "tanda-rumah-perlu-perkuatan-struktur",
+    "description": "Indikasi umum yang perlu dikaji oleh insinyur struktur sebelum menentukan apakah rumah memerlukan perkuatan struktur — bukan panduan diagnosis atau perbaikan mandiri.",
+    "excerpt": "Daftar indikasi yang sebaiknya mendorong Anda menghubungi insinyur struktur untuk kajian lebih lanjut, bukan panduan menilai atau memperbaiki struktur sendiri.",
+    "seoTitle": "Tanda Rumah Perlu Perkuatan Struktur | Panduan Arkavena",
+    "primaryKeyword": "tanda rumah perlu perkuatan struktur",
+    "secondaryKeywords": [
+      "ciri rumah bermasalah struktur",
+      "kapan perlu insinyur struktur"
+    ],
+    "searchIntent": "informational",
+    "cluster": "renovasi",
+    "tags": [
+      "struktur",
+      "risiko",
+      "residensial"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": "ervanlight (owner)",
+    "hero": {
+      "eyebrow": "Panduan Renovasi Rumah",
+      "heading": "Indikasi yang Perlu Dikaji Insinyur Struktur Sebelum Renovasi",
+      "summary": "Daftar indikasi umum yang perlu mendorong Anda menghubungi insinyur struktur — bukan panduan untuk menilai sendiri kondisi struktur atau melakukan perbaikan.",
+      "image": "/images/guides/tanda-rumah-perlu-perkuatan-struktur/hero.webp",
+      "imageAlt": "Ilustrasi konseptual pemeriksaan kondisi struktur bangunan oleh profesional"
+    },
+    "relationships": {
+      "services": [
+        "svc-renovasi-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-checklist-survei-sebelum-renovasi",
+        "guide-memperkuat-struktur-rumah-lama",
+        "guide-renovasi-rumah-satu-jadi-dua-lantai"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Kondisi Struktur Rumah Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya melihat indikasi tertentu pada rumah saya dan ingin berkonsultasi mengenai kajian struktur."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Renovasi Rumah",
+        "href": "/layanan/renovasi-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah retak pada dinding selalu berarti rumah bermasalah struktur?",
+        "answer": "Tidak selalu. Retak dapat disebabkan berbagai faktor, dari yang bersifat kosmetik hingga yang berkaitan dengan struktur. Panduan ini tidak dapat menyimpulkan penyebab retak pada rumah Anda — kajian langsung oleh insinyur struktur diperlukan untuk menentukan penyebab dan tingkat kepentingannya."
+      },
+      {
+        "question": "Apakah saya bisa menilai sendiri apakah rumah saya aman?",
+        "answer": "Panduan ini tidak dimaksudkan untuk menggantikan penilaian profesional. Jika Anda melihat salah satu indikasi yang dibahas di sini, langkah yang tepat adalah menghubungi insinyur struktur untuk kajian langsung, bukan menyimpulkan sendiri tingkat keamanan bangunan."
+      },
+      {
+        "question": "Apa yang harus dilakukan jika menemukan salah satu indikasi ini?",
+        "answer": "Hubungi insinyur struktur atau kontraktor yang dapat mengoordinasikan kajian struktur untuk pemeriksaan langsung. Jangan melakukan perbaikan mandiri pada elemen struktur tanpa kajian profesional terlebih dahulu."
+      },
+      {
+        "question": "Apakah rumah lama pasti memerlukan perkuatan struktur?",
+        "answer": "Tidak. Usia bangunan adalah salah satu faktor yang meningkatkan relevansi kajian struktur, terutama jika akan dilakukan renovasi besar atau penambahan lantai, tetapi tidak secara otomatis berarti rumah tersebut bermasalah. Kajian langsung tetap diperlukan untuk memastikan kondisi aktual."
+      },
+      {
+        "question": "Apakah panduan ini bisa digunakan untuk memutuskan apakah butuh perkuatan struktur atau tidak?",
+        "answer": "Tidak. Panduan ini hanya membantu mengenali indikasi yang layak dikaji lebih lanjut. Keputusan mengenai perlu-tidaknya dan jenis perkuatan struktur hanya dapat ditentukan oleh insinyur struktur setelah kajian langsung terhadap kondisi bangunan Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/tanda-rumah-perlu-perkuatan-struktur",
+    "sourcePath": "content/guides/tanda-rumah-perlu-perkuatan-struktur.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Tanda Rumah Perlu Perkuatan Struktur",
+        "path": "/panduan/tanda-rumah-perlu-perkuatan-struktur"
+      }
+    ],
+    "wordCount": 697,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan/memperkuat-struktur-rumah-lama",
+      "/panduan/renovasi-rumah-satu-jadi-dua-lantai",
+      "/layanan/renovasi-rumah",
+      "/panduan/checklist-survei-sebelum-renovasi",
+      "/panduan/renovasi-total-vs-renovasi-sebagian"
+    ],
+    "isIndexable": true,
     "isFollowable": true
   },
   {

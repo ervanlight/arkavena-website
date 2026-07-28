@@ -1,6 +1,6 @@
 # Arkavena — Daftar Link Halaman
 
-Update terakhir: 2026-07-28 (setelah homepage restore, PR #8 merged)
+Update terakhir: 2026-07-28 (setelah 14 panduan Renovasi Rumah dipromosikan live, PR #12 merged)
 
 Legenda status:
 - 🟢 **Live & indexable** — published, ownerVerified, masuk sitemap Google
@@ -47,9 +47,7 @@ Legenda status:
 | Estimasi Biaya Konstruksi | https://arkavena.com/layanan/estimasi-biaya-konstruksi |
 | **Hub /layanan** | https://arkavena.com/layanan |
 
-## 3. Sektor
-
-### 3a. Live sekarang (6 halaman)
+## 3. Sektor (14 halaman, semua live)
 
 | Sektor | Link |
 |---|---|
@@ -59,25 +57,17 @@ Legenda status:
 | Pabrik | https://arkavena.com/sektor/pabrik |
 | Kantor | https://arkavena.com/sektor/kantor |
 | Kos | https://arkavena.com/sektor/kos |
+| Cafe | https://arkavena.com/sektor/cafe |
+| Restoran | https://arkavena.com/sektor/restoran |
+| Sekolah | https://arkavena.com/sektor/sekolah |
+| Masjid | https://arkavena.com/sektor/masjid |
+| Klinik | https://arkavena.com/sektor/klinik |
+| Hotel | https://arkavena.com/sektor/hotel |
+| Villa | https://arkavena.com/sektor/villa |
+| Showroom/Retail | https://arkavena.com/sektor/showroom-retail |
 | **Hub /sektor** | https://arkavena.com/sektor |
 
-### 3b. Menunggu review kamu — belum merge (PR #6, 8 halaman)
-
-Bisa dicek lewat Vercel Preview, belum live di arkavena.com:
-
-| Sektor | Preview Link |
-|---|---|
-| Cafe | https://arkavena-website-git-content-ba-8175f2-ervans-projects-5bd9c2a5.vercel.app/sektor/cafe |
-| Restoran | https://arkavena-website-git-content-ba-8175f2-ervans-projects-5bd9c2a5.vercel.app/sektor/restoran |
-| Sekolah | https://arkavena-website-git-content-ba-8175f2-ervans-projects-5bd9c2a5.vercel.app/sektor/sekolah |
-| Masjid | https://arkavena-website-git-content-ba-8175f2-ervans-projects-5bd9c2a5.vercel.app/sektor/masjid |
-| Klinik | https://arkavena-website-git-content-ba-8175f2-ervans-projects-5bd9c2a5.vercel.app/sektor/klinik |
-| Hotel | https://arkavena-website-git-content-ba-8175f2-ervans-projects-5bd9c2a5.vercel.app/sektor/hotel |
-| Villa | https://arkavena-website-git-content-ba-8175f2-ervans-projects-5bd9c2a5.vercel.app/sektor/villa |
-| Showroom/Retail | https://arkavena-website-git-content-ba-8175f2-ervans-projects-5bd9c2a5.vercel.app/sektor/showroom-retail |
-| **PR #6** | https://github.com/ervanlight/arkavena-website/pull/6 |
-
-⚠️ 5 dari 8 halaman ini (cafe, restoran, klinik, hotel, showroom-retail) punya klaim "Arkavena tidak menyediakan X" yang butuh konfirmasi kamu secara terpisah sebelum di-publish — detail ada di PR #6.
+PR #6 (cafe/restoran/sekolah/masjid/klinik/hotel/villa/showroom-retail) sudah di-approve, merge, dan promote 2026-07-28. Revisi cafe/restoran (desain interior termasuk dapur kini dinyatakan aktif, pengadaan peralatan F&B tetap dikecualikan) sudah live.
 
 ## 4. Wilayah
 
@@ -147,24 +137,54 @@ Halaman lama, masih pakai komponen custom (bukan dari MDX manifest):
 | Syarat & Ketentuan | https://arkavena.com/syarat-ketentuan |
 | Terima Kasih | https://arkavena.com/terima-kasih |
 
-## 7. Panduan
+## 7. Panduan (23 halaman — 9 Bangun Rumah + 14 Renovasi Rumah, semua live)
 
-| Halaman | Link |
+### 7a. Cluster Bangun Rumah (Batch 07A)
+
+| Panduan | Link |
 |---|---|
+| Tahapan Bangun Rumah dari Nol (pillar) | https://arkavena.com/panduan/tahapan-bangun-rumah-dari-nol |
+| Biaya Bangun Rumah per Meter | https://arkavena.com/panduan/biaya-bangun-rumah-per-meter |
+| Checklist Persiapan Bangun Rumah | https://arkavena.com/panduan/checklist-persiapan-bangun-rumah |
+| Cara Memilih Kontraktor Rumah | https://arkavena.com/panduan/cara-memilih-kontraktor-rumah |
+| Kontrak Kerja Konstruksi Rumah | https://arkavena.com/panduan/kontrak-kerja-konstruksi-rumah |
+| Borongan vs Harian Bangun Rumah | https://arkavena.com/panduan/borongan-vs-harian-bangun-rumah |
+| Kontraktor vs Tukang | https://arkavena.com/panduan/kontraktor-vs-tukang |
+| Cara Menghitung Biaya Bangun Rumah | https://arkavena.com/panduan/cara-menghitung-biaya-bangun-rumah |
+| Cara Membaca RAB Rumah | https://arkavena.com/panduan/cara-membaca-rab-rumah |
+
+### 7b. Cluster Renovasi Rumah (Batch 08)
+
+| Panduan | Link |
+|---|---|
+| Renovasi Total vs Renovasi Sebagian (pillar) | https://arkavena.com/panduan/renovasi-total-vs-renovasi-sebagian |
+| Biaya Renovasi Rumah | https://arkavena.com/panduan/biaya-renovasi-rumah |
+| Cara Menghitung Anggaran Renovasi Rumah | https://arkavena.com/panduan/cara-menghitung-anggaran-renovasi-rumah |
+| Checklist Survei Sebelum Renovasi | https://arkavena.com/panduan/checklist-survei-sebelum-renovasi |
+| Renovasi Rumah Sambil Dihuni | https://arkavena.com/panduan/renovasi-rumah-sambil-dihuni |
+| Tanda Rumah Perlu Perkuatan Struktur ⚠️ | https://arkavena.com/panduan/tanda-rumah-perlu-perkuatan-struktur |
+| Renovasi Rumah Satu Jadi Dua Lantai ⚠️ | https://arkavena.com/panduan/renovasi-rumah-satu-jadi-dua-lantai |
+| Memperkuat Struktur Rumah Lama ⚠️ | https://arkavena.com/panduan/memperkuat-struktur-rumah-lama |
+| Renovasi Atap Bocor | https://arkavena.com/panduan/renovasi-atap-bocor |
+| Renovasi Dapur | https://arkavena.com/panduan/renovasi-dapur |
+| Renovasi Kamar Mandi | https://arkavena.com/panduan/renovasi-kamar-mandi |
+| Renovasi Fasad Rumah | https://arkavena.com/panduan/renovasi-fasad-rumah |
+| Risiko Pembengkakan Biaya Renovasi | https://arkavena.com/panduan/risiko-pembengkakan-biaya-renovasi |
+| Cara Memilih Kontraktor Renovasi | https://arkavena.com/panduan/cara-memilih-kontraktor-renovasi |
 | **Hub /panduan** | https://arkavena.com/panduan |
 
-Belum ada artikel panduan yang dipublish (menunggu Batch 07–11).
+⚠️ = artikel struktural dengan `reviewedBy: "ervanlight (owner)"` — technical review terpisah sudah kamu berikan 2026-07-28.
+
+Batch 07A (PR #11) dan Batch 08 (PR #12) sudah di-approve, merge, dan promote 2026-07-28.
 
 ---
 
 ## PR yang masih terbuka, menunggu review kamu
 
-| PR | Isi | Link |
-|---|---|---|
-| #6 | 8 halaman sektor P2 (cafe, restoran, dst) | https://github.com/ervanlight/arkavena-website/pull/6 |
+Tidak ada — semua PR yang sudah selesai (Batch 04A/04B/05/06A/07A/08, admin-auth fix) sudah merge dan promote per 2026-07-28.
 
 ## Ringkasan angka
 
-- 🟢 Live & indexable: 37 halaman (hub + korporat + layanan + 6 sektor P1)
+- 🟢 Live & indexable: 68 halaman (hub + korporat + 20 layanan + 14 sektor + 23 panduan)
 - 🟡 Live tapi noindex (bisa dicek langsung): 15 halaman (8 wilayah + 7 proyek)
-- 🔵 Belum live, di PR: 8 halaman (sektor P2)
+- 🔵 Belum live: 0 (semua PR yang sudah selesai sudah merge)

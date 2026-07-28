@@ -93,12 +93,15 @@ describe("Batch 06 — structured-data audit", () => {
 });
 
 describe("Batch 06 — sitemap reconciliation", () => {
-  it("sitemap predicate (published+indexable+ownerVerified) menghasilkan tepat 37 halaman dari content manifest", () => {
-    // Locked to the owner-approved first-launch scope (2026-07-28): corporate/
-    // hub pages + 20 services + 6 P1 sectors. If this changes, the launch
-    // decision changed too — regenerate migration/launch-manifest.csv and
+  it("sitemap predicate (published+indexable+ownerVerified) menghasilkan tepat 68 halaman dari content manifest", () => {
+    // Original scope (2026-07-28): corporate/hub pages + 20 services + 6 P1
+    // sectors = 37. Since then, owner approved and promoted Batch 04B (8 P2
+    // sectors), Batch 07A (9 Bangun Rumah guides), and Batch 08 (14 Renovasi
+    // Rumah guides) — all already deployed to production. This count tracks
+    // the content manifest's sitemap-eligible set, not a fixed launch-day
+    // number. If this changes, regenerate migration/launch-manifest.csv and
     // update this number deliberately, don't just bump it to make the test pass.
-    expect(launchApproved.length).toBe(37);
+    expect(launchApproved.length).toBe(68);
   });
 
   it("tidak ada draft, review, atau archived page dalam sitemap predicate", () => {
@@ -174,13 +177,12 @@ describe("Batch 06 — launch manifest audit", () => {
     }
   });
 
-  it("halaman Batch 04B (sektor P2, PR #6) tercatat excluded, bukan approved", () => {
+  it("halaman Batch 04B (sektor P2, PR #6, owner-approved dan merged 2026-07-28) tercatat approved, sudah live di production", () => {
     const p2Slugs = ["cafe", "restoran", "sekolah", "masjid", "klinik", "hotel", "villa", "showroom-retail"];
     for (const slug of p2Slugs) {
       const row = rows.find((r) => r[0] === `/sektor/${slug}`);
-      // These rows won't exist in main's manifest until PR #6 merges — if
-      // they do exist (e.g. a future rebase), they must never be approved.
-      if (row) expect(row[8]).toBe("excluded");
+      expect(row).toBeDefined();
+      expect(row?.[8]).toBe("approved");
     }
   });
 });

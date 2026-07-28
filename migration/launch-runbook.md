@@ -45,7 +45,7 @@ hardcoded in MDX or components — it flows through `siteConfig.whatsApp` →
 1. Check whether an old GA4 property already exists for the business before creating a new one (`.env.example` has a `NEXT_PUBLIC_GA4_ID` slot ready — nothing wired to render it yet; that's separate implementation work, not covered by this batch).
 2. If reusing an old property, update its web stream URL to `https://arkavena.com`.
 3. If new, create a property + web data stream for `https://arkavena.com`, copy the Measurement ID into Vercel env as `NEXT_PUBLIC_GA4_ID`.
-4. This is not implemented in code yet — flagging as deferred work, not a Batch 06 blocker, since the owner explicitly scoped this launch to the 37 already-live pages.
+4. This is not implemented in code yet — flagging as deferred work, not a Batch 06 blocker. (Note: the original 37-page launch scope has since grown to 68 sitemap-eligible pages as of 2026-07-28, via subsequent owner-approved promotions — Batch 04B, 07A, and 08 are all live in production. This deferral is unaffected by that growth.)
 
 ## Step 5 — rollback plan (reference, hopefully unused)
 

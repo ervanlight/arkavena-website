@@ -9,11 +9,17 @@
  * Indexability predicate mirrors src/lib/content/sitemap.ts exactly:
  *   status === "published" && isIndexable === true && ownerVerified === true
  *
- * Launch scope (owner decision, 2026-07-28): the first launch is the 37
- * pages that are published+indexable+ownerVerified right now — corporate/hub
- * pages, all 20 services, and the 6 P1 sectors. Batch 05's location/project
- * drafts stay noindex regardless of this manifest. Batch 04B's 8 P2 sector
- * pages (PR #6, still open) are explicitly excluded from this launch.
+ * Launch scope (owner decision, 2026-07-28, superseded incrementally by
+ * subsequent owner approvals): the original first launch was the 37 pages
+ * that were published+indexable+ownerVerified at the time — corporate/hub
+ * pages, all 20 services, and the 6 P1 sectors. Since then the owner has
+ * separately approved and promoted Batch 04B (8 P2 sectors), Batch 07A (9
+ * Bangun Rumah guides), and Batch 08 (14 Renovasi Rumah guides), all of
+ * which are already live in production. This script always reflects the
+ * *current* published+indexable+ownerVerified set, not the original 37 —
+ * "approved" here means "published and owner-verified right now", not "was
+ * part of the original 2026-07-28 launch batch". Batch 05's location/project
+ * drafts stay noindex regardless of this manifest.
  */
 
 import fs from "node:fs";
@@ -86,9 +92,9 @@ function main() {
     let notes = "";
     if (item.status === "published" && item.ownerVerified && indexFlag && inSitemap) {
       launchDecision = "approved";
-      notes = "First launch scope (owner decision 2026-07-28).";
+      notes = "Published and owner-verified — live in production.";
     } else if (item.type === "sector" && item.status === "review") {
-      notes = "Batch 04B (PR #6) — explicitly excluded from first launch per owner decision, PR stays open pending separate review.";
+      notes = "Sector still in review — excluded from launch until published and owner-verified.";
     } else if (item.type === "location" || item.type === "project") {
       notes = "Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope.";
     } else if (item.slug.startsWith("contoh-")) {
