@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T02:51:35.693Z",
+  "generatedAt": "2026-07-28T05:33:51.665Z",
   "nodes": {
     "page-cara-kerja": {
       "id": "page-cara-kerja",
@@ -519,7 +519,15 @@
         "svc-penyusunan-rab"
       ],
       "inbound": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-checklist-persiapan-bangun-rumah",
         "guide-contoh-panduan",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-kontraktor-vs-tukang",
+        "guide-tahapan-bangun-rumah-dari-nol",
         "loc-contoh-wilayah",
         "loc-sidoarjo",
         "project-hunian-lamongan-2022",
@@ -634,7 +642,15 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-checklist-persiapan-bangun-rumah",
         "guide-contoh-panduan",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-kontraktor-vs-tukang",
+        "guide-tahapan-bangun-rumah-dari-nol",
         "loc-contoh-wilayah",
         "loc-gresik",
         "loc-lamongan",
@@ -806,6 +822,14 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-checklist-persiapan-bangun-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-kontraktor-vs-tukang",
+        "guide-tahapan-bangun-rumah-dari-nol",
         "loc-lamongan",
         "loc-malang",
         "loc-mojokerto",
@@ -1716,6 +1740,14 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-checklist-persiapan-bangun-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-kontraktor-vs-tukang",
+        "guide-tahapan-bangun-rumah-dari-nol",
         "loc-gresik",
         "loc-lamongan",
         "loc-malang",
@@ -2109,6 +2141,197 @@
         }
       ]
     },
+    "guide-borongan-vs-harian-bangun-rumah": {
+      "id": "guide-borongan-vs-harian-bangun-rumah",
+      "route": "/panduan/borongan-vs-harian-bangun-rumah",
+      "type": "guide",
+      "outbound": [
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-kontraktor-vs-tukang",
+        "sec-rumah-tinggal",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-rumah",
+        "svc-design-and-build"
+      ],
+      "inbound": [
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-kontraktor-vs-tukang",
+        "guide-tahapan-bangun-rumah-dari-nol"
+      ],
+      "related": [
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 40
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 28
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 20
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 8
+        }
+      ]
+    },
+    "guide-cara-membaca-rab-rumah": {
+      "id": "guide-cara-membaca-rab-rumah",
+      "route": "/panduan/cara-membaca-rab-rumah",
+      "type": "guide",
+      "outbound": [
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "sec-rumah-tinggal",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-rumah",
+        "svc-design-and-build"
+      ],
+      "inbound": [
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-tahapan-bangun-rumah-dari-nol"
+      ],
+      "related": [
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 40
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 28
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 20
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 8
+        }
+      ]
+    },
+    "guide-cara-memilih-kontraktor-rumah": {
+      "id": "guide-cara-memilih-kontraktor-rumah",
+      "route": "/panduan/cara-memilih-kontraktor-rumah",
+      "type": "guide",
+      "outbound": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-checklist-persiapan-bangun-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-kontraktor-vs-tukang",
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "sec-rumah-tinggal",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-rumah",
+        "svc-design-and-build"
+      ],
+      "inbound": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-checklist-persiapan-bangun-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-kontraktor-vs-tukang",
+        "guide-tahapan-bangun-rumah-dari-nol"
+      ],
+      "related": [
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 40
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 28
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 20
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 8
+        }
+      ]
+    },
+    "guide-cara-menghitung-biaya-bangun-rumah": {
+      "id": "guide-cara-menghitung-biaya-bangun-rumah",
+      "route": "/panduan/cara-menghitung-biaya-bangun-rumah",
+      "type": "guide",
+      "outbound": [
+        "guide-cara-membaca-rab-rumah",
+        "guide-checklist-persiapan-bangun-rumah",
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "sec-rumah-tinggal",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-rumah",
+        "svc-design-and-build"
+      ],
+      "inbound": [
+        "guide-cara-membaca-rab-rumah",
+        "guide-checklist-persiapan-bangun-rumah",
+        "guide-tahapan-bangun-rumah-dari-nol"
+      ],
+      "related": [
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 40
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 28
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 20
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 8
+        }
+      ]
+    },
+    "guide-checklist-persiapan-bangun-rumah": {
+      "id": "guide-checklist-persiapan-bangun-rumah",
+      "route": "/panduan/checklist-persiapan-bangun-rumah",
+      "type": "guide",
+      "outbound": [
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "sec-rumah-tinggal",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-rumah",
+        "svc-design-and-build"
+      ],
+      "inbound": [
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-tahapan-bangun-rumah-dari-nol"
+      ],
+      "related": [
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 40
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 28
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 20
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 8
+        }
+      ]
+    },
     "guide-contoh-panduan": {
       "id": "guide-contoh-panduan",
       "route": "/panduan/contoh-panduan",
@@ -2136,6 +2359,125 @@
         },
         {
           "id": "svc-building-maintenance",
+          "score": 8
+        }
+      ]
+    },
+    "guide-kontrak-kerja-konstruksi-rumah": {
+      "id": "guide-kontrak-kerja-konstruksi-rumah",
+      "route": "/panduan/kontrak-kerja-konstruksi-rumah",
+      "type": "guide",
+      "outbound": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "sec-rumah-tinggal",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-rumah",
+        "svc-design-and-build"
+      ],
+      "inbound": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-checklist-persiapan-bangun-rumah",
+        "guide-tahapan-bangun-rumah-dari-nol"
+      ],
+      "related": [
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 40
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 28
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 20
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 8
+        }
+      ]
+    },
+    "guide-kontraktor-vs-tukang": {
+      "id": "guide-kontraktor-vs-tukang",
+      "route": "/panduan/kontraktor-vs-tukang",
+      "type": "guide",
+      "outbound": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
+        "sec-rumah-tinggal",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-rumah",
+        "svc-design-and-build"
+      ],
+      "inbound": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-tahapan-bangun-rumah-dari-nol"
+      ],
+      "related": [
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 40
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 28
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 20
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 8
+        }
+      ]
+    },
+    "guide-tahapan-bangun-rumah-dari-nol": {
+      "id": "guide-tahapan-bangun-rumah-dari-nol",
+      "route": "/panduan/tahapan-bangun-rumah-dari-nol",
+      "type": "guide",
+      "outbound": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-checklist-persiapan-bangun-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-kontraktor-vs-tukang",
+        "sec-rumah-tinggal",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-rumah",
+        "svc-design-and-build"
+      ],
+      "inbound": [
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-checklist-persiapan-bangun-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah"
+      ],
+      "related": [
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 40
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 28
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 20
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
           "score": 8
         }
       ]

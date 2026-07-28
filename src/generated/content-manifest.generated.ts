@@ -6044,6 +6044,598 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "guide-borongan-vs-harian-bangun-rumah",
+    "type": "guide",
+    "status": "review",
+    "title": "Borongan vs Harian Bangun Rumah: Perbandingan Model Kerja",
+    "slug": "borongan-vs-harian-bangun-rumah",
+    "description": "Perbandingan model kerja borongan dan harian untuk proyek bangun rumah — kepastian ruang lingkup, visibilitas biaya, keterlibatan owner, dan penanganan perubahan.",
+    "excerpt": "Perbandingan dua model kerja umum dalam proyek bangun rumah, tanpa menyatakan salah satu selalu lebih baik.",
+    "seoTitle": "Borongan vs Harian Bangun Rumah | Arkavena",
+    "primaryKeyword": "borongan vs harian bangun rumah",
+    "secondaryKeywords": [
+      "sistem borongan bangun rumah",
+      "sistem harian bangun rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "kontrak"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Borongan atau Harian? Bandingkan Berdasarkan Kebutuhan Proyek Anda",
+      "summary": "Perbandingan model kerja borongan dan harian dari sisi kepastian ruang lingkup, biaya, dan keterlibatan owner.",
+      "image": "/images/guides/borongan-vs-harian-bangun-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual perbandingan dua model kerja konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-kontraktor-vs-tukang",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai persiapan pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah sistem borongan selalu lebih murah daripada harian?",
+        "answer": "Tidak selalu. Biaya akhir bergantung pada ruang lingkup, efisiensi pelaksanaan, dan seberapa banyak perubahan terjadi selama proyek — bukan semata-mata jenis sistem yang dipilih."
+      },
+      {
+        "question": "Apakah sistem harian berarti tanpa kontrak?",
+        "answer": "Tidak seharusnya. Sistem harian tetap sebaiknya dituangkan dalam kesepakatan tertulis mengenai tarif, jam kerja, dan tanggung jawab, meskipun strukturnya berbeda dari kontrak borongan."
+      },
+      {
+        "question": "Bisakah kedua sistem digabungkan dalam satu proyek?",
+        "answer": "Bisa. Sebagian proyek menggunakan borongan untuk pekerjaan utama dan harian untuk pekerjaan tambahan atau perbaikan kecil, tergantung kesepakatan dengan pelaksana."
+      },
+      {
+        "question": "Sistem mana yang membutuhkan pengawasan lebih intensif dari owner?",
+        "answer": "Secara umum, sistem harian cenderung membutuhkan keterlibatan owner yang lebih intensif dalam mengarahkan pekerjaan harian, dibandingkan sistem borongan yang menyerahkan pengelolaan ruang lingkup kepada pelaksana."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "comparison",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/borongan-vs-harian-bangun-rumah",
+    "sourcePath": "content/guides/borongan-vs-harian-bangun-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Borongan vs Harian Bangun Rumah: Perbandingan Model Kerja",
+        "path": "/panduan/borongan-vs-harian-bangun-rumah"
+      }
+    ],
+    "wordCount": 422,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/kontraktor-vs-tukang",
+      "/panduan/kontrak-kerja-konstruksi-rumah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-cara-membaca-rab-rumah",
+    "type": "guide",
+    "status": "review",
+    "title": "Cara Membaca RAB Rumah yang Diberikan Kontraktor",
+    "slug": "cara-membaca-rab-rumah",
+    "description": "Cara membaca dan memahami RAB (Rencana Anggaran Biaya) rumah dari kontraktor — item, volume, satuan, harga satuan, subtotal, asumsi, dan exclusion.",
+    "excerpt": "Panduan membaca RAB yang Anda terima dari kontraktor, termasuk pertanyaan yang perlu diajukan sebelum menyetujuinya.",
+    "seoTitle": "Cara Membaca RAB Rumah | Arkavena",
+    "primaryKeyword": "cara membaca RAB rumah",
+    "secondaryKeywords": [
+      "memahami RAB rumah",
+      "cara baca rencana anggaran biaya rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "biaya"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Cara Membaca RAB Rumah Sebelum Menyetujuinya",
+      "summary": "Pahami item, volume, satuan, harga satuan, dan asumsi dalam RAB yang Anda terima, serta pertanyaan yang perlu diajukan sebelum menyetujuinya.",
+      "image": "/images/guides/cara-membaca-rab-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual dokumen rencana anggaran biaya"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-tahapan-bangun-rumah-dari-nol"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai RAB proyek rumah saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah RAB dari kontraktor berbeda-beda formatnya?",
+        "answer": "Ya, format dapat bervariasi antar kontraktor, tetapi elemen dasarnya — item, volume, satuan, harga satuan, dan subtotal — umumnya serupa."
+      },
+      {
+        "question": "Apa yang harus saya lakukan jika ada item yang tidak saya pahami?",
+        "answer": "Tanyakan langsung kepada kontraktor. RAB yang baik seharusnya dapat dijelaskan item per item, termasuk asumsi dan spesifikasi yang mendasarinya."
+      },
+      {
+        "question": "Apakah RAB yang lebih rinci selalu lebih baik?",
+        "answer": "RAB yang rinci membantu Anda memahami ke mana anggaran dialokasikan, tetapi kejelasan asumsi dan exclusion sama pentingnya dengan tingkat kerincian itu sendiri."
+      },
+      {
+        "question": "Apa bedanya artikel ini dengan artikel komponen RAB rumah?",
+        "answer": "Artikel ini berfokus pada proses membaca dan mengajukan pertanyaan terhadap RAB yang sudah Anda terima. Anatomi lengkap struktur dokumen RAB dibahas pada panduan terpisah dalam cluster ini."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/cara-membaca-rab-rumah",
+    "sourcePath": "content/guides/cara-membaca-rab-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Cara Membaca RAB Rumah yang Diberikan Kontraktor",
+        "path": "/panduan/cara-membaca-rab-rumah"
+      }
+    ],
+    "wordCount": 506,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/cara-menghitung-biaya-bangun-rumah",
+      "/panduan/kontrak-kerja-konstruksi-rumah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-cara-memilih-kontraktor-rumah",
+    "type": "guide",
+    "status": "review",
+    "title": "Cara Memilih Kontraktor Rumah secara Terukur",
+    "slug": "cara-memilih-kontraktor-rumah",
+    "description": "Panduan memilih kontraktor rumah berdasarkan ruang lingkup, dokumen penawaran, metode kerja, komunikasi, pengendalian biaya, mutu, jadwal, dan risiko.",
+    "excerpt": "Kriteria praktis untuk mengevaluasi calon kontraktor tanpa hanya membandingkan harga penawaran.",
+    "seoTitle": "Cara Memilih Kontraktor Rumah | Arkavena",
+    "primaryKeyword": "cara memilih kontraktor rumah",
+    "secondaryKeywords": [
+      "memilih jasa kontraktor rumah",
+      "kriteria kontraktor rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "kontrak",
+      "risiko"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Pilih Kontraktor Berdasarkan Sistem Kerja, Bukan Harga Saja",
+      "summary": "Evaluasi ruang lingkup, dokumen, metode, komunikasi, dan mekanisme pengendalian sebelum membuat keputusan.",
+      "image": "/images/guides/cara-memilih-kontraktor-rumah/hero.webp",
+      "imageAlt": "Ilustrasi evaluasi dokumen dan ruang lingkup kontraktor rumah"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-kontraktor-vs-tukang",
+        "guide-checklist-persiapan-bangun-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai persiapan pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah harga penawaran terendah selalu pilihan terbaik?",
+        "answer": "Tidak selalu. Penawaran terendah yang tidak menjelaskan ruang lingkup dan exclusion secara jelas dapat menyebabkan biaya tambahan di kemudian hari. Bandingkan ruang lingkup yang setara, bukan hanya angka akhir."
+      },
+      {
+        "question": "Apakah saya perlu meminta lebih dari satu penawaran?",
+        "answer": "Membandingkan beberapa penawaran dapat membantu Anda memahami variasi ruang lingkup dan pendekatan, selama Anda memastikan ruang lingkup yang dibandingkan setara."
+      },
+      {
+        "question": "Bagaimana cara memeriksa referensi proyek sebelumnya?",
+        "answer": "Anda dapat meminta contoh proyek dan, jika diizinkan pemilik proyek sebelumnya, referensi kontak. Tidak semua kontraktor dapat membagikan detail proyek klien tanpa izin."
+      },
+      {
+        "question": "Apa bedanya memilih kontraktor dengan memilih tukang harian?",
+        "answer": "Keduanya dibahas lebih detail pada panduan Kontraktor vs Tukang — secara umum, kontraktor menawarkan sistem kerja dan tanggung jawab yang lebih terstruktur, sementara tukang harian menawarkan fleksibilitas dengan pengelolaan yang lebih banyak berada di tangan pemilik proyek."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/cara-memilih-kontraktor-rumah",
+    "sourcePath": "content/guides/cara-memilih-kontraktor-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Cara Memilih Kontraktor Rumah secara Terukur",
+        "path": "/panduan/cara-memilih-kontraktor-rumah"
+      }
+    ],
+    "wordCount": 415,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/kontraktor-vs-tukang",
+      "/panduan/borongan-vs-harian-bangun-rumah",
+      "/panduan/kontrak-kerja-konstruksi-rumah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-cara-menghitung-biaya-bangun-rumah",
+    "type": "guide",
+    "status": "review",
+    "title": "Cara Menghitung Biaya Bangun Rumah: Metode dan Komponen Perhitungan",
+    "slug": "cara-menghitung-biaya-bangun-rumah",
+    "description": "Metode menghitung biaya bangun rumah — ruang lingkup, work breakdown, quantity, unit rate, preliminaries, dan contingency. Menjelaskan metode, bukan harga pasar.",
+    "excerpt": "Metode sistematis menyusun estimasi biaya bangun rumah, disertai variabel yang perlu Anda isi sendiri sesuai data proyek.",
+    "seoTitle": "Cara Menghitung Biaya Bangun Rumah | Arkavena",
+    "primaryKeyword": "cara menghitung biaya bangun rumah",
+    "secondaryKeywords": [
+      "metode hitung biaya rumah",
+      "menyusun estimasi biaya rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "biaya",
+      "perencanaan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Metode Menghitung Biaya Bangun Rumah, Bukan Angka Pasar Tunggal",
+      "summary": "Pelajari komponen dan langkah menyusun estimasi biaya, dengan variabel yang Anda isi sendiri berdasarkan data proyek Anda.",
+      "image": "/images/guides/cara-menghitung-biaya-bangun-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual metode perhitungan biaya konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-cara-membaca-rab-rumah",
+        "guide-checklist-persiapan-bangun-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Mengapa panduan ini tidak mencantumkan harga per meter?",
+        "answer": "Harga bervariasi menurut wilayah, spesifikasi, dan waktu, serta memerlukan sumber data yang terverifikasi dan bertanggal. Panduan ini menjelaskan metode perhitungan yang dapat Anda terapkan dengan data harga dari wilayah dan pemasok Anda sendiri, atau dari penawaran kontraktor."
+      },
+      {
+        "question": "Dari mana saya bisa mendapatkan angka harga satuan yang valid?",
+        "answer": "Sumber yang valid termasuk penawaran resmi dari kontraktor atau pemasok, dengan tanggal dan spesifikasi yang jelas. Hindari menggunakan angka dari artikel lama atau sumber tanpa tanggal dan konteks."
+      },
+      {
+        "question": "Apakah estimasi awal ini bisa dijadikan acuan final?",
+        "answer": "Tidak. Estimasi awal berguna untuk perencanaan anggaran, tetapi angka final baru dapat ditentukan setelah desain, spesifikasi, dan penawaran kontraktor tersedia."
+      },
+      {
+        "question": "Apa itu contingency dan mengapa perlu dimasukkan?",
+        "answer": "Contingency adalah alokasi anggaran untuk kemungkinan biaya tak terduga yang wajar terjadi dalam proyek konstruksi. Besarannya bervariasi tergantung tingkat kepastian ruang lingkup dan desain proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/cara-menghitung-biaya-bangun-rumah",
+    "sourcePath": "content/guides/cara-menghitung-biaya-bangun-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Cara Menghitung Biaya Bangun Rumah: Metode dan Komponen Perhitungan",
+        "path": "/panduan/cara-menghitung-biaya-bangun-rumah"
+      }
+    ],
+    "wordCount": 664,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/cara-membaca-rab-rumah",
+      "/panduan/checklist-persiapan-bangun-rumah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-checklist-persiapan-bangun-rumah",
+    "type": "guide",
+    "status": "review",
+    "title": "Checklist Persiapan Bangun Rumah Sebelum Konstruksi Dimulai",
+    "slug": "checklist-persiapan-bangun-rumah",
+    "description": "Checklist praktis untuk memastikan kesiapan sebelum memulai proyek bangun rumah — mencakup tujuan, lahan, desain, anggaran, dan dokumen.",
+    "excerpt": "Daftar periksa kesiapan sebelum konstruksi dimulai, dari kejelasan tujuan hingga dokumen kontrak.",
+    "seoTitle": "Checklist Persiapan Bangun Rumah | Arkavena",
+    "primaryKeyword": "checklist persiapan bangun rumah",
+    "secondaryKeywords": [
+      "persiapan sebelum bangun rumah",
+      "kesiapan proyek bangun rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "perencanaan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Pastikan Kesiapan Ini Sebelum Konstruksi Rumah Dimulai",
+      "summary": "Checklist praktis untuk memeriksa kesiapan tujuan, lahan, desain, anggaran, dan dokumen sebelum tahap teknis dimulai.",
+      "image": "/images/guides/checklist-persiapan-bangun-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual daftar periksa persiapan proyek bangun rumah"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai persiapan pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah checklist ini menggantikan konsultasi dengan kontraktor atau arsitek?",
+        "answer": "Tidak. Checklist ini membantu Anda mempersiapkan diri sebelum konsultasi, bukan menggantikan penilaian profesional terhadap lahan dan desain Anda."
+      },
+      {
+        "question": "Apakah semua item dalam checklist harus selesai sebelum menghubungi kontraktor?",
+        "answer": "Tidak selalu. Sebagian item, seperti desain detail, dapat dikembangkan bersama kontraktor atau arsitek. Namun semakin banyak yang sudah jelas, semakin lancar proses konsultasi awal."
+      },
+      {
+        "question": "Apa yang terjadi jika saya mulai konstruksi tanpa checklist ini?",
+        "answer": "Kekurangan persiapan pada tahap awal — misalnya kebutuhan ruang yang belum jelas atau anggaran tanpa ruang lingkup — sering menjadi sumber perubahan dan penundaan di tengah proyek."
+      },
+      {
+        "question": "Apakah checklist ini berlaku untuk semua skala rumah?",
+        "answer": "Prinsip umumnya berlaku untuk berbagai skala, tetapi detail kebutuhan dapat berbeda antara rumah sederhana dan rumah dengan kompleksitas desain tinggi."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "checklist",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/checklist-persiapan-bangun-rumah",
+    "sourcePath": "content/guides/checklist-persiapan-bangun-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Checklist Persiapan Bangun Rumah Sebelum Konstruksi Dimulai",
+        "path": "/panduan/checklist-persiapan-bangun-rumah"
+      }
+    ],
+    "wordCount": 454,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/cara-memilih-kontraktor-rumah",
+      "/panduan/cara-menghitung-biaya-bangun-rumah",
+      "/panduan/tahapan-bangun-rumah-dari-nol"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "guide-contoh-panduan",
     "type": "guide",
     "status": "draft",
@@ -6137,6 +6729,373 @@ export const contentManifest: ContentItem[] = [
     "readingMinutes": 1,
     "internalLinks": [
       "/cara-kerja"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-kontrak-kerja-konstruksi-rumah",
+    "type": "guide",
+    "status": "review",
+    "title": "Elemen Penting Kontrak Kerja Konstruksi Rumah yang Perlu Diperiksa",
+    "slug": "kontrak-kerja-konstruksi-rumah",
+    "description": "Elemen-elemen yang perlu diperiksa dalam kontrak kerja konstruksi rumah — ruang lingkup, harga, jadwal, perubahan pekerjaan, dan penyelesaian sengketa. Bukan nasihat hukum.",
+    "excerpt": "Daftar elemen kontrak yang perlu diperiksa sebelum menandatangani kesepakatan kerja konstruksi rumah.",
+    "seoTitle": "Kontrak Kerja Konstruksi Rumah | Arkavena",
+    "primaryKeyword": "kontrak kerja konstruksi rumah",
+    "secondaryKeywords": [
+      "elemen kontrak bangun rumah",
+      "isi kontrak kontraktor rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "kontrak",
+      "risiko"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Elemen yang Perlu Diperiksa dalam Kontrak Kerja Konstruksi Rumah",
+      "summary": "Daftar elemen kontrak yang umum ditemukan pada proyek bangun rumah — bukan template hukum atau nasihat hukum untuk situasi Anda.",
+      "image": "/images/guides/kontrak-kerja-konstruksi-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual dokumen kontrak kerja konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai persiapan pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah panduan ini bisa dijadikan template kontrak?",
+        "answer": "Tidak. Panduan ini menjelaskan elemen yang umum perlu diperiksa, bukan template hukum yang siap dipakai. Setiap kontrak perlu disesuaikan dengan proyek Anda dan sebaiknya ditinjau oleh pihak yang berkompeten."
+      },
+      {
+        "question": "Apakah Arkavena menyediakan nasihat hukum untuk kontrak?",
+        "answer": "Tidak. Arkavena dapat menjelaskan elemen operasional kontrak konstruksi, tetapi nasihat hukum untuk kontrak spesifik berada di luar cakupan layanan ini."
+      },
+      {
+        "question": "Apa yang terjadi jika kontrak tidak mencantumkan mekanisme perubahan pekerjaan?",
+        "answer": "Tanpa mekanisme change order yang jelas, perubahan pekerjaan di lapangan berisiko menimbulkan perselisihan mengenai biaya dan tanggung jawab. Ini adalah salah satu elemen yang paling penting untuk diperiksa sebelum tanda tangan."
+      },
+      {
+        "question": "Siapa yang sebaiknya meninjau kontrak sebelum ditandatangani?",
+        "answer": "Untuk proyek dengan nilai signifikan atau kompleksitas tinggi, pertimbangkan peninjauan oleh penasihat hukum atau pihak yang memahami kontrak konstruksi, di luar pihak yang menyusun kontrak tersebut."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/kontrak-kerja-konstruksi-rumah",
+    "sourcePath": "content/guides/kontrak-kerja-konstruksi-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Elemen Penting Kontrak Kerja Konstruksi Rumah yang Perlu Diperiksa",
+        "path": "/panduan/kontrak-kerja-konstruksi-rumah"
+      }
+    ],
+    "wordCount": 479,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/cara-memilih-kontraktor-rumah",
+      "/panduan/borongan-vs-harian-bangun-rumah",
+      "/panduan/cara-membaca-rab-rumah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-kontraktor-vs-tukang",
+    "type": "guide",
+    "status": "review",
+    "title": "Kontraktor vs Tukang: Memahami Perbedaan untuk Proyek Bangun Rumah",
+    "slug": "kontraktor-vs-tukang",
+    "description": "Perbedaan kontraktor dan tukang dari sisi organisasi kerja, tanggung jawab, dokumentasi, dan alokasi risiko dalam proyek bangun rumah.",
+    "excerpt": "Memahami perbedaan kontraktor dan tukang agar dapat memilih sesuai kompleksitas dan kebutuhan proyek Anda.",
+    "seoTitle": "Kontraktor vs Tukang | Arkavena",
+    "primaryKeyword": "kontraktor vs tukang",
+    "secondaryKeywords": [
+      "perbedaan kontraktor dan tukang",
+      "pilih kontraktor atau tukang"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "kontrak"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Kontraktor atau Tukang? Pahami Perbedaannya Sebelum Memilih",
+      "summary": "Perbedaan organisasi kerja, tanggung jawab, dan alokasi risiko antara kontraktor dan tukang.",
+      "image": "/images/guides/kontraktor-vs-tukang/hero.webp",
+      "imageAlt": "Ilustrasi konseptual perbedaan struktur kerja kontraktor dan tukang"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-memilih-kontraktor-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai persiapan pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah tukang tidak bisa menangani proyek bangun rumah?",
+        "answer": "Tukang dapat menangani berbagai pekerjaan konstruksi, termasuk proyek rumah berskala kecil. Perbedaannya lebih pada struktur organisasi, dokumentasi, dan tanggung jawab yang biasanya disediakan kontraktor untuk proyek yang lebih kompleks."
+      },
+      {
+        "question": "Apakah kontraktor selalu lebih mahal daripada tukang?",
+        "answer": "Tidak selalu dapat dibandingkan secara langsung karena cakupan tanggung jawab dan layanan biasanya berbeda. Kontraktor umumnya menyertakan manajemen, dokumentasi, dan koordinasi yang tidak selalu termasuk dalam kerja tukang langsung."
+      },
+      {
+        "question": "Bagaimana jika saya hanya memerlukan renovasi kecil?",
+        "answer": "Untuk pekerjaan kecil dengan ruang lingkup sederhana, tukang dengan pengalaman yang sesuai dapat menjadi pilihan yang wajar, tergantung kompleksitas dan kemampuan Anda mengawasi pekerjaan."
+      },
+      {
+        "question": "Apakah artikel ini menyatakan tukang kurang terampil?",
+        "answer": "Tidak. Perbandingan ini berfokus pada struktur organisasi kerja, tanggung jawab, dan dokumentasi — bukan tingkat keterampilan individu, yang dapat bervariasi pada kedua jenis pelaksana."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "comparison",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/kontraktor-vs-tukang",
+    "sourcePath": "content/guides/kontraktor-vs-tukang.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Kontraktor vs Tukang: Memahami Perbedaan untuk Proyek Bangun Rumah",
+        "path": "/panduan/kontraktor-vs-tukang"
+      }
+    ],
+    "wordCount": 403,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/borongan-vs-harian-bangun-rumah",
+      "/panduan/cara-memilih-kontraktor-rumah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-tahapan-bangun-rumah-dari-nol",
+    "type": "guide",
+    "status": "review",
+    "title": "Tahapan Bangun Rumah dari Nol: Panduan Lengkap dari Perencanaan hingga Serah Terima",
+    "slug": "tahapan-bangun-rumah-dari-nol",
+    "description": "Panduan lengkap tahapan membangun rumah dari nol — mulai dari menentukan kebutuhan, data lahan, desain, estimasi biaya, kontrak, pelaksanaan, hingga serah terima.",
+    "excerpt": "Ringkasan seluruh tahapan proyek bangun rumah dari nol, dari perencanaan awal hingga rumah selesai dan diserahterimakan.",
+    "seoTitle": "Tahapan Bangun Rumah dari Nol | Panduan Arkavena",
+    "primaryKeyword": "tahapan bangun rumah dari nol",
+    "secondaryKeywords": [
+      "proses membangun rumah",
+      "urutan tahapan bangun rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "perencanaan",
+      "pelaksanaan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Tahapan Bangun Rumah dari Nol, dari Perencanaan hingga Serah Terima",
+      "summary": "Peta lengkap proses membangun rumah — apa yang perlu diputuskan di setiap tahap, dan panduan mana yang relevan untuk masing-masing tahap tersebut.",
+      "image": "/images/guides/tahapan-bangun-rumah-dari-nol/hero.webp",
+      "imageAlt": "Ilustrasi konseptual tahapan proyek konstruksi rumah dari perencanaan hingga serah terima"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-checklist-persiapan-bangun-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-kontraktor-vs-tukang",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-cara-membaca-rab-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan rumah dari awal."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Berapa lama proses bangun rumah dari nol?",
+        "answer": "Durasi bergantung pada luas bangunan, kompleksitas desain, ketersediaan dana, kecepatan proses persetujuan, dan kondisi lapangan — tidak ada durasi universal yang berlaku untuk semua proyek. Panduan jadwal pembangunan akan membahas faktor-faktor ini lebih detail."
+      },
+      {
+        "question": "Apakah desain harus selesai sebelum menghubungi kontraktor?",
+        "answer": "Tidak selalu. Sebagian pemilik rumah menghubungi kontraktor setelah desain selesai, sebagian lain menggunakan layanan design and build yang menggabungkan desain dan pelaksanaan dalam satu alur kerja."
+      },
+      {
+        "question": "Apakah tahapan ini berlaku untuk renovasi juga?",
+        "answer": "Sebagian prinsip serupa, tetapi renovasi memiliki tahapan tambahan terkait kondisi eksisting bangunan yang tidak dibahas mendalam dalam panduan ini."
+      },
+      {
+        "question": "Dari mana sebaiknya memulai jika belum tahu harus mulai dari mana?",
+        "answer": "Checklist persiapan bangun rumah adalah titik awal yang baik untuk memetakan kebutuhan, data, dan keputusan yang perlu disiapkan sebelum masuk ke tahap teknis."
+      },
+      {
+        "question": "Apakah panduan ini menjelaskan biaya secara spesifik?",
+        "answer": "Panduan ini menjelaskan tahapan proses, bukan angka biaya. Metode menghitung biaya dan cara membaca RAB dibahas di panduan terpisah dalam cluster ini."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "pillar",
+      "pillar": null,
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/tahapan-bangun-rumah-dari-nol",
+    "sourcePath": "content/guides/tahapan-bangun-rumah-dari-nol.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Tahapan Bangun Rumah dari Nol: Panduan Lengkap dari Perencanaan hingga Serah Terima",
+        "path": "/panduan/tahapan-bangun-rumah-dari-nol"
+      }
+    ],
+    "wordCount": 788,
+    "readingMinutes": 4,
+    "internalLinks": [
+      "/panduan/checklist-persiapan-bangun-rumah",
+      "/panduan/cara-menghitung-biaya-bangun-rumah",
+      "/panduan/cara-membaca-rab-rumah",
+      "/panduan/cara-memilih-kontraktor-rumah",
+      "/panduan/kontraktor-vs-tukang",
+      "/panduan/borongan-vs-harian-bangun-rumah",
+      "/panduan/kontrak-kerja-konstruksi-rumah",
+      "/layanan/bangun-rumah"
     ],
     "isIndexable": false,
     "isFollowable": true
