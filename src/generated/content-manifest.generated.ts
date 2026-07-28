@@ -3887,6 +3887,148 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "sec-cafe",
+    "type": "sector",
+    "status": "review",
+    "title": "Kontraktor Cafe dengan Koordinasi Fit-Out dan Utilitas Dapur",
+    "slug": "cafe",
+    "description": "Layanan konstruksi dan pengendalian proyek cafe Arkavena dengan perhatian pada fit-out, utilitas dapur ringan, ventilasi, dan pengalaman pengunjung.",
+    "excerpt": "Pendekatan pembangunan dan fit-out cafe yang mempertimbangkan alur pengunjung, area kerja staf, dan koordinasi utilitas dapur bersama spesialis peralatan.",
+    "seoTitle": "Kontraktor Cafe | Arkavena",
+    "primaryKeyword": "kontraktor cafe",
+    "secondaryKeywords": [
+      "jasa bangun cafe",
+      "kontraktor interior cafe"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "finishing"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Cafe",
+      "heading": "Cafe yang Nyaman untuk Pengunjung, Efisien untuk Operasional",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek pembangunan atau fit-out cafe, dikoordinasikan dengan kebutuhan utilitas dapur bersama spesialis peralatan Anda.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau fit-out cafe."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Interior Fit-Out",
+        "href": "/layanan/interior-fit-out",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menyediakan desain dapur komersial (kitchen consultant)?",
+        "answer": "Tidak. Desain tata letak peralatan dapur komersial, spesifikasi exhaust hood, dan kebutuhan teknis peralatan F&B adalah keahlian spesialis di luar cakupan Arkavena. Arkavena dapat mengoordinasikan pekerjaan sipil, utilitas dasar, dan ventilasi dengan spesialis atau vendor peralatan yang Anda tunjuk."
+      },
+      {
+        "question": "Apakah pengadaan peralatan dapur (mesin kopi, kulkas, oven) termasuk dalam layanan ini?",
+        "answer": "Tidak. Pengadaan peralatan dapur berada di luar cakupan Arkavena dan biasanya dilakukan langsung oleh pemilik usaha atau vendor peralatan terkait."
+      },
+      {
+        "question": "Apakah Arkavena membantu mengurus izin usaha F&B atau sertifikasi halal?",
+        "answer": "Tidak. Pengurusan izin usaha dan sertifikasi berada di luar kewenangan Arkavena dan bergantung pada otoritas terkait."
+      },
+      {
+        "question": "Bagaimana kebutuhan ventilasi dapur ditentukan?",
+        "answer": "Kebutuhan ventilasi dan exhaust perlu dikoordinasikan dengan spesifikasi peralatan dapur yang dipilih — ini memerlukan data dari vendor peralatan sebelum sistem ventilasi dapat dirancang dengan tepat."
+      },
+      {
+        "question": "Apakah desain interior dan branding cafe termasuk dalam layanan ini?",
+        "answer": "Pekerjaan fit-out sipil dan MEP dapat dicakup melalui layanan interior fit-out, tetapi desain konsep interior dan branding visual umumnya memerlukan desainer interior atau brand consultant terpisah."
+      },
+      {
+        "question": "Apakah area outdoor atau semi-outdoor cafe memerlukan pertimbangan khusus?",
+        "answer": "Area outdoor memerlukan pertimbangan tambahan seperti perlindungan cuaca dan drainase, yang perlu dibahas sejak tahap perencanaan sesuai kondisi lokasi Anda."
+      },
+      {
+        "question": "Bagaimana biaya proyek cafe ditentukan?",
+        "answer": "Biaya ditentukan setelah ruang lingkup, luas area, dan kompleksitas utilitas dapur dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "sector": {
+      "buildingType": "Cafe",
+      "primaryUseCases": [
+        "usaha F&B skala kecil-menengah",
+        "fit-out ruang sewa untuk cafe"
+      ],
+      "commonRisks": [
+        "Kebutuhan utilitas dapur belum jelas karena peralatan belum ditentukan sejak awal.",
+        "Ventilasi dan exhaust tidak sesuai dengan jenis peralatan dapur yang akhirnya dipilih.",
+        "Alur kerja staf dan alur pengunjung tidak dipisah dengan baik sehingga mengganggu operasional."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-design-and-build"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/cafe",
+    "sourcePath": "content/sectors/cafe.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Cafe dengan Koordinasi Fit-Out dan Utilitas Dapur",
+        "path": "/sektor/cafe"
+      }
+    ],
+    "wordCount": 582,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/interior-fit-out",
+      "/layanan/design-and-build",
+      "/layanan/pengawasan-proyek",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "sec-contoh-sektor",
     "type": "sector",
     "status": "draft",
@@ -4120,6 +4262,150 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "sec-hotel",
+    "type": "sector",
+    "status": "review",
+    "title": "Kontraktor Hotel dengan Koordinasi Standar Operasional Hospitality",
+    "slug": "hotel",
+    "description": "Layanan konstruksi dan pengendalian proyek bangunan hotel Arkavena dengan perhatian pada kebutuhan tamu, area servis, utilitas, dan koordinasi dengan spesialis FF&E.",
+    "excerpt": "Pendekatan pembangunan dan renovasi hotel yang mempertimbangkan kenyamanan tamu, efisiensi operasional, dan koordinasi kebutuhan hospitality bersama spesialis terkait.",
+    "seoTitle": "Kontraktor Hotel | Arkavena",
+    "primaryKeyword": "kontraktor hotel",
+    "secondaryKeywords": [
+      "jasa bangun hotel",
+      "kontraktor renovasi hotel"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "mep"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Bangunan Hotel",
+      "heading": "Hotel yang Nyaman untuk Tamu, Efisien untuk Operasional",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek pembangunan atau renovasi hotel, dikoordinasikan dengan kebutuhan standar hospitality dan spesialis FF&E Anda.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau renovasi hotel."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Manajemen Konstruksi",
+        "href": "/layanan/manajemen-konstruksi",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menyediakan pengadaan FF&E (furniture, fixture, equipment)?",
+        "answer": "Tidak. Pengadaan FF&E berada di luar cakupan Arkavena dan biasanya dilakukan langsung oleh pemilik hotel atau vendor FF&E terkait, meskipun koordinasi jadwal pemasangan dapat dibahas dalam ruang lingkup proyek."
+      },
+      {
+        "question": "Apakah Arkavena menjamin kepatuhan terhadap standar desain brand hotel (franchise)?",
+        "answer": "Tidak. Kepatuhan terhadap standar desain brand atau franchise hotel tertentu (brand standard) memerlukan verifikasi langsung dari pemilik brand — Arkavena dapat mengoordinasikan pelaksanaan berdasarkan dokumen brand standard yang Anda sediakan, tetapi tidak menjamin kepatuhan tersebut secara independen."
+      },
+      {
+        "question": "Apakah Arkavena membantu mengurus izin operasional hotel?",
+        "answer": "Tidak. Pengurusan izin operasional hotel berada di luar kewenangan Arkavena dan bergantung pada otoritas terkait."
+      },
+      {
+        "question": "Bagaimana pemisahan alur tamu dan alur staf (back of house) dipertimbangkan?",
+        "answer": "Pemisahan alur tamu dan area servis staf menjadi salah satu pertimbangan penting dalam penataan layout hotel agar operasional berjalan efisien tanpa mengganggu kenyamanan tamu."
+      },
+      {
+        "question": "Apakah kebutuhan utilitas per kamar menjadi bagian dari perencanaan?",
+        "answer": "Ya, kapasitas listrik, air panas, dan sistem HVAC per kamar perlu direncanakan sesuai jumlah kamar dan standar kenyamanan yang ditetapkan, yang dibahas bersama pada tahap konsultasi awal."
+      },
+      {
+        "question": "Apakah fasilitas penunjang seperti kolam renang atau ballroom termasuk dalam ruang lingkup?",
+        "answer": "Dapat mencakup, tergantung ruang lingkup yang disepakati. Fasilitas seperti kolam renang memerlukan koordinasi dengan spesialis terkait untuk sistem filtrasi dan keselamatan."
+      },
+      {
+        "question": "Bagaimana biaya proyek hotel ditentukan?",
+        "answer": "Biaya ditentukan setelah jumlah kamar, kelas hotel, dan fasilitas penunjang dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "sector": {
+      "buildingType": "Hotel",
+      "primaryUseCases": [
+        "akomodasi dan hospitality",
+        "hotel dengan fasilitas penunjang"
+      ],
+      "commonRisks": [
+        "Standar brand hotel (brand standard) belum dikoordinasikan dengan jelas sejak tahap desain.",
+        "Alur tamu dan alur staf (back of house) tidak dipisahkan dengan baik.",
+        "Utilitas per kamar tidak direncanakan sesuai standar kenyamanan yang ditetapkan."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/hotel",
+    "sourcePath": "content/sectors/hotel.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Hotel dengan Koordinasi Standar Operasional Hospitality",
+        "path": "/sektor/hotel"
+      }
+    ],
+    "wordCount": 621,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/design-and-build",
+      "/layanan/manajemen-konstruksi",
+      "/layanan/owner-representative",
+      "/layanan/pengawasan-proyek",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "sec-kantor",
     "type": "sector",
     "status": "published",
@@ -4260,6 +4546,150 @@ export const contentManifest: ContentItem[] = [
       "/wilayah"
     ],
     "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "sec-klinik",
+    "type": "sector",
+    "status": "review",
+    "title": "Kontraktor Klinik dengan Perhatian pada Standar Fasilitas Kesehatan",
+    "slug": "klinik",
+    "description": "Layanan konstruksi dan pengendalian proyek bangunan klinik Arkavena dengan perhatian pada alur pasien, kontrol infeksi dasar, dan koordinasi dengan spesialis fasilitas kesehatan.",
+    "excerpt": "Pendekatan pembangunan dan renovasi klinik yang mempertimbangkan alur pasien, kenyamanan, dan koordinasi kebutuhan teknis fasilitas kesehatan bersama spesialis terkait.",
+    "seoTitle": "Kontraktor Klinik | Arkavena",
+    "primaryKeyword": "kontraktor klinik",
+    "secondaryKeywords": [
+      "jasa bangun klinik",
+      "kontraktor renovasi klinik"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "mep"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Bangunan Klinik",
+      "heading": "Bangunan Klinik yang Mendukung Alur Pasien dan Layanan yang Aman",
+      "summary": "Arkavena membantu mengelola pembangunan struktur dan utilitas bangunan klinik, dikoordinasikan dengan spesialis fasilitas kesehatan dan kebutuhan operasional Anda.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-quality-control-konstruksi"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau renovasi klinik."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Quality Control Konstruksi",
+        "href": "/layanan/quality-control-konstruksi",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menyediakan desain sistem gas medis atau proteksi radiasi?",
+        "answer": "Tidak. Desain sistem gas medis (medical gas) dan proteksi radiasi untuk peralatan seperti X-ray adalah keahlian spesialis bersertifikasi di luar cakupan Arkavena. Arkavena dapat mengoordinasikan pekerjaan sipil dan utilitas dasar dengan spesialis yang Anda tunjuk."
+      },
+      {
+        "question": "Apakah Arkavena membantu mengurus izin operasional klinik atau akreditasi fasilitas kesehatan?",
+        "answer": "Tidak. Pengurusan izin operasional dan akreditasi fasilitas kesehatan berada di luar kewenangan Arkavena dan bergantung pada otoritas kesehatan terkait."
+      },
+      {
+        "question": "Apakah pengadaan peralatan medis termasuk dalam layanan ini?",
+        "answer": "Tidak. Pengadaan peralatan medis berada di luar cakupan Arkavena dan biasanya dilakukan langsung oleh pemilik klinik atau vendor peralatan medis terkait."
+      },
+      {
+        "question": "Bagaimana standar kontrol infeksi dasar dipertimbangkan dalam konstruksi?",
+        "answer": "Pertimbangan dasar seperti pemilihan material yang mudah dibersihkan dan pemisahan alur bersih-kotor dapat dibahas pada tahap perencanaan, tetapi standar kontrol infeksi teknis tetap memerlukan kajian spesialis fasilitas kesehatan sesuai jenis layanan klinik Anda."
+      },
+      {
+        "question": "Apakah alur pasien menjadi pertimbangan dalam tata letak klinik?",
+        "answer": "Ya, pemisahan alur pasien, staf, dan area servis menjadi salah satu pertimbangan dalam penataan layout agar operasional klinik berjalan efisien dan nyaman bagi pasien."
+      },
+      {
+        "question": "Apakah klinik dengan ruang tindakan memerlukan pertimbangan khusus?",
+        "answer": "Ya, ruang tindakan memiliki kebutuhan utilitas dan finishing khusus yang perlu dikaji bersama spesialis fasilitas kesehatan berdasarkan jenis tindakan yang direncanakan."
+      },
+      {
+        "question": "Bagaimana biaya proyek klinik ditentukan?",
+        "answer": "Biaya ditentukan setelah ruang lingkup, jumlah ruang periksa, dan kompleksitas utilitas dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "sector": {
+      "buildingType": "Klinik",
+      "primaryUseCases": [
+        "fasilitas kesehatan skala kecil-menengah",
+        "klinik dengan ruang periksa dan/atau ruang tindakan"
+      ],
+      "commonRisks": [
+        "Kebutuhan teknis fasilitas kesehatan (gas medis, proteksi radiasi) belum dikaji spesialis sejak awal.",
+        "Alur pasien, staf, dan area servis tidak dipisahkan dengan baik.",
+        "Utilitas tidak disesuaikan dengan jenis layanan medis yang direncanakan."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-owner-representative"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/klinik",
+    "sourcePath": "content/sectors/klinik.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Klinik dengan Perhatian pada Standar Fasilitas Kesehatan",
+        "path": "/sektor/klinik"
+      }
+    ],
+    "wordCount": 594,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/design-and-build",
+      "/layanan/owner-representative",
+      "/layanan/pengawasan-proyek",
+      "/layanan/quality-control-konstruksi",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": false,
     "isFollowable": true
   },
   {
@@ -4408,6 +4838,147 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "sec-masjid",
+    "type": "sector",
+    "status": "review",
+    "title": "Kontraktor Masjid dengan Perhatian pada Kapasitas Jemaah dan Akustik",
+    "slug": "masjid",
+    "description": "Layanan konstruksi dan pengendalian proyek bangunan masjid Arkavena dengan perhatian pada kapasitas jemaah, akustik, sirkulasi, dan fasilitas penunjang ibadah.",
+    "excerpt": "Pendekatan pembangunan dan renovasi bangunan masjid yang mempertimbangkan kapasitas jemaah, kenyamanan ibadah, dan fasilitas penunjang.",
+    "seoTitle": "Kontraktor Masjid | Arkavena",
+    "primaryKeyword": "kontraktor masjid",
+    "secondaryKeywords": [
+      "jasa bangun masjid",
+      "kontraktor renovasi masjid"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "struktur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Bangunan Masjid",
+      "heading": "Bangunan Masjid yang Nyaman untuk Jemaah dan Mudah Dikelola",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek pembangunan atau renovasi masjid dengan mempertimbangkan kapasitas jemaah, akustik, dan fasilitas penunjang.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek",
+        "svc-building-maintenance"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau renovasi masjid."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangunan Komersial",
+        "href": "/layanan/bangun-bangunan-komersial",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menyediakan desain struktur kubah atau menara khusus?",
+        "answer": "Desain struktur kubah dan menara dengan bentang atau ketinggian khusus memerlukan kajian spesialis struktur berdasarkan data teknis spesifik — ini bukan bagian dari scope standar dan perlu dibahas secara khusus sesuai kompleksitas desain yang direncanakan."
+      },
+      {
+        "question": "Apakah Arkavena membantu pengadaan sistem sound system atau pengeras suara masjid?",
+        "answer": "Tidak secara otomatis. Pengadaan dan pemasangan sistem sound system umumnya dilakukan oleh vendor spesialis audio, meskipun koordinasi pekerjaan sipil terkait dapat dicakup dalam ruang lingkup proyek."
+      },
+      {
+        "question": "Apakah Arkavena membantu mengurus izin pendirian rumah ibadah?",
+        "answer": "Tidak. Pengurusan izin pendirian rumah ibadah berada di luar kewenangan Arkavena dan bergantung pada otoritas serta ketentuan yang berlaku di wilayah Anda."
+      },
+      {
+        "question": "Bagaimana kapasitas jemaah memengaruhi perencanaan bangunan?",
+        "answer": "Kapasitas jemaah yang direncanakan, termasuk perkiraan jemaah pada waktu shalat tertentu seperti Jumat, memengaruhi luas area shalat, jumlah pintu, dan kapasitas area wudhu — kebutuhan ini perlu dibahas sejak tahap konsultasi awal."
+      },
+      {
+        "question": "Apakah akustik ruang shalat menjadi pertimbangan dalam desain?",
+        "answer": "Ya, akustik menjadi salah satu pertimbangan agar suara imam dan bacaan dapat terdengar jelas ke seluruh ruang, meskipun solusi teknis akhirnya bergantung pada bentuk ruang dan kajian spesifik proyek Anda."
+      },
+      {
+        "question": "Apakah area wudhu dan toilet memerlukan pertimbangan khusus?",
+        "answer": "Ya, kapasitas dan sirkulasi area wudhu perlu direncanakan sesuai jumlah jemaah agar tidak terjadi antrean panjang, terutama menjelang waktu shalat berjamaah."
+      },
+      {
+        "question": "Bagaimana biaya proyek masjid ditentukan?",
+        "answer": "Biaya ditentukan setelah kapasitas jemaah, kompleksitas desain struktur, dan fasilitas penunjang dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "sector": {
+      "buildingType": "Masjid",
+      "primaryUseCases": [
+        "rumah ibadah komunitas",
+        "fasilitas ibadah dengan kapasitas jemaah besar"
+      ],
+      "commonRisks": [
+        "Kapasitas jemaah pada waktu shalat berjamaah tidak diperhitungkan sejak perencanaan awal.",
+        "Akustik ruang shalat tidak dipertimbangkan sehingga suara tidak terdengar jelas.",
+        "Sirkulasi area wudhu tidak memadai sehingga menyebabkan antrean panjang."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/masjid",
+    "sourcePath": "content/sectors/masjid.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Masjid dengan Perhatian pada Kapasitas Jemaah dan Akustik",
+        "path": "/sektor/masjid"
+      }
+    ],
+    "wordCount": 544,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/design-and-build",
+      "/layanan/pengawasan-proyek",
+      "/layanan/building-maintenance",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "sec-pabrik",
     "type": "sector",
     "status": "published",
@@ -4550,6 +5121,150 @@ export const contentManifest: ContentItem[] = [
       "/wilayah"
     ],
     "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "sec-restoran",
+    "type": "sector",
+    "status": "review",
+    "title": "Kontraktor Restoran dengan Koordinasi Dapur dan Area Servis",
+    "slug": "restoran",
+    "description": "Layanan konstruksi dan pengendalian proyek restoran Arkavena dengan perhatian pada area dapur, area makan, alur servis, dan koordinasi utilitas bersama spesialis peralatan.",
+    "excerpt": "Pendekatan pembangunan dan renovasi restoran yang mempertimbangkan alur servis, kapasitas dapur, dan kenyamanan pengunjung.",
+    "seoTitle": "Kontraktor Restoran | Arkavena",
+    "primaryKeyword": "kontraktor restoran",
+    "secondaryKeywords": [
+      "jasa bangun restoran",
+      "kontraktor renovasi restoran"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "finishing"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Restoran",
+      "heading": "Restoran yang Efisien untuk Servis, Nyaman untuk Pengunjung",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek pembangunan atau renovasi restoran, dikoordinasikan dengan kebutuhan dapur skala besar bersama spesialis peralatan Anda.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-design-and-build",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau renovasi restoran."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Manajemen Konstruksi",
+        "href": "/layanan/manajemen-konstruksi",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menyediakan desain dapur komersial skala besar (kitchen consultant)?",
+        "answer": "Tidak. Desain tata letak dapur produksi skala besar, spesifikasi peralatan masak, dan alur kerja dapur profesional adalah keahlian spesialis di luar cakupan Arkavena. Arkavena mengoordinasikan pekerjaan sipil dan utilitas dasar dengan kitchen consultant atau vendor peralatan yang Anda tunjuk."
+      },
+      {
+        "question": "Apakah pengadaan peralatan dapur dan perlengkapan servis termasuk dalam layanan ini?",
+        "answer": "Tidak. Pengadaan peralatan dapur dan perlengkapan servis berada di luar cakupan Arkavena dan biasanya dilakukan langsung oleh pemilik usaha atau vendor terkait."
+      },
+      {
+        "question": "Apakah Arkavena membantu mengurus sertifikasi keamanan pangan atau izin usaha restoran?",
+        "answer": "Tidak. Pengurusan sertifikasi dan izin usaha berada di luar kewenangan Arkavena dan bergantung pada otoritas terkait."
+      },
+      {
+        "question": "Bagaimana kapasitas dapur ditentukan sesuai jumlah pengunjung yang direncanakan?",
+        "answer": "Kapasitas dapur perlu dikaji berdasarkan proyeksi jumlah pengunjung dan jenis menu, yang umumnya ditentukan bersama kitchen consultant sebelum tata letak dapur dirancang."
+      },
+      {
+        "question": "Apakah area penyimpanan bahan baku (storage) memerlukan pertimbangan khusus?",
+        "answer": "Ya, area penyimpanan kering dan dingin perlu direncanakan sesuai volume operasional, termasuk kebutuhan suhu dan sirkulasi udara, yang bergantung pada jenis menu dan skala restoran Anda."
+      },
+      {
+        "question": "Apakah alur servis dari dapur ke area makan menjadi bagian dari perencanaan?",
+        "answer": "Ya, alur servis antara dapur, area cuci, dan area makan menjadi salah satu pertimbangan dalam penataan layout agar operasional berjalan efisien dan tidak mengganggu kenyamanan pengunjung."
+      },
+      {
+        "question": "Bagaimana biaya proyek restoran ditentukan?",
+        "answer": "Biaya ditentukan setelah ruang lingkup, luas area, dan kompleksitas dapur serta utilitas dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "sector": {
+      "buildingType": "Restoran",
+      "primaryUseCases": [
+        "usaha F&B skala menengah-besar",
+        "restoran dengan area makan dan dapur produksi"
+      ],
+      "commonRisks": [
+        "Kapasitas dapur tidak sesuai dengan proyeksi jumlah pengunjung dan volume menu.",
+        "Alur servis antara dapur dan area makan tidak direncanakan dengan baik.",
+        "Utilitas dapur skala besar tidak dikoordinasikan sejak awal dengan kebutuhan peralatan."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-manajemen-konstruksi"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/restoran",
+    "sourcePath": "content/sectors/restoran.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Restoran dengan Koordinasi Dapur dan Area Servis",
+        "path": "/sektor/restoran"
+      }
+    ],
+    "wordCount": 617,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/interior-fit-out",
+      "/layanan/design-and-build",
+      "/layanan/manajemen-konstruksi",
+      "/layanan/pengawasan-proyek",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": false,
     "isFollowable": true
   },
   {
@@ -4843,6 +5558,436 @@ export const contentManifest: ContentItem[] = [
       "/cara-kerja"
     ],
     "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "sec-sekolah",
+    "type": "sector",
+    "status": "review",
+    "title": "Kontraktor Sekolah dengan Perhatian pada Keselamatan dan Fungsi Ruang Belajar",
+    "slug": "sekolah",
+    "description": "Layanan konstruksi dan pengendalian proyek bangunan sekolah Arkavena dengan perhatian pada keselamatan, akustik ruang kelas, aksesibilitas, dan fasilitas penunjang.",
+    "excerpt": "Pendekatan pembangunan dan renovasi bangunan sekolah yang mempertimbangkan keselamatan siswa, kenyamanan ruang belajar, dan fasilitas penunjang.",
+    "seoTitle": "Kontraktor Sekolah | Arkavena",
+    "primaryKeyword": "kontraktor sekolah",
+    "secondaryKeywords": [
+      "jasa bangun gedung sekolah",
+      "kontraktor renovasi sekolah"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "struktur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Bangunan Sekolah",
+      "heading": "Bangunan Sekolah yang Aman dan Mendukung Kegiatan Belajar",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek pembangunan atau renovasi bangunan sekolah dengan mempertimbangkan keselamatan siswa dan kenyamanan ruang belajar.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek",
+        "svc-quality-control-konstruksi",
+        "svc-building-maintenance"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau renovasi bangunan sekolah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Quality Control Konstruksi",
+        "href": "/layanan/quality-control-konstruksi",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena membantu mengurus izin operasional atau akreditasi sekolah?",
+        "answer": "Tidak. Pengurusan izin operasional dan akreditasi sekolah berada di luar kewenangan Arkavena dan bergantung pada otoritas pendidikan terkait."
+      },
+      {
+        "question": "Apakah standar keselamatan bangunan sekolah mengikuti ketentuan khusus?",
+        "answer": "Ya, bangunan sekolah umumnya perlu mengikuti standar keselamatan yang lebih ketat, termasuk jalur evakuasi dan proteksi kebakaran, sesuai ketentuan yang berlaku dan kajian spesialis terkait."
+      },
+      {
+        "question": "Bagaimana akustik ruang kelas dipertimbangkan dalam desain?",
+        "answer": "Akustik ruang kelas menjadi salah satu pertimbangan agar kegiatan belajar tidak terganggu kebisingan, meskipun solusi teknis akhirnya bergantung pada kondisi lahan dan kajian spesifik proyek Anda."
+      },
+      {
+        "question": "Apakah fasilitas penunjang seperti laboratorium atau perpustakaan termasuk dalam ruang lingkup?",
+        "answer": "Dapat mencakup, tergantung ruang lingkup yang disepakati. Kebutuhan fasilitas penunjang sebaiknya dibahas sejak awal karena memengaruhi tata letak dan spesifikasi utilitas bangunan."
+      },
+      {
+        "question": "Apakah aksesibilitas untuk siswa berkebutuhan khusus menjadi pertimbangan?",
+        "answer": "Ya, aksesibilitas seperti ramp dan jalur yang ramah difabel perlu dipertimbangkan sesuai kebutuhan dan ketentuan yang berlaku di wilayah Anda."
+      },
+      {
+        "question": "Apakah pembangunan sekolah dapat dilakukan bertahap tanpa mengganggu kegiatan belajar?",
+        "answer": "Pembangunan bertahap dapat direncanakan, tetapi memerlukan koordinasi jadwal yang cermat dengan kalender akademik agar kegiatan belajar tidak terganggu."
+      },
+      {
+        "question": "Bagaimana biaya proyek sekolah ditentukan?",
+        "answer": "Biaya ditentukan setelah ruang lingkup, jumlah ruang kelas, dan fasilitas penunjang dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "sector": {
+      "buildingType": "Sekolah",
+      "primaryUseCases": [
+        "fasilitas pendidikan formal",
+        "bangunan sekolah dengan fasilitas penunjang"
+      ],
+      "commonRisks": [
+        "Standar keselamatan dan jalur evakuasi tidak dikaji sesuai ketentuan yang berlaku.",
+        "Akustik ruang kelas tidak dipertimbangkan sehingga mengganggu kegiatan belajar.",
+        "Jadwal pembangunan tidak dikoordinasikan dengan kalender akademik sehingga mengganggu operasional sekolah."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-quality-control-konstruksi"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/sekolah",
+    "sourcePath": "content/sectors/sekolah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Sekolah dengan Perhatian pada Keselamatan dan Fungsi Ruang Belajar",
+        "path": "/sektor/sekolah"
+      }
+    ],
+    "wordCount": 526,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/design-and-build",
+      "/layanan/pengawasan-proyek",
+      "/layanan/quality-control-konstruksi",
+      "/layanan/building-maintenance",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "sec-showroom-retail",
+    "type": "sector",
+    "status": "review",
+    "title": "Kontraktor Showroom dan Retail dengan Koordinasi Fit-Out Display",
+    "slug": "showroom-retail",
+    "description": "Layanan konstruksi dan pengendalian proyek showroom dan retail Arkavena dengan perhatian pada alur pengunjung, area display, dan koordinasi visual merchandising.",
+    "excerpt": "Pendekatan pembangunan dan fit-out showroom atau ruang retail yang mempertimbangkan alur pengunjung, area display, dan koordinasi kebutuhan visual merchandising.",
+    "seoTitle": "Kontraktor Showroom dan Retail | Arkavena",
+    "primaryKeyword": "kontraktor showroom",
+    "secondaryKeywords": [
+      "jasa fit-out retail",
+      "kontraktor bangun showroom"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "finishing"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Showroom dan Retail",
+      "heading": "Ruang Showroom dan Retail yang Mendukung Pengalaman Pengunjung",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek pembangunan atau fit-out showroom dan retail, dikoordinasikan dengan kebutuhan visual merchandising dari spesialis yang Anda tunjuk.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau fit-out showroom/retail."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Interior Fit-Out",
+        "href": "/layanan/interior-fit-out",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menyediakan desain visual merchandising atau branding retail?",
+        "answer": "Tidak. Desain visual merchandising, konsep branding, dan penataan display produk adalah keahlian spesialis di luar cakupan Arkavena. Arkavena dapat mengoordinasikan pekerjaan sipil dan fit-out dengan visual merchandiser atau brand consultant yang Anda tunjuk."
+      },
+      {
+        "question": "Apakah pengadaan fixture display dan signage termasuk dalam layanan ini?",
+        "answer": "Tidak secara otomatis. Pengadaan fixture display dan signage umumnya dilakukan oleh vendor khusus, meskipun koordinasi pekerjaan sipil terkait pemasangannya dapat dicakup dalam ruang lingkup proyek."
+      },
+      {
+        "question": "Apakah Arkavena membantu mengurus izin usaha retail?",
+        "answer": "Tidak. Pengurusan izin usaha berada di luar kewenangan Arkavena dan bergantung pada otoritas terkait."
+      },
+      {
+        "question": "Bagaimana alur pengunjung dipertimbangkan dalam tata letak showroom?",
+        "answer": "Alur pengunjung menjadi salah satu pertimbangan utama dalam penataan layout agar produk dapat ditampilkan secara optimal, meskipun keputusan penataan display akhir umumnya ditentukan oleh visual merchandiser."
+      },
+      {
+        "question": "Apakah pencahayaan khusus untuk display produk termasuk dalam ruang lingkup?",
+        "answer": "Kebutuhan dasar sistem pencahayaan dapat dikoordinasikan dalam pekerjaan MEP, tetapi spesifikasi pencahayaan khusus untuk display produk tertentu umumnya ditentukan oleh spesialis visual merchandising."
+      },
+      {
+        "question": "Apakah showroom dengan kebutuhan keamanan tinggi (misalnya perhiasan) memerlukan pertimbangan khusus?",
+        "answer": "Ya, kebutuhan sistem keamanan tambahan perlu dibahas sejak tahap perencanaan dan dikoordinasikan dengan spesialis sistem keamanan sesuai jenis produk yang dipajang."
+      },
+      {
+        "question": "Bagaimana biaya proyek showroom atau retail ditentukan?",
+        "answer": "Biaya ditentukan setelah ruang lingkup, luas area, dan kompleksitas fit-out dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "sector": {
+      "buildingType": "Showroom dan Retail",
+      "primaryUseCases": [
+        "ruang pamer produk",
+        "fit-out ruang sewa untuk usaha retail"
+      ],
+      "commonRisks": [
+        "Kebutuhan visual merchandising belum dikoordinasikan dengan desain sipil sejak awal.",
+        "Alur pengunjung tidak direncanakan sehingga mengurangi efektivitas tampilan produk.",
+        "Sistem pencahayaan tidak disesuaikan dengan kebutuhan display yang akhirnya ditentukan."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-design-and-build"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/showroom-retail",
+    "sourcePath": "content/sectors/showroom-retail.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Showroom dan Retail dengan Koordinasi Fit-Out Display",
+        "path": "/sektor/showroom-retail"
+      }
+    ],
+    "wordCount": 581,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/interior-fit-out",
+      "/layanan/design-and-build",
+      "/layanan/pengawasan-proyek",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "sec-villa",
+    "type": "sector",
+    "status": "review",
+    "title": "Kontraktor Villa dengan Perencanaan Privasi dan Kenyamanan Tamu",
+    "slug": "villa",
+    "description": "Layanan konstruksi dan pengendalian proyek villa Arkavena dengan perhatian pada privasi, kenyamanan, area outdoor, dan kebutuhan pengelolaan jangka panjang.",
+    "excerpt": "Pendekatan pembangunan dan renovasi villa yang mempertimbangkan privasi, kenyamanan, area outdoor, dan kemudahan pengelolaan.",
+    "seoTitle": "Kontraktor Villa | Arkavena",
+    "primaryKeyword": "kontraktor villa",
+    "secondaryKeywords": [
+      "jasa bangun villa",
+      "kontraktor renovasi villa"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "residensial",
+      "komersial"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Villa",
+      "heading": "Villa yang Nyaman untuk Dihuni, Efisien untuk Dikelola",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek pembangunan atau renovasi villa dengan mempertimbangkan privasi, kenyamanan, dan kemudahan pengelolaan jangka panjang.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-design-and-build",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering",
+        "svc-building-maintenance"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau renovasi villa."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Value Engineering",
+        "href": "/layanan/value-engineering",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena dapat memberikan proyeksi pendapatan sewa villa?",
+        "answer": "Tidak. Arkavena berfokus pada perencanaan dan pelaksanaan konstruksi, bukan analisis investasi, proyeksi okupansi, atau perhitungan pendapatan sewa."
+      },
+      {
+        "question": "Apakah Arkavena membantu mengurus izin usaha penyewaan villa?",
+        "answer": "Tidak. Pengurusan izin usaha penyewaan berada di luar kewenangan Arkavena dan bergantung pada otoritas serta ketentuan yang berlaku di wilayah Anda."
+      },
+      {
+        "question": "Bagaimana kolam renang atau fasilitas outdoor dipertimbangkan dalam perencanaan?",
+        "answer": "Kebutuhan kolam renang dan fasilitas outdoor lain dapat dibahas pada tahap perencanaan, dengan koordinasi spesialis terkait untuk sistem filtrasi dan keselamatan, sesuai kondisi lahan Anda."
+      },
+      {
+        "question": "Apakah villa untuk disewakan memerlukan pertimbangan berbeda dari rumah tinggal pribadi?",
+        "answer": "Villa yang direncanakan untuk disewakan umumnya perlu mempertimbangkan daya tahan material terhadap penggunaan intensif dan kemudahan perawatan oleh pengelola, berbeda dari rumah tinggal untuk penggunaan pribadi."
+      },
+      {
+        "question": "Bagaimana privasi antar area villa dipertimbangkan dalam desain?",
+        "answer": "Privasi menjadi salah satu pertimbangan utama dalam penataan layout villa, terutama untuk area kamar dan area outdoor, meskipun solusi teknis akhirnya bergantung pada kondisi lahan dan kebutuhan spesifik Anda."
+      },
+      {
+        "question": "Apakah villa memerlukan pertimbangan khusus untuk pengelolaan jarak jauh?",
+        "answer": "Ya, villa yang dikelola dari jarak jauh atau disewakan sebaiknya mempertimbangkan sistem yang mudah dipantau dan dipelihara oleh pengelola atau staf setempat."
+      },
+      {
+        "question": "Bagaimana biaya proyek villa ditentukan?",
+        "answer": "Biaya ditentukan setelah ruang lingkup, luas lahan, dan spesifikasi fasilitas dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "sector": {
+      "buildingType": "Villa",
+      "primaryUseCases": [
+        "hunian pribadi dengan area outdoor",
+        "villa untuk disewakan"
+      ],
+      "commonRisks": [
+        "Kebutuhan privasi antar area belum diterjemahkan dengan jelas ke dalam desain.",
+        "Material dipilih tanpa mempertimbangkan penggunaan intensif untuk villa yang disewakan.",
+        "Fasilitas outdoor seperti kolam renang tidak dikoordinasikan dengan spesialis terkait sejak awal."
+      ],
+      "relevantServices": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-design-and-build",
+        "svc-value-engineering"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/villa",
+    "sourcePath": "content/sectors/villa.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Villa dengan Perencanaan Privasi dan Kenyamanan Tamu",
+        "path": "/sektor/villa"
+      }
+    ],
+    "wordCount": 543,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/layanan/renovasi-rumah",
+      "/layanan/design-and-build",
+      "/layanan/pengendalian-biaya-proyek",
+      "/layanan/value-engineering",
+      "/layanan/building-maintenance",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": false,
     "isFollowable": true
   },
   {
