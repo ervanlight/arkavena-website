@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T16:33:28.005Z",
+  "generatedAt": "2026-07-28T17:12:15.551Z",
   "nodes": {
     "page-cara-kerja": {
       "id": "page-cara-kerja",
@@ -531,6 +531,8 @@
         "guide-pengendalian-biaya-proyek",
         "guide-pengendalian-cashflow-proyek",
         "guide-value-engineering-untuk-mengendalikan-biaya",
+        "lp-building-maintenance",
+        "lp-manajemen-konstruksi",
         "project-hunian-lamongan-2022",
         "project-kos-dau-malang-2020",
         "project-kos-sidoarjo-2023-2026",
@@ -679,6 +681,7 @@
         "loc-mojokerto",
         "loc-sidoarjo",
         "loc-surabaya",
+        "lp-bangun-rumah-surabaya",
         "project-hunian-lamongan-2022",
         "project-kos-dau-malang-2020",
         "project-kos-sidoarjo-2023-2026",
@@ -733,6 +736,7 @@
         "guide-perawatan-fasad-bangunan",
         "guide-perawatan-mep-bangunan",
         "guide-preventive-vs-corrective-maintenance",
+        "lp-building-maintenance",
         "project-hunian-lamongan-2022",
         "project-kos-dau-malang-2020",
         "project-kos-sidoarjo-2023-2026",
@@ -818,6 +822,7 @@
         "guide-perawatan-fasad-bangunan",
         "guide-perawatan-mep-bangunan",
         "guide-preventive-vs-corrective-maintenance",
+        "lp-building-maintenance",
         "svc-building-maintenance",
         "svc-preventive-maintenance-bangunan"
       ],
@@ -919,6 +924,7 @@
         "guide-apa-itu-value-engineering-konstruksi",
         "guide-pengendalian-cashflow-proyek",
         "guide-value-engineering-untuk-mengendalikan-biaya",
+        "lp-manajemen-konstruksi",
         "svc-audit-biaya-proyek",
         "svc-penyusunan-rab",
         "svc-value-engineering"
@@ -1024,6 +1030,7 @@
         "loc-gresik",
         "loc-pasuruan",
         "loc-surabaya",
+        "lp-manajemen-konstruksi",
         "sec-gudang",
         "sec-hotel",
         "sec-pabrik",
@@ -1084,6 +1091,7 @@
         "guide-tugas-manajemen-konstruksi",
         "guide-value-engineering-untuk-mengendalikan-biaya",
         "loc-gresik",
+        "lp-manajemen-konstruksi",
         "sec-hotel",
         "sec-klinik",
         "sec-pabrik",
@@ -1392,6 +1400,7 @@
         "guide-perawatan-fasad-bangunan",
         "guide-perawatan-mep-bangunan",
         "guide-preventive-vs-corrective-maintenance",
+        "lp-building-maintenance",
         "svc-building-maintenance",
         "svc-corrective-maintenance-bangunan"
       ],
@@ -1472,6 +1481,7 @@
         "svc-renovasi-rumah"
       ],
       "inbound": [
+        "lp-renovasi-rumah-surabaya",
         "sec-cafe",
         "sec-hotel",
         "sec-kantor",
@@ -1537,6 +1547,7 @@
         "loc-mojokerto",
         "loc-sidoarjo",
         "loc-surabaya",
+        "lp-renovasi-rumah-surabaya",
         "sec-rumah-tinggal",
         "sec-villa",
         "svc-renovasi-bangunan-komersial"
@@ -2139,6 +2150,7 @@
         "loc-mojokerto",
         "loc-sidoarjo",
         "loc-surabaya",
+        "lp-bangun-rumah-surabaya",
         "svc-bangun-rumah"
       ],
       "related": [
@@ -3357,6 +3369,7 @@
         "loc-mojokerto",
         "loc-sidoarjo",
         "loc-surabaya",
+        "lp-bangun-rumah-surabaya",
         "sec-rumah-tinggal",
         "svc-bangun-rumah"
       ],
@@ -3442,6 +3455,7 @@
         "loc-mojokerto",
         "loc-sidoarjo",
         "loc-surabaya",
+        "lp-renovasi-rumah-surabaya",
         "svc-renovasi-bangunan-komersial",
         "svc-renovasi-rumah"
       ],
@@ -3491,6 +3505,7 @@
         "loc-lamongan",
         "loc-malang",
         "loc-mojokerto",
+        "lp-bangun-rumah-surabaya",
         "sec-rumah-tinggal",
         "svc-bangun-rumah"
       ],
@@ -3592,7 +3607,8 @@
         "guide-renovasi-total-vs-renovasi-sebagian",
         "guide-risiko-pembengkakan-biaya-renovasi",
         "guide-tanda-rumah-perlu-perkuatan-struktur",
-        "loc-jawa-timur"
+        "loc-jawa-timur",
+        "lp-renovasi-rumah-surabaya"
       ],
       "related": [
         {
@@ -5368,6 +5384,126 @@
         {
           "id": "svc-building-maintenance",
           "score": 7
+        }
+      ]
+    },
+    "lp-bangun-rumah-surabaya": {
+      "id": "lp-bangun-rumah-surabaya",
+      "route": "/lp/bangun-rumah-surabaya",
+      "type": "landing",
+      "outbound": [
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "sec-rumah-tinggal",
+        "svc-bangun-rumah"
+      ],
+      "inbound": [],
+      "related": [
+        {
+          "id": "svc-bangun-rumah",
+          "score": 22
+        },
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 22
+        },
+        {
+          "id": "guide-biaya-bangun-rumah-per-meter",
+          "score": 20
+        },
+        {
+          "id": "guide-borongan-vs-harian-bangun-rumah",
+          "score": 20
+        }
+      ]
+    },
+    "lp-building-maintenance": {
+      "id": "lp-building-maintenance",
+      "route": "/lp/building-maintenance",
+      "type": "landing",
+      "outbound": [
+        "svc-audit-biaya-proyek",
+        "svc-building-maintenance",
+        "svc-corrective-maintenance-bangunan",
+        "svc-preventive-maintenance-bangunan"
+      ],
+      "inbound": [],
+      "related": [
+        {
+          "id": "svc-building-maintenance",
+          "score": 22
+        },
+        {
+          "id": "svc-corrective-maintenance-bangunan",
+          "score": 22
+        },
+        {
+          "id": "svc-preventive-maintenance-bangunan",
+          "score": 22
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 2
+        }
+      ]
+    },
+    "lp-manajemen-konstruksi": {
+      "id": "lp-manajemen-konstruksi",
+      "route": "/lp/manajemen-konstruksi",
+      "type": "landing",
+      "outbound": [
+        "svc-audit-biaya-proyek",
+        "svc-estimasi-biaya-konstruksi",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative"
+      ],
+      "inbound": [],
+      "related": [
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 22
+        },
+        {
+          "id": "svc-estimasi-biaya-konstruksi",
+          "score": 22
+        },
+        {
+          "id": "svc-manajemen-konstruksi",
+          "score": 22
+        },
+        {
+          "id": "svc-owner-representative",
+          "score": 22
+        }
+      ]
+    },
+    "lp-renovasi-rumah-surabaya": {
+      "id": "lp-renovasi-rumah-surabaya",
+      "route": "/lp/renovasi-rumah-surabaya",
+      "type": "landing",
+      "outbound": [
+        "guide-biaya-renovasi-rumah",
+        "guide-cara-memilih-kontraktor-renovasi",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 22
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 22
+        },
+        {
+          "id": "guide-biaya-renovasi-rumah",
+          "score": 20
+        },
+        {
+          "id": "guide-cara-memilih-kontraktor-renovasi",
+          "score": 20
         }
       ]
     }
