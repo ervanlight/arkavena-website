@@ -1,0 +1,67 @@
+route,type,status,owner_verified,index_flag,collection_gate,sitemap_expected,navigation_visible,launch_decision,notes
+/,page,published,true,true,pass,true,true,approved,First launch scope (owner decision 2026-07-28).
+/cara-kerja,page,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/faq,page,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/konsultasi-proyek,page,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/kontak,page,published,true,true,pass,true,true,approved,First launch scope (owner decision 2026-07-28).
+/layanan,page,published,true,true,pass,true,true,approved,First launch scope (owner decision 2026-07-28).
+/layanan/audit-biaya-proyek,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/bangun-bangunan-komersial,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/bangun-rumah,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/building-maintenance,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/contoh-layanan,service,draft,false,false,pass,false,false,excluded,"Scaffold/example fixture, never intended to publish."
+/layanan/corrective-maintenance-bangunan,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/design-and-build,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/estimasi-biaya-konstruksi,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/interior-fit-out,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/manajemen-konstruksi,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/owner-representative,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/pengawasan-proyek,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/pengendalian-biaya-proyek,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/pengendalian-cashflow-proyek,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/pengendalian-jadwal-proyek,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/penyusunan-rab,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/preventive-maintenance-bangunan,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/quality-control-konstruksi,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/renovasi-bangunan-komersial,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/renovasi-rumah,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/value-engineering,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/mengapa-arkavena,page,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/panduan,page,published,true,true,pass,true,true,approved,First launch scope (owner decision 2026-07-28).
+/panduan/contoh-panduan,guide,draft,false,false,pass,false,false,excluded,"Scaffold/example fixture, never intended to publish."
+/proyek,page,review,false,false,pass,false,false,excluded,"Draft/review content, not owner-approved for launch."
+/proyek/hunian-lamongan-2022,project,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/proyek/kos-dau-malang-2020,project,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/proyek/kos-sidoarjo-2023-2026,project,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/proyek/kos-surabaya-2023-2026,project,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/proyek/perumahan-karangploso-malang-2018,project,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/proyek/rumah-tinggal-malang-kota-2019,project,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/proyek/rumah-tinggal-solo-2024,project,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/sektor,page,published,true,true,pass,true,true,approved,First launch scope (owner decision 2026-07-28).
+/sektor/contoh-sektor,sector,draft,false,false,pass,false,false,excluded,"Scaffold/example fixture, never intended to publish."
+/sektor/gudang,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/sektor/kantor,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/sektor/kos,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/sektor/pabrik,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/sektor/ruko,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/sektor/rumah-tinggal,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/tentang,page,published,true,true,pass,true,true,approved,First launch scope (owner decision 2026-07-28).
+/wilayah,page,published,true,true,pass,true,true,approved,First launch scope (owner decision 2026-07-28).
+/wilayah/contoh-wilayah,location,draft,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/wilayah/gresik,location,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/wilayah/jawa-timur,location,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/wilayah/lamongan,location,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/wilayah/malang,location,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/wilayah/mojokerto,location,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/wilayah/pasuruan,location,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/wilayah/sidoarjo,location,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/wilayah/surabaya,location,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
+/portfolio,static-legacy,live,n/a,true,n/a,true,false,approved,"Legacy page, explicitly listed in src/app/sitemap.ts LEGACY_ROUTES."
+/assessment,static-legacy,live,n/a,true,n/a,false,false,approved,Pre-content-engine legacy page. No robots directive set (defaults indexable). NOT in sitemap.xml — pre-existing gap.
+/trust-center,static-legacy,live,n/a,true,n/a,false,false,approved,Pre-content-engine legacy page. No robots directive set (defaults indexable). NOT in sitemap.xml — pre-existing gap.
+/projectview,static-legacy,live,n/a,true,n/a,false,false,approved,Pre-content-engine legacy demo page. No robots directive set (defaults indexable). NOT in sitemap.xml — pre-existing gap.
+/residential,static-legacy,live,n/a,true,n/a,false,false,approved,"Pre-content-engine legacy page. No robots directive set (defaults indexable). NOT in sitemap.xml — pre-existing gap, owner decision needed. Migration into /layanan|/sektor is a separate future batch per CLAUDE.md."
+/facility-care,static-legacy,live,n/a,true,n/a,false,false,approved,Pre-content-engine legacy page. No robots directive set (defaults indexable). NOT in sitemap.xml — pre-existing gap. Migration into /layanan|/sektor is a separate future batch per CLAUDE.md.
+/terima-kasih,static-legacy,live,n/a,false,n/a,false,false,excluded,"Thank-you page. Explicit robots noindex,follow — correct, excluded from sitemap by design."
+/kebijakan-privasi,static-legacy,live,n/a,true,n/a,false,false,approved,Legal page. No robots directive set (defaults indexable). NOT in sitemap.xml.
+/syarat-ketentuan,static-legacy,live,n/a,true,n/a,false,false,approved,Legal page. No robots directive set (defaults indexable). NOT in sitemap.xml.

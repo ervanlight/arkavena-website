@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 import createMDX from "@next/mdx";
-import { redirects as contentRedirects } from "./src/config/redirects";
+import { redirects as contentRedirects, toNextRedirect } from "./src/config/redirects";
 
 const nextConfig: NextConfig = {
   // `output: "standalone"` was removed together with the Dockerfile — it only
@@ -34,11 +34,7 @@ const nextConfig: NextConfig = {
     return [];
   },
   async redirects() {
-    return contentRedirects.map(({ source, destination, permanent }) => ({
-      source,
-      destination,
-      permanent,
-    }));
+    return contentRedirects.map(toNextRedirect);
   },
 };
 

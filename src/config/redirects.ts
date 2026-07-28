@@ -18,6 +18,14 @@ export interface RedirectEntry {
   permanent: boolean;
   /** Why this redirect exists — kept for the migration audit trail. */
   reason: string;
+  /**
+   * Batch 06 §10.2: old-domain path redirects must be host-scoped, or a rule
+   * like `/jasa-bangun-rumah -> /layanan/bangun-rumah` would also fire for
+   * that path on arkavena.com itself if it were ever requested there. Leave
+   * unset for same-domain slug-rename redirects, which should apply
+   * regardless of host.
+   */
+  host?: (typeof LEGACY_DOMAINS)[number];
 }
 
 export const redirects: RedirectEntry[] = [];
@@ -49,3 +57,24 @@ export const STATIC_ROUTES = [
   "/kebijakan-privasi",
   "/syarat-ketentuan",
 ] as const;
+
+/**
+ * Shape Next.js's `redirects()` expects. Shared by next.config.ts and tests
+ * so there is exactly one place that turns a `host` field into the `has`
+ * matcher (ARCHITECTURE.md Batch 06 §10.2/§10.5 — no hand-edited duplicate
+ * of the generated config).
+ */
+export function toNextRedirect(entry: RedirectEntry): {
+  source: string;
+  destination: string;
+  permanent: boolean;
+  has?: { type: "host"; value: string }[];
+} {
+  const { source, destination, permanent, host } = entry;
+  return {
+    source,
+    destination,
+    permanent,
+    ...(host ? { has: [{ type: "host" as const, value: host }] } : {}),
+  };
+}
