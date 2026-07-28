@@ -66,12 +66,12 @@ describe("Batch 04B — content validation", () => {
     expect(dupeIssues.filter((i) => i.rule === "duplicate-route")).toEqual([]);
   });
 
-  it("seluruh halaman sector P2 masih review/ownerVerified:false/publishedAt:null (menunggu review owner)", () => {
+  it("seluruh halaman sector P2 published/ownerVerified:true/publishedAt terisi (approved 2026-07-28)", () => {
     for (const item of p2) {
-      expect(item.status).toBe("review");
-      expect(item.ownerVerified).toBe(false);
-      expect(item.publishedAt).toBeNull();
-      expect(item.isIndexable).toBe(false);
+      expect(item.status).toBe("published");
+      expect(item.ownerVerified).toBe(true);
+      expect(item.publishedAt).not.toBeNull();
+      expect(item.isIndexable).toBe(true);
     }
   });
 
@@ -286,10 +286,10 @@ describe("Batch 04B — scope-limiting claim register", () => {
 });
 
 describe("Batch 04B — metadata", () => {
-  it("seluruh 8 halaman sector P2 menghasilkan noindex,follow (masih review)", () => {
+  it("seluruh 8 halaman sector P2 menghasilkan index,follow (published sejak 2026-07-28)", () => {
     for (const item of p2) {
       const metadata = buildMetadata(item);
-      expect(metadata.robots).toMatchObject({ index: false, follow: true });
+      expect(metadata.robots).toMatchObject({ index: true, follow: true });
     }
   });
 
@@ -342,10 +342,10 @@ describe("Batch 04B — structured data", () => {
 });
 
 describe("Batch 04B — sitemap and hub", () => {
-  it("halaman sector P2 (masih review) tidak masuk sitemap", () => {
+  it("halaman sector P2 (published sejak 2026-07-28) masuk sitemap", () => {
     const eligible = selectSitemapItems(items).map((item) => item.route);
     for (const item of p2) {
-      expect(eligible).not.toContain(item.route);
+      expect(eligible).toContain(item.route);
     }
   });
 });

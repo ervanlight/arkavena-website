@@ -3893,7 +3893,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "sec-cafe",
     "type": "sector",
-    "status": "review",
+    "status": "published",
     "title": "Kontraktor Cafe dengan Koordinasi Fit-Out dan Utilitas Dapur",
     "slug": "cafe",
     "description": "Layanan konstruksi dan pengendalian proyek cafe Arkavena dengan perhatian pada fit-out, utilitas dapur ringan, ventilasi, dan pengalaman pengunjung.",
@@ -3910,9 +3910,9 @@ export const contentManifest: ContentItem[] = [
       "komersial",
       "finishing"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -3981,7 +3981,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "sector": {
       "buildingType": "Cafe",
       "primaryUseCases": [
@@ -4028,7 +4028,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan",
       "/wilayah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -4268,7 +4268,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "sec-hotel",
     "type": "sector",
-    "status": "review",
+    "status": "published",
     "title": "Kontraktor Hotel dengan Koordinasi Standar Operasional Hospitality",
     "slug": "hotel",
     "description": "Layanan konstruksi dan pengendalian proyek bangunan hotel Arkavena dengan perhatian pada kebutuhan tamu, area servis, utilitas, dan koordinasi dengan spesialis FF&E.",
@@ -4285,9 +4285,9 @@ export const contentManifest: ContentItem[] = [
       "komersial",
       "mep"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -4357,7 +4357,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "sector": {
       "buildingType": "Hotel",
       "primaryUseCases": [
@@ -4405,7 +4405,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan",
       "/wilayah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -4556,7 +4556,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "sec-klinik",
     "type": "sector",
-    "status": "review",
+    "status": "published",
     "title": "Kontraktor Klinik dengan Perhatian pada Standar Fasilitas Kesehatan",
     "slug": "klinik",
     "description": "Layanan konstruksi dan pengendalian proyek bangunan klinik Arkavena dengan perhatian pada alur pasien, kontrol infeksi dasar, dan koordinasi dengan spesialis fasilitas kesehatan.",
@@ -4573,9 +4573,9 @@ export const contentManifest: ContentItem[] = [
       "komersial",
       "mep"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -4645,7 +4645,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "sector": {
       "buildingType": "Klinik",
       "primaryUseCases": [
@@ -4693,7 +4693,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan",
       "/wilayah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -4844,7 +4844,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "sec-masjid",
     "type": "sector",
-    "status": "review",
+    "status": "published",
     "title": "Kontraktor Masjid dengan Perhatian pada Kapasitas Jemaah dan Akustik",
     "slug": "masjid",
     "description": "Layanan konstruksi dan pengendalian proyek bangunan masjid Arkavena dengan perhatian pada kapasitas jemaah, akustik, sirkulasi, dan fasilitas penunjang ibadah.",
@@ -4861,9 +4861,9 @@ export const contentManifest: ContentItem[] = [
       "komersial",
       "struktur"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -4885,7 +4885,9 @@ export const contentManifest: ContentItem[] = [
       "locations": [],
       "guides": [],
       "projects": [],
-      "pinnedRelated": [],
+      "pinnedRelated": [
+        "sec-sekolah"
+      ],
       "excludedRelated": []
     },
     "conversion": {
@@ -4932,7 +4934,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "sector": {
       "buildingType": "Masjid",
       "primaryUseCases": [
@@ -4978,7 +4980,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan",
       "/wilayah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -5131,7 +5133,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "sec-restoran",
     "type": "sector",
-    "status": "review",
+    "status": "published",
     "title": "Kontraktor Restoran dengan Koordinasi Dapur dan Area Servis",
     "slug": "restoran",
     "description": "Layanan konstruksi dan pengendalian proyek restoran Arkavena dengan perhatian pada area dapur, area makan, alur servis, dan koordinasi utilitas bersama spesialis peralatan.",
@@ -5148,9 +5150,9 @@ export const contentManifest: ContentItem[] = [
       "komersial",
       "finishing"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -5220,7 +5222,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "sector": {
       "buildingType": "Restoran",
       "primaryUseCases": [
@@ -5268,7 +5270,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan",
       "/wilayah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -5317,7 +5319,9 @@ export const contentManifest: ContentItem[] = [
       "locations": [],
       "guides": [],
       "projects": [],
-      "pinnedRelated": [],
+      "pinnedRelated": [
+        "sec-showroom-retail"
+      ],
       "excludedRelated": []
     },
     "conversion": {
@@ -5568,7 +5572,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "sec-sekolah",
     "type": "sector",
-    "status": "review",
+    "status": "published",
     "title": "Kontraktor Sekolah dengan Perhatian pada Keselamatan dan Fungsi Ruang Belajar",
     "slug": "sekolah",
     "description": "Layanan konstruksi dan pengendalian proyek bangunan sekolah Arkavena dengan perhatian pada keselamatan, akustik ruang kelas, aksesibilitas, dan fasilitas penunjang.",
@@ -5585,9 +5589,9 @@ export const contentManifest: ContentItem[] = [
       "komersial",
       "struktur"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -5610,7 +5614,9 @@ export const contentManifest: ContentItem[] = [
       "locations": [],
       "guides": [],
       "projects": [],
-      "pinnedRelated": [],
+      "pinnedRelated": [
+        "sec-masjid"
+      ],
       "excludedRelated": []
     },
     "conversion": {
@@ -5657,7 +5663,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "sector": {
       "buildingType": "Sekolah",
       "primaryUseCases": [
@@ -5705,14 +5711,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan",
       "/wilayah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "sec-showroom-retail",
     "type": "sector",
-    "status": "review",
+    "status": "published",
     "title": "Kontraktor Showroom dan Retail dengan Koordinasi Fit-Out Display",
     "slug": "showroom-retail",
     "description": "Layanan konstruksi dan pengendalian proyek showroom dan retail Arkavena dengan perhatian pada alur pengunjung, area display, dan koordinasi visual merchandising.",
@@ -5729,9 +5735,9 @@ export const contentManifest: ContentItem[] = [
       "komersial",
       "finishing"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -5753,7 +5759,9 @@ export const contentManifest: ContentItem[] = [
       "locations": [],
       "guides": [],
       "projects": [],
-      "pinnedRelated": [],
+      "pinnedRelated": [
+        "sec-ruko"
+      ],
       "excludedRelated": []
     },
     "conversion": {
@@ -5800,7 +5808,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "sector": {
       "buildingType": "Showroom dan Retail",
       "primaryUseCases": [
@@ -5847,14 +5855,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan",
       "/wilayah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "sec-villa",
     "type": "sector",
-    "status": "review",
+    "status": "published",
     "title": "Kontraktor Villa dengan Perencanaan Privasi dan Kenyamanan Tamu",
     "slug": "villa",
     "description": "Layanan konstruksi dan pengendalian proyek villa Arkavena dengan perhatian pada privasi, kenyamanan, area outdoor, dan kebutuhan pengelolaan jangka panjang.",
@@ -5871,9 +5879,9 @@ export const contentManifest: ContentItem[] = [
       "residensial",
       "komersial"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -5943,7 +5951,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "sector": {
       "buildingType": "Villa",
       "primaryUseCases": [
@@ -5991,7 +5999,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan",
       "/wilayah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {

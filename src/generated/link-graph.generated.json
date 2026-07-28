@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T06:42:35.362Z",
+  "generatedAt": "2026-07-28T06:55:44.243Z",
   "nodes": {
     "page-cara-kerja": {
       "id": "page-cara-kerja",
@@ -565,10 +565,10 @@
       "type": "service",
       "outbound": [
         "page-panduan",
+        "sec-cafe",
         "sec-gudang",
+        "sec-hotel",
         "sec-kantor",
-        "sec-kos",
-        "sec-pabrik",
         "svc-design-and-build",
         "svc-manajemen-konstruksi",
         "svc-pengawasan-proyek",
@@ -601,24 +601,23 @@
         "sec-showroom-retail",
         "svc-design-and-build",
         "svc-renovasi-bangunan-komersial",
-        "svc-renovasi-rumah",
         "svc-value-engineering"
       ],
       "related": [
+        {
+          "id": "sec-cafe",
+          "score": 48
+        },
         {
           "id": "sec-gudang",
           "score": 48
         },
         {
+          "id": "sec-hotel",
+          "score": 48
+        },
+        {
           "id": "sec-kantor",
-          "score": 48
-        },
-        {
-          "id": "sec-kos",
-          "score": 48
-        },
-        {
-          "id": "sec-pabrik",
           "score": 48
         }
       ]
@@ -691,8 +690,8 @@
       "type": "service",
       "outbound": [
         "page-panduan",
-        "sec-kantor",
         "sec-kos",
+        "sec-masjid",
         "svc-corrective-maintenance-bangunan",
         "svc-manajemen-konstruksi",
         "svc-pengawasan-proyek",
@@ -730,8 +729,8 @@
           "score": 28
         },
         {
-          "id": "sec-kantor",
-          "score": 16
+          "id": "sec-masjid",
+          "score": 28
         }
       ]
     },
@@ -898,7 +897,9 @@
       "type": "service",
       "outbound": [
         "page-panduan",
+        "sec-cafe",
         "sec-kantor",
+        "sec-restoran",
         "sec-ruko",
         "svc-design-and-build",
         "svc-quality-control-konstruksi",
@@ -915,20 +916,20 @@
       ],
       "related": [
         {
+          "id": "sec-cafe",
+          "score": 28
+        },
+        {
           "id": "sec-kantor",
+          "score": 28
+        },
+        {
+          "id": "sec-restoran",
           "score": 28
         },
         {
           "id": "sec-ruko",
           "score": 28
-        },
-        {
-          "id": "svc-design-and-build",
-          "score": 23
-        },
-        {
-          "id": "svc-renovasi-bangunan-komersial",
-          "score": 17
         }
       ]
     },
@@ -1332,8 +1333,9 @@
       "type": "service",
       "outbound": [
         "page-panduan",
+        "sec-cafe",
+        "sec-hotel",
         "sec-kantor",
-        "sec-ruko",
         "svc-bangun-bangunan-komersial",
         "svc-interior-fit-out",
         "svc-pengawasan-proyek",
@@ -1359,16 +1361,16 @@
           "score": 35
         },
         {
+          "id": "sec-cafe",
+          "score": 28
+        },
+        {
+          "id": "sec-hotel",
+          "score": 28
+        },
+        {
           "id": "sec-kantor",
           "score": 28
-        },
-        {
-          "id": "sec-ruko",
-          "score": 28
-        },
-        {
-          "id": "svc-interior-fit-out",
-          "score": 17
         }
       ]
     },
@@ -1379,8 +1381,8 @@
       "outbound": [
         "page-panduan",
         "sec-rumah-tinggal",
+        "sec-villa",
         "svc-audit-biaya-proyek",
-        "svc-bangun-bangunan-komersial",
         "svc-design-and-build",
         "svc-pengawasan-proyek",
         "svc-pengendalian-biaya-proyek",
@@ -1408,11 +1410,11 @@
           "score": 28
         },
         {
-          "id": "svc-audit-biaya-proyek",
-          "score": 15
+          "id": "sec-villa",
+          "score": 28
         },
         {
-          "id": "svc-bangun-bangunan-komersial",
+          "id": "svc-audit-biaya-proyek",
           "score": 15
         }
       ]
@@ -1469,19 +1471,39 @@
         "page-panduan",
         "page-wilayah",
         "sec-gudang",
+        "sec-hotel",
         "sec-kantor",
-        "sec-kos",
-        "sec-pabrik",
+        "sec-klinik",
         "svc-bangun-bangunan-komersial",
         "svc-design-and-build",
         "svc-interior-fit-out",
         "svc-pengawasan-proyek",
         "svc-renovasi-bangunan-komersial"
       ],
-      "inbound": [],
+      "inbound": [
+        "sec-gudang",
+        "sec-hotel",
+        "sec-kantor",
+        "sec-klinik",
+        "sec-kos",
+        "sec-masjid",
+        "sec-pabrik",
+        "sec-restoran",
+        "sec-ruko",
+        "sec-sekolah",
+        "sec-showroom-retail",
+        "sec-villa",
+        "svc-bangun-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-renovasi-bangunan-komersial"
+      ],
       "related": [
         {
           "id": "sec-gudang",
+          "score": 35
+        },
+        {
+          "id": "sec-hotel",
           "score": 35
         },
         {
@@ -1489,11 +1511,7 @@
           "score": 35
         },
         {
-          "id": "sec-kos",
-          "score": 35
-        },
-        {
-          "id": "sec-pabrik",
+          "id": "sec-klinik",
           "score": 35
         }
       ]
@@ -1535,10 +1553,10 @@
       "outbound": [
         "page-panduan",
         "page-wilayah",
+        "sec-cafe",
+        "sec-hotel",
         "sec-kantor",
-        "sec-kos",
-        "sec-pabrik",
-        "sec-ruko",
+        "sec-klinik",
         "svc-bangun-bangunan-komersial",
         "svc-design-and-build",
         "svc-manajemen-konstruksi",
@@ -1566,19 +1584,19 @@
       ],
       "related": [
         {
+          "id": "sec-cafe",
+          "score": 35
+        },
+        {
+          "id": "sec-hotel",
+          "score": 35
+        },
+        {
           "id": "sec-kantor",
           "score": 35
         },
         {
-          "id": "sec-kos",
-          "score": 35
-        },
-        {
-          "id": "sec-pabrik",
-          "score": 35
-        },
-        {
-          "id": "sec-ruko",
+          "id": "sec-klinik",
           "score": 35
         }
       ]
@@ -1590,10 +1608,10 @@
       "outbound": [
         "page-panduan",
         "page-wilayah",
+        "sec-cafe",
         "sec-gudang",
         "sec-kantor",
-        "sec-kos",
-        "sec-pabrik",
+        "sec-klinik",
         "svc-bangun-bangunan-komersial",
         "svc-design-and-build",
         "svc-manajemen-konstruksi",
@@ -1601,8 +1619,27 @@
         "svc-pengawasan-proyek",
         "svc-renovasi-bangunan-komersial"
       ],
-      "inbound": [],
+      "inbound": [
+        "sec-cafe",
+        "sec-gudang",
+        "sec-kantor",
+        "sec-klinik",
+        "sec-kos",
+        "sec-masjid",
+        "sec-pabrik",
+        "sec-restoran",
+        "sec-ruko",
+        "sec-sekolah",
+        "sec-showroom-retail",
+        "sec-villa",
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial"
+      ],
       "related": [
+        {
+          "id": "sec-cafe",
+          "score": 35
+        },
         {
           "id": "sec-gudang",
           "score": 35
@@ -1612,11 +1649,7 @@
           "score": 35
         },
         {
-          "id": "sec-kos",
-          "score": 35
-        },
-        {
-          "id": "sec-pabrik",
+          "id": "sec-klinik",
           "score": 35
         }
       ]
@@ -1628,10 +1661,10 @@
       "outbound": [
         "page-panduan",
         "page-wilayah",
+        "sec-cafe",
         "sec-gudang",
-        "sec-kos",
-        "sec-pabrik",
-        "sec-ruko",
+        "sec-hotel",
+        "sec-klinik",
         "svc-bangun-bangunan-komersial",
         "svc-building-maintenance",
         "svc-design-and-build",
@@ -1646,15 +1679,10 @@
         "sec-hotel",
         "sec-klinik",
         "sec-kos",
-        "sec-masjid",
         "sec-pabrik",
         "sec-restoran",
-        "sec-ruko",
-        "sec-sekolah",
-        "sec-showroom-retail",
         "sec-villa",
         "svc-bangun-bangunan-komersial",
-        "svc-building-maintenance",
         "svc-corrective-maintenance-bangunan",
         "svc-interior-fit-out",
         "svc-preventive-maintenance-bangunan",
@@ -1662,19 +1690,19 @@
       ],
       "related": [
         {
+          "id": "sec-cafe",
+          "score": 35
+        },
+        {
           "id": "sec-gudang",
           "score": 35
         },
         {
-          "id": "sec-kos",
+          "id": "sec-hotel",
           "score": 35
         },
         {
-          "id": "sec-pabrik",
-          "score": 35
-        },
-        {
-          "id": "sec-ruko",
+          "id": "sec-klinik",
           "score": 35
         }
       ]
@@ -1686,10 +1714,10 @@
       "outbound": [
         "page-panduan",
         "page-wilayah",
+        "sec-cafe",
         "sec-gudang",
+        "sec-hotel",
         "sec-kantor",
-        "sec-kos",
-        "sec-pabrik",
         "svc-bangun-bangunan-komersial",
         "svc-design-and-build",
         "svc-owner-representative",
@@ -1697,22 +1725,27 @@
         "svc-quality-control-konstruksi",
         "svc-renovasi-bangunan-komersial"
       ],
-      "inbound": [],
+      "inbound": [
+        "sec-cafe",
+        "sec-gudang",
+        "sec-hotel",
+        "sec-kantor"
+      ],
       "related": [
+        {
+          "id": "sec-cafe",
+          "score": 35
+        },
         {
           "id": "sec-gudang",
           "score": 35
         },
         {
+          "id": "sec-hotel",
+          "score": 35
+        },
+        {
           "id": "sec-kantor",
-          "score": 35
-        },
-        {
-          "id": "sec-kos",
-          "score": 35
-        },
-        {
-          "id": "sec-pabrik",
           "score": 35
         }
       ]
@@ -1724,10 +1757,10 @@
       "outbound": [
         "page-panduan",
         "page-wilayah",
+        "sec-cafe",
         "sec-gudang",
+        "sec-hotel",
         "sec-kantor",
-        "sec-pabrik",
-        "sec-ruko",
         "svc-bangun-bangunan-komersial",
         "svc-building-maintenance",
         "svc-design-and-build",
@@ -1739,38 +1772,25 @@
         "loc-malang",
         "loc-sidoarjo",
         "loc-surabaya",
-        "sec-cafe",
-        "sec-gudang",
-        "sec-hotel",
-        "sec-kantor",
-        "sec-klinik",
-        "sec-masjid",
-        "sec-pabrik",
-        "sec-restoran",
-        "sec-ruko",
-        "sec-sekolah",
-        "sec-showroom-retail",
-        "sec-villa",
-        "svc-bangun-bangunan-komersial",
         "svc-building-maintenance",
         "svc-corrective-maintenance-bangunan",
         "svc-preventive-maintenance-bangunan"
       ],
       "related": [
         {
+          "id": "sec-cafe",
+          "score": 35
+        },
+        {
           "id": "sec-gudang",
           "score": 35
         },
         {
+          "id": "sec-hotel",
+          "score": 35
+        },
+        {
           "id": "sec-kantor",
-          "score": 35
-        },
-        {
-          "id": "sec-pabrik",
-          "score": 35
-        },
-        {
-          "id": "sec-ruko",
           "score": 35
         }
       ]
@@ -1782,32 +1802,35 @@
       "outbound": [
         "page-panduan",
         "page-wilayah",
+        "sec-cafe",
         "sec-gudang",
-        "sec-kantor",
-        "sec-kos",
-        "sec-pabrik",
+        "sec-hotel",
+        "sec-sekolah",
         "svc-bangun-bangunan-komersial",
         "svc-building-maintenance",
         "svc-design-and-build",
         "svc-pengawasan-proyek",
         "svc-renovasi-bangunan-komersial"
       ],
-      "inbound": [],
+      "inbound": [
+        "sec-sekolah",
+        "svc-building-maintenance"
+      ],
       "related": [
+        {
+          "id": "sec-sekolah",
+          "score": 135
+        },
+        {
+          "id": "sec-cafe",
+          "score": 35
+        },
         {
           "id": "sec-gudang",
           "score": 35
         },
         {
-          "id": "sec-kantor",
-          "score": 35
-        },
-        {
-          "id": "sec-kos",
-          "score": 35
-        },
-        {
-          "id": "sec-pabrik",
+          "id": "sec-hotel",
           "score": 35
         }
       ]
@@ -1819,10 +1842,10 @@
       "outbound": [
         "page-panduan",
         "page-wilayah",
+        "sec-cafe",
         "sec-gudang",
+        "sec-hotel",
         "sec-kantor",
-        "sec-kos",
-        "sec-ruko",
         "svc-bangun-bangunan-komersial",
         "svc-design-and-build",
         "svc-manajemen-konstruksi",
@@ -1833,36 +1856,23 @@
       ],
       "inbound": [
         "loc-gresik",
-        "loc-pasuruan",
-        "sec-cafe",
-        "sec-gudang",
-        "sec-hotel",
-        "sec-kantor",
-        "sec-klinik",
-        "sec-kos",
-        "sec-masjid",
-        "sec-restoran",
-        "sec-ruko",
-        "sec-sekolah",
-        "sec-showroom-retail",
-        "sec-villa",
-        "svc-bangun-bangunan-komersial"
+        "loc-pasuruan"
       ],
       "related": [
+        {
+          "id": "sec-cafe",
+          "score": 35
+        },
         {
           "id": "sec-gudang",
           "score": 35
         },
         {
+          "id": "sec-hotel",
+          "score": 35
+        },
+        {
           "id": "sec-kantor",
-          "score": 35
-        },
-        {
-          "id": "sec-kos",
-          "score": 35
-        },
-        {
-          "id": "sec-ruko",
           "score": 35
         }
       ]
@@ -1874,10 +1884,10 @@
       "outbound": [
         "page-panduan",
         "page-wilayah",
+        "sec-cafe",
         "sec-gudang",
+        "sec-hotel",
         "sec-kantor",
-        "sec-kos",
-        "sec-pabrik",
         "svc-bangun-bangunan-komersial",
         "svc-design-and-build",
         "svc-interior-fit-out",
@@ -1885,22 +1895,24 @@
         "svc-pengawasan-proyek",
         "svc-renovasi-bangunan-komersial"
       ],
-      "inbound": [],
+      "inbound": [
+        "svc-interior-fit-out"
+      ],
       "related": [
+        {
+          "id": "sec-cafe",
+          "score": 35
+        },
         {
           "id": "sec-gudang",
           "score": 35
         },
         {
+          "id": "sec-hotel",
+          "score": 35
+        },
+        {
           "id": "sec-kantor",
-          "score": 35
-        },
-        {
-          "id": "sec-kos",
-          "score": 35
-        },
-        {
-          "id": "sec-pabrik",
           "score": 35
         }
       ]
@@ -1912,10 +1924,10 @@
       "outbound": [
         "page-panduan",
         "page-wilayah",
+        "sec-cafe",
         "sec-gudang",
-        "sec-kantor",
-        "sec-kos",
-        "sec-pabrik",
+        "sec-hotel",
+        "sec-showroom-retail",
         "svc-bangun-bangunan-komersial",
         "svc-design-and-build",
         "svc-interior-fit-out",
@@ -1926,28 +1938,24 @@
       "inbound": [
         "loc-mojokerto",
         "loc-sidoarjo",
-        "sec-gudang",
-        "sec-kantor",
-        "sec-kos",
-        "sec-pabrik",
-        "svc-interior-fit-out",
-        "svc-renovasi-bangunan-komersial"
+        "sec-showroom-retail",
+        "svc-interior-fit-out"
       ],
       "related": [
+        {
+          "id": "sec-showroom-retail",
+          "score": 135
+        },
+        {
+          "id": "sec-cafe",
+          "score": 35
+        },
         {
           "id": "sec-gudang",
           "score": 35
         },
         {
-          "id": "sec-kantor",
-          "score": 35
-        },
-        {
-          "id": "sec-kos",
-          "score": 35
-        },
-        {
-          "id": "sec-pabrik",
+          "id": "sec-hotel",
           "score": 35
         }
       ]
@@ -2016,10 +2024,10 @@
       "outbound": [
         "page-panduan",
         "page-wilayah",
+        "sec-cafe",
         "sec-gudang",
-        "sec-kantor",
-        "sec-kos",
-        "sec-pabrik",
+        "sec-hotel",
+        "sec-masjid",
         "svc-bangun-bangunan-komersial",
         "svc-building-maintenance",
         "svc-design-and-build",
@@ -2027,22 +2035,24 @@
         "svc-quality-control-konstruksi",
         "svc-renovasi-bangunan-komersial"
       ],
-      "inbound": [],
+      "inbound": [
+        "sec-masjid"
+      ],
       "related": [
+        {
+          "id": "sec-masjid",
+          "score": 135
+        },
+        {
+          "id": "sec-cafe",
+          "score": 35
+        },
         {
           "id": "sec-gudang",
           "score": 35
         },
         {
-          "id": "sec-kantor",
-          "score": 35
-        },
-        {
-          "id": "sec-kos",
-          "score": 35
-        },
-        {
-          "id": "sec-pabrik",
+          "id": "sec-hotel",
           "score": 35
         }
       ]
@@ -2054,32 +2064,34 @@
       "outbound": [
         "page-panduan",
         "page-wilayah",
+        "sec-cafe",
         "sec-gudang",
-        "sec-kantor",
-        "sec-kos",
-        "sec-pabrik",
+        "sec-hotel",
+        "sec-ruko",
         "svc-bangun-bangunan-komersial",
         "svc-design-and-build",
         "svc-interior-fit-out",
         "svc-pengawasan-proyek",
         "svc-renovasi-bangunan-komersial"
       ],
-      "inbound": [],
+      "inbound": [
+        "sec-ruko"
+      ],
       "related": [
+        {
+          "id": "sec-ruko",
+          "score": 135
+        },
+        {
+          "id": "sec-cafe",
+          "score": 35
+        },
         {
           "id": "sec-gudang",
           "score": 35
         },
         {
-          "id": "sec-kantor",
-          "score": 35
-        },
-        {
-          "id": "sec-kos",
-          "score": 35
-        },
-        {
-          "id": "sec-pabrik",
+          "id": "sec-hotel",
           "score": 35
         }
       ]
@@ -2091,10 +2103,10 @@
       "outbound": [
         "page-panduan",
         "page-wilayah",
+        "sec-cafe",
         "sec-gudang",
+        "sec-hotel",
         "sec-kantor",
-        "sec-kos",
-        "sec-pabrik",
         "svc-bangun-rumah",
         "svc-building-maintenance",
         "svc-design-and-build",
@@ -2102,22 +2114,24 @@
         "svc-renovasi-rumah",
         "svc-value-engineering"
       ],
-      "inbound": [],
+      "inbound": [
+        "svc-renovasi-rumah"
+      ],
       "related": [
+        {
+          "id": "sec-cafe",
+          "score": 35
+        },
         {
           "id": "sec-gudang",
           "score": 35
         },
         {
+          "id": "sec-hotel",
+          "score": 35
+        },
+        {
           "id": "sec-kantor",
-          "score": 35
-        },
-        {
-          "id": "sec-kos",
-          "score": 35
-        },
-        {
-          "id": "sec-pabrik",
           "score": 35
         }
       ]
