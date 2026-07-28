@@ -7199,6 +7199,407 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "guide-apa-itu-building-maintenance",
+    "type": "guide",
+    "status": "review",
+    "title": "Apa Itu Building Maintenance?",
+    "slug": "apa-itu-building-maintenance",
+    "description": "Building maintenance mencakup preventive, corrective, inspeksi, work order, dan pelaporan untuk menjaga kondisi aset bangunan — bukan facility management penuh atau renovasi.",
+    "excerpt": "Peta lengkap fungsi building maintenance — apa yang dicakup, apa yang tidak, dan panduan mana yang relevan untuk setiap area perawatan bangunan.",
+    "seoTitle": "Apa Itu Building Maintenance? | Panduan Arkavena",
+    "primaryKeyword": "apa itu building maintenance",
+    "secondaryKeywords": [
+      "pengertian building maintenance",
+      "fungsi building maintenance"
+    ],
+    "searchIntent": "informational",
+    "cluster": "building-maintenance",
+    "tags": [
+      "perawatan",
+      "pengawasan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Building Maintenance",
+      "heading": "Apa Itu Building Maintenance? Menjaga Kondisi Aset, Bukan Facility Management Penuh",
+      "summary": "Building maintenance mencakup preventive, corrective, inspeksi, dan pelaporan untuk menjaga kondisi aset bangunan — pahami cakupan dan batasannya.",
+      "image": "/images/guides/apa-itu-building-maintenance/hero.webp",
+      "imageAlt": "Ilustrasi konseptual sistem perawatan bangunan"
+    },
+    "relationships": {
+      "services": [
+        "svc-building-maintenance"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-preventive-vs-corrective-maintenance",
+        "guide-jadwal-preventive-maintenance-bangunan",
+        "guide-checklist-inspeksi-gedung",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-fasad-bangunan",
+        "guide-perawatan-mep-bangunan",
+        "guide-kontrak-building-maintenance"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Kebutuhan Perawatan Bangunan Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai kebutuhan building maintenance untuk aset saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Building Maintenance",
+        "href": "/layanan/building-maintenance",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah building maintenance sama dengan facility management?",
+        "answer": "Tidak. Building maintenance berfokus pada menjaga kondisi fisik aset bangunan melalui preventive dan corrective maintenance, sementara facility management umumnya mencakup ruang lingkup yang lebih luas termasuk pengelolaan operasional gedung secara menyeluruh."
+      },
+      {
+        "question": "Apakah building maintenance mencakup renovasi?",
+        "answer": "Tidak. Building maintenance berfokus pada menjaga kondisi aset yang sudah ada agar tetap berfungsi, bukan mengubah atau memperluas bangunan — itu adalah cakupan renovasi, yang merupakan layanan terpisah."
+      },
+      {
+        "question": "Apakah building maintenance termasuk layanan darurat 24 jam?",
+        "answer": "Ketersediaan layanan darurat bergantung pada kesepakatan kontrak spesifik antara pemilik aset dan penyedia jasa — bukan sesuatu yang dapat diasumsikan berlaku untuk semua kontrak building maintenance."
+      },
+      {
+        "question": "Apa bedanya preventive dan corrective maintenance?",
+        "answer": "Preventive maintenance dilakukan terjadwal untuk mencegah masalah sebelum terjadi, sementara corrective maintenance dilakukan sebagai respons terhadap masalah yang sudah muncul — lihat panduan Preventive vs Corrective Maintenance untuk perbandingan lengkap."
+      },
+      {
+        "question": "Siapa yang menentukan prioritas pekerjaan maintenance?",
+        "answer": "Prioritas ditentukan berdasarkan kombinasi kondisi aset, tingkat kekritisan fungsi, dan dampak operasional — keputusan akhir mengenai alokasi anggaran dan prioritas tetap berada di tangan pemilik aset."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Peraturan Menteri Pekerjaan Umum Nomor 24/PRT/M/2008 tentang Pedoman Pemeliharaan dan Perawatan Bangunan Gedung",
+        "url": "https://jdih.pu.go.id/",
+        "publisher": "Kementerian Pekerjaan Umum dan Perumahan Rakyat RI",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "pillar",
+      "pillar": null,
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/apa-itu-building-maintenance",
+    "sourcePath": "content/guides/apa-itu-building-maintenance.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Apa Itu Building Maintenance?",
+        "path": "/panduan/apa-itu-building-maintenance"
+      }
+    ],
+    "wordCount": 491,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/building-maintenance",
+      "/panduan/preventive-vs-corrective-maintenance",
+      "/panduan/jadwal-preventive-maintenance-bangunan",
+      "/panduan/checklist-inspeksi-gedung",
+      "/panduan/perawatan-atap-bangunan",
+      "/panduan/perawatan-fasad-bangunan",
+      "/panduan/perawatan-mep-bangunan",
+      "/panduan/kontrak-building-maintenance"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-apa-itu-design-and-build",
+    "type": "guide",
+    "status": "review",
+    "title": "Apa Itu Design and Build?",
+    "slug": "apa-itu-design-and-build",
+    "description": "Design and build menggabungkan desain dan pelaksanaan dalam satu koordinasi, dari project brief hingga handover — bukan selalu lebih murah atau cepat.",
+    "excerpt": "Peta lengkap pendekatan design and build — apa yang dicakup, apa batasannya, dan panduan mana yang relevan untuk memahami model pengadaan ini.",
+    "seoTitle": "Apa Itu Design and Build? | Panduan Arkavena",
+    "primaryKeyword": "apa itu design and build",
+    "secondaryKeywords": [
+      "pengertian design and build",
+      "model design and build konstruksi"
+    ],
+    "searchIntent": "informational",
+    "cluster": "design-koordinasi",
+    "tags": [
+      "perencanaan",
+      "arsitektur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Design and Documentation",
+      "heading": "Apa Itu Design and Build? Satu Koordinasi untuk Desain dan Pelaksanaan",
+      "summary": "Design and build menggabungkan desain dan pelaksanaan dalam satu koordinasi — pahami cakupan dan batasan model ini sebelum membandingkannya dengan pendekatan lain.",
+      "image": "/images/guides/apa-itu-design-and-build/hero.webp",
+      "imageAlt": "Ilustrasi konseptual koordinasi desain dan pelaksanaan dalam design and build"
+    },
+    "relationships": {
+      "services": [
+        "svc-design-and-build"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-keuntungan-design-and-build",
+        "guide-apa-itu-interior-fit-out",
+        "guide-shop-drawing-konstruksi",
+        "guide-gambar-kerja-vs-gambar-desain",
+        "guide-koordinasi-arsitektur-struktur-mep"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Pendekatan Design and Build Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai pendekatan design and build untuk proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Design and Build",
+        "href": "/layanan/design-and-build",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah design and build selalu lebih murah dibanding metode tradisional?",
+        "answer": "Tidak selalu. Design and build dapat membantu mengidentifikasi masalah biaya lebih awal melalui koordinasi yang lebih erat, tetapi hasil akhir tetap bergantung pada kompleksitas proyek, kualitas brief, dan keputusan yang diambil sepanjang proses — bukan jaminan otomatis lebih murah."
+      },
+      {
+        "question": "Apakah design and build selalu lebih cepat?",
+        "answer": "Tidak selalu. Koordinasi yang lebih erat antara desain dan pelaksanaan berpotensi mempercepat proses, tetapi kecepatan aktual bergantung pada kejelasan brief, kecepatan keputusan owner, dan kompleksitas proyek."
+      },
+      {
+        "question": "Apakah design and build menghilangkan peran owner dalam keputusan desain?",
+        "answer": "Tidak. Owner tetap memiliki peran penting dalam menentukan brief, meninjau desain, dan menyetujui keputusan penting — design and build mengoordinasikan proses ini melalui satu titik kontak, bukan menghilangkan keterlibatan owner."
+      },
+      {
+        "question": "Apakah design and build mencakup seluruh kebutuhan desain spesialis?",
+        "answer": "Tidak otomatis. Cakupan spesialis desain yang termasuk bergantung pada ruang lingkup yang disepakati — kebutuhan desain sangat spesifik mungkin tetap memerlukan konsultan tambahan di luar tim inti."
+      },
+      {
+        "question": "Apa bedanya design and build dengan metode tradisional (desain dan pelaksanaan terpisah)?",
+        "answer": "Pada metode tradisional, desainer dan pelaksana adalah pihak terpisah dengan kontrak masing-masing dengan owner. Pada design and build, desain dan pelaksanaan dikoordinasikan melalui satu titik kontak, meski detail kontraktualnya tetap bergantung pada kesepakatan spesifik."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Project Management Institute — A Guide to the Project Management Body of Knowledge (PMBOK Guide)",
+        "url": "https://www.pmi.org/",
+        "publisher": "Project Management Institute",
+        "accessedAt": "2026-07-28"
+      },
+      {
+        "label": "Undang-Undang Republik Indonesia Nomor 2 Tahun 2017 tentang Jasa Konstruksi",
+        "url": "https://peraturan.bpk.go.id/Details/68432/uu-no-2-tahun-2017",
+        "publisher": "Badan Pemeriksa Keuangan RI (Peraturan.bpk.go.id)",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "pillar",
+      "pillar": null,
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/apa-itu-design-and-build",
+    "sourcePath": "content/guides/apa-itu-design-and-build.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Apa Itu Design and Build?",
+        "path": "/panduan/apa-itu-design-and-build"
+      }
+    ],
+    "wordCount": 477,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/design-and-build",
+      "/panduan/keuntungan-design-and-build",
+      "/panduan/apa-itu-interior-fit-out",
+      "/panduan/shop-drawing-konstruksi",
+      "/panduan/gambar-kerja-vs-gambar-desain",
+      "/panduan/koordinasi-arsitektur-struktur-mep"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-apa-itu-interior-fit-out",
+    "type": "guide",
+    "status": "review",
+    "title": "Apa Itu Interior Fit-Out?",
+    "slug": "apa-itu-interior-fit-out",
+    "description": "Interior fit-out mencakup partisi, ceiling, flooring, dan koordinasi MEP untuk menyelesaikan ruang sesuai kebutuhan tenant — berbeda dari interior design dan renovasi.",
+    "excerpt": "Interior fit-out bukan interior design, bukan renovasi, dan bukan sekadar pengadaan furniture — panduan ini menjelaskan cakupan dan batasannya.",
+    "seoTitle": "Apa Itu Interior Fit-Out? | Panduan Arkavena",
+    "primaryKeyword": "apa itu interior fit out",
+    "secondaryKeywords": [
+      "pengertian interior fit-out",
+      "interior fit-out vs interior design"
+    ],
+    "searchIntent": "informational",
+    "cluster": "design-koordinasi",
+    "tags": [
+      "arsitektur",
+      "finishing"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Design and Documentation",
+      "heading": "Apa Itu Interior Fit-Out? Menyelesaikan Ruang Sesuai Kebutuhan Tenant",
+      "summary": "Interior fit-out mencakup partisi, ceiling, flooring, hingga koordinasi MEP — berbeda dari interior design, renovasi, dan pengadaan furniture semata.",
+      "image": "/images/guides/apa-itu-interior-fit-out/hero.webp",
+      "imageAlt": "Ilustrasi konseptual proses interior fit-out ruang komersial"
+    },
+    "relationships": {
+      "services": [
+        "svc-interior-fit-out",
+        "svc-design-and-build"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-design-and-build",
+        "guide-keuntungan-design-and-build",
+        "guide-koordinasi-arsitektur-struktur-mep"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Kebutuhan Interior Fit-Out Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai kebutuhan interior fit-out untuk ruang saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Interior Fit-Out",
+        "href": "/layanan/interior-fit-out",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah interior fit-out sama dengan interior design?",
+        "answer": "Tidak. Interior design berfokus pada aspek estetika dan konsep ruang, sementara interior fit-out mencakup pelaksanaan fisik penyelesaian ruang — partisi, ceiling, flooring, instalasi listrik dan data — agar ruang siap digunakan sesuai fungsinya."
+      },
+      {
+        "question": "Apakah interior fit-out sama dengan renovasi?",
+        "answer": "Tidak selalu. Interior fit-out umumnya berfokus pada penyelesaian ruang dalam kondisi shell (struktur dasar) menjadi siap pakai, sementara renovasi dapat mencakup perubahan pada bangunan yang sudah memiliki finishing sebelumnya."
+      },
+      {
+        "question": "Apakah interior fit-out termasuk pengadaan furniture?",
+        "answer": "Fixed furniture (furniture yang terpasang permanen, seperti built-in cabinet) dapat termasuk dalam ruang lingkup fit-out, sementara furniture lepas (movable furniture) umumnya menjadi keputusan dan pengadaan terpisah — ini perlu diperjelas dalam ruang lingkup yang disepakati."
+      },
+      {
+        "question": "Apa yang dimaksud dengan kondisi shell dalam konteks fit-out?",
+        "answer": "Kondisi shell adalah kondisi ruang yang baru mencakup struktur dan penutup bangunan dasar, tanpa penyelesaian interior — fit-out adalah proses mengubah kondisi shell ini menjadi ruang yang siap digunakan sesuai kebutuhan tenant."
+      },
+      {
+        "question": "Apakah testing dan snagging termasuk dalam proses fit-out?",
+        "answer": "Ya. Testing (pengujian sistem yang terpasang) dan snagging (identifikasi dan penyelesaian kekurangan sebelum serah terima) umumnya menjadi bagian dari proses fit-out sebelum ruang diserahterimakan kepada tenant atau pemilik."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Undang-Undang Republik Indonesia Nomor 2 Tahun 2017 tentang Jasa Konstruksi",
+        "url": "https://peraturan.bpk.go.id/Details/68432/uu-no-2-tahun-2017",
+        "publisher": "Badan Pemeriksa Keuangan RI (Peraturan.bpk.go.id)",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-apa-itu-design-and-build",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/apa-itu-interior-fit-out",
+    "sourcePath": "content/guides/apa-itu-interior-fit-out.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Apa Itu Interior Fit-Out?",
+        "path": "/panduan/apa-itu-interior-fit-out"
+      }
+    ],
+    "wordCount": 474,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/interior-fit-out",
+      "/layanan/design-and-build",
+      "/panduan/apa-itu-design-and-build",
+      "/panduan/keuntungan-design-and-build",
+      "/panduan/koordinasi-arsitektur-struktur-mep"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "guide-apa-itu-manajemen-konstruksi",
     "type": "guide",
     "status": "review",
@@ -9904,6 +10305,136 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "guide-checklist-inspeksi-gedung",
+    "type": "guide",
+    "status": "review",
+    "title": "Checklist Inspeksi Gedung",
+    "slug": "checklist-inspeksi-gedung",
+    "description": "Checklist area yang umum diperiksa saat inspeksi gedung — envelope, atap, fasad, struktur visual, interior, dan indikasi MEP. Bukan sertifikat keselamatan atau audit struktur.",
+    "excerpt": "Checklist inspeksi gedung membantu memetakan kondisi visual yang perlu diperiksa secara berkala — bukan pengganti audit struktur atau sertifikasi keselamatan.",
+    "seoTitle": "Checklist Inspeksi Gedung | Panduan Arkavena",
+    "primaryKeyword": "checklist inspeksi gedung",
+    "secondaryKeywords": [
+      "daftar periksa kondisi gedung",
+      "inspeksi kondisi bangunan"
+    ],
+    "searchIntent": "informational",
+    "cluster": "building-maintenance",
+    "tags": [
+      "pengawasan",
+      "perawatan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Building Maintenance",
+      "heading": "Checklist Inspeksi Gedung: Pemetaan Visual, Bukan Sertifikat Keselamatan",
+      "summary": "Checklist inspeksi gedung membantu memetakan kondisi visual yang perlu diperiksa secara berkala — bukan pengganti audit struktur, fire safety, atau inspeksi spesialis.",
+      "image": "/images/guides/checklist-inspeksi-gedung/hero.webp",
+      "imageAlt": "Ilustrasi konseptual proses inspeksi kondisi gedung"
+    },
+    "relationships": {
+      "services": [
+        "svc-building-maintenance"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-building-maintenance",
+        "guide-jadwal-preventive-maintenance-bangunan",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-fasad-bangunan",
+        "guide-perawatan-mep-bangunan"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Inspeksi Kondisi Gedung Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai inspeksi kondisi gedung saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Building Maintenance",
+        "href": "/layanan/building-maintenance",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah checklist ini merupakan sertifikat keselamatan gedung?",
+        "answer": "Tidak. Checklist ini adalah alat bantu pemetaan kondisi visual, bukan sertifikat keselamatan, audit struktur, atau audit fire safety resmi — sertifikasi tersebut memerlukan proses dan otoritas terpisah."
+      },
+      {
+        "question": "Apakah hasil checklist bisa menyatakan gedung 'aman'?",
+        "answer": "Tidak. Checklist visual tidak dapat memberikan status 'aman' secara pasti — banyak kondisi berisiko (misalnya masalah struktur tersembunyi atau kegagalan sistem internal) tidak dapat terdeteksi hanya dari observasi visual."
+      },
+      {
+        "question": "Apakah pembaca perlu menguji equipment berbahaya sendiri saat inspeksi?",
+        "answer": "Tidak. Checklist ini berfokus pada observasi visual dan pencatatan indikasi, bukan pengujian langsung terhadap peralatan berisiko seperti panel listrik atau sistem bertekanan — itu memerlukan tenaga kompeten."
+      },
+      {
+        "question": "Seberapa sering inspeksi menggunakan checklist ini sebaiknya dilakukan?",
+        "answer": "Frekuensi bergantung pada kekritisan aset, kondisi lingkungan, dan kebijakan pemilik — tidak ada frekuensi universal yang berlaku untuk semua gedung."
+      },
+      {
+        "question": "Apa yang dilakukan jika checklist menemukan indikasi masalah serius?",
+        "answer": "Indikasi serius — seperti tanda kerusakan struktur, kebocoran signifikan, atau kondisi sistem yang tidak normal — perlu dieskalasikan kepada spesialis terkait untuk kajian lebih lanjut, bukan disimpulkan sendiri dari checklist visual."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Peraturan Menteri Pekerjaan Umum Nomor 24/PRT/M/2008 tentang Pedoman Pemeliharaan dan Perawatan Bangunan Gedung",
+        "url": "https://jdih.pu.go.id/",
+        "publisher": "Kementerian Pekerjaan Umum dan Perumahan Rakyat RI",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "checklist",
+      "pillar": "guide-apa-itu-building-maintenance",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/checklist-inspeksi-gedung",
+    "sourcePath": "content/guides/checklist-inspeksi-gedung.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Checklist Inspeksi Gedung",
+        "path": "/panduan/checklist-inspeksi-gedung"
+      }
+    ],
+    "wordCount": 583,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/building-maintenance",
+      "/panduan/perawatan-atap-bangunan",
+      "/panduan/perawatan-fasad-bangunan",
+      "/panduan/perawatan-mep-bangunan",
+      "/panduan/apa-itu-building-maintenance"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "guide-checklist-persiapan-bangun-rumah",
     "type": "guide",
     "status": "published",
@@ -10247,6 +10778,521 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "guide-gambar-kerja-vs-gambar-desain",
+    "type": "guide",
+    "status": "review",
+    "title": "Gambar Kerja vs Gambar Desain: Perbandingan Praktis",
+    "slug": "gambar-kerja-vs-gambar-desain",
+    "description": "Perbandingan praktis gambar kerja dan gambar desain — tujuan, tingkat detail, pengguna, dan fase penggunaan. Istilah dapat berbeda antarproyek dan kontrak.",
+    "excerpt": "Gambar kerja dan gambar desain melayani tujuan berbeda — panduan ini membandingkan keduanya secara praktis, dan menjelaskan mengapa istilah bisa berbeda antarproyek.",
+    "seoTitle": "Gambar Kerja vs Gambar Desain | Panduan Arkavena",
+    "primaryKeyword": "gambar kerja vs gambar desain",
+    "secondaryKeywords": [
+      "perbedaan gambar kerja dan gambar desain",
+      "istilah dokumen konstruksi"
+    ],
+    "searchIntent": "informational",
+    "cluster": "design-koordinasi",
+    "tags": [
+      "dokumentasi",
+      "arsitektur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Design and Documentation",
+      "heading": "Gambar Kerja vs Gambar Desain: Istilah Bisa Berbeda Antarproyek",
+      "summary": "Perbandingan praktis gambar kerja dan gambar desain — tujuan, tingkat detail, dan fase penggunaan berbeda, dan istilah dapat bervariasi antarproyek dan kontrak.",
+      "image": "/images/guides/gambar-kerja-vs-gambar-desain/hero.webp",
+      "imageAlt": "Ilustrasi konseptual perbandingan gambar kerja dan gambar desain"
+    },
+    "relationships": {
+      "services": [
+        "svc-design-and-build"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-design-and-build",
+        "guide-shop-drawing-konstruksi",
+        "guide-koordinasi-arsitektur-struktur-mep"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Kebutuhan Dokumentasi Proyek Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai kebutuhan gambar kerja dan gambar desain untuk proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Design and Build",
+        "href": "/layanan/design-and-build",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah gambar kerja dan gambar desain selalu berarti hal yang sama di setiap proyek?",
+        "answer": "Tidak. Istilah dan cakupannya dapat berbeda antarproyek dan kontrak — beberapa proyek menggunakan istilah ini secara bergantian, sementara proyek lain membedakannya secara ketat. Definisi yang berlaku untuk proyek Anda sebaiknya merujuk pada dokumen kontrak spesifik."
+      },
+      {
+        "question": "Apakah gambar kerja mencakup seluruh contract documents?",
+        "answer": "Tidak. Gambar kerja adalah salah satu komponen dari contract documents, bukan keseluruhannya — dokumen kontrak biasanya juga mencakup spesifikasi teknis, bill of quantities, dan dokumen lain yang saling melengkapi."
+      },
+      {
+        "question": "Siapa yang menggunakan gambar desain dan siapa yang menggunakan gambar kerja?",
+        "answer": "Gambar desain umumnya digunakan pada tahap perencanaan untuk mengomunikasikan konsep dan intent kepada owner dan pihak terkait, sementara gambar kerja digunakan pada tahap pelaksanaan oleh kontraktor dan tim lapangan sebagai acuan detail konstruksi."
+      },
+      {
+        "question": "Apakah gambar kerja lebih detail dari gambar desain?",
+        "answer": "Umumnya ya. Gambar kerja biasanya memuat detail teknis yang lebih rinci untuk keperluan pelaksanaan, sementara gambar desain lebih berfokus pada konsep dan tampilan keseluruhan — tetapi tingkat detail spesifik tetap bergantung pada konvensi masing-masing proyek."
+      },
+      {
+        "question": "Bagaimana revisi kedua jenis gambar ini dikelola?",
+        "answer": "Baik gambar desain maupun gambar kerja memerlukan pencatatan revisi yang jelas, termasuk nomor revisi dan tanggal, agar seluruh pihak menggunakan versi terkini — mekanisme spesifik pencatatan ini bergantung pada sistem dokumentasi yang disepakati dalam proyek."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Undang-Undang Republik Indonesia Nomor 2 Tahun 2017 tentang Jasa Konstruksi",
+        "url": "https://peraturan.bpk.go.id/Details/68432/uu-no-2-tahun-2017",
+        "publisher": "Badan Pemeriksa Keuangan RI (Peraturan.bpk.go.id)",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "comparison",
+      "pillar": "guide-apa-itu-design-and-build",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/gambar-kerja-vs-gambar-desain",
+    "sourcePath": "content/guides/gambar-kerja-vs-gambar-desain.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Gambar Kerja vs Gambar Desain: Perbandingan Praktis",
+        "path": "/panduan/gambar-kerja-vs-gambar-desain"
+      }
+    ],
+    "wordCount": 588,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/design-and-build",
+      "/panduan/shop-drawing-konstruksi",
+      "/panduan/koordinasi-arsitektur-struktur-mep",
+      "/panduan/apa-itu-design-and-build"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-jadwal-preventive-maintenance-bangunan",
+    "type": "guide",
+    "status": "review",
+    "title": "Cara Membuat Jadwal Preventive Maintenance Bangunan",
+    "slug": "jadwal-preventive-maintenance-bangunan",
+    "description": "Langkah menyusun jadwal preventive maintenance bangunan — dari inventarisasi aset hingga penentuan prioritas, berdasarkan kekritisan dan kondisi, bukan interval universal.",
+    "excerpt": "Jadwal preventive maintenance yang tepat tidak menggunakan interval universal — panduan ini menjelaskan proses menyusunnya berdasarkan kekritisan dan kondisi aset.",
+    "seoTitle": "Cara Membuat Jadwal Preventive Maintenance | Arkavena",
+    "primaryKeyword": "cara membuat jadwal preventive maintenance bangunan",
+    "secondaryKeywords": [
+      "menyusun jadwal maintenance gedung",
+      "interval preventive maintenance"
+    ],
+    "searchIntent": "informational",
+    "cluster": "building-maintenance",
+    "tags": [
+      "perawatan",
+      "perencanaan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Building Maintenance",
+      "heading": "Menyusun Jadwal Preventive Maintenance: Berdasarkan Kekritisan, Bukan Interval Universal",
+      "summary": "Langkah konseptual menyusun jadwal preventive maintenance bangunan berdasarkan kekritisan aset, kondisi operasional, dan rekomendasi manufacturer — bukan satu interval yang berlaku untuk semua.",
+      "image": "/images/guides/jadwal-preventive-maintenance-bangunan/hero.webp",
+      "imageAlt": "Ilustrasi konseptual penyusunan jadwal preventive maintenance bangunan"
+    },
+    "relationships": {
+      "services": [
+        "svc-preventive-maintenance-bangunan"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-building-maintenance",
+        "guide-preventive-vs-corrective-maintenance",
+        "guide-checklist-inspeksi-gedung"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Jadwal Maintenance Aset Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai penyusunan jadwal preventive maintenance untuk aset saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Preventive Maintenance Bangunan",
+        "href": "/layanan/preventive-maintenance-bangunan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah ada interval maintenance yang berlaku untuk semua bangunan?",
+        "answer": "Tidak. Interval yang tepat bergantung pada kekritisan aset, rekomendasi manufacturer, kondisi operasional, lingkungan, riwayat kegagalan, dan ketentuan yang berlaku — panduan ini secara sengaja tidak memberikan satu angka interval universal karena berisiko menyesatkan."
+      },
+      {
+        "question": "Dari mana sumber interval maintenance yang tepat untuk suatu komponen?",
+        "answer": "Sumber utama adalah rekomendasi manufacturer untuk komponen spesifik, disesuaikan dengan kondisi operasional dan lingkungan aktual — bukan asumsi umum yang berlaku untuk semua produk sejenis dari manufacturer berbeda."
+      },
+      {
+        "question": "Apa yang dimaksud dengan asset criticality?",
+        "answer": "Asset criticality adalah tingkat kepentingan suatu aset terhadap fungsi operasional bangunan — aset dengan dampak kegagalan tinggi (misalnya sistem yang menyebabkan gangguan besar jika rusak) umumnya memerlukan perhatian preventive yang lebih intensif dibandingkan aset dengan dampak rendah."
+      },
+      {
+        "question": "Apakah jadwal preventive maintenance bersifat tetap selamanya?",
+        "answer": "Tidak. Jadwal perlu ditinjau ulang secara berkala berdasarkan riwayat kegagalan aktual, perubahan kondisi operasional, atau perubahan rekomendasi manufacturer — bukan dokumen statis yang dibuat sekali dan tidak pernah diperbarui."
+      },
+      {
+        "question": "Siapa yang menentukan prioritas dalam jadwal maintenance?",
+        "answer": "Prioritas ditentukan berdasarkan kombinasi kekritisan aset, risiko kegagalan, dan dampak operasional, dengan keputusan akhir mengenai alokasi sumber daya tetap berada di tangan pemilik aset."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Peraturan Menteri Pekerjaan Umum Nomor 24/PRT/M/2008 tentang Pedoman Pemeliharaan dan Perawatan Bangunan Gedung",
+        "url": "https://jdih.pu.go.id/",
+        "publisher": "Kementerian Pekerjaan Umum dan Perumahan Rakyat RI",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-apa-itu-building-maintenance",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/jadwal-preventive-maintenance-bangunan",
+    "sourcePath": "content/guides/jadwal-preventive-maintenance-bangunan.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Cara Membuat Jadwal Preventive Maintenance Bangunan",
+        "path": "/panduan/jadwal-preventive-maintenance-bangunan"
+      }
+    ],
+    "wordCount": 635,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/preventive-maintenance-bangunan",
+      "/panduan/preventive-vs-corrective-maintenance",
+      "/panduan/checklist-inspeksi-gedung",
+      "/panduan/apa-itu-building-maintenance"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-keuntungan-design-and-build",
+    "type": "guide",
+    "status": "review",
+    "title": "Keuntungan Design and Build: Potensi dan Trade-off",
+    "slug": "keuntungan-design-and-build",
+    "description": "Keuntungan potensial design and build — koordinasi lebih awal, constructability input, dan integrasi jadwal — beserta trade-off yang perlu dipertimbangkan, bukan daftar promosi.",
+    "excerpt": "Design and build menawarkan keuntungan potensial, bukan jaminan — panduan ini membahas keduanya, termasuk trade-off yang perlu dipertimbangkan.",
+    "seoTitle": "Keuntungan Design and Build | Panduan Arkavena",
+    "primaryKeyword": "keuntungan design and build",
+    "secondaryKeywords": [
+      "manfaat design and build",
+      "kelebihan dan trade-off design and build"
+    ],
+    "searchIntent": "informational",
+    "cluster": "design-koordinasi",
+    "tags": [
+      "perencanaan",
+      "arsitektur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Design and Documentation",
+      "heading": "Keuntungan Design and Build: Potensi, Bukan Jaminan",
+      "summary": "Design and build menawarkan keuntungan potensial seperti koordinasi lebih awal dan integrasi jadwal — panduan ini juga membahas trade-off yang perlu dipertimbangkan.",
+      "image": "/images/guides/keuntungan-design-and-build/hero.webp",
+      "imageAlt": "Ilustrasi konseptual keuntungan dan trade-off pendekatan design and build"
+    },
+    "relationships": {
+      "services": [
+        "svc-design-and-build"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-design-and-build",
+        "guide-apa-itu-interior-fit-out",
+        "guide-koordinasi-arsitektur-struktur-mep"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Apakah Design and Build Sesuai untuk Proyek Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi apakah design and build sesuai untuk kebutuhan proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Design and Build",
+        "href": "/layanan/design-and-build",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah keuntungan design and build berlaku untuk semua jenis proyek?",
+        "answer": "Tidak selalu. Manfaat design and build lebih terasa pada proyek dengan kompleksitas tertentu yang membutuhkan koordinasi erat antara desain dan pelaksanaan — proyek yang sangat sederhana mungkin tidak mendapatkan manfaat signifikan dari model ini dibandingkan pendekatan tradisional."
+      },
+      {
+        "question": "Apakah design and build cocok jika saya belum yakin dengan kebutuhan saya?",
+        "answer": "Design and build tetap memerlukan brief awal yang cukup jelas untuk memulai proses. Jika kebutuhan Anda masih sangat belum pasti, waktu tambahan untuk memperjelas brief di awal akan membantu proses berjalan lebih efektif."
+      },
+      {
+        "question": "Apa trade-off utama dari design and build?",
+        "answer": "Trade-off utama termasuk kebutuhan brief yang jelas sejak awal, ketergantungan pada kecepatan keputusan owner, serta kebutuhan governance dan change control yang jelas — tanpa ini, potensi keuntungan design and build tidak akan terealisasi optimal."
+      },
+      {
+        "question": "Apakah design and build mengurangi kebutuhan owner untuk terlibat?",
+        "answer": "Tidak. Owner tetap perlu terlibat dalam menentukan brief, meninjau desain pada titik-titik penting, dan mengambil keputusan tepat waktu — keterlibatan yang kurang justru dapat mengurangi manfaat koordinasi yang ditawarkan model ini."
+      },
+      {
+        "question": "Bagaimana cara mengetahui apakah design and build cocok untuk proyek saya?",
+        "answer": "Ini bergantung pada kompleksitas proyek, kesiapan Anda menyediakan brief awal, dan preferensi tingkat keterlibatan dalam proses desain — pertimbangan ini sebaiknya didiskusikan pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Project Management Institute — A Guide to the Project Management Body of Knowledge (PMBOK Guide)",
+        "url": "https://www.pmi.org/",
+        "publisher": "Project Management Institute",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-apa-itu-design-and-build",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/keuntungan-design-and-build",
+    "sourcePath": "content/guides/keuntungan-design-and-build.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Keuntungan Design and Build: Potensi dan Trade-off",
+        "path": "/panduan/keuntungan-design-and-build"
+      }
+    ],
+    "wordCount": 528,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/design-and-build",
+      "/panduan/apa-itu-design-and-build",
+      "/panduan/apa-itu-interior-fit-out",
+      "/panduan/koordinasi-arsitektur-struktur-mep"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-kontrak-building-maintenance",
+    "type": "guide",
+    "status": "review",
+    "title": "Hal-Hal yang Perlu Diperjelas dalam Kontrak Building Maintenance",
+    "slug": "kontrak-building-maintenance",
+    "description": "Elemen umum kontrak building maintenance yang perlu diperjelas — ruang lingkup, exclusions, response classification, reporting, dan payment basis. Bukan term resmi Arkavena.",
+    "excerpt": "Panduan umum elemen kontrak building maintenance yang perlu diperjelas sebelum menandatangani — bukan nasihat hukum atau term resmi Arkavena.",
+    "seoTitle": "Kontrak Building Maintenance | Panduan Arkavena",
+    "primaryKeyword": "kontrak building maintenance",
+    "secondaryKeywords": [
+      "elemen kontrak maintenance gedung",
+      "ruang lingkup kontrak building maintenance"
+    ],
+    "searchIntent": "informational",
+    "cluster": "building-maintenance",
+    "tags": [
+      "perawatan",
+      "kontrak",
+      "dokumentasi"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Building Maintenance",
+      "heading": "Kontrak Building Maintenance: Hal yang Perlu Diperjelas Sebelum Menandatangani",
+      "summary": "Panduan umum elemen kontrak building maintenance — ruang lingkup, exclusions, response classification, dan payment basis — bukan term resmi Arkavena atau nasihat hukum.",
+      "image": "/images/guides/kontrak-building-maintenance/hero.webp",
+      "imageAlt": "Ilustrasi konseptual elemen kontrak layanan building maintenance"
+    },
+    "relationships": {
+      "services": [
+        "svc-building-maintenance"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-building-maintenance",
+        "guide-preventive-vs-corrective-maintenance",
+        "guide-jadwal-preventive-maintenance-bangunan"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Ruang Lingkup Kontrak Maintenance Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai ruang lingkup kontrak building maintenance untuk aset saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Building Maintenance",
+        "href": "/layanan/building-maintenance",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah panduan ini menjelaskan term resmi kontrak Arkavena?",
+        "answer": "Tidak. Panduan ini menjelaskan elemen umum yang biasa terdapat dalam kontrak building maintenance secara umum sebagai bahan referensi, bukan term resmi, durasi, harga, atau SLA yang berlaku untuk kontrak Arkavena — term spesifik untuk kebutuhan Anda ditentukan pada tahap konsultasi dan dituangkan dalam kontrak."
+      },
+      {
+        "question": "Apakah semua kontrak building maintenance mempunyai response time yang sama?",
+        "answer": "Tidak. Response time dan klasifikasi respons bergantung pada kesepakatan spesifik antara pemilik aset dan penyedia jasa — tidak ada standar tunggal yang berlaku untuk semua kontrak."
+      },
+      {
+        "question": "Apakah panduan ini bisa digunakan sebagai template kontrak?",
+        "answer": "Tidak. Panduan ini menjelaskan elemen yang perlu diperjelas dalam kontrak secara umum, bukan template klausul siap pakai — dokumen kontrak final perlu disusun dan ditinjau sesuai kebutuhan spesifik proyek Anda."
+      },
+      {
+        "question": "Apakah panduan ini merupakan nasihat hukum?",
+        "answer": "Tidak. Panduan ini bersifat informasional umum mengenai elemen kontrak, bukan nasihat hukum — dokumen kontrak final sebaiknya ditinjau oleh pihak yang berwenang secara hukum sebelum ditandatangani."
+      },
+      {
+        "question": "Apa yang termasuk dalam scope kontrak building maintenance?",
+        "answer": "Scope bervariasi tergantung kesepakatan, tetapi umumnya mencakup aset dan area yang dicakup, jenis pekerjaan preventive dan corrective yang termasuk, serta hal-hal yang secara eksplisit dikecualikan (exclusions) — semua ini perlu diperjelas secara tertulis sebelum kontrak disepakati."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Undang-Undang Republik Indonesia Nomor 2 Tahun 2017 tentang Jasa Konstruksi",
+        "url": "https://peraturan.bpk.go.id/Details/68432/uu-no-2-tahun-2017",
+        "publisher": "Badan Pemeriksa Keuangan RI (Peraturan.bpk.go.id)",
+        "accessedAt": "2026-07-28"
+      },
+      {
+        "label": "Peraturan Menteri Pekerjaan Umum Nomor 24/PRT/M/2008 tentang Pedoman Pemeliharaan dan Perawatan Bangunan Gedung",
+        "url": "https://jdih.pu.go.id/",
+        "publisher": "Kementerian Pekerjaan Umum dan Perumahan Rakyat RI",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-apa-itu-building-maintenance",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/kontrak-building-maintenance",
+    "sourcePath": "content/guides/kontrak-building-maintenance.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Hal-Hal yang Perlu Diperjelas dalam Kontrak Building Maintenance",
+        "path": "/panduan/kontrak-building-maintenance"
+      }
+    ],
+    "wordCount": 594,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/building-maintenance",
+      "/panduan/preventive-vs-corrective-maintenance",
+      "/panduan/jadwal-preventive-maintenance-bangunan",
+      "/panduan/apa-itu-building-maintenance"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "guide-kontrak-kerja-konstruksi-rumah",
     "type": "guide",
     "status": "published",
@@ -10479,6 +11525,134 @@ export const contentManifest: ContentItem[] = [
       "/panduan/cara-memilih-kontraktor-rumah"
     ],
     "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-koordinasi-arsitektur-struktur-mep",
+    "type": "guide",
+    "status": "review",
+    "title": "Koordinasi Arsitektur, Struktur, dan MEP",
+    "slug": "koordinasi-arsitektur-struktur-mep",
+    "description": "Proses koordinasi antar disiplin arsitektur, struktur, dan MEP — requirement input, interface identification, issue log, dan revisi. Bukan spesifikasi teknis siap pakai.",
+    "excerpt": "Koordinasi antar disiplin mencegah konflik yang baru terdeteksi di lapangan — panduan ini menjelaskan prosesnya, bukan detail teknis atau clearance universal.",
+    "seoTitle": "Koordinasi Arsitektur, Struktur, dan MEP | Arkavena",
+    "primaryKeyword": "koordinasi arsitektur struktur dan mep",
+    "secondaryKeywords": [
+      "proses koordinasi disiplin konstruksi",
+      "interface arsitektur struktur mep"
+    ],
+    "searchIntent": "informational",
+    "cluster": "design-koordinasi",
+    "tags": [
+      "arsitektur",
+      "struktur",
+      "mep"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Design and Documentation",
+      "heading": "Koordinasi Arsitektur, Struktur, dan MEP: Proses, Bukan Detail Teknis Siap Pakai",
+      "summary": "Koordinasi antar disiplin mencegah konflik yang baru terdeteksi di lapangan — panduan ini menjelaskan proses identifikasi interface, bukan ukuran atau clearance teknis.",
+      "image": "/images/guides/koordinasi-arsitektur-struktur-mep/hero.webp",
+      "imageAlt": "Ilustrasi konseptual koordinasi antar disiplin arsitektur, struktur, dan MEP"
+    },
+    "relationships": {
+      "services": [
+        "svc-design-and-build"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-design-and-build",
+        "guide-shop-drawing-konstruksi",
+        "guide-gambar-kerja-vs-gambar-desain"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Koordinasi Disiplin untuk Proyek Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai koordinasi arsitektur, struktur, dan MEP untuk proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Design and Build",
+        "href": "/layanan/design-and-build",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Mengapa koordinasi antar disiplin ini penting?",
+        "answer": "Tanpa koordinasi yang baik, desain arsitektur, struktur, dan MEP berisiko saling bertentangan — misalnya jalur pipa yang bertabrakan dengan balok struktur, atau bukaan yang tidak terkoordinasi dengan kebutuhan equipment. Konflik ini lebih murah diselesaikan pada tahap desain dibandingkan setelah ditemukan di lapangan."
+      },
+      {
+        "question": "Apakah panduan ini memberikan ukuran atau clearance teknis?",
+        "answer": "Tidak. Ukuran, kapasitas, dan clearance teknis bergantung pada spesifikasi proyek spesifik dan harus ditentukan oleh insinyur atau konsultan terkait — panduan ini menjelaskan proses koordinasi, bukan detail teknis siap pakai."
+      },
+      {
+        "question": "Apa yang dimaksud dengan interface dalam konteks ini?",
+        "answer": "Interface adalah titik pertemuan antar disiplin — misalnya lokasi bukaan pada struktur untuk jalur MEP, atau ruang yang dibutuhkan equipment yang perlu disesuaikan dengan desain arsitektur dan struktur di sekitarnya."
+      },
+      {
+        "question": "Siapa yang terlibat dalam proses koordinasi ini?",
+        "answer": "Proses ini melibatkan arsitek, insinyur struktur, dan konsultan MEP, dengan koordinasi antara ketiganya diperlukan sejak tahap desain untuk mengidentifikasi dan menyelesaikan konflik sebelum pelaksanaan."
+      },
+      {
+        "question": "Apakah issue yang ditemukan selama koordinasi selalu bisa diselesaikan dengan cepat?",
+        "answer": "Tidak selalu. Sebagian isu memerlukan revisi desain yang melibatkan lebih dari satu disiplin, sehingga waktu penyelesaian bergantung pada kompleksitas isu dan kecepatan keputusan dari pihak terkait, termasuk owner untuk isu yang berdampak pada anggaran atau jadwal."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Undang-Undang Republik Indonesia Nomor 2 Tahun 2017 tentang Jasa Konstruksi",
+        "url": "https://peraturan.bpk.go.id/Details/68432/uu-no-2-tahun-2017",
+        "publisher": "Badan Pemeriksa Keuangan RI (Peraturan.bpk.go.id)",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-apa-itu-design-and-build",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/koordinasi-arsitektur-struktur-mep",
+    "sourcePath": "content/guides/koordinasi-arsitektur-struktur-mep.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Koordinasi Arsitektur, Struktur, dan MEP",
+        "path": "/panduan/koordinasi-arsitektur-struktur-mep"
+      }
+    ],
+    "wordCount": 633,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/design-and-build",
+      "/panduan/shop-drawing-konstruksi",
+      "/panduan/gambar-kerja-vs-gambar-desain",
+      "/panduan/apa-itu-design-and-build"
+    ],
+    "isIndexable": false,
     "isFollowable": true
   },
   {
@@ -11127,6 +12301,525 @@ export const contentManifest: ContentItem[] = [
       "/panduan/pengendalian-biaya-proyek",
       "/panduan/apa-itu-value-engineering-konstruksi",
       "/panduan/apa-itu-manajemen-konstruksi"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-perawatan-atap-bangunan",
+    "type": "guide",
+    "status": "review",
+    "title": "Perawatan Atap Bangunan: Tanda yang Perlu Diperhatikan",
+    "slug": "perawatan-atap-bangunan",
+    "description": "Tanda kondisi atap yang perlu diperhatikan dari area aman — drainase, sambungan, dan tanda kerusakan — beserta kapan perlu melibatkan spesialis. Bukan tutorial perbaikan atap.",
+    "excerpt": "Panduan mengenali tanda kondisi atap dari area aman dan kapan perlu mengeskalasi ke spesialis — bukan instruksi naik ke atap atau memperbaiki sendiri.",
+    "seoTitle": "Perawatan Atap Bangunan | Panduan Arkavena",
+    "primaryKeyword": "perawatan atap bangunan",
+    "secondaryKeywords": [
+      "tanda kerusakan atap gedung",
+      "inspeksi kondisi atap"
+    ],
+    "searchIntent": "informational",
+    "cluster": "building-maintenance",
+    "tags": [
+      "perawatan",
+      "risiko"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Building Maintenance",
+      "heading": "Perawatan Atap: Kenali Tanda dari Area Aman, Serahkan Perbaikan ke Spesialis",
+      "summary": "Panduan mengenali tanda kondisi atap yang perlu diperhatikan dari area aman, beserta kapan perlu mengeskalasi ke spesialis — bukan tutorial naik ke atap atau memperbaiki sendiri.",
+      "image": "/images/guides/perawatan-atap-bangunan/hero.webp",
+      "imageAlt": "Ilustrasi konseptual observasi kondisi atap dari area aman"
+    },
+    "relationships": {
+      "services": [
+        "svc-building-maintenance"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-building-maintenance",
+        "guide-checklist-inspeksi-gedung",
+        "guide-perawatan-fasad-bangunan",
+        "guide-perawatan-mep-bangunan"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Kondisi Atap Bangunan Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya melihat indikasi tertentu pada atap bangunan saya dan ingin berkonsultasi."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Building Maintenance",
+        "href": "/layanan/building-maintenance",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah panduan ini mengajarkan cara memperbaiki atap sendiri?",
+        "answer": "Tidak. Panduan ini menjelaskan cara mengenali tanda kondisi atap dari area aman dan kapan perlu melibatkan spesialis — bukan instruksi naik ke atap, membuka penutup, atau memperbaiki sendiri, karena pekerjaan tersebut berisiko tinggi dan memerlukan tenaga kompeten."
+      },
+      {
+        "question": "Apakah panduan ini menjamin atap akan bebas bocor secara permanen?",
+        "answer": "Tidak. Perawatan rutin membantu mendeteksi dan menangani masalah lebih awal, tetapi tidak dapat menjamin atap bebas bocor secara permanen — kondisi cuaca ekstrem, usia material, dan faktor lain tetap dapat menyebabkan masalah baru."
+      },
+      {
+        "question": "Apa yang harus dilakukan jika melihat tanda kerusakan atap?",
+        "answer": "Dokumentasikan tanda yang terlihat dari area aman, lalu hubungi kontraktor atau spesialis atap untuk pemeriksaan langsung — jangan mencoba memeriksa atau memperbaiki sendiri, terutama jika memerlukan naik ke atap."
+      },
+      {
+        "question": "Apakah semua kebocoran atap memerlukan penanganan segera?",
+        "answer": "Sebagian besar tanda kebocoran sebaiknya ditangani secepatnya untuk mencegah kerusakan meluas, tetapi kondisi tertentu — seperti air mengenai instalasi listrik atau material yang tampak akan jatuh — memerlukan penanganan segera dan darurat."
+      },
+      {
+        "question": "Apakah pengecekan atap perlu dilakukan sendiri secara berkala?",
+        "answer": "Observasi dari area aman (misalnya dari dalam ruangan, memeriksa tanda kelembapan di plafon) dapat dilakukan berkala, tetapi pemeriksaan langsung di permukaan atap memerlukan tenaga profesional dengan peralatan keselamatan yang sesuai."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Peraturan Menteri Pekerjaan Umum Nomor 24/PRT/M/2008 tentang Pedoman Pemeliharaan dan Perawatan Bangunan Gedung",
+        "url": "https://jdih.pu.go.id/",
+        "publisher": "Kementerian Pekerjaan Umum dan Perumahan Rakyat RI",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-apa-itu-building-maintenance",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/perawatan-atap-bangunan",
+    "sourcePath": "content/guides/perawatan-atap-bangunan.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Perawatan Atap Bangunan: Tanda yang Perlu Diperhatikan",
+        "path": "/panduan/perawatan-atap-bangunan"
+      }
+    ],
+    "wordCount": 611,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/building-maintenance",
+      "/panduan/checklist-inspeksi-gedung",
+      "/panduan/perawatan-fasad-bangunan",
+      "/panduan/perawatan-mep-bangunan",
+      "/panduan/renovasi-atap-bocor",
+      "/panduan/apa-itu-building-maintenance"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-perawatan-fasad-bangunan",
+    "type": "guide",
+    "status": "review",
+    "title": "Perawatan Fasad Bangunan: Tanda yang Perlu Diperhatikan",
+    "slug": "perawatan-fasad-bangunan",
+    "description": "Tanda kondisi fasad yang perlu diperhatikan — retak, sealant, elemen lepas, dan water ingress — beserta kapan perlu melibatkan spesialis. Bukan panduan kerja di ketinggian.",
+    "excerpt": "Panduan mengenali tanda kondisi fasad dan kapan perlu mengeskalasi ke spesialis — bukan instruksi kerja di ketinggian, scaffolding, atau rope access.",
+    "seoTitle": "Perawatan Fasad Bangunan | Panduan Arkavena",
+    "primaryKeyword": "perawatan fasad bangunan",
+    "secondaryKeywords": [
+      "tanda kerusakan fasad gedung",
+      "inspeksi kondisi fasad"
+    ],
+    "searchIntent": "informational",
+    "cluster": "building-maintenance",
+    "tags": [
+      "perawatan",
+      "risiko"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Building Maintenance",
+      "heading": "Perawatan Fasad: Kenali Tanda Visual, Serahkan Akses Ketinggian ke Spesialis",
+      "summary": "Panduan mengenali tanda kondisi fasad yang perlu diperhatikan, beserta kapan perlu mengeskalasi ke spesialis — bukan instruksi kerja di ketinggian, scaffolding, gondola, atau rope access.",
+      "image": "/images/guides/perawatan-fasad-bangunan/hero.webp",
+      "imageAlt": "Ilustrasi konseptual observasi kondisi fasad bangunan"
+    },
+    "relationships": {
+      "services": [
+        "svc-building-maintenance"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-building-maintenance",
+        "guide-checklist-inspeksi-gedung",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-mep-bangunan"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Kondisi Fasad Bangunan Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya melihat indikasi tertentu pada fasad bangunan saya dan ingin berkonsultasi."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Building Maintenance",
+        "href": "/layanan/building-maintenance",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah panduan ini mengajarkan cara memperbaiki fasad sendiri?",
+        "answer": "Tidak. Panduan ini menjelaskan cara mengenali tanda kondisi fasad dari observasi visual, bukan instruksi kerja di ketinggian menggunakan scaffolding, gondola, atau rope access — pekerjaan tersebut memerlukan tenaga profesional bersertifikat."
+      },
+      {
+        "question": "Mengapa perawatan fasad berisiko terhadap area publik?",
+        "answer": "Elemen fasad yang lepas atau material yang jatuh dapat membahayakan orang di area sekitar bangunan, terutama pada bangunan bertingkat — inilah sebabnya kondisi tertentu memerlukan eskalasi segera dan pembatasan akses area di bawahnya."
+      },
+      {
+        "question": "Apa yang harus dilakukan jika melihat retak pada fasad?",
+        "answer": "Dokumentasikan lokasi dan kondisi retak yang terlihat, lalu hubungi spesialis untuk pemeriksaan lebih lanjut — jangan menyimpulkan sendiri tingkat keparahan retak tanpa kajian teknis."
+      },
+      {
+        "question": "Apakah semua noda pada fasad menandakan masalah serius?",
+        "answer": "Tidak selalu. Noda dapat disebabkan berbagai faktor, dari yang bersifat kosmetik hingga yang mengindikasikan water ingress — penyebab pasti perlu dipastikan melalui pemeriksaan langsung oleh spesialis."
+      },
+      {
+        "question": "Apakah pengecekan fasad bisa dilakukan tanpa alat khusus?",
+        "answer": "Observasi visual dari bawah atau dari dalam bangunan dapat dilakukan tanpa alat khusus, tetapi pemeriksaan detail pada elemen fasad di ketinggian memerlukan akses khusus (scaffolding, gondola, atau rope access) yang harus dioperasikan oleh tenaga terlatih."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Peraturan Menteri Pekerjaan Umum Nomor 24/PRT/M/2008 tentang Pedoman Pemeliharaan dan Perawatan Bangunan Gedung",
+        "url": "https://jdih.pu.go.id/",
+        "publisher": "Kementerian Pekerjaan Umum dan Perumahan Rakyat RI",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-apa-itu-building-maintenance",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/perawatan-fasad-bangunan",
+    "sourcePath": "content/guides/perawatan-fasad-bangunan.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Perawatan Fasad Bangunan: Tanda yang Perlu Diperhatikan",
+        "path": "/panduan/perawatan-fasad-bangunan"
+      }
+    ],
+    "wordCount": 588,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/building-maintenance",
+      "/panduan/checklist-inspeksi-gedung",
+      "/panduan/perawatan-atap-bangunan",
+      "/panduan/perawatan-mep-bangunan",
+      "/panduan/renovasi-fasad-rumah",
+      "/panduan/apa-itu-building-maintenance"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-perawatan-mep-bangunan",
+    "type": "guide",
+    "status": "review",
+    "title": "Perawatan MEP Bangunan: Tanda yang Perlu Diperhatikan",
+    "slug": "perawatan-mep-bangunan",
+    "description": "Asset register dan indikasi abnormal pada sistem MEP bangunan — mekanikal, elektrikal, plumbing. Pekerjaan sistem harus dilakukan tenaga kompeten.",
+    "excerpt": "Panduan mengenali indikasi abnormal pada sistem MEP dan kapan perlu melibatkan tenaga kompeten — bukan instruksi membuka atau memperbaiki sistem sendiri.",
+    "seoTitle": "Perawatan MEP Bangunan | Panduan Arkavena",
+    "primaryKeyword": "perawatan mep bangunan",
+    "secondaryKeywords": [
+      "perawatan sistem mekanikal elektrikal plumbing",
+      "indikasi masalah sistem mep"
+    ],
+    "searchIntent": "informational",
+    "cluster": "building-maintenance",
+    "tags": [
+      "perawatan",
+      "risiko",
+      "mep"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Building Maintenance",
+      "heading": "Perawatan MEP: Kenali Indikasi, Serahkan Pekerjaan Sistem ke Tenaga Kompeten",
+      "summary": "Panduan mengenali indikasi abnormal pada sistem mekanikal, elektrikal, dan plumbing, beserta kapan perlu melibatkan tenaga kompeten — bukan instruksi membuka atau memperbaiki sistem sendiri.",
+      "image": "/images/guides/perawatan-mep-bangunan/hero.webp",
+      "imageAlt": "Ilustrasi konseptual pemantauan kondisi sistem MEP bangunan"
+    },
+    "relationships": {
+      "services": [
+        "svc-building-maintenance"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-building-maintenance",
+        "guide-checklist-inspeksi-gedung",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-fasad-bangunan"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Kondisi Sistem MEP Bangunan Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya melihat indikasi tertentu pada sistem MEP bangunan saya dan ingin berkonsultasi."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Building Maintenance",
+        "href": "/layanan/building-maintenance",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah panduan ini mengajarkan cara memperbaiki sistem MEP sendiri?",
+        "answer": "Tidak. Panduan ini menjelaskan cara mengenali indikasi abnormal pada sistem MEP, bukan instruksi membuka panel listrik, membongkar sistem, atau memperbaiki instalasi aktif — pekerjaan tersebut hanya boleh dilakukan tenaga kompeten dan bersertifikat sesuai jenis sistemnya."
+      },
+      {
+        "question": "Apa yang dimaksud dengan asset register dalam konteks MEP?",
+        "answer": "Asset register adalah daftar terdokumentasi dari peralatan dan sistem MEP yang dimiliki, termasuk informasi seperti jenis, lokasi, dan riwayat perawatannya — ini menjadi dasar untuk perencanaan preventive maintenance yang terstruktur."
+      },
+      {
+        "question": "Apa yang harus dilakukan jika mendengar suara atau bau tidak biasa dari sistem MEP?",
+        "answer": "Laporkan indikasi tersebut kepada teknisi atau spesialis yang relevan untuk pemeriksaan lebih lanjut — jangan mencoba membuka atau memeriksa sistem sendiri, terutama untuk sistem kelistrikan, gas, atau bertekanan yang berisiko tinggi."
+      },
+      {
+        "question": "Apakah semua pekerjaan MEP memerlukan tenaga bersertifikat khusus?",
+        "answer": "Sebagian besar pekerjaan yang melibatkan sistem aktif — kelistrikan, gas, sistem bertekanan, refrigerant, fire alarm, fire suppression, atau lift — memerlukan tenaga kompeten dan dalam banyak kasus bersertifikat sesuai regulasi yang berlaku, bukan pekerjaan yang bisa dilakukan tanpa keahlian khusus."
+      },
+      {
+        "question": "Bagaimana shutdown sistem direncanakan saat maintenance?",
+        "answer": "Shutdown sistem MEP untuk keperluan maintenance perlu direncanakan dengan mempertimbangkan dampak operasional, dikoordinasikan dengan pihak yang menggunakan bangunan, dan dilaksanakan oleh tenaga yang berwenang melakukan work authorization untuk sistem tersebut."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Peraturan Menteri Pekerjaan Umum Nomor 24/PRT/M/2008 tentang Pedoman Pemeliharaan dan Perawatan Bangunan Gedung",
+        "url": "https://jdih.pu.go.id/",
+        "publisher": "Kementerian Pekerjaan Umum dan Perumahan Rakyat RI",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-apa-itu-building-maintenance",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/perawatan-mep-bangunan",
+    "sourcePath": "content/guides/perawatan-mep-bangunan.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Perawatan MEP Bangunan: Tanda yang Perlu Diperhatikan",
+        "path": "/panduan/perawatan-mep-bangunan"
+      }
+    ],
+    "wordCount": 637,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/building-maintenance",
+      "/panduan/checklist-inspeksi-gedung",
+      "/panduan/perawatan-atap-bangunan",
+      "/panduan/perawatan-fasad-bangunan",
+      "/panduan/apa-itu-building-maintenance"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-preventive-vs-corrective-maintenance",
+    "type": "guide",
+    "status": "review",
+    "title": "Preventive vs Corrective Maintenance: Perbandingan",
+    "slug": "preventive-vs-corrective-maintenance",
+    "description": "Perbandingan trigger, tujuan, timing, data, dan dokumentasi antara preventive dan corrective maintenance — keduanya saling melengkapi, bukan saling menggantikan.",
+    "excerpt": "Preventive maintenance tidak menghilangkan kebutuhan corrective maintenance — panduan ini membandingkan kapan masing-masing pendekatan sesuai digunakan.",
+    "seoTitle": "Preventive vs Corrective Maintenance | Panduan Arkavena",
+    "primaryKeyword": "preventive maintenance vs corrective maintenance",
+    "secondaryKeywords": [
+      "perbedaan preventive dan corrective maintenance",
+      "kapan pakai corrective maintenance"
+    ],
+    "searchIntent": "informational",
+    "cluster": "building-maintenance",
+    "tags": [
+      "perawatan",
+      "risiko"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Building Maintenance",
+      "heading": "Preventive vs Corrective Maintenance: Saling Melengkapi, Bukan Saling Menggantikan",
+      "summary": "Perbandingan trigger, tujuan, dan timing antara preventive dan corrective maintenance — preventive tidak menghilangkan kebutuhan corrective.",
+      "image": "/images/guides/preventive-vs-corrective-maintenance/hero.webp",
+      "imageAlt": "Ilustrasi konseptual perbandingan preventive dan corrective maintenance"
+    },
+    "relationships": {
+      "services": [
+        "svc-building-maintenance",
+        "svc-preventive-maintenance-bangunan",
+        "svc-corrective-maintenance-bangunan"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-building-maintenance",
+        "guide-jadwal-preventive-maintenance-bangunan",
+        "guide-kontrak-building-maintenance"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Strategi Maintenance Aset Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai strategi preventive dan corrective maintenance untuk aset saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Building Maintenance",
+        "href": "/layanan/building-maintenance",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah preventive maintenance menghilangkan kebutuhan corrective maintenance?",
+        "answer": "Tidak. Preventive maintenance mengurangi frekuensi masalah tak terduga, tetapi tidak dapat menghilangkan seluruh kebutuhan corrective maintenance — kegagalan komponen atau kejadian tak terduga tetap dapat terjadi meski program preventive dijalankan dengan baik."
+      },
+      {
+        "question": "Mana yang lebih murah, preventive atau corrective?",
+        "answer": "Ini bergantung pada konteks. Preventive maintenance memerlukan biaya terjadwal yang lebih terprediksi, sementara corrective maintenance dapat lebih mahal jika masalah sudah membesar — tetapi tidak semua komponen memerlukan preventive maintenance intensif, tergantung kekritisan dan risiko kegagalannya."
+      },
+      {
+        "question": "Apakah semua aset memerlukan preventive maintenance?",
+        "answer": "Tidak semua. Kebutuhan preventive maintenance bergantung pada kekritisan fungsi aset, konsekuensi kegagalan, dan rekomendasi manufacturer — aset dengan risiko kegagalan rendah dan dampak minimal mungkin cukup ditangani secara corrective."
+      },
+      {
+        "question": "Apa yang dimaksud dengan downtime dalam konteks ini?",
+        "answer": "Downtime adalah periode ketika aset atau sistem tidak dapat berfungsi normal. Preventive maintenance umumnya direncanakan untuk meminimalkan downtime, sementara corrective maintenance sering terjadi tanpa rencana sehingga downtime-nya lebih sulit diprediksi."
+      },
+      {
+        "question": "Bagaimana menentukan aset mana yang perlu preventive maintenance?",
+        "answer": "Ini ditentukan berdasarkan kekritisan fungsi, dampak kegagalan terhadap operasional, biaya penggantian, dan rekomendasi manufacturer — bukan aturan tunggal yang berlaku sama untuk semua aset."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Peraturan Menteri Pekerjaan Umum Nomor 24/PRT/M/2008 tentang Pedoman Pemeliharaan dan Perawatan Bangunan Gedung",
+        "url": "https://jdih.pu.go.id/",
+        "publisher": "Kementerian Pekerjaan Umum dan Perumahan Rakyat RI",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "comparison",
+      "pillar": "guide-apa-itu-building-maintenance",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/preventive-vs-corrective-maintenance",
+    "sourcePath": "content/guides/preventive-vs-corrective-maintenance.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Preventive vs Corrective Maintenance: Perbandingan",
+        "path": "/panduan/preventive-vs-corrective-maintenance"
+      }
+    ],
+    "wordCount": 465,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/building-maintenance",
+      "/panduan/jadwal-preventive-maintenance-bangunan",
+      "/panduan/kontrak-building-maintenance",
+      "/panduan/apa-itu-building-maintenance"
     ],
     "isIndexable": false,
     "isFollowable": true
@@ -12130,6 +13823,133 @@ export const contentManifest: ContentItem[] = [
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],
     "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-shop-drawing-konstruksi",
+    "type": "guide",
+    "status": "review",
+    "title": "Apa Itu Shop Drawing Konstruksi?",
+    "slug": "shop-drawing-konstruksi",
+    "description": "Shop drawing menerjemahkan design documents menjadi informasi fabrikasi dan instalasi — tujuan, alur review, dan status approval bergantung kontrak, bukan aturan universal.",
+    "excerpt": "Shop drawing bukan design drawing, dan approval-nya tidak otomatis mengalihkan tanggung jawab desain — panduan ini menjelaskan cakupan dan batasannya.",
+    "seoTitle": "Apa Itu Shop Drawing Konstruksi? | Arkavena",
+    "primaryKeyword": "apa itu shop drawing konstruksi",
+    "secondaryKeywords": [
+      "pengertian shop drawing",
+      "proses review shop drawing"
+    ],
+    "searchIntent": "informational",
+    "cluster": "design-koordinasi",
+    "tags": [
+      "dokumentasi",
+      "arsitektur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Design and Documentation",
+      "heading": "Shop Drawing: Informasi Fabrikasi, Bukan Pengalihan Tanggung Jawab Desain",
+      "summary": "Shop drawing menerjemahkan design documents menjadi informasi fabrikasi dan instalasi — kewenangan penyiapan dan review-nya bergantung pada kontrak setiap proyek.",
+      "image": "/images/guides/shop-drawing-konstruksi/hero.webp",
+      "imageAlt": "Ilustrasi konseptual proses shop drawing dalam koordinasi konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-design-and-build"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-design-and-build",
+        "guide-gambar-kerja-vs-gambar-desain",
+        "guide-koordinasi-arsitektur-struktur-mep"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Proses Dokumentasi Konstruksi Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai proses shop drawing untuk proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Design and Build",
+        "href": "/layanan/design-and-build",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Siapa yang menyiapkan shop drawing?",
+        "answer": "Ini bergantung pada kontrak masing-masing proyek — umumnya disiapkan oleh kontraktor atau subkontraktor/fabricator yang melaksanakan pekerjaan tersebut, berdasarkan design documents yang menjadi acuan. Kewenangan dan tanggung jawab spesifik ditentukan oleh dokumen kontrak."
+      },
+      {
+        "question": "Apakah persetujuan (approval) shop drawing berarti tanggung jawab desain berpindah ke pihak yang menyetujui?",
+        "answer": "Tidak secara otomatis. Approval shop drawing umumnya berarti dokumen tersebut dianggap sesuai untuk dilanjutkan ke tahap fabrikasi atau instalasi, tetapi implikasi terhadap tanggung jawab desain bergantung sepenuhnya pada ketentuan kontrak — ini bukan kesimpulan universal yang berlaku sama di semua proyek."
+      },
+      {
+        "question": "Apakah approval shop drawing menghilangkan tanggung jawab kontraktor?",
+        "answer": "Tidak. Approval shop drawing tidak secara otomatis menghilangkan tanggung jawab kontraktor untuk melaksanakan pekerjaan sesuai spesifikasi dan standar yang berlaku — pembagian tanggung jawab ini ditentukan oleh kontrak, bukan oleh proses approval itu sendiri."
+      },
+      {
+        "question": "Apa bedanya shop drawing dengan design drawing?",
+        "answer": "Design drawing menjelaskan desain yang dimaksudkan (intent), sementara shop drawing menerjemahkan desain tersebut menjadi informasi detail untuk fabrikasi atau instalasi — lihat panduan Gambar Kerja vs Gambar Desain untuk pembahasan lebih lanjut."
+      },
+      {
+        "question": "Apakah shop drawing yang disetujui menjamin pekerjaan akan benar?",
+        "answer": "Tidak. Approval shop drawing menandakan dokumen tersebut telah ditinjau dan dianggap sesuai untuk dilanjutkan, tetapi tidak menjamin pelaksanaan pekerjaan aktual di lapangan akan selalu sesuai dokumen tersebut — verifikasi pelaksanaan tetap diperlukan secara terpisah."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Undang-Undang Republik Indonesia Nomor 2 Tahun 2017 tentang Jasa Konstruksi",
+        "url": "https://peraturan.bpk.go.id/Details/68432/uu-no-2-tahun-2017",
+        "publisher": "Badan Pemeriksa Keuangan RI (Peraturan.bpk.go.id)",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-apa-itu-design-and-build",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/shop-drawing-konstruksi",
+    "sourcePath": "content/guides/shop-drawing-konstruksi.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Apa Itu Shop Drawing Konstruksi?",
+        "path": "/panduan/shop-drawing-konstruksi"
+      }
+    ],
+    "wordCount": 605,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/design-and-build",
+      "/panduan/gambar-kerja-vs-gambar-desain",
+      "/panduan/koordinasi-arsitektur-struktur-mep",
+      "/panduan/apa-itu-design-and-build"
+    ],
+    "isIndexable": false,
     "isFollowable": true
   },
   {

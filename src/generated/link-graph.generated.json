@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T16:00:46.260Z",
+  "generatedAt": "2026-07-28T16:33:28.005Z",
   "nodes": {
     "page-cara-kerja": {
       "id": "page-cara-kerja",
@@ -526,6 +526,7 @@
       ],
       "inbound": [
         "guide-contoh-panduan",
+        "guide-jadwal-preventive-maintenance-bangunan",
         "guide-owner-representative-proyek-konstruksi",
         "guide-pengendalian-biaya-proyek",
         "guide-pengendalian-cashflow-proyek",
@@ -577,6 +578,8 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "guide-apa-itu-design-and-build",
+        "guide-apa-itu-interior-fit-out",
         "guide-biaya-bangun-cafe",
         "guide-biaya-bangun-gudang",
         "guide-biaya-bangun-kantor",
@@ -588,6 +591,10 @@
         "guide-biaya-bangun-ruko",
         "guide-biaya-bangun-sekolah",
         "guide-contoh-panduan",
+        "guide-gambar-kerja-vs-gambar-desain",
+        "guide-keuntungan-design-and-build",
+        "guide-koordinasi-arsitektur-struktur-mep",
+        "guide-shop-drawing-konstruksi",
         "guide-tahapan-proyek-bangunan-komersial",
         "loc-gresik",
         "loc-pasuruan",
@@ -651,6 +658,8 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-apa-itu-design-and-build",
+        "guide-apa-itu-interior-fit-out",
         "guide-biaya-bangun-rumah-per-meter",
         "guide-borongan-vs-harian-bangun-rumah",
         "guide-cara-membaca-rab-rumah",
@@ -658,8 +667,12 @@
         "guide-cara-menghitung-biaya-bangun-rumah",
         "guide-checklist-persiapan-bangun-rumah",
         "guide-contoh-panduan",
+        "guide-gambar-kerja-vs-gambar-desain",
+        "guide-keuntungan-design-and-build",
         "guide-kontrak-kerja-konstruksi-rumah",
         "guide-kontraktor-vs-tukang",
+        "guide-koordinasi-arsitektur-struktur-mep",
+        "guide-shop-drawing-konstruksi",
         "guide-tahapan-bangun-rumah-dari-nol",
         "loc-lamongan",
         "loc-malang",
@@ -710,8 +723,16 @@
         "svc-preventive-maintenance-bangunan"
       ],
       "inbound": [
+        "guide-apa-itu-building-maintenance",
         "guide-biaya-bangun-masjid",
+        "guide-checklist-inspeksi-gedung",
         "guide-contoh-panduan",
+        "guide-jadwal-preventive-maintenance-bangunan",
+        "guide-kontrak-building-maintenance",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-fasad-bangunan",
+        "guide-perawatan-mep-bangunan",
+        "guide-preventive-vs-corrective-maintenance",
         "project-hunian-lamongan-2022",
         "project-kos-dau-malang-2020",
         "project-kos-sidoarjo-2023-2026",
@@ -789,6 +810,14 @@
         "svc-preventive-maintenance-bangunan"
       ],
       "inbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-checklist-inspeksi-gedung",
+        "guide-jadwal-preventive-maintenance-bangunan",
+        "guide-kontrak-building-maintenance",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-fasad-bangunan",
+        "guide-perawatan-mep-bangunan",
+        "guide-preventive-vs-corrective-maintenance",
         "svc-building-maintenance",
         "svc-preventive-maintenance-bangunan"
       ],
@@ -825,6 +854,12 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-apa-itu-design-and-build",
+        "guide-apa-itu-interior-fit-out",
+        "guide-gambar-kerja-vs-gambar-desain",
+        "guide-keuntungan-design-and-build",
+        "guide-koordinasi-arsitektur-struktur-mep",
+        "guide-shop-drawing-konstruksi",
         "guide-tahapan-proyek-bangunan-komersial",
         "loc-lamongan",
         "loc-malang",
@@ -922,10 +957,16 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-apa-itu-design-and-build",
+        "guide-apa-itu-interior-fit-out",
         "guide-biaya-bangun-cafe",
         "guide-biaya-bangun-kantor",
         "guide-biaya-bangun-restoran",
         "guide-biaya-bangun-ruko",
+        "guide-gambar-kerja-vs-gambar-desain",
+        "guide-keuntungan-design-and-build",
+        "guide-koordinasi-arsitektur-struktur-mep",
+        "guide-shop-drawing-konstruksi",
         "guide-tahapan-proyek-bangunan-komersial",
         "sec-cafe",
         "sec-kantor",
@@ -1343,6 +1384,14 @@
         "svc-corrective-maintenance-bangunan"
       ],
       "inbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-checklist-inspeksi-gedung",
+        "guide-jadwal-preventive-maintenance-bangunan",
+        "guide-kontrak-building-maintenance",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-fasad-bangunan",
+        "guide-perawatan-mep-bangunan",
+        "guide-preventive-vs-corrective-maintenance",
         "svc-building-maintenance",
         "svc-corrective-maintenance-bangunan"
       ],
@@ -1751,7 +1800,14 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-apa-itu-building-maintenance",
         "guide-biaya-bangun-kantor",
+        "guide-checklist-inspeksi-gedung",
+        "guide-kontrak-building-maintenance",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-fasad-bangunan",
+        "guide-perawatan-mep-bangunan",
+        "guide-preventive-vs-corrective-maintenance",
         "guide-tahapan-proyek-bangunan-komersial",
         "loc-surabaya",
         "svc-corrective-maintenance-bangunan",
@@ -2596,6 +2652,128 @@
         {
           "id": "guide-biaya-renovasi-rumah",
           "score": 29
+        }
+      ]
+    },
+    "guide-apa-itu-building-maintenance": {
+      "id": "guide-apa-itu-building-maintenance",
+      "route": "/panduan/apa-itu-building-maintenance",
+      "type": "guide",
+      "outbound": [
+        "guide-checklist-inspeksi-gedung",
+        "guide-jadwal-preventive-maintenance-bangunan",
+        "guide-kontrak-building-maintenance",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-fasad-bangunan",
+        "guide-perawatan-mep-bangunan",
+        "guide-preventive-vs-corrective-maintenance",
+        "sec-kantor",
+        "svc-building-maintenance",
+        "svc-corrective-maintenance-bangunan",
+        "svc-preventive-maintenance-bangunan"
+      ],
+      "inbound": [
+        "guide-checklist-inspeksi-gedung",
+        "guide-jadwal-preventive-maintenance-bangunan",
+        "guide-kontrak-building-maintenance",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-fasad-bangunan",
+        "guide-perawatan-mep-bangunan",
+        "guide-preventive-vs-corrective-maintenance"
+      ],
+      "related": [
+        {
+          "id": "svc-corrective-maintenance-bangunan",
+          "score": 40
+        },
+        {
+          "id": "svc-preventive-maintenance-bangunan",
+          "score": 40
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 28
+        },
+        {
+          "id": "sec-kantor",
+          "score": 20
+        }
+      ]
+    },
+    "guide-apa-itu-design-and-build": {
+      "id": "guide-apa-itu-design-and-build",
+      "route": "/panduan/apa-itu-design-and-build",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-interior-fit-out",
+        "guide-gambar-kerja-vs-gambar-desain",
+        "guide-keuntungan-design-and-build",
+        "guide-koordinasi-arsitektur-struktur-mep",
+        "guide-shop-drawing-konstruksi",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-design-and-build",
+        "svc-interior-fit-out"
+      ],
+      "inbound": [
+        "guide-apa-itu-interior-fit-out",
+        "guide-gambar-kerja-vs-gambar-desain",
+        "guide-keuntungan-design-and-build",
+        "guide-koordinasi-arsitektur-struktur-mep",
+        "guide-shop-drawing-konstruksi"
+      ],
+      "related": [
+        {
+          "id": "svc-interior-fit-out",
+          "score": 40
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 28
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 20
+        }
+      ]
+    },
+    "guide-apa-itu-interior-fit-out": {
+      "id": "guide-apa-itu-interior-fit-out",
+      "route": "/panduan/apa-itu-interior-fit-out",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-design-and-build",
+        "guide-keuntungan-design-and-build",
+        "guide-koordinasi-arsitektur-struktur-mep",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-design-and-build",
+        "svc-interior-fit-out"
+      ],
+      "inbound": [
+        "guide-apa-itu-design-and-build",
+        "guide-keuntungan-design-and-build"
+      ],
+      "related": [
+        {
+          "id": "svc-interior-fit-out",
+          "score": 40
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 28
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 20
         }
       ]
     },
@@ -3576,6 +3754,47 @@
         }
       ]
     },
+    "guide-checklist-inspeksi-gedung": {
+      "id": "guide-checklist-inspeksi-gedung",
+      "route": "/panduan/checklist-inspeksi-gedung",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-jadwal-preventive-maintenance-bangunan",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-fasad-bangunan",
+        "guide-perawatan-mep-bangunan",
+        "sec-kantor",
+        "svc-building-maintenance",
+        "svc-corrective-maintenance-bangunan",
+        "svc-preventive-maintenance-bangunan"
+      ],
+      "inbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-jadwal-preventive-maintenance-bangunan",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-fasad-bangunan",
+        "guide-perawatan-mep-bangunan"
+      ],
+      "related": [
+        {
+          "id": "svc-corrective-maintenance-bangunan",
+          "score": 40
+        },
+        {
+          "id": "svc-preventive-maintenance-bangunan",
+          "score": 40
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 28
+        },
+        {
+          "id": "sec-kantor",
+          "score": 20
+        }
+      ]
+    },
     "guide-checklist-persiapan-bangun-rumah": {
       "id": "guide-checklist-persiapan-bangun-rumah",
       "route": "/panduan/checklist-persiapan-bangun-rumah",
@@ -3695,6 +3914,153 @@
         }
       ]
     },
+    "guide-gambar-kerja-vs-gambar-desain": {
+      "id": "guide-gambar-kerja-vs-gambar-desain",
+      "route": "/panduan/gambar-kerja-vs-gambar-desain",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-design-and-build",
+        "guide-koordinasi-arsitektur-struktur-mep",
+        "guide-shop-drawing-konstruksi",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-design-and-build",
+        "svc-interior-fit-out"
+      ],
+      "inbound": [
+        "guide-apa-itu-design-and-build",
+        "guide-koordinasi-arsitektur-struktur-mep",
+        "guide-shop-drawing-konstruksi"
+      ],
+      "related": [
+        {
+          "id": "svc-interior-fit-out",
+          "score": 40
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 28
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 20
+        }
+      ]
+    },
+    "guide-jadwal-preventive-maintenance-bangunan": {
+      "id": "guide-jadwal-preventive-maintenance-bangunan",
+      "route": "/panduan/jadwal-preventive-maintenance-bangunan",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-checklist-inspeksi-gedung",
+        "guide-preventive-vs-corrective-maintenance",
+        "svc-audit-biaya-proyek",
+        "svc-building-maintenance",
+        "svc-corrective-maintenance-bangunan",
+        "svc-preventive-maintenance-bangunan"
+      ],
+      "inbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-checklist-inspeksi-gedung",
+        "guide-kontrak-building-maintenance",
+        "guide-preventive-vs-corrective-maintenance"
+      ],
+      "related": [
+        {
+          "id": "svc-corrective-maintenance-bangunan",
+          "score": 40
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 28
+        },
+        {
+          "id": "svc-preventive-maintenance-bangunan",
+          "score": 28
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 8
+        }
+      ]
+    },
+    "guide-keuntungan-design-and-build": {
+      "id": "guide-keuntungan-design-and-build",
+      "route": "/panduan/keuntungan-design-and-build",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-design-and-build",
+        "guide-apa-itu-interior-fit-out",
+        "guide-koordinasi-arsitektur-struktur-mep",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-design-and-build",
+        "svc-interior-fit-out"
+      ],
+      "inbound": [
+        "guide-apa-itu-design-and-build",
+        "guide-apa-itu-interior-fit-out"
+      ],
+      "related": [
+        {
+          "id": "svc-interior-fit-out",
+          "score": 40
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 28
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 20
+        }
+      ]
+    },
+    "guide-kontrak-building-maintenance": {
+      "id": "guide-kontrak-building-maintenance",
+      "route": "/panduan/kontrak-building-maintenance",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-jadwal-preventive-maintenance-bangunan",
+        "guide-preventive-vs-corrective-maintenance",
+        "sec-kantor",
+        "svc-building-maintenance",
+        "svc-corrective-maintenance-bangunan",
+        "svc-preventive-maintenance-bangunan"
+      ],
+      "inbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-preventive-vs-corrective-maintenance"
+      ],
+      "related": [
+        {
+          "id": "svc-corrective-maintenance-bangunan",
+          "score": 40
+        },
+        {
+          "id": "svc-preventive-maintenance-bangunan",
+          "score": 40
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 28
+        },
+        {
+          "id": "sec-kantor",
+          "score": 20
+        }
+      ]
+    },
     "guide-kontrak-kerja-konstruksi-rumah": {
       "id": "guide-kontrak-kerja-konstruksi-rumah",
       "route": "/panduan/kontrak-kerja-konstruksi-rumah",
@@ -3767,6 +4133,45 @@
         {
           "id": "guide-cara-menghitung-biaya-bangun-rumah",
           "score": 45
+        }
+      ]
+    },
+    "guide-koordinasi-arsitektur-struktur-mep": {
+      "id": "guide-koordinasi-arsitektur-struktur-mep",
+      "route": "/panduan/koordinasi-arsitektur-struktur-mep",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-design-and-build",
+        "guide-gambar-kerja-vs-gambar-desain",
+        "guide-shop-drawing-konstruksi",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-design-and-build",
+        "svc-interior-fit-out"
+      ],
+      "inbound": [
+        "guide-apa-itu-design-and-build",
+        "guide-apa-itu-interior-fit-out",
+        "guide-gambar-kerja-vs-gambar-desain",
+        "guide-keuntungan-design-and-build",
+        "guide-shop-drawing-konstruksi"
+      ],
+      "related": [
+        {
+          "id": "svc-interior-fit-out",
+          "score": 40
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 28
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 20
         }
       ]
     },
@@ -3976,6 +4381,162 @@
         }
       ]
     },
+    "guide-perawatan-atap-bangunan": {
+      "id": "guide-perawatan-atap-bangunan",
+      "route": "/panduan/perawatan-atap-bangunan",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-checklist-inspeksi-gedung",
+        "guide-perawatan-fasad-bangunan",
+        "guide-perawatan-mep-bangunan",
+        "guide-renovasi-atap-bocor",
+        "sec-kantor",
+        "svc-building-maintenance",
+        "svc-corrective-maintenance-bangunan",
+        "svc-preventive-maintenance-bangunan"
+      ],
+      "inbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-checklist-inspeksi-gedung",
+        "guide-perawatan-fasad-bangunan",
+        "guide-perawatan-mep-bangunan"
+      ],
+      "related": [
+        {
+          "id": "svc-corrective-maintenance-bangunan",
+          "score": 40
+        },
+        {
+          "id": "svc-preventive-maintenance-bangunan",
+          "score": 40
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 28
+        },
+        {
+          "id": "sec-kantor",
+          "score": 20
+        }
+      ]
+    },
+    "guide-perawatan-fasad-bangunan": {
+      "id": "guide-perawatan-fasad-bangunan",
+      "route": "/panduan/perawatan-fasad-bangunan",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-checklist-inspeksi-gedung",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-mep-bangunan",
+        "guide-renovasi-fasad-rumah",
+        "sec-kantor",
+        "svc-building-maintenance",
+        "svc-corrective-maintenance-bangunan",
+        "svc-preventive-maintenance-bangunan"
+      ],
+      "inbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-checklist-inspeksi-gedung",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-mep-bangunan"
+      ],
+      "related": [
+        {
+          "id": "svc-corrective-maintenance-bangunan",
+          "score": 40
+        },
+        {
+          "id": "svc-preventive-maintenance-bangunan",
+          "score": 40
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 28
+        },
+        {
+          "id": "sec-kantor",
+          "score": 20
+        }
+      ]
+    },
+    "guide-perawatan-mep-bangunan": {
+      "id": "guide-perawatan-mep-bangunan",
+      "route": "/panduan/perawatan-mep-bangunan",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-checklist-inspeksi-gedung",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-fasad-bangunan",
+        "sec-kantor",
+        "svc-building-maintenance",
+        "svc-corrective-maintenance-bangunan",
+        "svc-preventive-maintenance-bangunan"
+      ],
+      "inbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-checklist-inspeksi-gedung",
+        "guide-perawatan-atap-bangunan",
+        "guide-perawatan-fasad-bangunan"
+      ],
+      "related": [
+        {
+          "id": "svc-corrective-maintenance-bangunan",
+          "score": 40
+        },
+        {
+          "id": "svc-preventive-maintenance-bangunan",
+          "score": 40
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 28
+        },
+        {
+          "id": "sec-kantor",
+          "score": 20
+        }
+      ]
+    },
+    "guide-preventive-vs-corrective-maintenance": {
+      "id": "guide-preventive-vs-corrective-maintenance",
+      "route": "/panduan/preventive-vs-corrective-maintenance",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-jadwal-preventive-maintenance-bangunan",
+        "guide-kontrak-building-maintenance",
+        "sec-kantor",
+        "svc-building-maintenance",
+        "svc-corrective-maintenance-bangunan",
+        "svc-preventive-maintenance-bangunan"
+      ],
+      "inbound": [
+        "guide-apa-itu-building-maintenance",
+        "guide-jadwal-preventive-maintenance-bangunan",
+        "guide-kontrak-building-maintenance"
+      ],
+      "related": [
+        {
+          "id": "svc-corrective-maintenance-bangunan",
+          "score": 40
+        },
+        {
+          "id": "svc-preventive-maintenance-bangunan",
+          "score": 40
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 28
+        },
+        {
+          "id": "sec-kantor",
+          "score": 20
+        }
+      ]
+    },
     "guide-renovasi-atap-bocor": {
       "id": "guide-renovasi-atap-bocor",
       "route": "/panduan/renovasi-atap-bocor",
@@ -3996,6 +4557,7 @@
         "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-checklist-survei-sebelum-renovasi",
         "guide-memperkuat-struktur-rumah-lama",
+        "guide-perawatan-atap-bangunan",
         "guide-renovasi-fasad-rumah",
         "guide-renovasi-total-vs-renovasi-sebagian"
       ],
@@ -4073,6 +4635,7 @@
         "svc-renovasi-rumah"
       ],
       "inbound": [
+        "guide-perawatan-fasad-bangunan",
         "guide-renovasi-atap-bocor",
         "guide-renovasi-total-vs-renovasi-sebagian"
       ],
@@ -4305,6 +4868,43 @@
         {
           "id": "guide-memperkuat-struktur-rumah-lama",
           "score": 45
+        }
+      ]
+    },
+    "guide-shop-drawing-konstruksi": {
+      "id": "guide-shop-drawing-konstruksi",
+      "route": "/panduan/shop-drawing-konstruksi",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-design-and-build",
+        "guide-gambar-kerja-vs-gambar-desain",
+        "guide-koordinasi-arsitektur-struktur-mep",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-design-and-build",
+        "svc-interior-fit-out"
+      ],
+      "inbound": [
+        "guide-apa-itu-design-and-build",
+        "guide-gambar-kerja-vs-gambar-desain",
+        "guide-koordinasi-arsitektur-struktur-mep"
+      ],
+      "related": [
+        {
+          "id": "svc-interior-fit-out",
+          "score": 40
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 28
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 20
         }
       ]
     },
