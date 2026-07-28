@@ -10025,6 +10025,139 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "guide-tahapan-proyek-bangunan-komersial",
+    "type": "guide",
+    "status": "review",
+    "title": "Tahapan Proyek Bangunan Komersial: dari Business Requirement hingga Operasional",
+    "slug": "tahapan-proyek-bangunan-komersial",
+    "description": "Peta lengkap tahapan proyek bangunan komersial — dari business requirement, feasibility, desain, estimasi, procurement, hingga konstruksi dan kesiapan operasional.",
+    "excerpt": "Kerangka lengkap siklus proyek bangunan komersial untuk pemilik usaha, investor, pengembang, dan operator bangunan, dari kebutuhan bisnis hingga bangunan siap operasional.",
+    "seoTitle": "Tahapan Proyek Bangunan Komersial | Panduan Arkavena",
+    "primaryKeyword": "tahapan proyek bangunan komersial",
+    "secondaryKeywords": [
+      "proses proyek bangunan komersial",
+      "siklus proyek konstruksi komersial"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "perencanaan",
+      "pelaksanaan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangunan Komersial",
+      "heading": "Tahapan Proyek Bangunan Komersial, dari Kebutuhan Bisnis hingga Siap Operasional",
+      "summary": "Peta lengkap siklus proyek bangunan komersial untuk pemilik usaha, investor, pengembang, dan operator bangunan — apa yang perlu diputuskan di setiap tahap, dan panduan mana yang relevan.",
+      "image": "/images/guides/tahapan-proyek-bangunan-komersial/hero.webp",
+      "imageAlt": "Ilustrasi konseptual tahapan proyek bangunan komersial dari perencanaan bisnis hingga operasional"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-pengendalian-jadwal-proyek",
+        "svc-value-engineering",
+        "svc-interior-fit-out",
+        "svc-quality-control-konstruksi"
+      ],
+      "sectors": [
+        "sec-ruko",
+        "sec-gudang",
+        "sec-pabrik",
+        "sec-kantor",
+        "sec-kos",
+        "sec-cafe",
+        "sec-restoran",
+        "sec-klinik",
+        "sec-sekolah",
+        "sec-masjid"
+      ],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Kebutuhan Proyek Komersial",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin mendiskusikan kebutuhan proyek bangunan komersial saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Bangunan Komersial",
+        "href": "/layanan/bangun-bangunan-komersial",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apa perbedaan utama tahapan proyek komersial dengan proyek rumah tinggal?",
+        "answer": "Proyek komersial umumnya melibatkan lebih banyak pihak berkepentingan (investor, operator, regulator terkait jenis usaha), business requirement yang lebih kompleks, dan pertimbangan operasional pasca-konstruksi yang lebih signifikan — bangunan harus siap mendukung operasional bisnis, bukan hanya siap dihuni."
+      },
+      {
+        "question": "Apakah tahapan ini sama untuk semua jenis bangunan komersial (ruko, gudang, pabrik, klinik, dst.)?",
+        "answer": "Kerangka umum serupa, tetapi detail di setiap tahap — misalnya kebutuhan utilitas atau proses perizinan — berbeda signifikan antar jenis bangunan. Panduan spesifik per sektor dan per topik (utilitas, logistik, biaya) membahas detail tersebut secara terpisah."
+      },
+      {
+        "question": "Kapan sebaiknya mulai melibatkan kontraktor dalam proses ini?",
+        "answer": "Semakin awal kontraktor dilibatkan — idealnya sejak tahap feasibility atau desain awal — semakin besar peluang mengidentifikasi risiko biaya dan jadwal sebelum komitmen besar dibuat. Cara Memilih Kontraktor Bangunan Komersial membahas kriteria pemilihan lebih lanjut."
+      },
+      {
+        "question": "Apakah panduan ini menjelaskan biaya secara spesifik?",
+        "answer": "Tidak. Panduan ini menjelaskan tahapan proses, bukan angka biaya — setiap jenis bangunan komersial memiliki cost driver yang berbeda dan memerlukan data spesifik sektornya masing-masing."
+      },
+      {
+        "question": "Apa yang dimaksud dengan kesiapan operasional dalam konteks ini?",
+        "answer": "Kesiapan operasional berarti bangunan tidak hanya selesai secara fisik, tetapi juga siap mendukung fungsi bisnis yang direncanakan — termasuk kesiapan utilitas, akses logistik (jika relevan), dan koordinasi dengan pihak yang akan mengoperasikan bangunan tersebut."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "pillar",
+      "pillar": null,
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/tahapan-proyek-bangunan-komersial",
+    "sourcePath": "content/guides/tahapan-proyek-bangunan-komersial.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Tahapan Proyek Bangunan Komersial: dari Business Requirement hingga Operasional",
+        "path": "/panduan/tahapan-proyek-bangunan-komersial"
+      }
+    ],
+    "wordCount": 911,
+    "readingMinutes": 5,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "guide-tanda-rumah-perlu-perkuatan-struktur",
     "type": "guide",
     "status": "published",

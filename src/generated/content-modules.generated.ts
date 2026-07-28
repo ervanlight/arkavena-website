@@ -91,6 +91,7 @@ export const contentModules: Record<string, () => Promise<MdxModule>> = {
   "guides/renovasi-total-vs-renovasi-sebagian": () => import("../../content/guides/renovasi-total-vs-renovasi-sebagian.mdx"),
   "guides/risiko-pembengkakan-biaya-renovasi": () => import("../../content/guides/risiko-pembengkakan-biaya-renovasi.mdx"),
   "guides/tahapan-bangun-rumah-dari-nol": () => import("../../content/guides/tahapan-bangun-rumah-dari-nol.mdx"),
+  "guides/tahapan-proyek-bangunan-komersial": () => import("../../content/guides/tahapan-proyek-bangunan-komersial.mdx"),
   "guides/tanda-rumah-perlu-perkuatan-struktur": () => import("../../content/guides/tanda-rumah-perlu-perkuatan-struktur.mdx"),
   "projects/hunian-lamongan-2022": () => import("../../content/projects/hunian-lamongan-2022.mdx"),
   "projects/kos-dau-malang-2020": () => import("../../content/projects/kos-dau-malang-2020.mdx"),

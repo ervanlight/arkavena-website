@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T13:26:21.583Z",
+  "generatedAt": "2026-07-28T13:45:43.702Z",
   "nodes": {
     "page-cara-kerja": {
       "id": "page-cara-kerja",
@@ -574,6 +574,7 @@
       ],
       "inbound": [
         "guide-contoh-panduan",
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-gresik",
         "loc-pasuruan",
         "loc-sidoarjo",
@@ -811,6 +812,7 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-lamongan",
         "loc-malang",
         "loc-mojokerto",
@@ -904,6 +906,7 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "sec-cafe",
         "sec-kantor",
         "sec-restoran",
@@ -944,6 +947,7 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-gresik",
         "loc-pasuruan",
         "loc-surabaya",
@@ -1042,6 +1046,7 @@
         "svc-pengendalian-jadwal-proyek"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-gresik",
         "loc-lamongan",
         "loc-malang",
@@ -1109,6 +1114,7 @@
         "guide-biaya-renovasi-rumah",
         "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-risiko-pembengkakan-biaya-renovasi",
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-sidoarjo",
         "sec-gudang",
         "sec-kantor",
@@ -1197,6 +1203,7 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-pasuruan",
         "sec-gudang",
         "sec-pabrik",
@@ -1302,6 +1309,7 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-gresik",
         "sec-gudang",
         "sec-klinik",
@@ -1447,6 +1455,7 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "sec-kos",
         "sec-rumah-tinggal",
         "sec-villa",
@@ -1495,6 +1504,7 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "sec-gudang",
         "sec-hotel",
         "sec-kantor",
@@ -1579,6 +1589,7 @@
         "svc-quality-control-konstruksi"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-gresik",
         "loc-pasuruan",
         "sec-cafe",
@@ -1633,6 +1644,7 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "sec-cafe",
         "sec-gudang",
         "sec-kantor",
@@ -1685,6 +1697,7 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-surabaya",
         "sec-cafe",
         "sec-gudang",
@@ -1737,6 +1750,7 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "sec-cafe",
         "sec-gudang",
         "sec-hotel",
@@ -1780,6 +1794,7 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-malang",
         "loc-sidoarjo",
         "loc-surabaya",
@@ -1824,6 +1839,7 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "sec-sekolah",
         "svc-building-maintenance"
       ],
@@ -1866,6 +1882,7 @@
         "svc-quality-control-konstruksi"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-gresik",
         "loc-pasuruan"
       ],
@@ -1907,6 +1924,7 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "svc-interior-fit-out"
       ],
       "related": [
@@ -1947,6 +1965,7 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "loc-mojokerto",
         "loc-sidoarjo",
         "sec-showroom-retail",
@@ -2060,6 +2079,7 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "guide-tahapan-proyek-bangunan-komersial",
         "sec-masjid"
       ],
       "related": [
@@ -3549,6 +3569,52 @@
         {
           "id": "guide-cara-menghitung-biaya-bangun-rumah",
           "score": 45
+        }
+      ]
+    },
+    "guide-tahapan-proyek-bangunan-komersial": {
+      "id": "guide-tahapan-proyek-bangunan-komersial",
+      "route": "/panduan/tahapan-proyek-bangunan-komersial",
+      "type": "guide",
+      "outbound": [
+        "sec-cafe",
+        "sec-gudang",
+        "sec-hotel",
+        "sec-kantor",
+        "sec-klinik",
+        "sec-kos",
+        "sec-masjid",
+        "sec-pabrik",
+        "sec-restoran",
+        "sec-ruko",
+        "sec-sekolah",
+        "svc-bangun-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-interior-fit-out",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-pengendalian-jadwal-proyek",
+        "svc-quality-control-konstruksi",
+        "svc-value-engineering"
+      ],
+      "inbound": [],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 40
+        },
+        {
+          "id": "sec-cafe",
+          "score": 40
+        },
+        {
+          "id": "sec-gudang",
+          "score": 40
+        },
+        {
+          "id": "sec-hotel",
+          "score": 40
         }
       ]
     },
