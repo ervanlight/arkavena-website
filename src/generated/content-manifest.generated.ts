@@ -3973,6 +3973,880 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "sec-gudang",
+    "type": "sector",
+    "status": "review",
+    "title": "Konstruksi Gudang dengan Perencanaan Fungsi, Akses, dan Risiko",
+    "slug": "gudang",
+    "description": "Layanan konstruksi dan pengendalian proyek gudang Arkavena dengan perhatian pada fungsi penyimpanan, akses kendaraan, lantai, utilitas, biaya, jadwal, dan risiko.",
+    "excerpt": "Pendekatan pembangunan gudang yang mempertimbangkan alur operasional, struktur, utilitas, logistik, dan pengendalian proyek.",
+    "seoTitle": "Kontraktor Gudang dan Pengendalian Proyek | Arkavena",
+    "primaryKeyword": "kontraktor gudang",
+    "secondaryKeywords": [
+      "jasa bangun gudang",
+      "konstruksi gudang"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "industri",
+      "struktur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Konstruksi Gudang",
+      "heading": "Gudang Dirancang untuk Mendukung Fungsi, Arus Barang, dan Operasional",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek gudang sesuai kebutuhan ruang, akses, utilitas, struktur, biaya, mutu, jadwal, dan risiko.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek",
+        "svc-quality-control-konstruksi",
+        "svc-pengendalian-biaya-proyek",
+        "svc-pengendalian-jadwal-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek gudang."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangunan Komersial",
+        "href": "/layanan/bangun-bangunan-komersial",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menentukan kapasitas beban lantai gudang saya?",
+        "answer": "Kebutuhan floor load bergantung pada jenis barang, sistem rak, dan alat operasional yang akan digunakan — hal ini memerlukan kajian spesialis berdasarkan data operasional Anda, bukan angka baku yang dapat ditentukan tanpa data."
+      },
+      {
+        "question": "Apakah sistem proteksi kebakaran untuk gudang termasuk dalam layanan ini?",
+        "answer": "Kebutuhan fire protection perlu mengikuti ketentuan yang berlaku dan dirancang oleh tenaga ahli terkait sesuai jenis barang yang disimpan — Arkavena dapat mengoordinasikan pekerjaan ini sesuai ruang lingkup yang disepakati."
+      },
+      {
+        "question": "Apakah desain area bongkar muat (dock) sudah termasuk standar baku?",
+        "answer": "Tidak ada standar baku tunggal. Desain dock dan yard geometry perlu disesuaikan dengan jenis kendaraan dan volume operasional Anda, dan sebaiknya dikaji bersama pada tahap perencanaan."
+      },
+      {
+        "question": "Apakah gudang untuk bahan berbahaya (hazardous material) dapat ditangani?",
+        "answer": "Penyimpanan bahan berbahaya memiliki persyaratan khusus yang membutuhkan kajian spesialis dan kepatuhan terhadap ketentuan yang berlaku — hal ini perlu dibahas secara eksplisit sejak konsultasi awal."
+      },
+      {
+        "question": "Apakah kebutuhan ekspansi di masa depan bisa dipertimbangkan dalam desain?",
+        "answer": "Dapat dipertimbangkan apabila disampaikan sejak tahap perencanaan, sehingga struktur dan tata letak awal dapat mengakomodasi kemungkinan perluasan."
+      },
+      {
+        "question": "Apakah pekerjaan site development seperti area parkir dan pagar termasuk dalam scope?",
+        "answer": "Tidak secara otomatis. Site development di luar bangunan utama perlu disepakati secara eksplisit dalam ruang lingkup proyek."
+      },
+      {
+        "question": "Bagaimana biaya proyek gudang ditentukan?",
+        "answer": "Biaya ditentukan setelah kebutuhan operasional, luas bangunan, dan spesifikasi khusus dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "sector": {
+      "buildingType": "Gudang",
+      "primaryUseCases": [
+        "penyimpanan",
+        "distribusi",
+        "logistik"
+      ],
+      "commonRisks": [
+        "Kebutuhan operasional tidak diterjemahkan menjadi ruang lingkup bangunan.",
+        "Alur kendaraan dan area bongkar muat tidak terkoordinasi dengan baik.",
+        "Kebutuhan lantai, struktur, dan utilitas ditetapkan tanpa data operasional yang memadai."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/gudang",
+    "sourcePath": "content/sectors/gudang.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Konstruksi Gudang dengan Perencanaan Fungsi, Akses, dan Risiko",
+        "path": "/sektor/gudang"
+      }
+    ],
+    "wordCount": 597,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/design-and-build",
+      "/layanan/manajemen-konstruksi",
+      "/layanan/pengawasan-proyek",
+      "/layanan/quality-control-konstruksi",
+      "/layanan/pengendalian-biaya-proyek",
+      "/layanan/pengendalian-jadwal-proyek",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "sec-kantor",
+    "type": "sector",
+    "status": "review",
+    "title": "Kontraktor Kantor untuk Ruang Kerja yang Fleksibel dan Fungsional",
+    "slug": "kantor",
+    "description": "Layanan konstruksi, renovasi, dan fit-out kantor Arkavena dengan perhatian pada pola kerja, sirkulasi, teknologi, kenyamanan, dan operasional yang tetap berjalan.",
+    "excerpt": "Pendekatan pembangunan dan renovasi kantor yang mempertimbangkan fleksibilitas ruang, teknologi, dan kenyamanan pengguna.",
+    "seoTitle": "Kontraktor Kantor | Arkavena",
+    "primaryKeyword": "kontraktor kantor",
+    "secondaryKeywords": [
+      "jasa renovasi kantor",
+      "fit out ruang kantor"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "arsitektur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Kantor",
+      "heading": "Ruang Kantor yang Mendukung Pola Kerja dan Fleksibilitas",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek kantor dengan mempertimbangkan pola kerja, sirkulasi, teknologi, dan kenyamanan pengguna.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-interior-fit-out",
+        "svc-building-maintenance",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau renovasi kantor."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Interior Fit-Out",
+        "href": "/layanan/interior-fit-out",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah seluruh kantor sebaiknya menggunakan layout open-plan?",
+        "answer": "Tidak. Pilihan layout bergantung pada pola kerja dan kebutuhan privasi tim Anda — open-plan cocok untuk sebagian organisasi, tetapi bukan solusi tunggal untuk semua kebutuhan kantor."
+      },
+      {
+        "question": "Apakah kebutuhan teknologi seperti jaringan data termasuk dalam scope?",
+        "answer": "Dapat mencakup, tergantung ruang lingkup yang disepakati. Kebutuhan data dan low-voltage sebaiknya disampaikan sejak awal agar dapat dikoordinasikan dengan pekerjaan interior dan MEP."
+      },
+      {
+        "question": "Apakah pekerjaan renovasi kantor bisa dilakukan sambil kantor tetap beroperasi?",
+        "answer": "Bergantung pada skala dan lokasi pekerjaan. Sebagian renovasi dapat dilakukan bertahap agar operasional tetap berjalan, tetapi hal ini perlu direncanakan sejak awal dan tidak dapat dijamin untuk semua kondisi."
+      },
+      {
+        "question": "Apakah Arkavena menjamin sertifikasi green building untuk kantor?",
+        "answer": "Tidak. Sertifikasi green building memerlukan proses dan penilaian dari lembaga terkait di luar cakupan layanan konstruksi standar."
+      },
+      {
+        "question": "Apakah renovasi kantor menjamin peningkatan produktivitas tim?",
+        "answer": "Tidak. Arkavena membantu menyusun ruang yang mendukung pola kerja Anda, tetapi produktivitas dipengaruhi banyak faktor di luar desain ruang fisik."
+      },
+      {
+        "question": "Bagaimana jika jumlah karyawan berubah setelah desain kantor selesai?",
+        "answer": "Perubahan jumlah pengguna dapat memengaruhi kebutuhan ruang dan utilitas — hal ini dievaluasi dampaknya terhadap ruang lingkup, biaya, dan jadwal sebelum dilaksanakan."
+      },
+      {
+        "question": "Bagaimana biaya proyek kantor ditentukan?",
+        "answer": "Biaya ditentukan setelah luas ruang, tingkat kelengkapan desain, dan kebutuhan fit-out dibahas pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "sector": {
+      "buildingType": "Kantor",
+      "primaryUseCases": [
+        "ruang kerja korporat",
+        "kantor operasional"
+      ],
+      "commonRisks": [
+        "Layout ruang tidak sesuai dengan pola kerja tim yang sebenarnya.",
+        "Kebutuhan teknologi dan data disampaikan terlambat dalam proses desain.",
+        "Pekerjaan konstruksi mengganggu operasional kantor yang masih berjalan."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-interior-fit-out"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/kantor",
+    "sourcePath": "content/sectors/kantor.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Kantor untuk Ruang Kerja yang Fleksibel dan Fungsional",
+        "path": "/sektor/kantor"
+      }
+    ],
+    "wordCount": 553,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/design-and-build",
+      "/layanan/interior-fit-out",
+      "/layanan/building-maintenance",
+      "/layanan/pengendalian-biaya-proyek",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "sec-kos",
+    "type": "sector",
+    "status": "review",
+    "title": "Kontraktor Kos dengan Perencanaan Unit dan Operasional",
+    "slug": "kos",
+    "description": "Layanan konstruksi dan pengendalian proyek bangunan kos Arkavena dengan perhatian pada efisiensi unit, privasi, utilitas, dan kebutuhan pengelola.",
+    "excerpt": "Pendekatan pembangunan bangunan kos yang mempertimbangkan efisiensi unit, privasi penghuni, dan kemudahan pengelolaan jangka panjang.",
+    "seoTitle": "Kontraktor Kos | Arkavena",
+    "primaryKeyword": "kontraktor kos",
+    "secondaryKeywords": [
+      "jasa bangun kos-kosan",
+      "kontraktor rumah kos"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "residensial",
+      "komersial"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Bangunan Kos",
+      "heading": "Bangunan Kos yang Efisien untuk Dihuni dan Dikelola",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek bangunan kos dengan mempertimbangkan efisiensi unit, privasi, utilitas, dan kemudahan pengelolaan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering",
+        "svc-building-maintenance",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan bangunan kos."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Value Engineering",
+        "href": "/layanan/value-engineering",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah lebih baik memaksimalkan jumlah unit atau kualitas ruang?",
+        "answer": "Keduanya perlu dipertimbangkan bersama. Jumlah unit yang maksimal tanpa memperhatikan kualitas ruang, privasi, dan area servis dapat memengaruhi kenyamanan penghuni dan kemudahan pengelolaan jangka panjang."
+      },
+      {
+        "question": "Apakah area servis seperti laundry dan parkir termasuk dalam ruang lingkup?",
+        "answer": "Dapat mencakup, tergantung ruang lingkup yang disepakati. Kebutuhan area servis sebaiknya dibahas sejak awal karena memengaruhi tata letak keseluruhan bangunan."
+      },
+      {
+        "question": "Apakah Arkavena dapat memberikan proyeksi keuntungan investasi kos?",
+        "answer": "Tidak. Arkavena berfokus pada perencanaan dan pelaksanaan konstruksi, bukan analisis investasi, proyeksi okupansi, atau perhitungan balik modal."
+      },
+      {
+        "question": "Bagaimana privasi antar unit dipertimbangkan dalam desain?",
+        "answer": "Privasi dan sirkulasi antar unit menjadi salah satu pertimbangan dalam penataan layout, meskipun solusi teknis akhirnya bergantung pada kondisi lahan dan kebutuhan spesifik proyek Anda."
+      },
+      {
+        "question": "Apakah material yang lebih murah selalu menjadi pilihan terbaik untuk kos?",
+        "answer": "Tidak selalu. Keputusan material yang hanya berdasarkan harga awal tanpa mempertimbangkan daya tahan dan kebutuhan maintenance jangka panjang dapat meningkatkan biaya perawatan di kemudian hari."
+      },
+      {
+        "question": "Apakah izin usaha kos termasuk dalam layanan ini?",
+        "answer": "Tidak secara otomatis. Pengurusan izin usaha berada di luar kewenangan Arkavena dan bergantung pada otoritas terkait serta ketentuan yang berlaku di wilayah Anda."
+      },
+      {
+        "question": "Bagaimana biaya proyek kos ditentukan?",
+        "answer": "Biaya ditentukan setelah jumlah unit, spesifikasi, dan ruang lingkup pekerjaan dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "sector": {
+      "buildingType": "Bangunan Kos",
+      "primaryUseCases": [
+        "hunian sewa unit",
+        "bangunan kos dikelola pemilik"
+      ],
+      "commonRisks": [
+        "Jumlah unit menjadi satu-satunya fokus tanpa mempertimbangkan kualitas ruang dan area servis.",
+        "Utilitas bersama sulit dipelihara karena tidak direncanakan dengan baik sejak awal.",
+        "Keputusan material hanya berdasarkan harga awal tanpa mempertimbangkan maintenance jangka panjang."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/kos",
+    "sourcePath": "content/sectors/kos.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Kos dengan Perencanaan Unit dan Operasional",
+        "path": "/sektor/kos"
+      }
+    ],
+    "wordCount": 580,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/design-and-build",
+      "/layanan/pengendalian-biaya-proyek",
+      "/layanan/value-engineering",
+      "/layanan/building-maintenance",
+      "/layanan/pengawasan-proyek",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "sec-pabrik",
+    "type": "sector",
+    "status": "review",
+    "title": "Kontraktor Pabrik untuk Bangunan Produksi dan Fasilitas Industri",
+    "slug": "pabrik",
+    "description": "Layanan konstruksi dan pengendalian proyek pabrik Arkavena dengan perhatian pada workflow produksi, utilitas, keselamatan, logistik, dan koordinasi dengan spesialis proses.",
+    "excerpt": "Pendekatan pembangunan fasilitas pabrik yang mempertimbangkan koordinasi struktur, utilitas, dan kebutuhan proses produksi bersama spesialis terkait.",
+    "seoTitle": "Kontraktor Pabrik dan Fasilitas Industri | Arkavena",
+    "primaryKeyword": "kontraktor pabrik",
+    "secondaryKeywords": [
+      "konstruksi fasilitas industri",
+      "jasa bangun pabrik"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "industri",
+      "mep"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Konstruksi Pabrik",
+      "heading": "Bangunan Produksi yang Dikoordinasikan dengan Kebutuhan Proses",
+      "summary": "Arkavena membantu mengelola pembangunan struktur dan utilitas bangunan pabrik, dikoordinasikan dengan spesialis proses dan kebutuhan operasional Anda.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-quality-control-konstruksi",
+        "svc-pengendalian-jadwal-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan fasilitas pabrik."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Manajemen Konstruksi",
+        "href": "/layanan/manajemen-konstruksi",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menyediakan process engineering untuk lini produksi?",
+        "answer": "Tidak. Process engineering adalah keahlian spesialis di luar cakupan Arkavena. Arkavena dapat mengoordinasikan pekerjaan struktur dan utilitas bangunan dengan spesialis proses yang Anda tunjuk, tetapi tidak merancang proses produksi itu sendiri."
+      },
+      {
+        "question": "Apakah fondasi mesin (machine foundation) termasuk dalam layanan standar?",
+        "answer": "Fondasi mesin membutuhkan data spesifikasi mesin dan kajian spesialis struktur — ini bukan bagian dari scope standar dan perlu dibahas secara khusus dengan data yang lengkap dari pemasok mesin."
+      },
+      {
+        "question": "Apakah Arkavena menangani sistem pengolahan limbah (waste treatment)?",
+        "answer": "Waste treatment adalah kebutuhan spesialis yang bergantung pada jenis proses produksi Anda. Kebutuhan ini perlu dikaji oleh spesialis terkait dan dikoordinasikan dalam ruang lingkup proyek bila disepakati."
+      },
+      {
+        "question": "Apakah commissioning pabrik termasuk dalam layanan ini?",
+        "answer": "Dukungan commissioning dapat dicakup sesuai kesepakatan ruang lingkup, tetapi commissioning untuk sistem produksi atau mesin spesifik umumnya menjadi tanggung jawab vendor atau spesialis terkait."
+      },
+      {
+        "question": "Bagaimana jika kebutuhan proses produksi berubah setelah konstruksi dimulai?",
+        "answer": "Perubahan proses dapat memicu redesign pada struktur atau utilitas bangunan. Perubahan ini dievaluasi dampaknya terhadap ruang lingkup, biaya, dan jadwal sebelum dilaksanakan."
+      },
+      {
+        "question": "Siapa yang bertanggung jawab atas kepatuhan regulasi industri?",
+        "answer": "Kepatuhan terhadap regulasi industri bergantung pada jenis usaha dan otoritas terkait — Arkavena dapat mendukung koordinasi dokumentasi, tetapi tanggung jawab kepatuhan akhir berada di luar kewenangan Arkavena."
+      },
+      {
+        "question": "Bagaimana biaya proyek pabrik ditentukan?",
+        "answer": "Biaya ditentukan setelah ruang lingkup bangunan, kompleksitas utilitas, dan koordinasi dengan spesialis proses dibahas pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "sector": {
+      "buildingType": "Pabrik",
+      "primaryUseCases": [
+        "fasilitas produksi",
+        "fasilitas industri"
+      ],
+      "commonRisks": [
+        "Kebutuhan proses produksi belum final saat konstruksi bangunan dimulai.",
+        "Data spesifikasi mesin dan peralatan belum tersedia untuk perencanaan struktur dan utilitas.",
+        "Tanggung jawab antara vendor peralatan dan kontraktor bangunan tidak jelas sejak awal."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/pabrik",
+    "sourcePath": "content/sectors/pabrik.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Pabrik untuk Bangunan Produksi dan Fasilitas Industri",
+        "path": "/sektor/pabrik"
+      }
+    ],
+    "wordCount": 664,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/design-and-build",
+      "/layanan/manajemen-konstruksi",
+      "/layanan/owner-representative",
+      "/layanan/pengawasan-proyek",
+      "/layanan/quality-control-konstruksi",
+      "/layanan/pengendalian-jadwal-proyek",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "sec-ruko",
+    "type": "sector",
+    "status": "review",
+    "title": "Kontraktor Ruko dengan Perencanaan Fungsi Usaha dan Bangunan",
+    "slug": "ruko",
+    "description": "Layanan konstruksi dan pengendalian proyek ruko Arkavena dengan perhatian pada fungsi usaha, akses pengunjung, utilitas, dan fleksibilitas tenant.",
+    "excerpt": "Pendekatan pembangunan dan renovasi ruko yang mempertimbangkan kombinasi fungsi usaha dan hunian, akses, serta kebutuhan tenant.",
+    "seoTitle": "Kontraktor Ruko | Arkavena",
+    "primaryKeyword": "kontraktor ruko",
+    "secondaryKeywords": [
+      "jasa bangun ruko",
+      "kontraktor renovasi ruko"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "struktur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Ruko",
+      "heading": "Ruko yang Mendukung Fungsi Usaha dan Fleksibilitas Tenant",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek ruko dengan mempertimbangkan fungsi usaha, akses, utilitas, dan kemungkinan perubahan tenant.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-interior-fit-out",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan atau renovasi ruko."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangunan Komersial",
+        "href": "/layanan/bangun-bangunan-komersial",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah ruko selalu memiliki fungsi campuran usaha dan hunian?",
+        "answer": "Tidak selalu. Sebagian ruko digunakan sepenuhnya untuk usaha, sementara sebagian lain menggabungkan fungsi usaha di lantai bawah dengan hunian di lantai atas — kebutuhan ini perlu dijelaskan sejak tahap konsultasi agar ruang lingkup sesuai."
+      },
+      {
+        "question": "Apakah Arkavena membantu mengurus izin usaha untuk ruko?",
+        "answer": "Tidak secara otomatis. Pengurusan izin usaha berada di luar kewenangan Arkavena dan bergantung pada otoritas terkait."
+      },
+      {
+        "question": "Bagaimana jika fungsi usaha di ruko belum ditentukan saat desain dibuat?",
+        "answer": "Ruang lingkup dapat disusun secara fleksibel di awal, tetapi keputusan penting seperti kebutuhan utilitas sebaiknya ditinjau ulang begitu fungsi usaha lebih jelas, untuk menghindari perubahan besar di kemudian hari."
+      },
+      {
+        "question": "Apakah pekerjaan interior toko atau kantor di dalam ruko termasuk dalam layanan ini?",
+        "answer": "Dapat mencakup, tergantung ruang lingkup. Untuk penyelesaian interior yang lebih spesifik, layanan interior fit-out mungkin lebih sesuai sebagai pelengkap."
+      },
+      {
+        "question": "Apakah signage atau fasad usaha termasuk dalam pekerjaan konstruksi?",
+        "answer": "Tidak secara otomatis. Kebutuhan signage dan fasad usaha perlu disampaikan sejak awal agar dapat dikoordinasikan dalam ruang lingkup, karena umumnya melibatkan pihak lain seperti vendor signage."
+      },
+      {
+        "question": "Apakah area servis dan area usaha perlu dipisahkan sejak desain?",
+        "answer": "Pemisahan area usaha dan area servis (seperti akses barang atau gudang kecil) sebaiknya dipertimbangkan sejak tahap perencanaan agar operasional usaha tidak terganggu di kemudian hari."
+      },
+      {
+        "question": "Bagaimana biaya proyek ruko ditentukan?",
+        "answer": "Biaya ditentukan setelah ruang lingkup, jumlah lantai, dan kebutuhan fungsi usaha dibahas bersama pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "sector": {
+      "buildingType": "Ruko",
+      "primaryUseCases": [
+        "usaha dan perdagangan",
+        "kombinasi usaha dan hunian"
+      ],
+      "commonRisks": [
+        "Fungsi usaha belum pasti saat desain bangunan dibuat.",
+        "Area usaha dan area servis tidak terpisah dengan baik.",
+        "Perubahan layout diperlukan setelah pekerjaan konstruksi dimulai karena kebutuhan tenant berubah."
+      ],
+      "relevantServices": [
+        "svc-bangun-bangunan-komersial",
+        "svc-renovasi-bangunan-komersial",
+        "svc-design-and-build",
+        "svc-interior-fit-out",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/ruko",
+    "sourcePath": "content/sectors/ruko.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Ruko dengan Perencanaan Fungsi Usaha dan Bangunan",
+        "path": "/sektor/ruko"
+      }
+    ],
+    "wordCount": 559,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/renovasi-bangunan-komersial",
+      "/layanan/design-and-build",
+      "/layanan/interior-fit-out",
+      "/layanan/pengawasan-proyek",
+      "/layanan/pengendalian-biaya-proyek",
+      "/panduan",
+      "/wilayah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "sec-rumah-tinggal",
+    "type": "sector",
+    "status": "review",
+    "title": "Kontraktor Rumah Tinggal dengan Pengendalian Proyek yang Terukur",
+    "slug": "rumah-tinggal",
+    "description": "Layanan konstruksi dan pengendalian proyek rumah tinggal Arkavena dengan perhatian pada kebutuhan penghuni, ruang, privasi, biaya, mutu, dan jadwal.",
+    "excerpt": "Pendekatan pembangunan dan renovasi rumah tinggal yang mempertimbangkan kebutuhan penghuni, ruang, privasi, dan pengendalian proyek.",
+    "seoTitle": "Kontraktor Rumah Tinggal | Arkavena",
+    "primaryKeyword": "kontraktor rumah tinggal",
+    "secondaryKeywords": [
+      "jasa konstruksi rumah tinggal",
+      "kontraktor bangun renovasi rumah"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "perencanaan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Rumah Tinggal",
+      "heading": "Rumah Tinggal yang Dirancang untuk Kebutuhan Penghuni Sesungguhnya",
+      "summary": "Arkavena membantu merencanakan dan mengendalikan proyek rumah tinggal sesuai kebutuhan ruang, privasi, biaya, mutu, jadwal, dan risiko keluarga Anda.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana rumah tinggal saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menangani rumah tinggal dari awal desain hingga selesai dibangun?",
+        "answer": "Ruang lingkup bergantung pada kebutuhan Anda. Bila Anda sudah memiliki desain, Arkavena dapat melanjutkan ke pelaksanaan. Bila belum, kebutuhan desain dapat dibahas pada tahap konsultasi, termasuk kemungkinan penggunaan layanan design and build."
+      },
+      {
+        "question": "Apakah Arkavena hanya menangani rumah baru, atau juga renovasi?",
+        "answer": "Keduanya dapat dicakup. Untuk rumah baru, layanan bangun rumah relevan; untuk perubahan rumah eksisting, layanan renovasi rumah lebih sesuai."
+      },
+      {
+        "question": "Bagaimana kebutuhan ruang keluarga diterjemahkan menjadi desain?",
+        "answer": "Kebutuhan ruang, jumlah penghuni, dan pola aktivitas keluarga dibahas pada tahap awal agar dapat diterjemahkan menjadi ruang lingkup dan brief yang jelas sebelum desain dikembangkan."
+      },
+      {
+        "question": "Apakah privasi antar ruang menjadi pertimbangan dalam perencanaan?",
+        "answer": "Ya, privasi dan sirkulasi antar ruang menjadi salah satu pertimbangan dalam penataan layout, meskipun solusi teknis akhirnya bergantung pada kebutuhan spesifik dan kondisi lahan Anda."
+      },
+      {
+        "question": "Apakah biaya rumah tinggal dapat diperkirakan sejak awal?",
+        "answer": "Perkiraan awal dapat dibahas, tetapi angka final bergantung pada ruang lingkup, spesifikasi, dan kondisi lahan yang ditetapkan pada tahap perencanaan."
+      },
+      {
+        "question": "Bagaimana jika kebutuhan keluarga berubah di tengah pembangunan?",
+        "answer": "Perubahan kebutuhan dievaluasi dampaknya terhadap ruang lingkup, biaya, dan jadwal, lalu dikonfirmasikan sebelum dilaksanakan sebagai bagian dari pengendalian perubahan."
+      },
+      {
+        "question": "Apa yang perlu disiapkan sebelum konsultasi?",
+        "answer": "Gambaran kebutuhan ruang, jumlah penghuni, lokasi lahan, dan dokumen desain bila sudah ada akan membantu diskusi awal berjalan lebih terarah."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "sector": {
+      "buildingType": "Rumah Tinggal",
+      "primaryUseCases": [
+        "hunian keluarga",
+        "rumah tinggal pribadi"
+      ],
+      "commonRisks": [
+        "Kebutuhan ruang keluarga tidak diterjemahkan dengan jelas ke dalam desain.",
+        "Perubahan desain terjadi setelah pekerjaan konstruksi berjalan.",
+        "Keputusan material terlambat sehingga menghambat pekerjaan berikutnya."
+      ],
+      "relevantServices": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ]
+    },
+    "collection": "sectors",
+    "route": "/sektor/rumah-tinggal",
+    "sourcePath": "content/sectors/rumah-tinggal.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor",
+        "path": "/sektor"
+      },
+      {
+        "name": "Kontraktor Rumah Tinggal dengan Pengendalian Proyek yang Terukur",
+        "path": "/sektor/rumah-tinggal"
+      }
+    ],
+    "wordCount": 634,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/layanan/renovasi-rumah",
+      "/layanan/design-and-build",
+      "/layanan/pengawasan-proyek",
+      "/layanan/pengendalian-biaya-proyek",
+      "/layanan/value-engineering",
+      "/panduan",
+      "/wilayah",
+      "/cara-kerja"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "loc-contoh-wilayah",
     "type": "location",
     "status": "draft",

@@ -45,6 +45,12 @@ export const contentModules: Record<string, () => Promise<MdxModule>> = {
   "services/renovasi-rumah": () => import("../../content/services/renovasi-rumah.mdx"),
   "services/value-engineering": () => import("../../content/services/value-engineering.mdx"),
   "sectors/contoh-sektor": () => import("../../content/sectors/contoh-sektor.mdx"),
+  "sectors/gudang": () => import("../../content/sectors/gudang.mdx"),
+  "sectors/kantor": () => import("../../content/sectors/kantor.mdx"),
+  "sectors/kos": () => import("../../content/sectors/kos.mdx"),
+  "sectors/pabrik": () => import("../../content/sectors/pabrik.mdx"),
+  "sectors/ruko": () => import("../../content/sectors/ruko.mdx"),
+  "sectors/rumah-tinggal": () => import("../../content/sectors/rumah-tinggal.mdx"),
   "locations/contoh-wilayah": () => import("../../content/locations/contoh-wilayah.mdx"),
   "guides/contoh-panduan": () => import("../../content/guides/contoh-panduan.mdx"),
 };
