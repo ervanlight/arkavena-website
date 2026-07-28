@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T01:18:46.211Z",
+  "generatedAt": "2026-07-28T01:32:49.108Z",
   "nodes": {
     "page-cara-kerja": {
       "id": "page-cara-kerja",
@@ -25,7 +25,8 @@
         "page-proyek",
         "page-sektor",
         "page-tentang",
-        "page-wilayah"
+        "page-wilayah",
+        "sec-rumah-tinggal"
       ],
       "related": [
         {
@@ -296,6 +297,12 @@
         "page-mengapa-arkavena",
         "page-proyek",
         "page-tentang",
+        "sec-gudang",
+        "sec-kantor",
+        "sec-kos",
+        "sec-pabrik",
+        "sec-ruko",
+        "sec-rumah-tinggal",
         "svc-audit-biaya-proyek",
         "svc-bangun-bangunan-komersial",
         "svc-bangun-rumah",
@@ -451,7 +458,13 @@
       "inbound": [
         "page-home",
         "page-kontak",
-        "page-tentang"
+        "page-tentang",
+        "sec-gudang",
+        "sec-kantor",
+        "sec-kos",
+        "sec-pabrik",
+        "sec-ruko",
+        "sec-rumah-tinggal"
       ],
       "related": [
         {
@@ -489,6 +502,11 @@
         "guide-contoh-panduan",
         "loc-contoh-wilayah",
         "sec-contoh-sektor",
+        "sec-gudang",
+        "sec-kantor",
+        "sec-kos",
+        "sec-ruko",
+        "sec-rumah-tinggal",
         "svc-bangun-bangunan-komersial",
         "svc-bangun-rumah",
         "svc-contoh-layanan",
@@ -538,6 +556,12 @@
         "guide-contoh-panduan",
         "loc-contoh-wilayah",
         "sec-contoh-sektor",
+        "sec-gudang",
+        "sec-kantor",
+        "sec-kos",
+        "sec-pabrik",
+        "sec-ruko",
+        "sec-rumah-tinggal",
         "svc-bangun-rumah",
         "svc-building-maintenance",
         "svc-contoh-layanan",
@@ -586,6 +610,12 @@
         "guide-contoh-panduan",
         "loc-contoh-wilayah",
         "sec-contoh-sektor",
+        "sec-gudang",
+        "sec-kantor",
+        "sec-kos",
+        "sec-pabrik",
+        "sec-ruko",
+        "sec-rumah-tinggal",
         "svc-building-maintenance",
         "svc-contoh-layanan",
         "svc-design-and-build",
@@ -628,6 +658,12 @@
         "guide-contoh-panduan",
         "loc-contoh-wilayah",
         "sec-contoh-sektor",
+        "sec-gudang",
+        "sec-kantor",
+        "sec-kos",
+        "sec-pabrik",
+        "sec-ruko",
+        "sec-rumah-tinggal",
         "svc-bangun-rumah",
         "svc-contoh-layanan",
         "svc-corrective-maintenance-bangunan",
@@ -695,6 +731,7 @@
         "svc-preventive-maintenance-bangunan"
       ],
       "inbound": [
+        "sec-kantor",
         "svc-building-maintenance",
         "svc-preventive-maintenance-bangunan"
       ],
@@ -731,6 +768,12 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "sec-gudang",
+        "sec-kantor",
+        "sec-kos",
+        "sec-pabrik",
+        "sec-ruko",
+        "sec-rumah-tinggal",
         "svc-bangun-bangunan-komersial",
         "svc-bangun-rumah",
         "svc-interior-fit-out",
@@ -805,6 +848,8 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "sec-kantor",
+        "sec-ruko",
         "svc-design-and-build",
         "svc-renovasi-bangunan-komersial"
       ],
@@ -840,6 +885,8 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "sec-gudang",
+        "sec-pabrik",
         "svc-audit-biaya-proyek",
         "svc-bangun-bangunan-komersial",
         "svc-building-maintenance",
@@ -885,6 +932,7 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "sec-pabrik",
         "svc-audit-biaya-proyek",
         "svc-estimasi-biaya-konstruksi",
         "svc-manajemen-konstruksi",
@@ -927,6 +975,11 @@
         "svc-pengendalian-jadwal-proyek"
       ],
       "inbound": [
+        "sec-gudang",
+        "sec-kos",
+        "sec-pabrik",
+        "sec-ruko",
+        "sec-rumah-tinggal",
         "svc-audit-biaya-proyek",
         "svc-bangun-bangunan-komersial",
         "svc-bangun-rumah",
@@ -972,6 +1025,11 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "sec-gudang",
+        "sec-kantor",
+        "sec-kos",
+        "sec-ruko",
+        "sec-rumah-tinggal",
         "svc-audit-biaya-proyek",
         "svc-bangun-bangunan-komersial",
         "svc-bangun-rumah",
@@ -1053,6 +1111,8 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "sec-gudang",
+        "sec-pabrik",
         "svc-pengawasan-proyek"
       ],
       "related": [
@@ -1155,6 +1215,8 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "sec-gudang",
+        "sec-pabrik",
         "svc-interior-fit-out"
       ],
       "related": [
@@ -1190,6 +1252,8 @@
         "svc-renovasi-rumah"
       ],
       "inbound": [
+        "sec-kantor",
+        "sec-ruko",
         "svc-bangun-bangunan-komersial",
         "svc-interior-fit-out",
         "svc-renovasi-rumah"
@@ -1229,6 +1293,7 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "sec-rumah-tinggal",
         "svc-design-and-build",
         "svc-renovasi-bangunan-komersial"
       ],
@@ -1265,6 +1330,8 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "sec-kos",
+        "sec-rumah-tinggal",
         "svc-bangun-bangunan-komersial",
         "svc-bangun-rumah",
         "svc-design-and-build",
@@ -1320,6 +1387,229 @@
         {
           "id": "svc-building-maintenance",
           "score": 2
+        }
+      ]
+    },
+    "sec-gudang": {
+      "id": "sec-gudang",
+      "route": "/sektor/gudang",
+      "type": "sector",
+      "outbound": [
+        "page-panduan",
+        "page-wilayah",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-design-and-build",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-pengendalian-jadwal-proyek",
+        "svc-quality-control-konstruksi"
+      ],
+      "inbound": [],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 34
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 14
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 14
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 14
+        }
+      ]
+    },
+    "sec-kantor": {
+      "id": "sec-kantor",
+      "route": "/sektor/kantor",
+      "type": "sector",
+      "outbound": [
+        "page-panduan",
+        "page-wilayah",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-corrective-maintenance-bangunan",
+        "svc-design-and-build",
+        "svc-interior-fit-out",
+        "svc-pengendalian-biaya-proyek",
+        "svc-renovasi-bangunan-komersial"
+      ],
+      "inbound": [],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 34
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 14
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 14
+        },
+        {
+          "id": "svc-corrective-maintenance-bangunan",
+          "score": 14
+        }
+      ]
+    },
+    "sec-kos": {
+      "id": "sec-kos",
+      "route": "/sektor/kos",
+      "type": "sector",
+      "outbound": [
+        "page-panduan",
+        "page-wilayah",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ],
+      "inbound": [],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 34
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 14
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 14
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 14
+        }
+      ]
+    },
+    "sec-pabrik": {
+      "id": "sec-pabrik",
+      "route": "/sektor/pabrik",
+      "type": "sector",
+      "outbound": [
+        "page-panduan",
+        "page-wilayah",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-design-and-build",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-jadwal-proyek",
+        "svc-quality-control-konstruksi"
+      ],
+      "inbound": [],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 34
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 14
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 14
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 14
+        }
+      ]
+    },
+    "sec-ruko": {
+      "id": "sec-ruko",
+      "route": "/sektor/ruko",
+      "type": "sector",
+      "outbound": [
+        "page-panduan",
+        "page-wilayah",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-design-and-build",
+        "svc-interior-fit-out",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-renovasi-bangunan-komersial"
+      ],
+      "inbound": [],
+      "related": [
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 34
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 14
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 14
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 14
+        }
+      ]
+    },
+    "sec-rumah-tinggal": {
+      "id": "sec-rumah-tinggal",
+      "route": "/sektor/rumah-tinggal",
+      "type": "sector",
+      "outbound": [
+        "page-cara-kerja",
+        "page-panduan",
+        "page-wilayah",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-renovasi-rumah",
+        "svc-value-engineering"
+      ],
+      "inbound": [],
+      "related": [
+        {
+          "id": "svc-bangun-rumah",
+          "score": 34
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 14
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 14
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 14
         }
       ]
     },
