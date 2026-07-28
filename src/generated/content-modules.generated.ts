@@ -69,6 +69,7 @@ export const contentModules: Record<string, () => Promise<MdxModule>> = {
   "locations/sidoarjo": () => import("../../content/locations/sidoarjo.mdx"),
   "locations/surabaya": () => import("../../content/locations/surabaya.mdx"),
   "guides/biaya-bangun-rumah-per-meter": () => import("../../content/guides/biaya-bangun-rumah-per-meter.mdx"),
+  "guides/biaya-renovasi-rumah": () => import("../../content/guides/biaya-renovasi-rumah.mdx"),
   "guides/borongan-vs-harian-bangun-rumah": () => import("../../content/guides/borongan-vs-harian-bangun-rumah.mdx"),
   "guides/cara-membaca-rab-rumah": () => import("../../content/guides/cara-membaca-rab-rumah.mdx"),
   "guides/cara-memilih-kontraktor-renovasi": () => import("../../content/guides/cara-memilih-kontraktor-renovasi.mdx"),

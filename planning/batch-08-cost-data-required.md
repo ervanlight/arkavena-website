@@ -1,8 +1,31 @@
 # Batch 08 — cost-data gate: `biaya-renovasi-rumah`
 
-**Status:** BLOCKED — SECTOR/TOPIC COST DATA REQUIRED
+**Status:** RESOLVED (2026-07-28) — see resolution below. Original blocker kept for history.
 **Article:** `/panduan/biaya-renovasi-rumah` (`guide-biaya-renovasi-rumah`)
-**Article type:** would be `cost` (mapped from brief's `cost-guide`, see `planning/batch-08-article-type-mapping.md`)
+**Article type:** `cost` (mapped from brief's `cost-guide`, see `planning/batch-08-article-type-mapping.md`)
+
+## Resolution (2026-07-28)
+
+Owner decided against a single "starting from Rp X" figure (the Batch 07 pattern) because
+renovation cost variance is too wide to responsibly represent with one number. Instead,
+owner provided a category framework — ringan / sedang / berat-total — with a general
+Indonesian-market cost-per-m² range for each category, explicitly framed as market
+context rather than an Arkavena quote:
+
+| Kategori | Kisaran per m² | Contoh pekerjaan |
+|---|---|---|
+| Ringan | Rp1.500.000–3.000.000 | Cat ulang, ganti lantai/plafon, tanpa bongkar struktur |
+| Sedang | Rp3.000.000–5.000.000 | Renovasi dapur/kamar mandi, sekat baru, ubin baru |
+| Berat/Total | Rp5.000.000–10.000.000 | Bongkar struktur, tambah lantai, renovasi menyeluruh |
+
+`dataAsOf: "2026-07-28"` (date the owner supplied the framework). The `sources` entry
+does not cite a specific named external publication — owner explicitly said not to
+fabricate a specific external citation — it is labeled as general Indonesian
+construction-market context, anchored to Arkavena's own renovation service page rather
+than an unverified third-party URL. `content/guides/biaya-renovasi-rumah.mdx` is now an
+active MDX file using `CostTable` for the three category rows.
+
+## Original blocker (kept for history)
 
 ## Why this is blocked
 

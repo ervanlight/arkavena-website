@@ -7326,6 +7326,138 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "guide-biaya-renovasi-rumah",
+    "type": "guide",
+    "status": "review",
+    "title": "Biaya Renovasi Rumah: Kisaran per Kategori dan Faktor yang Mempengaruhinya",
+    "slug": "biaya-renovasi-rumah",
+    "description": "Kisaran biaya renovasi rumah per kategori — ringan, sedang, berat/total — beserta variabel yang mempengaruhinya dan mengapa renovasi berat bisa lebih mahal dari bangun baru.",
+    "excerpt": "Kisaran biaya renovasi rumah berdasarkan kategori pekerjaan, bukan satu angka tunggal, karena variasinya terlalu besar untuk direpresentasikan dengan satu harga.",
+    "seoTitle": "Biaya Renovasi Rumah per Kategori | Arkavena",
+    "primaryKeyword": "biaya renovasi rumah",
+    "secondaryKeywords": [
+      "kisaran biaya renovasi rumah",
+      "biaya renovasi rumah per meter"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "renovasi",
+    "tags": [
+      "renovasi",
+      "biaya",
+      "residensial"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Renovasi Rumah",
+      "heading": "Biaya Renovasi Rumah: Kenapa Tidak Ada Satu Angka Pasti",
+      "summary": "Kisaran biaya renovasi rumah per kategori pekerjaan — ringan, sedang, dan berat/total — beserta variabel yang mempengaruhi angka ini di dalam setiap kategori.",
+      "image": "/images/guides/biaya-renovasi-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual kategori dan komponen biaya renovasi rumah"
+    },
+    "relationships": {
+      "services": [
+        "svc-renovasi-rumah",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-risiko-pembengkakan-biaya-renovasi"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Estimasi untuk Rumah Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya renovasi rumah saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Renovasi Rumah",
+        "href": "/layanan/renovasi-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Mengapa biaya renovasi rumah tidak diberikan sebagai satu angka tunggal?",
+        "answer": "Karena variasinya terlalu besar untuk direpresentasikan secara bertanggung jawab dengan satu angka — kondisi bangunan eksisting, jenis pekerjaan, dan spesifikasi material sangat memengaruhi biaya aktual. Kerangka kategori (ringan, sedang, berat) memberikan gambaran yang lebih realistis dibandingkan satu angka \"mulai dari\"."
+      },
+      {
+        "question": "Apakah kisaran pada tabel ini adalah harga resmi Arkavena?",
+        "answer": "Tidak. Kisaran ini adalah gambaran pasar umum untuk konteks, bukan penawaran atau quote resmi Arkavena. Harga aktual untuk proyek Anda ditentukan setelah survei kondisi eksisting dan penyusunan RAB pada tahap konsultasi."
+      },
+      {
+        "question": "Kenapa renovasi berat bisa lebih mahal per meter dibandingkan bangun rumah baru?",
+        "answer": "Renovasi berat melibatkan pekerjaan tambahan yang tidak ada pada proyek bangun baru — pembongkaran, kerja di sekitar struktur lama yang lebih lambat, dan ketidakpastian kondisi tersembunyi. Faktor-faktor ini dijelaskan lebih detail pada bagian 'Kenapa renovasi berat bisa lebih mahal dari bangun baru per meter' di bawah."
+      },
+      {
+        "question": "Kapan sebaiknya mempertimbangkan bongkar total dan bangun baru dibanding renovasi?",
+        "answer": "Tidak ada titik pasti yang berlaku untuk semua kasus, tetapi banyak pemilik rumah mulai mempertimbangkan opsi ini ketika estimasi renovasi berat sudah mendekati sebagian besar biaya bangun ulang total. Ini adalah wawasan edukatif untuk membantu Anda bertanya pada pertanyaan yang tepat, bukan rekomendasi otomatis — keputusan tetap perlu didiskusikan berdasarkan kondisi rumah Anda."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan angka yang lebih presisi untuk rumah saya?",
+        "answer": "Angka yang presisi hanya bisa disusun setelah survei kondisi eksisting dan penyusunan RAB berdasarkan ruang lingkup spesifik rumah Anda — bukan dari kisaran umum di panduan ini."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Kisaran pasar umum industri konstruksi renovasi Indonesia — referensi kontekstual, bukan penawaran resmi Arkavena",
+        "url": "https://arkavena.com/layanan/renovasi-rumah",
+        "publisher": "Arkavena",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "cost",
+      "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
+      "dataAsOf": "2026-07-28",
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/biaya-renovasi-rumah",
+    "sourcePath": "content/guides/biaya-renovasi-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Biaya Renovasi Rumah: Kisaran per Kategori dan Faktor yang Mempengaruhinya",
+        "path": "/panduan/biaya-renovasi-rumah"
+      }
+    ],
+    "wordCount": 868,
+    "readingMinutes": 4,
+    "internalLinks": [
+      "/panduan/renovasi-total-vs-renovasi-sebagian",
+      "/layanan/renovasi-rumah",
+      "/layanan/pengendalian-biaya-proyek",
+      "/panduan/cara-menghitung-anggaran-renovasi-rumah",
+      "/panduan/risiko-pembengkakan-biaya-renovasi"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "guide-borongan-vs-harian-bangun-rumah",
     "type": "guide",
     "status": "published",
@@ -7850,6 +7982,7 @@ export const contentManifest: ContentItem[] = [
       "locations": [],
       "guides": [
         "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-biaya-renovasi-rumah",
         "guide-risiko-pembengkakan-biaya-renovasi",
         "guide-checklist-survei-sebelum-renovasi"
       ],
@@ -7918,12 +8051,13 @@ export const contentManifest: ContentItem[] = [
         "path": "/panduan/cara-menghitung-anggaran-renovasi-rumah"
       }
     ],
-    "wordCount": 679,
+    "wordCount": 692,
     "readingMinutes": 3,
     "internalLinks": [
       "/panduan/tanda-rumah-perlu-perkuatan-struktur",
       "/layanan/renovasi-rumah",
       "/layanan/pengendalian-biaya-proyek",
+      "/panduan/biaya-renovasi-rumah",
       "/panduan/risiko-pembengkakan-biaya-renovasi",
       "/panduan/checklist-survei-sebelum-renovasi",
       "/panduan/renovasi-total-vs-renovasi-sebagian"
@@ -9536,6 +9670,7 @@ export const contentManifest: ContentItem[] = [
       "locations": [],
       "guides": [
         "guide-checklist-survei-sebelum-renovasi",
+        "guide-biaya-renovasi-rumah",
         "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-tanda-rumah-perlu-perkuatan-struktur",
         "guide-renovasi-rumah-satu-jadi-dua-lantai",
@@ -9606,11 +9741,12 @@ export const contentManifest: ContentItem[] = [
         "path": "/panduan/renovasi-total-vs-renovasi-sebagian"
       }
     ],
-    "wordCount": 701,
+    "wordCount": 714,
     "readingMinutes": 4,
     "internalLinks": [
       "/panduan/checklist-survei-sebelum-renovasi",
       "/panduan/cara-memilih-kontraktor-renovasi",
+      "/panduan/biaya-renovasi-rumah",
       "/panduan/cara-menghitung-anggaran-renovasi-rumah",
       "/panduan/risiko-pembengkakan-biaya-renovasi",
       "/panduan/tanda-rumah-perlu-perkuatan-struktur",
@@ -9671,6 +9807,7 @@ export const contentManifest: ContentItem[] = [
       "locations": [],
       "guides": [
         "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-biaya-renovasi-rumah",
         "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-checklist-survei-sebelum-renovasi"
       ],
@@ -9739,11 +9876,12 @@ export const contentManifest: ContentItem[] = [
         "path": "/panduan/risiko-pembengkakan-biaya-renovasi"
       }
     ],
-    "wordCount": 480,
+    "wordCount": 490,
     "readingMinutes": 2,
     "internalLinks": [
       "/layanan/renovasi-rumah",
       "/layanan/pengendalian-biaya-proyek",
+      "/panduan/biaya-renovasi-rumah",
       "/panduan/cara-menghitung-anggaran-renovasi-rumah",
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],

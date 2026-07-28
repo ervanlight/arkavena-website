@@ -11,7 +11,10 @@ import type { GuideItem } from "@/schemas/content-types";
 const PILLAR_SLUG = "renovasi-total-vs-renovasi-sebagian";
 const PILLAR_ID = "guide-renovasi-total-vs-renovasi-sebagian";
 
+const COST_SLUG = "biaya-renovasi-rumah";
+
 const B08_SUPPORTING_SLUGS = [
+  "biaya-renovasi-rumah",
   "cara-menghitung-anggaran-renovasi-rumah",
   "checklist-survei-sebelum-renovasi",
   "renovasi-rumah-sambil-dihuni",
@@ -42,6 +45,7 @@ const b08 = guides.filter((item) =>
 );
 const pillar = b08.find((item) => item.slug === PILLAR_SLUG)!;
 const supporting = b08.filter((item) => item.slug !== PILLAR_SLUG);
+const costGuide = b08.find((item) => item.slug === COST_SLUG)!;
 
 const publishedServiceIds = new Set(
   items
@@ -58,28 +62,76 @@ const readFile = (slug: string) =>
 /** MDX body only — strips YAML frontmatter so hero/FAQ text doesn't skew body-position checks. */
 const readBody = (slug: string) => readFile(slug).split(/^---$/m).slice(2).join("---");
 
-describe("Batch 08 — cost-data hard gate (biaya-renovasi-rumah, blocked)", () => {
-  it("biaya-renovasi-rumah.mdx tidak dibuat sebagai active content", () => {
-    expect(guides.some((item) => item.slug === "biaya-renovasi-rumah")).toBe(false);
+describe("Batch 08 — cost-data hard gate (biaya-renovasi-rumah, resolved 2026-07-28)", () => {
+  it("cost guide dibuat sebagai active MDX dengan articleType cost", () => {
+    expect(costGuide).toBeDefined();
+    expect(costGuide.article.articleType).toBe("cost");
   });
 
-  it("planning/batch-08-cost-data-required.md ada dan mendokumentasikan blocker, dan tidak dibaca content loader", () => {
+  it("dataAsOf terisi dengan tanggal owner memberi kerangka data (bukan null)", () => {
+    expect(costGuide.article.dataAsOf).toBe("2026-07-28");
+  });
+
+  it("sources tidak kosong dan tidak mengklaim kutipan dari sumber eksternal spesifik tanpa dasar", () => {
+    expect(costGuide.sources.length).toBeGreaterThan(0);
+    const labels = costGuide.sources.map((s) => s.label.toLowerCase());
+    expect(labels.some((l) => l.includes("kisaran pasar umum"))).toBe(true);
+    expect(labels.some((l) => l.includes("bukan penawaran resmi"))).toBe(true);
+  });
+
+  it("body menyatakan kisaran sebagai gambaran pasar umum, bukan quote resmi Arkavena", () => {
+    const body = readBody(COST_SLUG);
+    expect(body).toMatch(/bukan (penawaran|quote|harga) resmi Arkavena/i);
+    expect(body).toMatch(/kisaran pasar umum/i);
+  });
+
+  it("menggunakan kerangka kategori (ringan/sedang/berat), bukan satu angka 'mulai dari' tunggal", () => {
+    const body = readBody(COST_SLUG);
+    expect(body).toMatch(/renovasi ringan/i);
+    expect(body).toMatch(/renovasi sedang/i);
+    expect(body).toMatch(/renovasi berat/i);
+    // The intro explicitly explains it is NOT using a "mulai dari Rp X"
+    // single-figure claim (with a literal placeholder "X"), which is the
+    // correct disclaiming pattern — only a real "mulai dari Rp<digits>"
+    // claim would be a violation.
+    expect(body).not.toMatch(/mulai dari rp\d/i);
+  });
+
+  it("menjelaskan mengapa renovasi berat bisa lebih mahal per meter dari bangun baru", () => {
+    const body = readBody(COST_SLUG);
+    expect(body).toMatch(/lebih mahal dari bangun baru per meter/i);
+    expect(body).toMatch(/kerja dobel/i);
+  });
+
+  it("insight 'titik pertimbangan bongkar total' diframe sebagai edukatif, bukan rekomendasi definitif", () => {
+    const body = readBody(COST_SLUG);
+    expect(body).toMatch(/wawasan edukatif/i);
+    expect(body).toMatch(/bukan rekomendasi definitif/i);
+  });
+
+  it("tidak memposisikan Arkavena sebagai lebih murah/mahal dibanding kisaran pasar", () => {
+    const body = readBody(COST_SLUG);
+    expect(body).not.toMatch(/lebih murah dari (pasar|kompetitor)/i);
+    expect(body).not.toMatch(/lebih mahal dari (pasar|kompetitor)/i);
+  });
+
+  it("CTA konsultasi/survei ditempatkan sebagai conversion driver, bukan angka di artikel", () => {
+    const body = readBody(COST_SLUG);
+    expect(body).toMatch(/survei|konsultasi langsung/i);
+  });
+
+  it("planning/batch-08-cost-data-required.md mencatat resolusi, dan tetap tidak dibaca content loader", () => {
     const planningPath = path.join(process.cwd(), "planning", "batch-08-cost-data-required.md");
     expect(fs.existsSync(planningPath)).toBe(true);
     const planningBody = fs.readFileSync(planningPath, "utf8");
-    expect(planningBody).toMatch(/BLOCKED/i);
+    expect(planningBody).toMatch(/RESOLVED/i);
     expect(guides.some((item) => item.sourcePath.includes("planning"))).toBe(false);
-  });
-
-  it("tidak ada guide Batch 08 yang mereferensikan guide-biaya-renovasi-rumah yang belum ada (no-future-ID rule)", () => {
-    for (const item of b08) {
-      expect(item.relationships.guides).not.toContain("guide-biaya-renovasi-rumah");
-    }
   });
 
   it("guide lain (bukan cost guide) tidak memuat angka harga/persentase yang terlihat sebagai data pasar tanpa sumber", () => {
     const FORBIDDEN_NUMBER_PATTERNS = [/Rp\s?\d/i, /\d+\s?%(?!\s?\))/];
     for (const slug of B08_ALL_SLUGS) {
+      if (slug === COST_SLUG) continue;
       const body = readBody(slug);
       for (const pattern of FORBIDDEN_NUMBER_PATTERNS) {
         expect(pattern.test(body), `${slug}.mdx matched forbidden pattern ${pattern}`).toBe(false);
@@ -89,11 +141,11 @@ describe("Batch 08 — cost-data hard gate (biaya-renovasi-rumah, blocked)", () 
 });
 
 describe("Batch 08 — content validation", () => {
-  it("seluruh 13 file Batch 08 valid tanpa error schema", () => {
+  it("seluruh 14 file Batch 08 valid tanpa error schema", () => {
     expect(issues.filter((i) => B08_ALL_SLUGS.some((s) => i.file.endsWith(`${s}.mdx`)))).toEqual([]);
   });
 
-  it("tepat 13 halaman aktif dibuat (14 target dikurangi 1 blocked cost guide)", () => {
+  it("tepat 14 halaman aktif dibuat (14/14 target, cost guide resolved)", () => {
     expect(b08.map((i) => i.slug).sort()).toEqual([...B08_ALL_SLUGS].sort());
   });
 
@@ -185,6 +237,7 @@ describe("Batch 08 — service and sector relationships", () => {
 describe("Batch 08 — article-type mapping", () => {
   const EXPECTED_TYPES: Record<string, string> = {
     "renovasi-total-vs-renovasi-sebagian": "pillar",
+    "biaya-renovasi-rumah": "cost",
     "cara-menghitung-anggaran-renovasi-rumah": "process",
     "checklist-survei-sebelum-renovasi": "checklist",
     "renovasi-rumah-sambil-dihuni": "explainer",
@@ -390,7 +443,7 @@ describe("Batch 08 — technical and legal guardrails", () => {
 });
 
 describe("Batch 08 — metadata", () => {
-  it("seluruh 13 halaman Batch 08 menghasilkan noindex,follow (masih review)", () => {
+  it("seluruh 14 halaman Batch 08 menghasilkan noindex,follow (masih review)", () => {
     for (const item of b08) {
       const metadata = buildMetadata(item);
       expect(metadata.robots).toMatchObject({ index: false, follow: true });
@@ -410,7 +463,7 @@ describe("Batch 08 — metadata", () => {
 });
 
 describe("Batch 08 — structured data", () => {
-  it("seluruh 13 halaman Batch 08 menghasilkan node Article + BreadcrumbList, bukan Service", () => {
+  it("seluruh 14 halaman Batch 08 menghasilkan node Article + BreadcrumbList, bukan Service", () => {
     for (const item of b08) {
       const graph = buildJsonLdGraph(item) as unknown as { "@graph": Record<string, unknown>[] };
       const types = graph["@graph"].map((n) => n["@type"]);

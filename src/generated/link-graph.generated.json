@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T09:45:17.552Z",
+  "generatedAt": "2026-07-28T11:23:52.534Z",
   "nodes": {
     "page-cara-kerja": {
       "id": "page-cara-kerja",
@@ -526,6 +526,7 @@
         "svc-penyusunan-rab"
       ],
       "inbound": [
+        "guide-biaya-renovasi-rumah",
         "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-contoh-panduan",
         "guide-risiko-pembengkakan-biaya-renovasi",
@@ -577,6 +578,7 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "guide-biaya-renovasi-rumah",
         "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-contoh-panduan",
         "guide-risiko-pembengkakan-biaya-renovasi",
@@ -1112,6 +1114,7 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-biaya-renovasi-rumah",
         "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-risiko-pembengkakan-biaya-renovasi",
         "loc-sidoarjo",
@@ -1349,6 +1352,7 @@
         "svc-renovasi-rumah"
       ],
       "inbound": [
+        "guide-biaya-renovasi-rumah",
         "guide-cara-memilih-kontraktor-renovasi",
         "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-checklist-survei-sebelum-renovasi",
@@ -1409,6 +1413,7 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-biaya-renovasi-rumah",
         "guide-cara-memilih-kontraktor-renovasi",
         "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-checklist-survei-sebelum-renovasi",
@@ -2013,6 +2018,7 @@
       ],
       "inbound": [
         "guide-biaya-bangun-rumah-per-meter",
+        "guide-biaya-renovasi-rumah",
         "guide-borongan-vs-harian-bangun-rumah",
         "guide-cara-membaca-rab-rumah",
         "guide-cara-memilih-kontraktor-renovasi",
@@ -2614,6 +2620,45 @@
         }
       ]
     },
+    "guide-biaya-renovasi-rumah": {
+      "id": "guide-biaya-renovasi-rumah",
+      "route": "/panduan/biaya-renovasi-rumah",
+      "type": "guide",
+      "outbound": [
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-risiko-pembengkakan-biaya-renovasi",
+        "sec-rumah-tinggal",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-pengendalian-biaya-proyek",
+        "svc-renovasi-bangunan-komersial",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-renovasi-total-vs-renovasi-sebagian",
+        "guide-risiko-pembengkakan-biaya-renovasi"
+      ],
+      "related": [
+        {
+          "id": "svc-renovasi-bangunan-komersial",
+          "score": 40
+        },
+        {
+          "id": "svc-renovasi-rumah",
+          "score": 40
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 20
+        }
+      ]
+    },
     "guide-borongan-vs-harian-bangun-rumah": {
       "id": "guide-borongan-vs-harian-bangun-rumah",
       "route": "/panduan/borongan-vs-harian-bangun-rumah",
@@ -2821,6 +2866,7 @@
       "route": "/panduan/cara-menghitung-anggaran-renovasi-rumah",
       "type": "guide",
       "outbound": [
+        "guide-biaya-renovasi-rumah",
         "guide-checklist-survei-sebelum-renovasi",
         "guide-renovasi-total-vs-renovasi-sebagian",
         "guide-risiko-pembengkakan-biaya-renovasi",
@@ -2833,6 +2879,7 @@
         "svc-renovasi-rumah"
       ],
       "inbound": [
+        "guide-biaya-renovasi-rumah",
         "guide-checklist-survei-sebelum-renovasi",
         "guide-renovasi-total-vs-renovasi-sebagian",
         "guide-risiko-pembengkakan-biaya-renovasi"
@@ -3355,6 +3402,7 @@
       "route": "/panduan/renovasi-total-vs-renovasi-sebagian",
       "type": "guide",
       "outbound": [
+        "guide-biaya-renovasi-rumah",
         "guide-cara-memilih-kontraktor-renovasi",
         "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-checklist-survei-sebelum-renovasi",
@@ -3373,6 +3421,7 @@
         "svc-renovasi-rumah"
       ],
       "inbound": [
+        "guide-biaya-renovasi-rumah",
         "guide-cara-memilih-kontraktor-renovasi",
         "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-checklist-survei-sebelum-renovasi",
@@ -3410,6 +3459,7 @@
       "route": "/panduan/risiko-pembengkakan-biaya-renovasi",
       "type": "guide",
       "outbound": [
+        "guide-biaya-renovasi-rumah",
         "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-checklist-survei-sebelum-renovasi",
         "guide-renovasi-total-vs-renovasi-sebagian",
@@ -3421,6 +3471,7 @@
         "svc-renovasi-rumah"
       ],
       "inbound": [
+        "guide-biaya-renovasi-rumah",
         "guide-cara-memilih-kontraktor-renovasi",
         "guide-cara-menghitung-anggaran-renovasi-rumah",
         "guide-renovasi-total-vs-renovasi-sebagian"
