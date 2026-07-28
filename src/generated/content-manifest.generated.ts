@@ -1067,6 +1067,414 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "svc-bangun-bangunan-komersial",
+    "type": "service",
+    "status": "review",
+    "title": "Jasa Bangun Bangunan Komersial untuk Kebutuhan Operasional Bisnis",
+    "slug": "bangun-bangunan-komersial",
+    "description": "Jasa pembangunan bangunan komersial Arkavena dengan perhatian pada fungsi bisnis, operasional, koordinasi struktur dan MEP, serta pengendalian jadwal.",
+    "excerpt": "Pembangunan fasilitas komersial yang memperhatikan kebutuhan operasional, koordinasi teknis, dan jadwal yang selaras dengan target bisnis.",
+    "seoTitle": "Jasa Bangun Bangunan Komersial | Arkavena",
+    "primaryKeyword": "jasa bangun bangunan komersial",
+    "secondaryKeywords": [
+      "kontraktor bangunan komersial",
+      "konstruksi fasilitas bisnis"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "pelaksanaan",
+      "komersial"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Bangunan Komersial",
+      "heading": "Bangun Bangunan Komersial dengan Koordinasi Operasional yang Jelas",
+      "summary": "Arkavena membantu menerjemahkan kebutuhan bisnis menjadi ruang lingkup konstruksi yang terkoordinasi, dengan pengendalian biaya, mutu, dan jadwal.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-design-and-build",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan bangunan komersial."
+      },
+      "secondaryCta": {
+        "label": "Pelajari Cara Kerja",
+        "href": "/cara-kerja",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menerjemahkan kebutuhan operasional bisnis menjadi ruang lingkup konstruksi?",
+        "answer": "Ya, tahap awal mencakup peninjauan kebutuhan operasional dan bisnis Anda untuk dirumuskan menjadi ruang lingkup konstruksi yang jelas."
+      },
+      {
+        "question": "Apakah pengurusan izin usaha atau izin bangunan termasuk dalam layanan ini?",
+        "answer": "Tidak secara otomatis. Penerbitan izin berada di luar kewenangan Arkavena — pendampingan dokumen dapat dibahas terpisah, tetapi persetujuan akhir tetap berada pada otoritas terkait."
+      },
+      {
+        "question": "Bagaimana jika kebutuhan tenant atau bisnis berubah di tengah pembangunan?",
+        "answer": "Perubahan requirement akan dievaluasi dampaknya terhadap ruang lingkup, biaya, dan jadwal, lalu didokumentasikan dan dikonfirmasikan sebelum dilaksanakan."
+      },
+      {
+        "question": "Apakah Arkavena menjamin bangunan siap beroperasi pada tanggal tertentu?",
+        "answer": "Tidak. Jadwal konstruksi direncanakan dan dipantau, tetapi target operasional bisnis perlu diselaraskan dengan jadwal konstruksi secara realistis, bukan dijanjikan sebagai kepastian."
+      },
+      {
+        "question": "Apakah pekerjaan bertahap (phased handover) dimungkinkan?",
+        "answer": "Dapat dipertimbangkan apabila kebutuhan operasional Anda memerlukan serah terima bertahap — hal ini dibahas pada tahap perencanaan ruang lingkup."
+      },
+      {
+        "question": "Bagaimana koordinasi MEP dan struktur ditangani?",
+        "answer": "Koordinasi struktur, arsitektur, dan MEP menjadi bagian dari perencanaan pelaksanaan agar potensi bentrok pekerjaan dapat diidentifikasi lebih awal."
+      },
+      {
+        "question": "Bagaimana biaya jasa ditentukan?",
+        "answer": "Biaya jasa ditentukan setelah brief operasional dan ruang lingkup proyek dibahas bersama pada tahap konsultasi dan peninjauan awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "service": {
+      "serviceType": "Jasa Bangun Bangunan Komersial",
+      "audience": [
+        "pemilik usaha",
+        "pengembang",
+        "pengelola properti komersial"
+      ],
+      "deliverables": [
+        "Dokumen ruang lingkup pekerjaan",
+        "Rencana koordinasi struktur, arsitektur, dan MEP",
+        "Jadwal pelaksanaan",
+        "Laporan progres dan biaya berkala",
+        "Catatan perubahan pekerjaan",
+        "Dokumen serah terima"
+      ],
+      "areaServed": [
+        "Jawa Timur"
+      ],
+      "pricingMode": "consultation"
+    },
+    "collection": "services",
+    "route": "/layanan/bangun-bangunan-komersial",
+    "sourcePath": "content/services/bangun-bangunan-komersial.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Layanan",
+        "path": "/layanan"
+      },
+      {
+        "name": "Jasa Bangun Bangunan Komersial untuk Kebutuhan Operasional Bisnis",
+        "path": "/layanan/bangun-bangunan-komersial"
+      }
+    ],
+    "wordCount": 559,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "svc-bangun-rumah",
+    "type": "service",
+    "status": "review",
+    "title": "Jasa Bangun Rumah dengan Pengendalian Proyek yang Terukur",
+    "slug": "bangun-rumah",
+    "description": "Jasa bangun rumah Arkavena dengan pengendalian ruang lingkup, biaya, cashflow, mutu, jadwal, dan risiko sesuai kebutuhan dan kontrak proyek.",
+    "excerpt": "Pendampingan pembangunan rumah dari penetapan ruang lingkup hingga serah terima dengan proses yang terukur dan terdokumentasi.",
+    "seoTitle": "Jasa Bangun Rumah | Arkavena",
+    "primaryKeyword": "jasa bangun rumah",
+    "secondaryKeywords": [
+      "kontraktor rumah",
+      "jasa konstruksi rumah"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "pelaksanaan",
+      "residensial"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Bangun Rumah",
+      "heading": "Bangun Rumah dengan Ruang Lingkup dan Pengendalian yang Jelas",
+      "summary": "Arkavena membantu mengelola proses pembangunan rumah melalui perencanaan, pelaksanaan, pemantauan, dan pelaporan sesuai ruang lingkup proyek.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-design-and-build",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Pelajari Cara Kerja",
+        "href": "/cara-kerja",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena menyediakan desain arsitektur untuk rumah baru?",
+        "answer": "Bergantung pada ruang lingkup dan kontrak. Jika Anda sudah memiliki gambar desain, Arkavena dapat melanjutkan ke pelaksanaan. Jika belum, kebutuhan desain dapat dibahas pada tahap konsultasi — termasuk kemungkinan penggunaan layanan design and build."
+      },
+      {
+        "question": "Apa yang terjadi jika ada perubahan permintaan saat rumah sudah mulai dibangun?",
+        "answer": "Perubahan pekerjaan didokumentasikan sebagai bagian dari change log, dievaluasi dampaknya terhadap biaya dan jadwal, lalu dikonfirmasikan kepada Anda sebelum dilaksanakan."
+      },
+      {
+        "question": "Apakah pengurusan izin bangunan termasuk dalam layanan ini?",
+        "answer": "Tidak secara otomatis. Pengurusan izin bergantung pada kesepakatan ruang lingkup — sebagian pemilik proyek sudah memiliki izin, sebagian membutuhkan pendampingan tambahan yang dibahas terpisah."
+      },
+      {
+        "question": "Bagaimana saya bisa memantau progres pembangunan?",
+        "answer": "Progres dilaporkan secara berkala mencakup status pekerjaan, penggunaan anggaran, dan catatan perubahan, sesuai mekanisme pelaporan yang disepakati di awal."
+      },
+      {
+        "question": "Apa yang perlu saya siapkan sebelum konsultasi?",
+        "answer": "Gambaran kebutuhan rumah, lokasi lahan, dokumen desain bila sudah ada, dan perkiraan anggaran awal akan membantu diskusi berjalan lebih terarah."
+      },
+      {
+        "question": "Apakah data tanah seperti hasil uji tanah menjadi tanggung jawab Arkavena?",
+        "answer": "Pengujian tanah adalah pekerjaan khusus yang umumnya berada di luar ruang lingkup standar dan dibahas terpisah apabila kondisi lahan membutuhkannya."
+      },
+      {
+        "question": "Bagaimana biaya jasa ditentukan?",
+        "answer": "Biaya jasa ditentukan setelah ruang lingkup, lokasi, dan kebutuhan proyek dibahas pada tahap konsultasi dan peninjauan awal — bukan angka baku di muka."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "service": {
+      "serviceType": "Jasa Bangun Rumah",
+      "audience": [
+        "pemilik rumah",
+        "pemilik lahan"
+      ],
+      "deliverables": [
+        "Dokumen ruang lingkup pekerjaan",
+        "Jadwal pelaksanaan",
+        "Laporan progres berkala",
+        "Catatan perubahan pekerjaan (change log)",
+        "Catatan hasil pemeriksaan mutu",
+        "Dokumen serah terima"
+      ],
+      "areaServed": [
+        "Jawa Timur"
+      ],
+      "pricingMode": "consultation"
+    },
+    "collection": "services",
+    "route": "/layanan/bangun-rumah",
+    "sourcePath": "content/services/bangun-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Layanan",
+        "path": "/layanan"
+      },
+      {
+        "name": "Jasa Bangun Rumah dengan Pengendalian Proyek yang Terukur",
+        "path": "/layanan/bangun-rumah"
+      }
+    ],
+    "wordCount": 678,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "svc-building-maintenance",
+    "type": "service",
+    "status": "review",
+    "title": "Jasa Building Maintenance untuk Perawatan Kondisi dan Fungsi Bangunan",
+    "slug": "building-maintenance",
+    "description": "Jasa building maintenance Arkavena mencakup inspeksi kondisi, prioritas pekerjaan, preventive maintenance, corrective action, dan dokumentasi.",
+    "excerpt": "Perawatan bangunan yang terencana melalui inspeksi berkala, prioritas pekerjaan berbasis risiko, dan dokumentasi riwayat perawatan.",
+    "seoTitle": "Jasa Building Maintenance | Arkavena",
+    "primaryKeyword": "jasa building maintenance",
+    "secondaryKeywords": [
+      "perawatan gedung",
+      "jasa maintenance bangunan"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "building-maintenance",
+    "tags": [
+      "perawatan",
+      "mutu"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Building Maintenance",
+      "heading": "Rawat Kondisi dan Fungsi Bangunan Secara Terencana",
+      "summary": "Arkavena membantu memantau kondisi bangunan melalui inspeksi berkala, prioritas pekerjaan, dan dokumentasi riwayat perawatan yang konsisten.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-pengawasan-proyek",
+        "svc-manajemen-konstruksi"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai kebutuhan building maintenance untuk bangunan saya."
+      },
+      "secondaryCta": {
+        "label": "Pelajari Cara Kerja",
+        "href": "/cara-kerja",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apa perbedaan building maintenance dengan renovasi?",
+        "answer": "Building maintenance berfokus pada perawatan dan perbaikan kondisi yang sudah ada agar tetap berfungsi baik, sementara renovasi mencakup perubahan atau peningkatan ruang dan bangunan yang lebih luas."
+      },
+      {
+        "question": "Apakah layanan ini mencakup layanan darurat 24 jam?",
+        "answer": "Tidak secara otomatis. Cakupan respons darurat bergantung pada kesepakatan ruang lingkup dan perlu dibahas secara khusus apabila dibutuhkan."
+      },
+      {
+        "question": "Apakah seluruh aset dan sistem MEP bangunan tercakup dalam layanan ini?",
+        "answer": "Tidak otomatis. Cakupan aset yang dirawat ditentukan bersama pada tahap awal, berdasarkan prioritas dan kondisi bangunan Anda."
+      },
+      {
+        "question": "Bagaimana jadwal maintenance ditentukan?",
+        "answer": "Jadwal disusun berdasarkan hasil inspeksi kondisi dan tingkat prioritas risiko masing-masing area atau komponen, bukan jadwal seragam untuk semua bangunan."
+      },
+      {
+        "question": "Apakah building maintenance menjamin tidak akan ada kerusakan?",
+        "answer": "Tidak. Perawatan terencana membantu mengurangi kemungkinan kegagalan mendadak, tetapi tidak dapat menjamin seluruh kerusakan dapat dicegah sepenuhnya."
+      },
+      {
+        "question": "Apakah spare part atau material pengganti selalu tersedia?",
+        "answer": "Tidak selalu. Ketersediaan spare part bergantung pada jenis komponen dan pemasok, dan akan dikomunikasikan apabila memengaruhi jadwal perbaikan."
+      },
+      {
+        "question": "Bagaimana biaya jasa building maintenance ditentukan?",
+        "answer": "Biaya ditentukan setelah peninjauan kondisi awal bangunan dan cakupan aset yang akan dirawat dibahas pada tahap konsultasi."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "service": {
+      "serviceType": "Jasa Building Maintenance",
+      "audience": [
+        "pengelola gedung",
+        "pemilik properti komersial",
+        "pengelola fasilitas institusi"
+      ],
+      "deliverables": [
+        "Daftar aset atau komponen bangunan yang dipantau",
+        "Jadwal inspeksi dan perawatan",
+        "Catatan hasil inspeksi",
+        "Rencana prioritas pekerjaan",
+        "Laporan penyelesaian pekerjaan",
+        "Riwayat perawatan terdokumentasi"
+      ],
+      "areaServed": [
+        "Jawa Timur"
+      ],
+      "pricingMode": "consultation"
+    },
+    "collection": "services",
+    "route": "/layanan/building-maintenance",
+    "sourcePath": "content/services/building-maintenance.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Layanan",
+        "path": "/layanan"
+      },
+      {
+        "name": "Jasa Building Maintenance untuk Perawatan Kondisi dan Fungsi Bangunan",
+        "path": "/layanan/building-maintenance"
+      }
+    ],
+    "wordCount": 535,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "svc-contoh-layanan",
     "type": "service",
     "status": "draft",
@@ -1157,6 +1565,957 @@ export const contentManifest: ContentItem[] = [
     "readingMinutes": 1,
     "internalLinks": [
       "/kontak"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "svc-design-and-build",
+    "type": "service",
+    "status": "review",
+    "title": "Jasa Design and Build untuk Koordinasi Desain dan Pelaksanaan",
+    "slug": "design-and-build",
+    "description": "Jasa design and build Arkavena mengoordinasikan kebutuhan, desain, biaya, constructability, dan pelaksanaan dalam satu delivery approach.",
+    "excerpt": "Pendekatan yang menyatukan proses desain dan pelaksanaan agar keputusan desain, biaya, dan constructability tidak berjalan terpisah.",
+    "seoTitle": "Jasa Design and Build | Arkavena",
+    "primaryKeyword": "jasa design and build",
+    "secondaryKeywords": [
+      "design build konstruksi",
+      "jasa desain dan bangun"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "design-koordinasi",
+    "tags": [
+      "perencanaan",
+      "pelaksanaan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Design and Build",
+      "heading": "Design and Build: Desain dan Pelaksanaan dalam Satu Alur Kerja",
+      "summary": "Arkavena mengoordinasikan kebutuhan, desain, biaya, dan constructability sejak awal agar keputusan desain dan pelaksanaan tidak berjalan terpisah.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah",
+        "svc-bangun-bangunan-komersial",
+        "svc-value-engineering",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai layanan design and build untuk proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Pelajari Cara Kerja",
+        "href": "/cara-kerja",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apa bedanya design and build dengan menyewa arsitek dan kontraktor terpisah?",
+        "answer": "Pada design and build, proses desain dan pelaksanaan dikoordinasikan dalam satu alur kerja sehingga keputusan desain dapat langsung dievaluasi dari sisi biaya dan constructability, bukan diserahkan terpisah ke dua pihak yang berbeda."
+      },
+      {
+        "question": "Apakah satu kontrak design and build berarti tidak akan ada perubahan pekerjaan?",
+        "answer": "Tidak. Perubahan tetap dapat terjadi, terutama pada tahap pengembangan desain. Perubahan tersebut dicatat dan dievaluasi dampaknya sebelum dilaksanakan, sama seperti pendekatan lainnya."
+      },
+      {
+        "question": "Apakah seluruh desain spesialis seperti interior atau lansekap otomatis termasuk?",
+        "answer": "Tidak secara otomatis. Cakupan desain bergantung pada ruang lingkup yang disepakati — sebagian proyek membutuhkan spesialis tambahan di luar cakupan standar."
+      },
+      {
+        "question": "Siapa yang menyetujui keputusan desain selama proses berjalan?",
+        "answer": "Owner tetap dilibatkan dalam keputusan desain penting. Design and build tidak menghilangkan kebutuhan keterlibatan owner, hanya menyatukan koordinasi antara desain dan pelaksanaan."
+      },
+      {
+        "question": "Apakah design and build selalu lebih murah dibandingkan pendekatan terpisah?",
+        "answer": "Tidak selalu. Biaya bergantung pada kompleksitas proyek dan ruang lingkup — keuntungan utamanya adalah koordinasi yang lebih terintegrasi, bukan otomatis harga lebih rendah."
+      },
+      {
+        "question": "Bagaimana jika saya sudah punya sebagian desain sebelum menghubungi Arkavena?",
+        "answer": "Desain yang sudah ada dapat menjadi titik awal untuk constructability review dan pengembangan lebih lanjut, tergantung tingkat kelengkapannya."
+      },
+      {
+        "question": "Bagaimana biaya jasa design and build ditentukan?",
+        "answer": "Biaya ditentukan setelah brief kebutuhan dan tingkat kelengkapan desain dibahas pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "service": {
+      "serviceType": "Jasa Design and Build",
+      "audience": [
+        "pemilik proyek",
+        "pemilik usaha"
+      ],
+      "deliverables": [
+        "Project brief dan requirement yang terdokumentasi",
+        "Catatan constructability review",
+        "Dokumen kesesuaian desain dan biaya",
+        "Rencana pelaksanaan",
+        "Catatan keputusan dan revisi desain",
+        "Dokumen serah terima"
+      ],
+      "areaServed": [
+        "Jawa Timur"
+      ],
+      "pricingMode": "consultation"
+    },
+    "collection": "services",
+    "route": "/layanan/design-and-build",
+    "sourcePath": "content/services/design-and-build.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Layanan",
+        "path": "/layanan"
+      },
+      {
+        "name": "Jasa Design and Build untuk Koordinasi Desain dan Pelaksanaan",
+        "path": "/layanan/design-and-build"
+      }
+    ],
+    "wordCount": 562,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "svc-manajemen-konstruksi",
+    "type": "service",
+    "status": "review",
+    "title": "Jasa Manajemen Konstruksi untuk Pengelolaan Proyek Terintegrasi",
+    "slug": "manajemen-konstruksi",
+    "description": "Jasa manajemen konstruksi Arkavena mengelola scope, biaya, jadwal, mutu, risiko, komunikasi, dan koordinasi seluruh pihak dalam proyek.",
+    "excerpt": "Pengelolaan terintegrasi atas ruang lingkup, biaya, jadwal, mutu, risiko, dan koordinasi antar pihak dalam proyek konstruksi.",
+    "seoTitle": "Jasa Manajemen Konstruksi | Arkavena",
+    "primaryKeyword": "jasa manajemen konstruksi",
+    "secondaryKeywords": [
+      "construction management",
+      "pengelolaan proyek konstruksi"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "manajemen-risiko",
+    "tags": [
+      "perencanaan",
+      "pengawasan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Manajemen Konstruksi",
+      "heading": "Kelola Proyek Anda Secara Terintegrasi, Bukan Terfragmentasi",
+      "summary": "Arkavena mengelola scope, biaya, jadwal, mutu, dan risiko proyek secara terintegrasi, mendukung koordinasi antar pihak yang terlibat.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin mendiskusikan kebutuhan manajemen konstruksi untuk proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Pelajari Cara Kerja",
+        "href": "/cara-kerja",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah manajemen konstruksi berarti Arkavena menjadi kontraktor pelaksana?",
+        "answer": "Tidak selalu. Manajemen konstruksi berfokus pada pengelolaan scope, biaya, jadwal, mutu, dan risiko — peran sebagai kontraktor pelaksana adalah layanan terpisah yang dapat dibahas sesuai kebutuhan proyek."
+      },
+      {
+        "question": "Apa bedanya manajemen konstruksi dengan pengawasan proyek?",
+        "answer": "Pengawasan proyek berfokus pada observasi dan verifikasi pekerjaan lapangan. Manajemen konstruksi memiliki cakupan yang lebih luas, mencakup koordinasi, pengendalian biaya, jadwal, dan risiko secara menyeluruh."
+      },
+      {
+        "question": "Apakah manajemen konstruksi memiliki kewenangan hukum atas seluruh pihak proyek?",
+        "answer": "Tidak. Kewenangan Arkavena mengikuti mandat yang disepakati dalam kontrak — bukan otoritas hukum otomatis atas kontraktor, desainer, atau pihak lain dalam proyek."
+      },
+      {
+        "question": "Apakah Arkavena menjamin hasil pekerjaan pihak ketiga dalam proyek?",
+        "answer": "Tidak. Arkavena membantu mengoordinasikan dan memantau, tetapi tanggung jawab pelaksanaan tetap berada pada masing-masing pihak yang mengerjakannya."
+      },
+      {
+        "question": "Bagaimana risk register dikelola dalam layanan ini?",
+        "answer": "Risiko yang teridentifikasi dicatat, dipantau, dan ditinjau secara berkala sebagai bagian dari proses pengendalian proyek, bukan dokumen statis yang hanya dibuat sekali."
+      },
+      {
+        "question": "Apakah owner tetap perlu mengambil keputusan dalam proyek?",
+        "answer": "Ya. Manajemen konstruksi mendukung proses pengambilan keputusan melalui informasi yang terkonsolidasi, tetapi keputusan akhir tetap berada pada owner sesuai mandat yang disepakati."
+      },
+      {
+        "question": "Bagaimana biaya jasa manajemen konstruksi ditentukan?",
+        "answer": "Biaya ditentukan setelah ruang lingkup proyek, jumlah pihak yang terlibat, dan kompleksitas koordinasi dibahas pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "service": {
+      "serviceType": "Jasa Manajemen Konstruksi",
+      "audience": [
+        "pemilik proyek",
+        "pengembang",
+        "pengelola proyek"
+      ],
+      "deliverables": [
+        "Rencana proyek (project plan)",
+        "Baseline jadwal",
+        "Risk register",
+        "Laporan progres berkala",
+        "Catatan proses change-control",
+        "Log dokumen dan keputusan"
+      ],
+      "areaServed": [
+        "Jawa Timur"
+      ],
+      "pricingMode": "consultation"
+    },
+    "collection": "services",
+    "route": "/layanan/manajemen-konstruksi",
+    "sourcePath": "content/services/manajemen-konstruksi.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Layanan",
+        "path": "/layanan"
+      },
+      {
+        "name": "Jasa Manajemen Konstruksi untuk Pengelolaan Proyek Terintegrasi",
+        "path": "/layanan/manajemen-konstruksi"
+      }
+    ],
+    "wordCount": 559,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "svc-owner-representative",
+    "type": "service",
+    "status": "review",
+    "title": "Jasa Owner Representative untuk Mendukung Kepentingan Pemilik Proyek",
+    "slug": "owner-representative",
+    "description": "Jasa owner representative Arkavena membantu owner memantau kepentingan proyek melalui mandat yang jelas, konsolidasi informasi, dan koordinasi.",
+    "excerpt": "Pendampingan owner melalui representasi dalam koordinasi proyek, konsolidasi informasi, dan pemantauan keputusan sesuai mandat yang disepakati.",
+    "seoTitle": "Jasa Owner Representative | Arkavena",
+    "primaryKeyword": "jasa owner representative",
+    "secondaryKeywords": [
+      "perwakilan pemilik proyek",
+      "owner representative konstruksi"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "manajemen-risiko",
+    "tags": [
+      "dokumentasi",
+      "pengawasan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Owner Representative",
+      "heading": "Wakilkan Kepentingan Anda dalam Koordinasi Proyek",
+      "summary": "Arkavena membantu owner memantau kepentingan proyek melalui representasi dalam koordinasi, konsolidasi informasi, dan pemantauan keputusan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai layanan owner representative."
+      },
+      "secondaryCta": {
+        "label": "Pelajari Cara Kerja",
+        "href": "/cara-kerja",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah owner representative memiliki kuasa hukum untuk mewakili saya?",
+        "answer": "Tidak secara otomatis. Owner representative bekerja sesuai mandat yang disepakati dalam kontrak — bukan kuasa hukum formal yang menggantikan peran penasihat hukum."
+      },
+      {
+        "question": "Apakah owner representative dapat menyetujui pembayaran atas nama saya?",
+        "answer": "Tidak tanpa mandat eksplisit. Persetujuan pembayaran mengikuti batas kewenangan yang ditetapkan bersama dalam kesepakatan awal."
+      },
+      {
+        "question": "Apa bedanya owner representative dengan manajemen konstruksi?",
+        "answer": "Owner representative berfokus pada mewakili kepentingan owner dalam koordinasi dan keputusan proyek. Manajemen konstruksi memiliki cakupan lebih luas yang mencakup pengelolaan langsung atas scope, biaya, jadwal, dan risiko proyek."
+      },
+      {
+        "question": "Apakah layanan ini menggantikan peran auditor legal atau finansial?",
+        "answer": "Tidak. Owner representative bukan auditor legal maupun finansial — untuk kebutuhan tersebut, Anda memerlukan profesional di bidang masing-masing."
+      },
+      {
+        "question": "Bagaimana keputusan owner didokumentasikan dalam layanan ini?",
+        "answer": "Keputusan penting dicatat dalam decision log agar terdapat jejak yang jelas mengenai apa yang disepakati dan kapan disepakati."
+      },
+      {
+        "question": "Apakah owner representative menjamin kinerja kontraktor atau pihak ketiga lain?",
+        "answer": "Tidak. Owner representative membantu memantau dan mengoordinasikan, tetapi tanggung jawab kinerja tetap berada pada masing-masing pihak yang mengerjakan."
+      },
+      {
+        "question": "Bagaimana biaya jasa owner representative ditentukan?",
+        "answer": "Biaya ditentukan berdasarkan cakupan mandat dan kompleksitas proyek, dibahas pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "service": {
+      "serviceType": "Jasa Owner Representative",
+      "audience": [
+        "pemilik proyek",
+        "investor properti"
+      ],
+      "deliverables": [
+        "Dokumen mandat dan batas kewenangan",
+        "Decision log",
+        "Issue tracking log",
+        "Laporan konsolidasi berkala",
+        "Catatan tindak lanjut keputusan"
+      ],
+      "areaServed": [
+        "Jawa Timur"
+      ],
+      "pricingMode": "consultation"
+    },
+    "collection": "services",
+    "route": "/layanan/owner-representative",
+    "sourcePath": "content/services/owner-representative.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Layanan",
+        "path": "/layanan"
+      },
+      {
+        "name": "Jasa Owner Representative untuk Mendukung Kepentingan Pemilik Proyek",
+        "path": "/layanan/owner-representative"
+      }
+    ],
+    "wordCount": 537,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "svc-pengawasan-proyek",
+    "type": "service",
+    "status": "review",
+    "title": "Jasa Pengawasan Proyek untuk Verifikasi Pekerjaan Lapangan",
+    "slug": "pengawasan-proyek",
+    "description": "Jasa pengawasan proyek Arkavena memantau pekerjaan lapangan terhadap ruang lingkup, gambar, spesifikasi, mutu, dan progres pekerjaan.",
+    "excerpt": "Pemantauan lapangan yang memverifikasi kesesuaian pekerjaan terhadap gambar, spesifikasi, dan ruang lingkup yang disepakati.",
+    "seoTitle": "Jasa Pengawasan Proyek | Arkavena",
+    "primaryKeyword": "jasa pengawasan proyek",
+    "secondaryKeywords": [
+      "supervisi konstruksi",
+      "pengawas lapangan proyek"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "manajemen-risiko",
+    "tags": [
+      "pengawasan",
+      "mutu"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Pengawasan Proyek",
+      "heading": "Verifikasi Pekerjaan Lapangan Terhadap Ruang Lingkup dan Mutu",
+      "summary": "Arkavena memantau pekerjaan lapangan melalui observasi, verifikasi progres, dan pelaporan temuan agar deviasi dapat dikenali lebih awal.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai kebutuhan pengawasan proyek."
+      },
+      "secondaryCta": {
+        "label": "Pelajari Cara Kerja",
+        "href": "/cara-kerja",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah pengawasan proyek dilakukan penuh waktu (full-time) di lokasi?",
+        "answer": "Tidak selalu. Frekuensi kunjungan dan pengawasan bergantung pada kesepakatan ruang lingkup, disesuaikan dengan kebutuhan dan tahapan proyek."
+      },
+      {
+        "question": "Apakah pengawasan proyek menggantikan tanggung jawab kontraktor pelaksana?",
+        "answer": "Tidak. Pengawasan proyek memverifikasi kesesuaian pekerjaan, tetapi tanggung jawab pelaksanaan tetap berada pada kontraktor yang mengerjakan."
+      },
+      {
+        "question": "Apakah pengawasan mencakup pengujian material di laboratorium (destructive testing)?",
+        "answer": "Tidak secara otomatis. Pengujian khusus seperti destructive testing berada di luar ruang lingkup standar dan dibahas terpisah apabila dibutuhkan."
+      },
+      {
+        "question": "Apa yang terjadi jika ditemukan pekerjaan yang tidak sesuai spesifikasi?",
+        "answer": "Temuan dicatat sebagai nonconformance, dilaporkan kepada owner, dan ditindaklanjuti hingga status penyelesaiannya terverifikasi."
+      },
+      {
+        "question": "Apakah pengawas proyek berwenang menghentikan pekerjaan di lapangan?",
+        "answer": "Kewenangan tersebut bergantung pada mandat yang diberikan dalam kontrak — tidak otomatis dimiliki tanpa kesepakatan eksplisit."
+      },
+      {
+        "question": "Bagaimana jika pekerjaan sudah tertutup sebelum sempat diperiksa?",
+        "answer": "Hal ini dicatat sebagai risiko yang perlu dikelola melalui jadwal inspeksi yang disepakati sejak awal, agar titik-titik kritis pekerjaan dapat diperiksa sebelum tertutup."
+      },
+      {
+        "question": "Bagaimana biaya jasa pengawasan proyek ditentukan?",
+        "answer": "Biaya ditentukan berdasarkan durasi proyek, frekuensi kunjungan, dan cakupan pekerjaan yang diawasi, dibahas pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "service": {
+      "serviceType": "Jasa Pengawasan Proyek",
+      "audience": [
+        "pemilik proyek",
+        "pengembang"
+      ],
+      "deliverables": [
+        "Catatan hasil inspeksi (inspection record)",
+        "Laporan verifikasi progres",
+        "Catatan observasi mutu",
+        "Catatan nonconformance",
+        "Laporan tindak lanjut temuan",
+        "Dukungan dokumentasi serah terima"
+      ],
+      "areaServed": [
+        "Jawa Timur"
+      ],
+      "pricingMode": "consultation"
+    },
+    "collection": "services",
+    "route": "/layanan/pengawasan-proyek",
+    "sourcePath": "content/services/pengawasan-proyek.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Layanan",
+        "path": "/layanan"
+      },
+      {
+        "name": "Jasa Pengawasan Proyek untuk Verifikasi Pekerjaan Lapangan",
+        "path": "/layanan/pengawasan-proyek"
+      }
+    ],
+    "wordCount": 514,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "svc-pengendalian-biaya-proyek",
+    "type": "service",
+    "status": "review",
+    "title": "Jasa Pengendalian Biaya Proyek untuk Memantau Baseline dan Realisasi",
+    "slug": "pengendalian-biaya-proyek",
+    "description": "Jasa pengendalian biaya proyek Arkavena menetapkan dan memantau budget baseline, commitment, actual cost, variation, dan forecast biaya.",
+    "excerpt": "Pemantauan berkelanjutan atas anggaran, komitmen biaya, realisasi, dan dampak keputusan terhadap total biaya proyek.",
+    "seoTitle": "Jasa Pengendalian Biaya Proyek | Arkavena",
+    "primaryKeyword": "jasa pengendalian biaya proyek",
+    "secondaryKeywords": [
+      "cost control konstruksi",
+      "pengendalian anggaran proyek"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "manajemen-risiko",
+    "tags": [
+      "biaya",
+      "dokumentasi"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Pengendalian Biaya",
+      "heading": "Pantau Baseline, Komitmen, dan Realisasi Biaya Proyek Anda",
+      "summary": "Arkavena membantu menetapkan baseline anggaran dan memantau commitment, actual cost, variation, serta forecast secara berkelanjutan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-value-engineering",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai kebutuhan pengendalian biaya proyek."
+      },
+      "secondaryCta": {
+        "label": "Pelajari Cara Kerja",
+        "href": "/cara-kerja",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apa bedanya pengendalian biaya dengan penyusunan RAB?",
+        "answer": "RAB adalah dokumen anggaran yang disusun sebagai baseline. Pengendalian biaya adalah proses berkelanjutan yang memantau realisasi, komitmen, dan perubahan terhadap baseline tersebut sepanjang proyek berjalan."
+      },
+      {
+        "question": "Apakah pengendalian biaya sama dengan pengendalian cashflow?",
+        "answer": "Tidak sama. Pengendalian biaya berfokus pada baseline, commitment, actual cost, variation, dan forecast total biaya, sementara pengendalian cashflow berfokus pada kapan dana dibutuhkan dan bagaimana pengeluaran didistribusikan dari waktu ke waktu."
+      },
+      {
+        "question": "Apakah layanan ini menyediakan pembiayaan proyek?",
+        "answer": "Tidak. Layanan ini memantau dan melaporkan biaya, bukan menyediakan dana atau fasilitas pembiayaan untuk proyek Anda."
+      },
+      {
+        "question": "Apakah pengendalian biaya menjamin tidak akan ada cost overrun?",
+        "answer": "Tidak. Layanan ini membantu mendeteksi penyimpangan biaya lebih awal melalui monitoring dan forecast, tetapi tidak dapat menjamin proyek tidak akan pernah mengalami pembengkakan biaya."
+      },
+      {
+        "question": "Apakah layanan ini menggantikan fungsi accounting perusahaan?",
+        "answer": "Tidak. Pengendalian biaya proyek berfokus pada baseline dan realisasi biaya proyek, bukan pencatatan akuntansi perusahaan secara umum."
+      },
+      {
+        "question": "Bagaimana variation atau pekerjaan tambah-kurang dikelola dalam layanan ini?",
+        "answer": "Setiap variation dicatat dalam variation log, dievaluasi dampaknya terhadap baseline, dan dimasukkan ke dalam forecast biaya secara berkala."
+      },
+      {
+        "question": "Bagaimana biaya jasa pengendalian biaya proyek ditentukan?",
+        "answer": "Biaya ditentukan berdasarkan skala proyek dan kompleksitas struktur biaya yang dipantau, dibahas pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "service": {
+      "serviceType": "Jasa Pengendalian Biaya Proyek",
+      "audience": [
+        "pemilik proyek",
+        "pengembang",
+        "pengelola proyek"
+      ],
+      "deliverables": [
+        "Budget baseline",
+        "Struktur cost coding atau work package",
+        "Catatan committed cost",
+        "Catatan actual cost",
+        "Variation log",
+        "Forecast at completion",
+        "Laporan biaya berkala"
+      ],
+      "areaServed": [
+        "Jawa Timur"
+      ],
+      "pricingMode": "consultation"
+    },
+    "collection": "services",
+    "route": "/layanan/pengendalian-biaya-proyek",
+    "sourcePath": "content/services/pengendalian-biaya-proyek.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Layanan",
+        "path": "/layanan"
+      },
+      {
+        "name": "Jasa Pengendalian Biaya Proyek untuk Memantau Baseline dan Realisasi",
+        "path": "/layanan/pengendalian-biaya-proyek"
+      }
+    ],
+    "wordCount": 530,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "svc-renovasi-rumah",
+    "type": "service",
+    "status": "review",
+    "title": "Jasa Renovasi Rumah dengan Perhatian pada Kondisi Eksisting",
+    "slug": "renovasi-rumah",
+    "description": "Jasa renovasi rumah Arkavena dengan perhatian khusus pada kondisi eksisting, pekerjaan tersembunyi, penghuni, dan pengendalian perubahan ruang lingkup.",
+    "excerpt": "Pengelolaan renovasi rumah yang mempertimbangkan kondisi bangunan lama, kebutuhan penghuni, dan integrasi pekerjaan baru dengan yang sudah ada.",
+    "seoTitle": "Jasa Renovasi Rumah | Arkavena",
+    "primaryKeyword": "jasa renovasi rumah",
+    "secondaryKeywords": [
+      "kontraktor renovasi",
+      "renovasi bangunan hunian"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "renovasi",
+    "tags": [
+      "renovasi",
+      "residensial"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Renovasi Rumah",
+      "heading": "Renovasi Rumah dengan Perhatian pada Kondisi Eksisting",
+      "summary": "Arkavena mengelola renovasi rumah dengan memperhatikan kondisi bangunan lama, kebutuhan penghuni, dan integrasi pekerjaan baru dan lama.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering",
+        "svc-design-and-build"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana renovasi rumah."
+      },
+      "secondaryCta": {
+        "label": "Pelajari Cara Kerja",
+        "href": "/cara-kerja",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah kondisi tersembunyi di balik dinding atau lantai bisa diketahui sebelum pembongkaran?",
+        "answer": "Sebagian dapat diperkirakan dari dokumentasi visual awal, tetapi tidak seluruh kondisi tersembunyi dapat diketahui sebelum pembongkaran dilakukan. Temuan baru akan didokumentasikan dan didiskusikan begitu ditemukan."
+      },
+      {
+        "question": "Apakah rumah saya bisa tetap dihuni selama renovasi berlangsung?",
+        "answer": "Bergantung pada skala dan lokasi pekerjaan. Sebagian renovasi memungkinkan rumah tetap dihuni dengan pengaturan area kerja, sementara renovasi berskala besar mungkin membutuhkan penyesuaian. Hal ini dibahas pada tahap perencanaan."
+      },
+      {
+        "question": "Bagaimana jika struktur eksisting ternyata tidak sesuai asumsi awal?",
+        "answer": "Temuan tersebut akan dilaporkan beserta opsi penanganannya, termasuk dampaknya terhadap ruang lingkup, biaya, dan jadwal, sebelum pekerjaan lanjutan dilaksanakan."
+      },
+      {
+        "question": "Apakah renovasi selalu lebih murah dibandingkan membangun baru?",
+        "answer": "Tidak selalu. Biaya renovasi bergantung pada kondisi eksisting, kompleksitas integrasi pekerjaan baru dan lama, serta ruang lingkup yang disepakati — bukan sesuatu yang bisa dipastikan tanpa peninjauan."
+      },
+      {
+        "question": "Apa yang dilakukan untuk melindungi bagian rumah yang tidak direnovasi?",
+        "answer": "Area yang dipertahankan diberi perlindungan kerja sesuai kebutuhan, dan urutan pekerjaan direncanakan untuk meminimalkan risiko kerusakan pada bagian tersebut."
+      },
+      {
+        "question": "Apakah gambar rumah lama dibutuhkan sebelum renovasi dimulai?",
+        "answer": "Gambar lama membantu proses perencanaan, tetapi apabila tidak tersedia, dokumentasi kondisi eksisting dapat dilakukan sebagai bagian dari tahap awal."
+      },
+      {
+        "question": "Bagaimana biaya jasa renovasi ditentukan?",
+        "answer": "Biaya jasa ditentukan setelah peninjauan kondisi eksisting dan ruang lingkup pekerjaan dibahas bersama — bukan angka yang dapat ditentukan tanpa survei awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "service": {
+      "serviceType": "Jasa Renovasi Rumah",
+      "audience": [
+        "pemilik rumah"
+      ],
+      "deliverables": [
+        "Dokumentasi kondisi eksisting yang terlihat",
+        "Dokumen pemisahan ruang lingkup pekerjaan baru dan lama",
+        "Jadwal dan urutan pekerjaan",
+        "Catatan perubahan (change log)",
+        "Catatan hasil pemeriksaan mutu",
+        "Dokumen serah terima"
+      ],
+      "areaServed": [
+        "Jawa Timur"
+      ],
+      "pricingMode": "consultation"
+    },
+    "collection": "services",
+    "route": "/layanan/renovasi-rumah",
+    "sourcePath": "content/services/renovasi-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Layanan",
+        "path": "/layanan"
+      },
+      {
+        "name": "Jasa Renovasi Rumah dengan Perhatian pada Kondisi Eksisting",
+        "path": "/layanan/renovasi-rumah"
+      }
+    ],
+    "wordCount": 581,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "svc-value-engineering",
+    "type": "service",
+    "status": "review",
+    "title": "Jasa Value Engineering untuk Evaluasi Alternatif Desain dan Biaya",
+    "slug": "value-engineering",
+    "description": "Jasa value engineering Arkavena mengevaluasi alternatif desain, material, dan metode kerja berdasarkan fungsi, biaya, risiko, dan constructability.",
+    "excerpt": "Evaluasi alternatif berbasis fungsi, biaya, risiko, dan constructability untuk mendukung keputusan proyek yang lebih terukur.",
+    "seoTitle": "Jasa Value Engineering | Arkavena",
+    "primaryKeyword": "jasa value engineering",
+    "secondaryKeywords": [
+      "value engineering konstruksi",
+      "evaluasi alternatif desain"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "manajemen-risiko",
+    "tags": [
+      "perencanaan",
+      "biaya"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Value Engineering",
+      "heading": "Evaluasi Alternatif Berdasarkan Fungsi, Biaya, dan Risiko",
+      "summary": "Arkavena membantu mengevaluasi alternatif desain, material, dan metode kerja secara sistematis, mempertimbangkan fungsi, biaya, dan konsekuensinya.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [
+        "svc-design-and-build",
+        "svc-manajemen-konstruksi",
+        "svc-pengendalian-biaya-proyek",
+        "svc-bangun-bangunan-komersial"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai kebutuhan value engineering untuk proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Pelajari Cara Kerja",
+        "href": "/cara-kerja",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah value engineering sama dengan mengurangi spesifikasi untuk menghemat biaya?",
+        "answer": "Tidak. Value engineering mengevaluasi alternatif berdasarkan fungsi, biaya, dan risiko secara bersamaan — bukan sekadar menurunkan spesifikasi tanpa mempertimbangkan dampaknya terhadap fungsi bangunan."
+      },
+      {
+        "question": "Apakah value engineering selalu menghasilkan penghematan biaya?",
+        "answer": "Tidak selalu. Tujuannya adalah menemukan alternatif yang paling sesuai dengan fungsi dan kebutuhan proyek — hasilnya bisa berupa penghematan, atau justru rekomendasi mempertahankan opsi yang sudah ada karena alternatif lain memiliki risiko lebih tinggi."
+      },
+      {
+        "question": "Kapan waktu yang tepat untuk melakukan value engineering?",
+        "answer": "Semakin awal dilakukan, semakin besar ruang untuk mengevaluasi alternatif tanpa menimbulkan biaya redesain. Value engineering yang dilakukan setelah desain final berisiko menimbulkan perubahan tambahan."
+      },
+      {
+        "question": "Apakah rekomendasi value engineering menggantikan persetujuan desainer?",
+        "answer": "Tidak. Rekomendasi disampaikan sebagai bahan pertimbangan, tetapi keputusan akhir tetap memerlukan persetujuan dari pihak yang berwenang, termasuk desainer bila relevan."
+      },
+      {
+        "question": "Apakah semua alternatif yang dievaluasi pasti dapat diterapkan?",
+        "answer": "Tidak. Sebagian alternatif mungkin tidak sesuai dengan kondisi lapangan, ketersediaan material, atau batasan proyek lainnya — evaluasi mencakup identifikasi keterbatasan tersebut."
+      },
+      {
+        "question": "Apakah value engineering memengaruhi jadwal atau mutu proyek?",
+        "answer": "Bisa. Beberapa alternatif memiliki konsekuensi terhadap jadwal atau mutu, dan hal ini menjadi bagian dari perbandingan yang disampaikan sebelum keputusan diambil."
+      },
+      {
+        "question": "Bagaimana biaya jasa value engineering ditentukan?",
+        "answer": "Biaya ditentukan berdasarkan cakupan evaluasi dan tahap proyek saat layanan ini dilibatkan, dibahas pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "service": {
+      "serviceType": "Jasa Value Engineering",
+      "audience": [
+        "pemilik proyek",
+        "pengembang"
+      ],
+      "deliverables": [
+        "Dokumen klarifikasi fungsi dan kebutuhan",
+        "Identifikasi cost driver",
+        "Perbandingan alternatif (alternatives comparison)",
+        "Catatan pertimbangan constructability dan risiko",
+        "Memo rekomendasi"
+      ],
+      "areaServed": [
+        "Jawa Timur"
+      ],
+      "pricingMode": "consultation"
+    },
+    "collection": "services",
+    "route": "/layanan/value-engineering",
+    "sourcePath": "content/services/value-engineering.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Layanan",
+        "path": "/layanan"
+      },
+      {
+        "name": "Jasa Value Engineering untuk Evaluasi Alternatif Desain dan Biaya",
+        "path": "/layanan/value-engineering"
+      }
+    ],
+    "wordCount": 533,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/panduan"
     ],
     "isIndexable": false,
     "isFollowable": true
