@@ -3,40 +3,36 @@
 Not read by the content loader (`content/guides/` only). Tracks guide pages
 blocked on missing verifiable cost data, per Batch 07's cost-data hard gate.
 
-## Blocked: biaya-bangun-rumah-per-meter
+## Resolved: biaya-bangun-rumah-per-meter (2026-07-28)
 
-**Planned route:** `/panduan/biaya-bangun-rumah-per-meter`
-**Planned ID:** `guide-biaya-bangun-rumah-per-meter`
-**Article type:** `cost` (schema vocabulary — see note on article-type mapping below)
-**Status:** BLOCKED — not created as active MDX
+**Route:** `/panduan/biaya-bangun-rumah-per-meter`
+**ID:** `guide-biaya-bangun-rumah-per-meter`
+**Article type:** `cost`
+**Status:** Created as active MDX, `status: review` — no longer blocked.
 
-### Why this is blocked
+### What unblocked it
 
-This article's entire purpose is explaining and illustrating per-m² cost
-figures for house construction. Per the cost-data hard gate, no price per m²,
-material price, labor price, or cost range may be filled from training data,
-memory, old articles, search snippets, assumptions, other-city data, or any
-number without a source and date. No such data was provided for this batch.
+Owner provided a starting price (2026-07-28): **Rp4.000.000/m²**, explicitly
+positioned as a deliberate starting/filter price for the mid-upper segment,
+not a market-average or budget figure. No detailed component breakdown
+(structure/MEP/finishing split) was provided — the article explains the
+*variables* that affect the final figure instead of fabricating a breakdown
+table, per the owner's explicit instruction not to invent line-item numbers.
 
-### Required data (owner-provided, before this article can be drafted)
-
-| Field | Needed |
-|---|---|
-| Price range(s) per m² | Yes — at minimum one verified range |
-| Geographic scope | City/province the range applies to |
-| Specification level | What finish/quality level the range assumes (basic/standard/premium etc.) |
-| Included components | e.g. structure, MEP rough-in, finishing — explicitly listed |
-| Excluded components | e.g. land cost, permits, furniture, design fees — explicitly listed |
-| Data date (`dataAsOf`) | The date the price data itself reflects — not today's date, not file-creation date |
-| Source | Where the range comes from — Arkavena's own anonymized estimate register, a government reference, a supplier quote with date/region, or another source the owner explicitly approves |
-| Publication approval | Owner confirmation this specific data may be published publicly |
-
-### What happens once data is available
-
-1. Owner provides the data above (ideally as an owner-input record, e.g. `data/owner-input/costs/bangun-rumah-YYYY-MM-DD.yml`, if/when that mechanism is adopted).
-2. Draft `content/guides/biaya-bangun-rumah-per-meter.mdx` using only that data, `articleType: cost`, `dataAsOf` set to the real data date, and `sources` populated and non-empty.
-3. Use `CostTable` with explicit unit/currency/location/date/inclusion/exclusion/limitation, never a bare figure in prose.
-4. Backfill sibling relationships from the other 8 P3 guides that currently list this article as a planned (but not yet created) sibling — see the P3 guide files' `relationships.guides` arrays for the exact `guide-biaya-bangun-rumah-per-meter` references that will need to resolve once this file exists.
+- `dataAsOf`: `2026-07-28` (the date the owner gave this figure — not an
+  arbitrary file-creation date)
+- `sources`: recorded as an internal Arkavena estimate (not an external
+  source, and not fabricated as one) — `label: "Estimasi internal Arkavena
+  berdasarkan pengalaman proyek"`, `publisher: "Arkavena"`
+- Framing: "mulai dari" (starting price) throughout, never presented as a
+  final quote or as a low/cheap price — tone explicitly ties the price point
+  to Arkavena's quality/risk-control differentiation, per owner instruction
+- A `<CTA>` block is placed immediately after the price is first stated in
+  the body, in addition to the template's standard end-of-article CTA
+- Sibling relationships backfilled into `tahapan-bangun-rumah-dari-nol`
+  (pillar), `cara-menghitung-biaya-bangun-rumah`, and
+  `cara-membaca-rab-rumah` — the three closest guides per the cannibalization
+  audit — with matching inline body links added
 
 ### Note on article-type vocabulary
 

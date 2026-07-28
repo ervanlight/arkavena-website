@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T05:33:51.665Z",
+  "generatedAt": "2026-07-28T06:03:18.682Z",
   "nodes": {
     "page-cara-kerja": {
       "id": "page-cara-kerja",
@@ -519,6 +519,7 @@
         "svc-penyusunan-rab"
       ],
       "inbound": [
+        "guide-biaya-bangun-rumah-per-meter",
         "guide-borongan-vs-harian-bangun-rumah",
         "guide-cara-membaca-rab-rumah",
         "guide-cara-memilih-kontraktor-rumah",
@@ -642,6 +643,7 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-biaya-bangun-rumah-per-meter",
         "guide-borongan-vs-harian-bangun-rumah",
         "guide-cara-membaca-rab-rumah",
         "guide-cara-memilih-kontraktor-rumah",
@@ -822,6 +824,7 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-biaya-bangun-rumah-per-meter",
         "guide-borongan-vs-harian-bangun-rumah",
         "guide-cara-membaca-rab-rumah",
         "guide-cara-memilih-kontraktor-rumah",
@@ -1740,6 +1743,7 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-biaya-bangun-rumah-per-meter",
         "guide-borongan-vs-harian-bangun-rumah",
         "guide-cara-membaca-rab-rumah",
         "guide-cara-memilih-kontraktor-rumah",
@@ -2141,6 +2145,43 @@
         }
       ]
     },
+    "guide-biaya-bangun-rumah-per-meter": {
+      "id": "guide-biaya-bangun-rumah-per-meter",
+      "route": "/panduan/biaya-bangun-rumah-per-meter",
+      "type": "guide",
+      "outbound": [
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "sec-rumah-tinggal",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-rumah",
+        "svc-design-and-build"
+      ],
+      "inbound": [
+        "guide-cara-membaca-rab-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-tahapan-bangun-rumah-dari-nol"
+      ],
+      "related": [
+        {
+          "id": "sec-rumah-tinggal",
+          "score": 40
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 28
+        },
+        {
+          "id": "svc-design-and-build",
+          "score": 20
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 8
+        }
+      ]
+    },
     "guide-borongan-vs-harian-bangun-rumah": {
       "id": "guide-borongan-vs-harian-bangun-rumah",
       "route": "/panduan/borongan-vs-harian-bangun-rumah",
@@ -2184,6 +2225,7 @@
       "route": "/panduan/cara-membaca-rab-rumah",
       "type": "guide",
       "outbound": [
+        "guide-biaya-bangun-rumah-per-meter",
         "guide-cara-menghitung-biaya-bangun-rumah",
         "guide-kontrak-kerja-konstruksi-rumah",
         "guide-tahapan-bangun-rumah-dari-nol",
@@ -2193,6 +2235,7 @@
         "svc-design-and-build"
       ],
       "inbound": [
+        "guide-biaya-bangun-rumah-per-meter",
         "guide-cara-menghitung-biaya-bangun-rumah",
         "guide-kontrak-kerja-konstruksi-rumah",
         "guide-tahapan-bangun-rumah-dari-nol"
@@ -2262,6 +2305,7 @@
       "route": "/panduan/cara-menghitung-biaya-bangun-rumah",
       "type": "guide",
       "outbound": [
+        "guide-biaya-bangun-rumah-per-meter",
         "guide-cara-membaca-rab-rumah",
         "guide-checklist-persiapan-bangun-rumah",
         "guide-tahapan-bangun-rumah-dari-nol",
@@ -2271,6 +2315,7 @@
         "svc-design-and-build"
       ],
       "inbound": [
+        "guide-biaya-bangun-rumah-per-meter",
         "guide-cara-membaca-rab-rumah",
         "guide-checklist-persiapan-bangun-rumah",
         "guide-tahapan-bangun-rumah-dari-nol"
@@ -2444,6 +2489,7 @@
       "route": "/panduan/tahapan-bangun-rumah-dari-nol",
       "type": "guide",
       "outbound": [
+        "guide-biaya-bangun-rumah-per-meter",
         "guide-borongan-vs-harian-bangun-rumah",
         "guide-cara-membaca-rab-rumah",
         "guide-cara-memilih-kontraktor-rumah",
@@ -2457,6 +2503,7 @@
         "svc-design-and-build"
       ],
       "inbound": [
+        "guide-biaya-bangun-rumah-per-meter",
         "guide-cara-membaca-rab-rumah",
         "guide-cara-memilih-kontraktor-rumah",
         "guide-cara-menghitung-biaya-bangun-rumah",

@@ -6044,6 +6044,135 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "guide-biaya-bangun-rumah-per-meter",
+    "type": "guide",
+    "status": "review",
+    "title": "Biaya Bangun Rumah per Meter: Memahami Kisaran dan Apa yang Memengaruhinya",
+    "slug": "biaya-bangun-rumah-per-meter",
+    "description": "Biaya bangun rumah per meter mulai dari Rp4.000.000/m² untuk spesifikasi kelas menengah-atas — beserta variabel yang memengaruhi angka ini dan cara membacanya dengan benar.",
+    "excerpt": "Kisaran biaya bangun rumah per meter Arkavena dan penjelasan variabel yang memengaruhi angka tersebut, bukan angka pasar tunggal yang berlaku universal.",
+    "seoTitle": "Biaya Bangun Rumah per Meter | Arkavena",
+    "primaryKeyword": "biaya bangun rumah per meter",
+    "secondaryKeywords": [
+      "harga bangun rumah per m2",
+      "kisaran biaya bangun rumah"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "biaya"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Biaya Bangun Rumah per Meter: Mulai dari Rp4.000.000/m²",
+      "summary": "Angka awal untuk spesifikasi kelas menengah-atas, beserta variabel yang memengaruhi biaya akhir dan cara membaca kisaran ini dengan benar.",
+      "image": "/images/guides/biaya-bangun-rumah-per-meter/hero.webp",
+      "imageAlt": "Ilustrasi konseptual komponen biaya konstruksi rumah per meter persegi"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-cara-membaca-rab-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Anggaran Rumah Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya bangun rumah per meter untuk rencana saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Rp4.000.000/m² adalah harga final?",
+        "answer": "Tidak. Angka ini adalah titik awal (starting price) untuk spesifikasi kelas menengah-atas, bukan quote final. Harga aktual ditentukan setelah desain, spesifikasi material, dan kondisi lahan proyek Anda dibahas pada tahap konsultasi."
+      },
+      {
+        "question": "Mengapa Arkavena tidak menawarkan opsi harga yang lebih rendah?",
+        "answer": "Angka ini secara sengaja mencerminkan standar kualitas material, mutu pelaksanaan, dan pengendalian proyek yang menjadi pendekatan Arkavena — bukan harga yang dioptimalkan untuk menjadi opsi termurah di pasar."
+      },
+      {
+        "question": "Apa yang termasuk dalam estimasi Rp4.000.000/m² ini?",
+        "answer": "Angka ini mencerminkan spesifikasi kelas menengah-atas secara umum. Rincian komponen yang termasuk dan tidak termasuk (struktur, MEP, finishing, dsb.) untuk proyek Anda spesifik akan dijelaskan pada tahap konsultasi dan RAB, karena rincian tersebut bergantung pada desain dan pilihan spesifikasi Anda."
+      },
+      {
+        "question": "Apakah harga ini berlaku di semua kota?",
+        "answer": "Estimasi ini didasarkan pada pengalaman proyek Arkavena di area layanan utama. Biaya di lokasi lain dapat berbeda dan akan dibahas berdasarkan lokasi proyek Anda secara spesifik."
+      },
+      {
+        "question": "Apakah luas tanah dan luas bangunan sama untuk perhitungan ini?",
+        "answer": "Tidak. Perhitungan biaya per meter menggunakan luas bangunan (luas lantai yang dibangun), bukan luas tanah. Rumah dua lantai dengan luas tanah 100 m² misalnya dapat memiliki luas bangunan lebih dari 100 m²."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Estimasi internal Arkavena berdasarkan pengalaman proyek",
+        "url": "https://arkavena.com/layanan/bangun-rumah",
+        "publisher": "Arkavena",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "cost",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": "2026-07-28",
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/biaya-bangun-rumah-per-meter",
+    "sourcePath": "content/guides/biaya-bangun-rumah-per-meter.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Biaya Bangun Rumah per Meter: Memahami Kisaran dan Apa yang Memengaruhinya",
+        "path": "/panduan/biaya-bangun-rumah-per-meter"
+      }
+    ],
+    "wordCount": 728,
+    "readingMinutes": 4,
+    "internalLinks": [
+      "/panduan/cara-membaca-rab-rumah",
+      "/panduan/cara-menghitung-biaya-bangun-rumah",
+      "/layanan/bangun-rumah",
+      "/panduan/tahapan-bangun-rumah-dari-nol"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "guide-borongan-vs-harian-bangun-rumah",
     "type": "guide",
     "status": "review",
@@ -6202,6 +6331,7 @@ export const contentManifest: ContentItem[] = [
       "locations": [],
       "guides": [
         "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-biaya-bangun-rumah-per-meter",
         "guide-kontrak-kerja-konstruksi-rumah",
         "guide-tahapan-bangun-rumah-dari-nol"
       ],
@@ -6266,11 +6396,12 @@ export const contentManifest: ContentItem[] = [
         "path": "/panduan/cara-membaca-rab-rumah"
       }
     ],
-    "wordCount": 506,
+    "wordCount": 516,
     "readingMinutes": 3,
     "internalLinks": [
       "/layanan/bangun-rumah",
       "/panduan/cara-menghitung-biaya-bangun-rumah",
+      "/panduan/biaya-bangun-rumah-per-meter",
       "/panduan/kontrak-kerja-konstruksi-rumah"
     ],
     "isIndexable": false,
@@ -6441,6 +6572,7 @@ export const contentManifest: ContentItem[] = [
       "locations": [],
       "guides": [
         "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-biaya-bangun-rumah-per-meter",
         "guide-cara-membaca-rab-rumah",
         "guide-checklist-persiapan-bangun-rumah"
       ],
@@ -6505,10 +6637,11 @@ export const contentManifest: ContentItem[] = [
         "path": "/panduan/cara-menghitung-biaya-bangun-rumah"
       }
     ],
-    "wordCount": 664,
+    "wordCount": 675,
     "readingMinutes": 3,
     "internalLinks": [
       "/layanan/bangun-rumah",
+      "/panduan/biaya-bangun-rumah-per-meter",
       "/panduan/cara-membaca-rab-rumah",
       "/panduan/checklist-persiapan-bangun-rumah"
     ],
@@ -6738,10 +6871,10 @@ export const contentManifest: ContentItem[] = [
     "id": "guide-kontrak-kerja-konstruksi-rumah",
     "type": "guide",
     "status": "review",
-    "title": "Elemen Penting Kontrak Kerja Konstruksi Rumah yang Perlu Diperiksa",
+    "title": "Mengenal Elemen Umum Kontrak Kerja Konstruksi Rumah",
     "slug": "kontrak-kerja-konstruksi-rumah",
-    "description": "Elemen-elemen yang perlu diperiksa dalam kontrak kerja konstruksi rumah — ruang lingkup, harga, jadwal, perubahan pekerjaan, dan penyelesaian sengketa. Bukan nasihat hukum.",
-    "excerpt": "Daftar elemen kontrak yang perlu diperiksa sebelum menandatangani kesepakatan kerja konstruksi rumah.",
+    "description": "Penjelasan umum elemen yang biasanya diatur dalam kontrak kerja konstruksi rumah — ruang lingkup, harga, jadwal, dan perubahan pekerjaan. Bukan nasihat hukum.",
+    "excerpt": "Pengantar informasional mengenai apa yang umumnya diatur dalam kontrak kerja konstruksi rumah.",
     "seoTitle": "Kontrak Kerja Konstruksi Rumah | Arkavena",
     "primaryKeyword": "kontrak kerja konstruksi rumah",
     "secondaryKeywords": [
@@ -6762,8 +6895,8 @@ export const contentManifest: ContentItem[] = [
     "reviewedBy": null,
     "hero": {
       "eyebrow": "Panduan Bangun Rumah",
-      "heading": "Elemen yang Perlu Diperiksa dalam Kontrak Kerja Konstruksi Rumah",
-      "summary": "Daftar elemen kontrak yang umum ditemukan pada proyek bangun rumah — bukan template hukum atau nasihat hukum untuk situasi Anda.",
+      "heading": "Mengenal Elemen Umum Kontrak Kerja Konstruksi Rumah",
+      "summary": "Pengantar informasional mengenai konsep dasar kontrak konstruksi — bukan template hukum atau nasihat hukum untuk situasi Anda.",
       "image": "/images/guides/kontrak-kerja-konstruksi-rumah/hero.webp",
       "imageAlt": "Ilustrasi konseptual dokumen kontrak kerja konstruksi"
     },
@@ -6801,19 +6934,19 @@ export const contentManifest: ContentItem[] = [
     "faq": [
       {
         "question": "Apakah panduan ini bisa dijadikan template kontrak?",
-        "answer": "Tidak. Panduan ini menjelaskan elemen yang umum perlu diperiksa, bukan template hukum yang siap dipakai. Setiap kontrak perlu disesuaikan dengan proyek Anda dan sebaiknya ditinjau oleh pihak yang berkompeten."
+        "answer": "Tidak. Panduan ini bersifat informasional umum untuk mengenalkan konsep dasar kontrak konstruksi, bukan template hukum yang siap dipakai. Untuk kontrak spesifik proyek Anda, konsultasikan ke notaris atau profesional hukum yang berkompeten."
       },
       {
         "question": "Apakah Arkavena menyediakan nasihat hukum untuk kontrak?",
-        "answer": "Tidak. Arkavena dapat menjelaskan elemen operasional kontrak konstruksi, tetapi nasihat hukum untuk kontrak spesifik berada di luar cakupan layanan ini."
+        "answer": "Tidak. Arkavena dapat menjelaskan elemen operasional kontrak konstruksi secara umum, tetapi nasihat hukum untuk kontrak spesifik Anda berada di luar cakupan layanan ini dan sebaiknya dikonsultasikan ke notaris atau profesional hukum."
       },
       {
-        "question": "Apa yang terjadi jika kontrak tidak mencantumkan mekanisme perubahan pekerjaan?",
-        "answer": "Tanpa mekanisme change order yang jelas, perubahan pekerjaan di lapangan berisiko menimbulkan perselisihan mengenai biaya dan tanggung jawab. Ini adalah salah satu elemen yang paling penting untuk diperiksa sebelum tanda tangan."
+        "question": "Apa yang biasanya diatur mengenai perubahan pekerjaan dalam kontrak?",
+        "answer": "Kontrak konstruksi umumnya mengatur mekanisme change order untuk perubahan pekerjaan. Detail mekanisme yang sesuai untuk kontrak Anda sebaiknya didiskusikan dengan pelaksana dan, jika diperlukan, ditinjau oleh profesional hukum."
       },
       {
         "question": "Siapa yang sebaiknya meninjau kontrak sebelum ditandatangani?",
-        "answer": "Untuk proyek dengan nilai signifikan atau kompleksitas tinggi, pertimbangkan peninjauan oleh penasihat hukum atau pihak yang memahami kontrak konstruksi, di luar pihak yang menyusun kontrak tersebut."
+        "answer": "Untuk kepastian hukum atas kontrak spesifik Anda, konsultasikan ke notaris atau penasihat hukum yang memahami kontrak konstruksi, di luar pihak yang menyusun kontrak tersebut."
       }
     ],
     "sources": [],
@@ -6838,12 +6971,12 @@ export const contentManifest: ContentItem[] = [
         "path": "/panduan"
       },
       {
-        "name": "Elemen Penting Kontrak Kerja Konstruksi Rumah yang Perlu Diperiksa",
+        "name": "Mengenal Elemen Umum Kontrak Kerja Konstruksi Rumah",
         "path": "/panduan/kontrak-kerja-konstruksi-rumah"
       }
     ],
-    "wordCount": 479,
-    "readingMinutes": 2,
+    "wordCount": 568,
+    "readingMinutes": 3,
     "internalLinks": [
       "/layanan/bangun-rumah",
       "/panduan/cara-memilih-kontraktor-rumah",
@@ -7012,6 +7145,7 @@ export const contentManifest: ContentItem[] = [
       ],
       "locations": [],
       "guides": [
+        "guide-biaya-bangun-rumah-per-meter",
         "guide-checklist-persiapan-bangun-rumah",
         "guide-cara-memilih-kontraktor-rumah",
         "guide-kontrak-kerja-konstruksi-rumah",
@@ -7085,10 +7219,11 @@ export const contentManifest: ContentItem[] = [
         "path": "/panduan/tahapan-bangun-rumah-dari-nol"
       }
     ],
-    "wordCount": 788,
+    "wordCount": 804,
     "readingMinutes": 4,
     "internalLinks": [
       "/panduan/checklist-persiapan-bangun-rumah",
+      "/panduan/biaya-bangun-rumah-per-meter",
       "/panduan/cara-menghitung-biaya-bangun-rumah",
       "/panduan/cara-membaca-rab-rumah",
       "/panduan/cara-memilih-kontraktor-rumah",
