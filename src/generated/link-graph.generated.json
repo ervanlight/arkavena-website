@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T15:38:48.887Z",
+  "generatedAt": "2026-07-28T16:00:46.260Z",
   "nodes": {
     "page-cara-kerja": {
       "id": "page-cara-kerja",
@@ -526,6 +526,10 @@
       ],
       "inbound": [
         "guide-contoh-panduan",
+        "guide-owner-representative-proyek-konstruksi",
+        "guide-pengendalian-biaya-proyek",
+        "guide-pengendalian-cashflow-proyek",
+        "guide-value-engineering-untuk-mengendalikan-biaya",
         "project-hunian-lamongan-2022",
         "project-kos-dau-malang-2020",
         "project-kos-sidoarjo-2023-2026",
@@ -877,6 +881,9 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-apa-itu-value-engineering-konstruksi",
+        "guide-pengendalian-cashflow-proyek",
+        "guide-value-engineering-untuk-mengendalikan-biaya",
         "svc-audit-biaya-proyek",
         "svc-penyusunan-rab",
         "svc-value-engineering"
@@ -960,10 +967,19 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-pengawasan-proyek",
+        "guide-apa-itu-value-engineering-konstruksi",
         "guide-biaya-bangun-gudang",
         "guide-biaya-bangun-pabrik",
         "guide-biaya-bangun-restoran",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-owner-representative-proyek-konstruksi",
+        "guide-pengendalian-biaya-proyek",
+        "guide-pengendalian-cashflow-proyek",
         "guide-tahapan-proyek-bangunan-komersial",
+        "guide-tugas-manajemen-konstruksi",
+        "guide-value-engineering-untuk-mengendalikan-biaya",
         "loc-gresik",
         "loc-pasuruan",
         "loc-surabaya",
@@ -1016,7 +1032,16 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-pengawasan-proyek",
+        "guide-apa-itu-value-engineering-konstruksi",
         "guide-biaya-bangun-klinik",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-owner-representative-proyek-konstruksi",
+        "guide-pengendalian-biaya-proyek",
+        "guide-pengendalian-cashflow-proyek",
+        "guide-tugas-manajemen-konstruksi",
+        "guide-value-engineering-untuk-mengendalikan-biaya",
         "loc-gresik",
         "sec-hotel",
         "sec-klinik",
@@ -1063,9 +1088,15 @@
         "svc-pengendalian-jadwal-proyek"
       ],
       "inbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-pengawasan-proyek",
         "guide-biaya-bangun-masjid",
         "guide-biaya-bangun-sekolah",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-owner-representative-proyek-konstruksi",
+        "guide-pengendalian-biaya-proyek",
         "guide-tahapan-proyek-bangunan-komersial",
+        "guide-tugas-manajemen-konstruksi",
         "loc-gresik",
         "loc-lamongan",
         "loc-malang",
@@ -1130,6 +1161,9 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-pengawasan-proyek",
+        "guide-apa-itu-value-engineering-konstruksi",
         "guide-biaya-bangun-cafe",
         "guide-biaya-bangun-gudang",
         "guide-biaya-bangun-kantor",
@@ -1137,8 +1171,13 @@
         "guide-biaya-bangun-ruko",
         "guide-biaya-renovasi-rumah",
         "guide-cara-menghitung-anggaran-renovasi-rumah",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-owner-representative-proyek-konstruksi",
+        "guide-pengendalian-biaya-proyek",
         "guide-risiko-pembengkakan-biaya-renovasi",
         "guide-tahapan-proyek-bangunan-komersial",
+        "guide-tugas-manajemen-konstruksi",
+        "guide-value-engineering-untuk-mengendalikan-biaya",
         "loc-sidoarjo",
         "sec-gudang",
         "sec-kantor",
@@ -1193,6 +1232,10 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-pengendalian-cashflow-proyek",
+        "guide-tugas-manajemen-konstruksi",
         "svc-manajemen-konstruksi",
         "svc-pengendalian-biaya-proyek"
       ],
@@ -1227,6 +1270,7 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "guide-apa-itu-pengawasan-proyek",
         "guide-tahapan-proyek-bangunan-komersial",
         "loc-pasuruan",
         "sec-gudang",
@@ -1481,8 +1525,10 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "guide-apa-itu-value-engineering-konstruksi",
         "guide-biaya-bangun-kos",
         "guide-tahapan-proyek-bangunan-komersial",
+        "guide-value-engineering-untuk-mengendalikan-biaya",
         "sec-kos",
         "sec-rumah-tinggal",
         "sec-villa",
@@ -2553,6 +2599,133 @@
         }
       ]
     },
+    "guide-apa-itu-manajemen-konstruksi": {
+      "id": "guide-apa-itu-manajemen-konstruksi",
+      "route": "/panduan/apa-itu-manajemen-konstruksi",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-pengawasan-proyek",
+        "guide-apa-itu-value-engineering-konstruksi",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-owner-representative-proyek-konstruksi",
+        "guide-pengendalian-biaya-proyek",
+        "guide-pengendalian-cashflow-proyek",
+        "guide-tugas-manajemen-konstruksi",
+        "guide-value-engineering-untuk-mengendalikan-biaya",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-pengendalian-cashflow-proyek"
+      ],
+      "inbound": [
+        "guide-apa-itu-pengawasan-proyek",
+        "guide-apa-itu-value-engineering-konstruksi",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-owner-representative-proyek-konstruksi",
+        "guide-pengendalian-biaya-proyek",
+        "guide-pengendalian-cashflow-proyek",
+        "guide-tugas-manajemen-konstruksi",
+        "guide-value-engineering-untuk-mengendalikan-biaya"
+      ],
+      "related": [
+        {
+          "id": "svc-owner-representative",
+          "score": 40
+        },
+        {
+          "id": "svc-pengawasan-proyek",
+          "score": 40
+        },
+        {
+          "id": "svc-pengendalian-biaya-proyek",
+          "score": 40
+        },
+        {
+          "id": "svc-pengendalian-cashflow-proyek",
+          "score": 40
+        }
+      ]
+    },
+    "guide-apa-itu-pengawasan-proyek": {
+      "id": "guide-apa-itu-pengawasan-proyek",
+      "route": "/panduan/apa-itu-pengawasan-proyek",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-owner-representative-proyek-konstruksi",
+        "guide-tugas-manajemen-konstruksi",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-pengendalian-jadwal-proyek"
+      ],
+      "inbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-owner-representative-proyek-konstruksi",
+        "guide-tugas-manajemen-konstruksi"
+      ],
+      "related": [
+        {
+          "id": "svc-manajemen-konstruksi",
+          "score": 40
+        },
+        {
+          "id": "svc-owner-representative",
+          "score": 40
+        },
+        {
+          "id": "svc-pengendalian-biaya-proyek",
+          "score": 40
+        },
+        {
+          "id": "svc-pengendalian-jadwal-proyek",
+          "score": 40
+        }
+      ]
+    },
+    "guide-apa-itu-value-engineering-konstruksi": {
+      "id": "guide-apa-itu-value-engineering-konstruksi",
+      "route": "/panduan/apa-itu-value-engineering-konstruksi",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-pengendalian-biaya-proyek",
+        "guide-value-engineering-untuk-mengendalikan-biaya",
+        "svc-estimasi-biaya-konstruksi",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ],
+      "inbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-pengendalian-biaya-proyek",
+        "guide-pengendalian-cashflow-proyek",
+        "guide-value-engineering-untuk-mengendalikan-biaya"
+      ],
+      "related": [
+        {
+          "id": "svc-estimasi-biaya-konstruksi",
+          "score": 40
+        },
+        {
+          "id": "svc-manajemen-konstruksi",
+          "score": 40
+        },
+        {
+          "id": "svc-owner-representative",
+          "score": 40
+        },
+        {
+          "id": "svc-pengendalian-biaya-proyek",
+          "score": 40
+        }
+      ]
+    },
     "guide-biaya-bangun-cafe": {
       "id": "guide-biaya-bangun-cafe",
       "route": "/panduan/biaya-bangun-cafe",
@@ -3597,6 +3770,46 @@
         }
       ]
     },
+    "guide-manajemen-konstruksi-vs-kontraktor": {
+      "id": "guide-manajemen-konstruksi-vs-kontraktor",
+      "route": "/panduan/manajemen-konstruksi-vs-kontraktor",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-pengawasan-proyek",
+        "guide-owner-representative-proyek-konstruksi",
+        "guide-tugas-manajemen-konstruksi",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-pengendalian-cashflow-proyek"
+      ],
+      "inbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-pengawasan-proyek",
+        "guide-owner-representative-proyek-konstruksi",
+        "guide-tugas-manajemen-konstruksi"
+      ],
+      "related": [
+        {
+          "id": "svc-owner-representative",
+          "score": 40
+        },
+        {
+          "id": "svc-pengawasan-proyek",
+          "score": 40
+        },
+        {
+          "id": "svc-pengendalian-biaya-proyek",
+          "score": 40
+        },
+        {
+          "id": "svc-pengendalian-cashflow-proyek",
+          "score": 40
+        }
+      ]
+    },
     "guide-memperkuat-struktur-rumah-lama": {
       "id": "guide-memperkuat-struktur-rumah-lama",
       "route": "/panduan/memperkuat-struktur-rumah-lama",
@@ -3643,6 +3856,123 @@
         {
           "id": "guide-renovasi-atap-bocor",
           "score": 45
+        }
+      ]
+    },
+    "guide-owner-representative-proyek-konstruksi": {
+      "id": "guide-owner-representative-proyek-konstruksi",
+      "route": "/panduan/owner-representative-proyek-konstruksi",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-pengawasan-proyek",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-tugas-manajemen-konstruksi",
+        "svc-audit-biaya-proyek",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "inbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-pengawasan-proyek",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-tugas-manajemen-konstruksi"
+      ],
+      "related": [
+        {
+          "id": "svc-manajemen-konstruksi",
+          "score": 40
+        },
+        {
+          "id": "svc-pengawasan-proyek",
+          "score": 40
+        },
+        {
+          "id": "svc-pengendalian-biaya-proyek",
+          "score": 40
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 28
+        }
+      ]
+    },
+    "guide-pengendalian-biaya-proyek": {
+      "id": "guide-pengendalian-biaya-proyek",
+      "route": "/panduan/pengendalian-biaya-proyek",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-value-engineering-konstruksi",
+        "guide-pengendalian-cashflow-proyek",
+        "guide-value-engineering-untuk-mengendalikan-biaya",
+        "svc-audit-biaya-proyek",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "inbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-value-engineering-konstruksi",
+        "guide-pengendalian-cashflow-proyek",
+        "guide-value-engineering-untuk-mengendalikan-biaya"
+      ],
+      "related": [
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 40
+        },
+        {
+          "id": "svc-manajemen-konstruksi",
+          "score": 40
+        },
+        {
+          "id": "svc-owner-representative",
+          "score": 40
+        },
+        {
+          "id": "svc-pengawasan-proyek",
+          "score": 40
+        }
+      ]
+    },
+    "guide-pengendalian-cashflow-proyek": {
+      "id": "guide-pengendalian-cashflow-proyek",
+      "route": "/panduan/pengendalian-cashflow-proyek",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-value-engineering-konstruksi",
+        "guide-pengendalian-biaya-proyek",
+        "svc-audit-biaya-proyek",
+        "svc-estimasi-biaya-konstruksi",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengendalian-cashflow-proyek"
+      ],
+      "inbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-pengendalian-biaya-proyek"
+      ],
+      "related": [
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 28
+        },
+        {
+          "id": "svc-estimasi-biaya-konstruksi",
+          "score": 28
+        },
+        {
+          "id": "svc-manajemen-konstruksi",
+          "score": 28
+        },
+        {
+          "id": "svc-owner-representative",
+          "score": 28
         }
       ]
     },
@@ -4131,6 +4461,85 @@
         {
           "id": "guide-memperkuat-struktur-rumah-lama",
           "score": 45
+        }
+      ]
+    },
+    "guide-tugas-manajemen-konstruksi": {
+      "id": "guide-tugas-manajemen-konstruksi",
+      "route": "/panduan/tugas-manajemen-konstruksi",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-pengawasan-proyek",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-owner-representative-proyek-konstruksi",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-pengendalian-cashflow-proyek"
+      ],
+      "inbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-pengawasan-proyek",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-owner-representative-proyek-konstruksi"
+      ],
+      "related": [
+        {
+          "id": "svc-owner-representative",
+          "score": 40
+        },
+        {
+          "id": "svc-pengawasan-proyek",
+          "score": 40
+        },
+        {
+          "id": "svc-pengendalian-biaya-proyek",
+          "score": 40
+        },
+        {
+          "id": "svc-pengendalian-cashflow-proyek",
+          "score": 40
+        }
+      ]
+    },
+    "guide-value-engineering-untuk-mengendalikan-biaya": {
+      "id": "guide-value-engineering-untuk-mengendalikan-biaya",
+      "route": "/panduan/value-engineering-untuk-mengendalikan-biaya",
+      "type": "guide",
+      "outbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-value-engineering-konstruksi",
+        "guide-pengendalian-biaya-proyek",
+        "svc-audit-biaya-proyek",
+        "svc-estimasi-biaya-konstruksi",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengendalian-biaya-proyek",
+        "svc-value-engineering"
+      ],
+      "inbound": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-value-engineering-konstruksi",
+        "guide-pengendalian-biaya-proyek"
+      ],
+      "related": [
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 40
+        },
+        {
+          "id": "svc-estimasi-biaya-konstruksi",
+          "score": 40
+        },
+        {
+          "id": "svc-manajemen-konstruksi",
+          "score": 40
+        },
+        {
+          "id": "svc-owner-representative",
+          "score": 40
         }
       ]
     },
