@@ -1,68 +1,64 @@
-# Batch 09 — sector cost-data gate: all 10 commercial cost guides
+# Batch 09 — commercial cost guides: resolved via no-published-pricing policy
 
-**Status:** BLOCKED — SECTOR COST DATA REQUIRED (all 10)
+**Status:** RESOLVED (2026-07-28) — owner decision, not a data gap. Original
+blocker (below) kept for history.
 
-No cost figure, range, or dataset for any of the 10 commercial-building
-sectors has been provided by the owner in this batch's instructions or in
-any prior conversation. Per the cost-data hard gate (brief §4), no active
-MDX file was created for any of the 10 planned cost guides. This mirrors
-Batch 08's `biaya-renovasi-rumah` blocker, but affects the entire cost
-inventory for this cluster since zero sectors have data — not "some sectors
-missing data."
+## Resolution (2026-07-28)
 
-Batch 07's `biaya-bangun-rumah-per-meter` and Batch 08's
-`biaya-renovasi-rumah` were unblocked because the owner proactively supplied
-a figure or framework during those batches' review. No equivalent figure has
-been supplied for any commercial-building sector.
+Owner decided Arkavena should not publish commercial-construction price
+figures or ranges at all, regardless of whether internal cost data exists —
+construction cost variance is too high across commercial building types to
+represent responsibly with public numbers, and the business prefers routing
+cost questions to personal consultation.
 
-## Blocked guides (10)
+This is different from Batch 07/08's cost guides, which stayed blocked only
+until the owner supplied a figure or framework. Here, the owner explicitly
+does not want a published price point for any of the 10 commercial sectors —
+so instead of waiting for data, all 10 `biaya-bangun-[sektor].mdx` guides
+were written as **cost-driver guides**: they explain what affects cost per
+sector (scope, specification level, MEP, site conditions, etc. — the
+qualitative content already anticipated in the batch brief §15) without any
+`Rp` figure, percentage, or `CostTable`. Each opens with an explicit Callout
+stating the no-published-pricing policy and closes with a consultation CTA
+as the primary conversion driver.
 
-| Route | Sector | Required data |
-|---|---|---|
-| `/panduan/biaya-bangun-ruko` | sec-ruko | Cost-per-m² or category range for ruko construction, with scope/inclusion breakdown (shell vs finished, MEP, facade, signage) |
-| `/panduan/biaya-bangun-gudang` | sec-gudang | Cost-per-m² or category range for warehouse construction, with structural-span/floor/loading-area scope breakdown |
-| `/panduan/biaya-bangun-pabrik` | sec-pabrik | Cost-per-m² or category range for factory construction, with process/utility/support-building scope breakdown |
-| `/panduan/biaya-bangun-kantor` | sec-kantor | Cost-per-m² or category range for office construction, with shell-vs-fit-out distinction |
-| `/panduan/biaya-bangun-kos` | sec-kos | Cost-per-m² or category range for boarding-house construction, with unit-count/shared-facility scope breakdown |
-| `/panduan/biaya-bangun-cafe` | sec-cafe | Cost-per-m² or category range for cafe construction/fit-out, with equipment/utility scope breakdown |
-| `/panduan/biaya-bangun-restoran` | sec-restoran | Cost-per-m² or category range for restaurant construction/fit-out, with kitchen/utility scope breakdown |
-| `/panduan/biaya-bangun-klinik` | sec-klinik | Cost-per-m² or category range for clinic construction, with specialist-utility/fit-out scope breakdown |
-| `/panduan/biaya-bangun-sekolah` | sec-sekolah | Cost-per-m² or category range for school construction, with classroom/support-facility scope breakdown |
-| `/panduan/biaya-bangun-masjid` | sec-masjid | Cost-per-m² or category range for mosque construction, with worship-space/ablution-area scope breakdown |
+This resolution is **scoped to Batch 09 (commercial) only** per explicit
+owner confirmation — it does not apply retroactively to
+`biaya-bangun-rumah-per-meter` (Batch 07) or `biaya-renovasi-rumah` (Batch
+08), which keep their published figures/framework.
 
-Each sector's data must be sector-specific — per brief §4.4/§4.1, one
-sector's range cannot be reused for another (gudang cost cannot stand in for
-pabrik, cafe cannot stand in for restoran, etc.) even though several of
-these sectors share a "commercial building" classification.
+`article.articleType` stays `cost` (per the brief's mapping) and
+`article.dataAsOf`/`sources` stay `null`/`[]` — there is no numeric data to
+audit or date. `CostTable` (which requires `dataAsOf` and `sources` props)
+is not used in any of the 10 guides.
 
-## What's needed before any of these can be unblocked
+## Files created
 
-For each sector, one of:
+- `content/guides/biaya-bangun-ruko.mdx`
+- `content/guides/biaya-bangun-gudang.mdx`
+- `content/guides/biaya-bangun-pabrik.mdx` (mandatory technical review — see below)
+- `content/guides/biaya-bangun-kantor.mdx`
+- `content/guides/biaya-bangun-kos.mdx`
+- `content/guides/biaya-bangun-cafe.mdx`
+- `content/guides/biaya-bangun-restoran.mdx` (mandatory technical review — see below)
+- `content/guides/biaya-bangun-klinik.mdx` (mandatory technical review — see below)
+- `content/guides/biaya-bangun-sekolah.mdx`
+- `content/guides/biaya-bangun-masjid.mdx`
 
-- A starting price or category range (e.g. shell/finished, or
-  light/medium/heavy scope) with a data date, analogous to Batch 08's
-  `biaya-renovasi-rumah` category framework.
-- An approved, anonymized Arkavena RAB/estimate for that building type.
-- A supplier/professional benchmark with methodology, location, and date.
-- Explicit confirmation the owner does not want a published price point for
-  that sector at all (in which case that route stays permanently out of
-  scope rather than blocked-pending-data).
+## Mandatory technical review (brief §17.1, unaffected by this resolution)
 
-## Current state
+`biaya-bangun-pabrik`, `biaya-bangun-restoran`, and `biaya-bangun-klinik`
+remain in the brief's mandatory technical-review list regardless of content
+— removing numeric claims lowers risk but does not remove the requirement.
+Each has an additional warning Callout noting technical review is required
+before publication, and `reviewedBy` stays `null` pending that review (same
+convention as Batch 08's structural-safety articles).
 
-- No `content/guides/biaya-bangun-{ruko,gudang,pabrik,kantor,kos,cafe,restoran,klinik,sekolah,masjid}.mdx`
-  files exist.
-- The pillar (`tahapan-proyek-bangunan-komersial`) and the 3 non-cost
-  supporting guides in this batch do not assume any of these cost guides
-  exist (no-future-ID rule).
+## Original blocker (kept for history)
 
-## Batch 09 report cross-reference
-
-This is why Batch 09A contains only the pillar, and Batch 09B (once
-undertaken) is expected to contain only the 3 non-cost supporting guides
-(`cara-memilih-kontraktor-bangunan-komersial`,
-`perencanaan-utilitas-bangunan-komersial`,
-`akses-logistik-proyek-gudang-dan-pabrik`) rather than the originally
-planned 7 P4 pages. Batch 09's overall status is
-`PARTIALLY COMPLETE — SECTOR COST DATA REQUIRED`, per brief §26.3 — not
-`COMPLETE`, since 10 of 14 target pages remain blocked.
+Before this policy decision, all 10 guides were BLOCKED under the standard
+cost-data hard gate — no cost figure, range, or dataset for any of the 10
+commercial sectors had been provided by the owner. That blocker is now moot:
+the resolution above means no numeric data will ever be requested for these
+routes, since the guides are intentionally non-numeric by design, not
+pending data collection.

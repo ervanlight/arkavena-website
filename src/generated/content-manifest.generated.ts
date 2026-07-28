@@ -7199,6 +7199,1141 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "guide-biaya-bangun-cafe",
+    "type": "guide",
+    "status": "review",
+    "title": "Biaya Bangun Cafe: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+    "slug": "biaya-bangun-cafe",
+    "description": "Faktor yang mempengaruhi biaya bangun cafe — area pengunjung, area kerja staf, peralatan, utilitas, dan fit-out. Estimasi diberikan personal, bukan kisaran publik.",
+    "excerpt": "Arkavena tidak mempublikasikan kisaran harga cafe karena variasi konstruksi komersial sangat tinggi — pahami dulu faktor yang mempengaruhi biaya, lalu konsultasikan kebutuhan spesifik Anda.",
+    "seoTitle": "Biaya Bangun Cafe: Faktor Penentu | Arkavena",
+    "primaryKeyword": "biaya bangun cafe",
+    "secondaryKeywords": [
+      "faktor biaya cafe",
+      "estimasi bangun cafe"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "biaya"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangunan Komersial",
+      "heading": "Biaya Bangun Cafe: Bergantung pada Spesifikasi Peralatan dan Fit-Out",
+      "summary": "Biaya cafe sangat dipengaruhi spesifikasi peralatan dan tingkat fit-out yang diinginkan — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
+      "image": "/images/guides/biaya-bangun-cafe/hero.webp",
+      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan dan fit-out cafe"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [
+        "sec-cafe"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-proyek-bangunan-komersial",
+        "guide-biaya-bangun-restoran",
+        "guide-biaya-bangun-ruko",
+        "guide-biaya-bangun-kantor"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Ruang Lingkup dan Anggaran Cafe Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya bangun cafe."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangunan Komersial",
+        "href": "/layanan/bangun-bangunan-komersial",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Kenapa Arkavena tidak menampilkan kisaran harga bangun cafe?",
+        "answer": "Biaya cafe sangat bergantung pada spesifikasi peralatan dapur ringan, tingkat fit-out, dan luas area yang direncanakan — variasinya terlalu besar untuk direpresentasikan dengan satu angka publik. Estimasi diberikan setelah kebutuhan spesifik Anda didiskusikan."
+      },
+      {
+        "question": "Apakah biaya peralatan dapur termasuk dalam estimasi bangun cafe?",
+        "answer": "Arkavena mendesain tata letak dan mengoordinasikan kebutuhan ruang untuk peralatan, tetapi pengadaan peralatan dapur/produksi F&B itu sendiri berada di luar cakupan konstruksi dan dilakukan langsung oleh pemilik usaha atau vendor terkait — sehingga tidak termasuk dalam estimasi biaya konstruksi."
+      },
+      {
+        "question": "Apa yang membedakan biaya cafe dengan biaya restoran?",
+        "answer": "Cafe umumnya memiliki skala dapur dan kompleksitas operasional yang lebih kecil dibandingkan restoran, sehingga ruang lingkup dan biaya pekerjaan sipil serta utilitasnya juga berbeda — keduanya tidak boleh disamakan."
+      },
+      {
+        "question": "Apakah furniture dan branding visual termasuk dalam estimasi ini?",
+        "answer": "Desain interior termasuk dalam layanan interior fit-out. Furniture lepas dan branding visual (identitas merek, logo) umumnya menjadi keputusan terpisah yang dikoordinasikan dengan ruang lingkup konstruksi."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan estimasi biaya yang akurat?",
+        "answer": "Estimasi yang akurat memerlukan diskusi mengenai luas area, spesifikasi peralatan yang direncanakan, dan tingkat fit-out yang diinginkan pada tahap konsultasi."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "cost",
+      "pillar": "guide-tahapan-proyek-bangunan-komersial",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/biaya-bangun-cafe",
+    "sourcePath": "content/guides/biaya-bangun-cafe.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Biaya Bangun Cafe: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+        "path": "/panduan/biaya-bangun-cafe"
+      }
+    ],
+    "wordCount": 400,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/interior-fit-out",
+      "/panduan/biaya-bangun-restoran",
+      "/panduan/biaya-bangun-ruko",
+      "/panduan/biaya-bangun-kantor",
+      "/panduan/tahapan-proyek-bangunan-komersial"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-biaya-bangun-gudang",
+    "type": "guide",
+    "status": "review",
+    "title": "Biaya Bangun Gudang: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+    "slug": "biaya-bangun-gudang",
+    "description": "Faktor yang mempengaruhi biaya bangun gudang — bentang struktur, kebutuhan lantai, area loading, dan akses. Estimasi diberikan personal, bukan kisaran publik.",
+    "excerpt": "Arkavena tidak mempublikasikan kisaran harga gudang karena variasi konstruksi komersial sangat tinggi — pahami dulu faktor yang mempengaruhi biaya, lalu konsultasikan kebutuhan spesifik Anda.",
+    "seoTitle": "Biaya Bangun Gudang: Faktor Penentu | Arkavena",
+    "primaryKeyword": "biaya bangun gudang",
+    "secondaryKeywords": [
+      "faktor biaya gudang",
+      "estimasi bangun gudang"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "biaya",
+      "industri"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangunan Komersial",
+      "heading": "Biaya Bangun Gudang: Bentang Struktur dan Kebutuhan Lantai Menentukan Sebagian Besar Biaya",
+      "summary": "Biaya gudang sangat dipengaruhi bentang struktur, spesifikasi lantai, dan kebutuhan akses logistik — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
+      "image": "/images/guides/biaya-bangun-gudang/hero.webp",
+      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan gudang"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-manajemen-konstruksi",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [
+        "sec-gudang"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-proyek-bangunan-komersial",
+        "guide-biaya-bangun-pabrik"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Ruang Lingkup dan Anggaran Gudang Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya bangun gudang."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangunan Komersial",
+        "href": "/layanan/bangun-bangunan-komersial",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Kenapa Arkavena tidak menampilkan kisaran harga bangun gudang?",
+        "answer": "Biaya gudang sangat bergantung pada bentang struktur, spesifikasi lantai, dan kebutuhan area loading — variasinya terlalu besar untuk direpresentasikan dengan satu angka publik. Estimasi diberikan setelah kebutuhan spesifik Anda didiskusikan."
+      },
+      {
+        "question": "Apakah panduan ini memberikan nilai kapasitas lantai (floor load)?",
+        "answer": "Tidak. Nilai kapasitas lantai memerlukan kajian teknis berdasarkan kebutuhan penyimpanan dan jenis barang yang akan disimpan — bukan angka generik yang dapat dipublikasikan tanpa data proyek spesifik."
+      },
+      {
+        "question": "Apa yang paling memengaruhi biaya struktur gudang?",
+        "answer": "Bentang struktur (jarak antar kolom) memengaruhi jenis dan biaya sistem struktur yang digunakan — bentang lebih lebar untuk fleksibilitas ruang penyimpanan umumnya memerlukan sistem struktur yang berbeda dari bentang standar."
+      },
+      {
+        "question": "Apakah akses logistik memengaruhi biaya gudang?",
+        "answer": "Ya. Kebutuhan area loading, jalur akses kendaraan, dan yard memengaruhi ruang lingkup pekerjaan luar (external works) — lihat Akses Logistik Proyek Gudang dan Pabrik untuk pertimbangan lebih lanjut begitu panduan tersebut tersedia."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan estimasi biaya yang akurat?",
+        "answer": "Estimasi yang akurat memerlukan diskusi mengenai bentang struktur, kebutuhan lantai, dan kebutuhan akses logistik pada tahap konsultasi."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "cost",
+      "pillar": "guide-tahapan-proyek-bangunan-komersial",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/biaya-bangun-gudang",
+    "sourcePath": "content/guides/biaya-bangun-gudang.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Biaya Bangun Gudang: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+        "path": "/panduan/biaya-bangun-gudang"
+      }
+    ],
+    "wordCount": 406,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/manajemen-konstruksi",
+      "/panduan/biaya-bangun-pabrik",
+      "/panduan/tahapan-proyek-bangunan-komersial"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-biaya-bangun-kantor",
+    "type": "guide",
+    "status": "review",
+    "title": "Biaya Bangun Kantor: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+    "slug": "biaya-bangun-kantor",
+    "description": "Faktor yang mempengaruhi biaya bangun kantor — shell vs fit-out, partisi, ceiling, data dan power, hingga furniture. Estimasi diberikan personal, bukan kisaran publik.",
+    "excerpt": "Arkavena tidak mempublikasikan kisaran harga kantor karena variasi konstruksi komersial sangat tinggi — pahami dulu faktor yang mempengaruhi biaya, lalu konsultasikan kebutuhan spesifik Anda.",
+    "seoTitle": "Biaya Bangun Kantor: Faktor Penentu | Arkavena",
+    "primaryKeyword": "biaya bangun kantor",
+    "secondaryKeywords": [
+      "faktor biaya kantor",
+      "estimasi bangun kantor"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "biaya"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangunan Komersial",
+      "heading": "Biaya Bangun Kantor: Bedakan Shell dan Fit-Out Sebelum Membandingkan Angka",
+      "summary": "Biaya kantor sangat berbeda antara pekerjaan shell dan fit-out interior — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
+      "image": "/images/guides/biaya-bangun-kantor/hero.webp",
+      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan kantor"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [
+        "sec-kantor"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-proyek-bangunan-komersial",
+        "guide-biaya-bangun-ruko",
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-restoran"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Ruang Lingkup dan Anggaran Kantor Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya bangun kantor."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangunan Komersial",
+        "href": "/layanan/bangun-bangunan-komersial",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Kenapa Arkavena tidak menampilkan kisaran harga bangun kantor?",
+        "answer": "Biaya kantor sangat bergantung pada apakah ruang lingkup mencakup shell saja atau juga fit-out interior, tingkat spesifikasi partisi dan ceiling, serta kebutuhan data dan power — variasinya terlalu besar untuk direpresentasikan dengan satu angka publik. Estimasi diberikan setelah kebutuhan spesifik Anda didiskusikan."
+      },
+      {
+        "question": "Apa perbedaan biaya shell dan fit-out kantor?",
+        "answer": "Shell mencakup struktur dan penutup bangunan dasar, sementara fit-out mencakup partisi, ceiling, lantai, pencahayaan, serta instalasi data dan power sesuai kebutuhan operasional. Keduanya perlu dipisahkan dengan jelas dalam ruang lingkup dan anggaran."
+      },
+      {
+        "question": "Apakah furniture termasuk dalam estimasi bangun kantor?",
+        "answer": "Tergantung ruang lingkup yang disepakati. Pekerjaan sipil dan fit-out dapat mencakup furniture built-in, sementara furniture lepas biasanya menjadi keputusan terpisah — ini dibahas pada tahap konsultasi."
+      },
+      {
+        "question": "Bagaimana kebutuhan HVAC mempengaruhi biaya kantor?",
+        "answer": "Kebutuhan pendinginan dan sirkulasi udara memengaruhi kapasitas sistem yang perlu direncanakan, yang berdampak pada biaya MEP — detail teknisnya perlu dibahas berdasarkan luas dan kepadatan penggunaan ruang."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan estimasi biaya yang akurat?",
+        "answer": "Estimasi yang akurat memerlukan diskusi mengenai ruang lingkup (shell atau fit-out), tingkat spesifikasi, dan kebutuhan operasional pada tahap konsultasi — bukan dari kisaran umum yang belum tentu sesuai kebutuhan Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "cost",
+      "pillar": "guide-tahapan-proyek-bangunan-komersial",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/biaya-bangun-kantor",
+    "sourcePath": "content/guides/biaya-bangun-kantor.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Biaya Bangun Kantor: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+        "path": "/panduan/biaya-bangun-kantor"
+      }
+    ],
+    "wordCount": 425,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/interior-fit-out",
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/pengendalian-biaya-proyek",
+      "/panduan/biaya-bangun-ruko",
+      "/panduan/biaya-bangun-cafe",
+      "/panduan/biaya-bangun-restoran",
+      "/panduan/tahapan-proyek-bangunan-komersial"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-biaya-bangun-klinik",
+    "type": "guide",
+    "status": "review",
+    "title": "Biaya Bangun Klinik: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+    "slug": "biaya-bangun-klinik",
+    "description": "Faktor yang mempengaruhi biaya bangun klinik — jenis layanan, alur pasien, utilitas spesialis, dan fit-out. Estimasi diberikan personal, bukan kisaran publik.",
+    "excerpt": "Arkavena tidak mempublikasikan kisaran harga klinik karena variasi konstruksi komersial sangat tinggi — pahami dulu faktor yang mempengaruhi biaya, lalu konsultasikan kebutuhan spesifik Anda.",
+    "seoTitle": "Biaya Bangun Klinik: Faktor Penentu | Arkavena",
+    "primaryKeyword": "biaya bangun klinik",
+    "secondaryKeywords": [
+      "faktor biaya klinik",
+      "estimasi bangun klinik"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "biaya",
+      "institusi"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangunan Komersial",
+      "heading": "Biaya Bangun Klinik: Jenis Layanan dan Utilitas Spesialis Menentukan Sebagian Besar Biaya",
+      "summary": "Biaya klinik sangat dipengaruhi jenis layanan kesehatan dan kebutuhan utilitas spesialis — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
+      "image": "/images/guides/biaya-bangun-klinik/hero.webp",
+      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan klinik"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-quality-control-konstruksi",
+        "svc-owner-representative"
+      ],
+      "sectors": [
+        "sec-klinik"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-proyek-bangunan-komersial",
+        "guide-biaya-bangun-sekolah",
+        "guide-biaya-bangun-masjid"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Ruang Lingkup dan Anggaran Klinik Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya bangun klinik."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangunan Komersial",
+        "href": "/layanan/bangun-bangunan-komersial",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Kenapa Arkavena tidak menampilkan kisaran harga bangun klinik?",
+        "answer": "Biaya klinik sangat bergantung pada jenis layanan kesehatan, alur pasien dan staf, serta kebutuhan utilitas spesialis — variasinya terlalu besar untuk direpresentasikan dengan satu angka publik. Estimasi diberikan setelah kebutuhan spesifik Anda didiskusikan."
+      },
+      {
+        "question": "Apakah panduan ini memberikan standar gas medis atau HVAC klinik?",
+        "answer": "Tidak. Standar teknis seperti gas medis, HVAC, dan infection control memerlukan sumber resmi dan kajian spesialis kesehatan — panduan umum ini tidak memuat spesifikasi tersebut."
+      },
+      {
+        "question": "Apakah Arkavena menyediakan desain sistem gas medis?",
+        "answer": "Tidak. Arkavena tidak menyediakan desain sistem gas medis atau proteksi radiasi — kebutuhan ini memerlukan spesialis kesehatan dan konsultan khusus yang dikoordinasikan secara terpisah."
+      },
+      {
+        "question": "Apakah estimasi ini mencakup pengurusan izin operasional klinik?",
+        "answer": "Tidak. Pengurusan izin operasional dan lisensi layanan kesehatan berada di luar kewenangan Arkavena dan bergantung pada otoritas kesehatan terkait."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan estimasi biaya yang akurat?",
+        "answer": "Estimasi yang akurat memerlukan diskusi mengenai jenis layanan kesehatan, jumlah ruang periksa, dan kebutuhan utilitas spesialis pada tahap konsultasi, sering kali melibatkan kajian bersama healthcare planner."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "cost",
+      "pillar": "guide-tahapan-proyek-bangunan-komersial",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/biaya-bangun-klinik",
+    "sourcePath": "content/guides/biaya-bangun-klinik.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Biaya Bangun Klinik: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+        "path": "/panduan/biaya-bangun-klinik"
+      }
+    ],
+    "wordCount": 492,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/owner-representative",
+      "/panduan/biaya-bangun-sekolah",
+      "/panduan/biaya-bangun-masjid",
+      "/panduan/tahapan-proyek-bangunan-komersial"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-biaya-bangun-kos",
+    "type": "guide",
+    "status": "review",
+    "title": "Biaya Bangun Kos: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+    "slug": "biaya-bangun-kos",
+    "description": "Faktor yang mempengaruhi biaya bangun kos — jumlah unit, fasilitas bersama, sirkulasi, dan utilitas. Estimasi diberikan personal, bukan kisaran publik atau proyeksi sewa.",
+    "excerpt": "Arkavena tidak mempublikasikan kisaran harga kos karena variasi konstruksi komersial sangat tinggi — pahami dulu faktor yang mempengaruhi biaya, lalu konsultasikan kebutuhan spesifik Anda.",
+    "seoTitle": "Biaya Bangun Kos: Faktor Penentu | Arkavena",
+    "primaryKeyword": "biaya bangun kos",
+    "secondaryKeywords": [
+      "faktor biaya kos",
+      "estimasi bangun kos"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "biaya"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangunan Komersial",
+      "heading": "Biaya Bangun Kos: Jumlah Unit dan Fasilitas Bersama Menentukan Sebagian Besar Biaya",
+      "summary": "Biaya kos sangat dipengaruhi jumlah unit dan spesifikasi fasilitas bersama — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
+      "image": "/images/guides/biaya-bangun-kos/hero.webp",
+      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan rumah kos"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-value-engineering",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [
+        "sec-kos"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-proyek-bangunan-komersial",
+        "guide-biaya-bangun-ruko"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Ruang Lingkup dan Anggaran Kos Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya bangun kos."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangunan Komersial",
+        "href": "/layanan/bangun-bangunan-komersial",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Kenapa Arkavena tidak menampilkan kisaran harga bangun kos?",
+        "answer": "Biaya kos sangat bergantung pada jumlah unit, spesifikasi fasilitas bersama, dan tingkat finishing yang direncanakan — variasinya terlalu besar untuk direpresentasikan dengan satu angka publik. Estimasi diberikan setelah kebutuhan spesifik Anda didiskusikan."
+      },
+      {
+        "question": "Apakah panduan ini memberikan proyeksi return on investment kos?",
+        "answer": "Tidak. Panduan ini membahas faktor biaya konstruksi, bukan proyeksi okupansi, pendapatan sewa, atau return on investment — hal tersebut berada di luar cakupan panduan konstruksi ini."
+      },
+      {
+        "question": "Apa yang paling memengaruhi biaya per unit kos?",
+        "answer": "Jumlah unit, luas per unit, spesifikasi fasilitas dalam kamar (kamar mandi dalam atau luar), serta fasilitas bersama seperti dapur dan area jemur memengaruhi biaya per unit secara signifikan."
+      },
+      {
+        "question": "Apakah biaya utilitas per unit termasuk dalam estimasi?",
+        "answer": "Distribusi utilitas ke setiap unit — listrik dan air — perlu direncanakan sejak awal karena memengaruhi kompleksitas instalasi dan biaya. Ini dibahas berdasarkan jumlah dan tata letak unit pada tahap konsultasi."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan estimasi biaya yang akurat?",
+        "answer": "Estimasi yang akurat memerlukan diskusi mengenai jumlah unit, spesifikasi fasilitas, dan tingkat finishing yang direncanakan pada tahap konsultasi."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "cost",
+      "pillar": "guide-tahapan-proyek-bangunan-komersial",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/biaya-bangun-kos",
+    "sourcePath": "content/guides/biaya-bangun-kos.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Biaya Bangun Kos: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+        "path": "/panduan/biaya-bangun-kos"
+      }
+    ],
+    "wordCount": 413,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/value-engineering",
+      "/panduan/biaya-bangun-ruko",
+      "/panduan/tahapan-proyek-bangunan-komersial"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-biaya-bangun-masjid",
+    "type": "guide",
+    "status": "review",
+    "title": "Biaya Bangun Masjid: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+    "slug": "biaya-bangun-masjid",
+    "description": "Faktor yang mempengaruhi biaya bangun masjid — kapasitas ruang ibadah, area wudhu, konstruksi bertahap, dan fasilitas komunitas. Estimasi diberikan personal, bukan kisaran publik.",
+    "excerpt": "Arkavena tidak mempublikasikan kisaran harga masjid karena variasi konstruksi komersial sangat tinggi — pahami dulu faktor yang mempengaruhi biaya, lalu konsultasikan kebutuhan spesifik Anda.",
+    "seoTitle": "Biaya Bangun Masjid: Faktor Penentu | Arkavena",
+    "primaryKeyword": "biaya bangun masjid",
+    "secondaryKeywords": [
+      "faktor biaya masjid",
+      "estimasi bangun masjid"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "biaya",
+      "institusi"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangunan Komersial",
+      "heading": "Biaya Bangun Masjid: Kapasitas dan Fase Pembangunan Menentukan Sebagian Besar Biaya",
+      "summary": "Biaya masjid sangat dipengaruhi kapasitas ruang ibadah dan sering dibangun bertahap sesuai ketersediaan dana — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
+      "image": "/images/guides/biaya-bangun-masjid/hero.webp",
+      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan masjid"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-pengawasan-proyek",
+        "svc-building-maintenance"
+      ],
+      "sectors": [
+        "sec-masjid"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-proyek-bangunan-komersial",
+        "guide-biaya-bangun-klinik",
+        "guide-biaya-bangun-sekolah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Ruang Lingkup dan Anggaran Masjid Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya bangun masjid."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangunan Komersial",
+        "href": "/layanan/bangun-bangunan-komersial",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Kenapa Arkavena tidak menampilkan kisaran harga bangun masjid?",
+        "answer": "Biaya masjid sangat bergantung pada kapasitas ruang ibadah, fase pembangunan, dan fasilitas komunitas yang direncanakan — variasinya terlalu besar untuk direpresentasikan dengan satu angka publik. Estimasi diberikan setelah kebutuhan spesifik Anda didiskusikan."
+      },
+      {
+        "question": "Apakah masjid bisa dibangun secara bertahap sesuai dana yang terkumpul?",
+        "answer": "Ya, banyak proyek masjid dibangun bertahap mengikuti ketersediaan dana dari donasi masyarakat. Perencanaan fase pembangunan sejak awal membantu memastikan setiap tahap tetap fungsional meski belum sepenuhnya selesai."
+      },
+      {
+        "question": "Apa saja yang perlu dipertimbangkan selain ruang ibadah utama?",
+        "answer": "Selain ruang ibadah utama, pertimbangan meliputi area wudhu, sanitasi, sirkulasi jamaah, sistem suara, dan fasilitas komunitas tambahan jika direncanakan — semua ini memengaruhi ruang lingkup dan biaya."
+      },
+      {
+        "question": "Apakah panduan ini membahas ketentuan keagamaan dalam desain masjid?",
+        "answer": "Tidak. Panduan ini membahas pertimbangan konstruksi secara umum, bukan ketentuan atau aturan ibadah — hal tersebut sebaiknya dikonsultasikan dengan pihak yang berwenang secara keagamaan."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan estimasi biaya yang akurat?",
+        "answer": "Estimasi yang akurat memerlukan diskusi mengenai kapasitas jamaah yang direncanakan, fasilitas pendukung, dan rencana fase pembangunan pada tahap konsultasi."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "cost",
+      "pillar": "guide-tahapan-proyek-bangunan-komersial",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/biaya-bangun-masjid",
+    "sourcePath": "content/guides/biaya-bangun-masjid.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Biaya Bangun Masjid: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+        "path": "/panduan/biaya-bangun-masjid"
+      }
+    ],
+    "wordCount": 419,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/pengawasan-proyek",
+      "/panduan/biaya-bangun-klinik",
+      "/panduan/biaya-bangun-sekolah",
+      "/panduan/tahapan-proyek-bangunan-komersial"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-biaya-bangun-pabrik",
+    "type": "guide",
+    "status": "review",
+    "title": "Biaya Bangun Pabrik: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+    "slug": "biaya-bangun-pabrik",
+    "description": "Faktor yang mempengaruhi biaya bangun pabrik — kebutuhan proses produksi, interface mesin, utilitas, dan bangunan pendukung. Estimasi diberikan personal, bukan kisaran publik.",
+    "excerpt": "Arkavena tidak mempublikasikan kisaran harga pabrik karena variasi konstruksi komersial sangat tinggi — pahami dulu faktor yang mempengaruhi biaya, lalu konsultasikan kebutuhan spesifik Anda.",
+    "seoTitle": "Biaya Bangun Pabrik: Faktor Penentu | Arkavena",
+    "primaryKeyword": "biaya bangun pabrik",
+    "secondaryKeywords": [
+      "faktor biaya pabrik",
+      "estimasi bangun pabrik"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "biaya",
+      "industri"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangunan Komersial",
+      "heading": "Biaya Bangun Pabrik: Bukan Hanya Biaya Bangunan Shell",
+      "summary": "Biaya pabrik dipengaruhi kebutuhan proses produksi, interface mesin, dan utilitas — jauh lebih kompleks dari sekadar biaya bangunan shell. Pahami faktornya sebelum meminta estimasi personal.",
+      "image": "/images/guides/biaya-bangun-pabrik/hero.webp",
+      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan pabrik"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-manajemen-konstruksi",
+        "svc-quality-control-konstruksi"
+      ],
+      "sectors": [
+        "sec-pabrik"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-proyek-bangunan-komersial",
+        "guide-biaya-bangun-gudang"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Ruang Lingkup dan Anggaran Pabrik Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya bangun pabrik."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangunan Komersial",
+        "href": "/layanan/bangun-bangunan-komersial",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Kenapa Arkavena tidak menampilkan kisaran harga bangun pabrik?",
+        "answer": "Biaya pabrik sangat bergantung pada kebutuhan proses produksi, interface dengan mesin, dan spesifikasi utilitas — variasinya jauh lebih besar dibandingkan bangunan komersial lain, sehingga tidak dapat direpresentasikan dengan satu angka publik. Estimasi diberikan setelah kebutuhan spesifik Anda didiskusikan."
+      },
+      {
+        "question": "Apakah biaya pabrik hanya mencakup bangunan shell?",
+        "answer": "Tidak. Biaya pabrik mencakup lebih dari bangunan shell — termasuk interface dengan kebutuhan mesin dan peralatan, sistem utilitas produksi, area pendukung, dan sistem keselamatan yang jauh lebih kompleks dibandingkan bangunan komersial lain."
+      },
+      {
+        "question": "Apakah pengadaan mesin produksi termasuk dalam estimasi ini?",
+        "answer": "Tidak. Arkavena membangun dan mengoordinasikan interface bangunan dengan kebutuhan mesin, tetapi pengadaan mesin dan peralatan produksi itu sendiri berada di luar cakupan konstruksi dan dilakukan langsung oleh pemilik usaha atau vendor terkait."
+      },
+      {
+        "question": "Apakah panduan ini memberikan spesifikasi teknis sistem keselamatan pabrik?",
+        "answer": "Tidak. Spesifikasi sistem keselamatan, penanganan limbah, dan kapasitas utilitas memerlukan kajian teknis oleh spesialis berdasarkan proses produksi spesifik Anda — bukan panduan umum yang dapat dipublikasikan tanpa data proyek."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan estimasi biaya yang akurat?",
+        "answer": "Estimasi yang akurat memerlukan diskusi mendalam mengenai proses produksi, kebutuhan mesin, dan spesifikasi utilitas pada tahap konsultasi, sering kali melibatkan kajian dari process engineer atau spesialis terkait."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "cost",
+      "pillar": "guide-tahapan-proyek-bangunan-komersial",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/biaya-bangun-pabrik",
+    "sourcePath": "content/guides/biaya-bangun-pabrik.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Biaya Bangun Pabrik: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+        "path": "/panduan/biaya-bangun-pabrik"
+      }
+    ],
+    "wordCount": 476,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/quality-control-konstruksi",
+      "/panduan/biaya-bangun-gudang",
+      "/panduan/tahapan-proyek-bangunan-komersial"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-biaya-bangun-restoran",
+    "type": "guide",
+    "status": "review",
+    "title": "Biaya Bangun Restoran: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+    "slug": "biaya-bangun-restoran",
+    "description": "Faktor yang mempengaruhi biaya bangun restoran — dapur produksi, alur servis, utilitas, dan fit-out. Estimasi diberikan personal, bukan kisaran publik.",
+    "excerpt": "Arkavena tidak mempublikasikan kisaran harga restoran karena variasi konstruksi komersial sangat tinggi — pahami dulu faktor yang mempengaruhi biaya, lalu konsultasikan kebutuhan spesifik Anda.",
+    "seoTitle": "Biaya Bangun Restoran: Faktor Penentu | Arkavena",
+    "primaryKeyword": "biaya bangun restoran",
+    "secondaryKeywords": [
+      "faktor biaya restoran",
+      "estimasi bangun restoran"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "biaya"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangunan Komersial",
+      "heading": "Biaya Bangun Restoran: Kompleksitas Dapur Produksi Menentukan Sebagian Besar Biaya",
+      "summary": "Biaya restoran sangat dipengaruhi kompleksitas dapur produksi dan utilitas skala besar — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
+      "image": "/images/guides/biaya-bangun-restoran/hero.webp",
+      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan restoran"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-manajemen-konstruksi"
+      ],
+      "sectors": [
+        "sec-restoran"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-proyek-bangunan-komersial",
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-ruko",
+        "guide-biaya-bangun-kantor"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Ruang Lingkup dan Anggaran Restoran Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya bangun restoran."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangunan Komersial",
+        "href": "/layanan/bangun-bangunan-komersial",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Kenapa Arkavena tidak menampilkan kisaran harga bangun restoran?",
+        "answer": "Biaya restoran sangat bergantung pada skala dapur produksi, alur servis, dan spesifikasi utilitas yang direncanakan — variasinya terlalu besar untuk direpresentasikan dengan satu angka publik. Estimasi diberikan setelah kebutuhan spesifik Anda didiskusikan."
+      },
+      {
+        "question": "Apakah biaya peralatan dapur termasuk dalam estimasi bangun restoran?",
+        "answer": "Tidak. Arkavena mendesain tata letak dan mengoordinasikan kebutuhan ruang untuk peralatan, tetapi pengadaan peralatan produksi F&B itu sendiri berada di luar cakupan konstruksi dan dilakukan langsung oleh pemilik usaha atau vendor terkait."
+      },
+      {
+        "question": "Apa yang membuat biaya restoran lebih kompleks dibanding cafe?",
+        "answer": "Restoran umumnya memiliki dapur produksi skala besar, alur servis yang lebih padat, dan kebutuhan area penyimpanan yang lebih signifikan dibandingkan cafe — kompleksitas ini memengaruhi ruang lingkup pekerjaan sipil dan utilitas."
+      },
+      {
+        "question": "Apakah sistem grease trap dan drainase dapur termasuk dalam estimasi?",
+        "answer": "Kebutuhan ini perlu direncanakan sejak awal sesuai spesifikasi peralatan dan ketentuan yang berlaku di wilayah Anda — detail teknisnya dibahas pada tahap konsultasi dan kajian spesialis, bukan pada panduan umum ini."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan estimasi biaya yang akurat?",
+        "answer": "Estimasi yang akurat memerlukan diskusi mengenai skala dapur, spesifikasi peralatan, dan kebutuhan utilitas pada tahap konsultasi."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "cost",
+      "pillar": "guide-tahapan-proyek-bangunan-komersial",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/biaya-bangun-restoran",
+    "sourcePath": "content/guides/biaya-bangun-restoran.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Biaya Bangun Restoran: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+        "path": "/panduan/biaya-bangun-restoran"
+      }
+    ],
+    "wordCount": 479,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/manajemen-konstruksi",
+      "/panduan/biaya-bangun-cafe",
+      "/panduan/biaya-bangun-ruko",
+      "/panduan/biaya-bangun-kantor",
+      "/panduan/tahapan-proyek-bangunan-komersial"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-biaya-bangun-ruko",
+    "type": "guide",
+    "status": "review",
+    "title": "Biaya Bangun Ruko: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+    "slug": "biaya-bangun-ruko",
+    "description": "Faktor yang mempengaruhi biaya bangun ruko — fungsi tenant, jumlah lantai, kondisi shell vs finished, fasad, dan utilitas. Estimasi diberikan personal, bukan kisaran publik.",
+    "excerpt": "Arkavena tidak mempublikasikan kisaran harga ruko karena variasi konstruksi komersial sangat tinggi — pahami dulu faktor yang mempengaruhi biaya, lalu konsultasikan kebutuhan spesifik Anda.",
+    "seoTitle": "Biaya Bangun Ruko: Faktor Penentu | Arkavena",
+    "primaryKeyword": "biaya bangun ruko",
+    "secondaryKeywords": [
+      "faktor biaya ruko",
+      "estimasi bangun ruko"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "biaya"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangunan Komersial",
+      "heading": "Biaya Bangun Ruko: Faktor Penentu, Bukan Kisaran Harga Publik",
+      "summary": "Setiap ruko punya kombinasi fungsi usaha, jumlah lantai, dan spesifikasi yang berbeda — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
+      "image": "/images/guides/biaya-bangun-ruko/hero.webp",
+      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan ruko"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-interior-fit-out",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [
+        "sec-ruko"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-proyek-bangunan-komersial",
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-restoran",
+        "guide-biaya-bangun-kos"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Ruang Lingkup dan Anggaran Ruko Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya bangun ruko."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangunan Komersial",
+        "href": "/layanan/bangun-bangunan-komersial",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Kenapa Arkavena tidak menampilkan kisaran harga bangun ruko?",
+        "answer": "Biaya ruko sangat bergantung pada fungsi usaha, jumlah lantai, kondisi shell vs finished, dan spesifikasi yang direncanakan — variasinya terlalu besar untuk direpresentasikan dengan satu angka publik yang bertanggung jawab. Estimasi diberikan setelah kebutuhan spesifik Anda didiskusikan."
+      },
+      {
+        "question": "Apa perbedaan biaya ruko kondisi shell dan finished?",
+        "answer": "Kondisi shell hanya mencakup struktur dan penutup bangunan dasar, sementara kondisi finished mencakup penyelesaian interior siap pakai. Kebutuhan ini perlu ditentukan sejak awal karena memengaruhi ruang lingkup dan biaya secara signifikan."
+      },
+      {
+        "question": "Apakah fungsi usaha memengaruhi biaya bangun ruko?",
+        "answer": "Ya. Fungsi usaha menentukan kebutuhan utilitas, tata letak, dan elemen tambahan seperti signage — ruko untuk usaha ritel berbeda kebutuhannya dari ruko yang menggabungkan fungsi usaha dan hunian."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan estimasi biaya yang akurat?",
+        "answer": "Estimasi yang akurat memerlukan diskusi mengenai jumlah lantai, fungsi usaha, tingkat spesifikasi, dan kondisi lahan pada tahap konsultasi — bukan dari kisaran umum yang belum tentu sesuai kebutuhan Anda."
+      },
+      {
+        "question": "Apakah biaya interior fit-out termasuk dalam estimasi bangun ruko?",
+        "answer": "Tergantung ruang lingkup yang disepakati. Pekerjaan sipil dan interior fit-out dapat dipisahkan atau digabung tergantung kebutuhan tenant — ini dibahas pada tahap konsultasi."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "cost",
+      "pillar": "guide-tahapan-proyek-bangunan-komersial",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/biaya-bangun-ruko",
+    "sourcePath": "content/guides/biaya-bangun-ruko.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Biaya Bangun Ruko: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+        "path": "/panduan/biaya-bangun-ruko"
+      }
+    ],
+    "wordCount": 444,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/interior-fit-out",
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/pengendalian-biaya-proyek",
+      "/panduan/biaya-bangun-kantor",
+      "/panduan/biaya-bangun-cafe",
+      "/panduan/biaya-bangun-restoran",
+      "/panduan/biaya-bangun-kos",
+      "/panduan/tahapan-proyek-bangunan-komersial"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "guide-biaya-bangun-rumah-per-meter",
     "type": "guide",
     "status": "published",
@@ -7324,6 +8459,132 @@ export const contentManifest: ContentItem[] = [
       "/panduan/tahapan-bangun-rumah-dari-nol"
     ],
     "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-biaya-bangun-sekolah",
+    "type": "guide",
+    "status": "review",
+    "title": "Biaya Bangun Sekolah: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+    "slug": "biaya-bangun-sekolah",
+    "description": "Faktor yang mempengaruhi biaya bangun sekolah — jenjang pendidikan, ruang kelas, fasilitas bersama, dan konstruksi bertahap. Estimasi diberikan personal, bukan kisaran publik.",
+    "excerpt": "Arkavena tidak mempublikasikan kisaran harga sekolah karena variasi konstruksi komersial sangat tinggi — pahami dulu faktor yang mempengaruhi biaya, lalu konsultasikan kebutuhan spesifik Anda.",
+    "seoTitle": "Biaya Bangun Sekolah: Faktor Penentu | Arkavena",
+    "primaryKeyword": "biaya bangun sekolah",
+    "secondaryKeywords": [
+      "faktor biaya sekolah",
+      "estimasi bangun sekolah"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "bangunan-komersial",
+    "tags": [
+      "komersial",
+      "biaya",
+      "institusi"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangunan Komersial",
+      "heading": "Biaya Bangun Sekolah: Jenjang Pendidikan dan Fasilitas Menentukan Sebagian Besar Biaya",
+      "summary": "Biaya sekolah sangat dipengaruhi jenjang pendidikan, jumlah ruang kelas, dan fasilitas bersama — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
+      "image": "/images/guides/biaya-bangun-sekolah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan sekolah"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-quality-control-konstruksi",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [
+        "sec-sekolah"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-proyek-bangunan-komersial",
+        "guide-biaya-bangun-klinik",
+        "guide-biaya-bangun-masjid"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Ruang Lingkup dan Anggaran Sekolah Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya bangun sekolah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangunan Komersial",
+        "href": "/layanan/bangun-bangunan-komersial",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Kenapa Arkavena tidak menampilkan kisaran harga bangun sekolah?",
+        "answer": "Biaya sekolah sangat bergantung pada jenjang pendidikan, jumlah ruang kelas, dan fasilitas pendukung yang direncanakan — variasinya terlalu besar untuk direpresentasikan dengan satu angka publik. Estimasi diberikan setelah kebutuhan spesifik Anda didiskusikan."
+      },
+      {
+        "question": "Apakah panduan ini memberikan rasio ruang atau kapasitas kelas standar?",
+        "answer": "Tidak. Rasio ruang, kapasitas kelas, dan ketentuan fasilitas sekolah mengikuti standar resmi dari otoritas pendidikan terkait — panduan umum ini tidak memuat angka tersebut tanpa sumber resmi."
+      },
+      {
+        "question": "Apakah sekolah bisa dibangun secara bertahap?",
+        "answer": "Ya, banyak proyek sekolah dibangun bertahap sesuai pertumbuhan jumlah siswa atau ketersediaan anggaran. Fase konstruksi perlu direncanakan agar tidak mengganggu kalender operasional sekolah yang sudah berjalan, jika relevan."
+      },
+      {
+        "question": "Apakah kalender operasional sekolah memengaruhi jadwal konstruksi?",
+        "answer": "Untuk sekolah yang sudah beroperasi dan akan direnovasi atau ditambah bangunan, jadwal konstruksi perlu mempertimbangkan kalender akademik agar tidak mengganggu kegiatan belajar mengajar."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan estimasi biaya yang akurat?",
+        "answer": "Estimasi yang akurat memerlukan diskusi mengenai jenjang pendidikan, jumlah ruang kelas dan fasilitas pendukung, serta rencana fase konstruksi pada tahap konsultasi."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "cost",
+      "pillar": "guide-tahapan-proyek-bangunan-komersial",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/biaya-bangun-sekolah",
+    "sourcePath": "content/guides/biaya-bangun-sekolah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Biaya Bangun Sekolah: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
+        "path": "/panduan/biaya-bangun-sekolah"
+      }
+    ],
+    "wordCount": 407,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/pengawasan-proyek",
+      "/panduan/biaya-bangun-klinik",
+      "/panduan/biaya-bangun-masjid",
+      "/panduan/tahapan-proyek-bangunan-komersial"
+    ],
+    "isIndexable": false,
     "isFollowable": true
   },
   {
@@ -10082,7 +11343,18 @@ export const contentManifest: ContentItem[] = [
         "sec-masjid"
       ],
       "locations": [],
-      "guides": [],
+      "guides": [
+        "guide-biaya-bangun-ruko",
+        "guide-biaya-bangun-gudang",
+        "guide-biaya-bangun-pabrik",
+        "guide-biaya-bangun-kantor",
+        "guide-biaya-bangun-kos",
+        "guide-biaya-bangun-cafe",
+        "guide-biaya-bangun-restoran",
+        "guide-biaya-bangun-klinik",
+        "guide-biaya-bangun-sekolah",
+        "guide-biaya-bangun-masjid"
+      ],
       "projects": [],
       "pinnedRelated": [],
       "excludedRelated": []
@@ -10148,9 +11420,19 @@ export const contentManifest: ContentItem[] = [
         "path": "/panduan/tahapan-proyek-bangunan-komersial"
       }
     ],
-    "wordCount": 911,
+    "wordCount": 987,
     "readingMinutes": 5,
     "internalLinks": [
+      "/panduan/biaya-bangun-ruko",
+      "/panduan/biaya-bangun-gudang",
+      "/panduan/biaya-bangun-pabrik",
+      "/panduan/biaya-bangun-kantor",
+      "/panduan/biaya-bangun-kos",
+      "/panduan/biaya-bangun-cafe",
+      "/panduan/biaya-bangun-restoran",
+      "/panduan/biaya-bangun-klinik",
+      "/panduan/biaya-bangun-sekolah",
+      "/panduan/biaya-bangun-masjid",
       "/layanan/bangun-bangunan-komersial"
     ],
     "isIndexable": false,

@@ -8,7 +8,7 @@ follows, following the Batch 07/08 precedent:
 | Guide | Brief's articleType | Schema `articleType` used |
 |---|---|---|
 | tahapan-proyek-bangunan-komersial | pillar | `pillar` |
-| biaya-bangun-{ruko,gudang,pabrik,kantor,kos,cafe,restoran,klinik,sekolah,masjid} | cost-guide | N/A — all 10 blocked, see `batch-09-sector-cost-data-required.md` |
+| biaya-bangun-{ruko,gudang,pabrik,kantor,kos,cafe,restoran,klinik,sekolah,masjid} | cost-guide | `cost` — written as non-numeric cost-driver guides per owner's no-published-pricing policy, see `batch-09-sector-cost-data-required.md` |
 | cara-memilih-kontraktor-bangunan-komersial | how-to | `process` |
 | perencanaan-utilitas-bangunan-komersial | explainer | `explainer` |
 | akses-logistik-proyek-gudang-dan-pabrik | risk-guide | `explainer` |
