@@ -7199,6 +7199,411 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "guide-apa-itu-manajemen-konstruksi",
+    "type": "guide",
+    "status": "review",
+    "title": "Apa Itu Manajemen Konstruksi?",
+    "slug": "apa-itu-manajemen-konstruksi",
+    "description": "Manajemen konstruksi mengendalikan ruang lingkup, biaya, cashflow, jadwal, mutu, risiko, dan perubahan sepanjang proyek — bukan pelaksanaan fisik itu sendiri.",
+    "excerpt": "Peta lengkap sistem pengendalian proyek konstruksi — apa yang dicakup manajemen konstruksi, dan panduan mana yang relevan untuk setiap area pengendalian.",
+    "seoTitle": "Apa Itu Manajemen Konstruksi? | Panduan Arkavena",
+    "primaryKeyword": "apa itu manajemen konstruksi",
+    "secondaryKeywords": [
+      "pengertian manajemen konstruksi",
+      "fungsi manajemen konstruksi"
+    ],
+    "searchIntent": "informational",
+    "cluster": "manajemen-risiko",
+    "tags": [
+      "perencanaan",
+      "pengawasan",
+      "risiko"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
+      "heading": "Apa Itu Manajemen Konstruksi? Sistem Pengendalian, Bukan Sekadar Pelaksanaan Fisik",
+      "summary": "Manajemen konstruksi menambahkan lapisan pengendalian pada ruang lingkup, biaya, cashflow, jadwal, mutu, risiko, dan perubahan sepanjang siklus proyek.",
+      "image": "/images/guides/apa-itu-manajemen-konstruksi/hero.webp",
+      "imageAlt": "Ilustrasi konseptual sistem pengendalian proyek konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-manajemen-konstruksi"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-tugas-manajemen-konstruksi",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-apa-itu-pengawasan-proyek",
+        "guide-owner-representative-proyek-konstruksi",
+        "guide-apa-itu-value-engineering-konstruksi",
+        "guide-value-engineering-untuk-mengendalikan-biaya",
+        "guide-pengendalian-biaya-proyek",
+        "guide-pengendalian-cashflow-proyek"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Kebutuhan Pengendalian Proyek Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai kebutuhan manajemen konstruksi untuk proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Manajemen Konstruksi",
+        "href": "/layanan/manajemen-konstruksi",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah manajemen konstruksi sama dengan kontraktor pelaksana?",
+        "answer": "Tidak selalu. Manajemen konstruksi adalah fungsi pengendalian yang dapat dijalankan terpisah dari pelaksanaan fisik — lihat Manajemen Konstruksi vs Kontraktor untuk perbandingan perannya."
+      },
+      {
+        "question": "Apakah manajemen konstruksi selalu mempunyai kewenangan penuh atas proyek?",
+        "answer": "Tidak. Kewenangan manajemen konstruksi bergantung pada mandat yang disepakati dalam kontrak — bisa terbatas pada koordinasi dan pelaporan, atau mencakup lebih banyak keputusan operasional tergantung ruang lingkup yang disepakati."
+      },
+      {
+        "question": "Apakah manajemen konstruksi menggantikan peran pengawas atau owner representative?",
+        "answer": "Tidak. Manajemen konstruksi, pengawasan proyek, dan owner representative adalah fungsi yang berkaitan tetapi berbeda — lihat panduan masing-masing untuk memahami batasannya."
+      },
+      {
+        "question": "Kapan proyek membutuhkan manajemen konstruksi?",
+        "answer": "Proyek dengan ruang lingkup kompleks, banyak pihak yang terlibat, kebutuhan pengendalian biaya yang ketat, atau kebutuhan dokumentasi keputusan yang rapi umumnya lebih diuntungkan dengan pendekatan manajemen konstruksi dibandingkan proyek sederhana dengan ruang lingkup terbatas."
+      },
+      {
+        "question": "Apa yang membedakan manajemen konstruksi dengan sekadar pengawasan lapangan?",
+        "answer": "Pengawasan lapangan berfokus pada observasi dan verifikasi pekerjaan fisik, sementara manajemen konstruksi mencakup pengendalian yang lebih luas — biaya, cashflow, jadwal, mutu, risiko, dan perubahan — sepanjang siklus proyek, tidak terbatas pada aspek lapangan."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Project Management Institute — A Guide to the Project Management Body of Knowledge (PMBOK Guide)",
+        "url": "https://www.pmi.org/",
+        "publisher": "Project Management Institute",
+        "accessedAt": "2026-07-28"
+      },
+      {
+        "label": "Undang-Undang Republik Indonesia Nomor 2 Tahun 2017 tentang Jasa Konstruksi",
+        "url": "https://peraturan.bpk.go.id/Details/68432/uu-no-2-tahun-2017",
+        "publisher": "Badan Pemeriksa Keuangan RI (Peraturan.bpk.go.id)",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "pillar",
+      "pillar": null,
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/apa-itu-manajemen-konstruksi",
+    "sourcePath": "content/guides/apa-itu-manajemen-konstruksi.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Apa Itu Manajemen Konstruksi?",
+        "path": "/panduan/apa-itu-manajemen-konstruksi"
+      }
+    ],
+    "wordCount": 582,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/manajemen-konstruksi",
+      "/panduan/tugas-manajemen-konstruksi",
+      "/panduan/manajemen-konstruksi-vs-kontraktor",
+      "/panduan/apa-itu-pengawasan-proyek",
+      "/panduan/owner-representative-proyek-konstruksi",
+      "/panduan/apa-itu-value-engineering-konstruksi",
+      "/panduan/value-engineering-untuk-mengendalikan-biaya",
+      "/panduan/pengendalian-biaya-proyek",
+      "/panduan/pengendalian-cashflow-proyek"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-apa-itu-pengawasan-proyek",
+    "type": "guide",
+    "status": "review",
+    "title": "Apa Itu Pengawasan Proyek?",
+    "slug": "apa-itu-pengawasan-proyek",
+    "description": "Pengawasan proyek mencakup site observation, inspection, verifikasi progres, dan pelaporan isu — berbeda dari manajemen konstruksi dan quality control.",
+    "excerpt": "Pengawasan proyek berfokus pada observasi lapangan dan verifikasi kesesuaian visual pekerjaan — bukan jaminan bahwa proyek bebas dari cacat.",
+    "seoTitle": "Apa Itu Pengawasan Proyek? | Panduan Arkavena",
+    "primaryKeyword": "apa itu pengawasan proyek",
+    "secondaryKeywords": [
+      "pengertian pengawasan proyek",
+      "fungsi pengawasan konstruksi"
+    ],
+    "searchIntent": "informational",
+    "cluster": "manajemen-risiko",
+    "tags": [
+      "pengawasan",
+      "mutu"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
+      "heading": "Apa Itu Pengawasan Proyek? Observasi dan Verifikasi, Bukan Jaminan Bebas Cacat",
+      "summary": "Pengawasan proyek mencakup observasi lapangan, inspeksi, dan verifikasi progres — pahami cakupan dan batasannya sebelum menggunakan istilah ini secara umum.",
+      "image": "/images/guides/apa-itu-pengawasan-proyek/hero.webp",
+      "imageAlt": "Ilustrasi konseptual pengawasan lapangan proyek konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-tugas-manajemen-konstruksi",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-owner-representative-proyek-konstruksi"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Kebutuhan Pengawasan Proyek Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai kebutuhan pengawasan proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Pengawasan Proyek",
+        "href": "/layanan/pengawasan-proyek",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah pengawasan proyek sama dengan manajemen konstruksi?",
+        "answer": "Tidak. Pengawasan proyek berfokus pada observasi dan verifikasi lapangan, sementara manajemen konstruksi mencakup pengendalian yang lebih luas — biaya, cashflow, jadwal, risiko, dan perubahan — tidak terbatas pada aspek lapangan."
+      },
+      {
+        "question": "Apakah pengawasan proyek menjamin tidak ada cacat pekerjaan (defect)?",
+        "answer": "Tidak. Pengawasan proyek membantu mengidentifikasi ketidaksesuaian yang terlihat pada saat observasi, tetapi tidak dapat menjamin seluruh pekerjaan bebas dari cacat — beberapa masalah baru terlihat setelah tahap pekerjaan tertentu selesai atau memerlukan pengujian khusus."
+      },
+      {
+        "question": "Apa bedanya pengawasan proyek dengan quality control?",
+        "answer": "Pengawasan proyek berfokus pada observasi visual dan verifikasi kesesuaian pekerjaan dengan gambar kerja, sementara quality control mencakup proses yang lebih sistematis termasuk perencanaan mutu, kriteria penerimaan, dan penanganan nonconformance secara terdokumentasi."
+      },
+      {
+        "question": "Seberapa sering pengawasan proyek dilakukan?",
+        "answer": "Frekuensi pengawasan bergantung pada kompleksitas dan tahap proyek, serta kesepakatan dalam ruang lingkup — tidak ada frekuensi universal yang berlaku untuk semua proyek."
+      },
+      {
+        "question": "Apa yang dilakukan jika pengawasan menemukan ketidaksesuaian?",
+        "answer": "Temuan didokumentasikan dan dilaporkan kepada pihak terkait untuk ditindaklanjuti — proses tindak lanjut spesifik bergantung pada mekanisme yang disepakati dalam proyek."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Project Management Institute — A Guide to the Project Management Body of Knowledge (PMBOK Guide)",
+        "url": "https://www.pmi.org/",
+        "publisher": "Project Management Institute",
+        "accessedAt": "2026-07-28"
+      },
+      {
+        "label": "Undang-Undang Republik Indonesia Nomor 2 Tahun 2017 tentang Jasa Konstruksi",
+        "url": "https://peraturan.bpk.go.id/Details/68432/uu-no-2-tahun-2017",
+        "publisher": "Badan Pemeriksa Keuangan RI (Peraturan.bpk.go.id)",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-apa-itu-manajemen-konstruksi",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/apa-itu-pengawasan-proyek",
+    "sourcePath": "content/guides/apa-itu-pengawasan-proyek.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Apa Itu Pengawasan Proyek?",
+        "path": "/panduan/apa-itu-pengawasan-proyek"
+      }
+    ],
+    "wordCount": 501,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/pengawasan-proyek",
+      "/panduan/apa-itu-manajemen-konstruksi",
+      "/panduan/tugas-manajemen-konstruksi",
+      "/panduan/manajemen-konstruksi-vs-kontraktor"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-apa-itu-value-engineering-konstruksi",
+    "type": "guide",
+    "status": "review",
+    "title": "Apa Itu Value Engineering Konstruksi?",
+    "slug": "apa-itu-value-engineering-konstruksi",
+    "description": "Value engineering mengevaluasi alternatif berdasarkan fungsi, biaya, risiko, constructability, dan konsekuensi lifecycle — bukan sekadar cost cutting.",
+    "excerpt": "Value engineering bukan sekadar mencari opsi termurah — panduan ini menjelaskan definisi, fungsi, dan cara berpikir di balik konsep ini.",
+    "seoTitle": "Apa Itu Value Engineering Konstruksi? | Arkavena",
+    "primaryKeyword": "apa itu value engineering konstruksi",
+    "secondaryKeywords": [
+      "pengertian value engineering",
+      "value engineering vs cost cutting"
+    ],
+    "searchIntent": "informational",
+    "cluster": "manajemen-risiko",
+    "tags": [
+      "perencanaan",
+      "risiko"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
+      "heading": "Apa Itu Value Engineering? Bukan Sekadar Memilih Opsi Termurah",
+      "summary": "Value engineering mengevaluasi alternatif desain, material, dan metode kerja berdasarkan fungsi, biaya, risiko, dan konsekuensi jangka panjang — bukan sekadar cost cutting.",
+      "image": "/images/guides/apa-itu-value-engineering-konstruksi/hero.webp",
+      "imageAlt": "Ilustrasi konseptual proses evaluasi value engineering"
+    },
+    "relationships": {
+      "services": [
+        "svc-value-engineering"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-value-engineering-untuk-mengendalikan-biaya",
+        "guide-pengendalian-biaya-proyek"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Alternatif Desain dan Biaya Proyek Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai value engineering untuk proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Value Engineering",
+        "href": "/layanan/value-engineering",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah value engineering sama dengan cost cutting?",
+        "answer": "Tidak. Cost cutting umumnya berarti mengurangi biaya tanpa mempertimbangkan dampaknya secara menyeluruh, sementara value engineering mengevaluasi alternatif berdasarkan fungsi yang dibutuhkan, biaya siklus hidup, risiko, dan constructability — hasilnya bisa menurunkan biaya, tetapi bisa juga tidak."
+      },
+      {
+        "question": "Apakah value engineering selalu menurunkan biaya proyek?",
+        "answer": "Tidak selalu. Hasil evaluasi value engineering dapat berupa rekomendasi yang mempertahankan biaya atau bahkan menambah biaya awal jika itu menghasilkan nilai lifecycle yang lebih baik — tujuannya adalah nilai optimal, bukan biaya terendah."
+      },
+      {
+        "question": "Kapan value engineering sebaiknya dilakukan?",
+        "answer": "Value engineering paling efektif dilakukan pada tahap desain, sebelum konstruksi dimulai, karena perubahan pada tahap ini memiliki dampak biaya yang lebih rendah dibandingkan perubahan setelah konstruksi berjalan."
+      },
+      {
+        "question": "Apa yang dimaksud dengan constructability dalam value engineering?",
+        "answer": "Constructability adalah pertimbangan seberapa praktis suatu desain atau metode dapat dilaksanakan di lapangan — alternatif yang secara teori menghemat biaya tetapi sulit dilaksanakan dapat menimbulkan risiko dan biaya tambahan yang tidak terlihat di awal."
+      },
+      {
+        "question": "Siapa yang terlibat dalam proses value engineering?",
+        "answer": "Proses ini umumnya melibatkan desainer, kontraktor atau estimator, dan pemilik proyek, karena evaluasi fungsi dan biaya membutuhkan perspektif dari berbagai pihak yang memahami desain, pelaksanaan, dan kebutuhan proyek."
+      }
+    ],
+    "sources": [
+      {
+        "label": "SAVE International — Value Methodology Standard",
+        "url": "https://www.value-eng.org/",
+        "publisher": "SAVE International",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-apa-itu-manajemen-konstruksi",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/apa-itu-value-engineering-konstruksi",
+    "sourcePath": "content/guides/apa-itu-value-engineering-konstruksi.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Apa Itu Value Engineering Konstruksi?",
+        "path": "/panduan/apa-itu-value-engineering-konstruksi"
+      }
+    ],
+    "wordCount": 456,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/value-engineering",
+      "/panduan/value-engineering-untuk-mengendalikan-biaya",
+      "/panduan/pengendalian-biaya-proyek",
+      "/panduan/apa-itu-manajemen-konstruksi"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "guide-biaya-bangun-cafe",
     "type": "guide",
     "status": "published",
@@ -10078,6 +10483,142 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "guide-manajemen-konstruksi-vs-kontraktor",
+    "type": "guide",
+    "status": "review",
+    "title": "Manajemen Konstruksi vs Kontraktor: Perbandingan Peran",
+    "slug": "manajemen-konstruksi-vs-kontraktor",
+    "description": "Perbandingan peran, posisi kontraktual, dan tanggung jawab antara manajemen konstruksi dan kontraktor pelaksana — bukan menyatakan salah satu selalu lebih baik.",
+    "excerpt": "Manajemen konstruksi dan kontraktor mempunyai posisi kontraktual dan tanggung jawab yang berbeda — panduan ini membandingkan keduanya tanpa merendahkan salah satu peran.",
+    "seoTitle": "Manajemen Konstruksi vs Kontraktor | Panduan Arkavena",
+    "primaryKeyword": "manajemen konstruksi vs kontraktor",
+    "secondaryKeywords": [
+      "perbedaan manajemen konstruksi dan kontraktor",
+      "peran manajemen konstruksi dan kontraktor"
+    ],
+    "searchIntent": "informational",
+    "cluster": "manajemen-risiko",
+    "tags": [
+      "perencanaan",
+      "pengawasan",
+      "kontrak"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
+      "heading": "Manajemen Konstruksi vs Kontraktor: Posisi Kontraktual yang Berbeda",
+      "summary": "Perbandingan peran, posisi kontraktual, dan tanggung jawab antara manajemen konstruksi dan kontraktor pelaksana — bukan menyatakan salah satu selalu lebih unggul.",
+      "image": "/images/guides/manajemen-konstruksi-vs-kontraktor/hero.webp",
+      "imageAlt": "Ilustrasi konseptual perbandingan peran manajemen konstruksi dan kontraktor"
+    },
+    "relationships": {
+      "services": [
+        "svc-manajemen-konstruksi"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-tugas-manajemen-konstruksi",
+        "guide-apa-itu-pengawasan-proyek",
+        "guide-owner-representative-proyek-konstruksi"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Model Pelaksanaan Proyek Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai perbedaan model manajemen konstruksi dan kontraktor untuk proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Manajemen Konstruksi",
+        "href": "/layanan/manajemen-konstruksi",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah manajemen konstruksi lebih baik daripada kontraktor?",
+        "answer": "Tidak selalu. Keduanya mempunyai posisi kontraktual dan tanggung jawab yang berbeda, cocok untuk konteks proyek yang berbeda pula. Pilihan yang tepat bergantung pada kompleksitas proyek, kebutuhan pengendalian, dan preferensi pemilik proyek."
+      },
+      {
+        "question": "Apakah manajemen konstruksi menggantikan kontraktor?",
+        "answer": "Tidak. Manajemen konstruksi dan kontraktor dapat berjalan bersamaan dalam satu proyek — manajemen konstruksi mengoordinasikan dan memantau, sementara kontraktor melaksanakan pekerjaan fisik."
+      },
+      {
+        "question": "Siapa yang menanggung risiko pelaksanaan fisik?",
+        "answer": "Umumnya kontraktor pelaksana menanggung risiko pelaksanaan fisik sesuai kontraknya, sementara manajemen konstruksi bertanggung jawab atas kualitas pengendalian dan pelaporan sesuai mandatnya — namun pembagian tanggung jawab spesifik selalu mengikuti dokumen kontrak masing-masing proyek."
+      },
+      {
+        "question": "Apakah kontraktor tidak melakukan pengendalian sama sekali?",
+        "answer": "Kontraktor yang baik tetap melakukan pengendalian internal atas pekerjaannya sendiri. Perbedaannya, manajemen konstruksi menyediakan lapisan pengendalian independen yang mewakili kepentingan pemilik proyek, terpisah dari kepentingan pelaksanaan kontraktor."
+      },
+      {
+        "question": "Bagaimana menentukan model mana yang cocok untuk proyek saya?",
+        "answer": "Ini bergantung pada kompleksitas proyek, jumlah pihak yang terlibat, dan tingkat pengendalian yang Anda inginkan sebagai pemilik proyek — pertimbangan ini sebaiknya didiskusikan pada tahap konsultasi awal."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Undang-Undang Republik Indonesia Nomor 2 Tahun 2017 tentang Jasa Konstruksi",
+        "url": "https://peraturan.bpk.go.id/Details/68432/uu-no-2-tahun-2017",
+        "publisher": "Badan Pemeriksa Keuangan RI (Peraturan.bpk.go.id)",
+        "accessedAt": "2026-07-28"
+      },
+      {
+        "label": "Project Management Institute — A Guide to the Project Management Body of Knowledge (PMBOK Guide)",
+        "url": "https://www.pmi.org/",
+        "publisher": "Project Management Institute",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "comparison",
+      "pillar": "guide-apa-itu-manajemen-konstruksi",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/manajemen-konstruksi-vs-kontraktor",
+    "sourcePath": "content/guides/manajemen-konstruksi-vs-kontraktor.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Manajemen Konstruksi vs Kontraktor: Perbandingan Peran",
+        "path": "/panduan/manajemen-konstruksi-vs-kontraktor"
+      }
+    ],
+    "wordCount": 645,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/manajemen-konstruksi",
+      "/panduan/tugas-manajemen-konstruksi",
+      "/panduan/apa-itu-pengawasan-proyek",
+      "/panduan/owner-representative-proyek-konstruksi",
+      "/panduan/apa-itu-manajemen-konstruksi"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "guide-memperkuat-struktur-rumah-lama",
     "type": "guide",
     "status": "published",
@@ -10197,6 +10738,397 @@ export const contentManifest: ContentItem[] = [
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],
     "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-owner-representative-proyek-konstruksi",
+    "type": "guide",
+    "status": "review",
+    "title": "Apa Itu Owner Representative Proyek Konstruksi?",
+    "slug": "owner-representative-proyek-konstruksi",
+    "description": "Owner representative memantau kepentingan proyek, mengonsolidasikan informasi, dan mendokumentasikan keputusan sesuai mandat yang disepakati — bukan pengganti penasihat hukum.",
+    "excerpt": "Owner representative mendukung koordinasi dan dokumentasi keputusan proyek sesuai mandat owner — pahami cakupan dan batasannya sebelum menyamakannya dengan peran lain.",
+    "seoTitle": "Apa Itu Owner Representative Proyek Konstruksi? | Arkavena",
+    "primaryKeyword": "apa itu owner representative proyek konstruksi",
+    "secondaryKeywords": [
+      "pengertian owner representative",
+      "peran owner representative konstruksi"
+    ],
+    "searchIntent": "informational",
+    "cluster": "manajemen-risiko",
+    "tags": [
+      "pengawasan",
+      "dokumentasi",
+      "kontrak"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
+      "heading": "Owner Representative: Mandat Owner, Bukan Kuasa Hukum",
+      "summary": "Owner representative membantu mengonsolidasikan informasi dan mendokumentasikan keputusan proyek sesuai mandat yang disepakati — bukan pengganti penasihat hukum atau seluruh keputusan owner.",
+      "image": "/images/guides/owner-representative-proyek-konstruksi/hero.webp",
+      "imageAlt": "Ilustrasi konseptual peran owner representative dalam proyek konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-owner-representative"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-tugas-manajemen-konstruksi",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-apa-itu-pengawasan-proyek"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Kebutuhan Owner Representative Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai kebutuhan owner representative untuk proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Owner Representative",
+        "href": "/layanan/owner-representative",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah owner representative sama dengan kuasa hukum?",
+        "answer": "Tidak. Owner representative mendukung koordinasi teknis dan administratif proyek sesuai ruang lingkup yang disepakati, bukan pengganti peran penasihat hukum atau kuasa hukum dalam pengertian legal formal."
+      },
+      {
+        "question": "Apakah owner representative mengambil semua keputusan menggantikan pemilik proyek?",
+        "answer": "Tidak. Owner representative bekerja sesuai mandat yang disepakati — keputusan besar seperti persetujuan anggaran signifikan atau perubahan ruang lingkup utama umumnya tetap memerlukan persetujuan langsung pemilik proyek, kecuali didelegasikan secara eksplisit dalam mandat."
+      },
+      {
+        "question": "Apa bedanya owner representative dengan project director?",
+        "answer": "Istilah dan cakupan peran ini dapat berbeda antar organisasi dan proyek. Owner representative pada konteks panduan ini berfokus pada mewakili kepentingan owner dalam koordinasi dan dokumentasi, bukan otomatis setara dengan posisi project director yang mungkin mempunyai kewenangan operasional lebih luas tergantung definisi organisasi tersebut."
+      },
+      {
+        "question": "Apakah owner representative juga berfungsi sebagai auditor?",
+        "answer": "Tidak secara otomatis. Owner representative dapat mengonsolidasikan informasi proyek, tetapi ini berbeda dari fungsi audit formal yang memiliki metodologi dan standar tersendiri — lihat panduan terkait audit RAB proyek untuk pembahasan lebih spesifik."
+      },
+      {
+        "question": "Bagaimana mandat owner representative ditentukan?",
+        "answer": "Mandat ditentukan bersama antara pemilik proyek dan pihak yang menjalankan peran owner representative, dituangkan secara tertulis, mencakup batas keputusan yang dapat diambil dan mekanisme eskalasi untuk keputusan di luar mandat tersebut."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Project Management Institute — A Guide to the Project Management Body of Knowledge (PMBOK Guide)",
+        "url": "https://www.pmi.org/",
+        "publisher": "Project Management Institute",
+        "accessedAt": "2026-07-28"
+      },
+      {
+        "label": "Undang-Undang Republik Indonesia Nomor 2 Tahun 2017 tentang Jasa Konstruksi",
+        "url": "https://peraturan.bpk.go.id/Details/68432/uu-no-2-tahun-2017",
+        "publisher": "Badan Pemeriksa Keuangan RI (Peraturan.bpk.go.id)",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-apa-itu-manajemen-konstruksi",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/owner-representative-proyek-konstruksi",
+    "sourcePath": "content/guides/owner-representative-proyek-konstruksi.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Apa Itu Owner Representative Proyek Konstruksi?",
+        "path": "/panduan/owner-representative-proyek-konstruksi"
+      }
+    ],
+    "wordCount": 513,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/owner-representative",
+      "/panduan/apa-itu-manajemen-konstruksi",
+      "/panduan/tugas-manajemen-konstruksi",
+      "/panduan/manajemen-konstruksi-vs-kontraktor"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-pengendalian-biaya-proyek",
+    "type": "guide",
+    "status": "review",
+    "title": "Apa Itu Pengendalian Biaya Proyek?",
+    "slug": "pengendalian-biaya-proyek",
+    "description": "Pengendalian biaya proyek memantau budget baseline terhadap committed cost, actual cost, variance, dan forecast — berbeda dari estimasi awal, penyusunan RAB, dan audit biaya.",
+    "excerpt": "Pengendalian biaya bukan sekadar mencatat pengeluaran — panduan ini menjelaskan konsep baseline, variance, dan forecast dalam pengendalian biaya proyek.",
+    "seoTitle": "Apa Itu Pengendalian Biaya Proyek? | Arkavena",
+    "primaryKeyword": "apa itu pengendalian biaya proyek",
+    "secondaryKeywords": [
+      "pengertian cost control konstruksi",
+      "budget baseline proyek"
+    ],
+    "searchIntent": "informational",
+    "cluster": "manajemen-risiko",
+    "tags": [
+      "biaya",
+      "risiko"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
+      "heading": "Pengendalian Biaya Proyek: Baseline, Variance, dan Forecast",
+      "summary": "Pengendalian biaya proyek memantau budget baseline terhadap committed cost, actual cost, dan forecast — bukan sekadar mencatat pengeluaran setelah terjadi.",
+      "image": "/images/guides/pengendalian-biaya-proyek/hero.webp",
+      "imageAlt": "Ilustrasi konseptual pengendalian biaya proyek konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-pengendalian-cashflow-proyek",
+        "guide-apa-itu-value-engineering-konstruksi",
+        "guide-value-engineering-untuk-mengendalikan-biaya"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Pengendalian Biaya Proyek Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai pengendalian biaya untuk proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Pengendalian Biaya Proyek",
+        "href": "/layanan/pengendalian-biaya-proyek",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apa bedanya pengendalian biaya dengan estimasi biaya awal?",
+        "answer": "Estimasi biaya awal adalah proses menyusun perkiraan biaya sebelum proyek dimulai, sementara pengendalian biaya adalah proses memantau biaya aktual terhadap estimasi tersebut sepanjang pelaksanaan proyek — keduanya berkaitan tetapi terjadi pada tahap yang berbeda."
+      },
+      {
+        "question": "Apa bedanya pengendalian biaya dengan audit biaya?",
+        "answer": "Pengendalian biaya adalah proses pemantauan berkelanjutan selama proyek berjalan, sementara audit biaya adalah pemeriksaan pada titik waktu tertentu terhadap dokumen atau transaksi biaya — lihat panduan audit RAB proyek untuk pembahasan lebih spesifik mengenai audit."
+      },
+      {
+        "question": "Apa bedanya pengendalian biaya dengan pengendalian cashflow?",
+        "answer": "Pengendalian biaya berfokus pada total biaya proyek terhadap baseline, sementara pengendalian cashflow berfokus pada waktu kebutuhan dana dan pengeluaran — proyek dengan biaya sesuai anggaran tetap bisa mengalami masalah cashflow jika waktu pengeluarannya tidak sesuai rencana."
+      },
+      {
+        "question": "Apakah pengendalian biaya menjamin proyek selesai sesuai anggaran?",
+        "answer": "Tidak. Pengendalian biaya membantu mengidentifikasi penyimpangan lebih awal sehingga dapat ditindaklanjuti, tetapi tidak dapat menjamin proyek pasti selesai sesuai anggaran — hasil akhir bergantung pada banyak faktor termasuk keputusan yang diambil terhadap temuan pengendalian."
+      },
+      {
+        "question": "Apa itu variance dalam konteks pengendalian biaya?",
+        "answer": "Variance adalah selisih antara biaya yang direncanakan (baseline) dengan biaya aktual atau committed cost pada suatu titik waktu — variance dapat positif (di bawah anggaran) atau negatif (di atas anggaran), dan menjadi sinyal untuk investigasi lebih lanjut."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Project Management Institute — A Guide to the Project Management Body of Knowledge (PMBOK Guide)",
+        "url": "https://www.pmi.org/",
+        "publisher": "Project Management Institute",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-apa-itu-manajemen-konstruksi",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/pengendalian-biaya-proyek",
+    "sourcePath": "content/guides/pengendalian-biaya-proyek.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Apa Itu Pengendalian Biaya Proyek?",
+        "path": "/panduan/pengendalian-biaya-proyek"
+      }
+    ],
+    "wordCount": 587,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/pengendalian-biaya-proyek",
+      "/panduan/pengendalian-cashflow-proyek",
+      "/panduan/apa-itu-value-engineering-konstruksi",
+      "/panduan/value-engineering-untuk-mengendalikan-biaya",
+      "/panduan/apa-itu-manajemen-konstruksi"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-pengendalian-cashflow-proyek",
+    "type": "guide",
+    "status": "review",
+    "title": "Apa Itu Cashflow Proyek Konstruksi?",
+    "slug": "pengendalian-cashflow-proyek",
+    "description": "Pengendalian cashflow proyek memantau kebutuhan dana time-phased, planned payment, dan actual disbursement — berbeda dari total cost control, laba-rugi, dan pembiayaan.",
+    "excerpt": "Cashflow proyek bukan sekadar total biaya — panduan ini menjelaskan konsep waktu kebutuhan dana dan mengapa cashflow berbeda dari cost control.",
+    "seoTitle": "Apa Itu Cashflow Proyek Konstruksi? | Arkavena",
+    "primaryKeyword": "apa itu cashflow proyek konstruksi",
+    "secondaryKeywords": [
+      "pengendalian cashflow konstruksi",
+      "time-phased funding proyek"
+    ],
+    "searchIntent": "informational",
+    "cluster": "manajemen-risiko",
+    "tags": [
+      "biaya",
+      "jadwal"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
+      "heading": "Cashflow Proyek: Soal Waktu Kebutuhan Dana, Bukan Hanya Total Biaya",
+      "summary": "Pengendalian cashflow proyek memantau kebutuhan dana dari waktu ke waktu — proyek dengan total biaya sesuai anggaran tetap bisa mengalami masalah cashflow.",
+      "image": "/images/guides/pengendalian-cashflow-proyek/hero.webp",
+      "imageAlt": "Ilustrasi konseptual pengendalian cashflow proyek konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-pengendalian-cashflow-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-pengendalian-biaya-proyek",
+        "guide-apa-itu-value-engineering-konstruksi"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Kebutuhan Cashflow Proyek Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai pengendalian cashflow untuk proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Pengendalian Cashflow Proyek",
+        "href": "/layanan/pengendalian-cashflow-proyek",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apa bedanya cashflow dengan total biaya proyek?",
+        "answer": "Total biaya adalah jumlah keseluruhan yang akan dikeluarkan sepanjang proyek, sementara cashflow adalah kapan dana tersebut dibutuhkan dan dikeluarkan dari waktu ke waktu. Proyek dengan total biaya sesuai anggaran tetap bisa mengalami masalah jika waktu kebutuhan dananya tidak direncanakan dengan baik."
+      },
+      {
+        "question": "Apakah cashflow proyek sama dengan laba-rugi?",
+        "answer": "Tidak. Cashflow proyek berfokus pada waktu masuk dan keluarnya dana terkait proyek, sementara laba-rugi adalah konsep akuntansi yang mencakup pendapatan dan beban secara lebih luas di luar konteks pengendalian proyek ini."
+      },
+      {
+        "question": "Apakah panduan ini membahas pembiayaan atau pinjaman proyek?",
+        "answer": "Tidak. Panduan ini menjelaskan konsep pengendalian cashflow dalam konteks pengelolaan proyek, bukan strategi pembiayaan atau pinjaman — itu adalah topik terpisah yang memerlukan konsultasi dengan pihak keuangan atau perbankan."
+      },
+      {
+        "question": "Apa yang dimaksud dengan time-phased funding need?",
+        "answer": "Time-phased funding need adalah kebutuhan dana yang dipetakan berdasarkan waktu — misalnya per bulan atau per tahap pekerjaan — bukan hanya angka total. Ini membantu pemilik proyek memastikan dana tersedia pada saat dibutuhkan, bukan hanya secara keseluruhan."
+      },
+      {
+        "question": "Bagaimana cashflow berkaitan dengan jadwal proyek?",
+        "answer": "Cashflow proyek sangat terkait dengan jadwal, karena kebutuhan dana umumnya mengikuti progres pekerjaan dan jadwal pembayaran yang disepakati — perubahan jadwal dapat menggeser waktu kebutuhan dana secara signifikan."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Project Management Institute — A Guide to the Project Management Body of Knowledge (PMBOK Guide)",
+        "url": "https://www.pmi.org/",
+        "publisher": "Project Management Institute",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-apa-itu-manajemen-konstruksi",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/pengendalian-cashflow-proyek",
+    "sourcePath": "content/guides/pengendalian-cashflow-proyek.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Apa Itu Cashflow Proyek Konstruksi?",
+        "path": "/panduan/pengendalian-cashflow-proyek"
+      }
+    ],
+    "wordCount": 665,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/pengendalian-cashflow-proyek",
+      "/panduan/pengendalian-biaya-proyek",
+      "/panduan/apa-itu-value-engineering-konstruksi",
+      "/panduan/apa-itu-manajemen-konstruksi"
+    ],
+    "isIndexable": false,
     "isFollowable": true
   },
   {
@@ -11610,6 +12542,271 @@ export const contentManifest: ContentItem[] = [
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],
     "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-tugas-manajemen-konstruksi",
+    "type": "guide",
+    "status": "review",
+    "title": "Tugas Manajemen Konstruksi: Aktivitas dan Deliverables",
+    "slug": "tugas-manajemen-konstruksi",
+    "description": "Aktivitas dan deliverables yang dapat termasuk dalam mandat manajemen konstruksi, dan bagaimana membedakannya dari kewenangan serta tanggung jawab pihak lain.",
+    "excerpt": "Tugas manajemen konstruksi berbeda-beda tergantung mandat yang disepakati — panduan ini memetakan aktivitas dan deliverables yang umum tercakup, bukan daftar tugas universal.",
+    "seoTitle": "Tugas Manajemen Konstruksi | Panduan Arkavena",
+    "primaryKeyword": "tugas manajemen konstruksi",
+    "secondaryKeywords": [
+      "aktivitas manajemen konstruksi",
+      "deliverable manajemen konstruksi"
+    ],
+    "searchIntent": "informational",
+    "cluster": "manajemen-risiko",
+    "tags": [
+      "perencanaan",
+      "pengawasan",
+      "dokumentasi"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
+      "heading": "Tugas Manajemen Konstruksi: Bergantung pada Mandat, Bukan Daftar Universal",
+      "summary": "Aktivitas dan deliverables manajemen konstruksi bervariasi tergantung ruang lingkup yang disepakati — pahami bedanya dengan kewenangan dan tanggung jawab pihak lain.",
+      "image": "/images/guides/tugas-manajemen-konstruksi/hero.webp",
+      "imageAlt": "Ilustrasi konseptual aktivitas dan deliverables manajemen konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-manajemen-konstruksi"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-manajemen-konstruksi-vs-kontraktor",
+        "guide-apa-itu-pengawasan-proyek",
+        "guide-owner-representative-proyek-konstruksi"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Ruang Lingkup Manajemen Konstruksi Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai ruang lingkup dan tugas manajemen konstruksi untuk proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Manajemen Konstruksi",
+        "href": "/layanan/manajemen-konstruksi",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah tugas manajemen konstruksi sama di setiap proyek?",
+        "answer": "Tidak. Tugas dan deliverables spesifik bergantung pada mandat yang disepakati dalam kontrak — proyek yang berbeda dapat memiliki ruang lingkup manajemen konstruksi yang sangat berbeda."
+      },
+      {
+        "question": "Apa bedanya tugas dan kewenangan?",
+        "answer": "Tugas adalah aktivitas yang dilakukan, sementara kewenangan adalah batas keputusan yang dapat diambil tanpa persetujuan tambahan dari pemilik proyek. Manajemen konstruksi dapat mempunyai tugas memantau biaya, misalnya, tanpa kewenangan menyetujui pengeluaran tambahan."
+      },
+      {
+        "question": "Apakah manajemen konstruksi bertanggung jawab atas kesalahan kontraktor?",
+        "answer": "Tanggung jawab ini bergantung pada ketentuan kontrak masing-masing pihak. Manajemen konstruksi umumnya bertanggung jawab atas kualitas pengendalian dan pelaporannya sendiri, bukan otomatis menanggung kesalahan pelaksanaan fisik oleh kontraktor — namun ini perlu dirujuk ke dokumen kontrak spesifik proyek."
+      },
+      {
+        "question": "Apa saja deliverable umum dari manajemen konstruksi?",
+        "answer": "Deliverable dapat mencakup dokumen ruang lingkup, laporan progres berkala, catatan perubahan (change log), dan dokumentasi keputusan — jenis dan formatnya bergantung pada kesepakatan di awal proyek."
+      },
+      {
+        "question": "Siapa yang menentukan tugas spesifik manajemen konstruksi pada proyek saya?",
+        "answer": "Tugas spesifik ditentukan bersama antara pemilik proyek dan penyedia jasa manajemen konstruksi pada tahap penetapan ruang lingkup, sebelum pekerjaan dimulai."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Project Management Institute — A Guide to the Project Management Body of Knowledge (PMBOK Guide)",
+        "url": "https://www.pmi.org/",
+        "publisher": "Project Management Institute",
+        "accessedAt": "2026-07-28"
+      },
+      {
+        "label": "Undang-Undang Republik Indonesia Nomor 2 Tahun 2017 tentang Jasa Konstruksi",
+        "url": "https://peraturan.bpk.go.id/Details/68432/uu-no-2-tahun-2017",
+        "publisher": "Badan Pemeriksa Keuangan RI (Peraturan.bpk.go.id)",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-apa-itu-manajemen-konstruksi",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/tugas-manajemen-konstruksi",
+    "sourcePath": "content/guides/tugas-manajemen-konstruksi.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Tugas Manajemen Konstruksi: Aktivitas dan Deliverables",
+        "path": "/panduan/tugas-manajemen-konstruksi"
+      }
+    ],
+    "wordCount": 557,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/manajemen-konstruksi",
+      "/panduan/manajemen-konstruksi-vs-kontraktor",
+      "/panduan/apa-itu-pengawasan-proyek",
+      "/panduan/owner-representative-proyek-konstruksi",
+      "/panduan/apa-itu-manajemen-konstruksi"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-value-engineering-untuk-mengendalikan-biaya",
+    "type": "guide",
+    "status": "review",
+    "title": "Value Engineering untuk Mengendalikan Biaya Proyek",
+    "slug": "value-engineering-untuk-mengendalikan-biaya",
+    "description": "Proses penerapan value engineering untuk mengendalikan biaya — identifikasi cost driver, definisi fungsi, pengembangan alternatif, evaluasi, dan dokumentasi keputusan.",
+    "excerpt": "Langkah-langkah menerapkan value engineering untuk mengendalikan biaya proyek, dengan simulasi ilustratif proses evaluasi alternatif — bukan janji persentase penghematan.",
+    "seoTitle": "Value Engineering untuk Mengendalikan Biaya | Arkavena",
+    "primaryKeyword": "value engineering untuk mengendalikan biaya",
+    "secondaryKeywords": [
+      "proses value engineering",
+      "menerapkan value engineering proyek"
+    ],
+    "searchIntent": "informational",
+    "cluster": "manajemen-risiko",
+    "tags": [
+      "perencanaan",
+      "risiko"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
+      "heading": "Menerapkan Value Engineering: Proses, Bukan Sekadar Keputusan Sepihak",
+      "summary": "Langkah konseptual menerapkan value engineering untuk mengendalikan biaya proyek, dari identifikasi cost driver hingga dokumentasi keputusan.",
+      "image": "/images/guides/value-engineering-untuk-mengendalikan-biaya/hero.webp",
+      "imageAlt": "Ilustrasi konseptual proses evaluasi alternatif dalam value engineering"
+    },
+    "relationships": {
+      "services": [
+        "svc-value-engineering",
+        "svc-pengendalian-biaya-proyek"
+      ],
+      "sectors": [],
+      "locations": [],
+      "guides": [
+        "guide-apa-itu-manajemen-konstruksi",
+        "guide-apa-itu-value-engineering-konstruksi",
+        "guide-pengendalian-biaya-proyek"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Evaluasi Alternatif untuk Proyek Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berdiskusi mengenai penerapan value engineering untuk mengendalikan biaya proyek saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Value Engineering",
+        "href": "/layanan/value-engineering",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah panduan ini memberikan angka persentase penghematan yang bisa diharapkan?",
+        "answer": "Tidak. Hasil value engineering bergantung sepenuhnya pada kondisi dan alternatif yang tersedia untuk proyek spesifik Anda — panduan ini menjelaskan proses evaluasi, bukan menjanjikan angka penghematan tertentu."
+      },
+      {
+        "question": "Kapan proses ini paling efektif dilakukan?",
+        "answer": "Proses ini paling efektif dilakukan pada tahap desain, sebelum konstruksi dimulai, karena perubahan pada tahap ini memiliki dampak biaya yang lebih rendah dibandingkan perubahan setelah pekerjaan berjalan."
+      },
+      {
+        "question": "Apa itu cost driver dalam konteks value engineering?",
+        "answer": "Cost driver adalah elemen desain, material, atau metode kerja yang berkontribusi signifikan terhadap total biaya proyek — elemen inilah yang menjadi prioritas evaluasi karena potensi dampaknya paling besar."
+      },
+      {
+        "question": "Apakah simulasi pada panduan ini berdasarkan proyek nyata Arkavena?",
+        "answer": "Tidak. Simulasi pada panduan ini adalah ilustrasi metode evaluasi menggunakan indeks hipotetis, bukan data proyek nyata Arkavena atau klien."
+      },
+      {
+        "question": "Siapa yang menentukan alternatif mana yang akhirnya dipilih?",
+        "answer": "Rekomendasi dari proses evaluasi disampaikan kepada pemilik proyek, tetapi keputusan akhir untuk menerima atau menolak alternatif tetap berada di tangan pemilik proyek."
+      }
+    ],
+    "sources": [
+      {
+        "label": "SAVE International — Value Methodology Standard",
+        "url": "https://www.value-eng.org/",
+        "publisher": "SAVE International",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": false,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-apa-itu-manajemen-konstruksi",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/value-engineering-untuk-mengendalikan-biaya",
+    "sourcePath": "content/guides/value-engineering-untuk-mengendalikan-biaya.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Value Engineering untuk Mengendalikan Biaya Proyek",
+        "path": "/panduan/value-engineering-untuk-mengendalikan-biaya"
+      }
+    ],
+    "wordCount": 688,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/value-engineering",
+      "/layanan/pengendalian-biaya-proyek",
+      "/panduan/apa-itu-value-engineering-konstruksi",
+      "/panduan/pengendalian-biaya-proyek",
+      "/panduan/apa-itu-manajemen-konstruksi"
+    ],
+    "isIndexable": false,
     "isFollowable": true
   },
   {
