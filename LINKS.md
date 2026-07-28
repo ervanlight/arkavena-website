@@ -1,6 +1,6 @@
 # Arkavena — Daftar Link Halaman
 
-Update terakhir: 2026-07-28 (setelah 8 sektor P2 dipromosikan live, PR #6 merged)
+Update terakhir: 2026-07-28 (setelah 14 panduan Renovasi Rumah dipromosikan live, PR #12 merged)
 
 Legenda status:
 - 🟢 **Live & indexable** — published, ownerVerified, masuk sitemap Google
@@ -137,7 +137,9 @@ Halaman lama, masih pakai komponen custom (bukan dari MDX manifest):
 | Syarat & Ketentuan | https://arkavena.com/syarat-ketentuan |
 | Terima Kasih | https://arkavena.com/terima-kasih |
 
-## 7. Panduan (9 halaman P3 Bangun Rumah, semua live)
+## 7. Panduan (23 halaman — 9 Bangun Rumah + 14 Renovasi Rumah, semua live)
+
+### 7a. Cluster Bangun Rumah (Batch 07A)
 
 | Panduan | Link |
 |---|---|
@@ -150,18 +152,39 @@ Halaman lama, masih pakai komponen custom (bukan dari MDX manifest):
 | Kontraktor vs Tukang | https://arkavena.com/panduan/kontraktor-vs-tukang |
 | Cara Menghitung Biaya Bangun Rumah | https://arkavena.com/panduan/cara-menghitung-biaya-bangun-rumah |
 | Cara Membaca RAB Rumah | https://arkavena.com/panduan/cara-membaca-rab-rumah |
+
+### 7b. Cluster Renovasi Rumah (Batch 08)
+
+| Panduan | Link |
+|---|---|
+| Renovasi Total vs Renovasi Sebagian (pillar) | https://arkavena.com/panduan/renovasi-total-vs-renovasi-sebagian |
+| Biaya Renovasi Rumah | https://arkavena.com/panduan/biaya-renovasi-rumah |
+| Cara Menghitung Anggaran Renovasi Rumah | https://arkavena.com/panduan/cara-menghitung-anggaran-renovasi-rumah |
+| Checklist Survei Sebelum Renovasi | https://arkavena.com/panduan/checklist-survei-sebelum-renovasi |
+| Renovasi Rumah Sambil Dihuni | https://arkavena.com/panduan/renovasi-rumah-sambil-dihuni |
+| Tanda Rumah Perlu Perkuatan Struktur ⚠️ | https://arkavena.com/panduan/tanda-rumah-perlu-perkuatan-struktur |
+| Renovasi Rumah Satu Jadi Dua Lantai ⚠️ | https://arkavena.com/panduan/renovasi-rumah-satu-jadi-dua-lantai |
+| Memperkuat Struktur Rumah Lama ⚠️ | https://arkavena.com/panduan/memperkuat-struktur-rumah-lama |
+| Renovasi Atap Bocor | https://arkavena.com/panduan/renovasi-atap-bocor |
+| Renovasi Dapur | https://arkavena.com/panduan/renovasi-dapur |
+| Renovasi Kamar Mandi | https://arkavena.com/panduan/renovasi-kamar-mandi |
+| Renovasi Fasad Rumah | https://arkavena.com/panduan/renovasi-fasad-rumah |
+| Risiko Pembengkakan Biaya Renovasi | https://arkavena.com/panduan/risiko-pembengkakan-biaya-renovasi |
+| Cara Memilih Kontraktor Renovasi | https://arkavena.com/panduan/cara-memilih-kontraktor-renovasi |
 | **Hub /panduan** | https://arkavena.com/panduan |
 
-Batch 07A (PR #11) sudah di-approve, merge, dan promote 2026-07-28. Batch 08 (14 panduan Renovasi Rumah) sedang berjalan.
+⚠️ = artikel struktural dengan `reviewedBy: "ervanlight (owner)"` — technical review terpisah sudah kamu berikan 2026-07-28.
+
+Batch 07A (PR #11) dan Batch 08 (PR #12) sudah di-approve, merge, dan promote 2026-07-28.
 
 ---
 
 ## PR yang masih terbuka, menunggu review kamu
 
-Tidak ada — semua PR yang sudah selesai (Batch 04A/04B/05/06A/07A, admin-auth fix) sudah merge dan promote per 2026-07-28.
+Tidak ada — semua PR yang sudah selesai (Batch 04A/04B/05/06A/07A/08, admin-auth fix) sudah merge dan promote per 2026-07-28.
 
 ## Ringkasan angka
 
-- 🟢 Live & indexable: 54 halaman (hub + korporat + 20 layanan + 14 sektor + 9 panduan)
+- 🟢 Live & indexable: 68 halaman (hub + korporat + 20 layanan + 14 sektor + 23 panduan)
 - 🟡 Live tapi noindex (bisa dicek langsung): 15 halaman (8 wilayah + 7 proyek)
 - 🔵 Belum live: 0 (semua PR yang sudah selesai sudah merge)
