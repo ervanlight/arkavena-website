@@ -1,6 +1,6 @@
 # Arkavena — Daftar Link Halaman
 
-Update terakhir: 2026-07-28 (setelah 14 panduan Renovasi Rumah dipromosikan live, PR #12 merged)
+Update terakhir: 2026-07-28 (setelah pillar + 7 panduan biaya bangunan komersial dipromosikan live, PR #13 merged)
 
 Legenda status:
 - 🟢 **Live & indexable** — published, ownerVerified, masuk sitemap Google
@@ -137,7 +137,7 @@ Halaman lama, masih pakai komponen custom (bukan dari MDX manifest):
 | Syarat & Ketentuan | https://arkavena.com/syarat-ketentuan |
 | Terima Kasih | https://arkavena.com/terima-kasih |
 
-## 7. Panduan (23 halaman — 9 Bangun Rumah + 14 Renovasi Rumah, semua live)
+## 7. Panduan (31 halaman live — 9 Bangun Rumah + 14 Renovasi Rumah + 8 Bangunan Komersial)
 
 ### 7a. Cluster Bangun Rumah (Batch 07A)
 
@@ -175,16 +175,39 @@ Halaman lama, masih pakai komponen custom (bukan dari MDX manifest):
 
 ⚠️ = artikel struktural dengan `reviewedBy: "ervanlight (owner)"` — technical review terpisah sudah kamu berikan 2026-07-28.
 
-Batch 07A (PR #11) dan Batch 08 (PR #12) sudah di-approve, merge, dan promote 2026-07-28.
+### 7c. Cluster Bangunan Komersial (Batch 09A)
+
+| Panduan | Link |
+|---|---|
+| Tahapan Proyek Bangunan Komersial (pillar) | https://arkavena.com/panduan/tahapan-proyek-bangunan-komersial |
+| Biaya Bangun Ruko | https://arkavena.com/panduan/biaya-bangun-ruko |
+| Biaya Bangun Gudang | https://arkavena.com/panduan/biaya-bangun-gudang |
+| Biaya Bangun Kantor | https://arkavena.com/panduan/biaya-bangun-kantor |
+| Biaya Bangun Kos | https://arkavena.com/panduan/biaya-bangun-kos |
+| Biaya Bangun Cafe | https://arkavena.com/panduan/biaya-bangun-cafe |
+| Biaya Bangun Sekolah | https://arkavena.com/panduan/biaya-bangun-sekolah |
+| Biaya Bangun Masjid | https://arkavena.com/panduan/biaya-bangun-masjid |
+
+Belum live — masih `status: review`, menunggu technical review terpisah (mandatory, per kebijakan batch, terlepas dari tidak adanya klaim numerik):
+
+| Panduan | Preview |
+|---|---|
+| Biaya Bangun Pabrik ⚠️ | https://arkavena.com/panduan/biaya-bangun-pabrik (noindex, bisa dibuka langsung) |
+| Biaya Bangun Restoran ⚠️ | https://arkavena.com/panduan/biaya-bangun-restoran (noindex, bisa dibuka langsung) |
+| Biaya Bangun Klinik ⚠️ | https://arkavena.com/panduan/biaya-bangun-klinik (noindex, bisa dibuka langsung) |
+
+Kebijakan cluster ini: Arkavena tidak mempublikasikan kisaran harga proyek komersial secara publik — setiap panduan biaya menjelaskan faktor yang mempengaruhi biaya, bukan angka, dan mengarahkan ke konsultasi personal.
+
+Batch 07A (PR #11), Batch 08 (PR #12), dan Batch 09A (PR #13) sudah di-approve, merge, dan promote 2026-07-28 (Batch 09A: pillar + 7 dari 10 panduan biaya; 3 panduan menunggu technical review terpisah).
 
 ---
 
 ## PR yang masih terbuka, menunggu review kamu
 
-Tidak ada — semua PR yang sudah selesai (Batch 04A/04B/05/06A/07A/08, admin-auth fix) sudah merge dan promote per 2026-07-28.
+Tidak ada — semua PR yang sudah selesai (Batch 04A/04B/05/06A/07A/08/09A, admin-auth fix) sudah merge dan promote per 2026-07-28.
 
 ## Ringkasan angka
 
-- 🟢 Live & indexable: 68 halaman (hub + korporat + 20 layanan + 14 sektor + 23 panduan)
-- 🟡 Live tapi noindex (bisa dicek langsung): 15 halaman (8 wilayah + 7 proyek)
+- 🟢 Live & indexable: 76 halaman (hub + korporat + 20 layanan + 14 sektor + 31 panduan)
+- 🟡 Live tapi noindex (bisa dicek langsung): 18 halaman (8 wilayah + 7 proyek + 3 panduan biaya komersial menunggu technical review)
 - 🔵 Belum live: 0 (semua PR yang sudah selesai sudah merge)
