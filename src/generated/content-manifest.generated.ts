@@ -7201,7 +7201,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "guide-biaya-bangun-cafe",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Biaya Bangun Cafe: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
     "slug": "biaya-bangun-cafe",
     "description": "Faktor yang mempengaruhi biaya bangun cafe — area pengunjung, area kerja staf, peralatan, utilitas, dan fit-out. Estimasi diberikan personal, bukan kisaran publik.",
@@ -7218,9 +7218,9 @@ export const contentManifest: ContentItem[] = [
       "komersial",
       "biaya"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -7285,12 +7285,19 @@ export const contentManifest: ContentItem[] = [
         "answer": "Estimasi yang akurat memerlukan diskusi mengenai luas area, spesifikasi peralatan yang direncanakan, dan tingkat fit-out yang diinginkan pada tahap konsultasi."
       }
     ],
-    "sources": [],
-    "ownerVerified": false,
+    "sources": [
+      {
+        "label": "Kebijakan Arkavena: tidak mempublikasikan kisaran harga proyek bangunan komersial (owner decision)",
+        "url": "https://arkavena.com/layanan/bangun-bangunan-komersial",
+        "publisher": "Arkavena",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": true,
     "article": {
       "articleType": "cost",
       "pillar": "guide-tahapan-proyek-bangunan-komersial",
-      "dataAsOf": null,
+      "dataAsOf": "2026-07-28",
       "answerFirst": true,
       "hasCalculator": false
     },
@@ -7321,14 +7328,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/biaya-bangun-kantor",
       "/panduan/tahapan-proyek-bangunan-komersial"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-biaya-bangun-gudang",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Biaya Bangun Gudang: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
     "slug": "biaya-bangun-gudang",
     "description": "Faktor yang mempengaruhi biaya bangun gudang — bentang struktur, kebutuhan lantai, area loading, dan akses. Estimasi diberikan personal, bukan kisaran publik.",
@@ -7346,9 +7353,9 @@ export const contentManifest: ContentItem[] = [
       "biaya",
       "industri"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -7411,12 +7418,19 @@ export const contentManifest: ContentItem[] = [
         "answer": "Estimasi yang akurat memerlukan diskusi mengenai bentang struktur, kebutuhan lantai, dan kebutuhan akses logistik pada tahap konsultasi."
       }
     ],
-    "sources": [],
-    "ownerVerified": false,
+    "sources": [
+      {
+        "label": "Kebijakan Arkavena: tidak mempublikasikan kisaran harga proyek bangunan komersial (owner decision)",
+        "url": "https://arkavena.com/layanan/bangun-bangunan-komersial",
+        "publisher": "Arkavena",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": true,
     "article": {
       "articleType": "cost",
       "pillar": "guide-tahapan-proyek-bangunan-komersial",
-      "dataAsOf": null,
+      "dataAsOf": "2026-07-28",
       "answerFirst": true,
       "hasCalculator": false
     },
@@ -7445,14 +7459,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/biaya-bangun-pabrik",
       "/panduan/tahapan-proyek-bangunan-komersial"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-biaya-bangun-kantor",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Biaya Bangun Kantor: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
     "slug": "biaya-bangun-kantor",
     "description": "Faktor yang mempengaruhi biaya bangun kantor — shell vs fit-out, partisi, ceiling, data dan power, hingga furniture. Estimasi diberikan personal, bukan kisaran publik.",
@@ -7469,9 +7483,9 @@ export const contentManifest: ContentItem[] = [
       "komersial",
       "biaya"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -7536,12 +7550,19 @@ export const contentManifest: ContentItem[] = [
         "answer": "Estimasi yang akurat memerlukan diskusi mengenai ruang lingkup (shell atau fit-out), tingkat spesifikasi, dan kebutuhan operasional pada tahap konsultasi — bukan dari kisaran umum yang belum tentu sesuai kebutuhan Anda."
       }
     ],
-    "sources": [],
-    "ownerVerified": false,
+    "sources": [
+      {
+        "label": "Kebijakan Arkavena: tidak mempublikasikan kisaran harga proyek bangunan komersial (owner decision)",
+        "url": "https://arkavena.com/layanan/bangun-bangunan-komersial",
+        "publisher": "Arkavena",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": true,
     "article": {
       "articleType": "cost",
       "pillar": "guide-tahapan-proyek-bangunan-komersial",
-      "dataAsOf": null,
+      "dataAsOf": "2026-07-28",
       "answerFirst": true,
       "hasCalculator": false
     },
@@ -7573,7 +7594,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan/biaya-bangun-restoran",
       "/panduan/tahapan-proyek-bangunan-komersial"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -7706,7 +7727,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "guide-biaya-bangun-kos",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Biaya Bangun Kos: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
     "slug": "biaya-bangun-kos",
     "description": "Faktor yang mempengaruhi biaya bangun kos — jumlah unit, fasilitas bersama, sirkulasi, dan utilitas. Estimasi diberikan personal, bukan kisaran publik atau proyeksi sewa.",
@@ -7723,9 +7744,9 @@ export const contentManifest: ContentItem[] = [
       "komersial",
       "biaya"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -7788,12 +7809,19 @@ export const contentManifest: ContentItem[] = [
         "answer": "Estimasi yang akurat memerlukan diskusi mengenai jumlah unit, spesifikasi fasilitas, dan tingkat finishing yang direncanakan pada tahap konsultasi."
       }
     ],
-    "sources": [],
-    "ownerVerified": false,
+    "sources": [
+      {
+        "label": "Kebijakan Arkavena: tidak mempublikasikan kisaran harga proyek bangunan komersial (owner decision)",
+        "url": "https://arkavena.com/layanan/bangun-bangunan-komersial",
+        "publisher": "Arkavena",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": true,
     "article": {
       "articleType": "cost",
       "pillar": "guide-tahapan-proyek-bangunan-komersial",
-      "dataAsOf": null,
+      "dataAsOf": "2026-07-28",
       "answerFirst": true,
       "hasCalculator": false
     },
@@ -7822,14 +7850,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/biaya-bangun-ruko",
       "/panduan/tahapan-proyek-bangunan-komersial"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-biaya-bangun-masjid",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Biaya Bangun Masjid: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
     "slug": "biaya-bangun-masjid",
     "description": "Faktor yang mempengaruhi biaya bangun masjid — kapasitas ruang ibadah, area wudhu, konstruksi bertahap, dan fasilitas komunitas. Estimasi diberikan personal, bukan kisaran publik.",
@@ -7847,9 +7875,9 @@ export const contentManifest: ContentItem[] = [
       "biaya",
       "institusi"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -7913,12 +7941,19 @@ export const contentManifest: ContentItem[] = [
         "answer": "Estimasi yang akurat memerlukan diskusi mengenai kapasitas jamaah yang direncanakan, fasilitas pendukung, dan rencana fase pembangunan pada tahap konsultasi."
       }
     ],
-    "sources": [],
-    "ownerVerified": false,
+    "sources": [
+      {
+        "label": "Kebijakan Arkavena: tidak mempublikasikan kisaran harga proyek bangunan komersial (owner decision)",
+        "url": "https://arkavena.com/layanan/bangun-bangunan-komersial",
+        "publisher": "Arkavena",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": true,
     "article": {
       "articleType": "cost",
       "pillar": "guide-tahapan-proyek-bangunan-komersial",
-      "dataAsOf": null,
+      "dataAsOf": "2026-07-28",
       "answerFirst": true,
       "hasCalculator": false
     },
@@ -7948,7 +7983,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan/biaya-bangun-sekolah",
       "/panduan/tahapan-proyek-bangunan-komersial"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -8206,7 +8241,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "guide-biaya-bangun-ruko",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Biaya Bangun Ruko: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
     "slug": "biaya-bangun-ruko",
     "description": "Faktor yang mempengaruhi biaya bangun ruko — fungsi tenant, jumlah lantai, kondisi shell vs finished, fasad, dan utilitas. Estimasi diberikan personal, bukan kisaran publik.",
@@ -8223,9 +8258,9 @@ export const contentManifest: ContentItem[] = [
       "komersial",
       "biaya"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -8291,12 +8326,19 @@ export const contentManifest: ContentItem[] = [
         "answer": "Tergantung ruang lingkup yang disepakati. Pekerjaan sipil dan interior fit-out dapat dipisahkan atau digabung tergantung kebutuhan tenant — ini dibahas pada tahap konsultasi."
       }
     ],
-    "sources": [],
-    "ownerVerified": false,
+    "sources": [
+      {
+        "label": "Kebijakan Arkavena: tidak mempublikasikan kisaran harga proyek bangunan komersial (owner decision)",
+        "url": "https://arkavena.com/layanan/bangun-bangunan-komersial",
+        "publisher": "Arkavena",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": true,
     "article": {
       "articleType": "cost",
       "pillar": "guide-tahapan-proyek-bangunan-komersial",
-      "dataAsOf": null,
+      "dataAsOf": "2026-07-28",
       "answerFirst": true,
       "hasCalculator": false
     },
@@ -8329,7 +8371,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan/biaya-bangun-kos",
       "/panduan/tahapan-proyek-bangunan-komersial"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -8465,7 +8507,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "guide-biaya-bangun-sekolah",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Biaya Bangun Sekolah: Faktor yang Mempengaruhi dan Cara Mendapatkan Estimasi",
     "slug": "biaya-bangun-sekolah",
     "description": "Faktor yang mempengaruhi biaya bangun sekolah — jenjang pendidikan, ruang kelas, fasilitas bersama, dan konstruksi bertahap. Estimasi diberikan personal, bukan kisaran publik.",
@@ -8483,9 +8525,9 @@ export const contentManifest: ContentItem[] = [
       "biaya",
       "institusi"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -8549,12 +8591,19 @@ export const contentManifest: ContentItem[] = [
         "answer": "Estimasi yang akurat memerlukan diskusi mengenai jenjang pendidikan, jumlah ruang kelas dan fasilitas pendukung, serta rencana fase konstruksi pada tahap konsultasi."
       }
     ],
-    "sources": [],
-    "ownerVerified": false,
+    "sources": [
+      {
+        "label": "Kebijakan Arkavena: tidak mempublikasikan kisaran harga proyek bangunan komersial (owner decision)",
+        "url": "https://arkavena.com/layanan/bangun-bangunan-komersial",
+        "publisher": "Arkavena",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": true,
     "article": {
       "articleType": "cost",
       "pillar": "guide-tahapan-proyek-bangunan-komersial",
-      "dataAsOf": null,
+      "dataAsOf": "2026-07-28",
       "answerFirst": true,
       "hasCalculator": false
     },
@@ -8584,7 +8633,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan/biaya-bangun-masjid",
       "/panduan/tahapan-proyek-bangunan-komersial"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -11288,7 +11337,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "guide-tahapan-proyek-bangunan-komersial",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Tahapan Proyek Bangunan Komersial: dari Business Requirement hingga Operasional",
     "slug": "tahapan-proyek-bangunan-komersial",
     "description": "Peta lengkap tahapan proyek bangunan komersial — dari business requirement, feasibility, desain, estimasi, procurement, hingga konstruksi dan kesiapan operasional.",
@@ -11306,9 +11355,9 @@ export const contentManifest: ContentItem[] = [
       "perencanaan",
       "pelaksanaan"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -11395,7 +11444,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "pillar",
       "pillar": null,
@@ -11435,7 +11484,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan/biaya-bangun-masjid",
       "/layanan/bangun-bangunan-komersial"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {

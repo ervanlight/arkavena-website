@@ -93,15 +93,17 @@ describe("Batch 06 — structured-data audit", () => {
 });
 
 describe("Batch 06 — sitemap reconciliation", () => {
-  it("sitemap predicate (published+indexable+ownerVerified) menghasilkan tepat 68 halaman dari content manifest", () => {
+  it("sitemap predicate (published+indexable+ownerVerified) menghasilkan tepat 76 halaman dari content manifest", () => {
     // Original scope (2026-07-28): corporate/hub pages + 20 services + 6 P1
     // sectors = 37. Since then, owner approved and promoted Batch 04B (8 P2
-    // sectors), Batch 07A (9 Bangun Rumah guides), and Batch 08 (14 Renovasi
-    // Rumah guides) — all already deployed to production. This count tracks
-    // the content manifest's sitemap-eligible set, not a fixed launch-day
-    // number. If this changes, regenerate migration/launch-manifest.csv and
-    // update this number deliberately, don't just bump it to make the test pass.
-    expect(launchApproved.length).toBe(68);
+    // sectors), Batch 07A (9 Bangun Rumah guides), Batch 08 (14 Renovasi
+    // Rumah guides), and Batch 09A (pillar + 7 non-flagged commercial cost
+    // guides — 3 mandatory-technical-review guides stay in review) — all
+    // already deployed to production. This count tracks the content
+    // manifest's sitemap-eligible set, not a fixed launch-day number. If this
+    // changes, regenerate migration/launch-manifest.csv and update this
+    // number deliberately, don't just bump it to make the test pass.
+    expect(launchApproved.length).toBe(76);
   });
 
   it("tidak ada draft, review, atau archived page dalam sitemap predicate", () => {

@@ -149,12 +149,14 @@ describe("Batch 01 — navigation contract", () => {
 });
 
 describe("Batch 01 — hub empty-state", () => {
-  it("location/project masih kosong (belum ada batch untuk itu); service, sector, dan guide sudah published sejak Batch 02+03+04A+04B+07A+08", () => {
+  it("location/project masih kosong (belum ada batch untuk itu); service, sector, dan guide sudah published sejak Batch 02+03+04A+04B+07A+08+09A", () => {
     // Snapshot at Batch 01 time was "all empty" — Batch 02 (P1) and Batch 03
     // (P2) published all 20 services, Batch 04A (2026-07-28) published 6 P1
     // sectors, Batch 04B (2026-07-28) published 8 P2 sectors, Batch 07A
     // (2026-07-28) published 9 P3 Bangun Rumah guides, Batch 08
-    // (2026-07-28) published 14 Renovasi Rumah guides, so only
+    // (2026-07-28) published 14 Renovasi Rumah guides, Batch 09A
+    // (2026-07-28) published 8 (pillar + 7 non-flagged cost guides; 3
+    // mandatory-technical-review cost guides stay review), so only
     // location/project are still expected empty pending later batches.
     const publishedChildren = items.filter(
       (item) =>
@@ -176,7 +178,7 @@ describe("Batch 01 — hub empty-state", () => {
     const publishedGuides = items.filter(
       (item) => item.type === "guide" && item.isIndexable
     );
-    expect(publishedGuides.length).toBe(23);
+    expect(publishedGuides.length).toBe(31);
   });
 
   it("draft/review child tidak pernah indexable", () => {

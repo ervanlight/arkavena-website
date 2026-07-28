@@ -106,10 +106,16 @@ describe("Batch 09A — no-published-pricing policy (owner decision 2026-07-28, 
     }
   });
 
-  it("dataAsOf dan sources tetap null/kosong untuk seluruh cost guide (tidak ada data numerik yang perlu diaudit)", () => {
+  it("dataAsOf dan sources: published cost guides mencantumkan tanggal kebijakan dan sumber kebijakan (bukan data numerik); guide yang masih review tetap null/kosong", () => {
     for (const item of costGuides) {
-      expect(item.article.dataAsOf).toBeNull();
-      expect(item.sources).toEqual([]);
+      if (item.status === "published") {
+        expect(item.article.dataAsOf).toBe("2026-07-28");
+        expect(item.sources.length).toBeGreaterThan(0);
+        expect(item.sources[0].label.toLowerCase()).toContain("kebijakan");
+      } else {
+        expect(item.article.dataAsOf).toBeNull();
+        expect(item.sources).toEqual([]);
+      }
     }
   });
 
@@ -152,13 +158,20 @@ describe("Batch 09A — content validation", () => {
     expect(dupeIssues.filter((i) => i.rule === "duplicate-route")).toEqual([]);
   });
 
-  it("seluruh halaman Batch 09A masih review/ownerVerified:false/publishedAt:null/reviewedBy:null (menunggu review owner)", () => {
+  it("pillar + 7 non-flagged cost guides published/ownerVerified:true (approved 2026-07-28); 3 mandatory-review cost guides tetap review", () => {
     for (const item of b09a) {
-      expect(item.status).toBe("review");
-      expect(item.ownerVerified).toBe(false);
-      expect(item.publishedAt).toBeNull();
-      expect(item.reviewedBy).toBeNull();
-      expect(item.isIndexable).toBe(false);
+      if (MANDATORY_REVIEW_SLUGS.includes(item.slug as (typeof MANDATORY_REVIEW_SLUGS)[number])) {
+        expect(item.status).toBe("review");
+        expect(item.ownerVerified).toBe(false);
+        expect(item.publishedAt).toBeNull();
+        expect(item.reviewedBy).toBeNull();
+        expect(item.isIndexable).toBe(false);
+      } else {
+        expect(item.status).toBe("published");
+        expect(item.ownerVerified).toBe(true);
+        expect(item.publishedAt).not.toBeNull();
+        expect(item.isIndexable).toBe(true);
+      }
     }
   });
 
@@ -354,10 +367,14 @@ describe("Batch 09A — audience and tone guardrail", () => {
 });
 
 describe("Batch 09A — metadata", () => {
-  it("seluruh 11 halaman menghasilkan noindex,follow (masih review)", () => {
+  it("published pages menghasilkan index,follow; 3 mandatory-review guide tetap noindex,follow", () => {
     for (const item of b09a) {
       const metadata = buildMetadata(item);
-      expect(metadata.robots).toMatchObject({ index: false, follow: true });
+      if (MANDATORY_REVIEW_SLUGS.includes(item.slug as (typeof MANDATORY_REVIEW_SLUGS)[number])) {
+        expect(metadata.robots).toMatchObject({ index: false, follow: true });
+      } else {
+        expect(metadata.robots).toMatchObject({ index: true, follow: true });
+      }
     }
   });
 
@@ -406,10 +423,14 @@ describe("Batch 09A — structured data", () => {
 });
 
 describe("Batch 09A — sitemap and hub", () => {
-  it("seluruh halaman Batch 09A (masih review) tidak masuk sitemap", () => {
+  it("published pages masuk sitemap; 3 mandatory-review guide (masih review) tidak masuk sitemap", () => {
     const eligible = selectSitemapItems(items).map((item) => item.route);
     for (const item of b09a) {
-      expect(eligible).not.toContain(item.route);
+      if (MANDATORY_REVIEW_SLUGS.includes(item.slug as (typeof MANDATORY_REVIEW_SLUGS)[number])) {
+        expect(eligible).not.toContain(item.route);
+      } else {
+        expect(eligible).toContain(item.route);
+      }
     }
   });
 });

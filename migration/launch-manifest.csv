@@ -1,57 +1,68 @@
 route,type,status,owner_verified,index_flag,collection_gate,sitemap_expected,navigation_visible,launch_decision,notes
-/,page,published,true,true,pass,true,true,approved,First launch scope (owner decision 2026-07-28).
-/cara-kerja,page,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/faq,page,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/konsultasi-proyek,page,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/kontak,page,published,true,true,pass,true,true,approved,First launch scope (owner decision 2026-07-28).
-/layanan,page,published,true,true,pass,true,true,approved,First launch scope (owner decision 2026-07-28).
-/layanan/audit-biaya-proyek,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/bangun-bangunan-komersial,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/bangun-rumah,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/building-maintenance,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/,page,published,true,true,pass,true,true,approved,Published and owner-verified — live in production.
+/cara-kerja,page,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/faq,page,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/konsultasi-proyek,page,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/kontak,page,published,true,true,pass,true,true,approved,Published and owner-verified — live in production.
+/layanan,page,published,true,true,pass,true,true,approved,Published and owner-verified — live in production.
+/layanan/audit-biaya-proyek,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/bangun-bangunan-komersial,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/bangun-rumah,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/building-maintenance,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
 /layanan/contoh-layanan,service,draft,false,false,pass,false,false,excluded,"Scaffold/example fixture, never intended to publish."
-/layanan/corrective-maintenance-bangunan,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/design-and-build,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/estimasi-biaya-konstruksi,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/interior-fit-out,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/manajemen-konstruksi,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/owner-representative,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/pengawasan-proyek,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/pengendalian-biaya-proyek,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/pengendalian-cashflow-proyek,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/pengendalian-jadwal-proyek,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/penyusunan-rab,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/preventive-maintenance-bangunan,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/quality-control-konstruksi,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/renovasi-bangunan-komersial,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/renovasi-rumah,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/layanan/value-engineering,service,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/mengapa-arkavena,page,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan,page,published,true,true,pass,true,true,approved,First launch scope (owner decision 2026-07-28).
-/panduan/biaya-bangun-rumah-per-meter,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/biaya-renovasi-rumah,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/borongan-vs-harian-bangun-rumah,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/cara-membaca-rab-rumah,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/cara-memilih-kontraktor-renovasi,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/cara-memilih-kontraktor-rumah,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/cara-menghitung-anggaran-renovasi-rumah,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/cara-menghitung-biaya-bangun-rumah,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/checklist-persiapan-bangun-rumah,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/checklist-survei-sebelum-renovasi,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/layanan/corrective-maintenance-bangunan,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/design-and-build,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/estimasi-biaya-konstruksi,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/interior-fit-out,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/manajemen-konstruksi,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/owner-representative,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/pengawasan-proyek,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/pengendalian-biaya-proyek,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/pengendalian-cashflow-proyek,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/pengendalian-jadwal-proyek,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/penyusunan-rab,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/preventive-maintenance-bangunan,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/quality-control-konstruksi,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/renovasi-bangunan-komersial,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/renovasi-rumah,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/layanan/value-engineering,service,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/mengapa-arkavena,page,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan,page,published,true,true,pass,true,true,approved,Published and owner-verified — live in production.
+/panduan/biaya-bangun-cafe,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/biaya-bangun-gudang,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/biaya-bangun-kantor,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/biaya-bangun-klinik,guide,review,false,false,pass,false,false,excluded,"Draft/review content, not owner-approved for launch."
+/panduan/biaya-bangun-kos,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/biaya-bangun-masjid,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/biaya-bangun-pabrik,guide,review,false,false,pass,false,false,excluded,"Draft/review content, not owner-approved for launch."
+/panduan/biaya-bangun-restoran,guide,review,false,false,pass,false,false,excluded,"Draft/review content, not owner-approved for launch."
+/panduan/biaya-bangun-ruko,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/biaya-bangun-rumah-per-meter,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/biaya-bangun-sekolah,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/biaya-renovasi-rumah,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/borongan-vs-harian-bangun-rumah,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/cara-membaca-rab-rumah,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/cara-memilih-kontraktor-renovasi,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/cara-memilih-kontraktor-rumah,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/cara-menghitung-anggaran-renovasi-rumah,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/cara-menghitung-biaya-bangun-rumah,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/checklist-persiapan-bangun-rumah,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/checklist-survei-sebelum-renovasi,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
 /panduan/contoh-panduan,guide,draft,false,false,pass,false,false,excluded,"Scaffold/example fixture, never intended to publish."
-/panduan/kontrak-kerja-konstruksi-rumah,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/kontraktor-vs-tukang,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/memperkuat-struktur-rumah-lama,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/renovasi-atap-bocor,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/renovasi-dapur,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/renovasi-fasad-rumah,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/renovasi-kamar-mandi,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/renovasi-rumah-sambil-dihuni,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/renovasi-rumah-satu-jadi-dua-lantai,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/renovasi-total-vs-renovasi-sebagian,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/risiko-pembengkakan-biaya-renovasi,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/tahapan-bangun-rumah-dari-nol,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/panduan/tanda-rumah-perlu-perkuatan-struktur,guide,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/panduan/kontrak-kerja-konstruksi-rumah,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/kontraktor-vs-tukang,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/memperkuat-struktur-rumah-lama,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/renovasi-atap-bocor,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/renovasi-dapur,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/renovasi-fasad-rumah,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/renovasi-kamar-mandi,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/renovasi-rumah-sambil-dihuni,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/renovasi-rumah-satu-jadi-dua-lantai,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/renovasi-total-vs-renovasi-sebagian,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/risiko-pembengkakan-biaya-renovasi,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/tahapan-bangun-rumah-dari-nol,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/tahapan-proyek-bangunan-komersial,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/panduan/tanda-rumah-perlu-perkuatan-struktur,guide,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
 /proyek,page,review,false,false,pass,false,false,excluded,"Draft/review content, not owner-approved for launch."
 /proyek/hunian-lamongan-2022,project,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
 /proyek/kos-dau-malang-2020,project,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
@@ -60,24 +71,24 @@ route,type,status,owner_verified,index_flag,collection_gate,sitemap_expected,nav
 /proyek/perumahan-karangploso-malang-2018,project,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
 /proyek/rumah-tinggal-malang-kota-2019,project,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
 /proyek/rumah-tinggal-solo-2024,project,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
-/sektor,page,published,true,true,pass,true,true,approved,First launch scope (owner decision 2026-07-28).
-/sektor/cafe,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
+/sektor,page,published,true,true,pass,true,true,approved,Published and owner-verified — live in production.
+/sektor/cafe,sector,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
 /sektor/contoh-sektor,sector,draft,false,false,pass,false,false,excluded,"Scaffold/example fixture, never intended to publish."
-/sektor/gudang,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/sektor/hotel,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/sektor/kantor,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/sektor/klinik,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/sektor/kos,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/sektor/masjid,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/sektor/pabrik,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/sektor/restoran,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/sektor/ruko,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/sektor/rumah-tinggal,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/sektor/sekolah,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/sektor/showroom-retail,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/sektor/villa,sector,published,true,true,pass,true,false,approved,First launch scope (owner decision 2026-07-28).
-/tentang,page,published,true,true,pass,true,true,approved,First launch scope (owner decision 2026-07-28).
-/wilayah,page,published,true,true,pass,true,true,approved,First launch scope (owner decision 2026-07-28).
+/sektor/gudang,sector,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/sektor/hotel,sector,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/sektor/kantor,sector,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/sektor/klinik,sector,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/sektor/kos,sector,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/sektor/masjid,sector,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/sektor/pabrik,sector,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/sektor/restoran,sector,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/sektor/ruko,sector,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/sektor/rumah-tinggal,sector,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/sektor/sekolah,sector,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/sektor/showroom-retail,sector,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/sektor/villa,sector,published,true,true,pass,true,false,approved,Published and owner-verified — live in production.
+/tentang,page,published,true,true,pass,true,true,approved,Published and owner-verified — live in production.
+/wilayah,page,published,true,true,pass,true,true,approved,Published and owner-verified — live in production.
 /wilayah/contoh-wilayah,location,draft,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
 /wilayah/gresik,location,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
 /wilayah/jawa-timur,location,review,false,false,pass,false,false,excluded,"Batch 05 draft — status: review, localFactsVerified/factsVerified false, stays noindex regardless of launch scope."
