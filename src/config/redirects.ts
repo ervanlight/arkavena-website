@@ -35,8 +35,6 @@ export const redirects: RedirectEntry[] = [];
  * these — link validation treats a hit as a build failure (ARCHITECTURE.md §7.2).
  */
 export const LEGACY_DOMAINS = [
-  "manajemenkonstruksi.id",
-  "www.manajemenkonstruksi.id",
   "tegakara-website.vercel.app",
   "tegakara.com",
 ] as const;

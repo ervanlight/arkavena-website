@@ -104,9 +104,9 @@ describe("toNextRedirect (host-aware shape)", () => {
       destination: "/layanan/bangun-rumah",
       permanent: true,
       reason: "old-domain path migration",
-      host: "manajemenkonstruksi.id",
+      host: "tegakara.com",
     });
-    expect(result.has).toEqual([{ type: "host", value: "manajemenkonstruksi.id" }]);
+    expect(result.has).toEqual([{ type: "host", value: "tegakara.com" }]);
   });
 
   it("host-scoped redirect tidak pernah diam-diam berlaku untuk arkavena.com", () => {
@@ -118,7 +118,7 @@ describe("toNextRedirect (host-aware shape)", () => {
       destination: "/layanan/bangun-rumah",
       permanent: true,
       reason: "old-domain path migration",
-      host: "manajemenkonstruksi.id",
+      host: "tegakara.com",
     });
     expect(result.has).toBeDefined();
     expect(result.has!.length).toBeGreaterThan(0);
