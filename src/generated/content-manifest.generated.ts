@@ -6,6 +6,1067 @@ import type { ContentItem } from "@/schemas/content-types";
 export const contentManifest: ContentItem[] = [
   {
     "schemaVersion": 1,
+    "id": "page-cara-kerja",
+    "type": "page",
+    "status": "review",
+    "title": "Cara Kerja Arkavena",
+    "slug": "cara-kerja",
+    "description": "Proses kerja Arkavena dari konsultasi awal hingga serah terima, mencakup penetapan ruang lingkup, perencanaan, pelaksanaan, pelaporan, dan tindak lanjut.",
+    "excerpt": "Delivery process Arkavena berjalan melalui tahap konsultasi, perencanaan, pelaksanaan, dan pelaporan yang dapat disesuaikan dengan kontrak proyek.",
+    "seoTitle": null,
+    "primaryKeyword": "cara kerja arkavena",
+    "secondaryKeywords": [
+      "proses pengendalian proyek",
+      "tahapan konsultasi konstruksi"
+    ],
+    "searchIntent": "informational",
+    "cluster": "korporat",
+    "tags": [
+      "korporat",
+      "perencanaan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Proses Kerja",
+      "heading": "Cara Kerja Arkavena",
+      "summary": "Dari konsultasi awal hingga serah terima, setiap tahap dirancang agar ruang lingkup, biaya, jadwal, dan keputusan penting tetap terdokumentasi.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek konstruksi. Berikut gambaran singkat kebutuhan saya:"
+      },
+      "secondaryCta": null
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "page": {
+      "kind": "corporate",
+      "hubCollection": null,
+      "showInPrimaryNavigation": false,
+      "index": true
+    },
+    "collection": "pages",
+    "route": "/cara-kerja",
+    "sourcePath": "content/pages/cara-kerja.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Cara Kerja Arkavena",
+        "path": "/cara-kerja"
+      }
+    ],
+    "wordCount": 410,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan",
+      "/konsultasi-proyek"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "page-faq",
+    "type": "page",
+    "status": "review",
+    "title": "Pertanyaan Umum Arkavena",
+    "slug": "faq",
+    "description": "Jawaban atas pertanyaan umum seputar layanan, area, pengendalian biaya, dan cara kerja Arkavena sebelum Anda memulai konsultasi proyek.",
+    "excerpt": "Kumpulan pertanyaan yang paling sering ditanyakan calon klien sebelum berkonsultasi dengan Arkavena.",
+    "seoTitle": null,
+    "primaryKeyword": "pertanyaan umum arkavena",
+    "secondaryKeywords": [
+      "faq arkavena"
+    ],
+    "searchIntent": "informational",
+    "cluster": "korporat",
+    "tags": [
+      "korporat",
+      "dokumentasi"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "FAQ",
+      "heading": "Pertanyaan Umum",
+      "summary": "Jawaban atas pertanyaan yang paling sering ditanyakan calon klien sebelum memulai konsultasi dengan Arkavena.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya sudah membaca FAQ dan ingin berkonsultasi lebih lanjut. Berikut gambaran singkat kebutuhan saya:"
+      },
+      "secondaryCta": null
+    },
+    "faq": [
+      {
+        "question": "Apa itu Arkavena?",
+        "answer": "Arkavena adalah mitra konstruksi dan pengendalian proyek yang membantu pemilik proyek mengelola ruang lingkup, biaya, jadwal, mutu, dan risiko selama pelaksanaan."
+      },
+      {
+        "question": "Apa perbedaan Arkavena dari penyedia pelaksanaan konstruksi biasa?",
+        "answer": "Arkavena menambahkan lapisan pengendalian pada ruang lingkup, biaya dan cashflow, jadwal, mutu, serta risiko — bukan hanya melaksanakan pekerjaan fisik."
+      },
+      {
+        "question": "Apa saja layanan yang tersedia?",
+        "answer": "Layanan Arkavena mencakup pembangunan, renovasi, bangunan komersial, building maintenance, design and build, manajemen konstruksi, dan pengawasan proyek. Selengkapnya di halaman Layanan."
+      },
+      {
+        "question": "Apakah Arkavena melayani rumah dan bangunan komersial?",
+        "answer": "Ya. Arkavena melayani proyek residensial, komersial, institusional, dan industrial sesuai konteks kebutuhan masing-masing sektor."
+      },
+      {
+        "question": "Wilayah mana yang dilayani?",
+        "answer": "Arkavena melayani proyek di Surabaya, Sidoarjo, Gresik, Mojokerto, Pasuruan, dan Lamongan. Area lain di Jawa Timur dapat dipertimbangkan untuk proyek yang memenuhi kualifikasi."
+      },
+      {
+        "question": "Apakah Arkavena dapat membantu pengendalian biaya?",
+        "answer": "Ya. Cashflow control membantu owner memahami kebutuhan dana dan progres pengeluaran proyek, dan value engineering digunakan untuk mengevaluasi alternatif berdasarkan fungsi, biaya, risiko, dan kebutuhan proyek."
+      },
+      {
+        "question": "Apa itu value engineering?",
+        "answer": "Value engineering adalah proses evaluasi alternatif desain, material, atau metode kerja berdasarkan fungsi, biaya, risiko, dan kebutuhan proyek — bukan sekadar memilih opsi paling murah."
+      },
+      {
+        "question": "Apa itu owner representative?",
+        "answer": "Owner representative adalah pihak yang membantu owner memantau kepentingan proyek dan bekerja sesuai mandat serta ruang lingkup yang disepakati, mendukung koordinasi dan dokumentasi keputusan."
+      },
+      {
+        "question": "Apakah Arkavena menerima renovasi?",
+        "answer": "Ya, renovasi adalah salah satu layanan inti Arkavena, mencakup perubahan layout hingga peningkatan bangunan eksisting."
+      },
+      {
+        "question": "Apakah tersedia building maintenance?",
+        "answer": "Ya. Building maintenance tersedia sebagai salah satu layanan untuk perawatan dan perbaikan bangunan secara berkala."
+      },
+      {
+        "question": "Apa yang perlu disiapkan sebelum konsultasi?",
+        "answer": "Gambaran jenis proyek, lokasi, tahap proyek saat ini, kebutuhan utama, perkiraan waktu, dan dokumen yang sudah tersedia akan membantu diskusi awal berjalan lebih efisien."
+      },
+      {
+        "question": "Bagaimana ruang lingkup dan biaya ditentukan?",
+        "answer": "Ruang lingkup dan biaya ditentukan melalui proses konsultasi, peninjauan kebutuhan, dan perencanaan bersama — disesuaikan dengan kontrak masing-masing proyek."
+      },
+      {
+        "question": "Apakah Arkavena menjamin proyek tidak mengalami perubahan?",
+        "answer": "Tidak. Perubahan pekerjaan dapat terjadi pada proyek apa pun. Arkavena berfokus pada bagaimana perubahan tersebut diidentifikasi, didokumentasikan, dan dikelola."
+      },
+      {
+        "question": "Bagaimana perubahan pekerjaan dikelola?",
+        "answer": "Perubahan pekerjaan didokumentasikan, dievaluasi dampaknya terhadap biaya dan jadwal, lalu dikonfirmasikan kepada pemilik proyek sebelum dilaksanakan."
+      },
+      {
+        "question": "Bagaimana progres proyek dilaporkan?",
+        "answer": "Progres dilaporkan secara berkala mencakup status pekerjaan, penggunaan anggaran, dan catatan perubahan, sesuai mekanisme pelaporan yang disepakati."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "page": {
+      "kind": "faq",
+      "hubCollection": null,
+      "showInPrimaryNavigation": false,
+      "index": true
+    },
+    "collection": "pages",
+    "route": "/faq",
+    "sourcePath": "content/pages/faq.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Pertanyaan Umum Arkavena",
+        "path": "/faq"
+      }
+    ],
+    "wordCount": 73,
+    "readingMinutes": 1,
+    "internalLinks": [
+      "/konsultasi-proyek",
+      "/layanan",
+      "/cara-kerja"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "page-home",
+    "type": "page",
+    "status": "review",
+    "title": "Arkavena — Mitra Konstruksi dan Pengendalian Proyek",
+    "slug": "home",
+    "description": "Arkavena membantu pemilik proyek mengendalikan ruang lingkup, biaya, jadwal, mutu, dan risiko selama pelaksanaan konstruksi dan perawatan fasilitas.",
+    "excerpt": "Arkavena adalah mitra konstruksi dan pengendalian proyek untuk hunian, bangunan komersial, dan fasilitas operasional.",
+    "seoTitle": "Arkavena — Mitra Konstruksi dan Pengendalian Proyek",
+    "primaryKeyword": "arkavena",
+    "secondaryKeywords": [
+      "mitra konstruksi",
+      "pengendalian proyek konstruksi"
+    ],
+    "searchIntent": "navigational",
+    "cluster": "korporat",
+    "tags": [
+      "korporat",
+      "perencanaan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Arkavena",
+      "heading": "Mitra Konstruksi dan Pengendalian Proyek",
+      "summary": "Arkavena membantu pemilik proyek menjaga ruang lingkup, biaya, jadwal, mutu, dan risiko tetap terkendali sejak perencanaan hingga serah terima.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek konstruksi. Berikut gambaran singkat kebutuhan saya:"
+      },
+      "secondaryCta": {
+        "label": "Pelajari Cara Kerja Arkavena",
+        "href": "/cara-kerja",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apa itu Arkavena?",
+        "answer": "Arkavena adalah mitra konstruksi dan pengendalian proyek yang membantu pemilik proyek mengelola ruang lingkup, biaya, jadwal, mutu, dan risiko selama pelaksanaan."
+      },
+      {
+        "question": "Wilayah mana yang dilayani Arkavena?",
+        "answer": "Arkavena melayani proyek di Surabaya, Sidoarjo, Gresik, Mojokerto, Pasuruan, dan Lamongan. Selengkapnya ada di halaman Wilayah Layanan."
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi dengan Arkavena?",
+        "answer": "Anda dapat memulai dari halaman Konsultasi Proyek. Ceritakan jenis proyek, lokasi, dan kebutuhan Anda, lalu tim Arkavena akan menindaklanjuti."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "page": {
+      "kind": "home",
+      "hubCollection": null,
+      "showInPrimaryNavigation": false,
+      "index": true
+    },
+    "collection": "pages",
+    "route": "/",
+    "sourcePath": "content/pages/home.mdx",
+    "breadcrumb": [],
+    "wordCount": 392,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan",
+      "/sektor",
+      "/cara-kerja",
+      "/wilayah"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "page-konsultasi-proyek",
+    "type": "page",
+    "status": "review",
+    "title": "Konsultasi Proyek Arkavena",
+    "slug": "konsultasi-proyek",
+    "description": "Mulai diskusi mengenai rencana proyek konstruksi atau perawatan fasilitas Anda bersama Arkavena. Sampaikan kebutuhan Anda untuk ditindaklanjuti.",
+    "excerpt": "Konsultasi proyek adalah langkah awal untuk mendiskusikan ruang lingkup, kebutuhan, dan rencana kerja bersama Arkavena.",
+    "seoTitle": null,
+    "primaryKeyword": "konsultasi proyek arkavena",
+    "secondaryKeywords": [
+      "diskusi proyek konstruksi"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "korporat",
+    "tags": [
+      "korporat",
+      "konsultasi"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Konsultasi",
+      "heading": "Konsultasikan Proyek Anda",
+      "summary": "Ceritakan rencana proyek Anda. Tim Arkavena akan meninjau kebutuhan Anda dan menindaklanjuti melalui jalur kontak yang tersedia.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Hubungi Arkavena",
+        "href": "/kontak",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek konstruksi. Berikut gambaran singkat kebutuhan saya:"
+      },
+      "secondaryCta": null
+    },
+    "faq": [
+      {
+        "question": "Siapa yang cocok menggunakan konsultasi ini?",
+        "answer": "Pemilik proyek yang sedang merencanakan pembangunan, renovasi, atau perawatan bangunan dan ingin mendiskusikan ruang lingkup serta pendekatan kerja sebelum memulai."
+      },
+      {
+        "question": "Apa yang terjadi setelah saya mengirim inquiry?",
+        "answer": "Tim Arkavena akan meninjau informasi yang Anda sampaikan dan menindaklanjuti melalui jalur kontak yang Anda pilih untuk mendiskusikan langkah berikutnya."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "page": {
+      "kind": "consultation",
+      "hubCollection": null,
+      "showInPrimaryNavigation": false,
+      "index": true
+    },
+    "collection": "pages",
+    "route": "/konsultasi-proyek",
+    "sourcePath": "content/pages/konsultasi-proyek.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Konsultasi Proyek Arkavena",
+        "path": "/konsultasi-proyek"
+      }
+    ],
+    "wordCount": 207,
+    "readingMinutes": 1,
+    "internalLinks": [
+      "/kontak"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "page-kontak",
+    "type": "page",
+    "status": "review",
+    "title": "Kontak Arkavena",
+    "slug": "kontak",
+    "description": "Hubungi Arkavena untuk mendiskusikan rencana proyek konstruksi atau perawatan fasilitas Anda di Surabaya dan area sekitarnya.",
+    "excerpt": "Jalur kontak Arkavena beserta informasi yang sebaiknya disiapkan sebelum menghubungi.",
+    "seoTitle": null,
+    "primaryKeyword": "kontak arkavena",
+    "secondaryKeywords": [
+      "hubungi arkavena"
+    ],
+    "searchIntent": "navigational",
+    "cluster": "korporat",
+    "tags": [
+      "korporat",
+      "kontak"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Kontak",
+      "heading": "Hubungi Arkavena",
+      "summary": "Sampaikan gambaran proyek Anda, dan tim Arkavena akan menindaklanjuti sesuai jalur kontak yang tersedia.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek konstruksi. Berikut gambaran singkat kebutuhan saya:"
+      },
+      "secondaryCta": null
+    },
+    "faq": [
+      {
+        "question": "Bagaimana cara paling cepat menghubungi Arkavena?",
+        "answer": "Gunakan halaman Konsultasi Proyek dan sampaikan gambaran kebutuhan Anda. Tim Arkavena akan menindaklanjuti melalui jalur kontak yang tersedia."
+      },
+      {
+        "question": "Apakah saya perlu menyiapkan dokumen sebelum menghubungi Arkavena?",
+        "answer": "Tidak wajib, tetapi dokumen kondisi eksisting atau gambar denah bila tersedia akan mempercepat diskusi awal."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "page": {
+      "kind": "contact",
+      "hubCollection": null,
+      "showInPrimaryNavigation": true,
+      "index": true
+    },
+    "collection": "pages",
+    "route": "/kontak",
+    "sourcePath": "content/pages/kontak.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Kontak Arkavena",
+        "path": "/kontak"
+      }
+    ],
+    "wordCount": 104,
+    "readingMinutes": 1,
+    "internalLinks": [
+      "/wilayah",
+      "/konsultasi-proyek"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "page-layanan",
+    "type": "page",
+    "status": "review",
+    "title": "Layanan Arkavena",
+    "slug": "layanan",
+    "description": "Cakupan layanan Arkavena meliputi pembangunan, renovasi, bangunan komersial, building maintenance, design and build, hingga manajemen konstruksi.",
+    "excerpt": "Layanan Arkavena mencakup pelaksanaan konstruksi dan pengendalian proyek, dengan ruang lingkup akhir mengikuti kebutuhan dan kontrak.",
+    "seoTitle": null,
+    "primaryKeyword": "layanan arkavena",
+    "secondaryKeywords": [
+      "cakupan layanan arkavena"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "korporat",
+    "tags": [
+      "korporat",
+      "pelaksanaan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Layanan",
+      "heading": "Layanan Arkavena",
+      "summary": "Dari pembangunan baru hingga perawatan fasilitas, layanan Arkavena disusun agar ruang lingkup dan pengendalian proyek berjalan berdampingan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai layanan yang saya butuhkan. Berikut gambaran singkat kebutuhan saya:"
+      },
+      "secondaryCta": null
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "page": {
+      "kind": "hub",
+      "hubCollection": "services",
+      "showInPrimaryNavigation": true,
+      "index": true
+    },
+    "collection": "pages",
+    "route": "/layanan",
+    "sourcePath": "content/pages/layanan.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Layanan Arkavena",
+        "path": "/layanan"
+      }
+    ],
+    "wordCount": 229,
+    "readingMinutes": 1,
+    "internalLinks": [
+      "/mengapa-arkavena",
+      "/cara-kerja"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "page-mengapa-arkavena",
+    "type": "page",
+    "status": "review",
+    "title": "Mengapa Arkavena",
+    "slug": "mengapa-arkavena",
+    "description": "Arkavena mengendalikan ruang lingkup, biaya dan cashflow, jadwal, mutu, serta perubahan pekerjaan — bukan hanya melaksanakan pekerjaan fisik konstruksi.",
+    "excerpt": "Konstruksi bukan hanya kegiatan membangun. Arkavena menambahkan lapisan pengendalian pada lima area yang menentukan hasil akhir proyek.",
+    "seoTitle": null,
+    "primaryKeyword": "keunggulan arkavena",
+    "secondaryKeywords": [
+      "value engineering konstruksi",
+      "owner representative"
+    ],
+    "searchIntent": "informational",
+    "cluster": "korporat",
+    "tags": [
+      "korporat",
+      "risiko"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Diferensiasi",
+      "heading": "Mengapa Arkavena",
+      "summary": "Konstruksi bukan hanya kegiatan membangun. Arkavena menambahkan lapisan pengendalian pada ruang lingkup, biaya, jadwal, mutu, dan risiko.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek konstruksi. Berikut gambaran singkat kebutuhan saya:"
+      },
+      "secondaryCta": null
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "page": {
+      "kind": "corporate",
+      "hubCollection": null,
+      "showInPrimaryNavigation": false,
+      "index": true
+    },
+    "collection": "pages",
+    "route": "/mengapa-arkavena",
+    "sourcePath": "content/pages/mengapa-arkavena.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Mengapa Arkavena",
+        "path": "/mengapa-arkavena"
+      }
+    ],
+    "wordCount": 367,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/cara-kerja",
+      "/layanan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "page-panduan",
+    "type": "page",
+    "status": "review",
+    "title": "Panduan Konstruksi Arkavena",
+    "slug": "panduan",
+    "description": "Pusat panduan Arkavena berisi informasi praktis seputar perencanaan, biaya, pelaksanaan, dan pengendalian proyek konstruksi serta perawatan bangunan.",
+    "excerpt": "Panduan Arkavena akan menjadi rujukan praktis seputar bangun rumah, renovasi, bangunan komersial, dan pengendalian proyek.",
+    "seoTitle": null,
+    "primaryKeyword": "panduan konstruksi arkavena",
+    "secondaryKeywords": [
+      "pusat panduan arkavena"
+    ],
+    "searchIntent": "informational",
+    "cluster": "korporat",
+    "tags": [
+      "korporat",
+      "dokumentasi"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan",
+      "heading": "Panduan Konstruksi Arkavena",
+      "summary": "Pusat panduan praktis seputar perencanaan, biaya, pelaksanaan, dan pengendalian proyek konstruksi serta perawatan bangunan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi setelah membaca panduan di situs Anda. Berikut gambaran singkat kebutuhan saya:"
+      },
+      "secondaryCta": null
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "page": {
+      "kind": "hub",
+      "hubCollection": "guides",
+      "showInPrimaryNavigation": true,
+      "index": true
+    },
+    "collection": "pages",
+    "route": "/panduan",
+    "sourcePath": "content/pages/panduan.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan Konstruksi Arkavena",
+        "path": "/panduan"
+      }
+    ],
+    "wordCount": 154,
+    "readingMinutes": 1,
+    "internalLinks": [
+      "/konsultasi-proyek",
+      "/layanan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "page-proyek",
+    "type": "page",
+    "status": "review",
+    "title": "Studi Proyek Arkavena",
+    "slug": "proyek",
+    "description": "Studi proyek Arkavena akan ditampilkan setelah data, dokumentasi, dan izin publikasinya selesai diverifikasi.",
+    "excerpt": "Halaman ini menyiapkan struktur studi proyek Arkavena. Belum ada proyek yang ditampilkan karena verifikasi data dan izin publikasi belum selesai.",
+    "seoTitle": null,
+    "primaryKeyword": "proyek arkavena",
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "proyek",
+    "tags": [
+      "korporat",
+      "dokumentasi"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Proyek",
+      "heading": "Studi Proyek Arkavena",
+      "summary": "Studi proyek akan ditampilkan setelah data, dokumentasi, dan izin publikasinya selesai diverifikasi.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek konstruksi. Berikut gambaran singkat kebutuhan saya:"
+      },
+      "secondaryCta": null
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "page": {
+      "kind": "hub",
+      "hubCollection": "projects",
+      "showInPrimaryNavigation": false,
+      "index": false
+    },
+    "collection": "pages",
+    "route": "/proyek",
+    "sourcePath": "content/pages/proyek.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Studi Proyek Arkavena",
+        "path": "/proyek"
+      }
+    ],
+    "wordCount": 101,
+    "readingMinutes": 1,
+    "internalLinks": [
+      "/layanan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "page-sektor",
+    "type": "page",
+    "status": "review",
+    "title": "Sektor Bangunan Arkavena",
+    "slug": "sektor",
+    "description": "Arkavena menyesuaikan pendekatan kerja dengan jenis bangunan — mulai dari rumah tinggal, ruko, gudang, pabrik, hingga fasilitas institusi.",
+    "excerpt": "Kebutuhan setiap jenis bangunan berbeda dari sisi fungsi, struktur, MEP, dan operasional. Arkavena menyesuaikan pendekatan kerja untuk setiap sektor.",
+    "seoTitle": null,
+    "primaryKeyword": "sektor bangunan arkavena",
+    "secondaryKeywords": [
+      "jenis bangunan arkavena"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "korporat",
+    "tags": [
+      "korporat",
+      "struktur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Sektor",
+      "heading": "Sektor Bangunan",
+      "summary": "Setiap jenis bangunan memiliki kebutuhan yang berbeda. Arkavena menyesuaikan pendekatan kerja dengan konteks masing-masing sektor.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek untuk bangunan saya. Berikut gambaran singkat kebutuhan saya:"
+      },
+      "secondaryCta": null
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "page": {
+      "kind": "hub",
+      "hubCollection": "sectors",
+      "showInPrimaryNavigation": true,
+      "index": true
+    },
+    "collection": "pages",
+    "route": "/sektor",
+    "sourcePath": "content/pages/sektor.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Sektor Bangunan Arkavena",
+        "path": "/sektor"
+      }
+    ],
+    "wordCount": 167,
+    "readingMinutes": 1,
+    "internalLinks": [
+      "/layanan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "page-tentang",
+    "type": "page",
+    "status": "review",
+    "title": "Tentang Arkavena",
+    "slug": "tentang",
+    "description": "Arkavena adalah identitas baru dari ManajemenKonstruksi.id, dibangun di atas prinsip transparansi, keterukuran, akuntabilitas, dan dokumentasi kerja.",
+    "excerpt": "Arkavena melihat proyek konstruksi bukan hanya sebagai pekerjaan fisik, tetapi juga sebagai rangkaian keputusan yang perlu dikendalikan.",
+    "seoTitle": null,
+    "primaryKeyword": "tentang arkavena",
+    "secondaryKeywords": [
+      "identitas arkavena",
+      "prinsip kerja arkavena"
+    ],
+    "searchIntent": "informational",
+    "cluster": "korporat",
+    "tags": [
+      "korporat",
+      "dokumentasi"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Tentang Kami",
+      "heading": "Tentang Arkavena",
+      "summary": "Arkavena adalah identitas baru dari ManajemenKonstruksi.id, dibangun di atas prinsip transparansi, keterukuran, akuntabilitas, dan dokumentasi kerja.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek konstruksi. Berikut gambaran singkat kebutuhan saya:"
+      },
+      "secondaryCta": null
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "page": {
+      "kind": "corporate",
+      "hubCollection": null,
+      "showInPrimaryNavigation": true,
+      "index": true
+    },
+    "collection": "pages",
+    "route": "/tentang",
+    "sourcePath": "content/pages/tentang.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Tentang Arkavena",
+        "path": "/tentang"
+      }
+    ],
+    "wordCount": 269,
+    "readingMinutes": 1,
+    "internalLinks": [
+      "/layanan",
+      "/wilayah",
+      "/mengapa-arkavena"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "page-wilayah",
+    "type": "page",
+    "status": "review",
+    "title": "Wilayah Layanan Arkavena",
+    "slug": "wilayah",
+    "description": "Arkavena melayani proyek konstruksi dan perawatan fasilitas di Surabaya, Sidoarjo, Gresik, Mojokerto, Pasuruan, dan Lamongan.",
+    "excerpt": "Daftar wilayah layanan Arkavena — bukan daftar kantor cabang — beserta cara mengetahui apakah lokasi proyek Anda termasuk area layanan.",
+    "seoTitle": null,
+    "primaryKeyword": "wilayah layanan arkavena",
+    "secondaryKeywords": [
+      "area layanan arkavena"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "wilayah",
+    "tags": [
+      "korporat",
+      "perencanaan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah",
+      "heading": "Wilayah Layanan Arkavena",
+      "summary": "Arkavena melayani proyek di Surabaya dan area sekitarnya. Daftar berikut menunjukkan cakupan layanan, bukan lokasi kantor cabang.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek di area saya. Berikut gambaran singkat kebutuhan saya:"
+      },
+      "secondaryCta": null
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "page": {
+      "kind": "hub",
+      "hubCollection": "locations",
+      "showInPrimaryNavigation": true,
+      "index": true
+    },
+    "collection": "pages",
+    "route": "/wilayah",
+    "sourcePath": "content/pages/wilayah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah Layanan Arkavena",
+        "path": "/wilayah"
+      }
+    ],
+    "wordCount": 122,
+    "readingMinutes": 1,
+    "internalLinks": [
+      "/layanan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "svc-contoh-layanan",
     "type": "service",
     "status": "draft",

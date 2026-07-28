@@ -78,6 +78,11 @@ export const TAGS = [
   "surabaya",
   "sidoarjo",
   "gresik",
+  // Corporate/hub content (Batch 01) — Batch 00 only anticipated
+  // service/sector/location/guide tagging, so these were missing.
+  "korporat",
+  "konsultasi",
+  "kontak",
   // Reserved for scaffold fixtures and dummy drafts only.
   "contoh-tag",
   "scaffold",

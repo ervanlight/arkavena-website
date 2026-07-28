@@ -4,18 +4,23 @@ import * as React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
-import { Menu, X } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import Image from 'next/image';
 import { Button } from '../ui/button';
 import { Container } from '../ui/container';
 import { MobileNav } from './mobile-nav';
 
-const navItems = [
-  { label: 'Residential', href: '/residential' },
-  { label: 'Facility Care', href: '/facility-care' },
-  { label: 'Portofolio', href: '/portfolio' },
-  { label: 'ProjectView', href: '/projectview' },
+// /proyek is deliberately excluded — it stays hidden from primary navigation
+// until real, verified projects exist (ARCHITECTURE.md Batch 01 §3.3, §10).
+// Exported so navigation contract tests don't need to render the client
+// component (which depends on usePathname).
+export const navItems = [
+  { label: 'Layanan', href: '/layanan' },
+  { label: 'Sektor', href: '/sektor' },
+  { label: 'Wilayah', href: '/wilayah' },
+  { label: 'Panduan', href: '/panduan' },
   { label: 'Tentang', href: '/tentang' },
+  { label: 'Kontak', href: '/kontak' },
 ];
 
 export function Header() {
@@ -71,9 +76,9 @@ export function Header() {
               })}
             </nav>
 
-            <Link href="/assessment">
+            <Link href="/konsultasi-proyek">
               <Button>
-                Diskusikan Proyek
+                Konsultasikan Proyek
               </Button>
             </Link>
           </div>

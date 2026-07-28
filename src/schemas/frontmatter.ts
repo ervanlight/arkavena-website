@@ -196,12 +196,55 @@ export const landingExtension = z.object({
   thankYouPath: z.string().regex(INTERNAL_OR_ABSOLUTE_PATH),
 });
 
+/**
+ * Batch 01 defect fix: Batch 00 registered the "page" content type but never
+ * gave it an extension object, so corporate/hub pages had no way to declare
+ * their kind or drive hub child-listing. Narrowly scoped to `content/pages`
+ * only — no other collection is touched.
+ */
+export const PAGE_KINDS = [
+  "home",
+  "corporate",
+  "contact",
+  "consultation",
+  "hub",
+  "faq",
+] as const;
+export type PageKind = (typeof PAGE_KINDS)[number];
+
+export const PAGE_HUB_COLLECTIONS = [
+  "services",
+  "projects",
+  "sectors",
+  "locations",
+  "guides",
+] as const;
+export type PageHubCollection = (typeof PAGE_HUB_COLLECTIONS)[number];
+
+export const pageExtension = z.object({
+  kind: z.enum(PAGE_KINDS),
+  hubCollection: z.enum(PAGE_HUB_COLLECTIONS).nullable().default(null),
+  /**
+   * Navigation placement is editorial, not derived — a page can be real and
+   * indexable while still being kept out of the primary nav (e.g. /proyek
+   * before Batch 05 has verified project data).
+   */
+  showInPrimaryNavigation: z.boolean().default(true),
+  /**
+   * Page-level indexability override, independent of `status`/`ownerVerified`.
+   * Used to force `noindex` on hubs like /proyek even if the page is later
+   * marked published (ARCHITECTURE.md Batch 01 §3.3).
+   */
+  index: z.boolean().default(true),
+});
+
 // -----------------------------------------
 // Discriminated union
 // -----------------------------------------
 
 const pageFrontmatter = baseFrontmatterSchema.extend({
   type: z.literal("page"),
+  page: pageExtension,
 });
 const serviceFrontmatter = baseFrontmatterSchema.extend({
   type: z.literal("service"),
@@ -321,6 +364,41 @@ export const frontmatterSchema = frontmatterUnion.superRefine((data, ctx) => {
         path: ["article", "dataAsOf"],
         message:
           "Panduan biaya published wajib mencantumkan article.dataAsOf agar angka bisa diaudit",
+      });
+    }
+  }
+
+  // page.kind/hubCollection are structural declarations, checked regardless
+  // of publication status (unlike the gates above, which only apply once a
+  // page claims to be published).
+  if (data.type === "page") {
+    if (data.page.kind === "hub" && !data.page.hubCollection) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["page", "hubCollection"],
+        message: 'page.kind "hub" wajib menentukan page.hubCollection',
+      });
+    }
+    if (data.page.kind !== "hub" && data.page.hubCollection) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["page", "hubCollection"],
+        message:
+          'page.hubCollection hanya boleh diisi ketika page.kind adalah "hub"',
+      });
+    }
+    if (data.page.kind === "home" && data.slug !== "home") {
+      ctx.addIssue({
+        code: "custom",
+        path: ["slug"],
+        message: 'page.kind "home" wajib memiliki slug "home"',
+      });
+    }
+    if (data.slug === "home" && data.page.kind !== "home") {
+      ctx.addIssue({
+        code: "custom",
+        path: ["page", "kind"],
+        message: 'File dengan slug "home" wajib memiliki page.kind "home"',
       });
     }
   }

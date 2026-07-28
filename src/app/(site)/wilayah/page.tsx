@@ -1,27 +1,38 @@
 import type { Metadata } from "next";
-import { CollectionHub } from "@/components/content/collection-hub";
-import { publicListing } from "@/lib/content/queries";
-import { buildHubMetadata } from "@/lib/seo/metadata";
+import { notFound } from "next/navigation";
+import { contentModules } from "@/generated/content-modules.generated";
+import { mdxComponents } from "@/components/content/mdx-components";
+import { PageTemplate } from "@/components/content/templates/PageTemplate";
+import { JsonLd } from "@/components/seo/json-ld";
+import { bySlug, publicListing } from "@/lib/content/queries";
+import { buildMetadata } from "@/lib/seo/metadata";
+import { buildJsonLdGraph } from "@/lib/seo/schema-builders";
 
-const TITLE = "Area Layanan";
-const DESCRIPTION =
-  "Wilayah kerja Arkavena beserta kondisi lokal dan pertimbangan logistik yang memengaruhi pelaksanaan proyek.";
+const SLUG = "wilayah";
 
-export const metadata: Metadata = buildHubMetadata({
-  title: TITLE,
-  description: DESCRIPTION,
-  path: "/wilayah",
-});
+export async function generateMetadata(): Promise<Metadata> {
+  const item = bySlug("pages", "page", SLUG);
+  return item ? buildMetadata(item) : {};
+}
 
-export default function LocationsHubPage() {
+export default async function WilayahHubPage() {
+  const item = bySlug("pages", "page", SLUG);
+  const loadModule = contentModules[`pages/${SLUG}`];
+
+  if (!item || !loadModule) notFound();
+
+  const { default: MdxContent } = await loadModule();
+
   return (
-    <CollectionHub
-      eyebrow="Wilayah"
-      title={TITLE}
-      description={DESCRIPTION}
-      path="/wilayah"
-      label="Wilayah"
-      items={publicListing("locations", "location")}
-    />
+    <>
+      <JsonLd data={buildJsonLdGraph(item)} />
+      <PageTemplate
+        item={item}
+        hubChildren={publicListing("locations", "location")}
+        hubChildrenTitle="Wilayah yang tersedia"
+      >
+        <MdxContent components={mdxComponents} />
+      </PageTemplate>
+    </>
   );
 }

@@ -87,9 +87,9 @@ export function MobileNav({ isOpen, onClose, items }: MobileNavProps) {
           </nav>
           
           <div className="pt-6 border-t border-[#C9C3B8]/20">
-            <Link href="/assessment">
+            <Link href="/konsultasi-proyek" onClick={onClose}>
               <Button className="w-full">
-                Diskusikan Proyek
+                Konsultasikan Proyek
               </Button>
             </Link>
           </div>

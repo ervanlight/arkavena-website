@@ -1,27 +1,38 @@
 import type { Metadata } from "next";
-import { CollectionHub } from "@/components/content/collection-hub";
-import { publicListing } from "@/lib/content/queries";
-import { buildHubMetadata } from "@/lib/seo/metadata";
+import { notFound } from "next/navigation";
+import { contentModules } from "@/generated/content-modules.generated";
+import { mdxComponents } from "@/components/content/mdx-components";
+import { PageTemplate } from "@/components/content/templates/PageTemplate";
+import { JsonLd } from "@/components/seo/json-ld";
+import { bySlug, publicListing } from "@/lib/content/queries";
+import { buildMetadata } from "@/lib/seo/metadata";
+import { buildJsonLdGraph } from "@/lib/seo/schema-builders";
 
-const TITLE = "Sektor Bangunan";
-const DESCRIPTION =
-  "Pendekatan Arkavena per jenis bangunan, mulai dari kebutuhan teknis hingga risiko yang paling sering muncul di setiap sektor.";
+const SLUG = "sektor";
 
-export const metadata: Metadata = buildHubMetadata({
-  title: TITLE,
-  description: DESCRIPTION,
-  path: "/sektor",
-});
+export async function generateMetadata(): Promise<Metadata> {
+  const item = bySlug("pages", "page", SLUG);
+  return item ? buildMetadata(item) : {};
+}
 
-export default function SectorsHubPage() {
+export default async function SektorHubPage() {
+  const item = bySlug("pages", "page", SLUG);
+  const loadModule = contentModules[`pages/${SLUG}`];
+
+  if (!item || !loadModule) notFound();
+
+  const { default: MdxContent } = await loadModule();
+
   return (
-    <CollectionHub
-      eyebrow="Sektor"
-      title={TITLE}
-      description={DESCRIPTION}
-      path="/sektor"
-      label="Sektor"
-      items={publicListing("sectors", "sector")}
-    />
+    <>
+      <JsonLd data={buildJsonLdGraph(item)} />
+      <PageTemplate
+        item={item}
+        hubChildren={publicListing("sectors", "sector")}
+        hubChildrenTitle="Sektor yang tersedia"
+      >
+        <MdxContent components={mdxComponents} />
+      </PageTemplate>
+    </>
   );
 }

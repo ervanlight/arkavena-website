@@ -121,10 +121,19 @@ export function collectionForType(type: ContentType): CollectionDefinition {
 }
 
 /**
+ * Documented homepage exception (Batch 01 §4): the file `content/pages/home.mdx`
+ * keeps the logical slug "home" so the naming contract (filename === slug)
+ * still holds, but its canonical public route is "/", not "/home". This is
+ * the only place that mapping is allowed to exist.
+ */
+export const HOME_PAGE_SLUG = "home";
+
+/**
  * Canonical path for a content item. Route is derived by the application
  * layer only — editors may never author a canonical path (ARCHITECTURE.md §8.1).
  */
 export function routeForContent(type: ContentType, slug: string): string {
+  if (type === "page" && slug === HOME_PAGE_SLUG) return "/";
   const { routeBase } = collectionForType(type);
   return `${routeBase}/${slug}`;
 }

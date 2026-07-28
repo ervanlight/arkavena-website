@@ -11,6 +11,18 @@ export type MdxModule = { default: (props: MDXProps) => JSX.Element };
  * bundling deterministic and makes every renderable MDX file auditable.
  */
 export const contentModules: Record<string, () => Promise<MdxModule>> = {
+  "pages/cara-kerja": () => import("../../content/pages/cara-kerja.mdx"),
+  "pages/faq": () => import("../../content/pages/faq.mdx"),
+  "pages/home": () => import("../../content/pages/home.mdx"),
+  "pages/konsultasi-proyek": () => import("../../content/pages/konsultasi-proyek.mdx"),
+  "pages/kontak": () => import("../../content/pages/kontak.mdx"),
+  "pages/layanan": () => import("../../content/pages/layanan.mdx"),
+  "pages/mengapa-arkavena": () => import("../../content/pages/mengapa-arkavena.mdx"),
+  "pages/panduan": () => import("../../content/pages/panduan.mdx"),
+  "pages/proyek": () => import("../../content/pages/proyek.mdx"),
+  "pages/sektor": () => import("../../content/pages/sektor.mdx"),
+  "pages/tentang": () => import("../../content/pages/tentang.mdx"),
+  "pages/wilayah": () => import("../../content/pages/wilayah.mdx"),
   "services/contoh-layanan": () => import("../../content/services/contoh-layanan.mdx"),
   "sectors/contoh-sektor": () => import("../../content/sectors/contoh-sektor.mdx"),
   "locations/contoh-wilayah": () => import("../../content/locations/contoh-wilayah.mdx"),

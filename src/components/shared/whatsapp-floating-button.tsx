@@ -3,9 +3,18 @@
 import React from "react";
 import { MessageCircle } from "lucide-react";
 import { analytics } from "@/lib/analytics";
+import { siteConfig } from "@/config/site";
+import { buildWhatsAppUrl, GENERIC_WHATSAPP_PREFILL } from "@/lib/contact/whatsapp";
 
 export function WhatsAppFloatingButton() {
-  const whatsappUrl = "https://wa.me/6281112345678?text=Halo%20ARKAVENA%2C%20saya%20ingin%20konsultasi%20mengenai%20proyek%20renovasi%2Fkonstruksi%2Fmaintenance%20gedung";
+  const whatsappUrl = buildWhatsAppUrl({
+    number: siteConfig.whatsApp,
+    message: GENERIC_WHATSAPP_PREFILL,
+  });
+
+  // No configured number, no button — never a dummy or fallback number
+  // (ARCHITECTURE.md Batch 01 §8.6).
+  if (!whatsappUrl) return null;
 
   const handleClick = () => {
     analytics.trackEvent('whatsapp_click', { location: 'floating_button' });
