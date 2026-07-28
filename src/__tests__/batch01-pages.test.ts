@@ -149,9 +149,10 @@ describe("Batch 01 — navigation contract", () => {
 });
 
 describe("Batch 01 — hub empty-state", () => {
-  it("sector/location/guide/project masih kosong (belum ada batch untuk itu); service sudah terisi sejak Batch 02", () => {
-    // Snapshot at Batch 01 time was "all empty" — Batch 02 published 10 real
-    // services, so only the other four collections are still expected empty.
+  it("sector/location/guide/project masih kosong (belum ada batch untuk itu); seluruh 20 service sudah published sejak Batch 02+03", () => {
+    // Snapshot at Batch 01 time was "all empty" — Batch 02 (P1) and Batch 03
+    // (P2) published all 20 services, so only the other four collections are
+    // still expected empty pending Batch 04+.
     const publishedChildren = items.filter(
       (item) =>
         ["sector", "location", "guide", "project"].includes(item.type) &&
@@ -162,7 +163,7 @@ describe("Batch 01 — hub empty-state", () => {
     const publishedServices = items.filter(
       (item) => item.type === "service" && item.isIndexable
     );
-    expect(publishedServices.length).toBe(10);
+    expect(publishedServices.length).toBe(20);
   });
 
   it("draft/review child tidak pernah indexable", () => {
