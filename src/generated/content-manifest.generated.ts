@@ -234,11 +234,11 @@ export const contentManifest: ContentItem[] = [
     "id": "page-home",
     "type": "page",
     "status": "published",
-    "title": "Arkavena — Mitra Konstruksi dan Pengendalian Proyek",
+    "title": "ARKAVENA — Project Control Partner",
     "slug": "home",
-    "description": "Arkavena membantu pemilik proyek mengendalikan ruang lingkup, biaya, jadwal, mutu, dan risiko selama pelaksanaan konstruksi dan perawatan fasilitas.",
-    "excerpt": "Arkavena adalah mitra konstruksi dan pengendalian proyek untuk hunian, bangunan komersial, dan fasilitas operasional.",
-    "seoTitle": "Arkavena — Mitra Konstruksi dan Pengendalian Proyek",
+    "description": "Membangun, merenovasi, dan merawat fasilitas properti dengan sistem kerja terukur, transparan, dan terdokumentasi.",
+    "excerpt": "Arkavena adalah Project Control Partner untuk pembangunan, renovasi, dan perawatan fasilitas properti — bekerja dengan sistem yang transparan dan terdokumentasi.",
+    "seoTitle": "ARKAVENA — Project Control Partner",
     "primaryKeyword": "arkavena",
     "secondaryKeywords": [
       "mitra konstruksi",
@@ -256,11 +256,11 @@ export const contentManifest: ContentItem[] = [
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
-      "eyebrow": "Arkavena",
-      "heading": "Mitra Konstruksi dan Pengendalian Proyek",
-      "summary": "Arkavena membantu pemilik proyek menjaga ruang lingkup, biaya, jadwal, mutu, dan risiko tetap terkendali sejak perencanaan hingga serah terima.",
-      "image": "/images/placeholders/hero.png",
-      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+      "eyebrow": "Construction • Renovation • Facility Care",
+      "heading": "Bangunan Bukan Investasi Terbesar Anda. Yang Lebih Berharga Adalah Kendali Atas Proses Membangunnya.",
+      "summary": "Di ARKAVENA, kami membantu pemilik properti menjaga seluruh proses tetap transparan, terdokumentasi, dan berada dalam kendali hingga proyek selesai.",
+      "image": "/images/hero_home_v15.jpg",
+      "imageAlt": "ARKAVENA Proyek Pembangunan Rumah Tinggal LT 2 Surabaya"
     },
     "relationships": {
       "services": [],
@@ -274,28 +274,32 @@ export const contentManifest: ContentItem[] = [
     "conversion": {
       "goal": "consultation",
       "primaryCta": {
-        "label": "Konsultasikan Proyek",
-        "href": "/konsultasi-proyek",
-        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek konstruksi. Berikut gambaran singkat kebutuhan saya:"
+        "label": "Diskusikan Proyek Anda",
+        "href": "/assessment",
+        "whatsappMessage": null
       },
       "secondaryCta": {
-        "label": "Pelajari Cara Kerja Arkavena",
-        "href": "/cara-kerja",
-        "whatsappMessage": null
+        "label": "Hubungi Kami via WhatsApp",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek konstruksi."
       }
     },
     "faq": [
       {
-        "question": "Apa itu Arkavena?",
-        "answer": "Arkavena adalah mitra konstruksi dan pengendalian proyek yang membantu pemilik proyek mengelola ruang lingkup, biaya, jadwal, mutu, dan risiko selama pelaksanaan."
+        "question": "Apa perbedaan ARKAVENA dengan kontraktor konvensional?",
+        "answer": "ARKAVENA bekerja sebagai Project Control Partner. Kami tidak hanya mengeksekusi pekerjaan fisik, tetapi mengelola ruang lingkup, biaya, perubahan, dan mutu pekerjaan dengan sistem yang transparan dan terdokumentasi."
       },
       {
-        "question": "Wilayah mana yang dilayani Arkavena?",
-        "answer": "Arkavena melayani proyek di Surabaya, Sidoarjo, Gresik, Mojokerto, Pasuruan, dan Lamongan. Selengkapnya ada di halaman Wilayah Layanan."
+        "question": "Bagaimana ARKAVENA mencegah pembengkakan biaya (cost overrun)?",
+        "answer": "Kami menggunakan mekanisme ScopeLock di mana seluruh spesifikasi dan gambar kerja disepakati di awal. Jika ada perubahan di lapangan, perubahan tersebut harus disetujui secara tertulis melalui Change Order sebelum dikerjakan."
       },
       {
-        "question": "Bagaimana cara memulai konsultasi dengan Arkavena?",
-        "answer": "Anda dapat memulai dari halaman Konsultasi Proyek. Ceritakan jenis proyek, lokasi, dan kebutuhan Anda, lalu tim Arkavena akan menindaklanjuti."
+        "question": "Apakah saya bisa memantau perkembangan proyek jika berada di luar kota?",
+        "answer": "Bisa. Seluruh laporan progres, foto hasil pekerjaan, dan status keputusan dapat diakses secara digital melalui platform ProjectView kami."
+      },
+      {
+        "question": "Layanan apa saja yang disediakan oleh ARKAVENA?",
+        "answer": "Kami melayani 2 divisi utama: Residential (Bangun Rumah Baru, Renovasi Besar, Tambah Lantai) dan Facility Care (Maintenance Sekolah, Maintenance Gedung, Waterproofing/Atap, dan Minor Works Industri)."
       }
     ],
     "sources": [],
@@ -310,7 +314,7 @@ export const contentManifest: ContentItem[] = [
     "route": "/",
     "sourcePath": "content/pages/home.mdx",
     "breadcrumb": [],
-    "wordCount": 392,
+    "wordCount": 451,
     "readingMinutes": 2,
     "internalLinks": [
       "/layanan",
@@ -3948,12 +3952,12 @@ export const contentManifest: ContentItem[] = [
     },
     "faq": [
       {
-        "question": "Apakah Arkavena menyediakan desain dapur komersial (kitchen consultant)?",
-        "answer": "Tidak. Desain tata letak peralatan dapur komersial, spesifikasi exhaust hood, dan kebutuhan teknis peralatan F&B adalah keahlian spesialis di luar cakupan Arkavena. Arkavena dapat mengoordinasikan pekerjaan sipil, utilitas dasar, dan ventilasi dengan spesialis atau vendor peralatan yang Anda tunjuk."
+        "question": "Apakah Arkavena menyediakan desain interior cafe, termasuk area dapur?",
+        "answer": "Ya. Arkavena menyediakan desain interior cafe, termasuk tata letak area dapur (kitchen interior design), sebagai bagian dari layanan interior fit-out. Yang tidak termasuk adalah pengadaan peralatan dapur/produksi F&B itu sendiri — pengadaan mesin dan peralatan produksi diserahkan ke vendor spesialis yang Anda tunjuk."
       },
       {
         "question": "Apakah pengadaan peralatan dapur (mesin kopi, kulkas, oven) termasuk dalam layanan ini?",
-        "answer": "Tidak. Pengadaan peralatan dapur berada di luar cakupan Arkavena dan biasanya dilakukan langsung oleh pemilik usaha atau vendor peralatan terkait."
+        "answer": "Tidak. Arkavena mendesain tata letak dan mengoordinasikan kebutuhan ruang untuk peralatan tersebut, tetapi pengadaan peralatan dapur/produksi F&B itu sendiri berada di luar cakupan Arkavena dan dilakukan langsung oleh pemilik usaha atau vendor peralatan terkait."
       },
       {
         "question": "Apakah Arkavena membantu mengurus izin usaha F&B atau sertifikasi halal?",
@@ -3961,11 +3965,11 @@ export const contentManifest: ContentItem[] = [
       },
       {
         "question": "Bagaimana kebutuhan ventilasi dapur ditentukan?",
-        "answer": "Kebutuhan ventilasi dan exhaust perlu dikoordinasikan dengan spesifikasi peralatan dapur yang dipilih — ini memerlukan data dari vendor peralatan sebelum sistem ventilasi dapat dirancang dengan tepat."
+        "answer": "Kebutuhan ventilasi dan exhaust perlu dikoordinasikan dengan spesifikasi peralatan dapur yang dipilih dan desain interior yang direncanakan — data spesifikasi peralatan dari vendor tetap diperlukan sebelum sistem ventilasi dapat dirancang dengan tepat."
       },
       {
         "question": "Apakah desain interior dan branding cafe termasuk dalam layanan ini?",
-        "answer": "Pekerjaan fit-out sipil dan MEP dapat dicakup melalui layanan interior fit-out, tetapi desain konsep interior dan branding visual umumnya memerlukan desainer interior atau brand consultant terpisah."
+        "answer": "Desain interior, termasuk area dapur, termasuk dalam layanan interior fit-out Arkavena. Branding visual (identitas merek, logo, materi promosi) umumnya tetap memerlukan brand consultant terpisah."
       },
       {
         "question": "Apakah area outdoor atau semi-outdoor cafe memerlukan pertimbangan khusus?",
@@ -4013,7 +4017,7 @@ export const contentManifest: ContentItem[] = [
         "path": "/sektor/cafe"
       }
     ],
-    "wordCount": 582,
+    "wordCount": 621,
     "readingMinutes": 3,
     "internalLinks": [
       "/layanan/bangun-bangunan-komersial",
@@ -5187,12 +5191,12 @@ export const contentManifest: ContentItem[] = [
     },
     "faq": [
       {
-        "question": "Apakah Arkavena menyediakan desain dapur komersial skala besar (kitchen consultant)?",
-        "answer": "Tidak. Desain tata letak dapur produksi skala besar, spesifikasi peralatan masak, dan alur kerja dapur profesional adalah keahlian spesialis di luar cakupan Arkavena. Arkavena mengoordinasikan pekerjaan sipil dan utilitas dasar dengan kitchen consultant atau vendor peralatan yang Anda tunjuk."
+        "question": "Apakah Arkavena menyediakan desain interior dapur restoran skala besar?",
+        "answer": "Ya. Arkavena menyediakan desain interior restoran, termasuk desain interior area dapur (kitchen interior design), sebagai bagian dari layanan interior fit-out. Perencanaan alur kerja dapur berdasarkan volume menu dan kapasitas produksi (kitchen consultant) serta pengadaan peralatan produksi tetap memerlukan spesialis atau vendor terpisah yang ditunjuk."
       },
       {
         "question": "Apakah pengadaan peralatan dapur dan perlengkapan servis termasuk dalam layanan ini?",
-        "answer": "Tidak. Pengadaan peralatan dapur dan perlengkapan servis berada di luar cakupan Arkavena dan biasanya dilakukan langsung oleh pemilik usaha atau vendor terkait."
+        "answer": "Tidak. Arkavena mendesain tata letak interior dan mengoordinasikan kebutuhan ruang untuk peralatan tersebut, tetapi pengadaan peralatan dapur dan perlengkapan servis itu sendiri berada di luar cakupan Arkavena dan dilakukan langsung oleh pemilik usaha atau vendor terkait."
       },
       {
         "question": "Apakah Arkavena membantu mengurus sertifikasi keamanan pangan atau izin usaha restoran?",
@@ -5200,7 +5204,7 @@ export const contentManifest: ContentItem[] = [
       },
       {
         "question": "Bagaimana kapasitas dapur ditentukan sesuai jumlah pengunjung yang direncanakan?",
-        "answer": "Kapasitas dapur perlu dikaji berdasarkan proyeksi jumlah pengunjung dan jenis menu, yang umumnya ditentukan bersama kitchen consultant sebelum tata letak dapur dirancang."
+        "answer": "Kapasitas dapur perlu dikaji berdasarkan proyeksi jumlah pengunjung dan jenis menu — perencanaan alur kerja dan kapasitas produksi ini umumnya ditentukan bersama kitchen consultant, sebelum desain interior tata letak dapur dikerjakan oleh Arkavena."
       },
       {
         "question": "Apakah area penyimpanan bahan baku (storage) memerlukan pertimbangan khusus?",
@@ -5252,7 +5256,7 @@ export const contentManifest: ContentItem[] = [
         "path": "/sektor/restoran"
       }
     ],
-    "wordCount": 617,
+    "wordCount": 658,
     "readingMinutes": 3,
     "internalLinks": [
       "/layanan/bangun-bangunan-komersial",
@@ -6081,6 +6085,1835 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "loc-gresik",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi dan Pengendalian Proyek di Gresik",
+    "slug": "gresik",
+    "description": "Arkavena melayani kebutuhan pembangunan, renovasi, pengawasan, dan pengendalian proyek di Gresik sesuai ruang lingkup yang disepakati.",
+    "excerpt": "Pendekatan konstruksi dan pengendalian proyek untuk kebutuhan rumah, bangunan komersial, dan fasilitas industri di Gresik.",
+    "seoTitle": "Kontraktor Gresik dan Pengendalian Proyek | Arkavena",
+    "primaryKeyword": "kontraktor Gresik",
+    "secondaryKeywords": [
+      "jasa konstruksi Gresik",
+      "kontraktor pabrik Gresik"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "wilayah",
+    "tags": [
+      "gresik",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Gresik",
+      "heading": "Pendampingan Proyek di Gresik dengan Scope dan Pengendalian yang Jelas",
+      "summary": "Arkavena mendukung kebutuhan proyek di Gresik melalui layanan yang disesuaikan dengan jenis bangunan, tahap proyek, dan mandat owner.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi area layanan proyek Arkavena di Gresik"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-quality-control-konstruksi"
+      ],
+      "sectors": [
+        "sec-pabrik",
+        "sec-gudang",
+        "sec-rumah-tinggal"
+      ],
+      "locations": [
+        "loc-jawa-timur"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Gresik",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Gresik."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Gresik termasuk area layanan Arkavena?",
+        "answer": "Gresik termasuk salah satu area yang tercantum di halaman wilayah layanan Arkavena, tetapi detail cakupan dan batas area menunggu konfirmasi lebih lanjut dari owner sebelum halaman ini dipublikasikan."
+      },
+      {
+        "question": "Apakah Arkavena menangani proyek industri di Gresik?",
+        "answer": "[PENDING — owner belum konfirmasi apakah ada pengalaman proyek industri/pabrik spesifik di Gresik. Sektor pabrik tersedia sebagai layanan umum, bukan bukti proyek yang sudah pernah dikerjakan di kota ini.]"
+      },
+      {
+        "question": "Apakah ada studi proyek dari Gresik yang bisa dilihat?",
+        "answer": "Belum ada data proyek nyata dari Gresik yang tersedia untuk batch konten ini. Halaman ini tetap dibuat sebagai draft struktural, bukan bukti pengalaman proyek."
+      },
+      {
+        "question": "Bagaimana Arkavena menentukan mobilisasi tim untuk proyek di Gresik?",
+        "answer": "[PENDING — owner belum konfirmasi kebijakan mobilisasi spesifik untuk area Gresik.]"
+      },
+      {
+        "question": "Apakah kondisi lahan di kawasan industri Gresik memerlukan pertimbangan khusus?",
+        "answer": "[PENDING — klaim kondisi lahan atau kawasan industri Gresik memerlukan dasar verifikasi dari owner sebelum dipublikasikan.]"
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi proyek di Gresik?",
+        "answer": "Konsultasi dapat dimulai melalui WhatsApp atau halaman konsultasi proyek, dengan menyampaikan lokasi, jenis bangunan, dan kebutuhan awal proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Gresik",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "Gresik dan area sekitarnya",
+      "localChallenges": [
+        "[PENDING — local consideration 1: owner belum isi kondisi/tantangan lokal spesifik Gresik]",
+        "[PENDING — local consideration 2: owner belum isi]",
+        "[PENDING — local consideration 3: owner belum isi]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/operasional untuk area Gresik menunggu input owner]"
+      ],
+      "localProjectRefs": [],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/gresik",
+    "sourcePath": "content/locations/gresik.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi dan Pengendalian Proyek di Gresik",
+        "path": "/wilayah/gresik"
+      }
+    ],
+    "wordCount": 338,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/manajemen-konstruksi",
+      "/layanan/owner-representative",
+      "/layanan/pengawasan-proyek",
+      "/layanan/quality-control-konstruksi",
+      "/cara-kerja",
+      "/wilayah/jawa-timur"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "loc-jawa-timur",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi Arkavena di Jawa Timur",
+    "slug": "jawa-timur",
+    "description": "Arkavena memprioritaskan layanan konstruksi dan pengendalian proyek di sejumlah kota Jawa Timur, dengan cakupan area yang dievaluasi berdasarkan lokasi dan kebutuhan mobilisasi.",
+    "excerpt": "Halaman induk wilayah Jawa Timur yang menghubungkan kota-kota area layanan Arkavena — bukan klaim cakupan seluruh provinsi tanpa batas.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "wilayah",
+    "tags": [
+      "jawa-timur",
+      "korporat"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Jawa Timur",
+      "heading": "Cakupan Layanan Arkavena di Jawa Timur",
+      "summary": "Arkavena memprioritaskan layanan di sejumlah kota Jawa Timur. Kebutuhan di area lain dievaluasi berdasarkan lokasi, ruang lingkup, dan kebutuhan mobilisasi.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi peta abstrak wilayah Jawa Timur tanpa penanda kantor cabang"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [
+        "loc-surabaya",
+        "loc-sidoarjo",
+        "loc-gresik",
+        "loc-mojokerto",
+        "loc-pasuruan",
+        "loc-lamongan",
+        "loc-malang"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Jawa Timur",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Jawa Timur."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Jawa Timur",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "[PENDING — owner belum konfirmasi daftar final kota area layanan Jawa Timur]",
+      "localChallenges": [
+        "[PENDING — owner belum isi tantangan/kondisi lintas-wilayah Jawa Timur yang relevan untuk halaman induk ini]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/evaluasi cakupan regional menunggu input owner]"
+      ],
+      "localProjectRefs": [],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/jawa-timur",
+    "sourcePath": "content/locations/jawa-timur.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi Arkavena di Jawa Timur",
+        "path": "/wilayah/jawa-timur"
+      }
+    ],
+    "wordCount": 352,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/panduan",
+      "/layanan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "loc-lamongan",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi dan Pengendalian Proyek di Lamongan",
+    "slug": "lamongan",
+    "description": "Arkavena melayani kebutuhan pembangunan, renovasi, pengawasan, dan pengendalian proyek di Lamongan sesuai ruang lingkup yang disepakati.",
+    "excerpt": "Pendekatan konstruksi dan pengendalian proyek untuk kebutuhan hunian dan bangunan komersial di Lamongan.",
+    "seoTitle": "Kontraktor Lamongan dan Pengendalian Proyek | Arkavena",
+    "primaryKeyword": "kontraktor Lamongan",
+    "secondaryKeywords": [
+      "jasa konstruksi Lamongan",
+      "pengawasan proyek Lamongan"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "wilayah",
+    "tags": [
+      "lamongan",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Lamongan",
+      "heading": "Pendampingan Proyek di Lamongan dengan Scope dan Pengendalian yang Jelas",
+      "summary": "Arkavena mendukung kebutuhan proyek di Lamongan melalui layanan yang disesuaikan dengan jenis bangunan, tahap proyek, dan mandat owner.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi area layanan proyek Arkavena di Lamongan"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [
+        "loc-jawa-timur"
+      ],
+      "guides": [],
+      "projects": [
+        "project-hunian-lamongan-2022"
+      ],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Lamongan",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Lamongan."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Lamongan termasuk area layanan Arkavena?",
+        "answer": "Lamongan termasuk salah satu area yang tercantum di halaman wilayah layanan Arkavena, tetapi detail cakupan dan batas area menunggu konfirmasi lebih lanjut dari owner sebelum halaman ini dipublikasikan."
+      },
+      {
+        "question": "Apakah ada studi proyek dari Lamongan yang bisa dilihat?",
+        "answer": "Ada data proyek hunian di Lamongan (2022) yang sedang disusun sebagai studi proyek, tetapi belum mendapat izin publikasi klien — lihat halaman studi proyek terkait untuk status terkini."
+      },
+      {
+        "question": "Bagaimana Arkavena menentukan mobilisasi tim untuk proyek di Lamongan?",
+        "answer": "[PENDING — owner belum konfirmasi kebijakan mobilisasi spesifik untuk area Lamongan.]"
+      },
+      {
+        "question": "Apakah jarak Lamongan dari pusat operasional memengaruhi biaya mobilisasi?",
+        "answer": "[PENDING — klaim mengenai biaya atau waktu mobilisasi memerlukan dasar verifikasi dari owner sebelum dipublikasikan.]"
+      },
+      {
+        "question": "Jenis proyek apa yang paling relevan untuk area Lamongan?",
+        "answer": "[PENDING — owner belum konfirmasi jenis proyek target spesifik untuk Lamongan di luar data proyek hunian yang sudah ada.]"
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi proyek di Lamongan?",
+        "answer": "Konsultasi dapat dimulai melalui WhatsApp atau halaman konsultasi proyek, dengan menyampaikan lokasi, jenis bangunan, dan kebutuhan awal proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Lamongan",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "Lamongan dan area sekitarnya",
+      "localChallenges": [
+        "[PENDING — local consideration 1: owner belum isi kondisi/tantangan lokal spesifik Lamongan]",
+        "[PENDING — local consideration 2: owner belum isi]",
+        "[PENDING — local consideration 3: owner belum isi]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/operasional untuk area Lamongan menunggu input owner]"
+      ],
+      "localProjectRefs": [
+        "Studi proyek: Hunian di Lamongan (2022) — /proyek/hunian-lamongan-2022 (draft, belum ada izin publikasi klien)"
+      ],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/lamongan",
+    "sourcePath": "content/locations/lamongan.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi dan Pengendalian Proyek di Lamongan",
+        "path": "/wilayah/lamongan"
+      }
+    ],
+    "wordCount": 306,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/layanan/renovasi-rumah",
+      "/layanan/design-and-build",
+      "/layanan/pengawasan-proyek",
+      "/cara-kerja",
+      "/wilayah/jawa-timur"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "loc-malang",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi dan Pengendalian Proyek di Malang",
+    "slug": "malang",
+    "description": "Arkavena melayani kebutuhan pembangunan, renovasi, pengawasan, dan pengendalian proyek di Malang sesuai ruang lingkup yang disepakati.",
+    "excerpt": "Pendekatan konstruksi dan pengendalian proyek untuk kebutuhan perumahan, rumah tinggal, dan kos di area Malang.",
+    "seoTitle": "Kontraktor Malang dan Pengendalian Proyek | Arkavena",
+    "primaryKeyword": "kontraktor Malang",
+    "secondaryKeywords": [
+      "jasa konstruksi Malang",
+      "kontraktor rumah Malang"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "wilayah",
+    "tags": [
+      "malang",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Malang",
+      "heading": "Pendampingan Proyek di Malang dengan Scope dan Pengendalian yang Jelas",
+      "summary": "Arkavena mendukung kebutuhan proyek di Malang melalui layanan yang disesuaikan dengan jenis bangunan, tahap proyek, dan mandat owner.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi area layanan proyek Arkavena di Malang"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal",
+        "sec-kos"
+      ],
+      "locations": [
+        "loc-jawa-timur"
+      ],
+      "guides": [],
+      "projects": [
+        "project-perumahan-karangploso-malang-2018",
+        "project-rumah-tinggal-malang-kota-2019",
+        "project-kos-dau-malang-2020"
+      ],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Malang",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Malang."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Malang termasuk area layanan resmi Arkavena?",
+        "answer": "Malang belum tercantum di halaman wilayah layanan Arkavena yang sudah published. Halaman ini dibuat sebagai draft karena tersedia beberapa data proyek nyata di Malang, tetapi status Malang sebagai area layanan resmi masih menunggu konfirmasi eksplisit owner sebelum dipublikasikan."
+      },
+      {
+        "question": "Proyek apa saja yang pernah dikerjakan Arkavena di Malang?",
+        "answer": "Ada tiga data proyek di area Malang: perumahan di Karangploso (2018), rumah tinggal di Malang Kota (2019), dan kos-kosan di Dau (2020). Ketiganya sedang disusun sebagai studi proyek dan belum mendapat izin publikasi klien."
+      },
+      {
+        "question": "Apakah Karangploso, Malang Kota, dan Dau termasuk kecamatan yang berbeda?",
+        "answer": "Ya, ketiganya adalah area berbeda di sekitar Malang. Halaman ini tidak membuat halaman kecamatan terpisah — detail lokasi masing-masing proyek dijelaskan di halaman studi proyek terkait."
+      },
+      {
+        "question": "Bagaimana Arkavena menentukan mobilisasi tim untuk proyek di Malang?",
+        "answer": "[PENDING — owner belum konfirmasi kebijakan mobilisasi spesifik untuk area Malang.]"
+      },
+      {
+        "question": "Apakah kondisi lahan di Malang memerlukan pertimbangan khusus dibanding kota lain?",
+        "answer": "[PENDING — klaim kondisi lahan spesifik Malang, misalnya terkait kontur atau ketinggian, memerlukan dasar verifikasi dari owner sebelum dipublikasikan.]"
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi proyek di Malang?",
+        "answer": "Konsultasi dapat dimulai melalui WhatsApp atau halaman konsultasi proyek, dengan menyampaikan lokasi, jenis bangunan, dan kebutuhan awal proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Malang",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "[PENDING — Malang belum tercantum di /wilayah published; areaServedLabel final menunggu keputusan owner apakah Malang menjadi area layanan resmi]",
+      "localChallenges": [
+        "[PENDING — local consideration 1: owner belum isi kondisi/tantangan lokal spesifik Malang]",
+        "[PENDING — local consideration 2: owner belum isi]",
+        "[PENDING — local consideration 3: owner belum isi]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/operasional untuk area Malang menunggu input owner, termasuk apakah Malang dilayani dari basis operasional yang sama dengan kota-kota Jawa Timur lain]"
+      ],
+      "localProjectRefs": [
+        "Studi proyek: Perumahan di Karangploso, Malang (2018) — /proyek/perumahan-karangploso-malang-2018 (draft, belum ada izin publikasi klien)",
+        "Studi proyek: Rumah tinggal di Malang Kota (2019) — /proyek/rumah-tinggal-malang-kota-2019 (draft, belum ada izin publikasi klien)",
+        "Studi proyek: Kos-kosan di Dau, Malang (2020) — /proyek/kos-dau-malang-2020 (draft, belum ada izin publikasi klien)"
+      ],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/malang",
+    "sourcePath": "content/locations/malang.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi dan Pengendalian Proyek di Malang",
+        "path": "/wilayah/malang"
+      }
+    ],
+    "wordCount": 381,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/layanan/renovasi-rumah",
+      "/layanan/design-and-build",
+      "/layanan/pengawasan-proyek",
+      "/cara-kerja",
+      "/wilayah/jawa-timur"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "loc-mojokerto",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi dan Pengendalian Proyek di Mojokerto",
+    "slug": "mojokerto",
+    "description": "Arkavena melayani kebutuhan pembangunan, renovasi, pengawasan, dan pengendalian proyek di Mojokerto sesuai ruang lingkup yang disepakati.",
+    "excerpt": "Pendekatan konstruksi dan pengendalian proyek untuk kebutuhan rumah dan bangunan komersial di Mojokerto.",
+    "seoTitle": "Kontraktor Mojokerto dan Pengendalian Proyek | Arkavena",
+    "primaryKeyword": "kontraktor Mojokerto",
+    "secondaryKeywords": [
+      "jasa konstruksi Mojokerto",
+      "pengawasan proyek Mojokerto"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "wilayah",
+    "tags": [
+      "mojokerto",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Mojokerto",
+      "heading": "Pendampingan Proyek di Mojokerto dengan Scope dan Pengendalian yang Jelas",
+      "summary": "Arkavena mendukung kebutuhan proyek di Mojokerto melalui layanan yang disesuaikan dengan jenis bangunan, tahap proyek, dan mandat owner.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi area layanan proyek Arkavena di Mojokerto"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal",
+        "sec-ruko"
+      ],
+      "locations": [
+        "loc-jawa-timur"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Mojokerto",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Mojokerto."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Mojokerto termasuk area layanan Arkavena?",
+        "answer": "Mojokerto termasuk salah satu area yang tercantum di halaman wilayah layanan Arkavena, tetapi detail cakupan dan batas area menunggu konfirmasi lebih lanjut dari owner sebelum halaman ini dipublikasikan."
+      },
+      {
+        "question": "Apakah ada studi proyek dari Mojokerto yang bisa dilihat?",
+        "answer": "Belum ada data proyek nyata dari Mojokerto yang tersedia untuk batch konten ini. Halaman ini tetap dibuat sebagai draft struktural, bukan bukti pengalaman proyek."
+      },
+      {
+        "question": "Bagaimana Arkavena menentukan mobilisasi tim untuk proyek di Mojokerto?",
+        "answer": "[PENDING — owner belum konfirmasi kebijakan mobilisasi spesifik untuk area Mojokerto.]"
+      },
+      {
+        "question": "Jenis proyek apa yang relevan untuk area Mojokerto?",
+        "answer": "[PENDING — owner belum konfirmasi jenis proyek target spesifik untuk Mojokerto di luar katalog layanan umum.]"
+      },
+      {
+        "question": "Apakah desain dan pelaksanaan proyek dapat dikoordinasikan dalam satu alur untuk proyek di Mojokerto?",
+        "answer": "Layanan design and build tersedia dan dapat digunakan di area Mojokerto seperti area layanan lain, dengan ruang lingkup yang ditentukan pada tahap konsultasi."
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi proyek di Mojokerto?",
+        "answer": "Konsultasi dapat dimulai melalui WhatsApp atau halaman konsultasi proyek, dengan menyampaikan lokasi, jenis bangunan, dan kebutuhan awal proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Mojokerto",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "Mojokerto dan area sekitarnya",
+      "localChallenges": [
+        "[PENDING — local consideration 1: owner belum isi kondisi/tantangan lokal spesifik Mojokerto]",
+        "[PENDING — local consideration 2: owner belum isi]",
+        "[PENDING — local consideration 3: owner belum isi]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/operasional untuk area Mojokerto menunggu input owner]"
+      ],
+      "localProjectRefs": [],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/mojokerto",
+    "sourcePath": "content/locations/mojokerto.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi dan Pengendalian Proyek di Mojokerto",
+        "path": "/wilayah/mojokerto"
+      }
+    ],
+    "wordCount": 321,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/layanan/renovasi-rumah",
+      "/layanan/design-and-build",
+      "/layanan/pengawasan-proyek",
+      "/cara-kerja",
+      "/wilayah/jawa-timur"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "loc-pasuruan",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi dan Pengendalian Proyek di Pasuruan",
+    "slug": "pasuruan",
+    "description": "Arkavena melayani kebutuhan pembangunan, renovasi, pengawasan, dan pengendalian proyek di Pasuruan sesuai ruang lingkup yang disepakati.",
+    "excerpt": "Pendekatan konstruksi dan pengendalian proyek untuk kebutuhan rumah, bangunan komersial, dan fasilitas industri di Pasuruan.",
+    "seoTitle": "Kontraktor Pasuruan dan Pengendalian Proyek | Arkavena",
+    "primaryKeyword": "kontraktor Pasuruan",
+    "secondaryKeywords": [
+      "jasa konstruksi Pasuruan",
+      "kontraktor pabrik Pasuruan"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "wilayah",
+    "tags": [
+      "pasuruan",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Pasuruan",
+      "heading": "Pendampingan Proyek di Pasuruan dengan Scope dan Pengendalian yang Jelas",
+      "summary": "Arkavena mendukung kebutuhan proyek di Pasuruan melalui layanan yang disesuaikan dengan jenis bangunan, tahap proyek, dan mandat owner.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi area layanan proyek Arkavena di Pasuruan"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-manajemen-konstruksi",
+        "svc-pengendalian-jadwal-proyek",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [
+        "sec-pabrik",
+        "sec-gudang"
+      ],
+      "locations": [
+        "loc-jawa-timur"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Pasuruan",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Pasuruan."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Pasuruan termasuk area layanan Arkavena?",
+        "answer": "Pasuruan termasuk salah satu area yang tercantum di halaman wilayah layanan Arkavena, tetapi detail cakupan dan batas area menunggu konfirmasi lebih lanjut dari owner sebelum halaman ini dipublikasikan."
+      },
+      {
+        "question": "Apakah Arkavena menangani proyek pabrik atau gudang di Pasuruan?",
+        "answer": "[PENDING — owner belum konfirmasi apakah ada pengalaman proyek pabrik/gudang spesifik di Pasuruan. Sektor pabrik dan gudang tersedia sebagai layanan umum, bukan bukti proyek yang sudah pernah dikerjakan di kota ini.]"
+      },
+      {
+        "question": "Apakah ada studi proyek dari Pasuruan yang bisa dilihat?",
+        "answer": "Belum ada data proyek nyata dari Pasuruan yang tersedia untuk batch konten ini. Halaman ini tetap dibuat sebagai draft struktural, bukan bukti pengalaman proyek."
+      },
+      {
+        "question": "Bagaimana Arkavena menentukan mobilisasi tim untuk proyek di Pasuruan?",
+        "answer": "[PENDING — owner belum konfirmasi kebijakan mobilisasi spesifik untuk area Pasuruan.]"
+      },
+      {
+        "question": "Apakah kawasan industri di Pasuruan memerlukan koordinasi jadwal khusus?",
+        "answer": "[PENDING — klaim spesifik mengenai kawasan industri Pasuruan memerlukan dasar verifikasi dari owner sebelum dipublikasikan.]"
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi proyek di Pasuruan?",
+        "answer": "Konsultasi dapat dimulai melalui WhatsApp atau halaman konsultasi proyek, dengan menyampaikan lokasi, jenis bangunan, dan kebutuhan awal proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Pasuruan",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "Pasuruan dan area sekitarnya",
+      "localChallenges": [
+        "[PENDING — local consideration 1: owner belum isi kondisi/tantangan lokal spesifik Pasuruan]",
+        "[PENDING — local consideration 2: owner belum isi]",
+        "[PENDING — local consideration 3: owner belum isi]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/operasional untuk area Pasuruan menunggu input owner]"
+      ],
+      "localProjectRefs": [],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/pasuruan",
+    "sourcePath": "content/locations/pasuruan.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi dan Pengendalian Proyek di Pasuruan",
+        "path": "/wilayah/pasuruan"
+      }
+    ],
+    "wordCount": 332,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/manajemen-konstruksi",
+      "/layanan/pengendalian-jadwal-proyek",
+      "/layanan/pengawasan-proyek",
+      "/cara-kerja",
+      "/wilayah/jawa-timur"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "loc-sidoarjo",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi dan Pengendalian Proyek di Sidoarjo",
+    "slug": "sidoarjo",
+    "description": "Arkavena melayani kebutuhan pembangunan, renovasi, pengawasan, dan pengendalian proyek di Sidoarjo sesuai ruang lingkup yang disepakati.",
+    "excerpt": "Pendekatan konstruksi dan pengendalian proyek untuk kebutuhan rumah, bangunan komersial, dan properti kos di Sidoarjo.",
+    "seoTitle": "Kontraktor Sidoarjo dan Pengendalian Proyek | Arkavena",
+    "primaryKeyword": "kontraktor Sidoarjo",
+    "secondaryKeywords": [
+      "jasa konstruksi Sidoarjo",
+      "pengawasan proyek Sidoarjo"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "wilayah",
+    "tags": [
+      "sidoarjo",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Sidoarjo",
+      "heading": "Pendampingan Proyek di Sidoarjo dengan Scope dan Pengendalian yang Jelas",
+      "summary": "Arkavena mendukung kebutuhan proyek di Sidoarjo melalui layanan yang disesuaikan dengan jenis bangunan, tahap proyek, dan mandat owner.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi area layanan proyek Arkavena di Sidoarjo"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-bangun-bangunan-komersial",
+        "svc-pengendalian-biaya-proyek",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal",
+        "sec-kos",
+        "sec-ruko"
+      ],
+      "locations": [
+        "loc-jawa-timur"
+      ],
+      "guides": [],
+      "projects": [
+        "project-kos-sidoarjo-2023-2026"
+      ],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Sidoarjo",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Sidoarjo."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Sidoarjo termasuk area layanan tetap Arkavena?",
+        "answer": "Sidoarjo termasuk salah satu area yang tercantum di halaman wilayah layanan Arkavena, tetapi detail cakupan dan batas area menunggu konfirmasi lebih lanjut dari owner sebelum halaman ini dipublikasikan."
+      },
+      {
+        "question": "Apakah ada studi proyek dari Sidoarjo yang bisa dilihat?",
+        "answer": "Ada data proyek kos multi-lokasi di Sidoarjo (2023–2026) yang sedang disusun sebagai studi proyek, tetapi belum mendapat izin publikasi klien."
+      },
+      {
+        "question": "Bagaimana Arkavena menentukan mobilisasi tim untuk proyek di Sidoarjo?",
+        "answer": "[PENDING — owner belum konfirmasi kebijakan mobilisasi spesifik untuk area Sidoarjo.]"
+      },
+      {
+        "question": "Apakah ada pertimbangan khusus untuk properti kos di Sidoarjo?",
+        "answer": "[PENDING — owner belum konfirmasi pertimbangan lokal spesifik untuk properti kos di Sidoarjo di luar panduan umum sektor kos.]"
+      },
+      {
+        "question": "Layanan apa saja yang tersedia untuk proyek di Sidoarjo?",
+        "answer": "Layanan yang tersedia mengikuti katalog layanan Arkavena secara umum — pemilihan layanan spesifik bergantung pada jenis dan ruang lingkup proyek yang dibahas pada tahap konsultasi."
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi proyek di Sidoarjo?",
+        "answer": "Konsultasi dapat dimulai melalui WhatsApp atau halaman konsultasi proyek, dengan menyampaikan lokasi, jenis bangunan, dan kebutuhan awal proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Sidoarjo",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "Sidoarjo dan area sekitarnya",
+      "localChallenges": [
+        "[PENDING — local consideration 1: owner belum isi kondisi/tantangan lokal spesifik Sidoarjo]",
+        "[PENDING — local consideration 2: owner belum isi]",
+        "[PENDING — local consideration 3: owner belum isi]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/operasional untuk area Sidoarjo menunggu input owner]"
+      ],
+      "localProjectRefs": [
+        "Studi proyek: Portofolio Kos Multi-Lokasi Sidoarjo (2023–2026) — /proyek/kos-sidoarjo-2023-2026 (draft, belum ada izin publikasi klien)"
+      ],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/sidoarjo",
+    "sourcePath": "content/locations/sidoarjo.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi dan Pengendalian Proyek di Sidoarjo",
+        "path": "/wilayah/sidoarjo"
+      }
+    ],
+    "wordCount": 335,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/layanan/renovasi-rumah",
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/pengendalian-biaya-proyek",
+      "/layanan/pengawasan-proyek",
+      "/cara-kerja",
+      "/wilayah/jawa-timur"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "loc-surabaya",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi dan Pengendalian Proyek di Surabaya",
+    "slug": "surabaya",
+    "description": "Arkavena melayani kebutuhan pembangunan, renovasi, pengawasan, dan pengendalian proyek di Surabaya sesuai ruang lingkup yang disepakati.",
+    "excerpt": "Pendekatan konstruksi dan pengendalian proyek untuk kebutuhan rumah, bangunan komersial, maintenance, dan manajemen proyek di Surabaya.",
+    "seoTitle": "Kontraktor Surabaya dan Pengendalian Proyek | Arkavena",
+    "primaryKeyword": "kontraktor Surabaya",
+    "secondaryKeywords": [
+      "jasa konstruksi Surabaya",
+      "pengawasan proyek Surabaya"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "wilayah",
+    "tags": [
+      "surabaya",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Surabaya",
+      "heading": "Pendampingan Proyek di Surabaya dengan Scope dan Pengendalian yang Jelas",
+      "summary": "Arkavena mendukung kebutuhan proyek di Surabaya melalui layanan yang disesuaikan dengan jenis bangunan, tahap proyek, dan mandat owner.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi area layanan proyek Arkavena di Surabaya"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-bangun-bangunan-komersial",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal",
+        "sec-kos",
+        "sec-kantor"
+      ],
+      "locations": [
+        "loc-jawa-timur"
+      ],
+      "guides": [],
+      "projects": [
+        "project-kos-surabaya-2023-2026"
+      ],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Surabaya",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Surabaya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena punya kantor di Surabaya?",
+        "answer": "[PENDING — owner belum konfirmasi apakah Surabaya adalah lokasi kantor fisik atau murni area layanan. Jangan diasumsikan ada kantor tanpa bukti alamat terverifikasi.]"
+      },
+      {
+        "question": "Jenis proyek apa yang paling sering ditangani Arkavena di Surabaya?",
+        "answer": "[PENDING — owner belum konfirmasi jenis proyek target di Surabaya secara spesifik di luar data proyek kos yang sudah ada.]"
+      },
+      {
+        "question": "Apakah ada proyek yang sudah dikerjakan Arkavena di Surabaya?",
+        "answer": "Ada data proyek kos multi-lokasi di Surabaya (2023–2026) yang sedang disusun sebagai studi proyek, tetapi belum mendapat izin publikasi klien — lihat halaman studi proyek terkait untuk status terkini."
+      },
+      {
+        "question": "Bagaimana proses survei lokasi di Surabaya dilakukan?",
+        "answer": "[PENDING — owner belum konfirmasi proses survei/akses lokasi yang berlaku untuk area Surabaya.]"
+      },
+      {
+        "question": "Apakah kondisi lahan di Surabaya memengaruhi jenis pondasi yang digunakan?",
+        "answer": "[PENDING — klaim kondisi tanah/lahan spesifik Surabaya memerlukan dasar verifikasi dari owner sebelum dipublikasikan.]"
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi proyek di Surabaya?",
+        "answer": "Konsultasi dapat dimulai melalui WhatsApp atau halaman konsultasi proyek, dengan menyampaikan lokasi, jenis bangunan, dan kebutuhan awal proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Surabaya",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "Surabaya dan area sekitarnya",
+      "localChallenges": [
+        "[PENDING — local consideration 1: owner belum isi kondisi/tantangan lokal spesifik Surabaya, contoh: kondisi lahan, akses lokasi, atau pola proyek yang umum di area ini]",
+        "[PENDING — local consideration 2: owner belum isi]",
+        "[PENDING — local consideration 3: owner belum isi]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/operasional untuk area Surabaya menunggu input owner]"
+      ],
+      "localProjectRefs": [
+        "Studi proyek: Portofolio Kos Multi-Lokasi Surabaya (2023–2026) — /proyek/kos-surabaya-2023-2026 (draft, belum ada izin publikasi klien)"
+      ],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/surabaya",
+    "sourcePath": "content/locations/surabaya.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi dan Pengendalian Proyek di Surabaya",
+        "path": "/wilayah/surabaya"
+      }
+    ],
+    "wordCount": 359,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/layanan/renovasi-rumah",
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/manajemen-konstruksi",
+      "/layanan/pengawasan-proyek",
+      "/cara-kerja",
+      "/wilayah/jawa-timur"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-biaya-bangun-rumah-per-meter",
+    "type": "guide",
+    "status": "published",
+    "title": "Biaya Bangun Rumah per Meter: Memahami Kisaran dan Apa yang Memengaruhinya",
+    "slug": "biaya-bangun-rumah-per-meter",
+    "description": "Biaya bangun rumah per meter mulai dari Rp4.000.000/m² untuk spesifikasi kelas menengah-atas — beserta variabel yang memengaruhi angka ini dan cara membacanya dengan benar.",
+    "excerpt": "Kisaran biaya bangun rumah per meter Arkavena dan penjelasan variabel yang memengaruhi angka tersebut, bukan angka pasar tunggal yang berlaku universal.",
+    "seoTitle": "Biaya Bangun Rumah per Meter | Arkavena",
+    "primaryKeyword": "biaya bangun rumah per meter",
+    "secondaryKeywords": [
+      "harga bangun rumah per m2",
+      "kisaran biaya bangun rumah"
+    ],
+    "searchIntent": "commercial",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "biaya"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Biaya Bangun Rumah per Meter: Mulai dari Rp4.000.000/m²",
+      "summary": "Angka awal untuk spesifikasi kelas menengah-atas, beserta variabel yang memengaruhi biaya akhir dan cara membaca kisaran ini dengan benar.",
+      "image": "/images/guides/biaya-bangun-rumah-per-meter/hero.webp",
+      "imageAlt": "Ilustrasi konseptual komponen biaya konstruksi rumah per meter persegi"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-cara-membaca-rab-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Anggaran Rumah Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya bangun rumah per meter untuk rencana saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Rp4.000.000/m² adalah harga final?",
+        "answer": "Tidak. Angka ini adalah titik awal (starting price) untuk spesifikasi kelas menengah-atas, bukan quote final. Harga aktual ditentukan setelah desain, spesifikasi material, dan kondisi lahan proyek Anda dibahas pada tahap konsultasi."
+      },
+      {
+        "question": "Mengapa Arkavena tidak menawarkan opsi harga yang lebih rendah?",
+        "answer": "Angka ini secara sengaja mencerminkan standar kualitas material, mutu pelaksanaan, dan pengendalian proyek yang menjadi pendekatan Arkavena — bukan harga yang dioptimalkan untuk menjadi opsi termurah di pasar."
+      },
+      {
+        "question": "Apa yang termasuk dalam estimasi Rp4.000.000/m² ini?",
+        "answer": "Angka ini mencerminkan spesifikasi kelas menengah-atas secara umum. Rincian komponen yang termasuk dan tidak termasuk (struktur, MEP, finishing, dsb.) untuk proyek Anda spesifik akan dijelaskan pada tahap konsultasi dan RAB, karena rincian tersebut bergantung pada desain dan pilihan spesifikasi Anda."
+      },
+      {
+        "question": "Apakah harga ini berlaku di semua kota?",
+        "answer": "Estimasi ini didasarkan pada pengalaman proyek Arkavena di area layanan utama. Biaya di lokasi lain dapat berbeda dan akan dibahas berdasarkan lokasi proyek Anda secara spesifik."
+      },
+      {
+        "question": "Apakah luas tanah dan luas bangunan sama untuk perhitungan ini?",
+        "answer": "Tidak. Perhitungan biaya per meter menggunakan luas bangunan (luas lantai yang dibangun), bukan luas tanah. Rumah dua lantai dengan luas tanah 100 m² misalnya dapat memiliki luas bangunan lebih dari 100 m²."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Estimasi internal Arkavena berdasarkan pengalaman proyek",
+        "url": "https://arkavena.com/layanan/bangun-rumah",
+        "publisher": "Arkavena",
+        "accessedAt": "2026-07-28"
+      }
+    ],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "cost",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": "2026-07-28",
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/biaya-bangun-rumah-per-meter",
+    "sourcePath": "content/guides/biaya-bangun-rumah-per-meter.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Biaya Bangun Rumah per Meter: Memahami Kisaran dan Apa yang Memengaruhinya",
+        "path": "/panduan/biaya-bangun-rumah-per-meter"
+      }
+    ],
+    "wordCount": 728,
+    "readingMinutes": 4,
+    "internalLinks": [
+      "/panduan/cara-membaca-rab-rumah",
+      "/panduan/cara-menghitung-biaya-bangun-rumah",
+      "/layanan/bangun-rumah",
+      "/panduan/tahapan-bangun-rumah-dari-nol"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-borongan-vs-harian-bangun-rumah",
+    "type": "guide",
+    "status": "published",
+    "title": "Borongan vs Harian Bangun Rumah: Perbandingan Model Kerja",
+    "slug": "borongan-vs-harian-bangun-rumah",
+    "description": "Perbandingan model kerja borongan dan harian untuk proyek bangun rumah — kepastian ruang lingkup, visibilitas biaya, keterlibatan owner, dan penanganan perubahan.",
+    "excerpt": "Perbandingan dua model kerja umum dalam proyek bangun rumah, tanpa menyatakan salah satu selalu lebih baik.",
+    "seoTitle": "Borongan vs Harian Bangun Rumah | Arkavena",
+    "primaryKeyword": "borongan vs harian bangun rumah",
+    "secondaryKeywords": [
+      "sistem borongan bangun rumah",
+      "sistem harian bangun rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "kontrak"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Borongan atau Harian? Bandingkan Berdasarkan Kebutuhan Proyek Anda",
+      "summary": "Perbandingan model kerja borongan dan harian dari sisi kepastian ruang lingkup, biaya, dan keterlibatan owner.",
+      "image": "/images/guides/borongan-vs-harian-bangun-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual perbandingan dua model kerja konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-kontraktor-vs-tukang",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai persiapan pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah sistem borongan selalu lebih murah daripada harian?",
+        "answer": "Tidak selalu. Biaya akhir bergantung pada ruang lingkup, efisiensi pelaksanaan, dan seberapa banyak perubahan terjadi selama proyek — bukan semata-mata jenis sistem yang dipilih."
+      },
+      {
+        "question": "Apakah sistem harian berarti tanpa kontrak?",
+        "answer": "Tidak seharusnya. Sistem harian tetap sebaiknya dituangkan dalam kesepakatan tertulis mengenai tarif, jam kerja, dan tanggung jawab, meskipun strukturnya berbeda dari kontrak borongan."
+      },
+      {
+        "question": "Bisakah kedua sistem digabungkan dalam satu proyek?",
+        "answer": "Bisa. Sebagian proyek menggunakan borongan untuk pekerjaan utama dan harian untuk pekerjaan tambahan atau perbaikan kecil, tergantung kesepakatan dengan pelaksana."
+      },
+      {
+        "question": "Sistem mana yang membutuhkan pengawasan lebih intensif dari owner?",
+        "answer": "Secara umum, sistem harian cenderung membutuhkan keterlibatan owner yang lebih intensif dalam mengarahkan pekerjaan harian, dibandingkan sistem borongan yang menyerahkan pengelolaan ruang lingkup kepada pelaksana."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "comparison",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/borongan-vs-harian-bangun-rumah",
+    "sourcePath": "content/guides/borongan-vs-harian-bangun-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Borongan vs Harian Bangun Rumah: Perbandingan Model Kerja",
+        "path": "/panduan/borongan-vs-harian-bangun-rumah"
+      }
+    ],
+    "wordCount": 422,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/kontraktor-vs-tukang",
+      "/panduan/kontrak-kerja-konstruksi-rumah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-cara-membaca-rab-rumah",
+    "type": "guide",
+    "status": "published",
+    "title": "Cara Membaca RAB Rumah yang Diberikan Kontraktor",
+    "slug": "cara-membaca-rab-rumah",
+    "description": "Cara membaca dan memahami RAB (Rencana Anggaran Biaya) rumah dari kontraktor — item, volume, satuan, harga satuan, subtotal, asumsi, dan exclusion.",
+    "excerpt": "Panduan membaca RAB yang Anda terima dari kontraktor, termasuk pertanyaan yang perlu diajukan sebelum menyetujuinya.",
+    "seoTitle": "Cara Membaca RAB Rumah | Arkavena",
+    "primaryKeyword": "cara membaca RAB rumah",
+    "secondaryKeywords": [
+      "memahami RAB rumah",
+      "cara baca rencana anggaran biaya rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "biaya"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Cara Membaca RAB Rumah Sebelum Menyetujuinya",
+      "summary": "Pahami item, volume, satuan, harga satuan, dan asumsi dalam RAB yang Anda terima, serta pertanyaan yang perlu diajukan sebelum menyetujuinya.",
+      "image": "/images/guides/cara-membaca-rab-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual dokumen rencana anggaran biaya"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-tahapan-bangun-rumah-dari-nol"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai RAB proyek rumah saya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah RAB dari kontraktor berbeda-beda formatnya?",
+        "answer": "Ya, format dapat bervariasi antar kontraktor, tetapi elemen dasarnya — item, volume, satuan, harga satuan, dan subtotal — umumnya serupa."
+      },
+      {
+        "question": "Apa yang harus saya lakukan jika ada item yang tidak saya pahami?",
+        "answer": "Tanyakan langsung kepada kontraktor. RAB yang baik seharusnya dapat dijelaskan item per item, termasuk asumsi dan spesifikasi yang mendasarinya."
+      },
+      {
+        "question": "Apakah RAB yang lebih rinci selalu lebih baik?",
+        "answer": "RAB yang rinci membantu Anda memahami ke mana anggaran dialokasikan, tetapi kejelasan asumsi dan exclusion sama pentingnya dengan tingkat kerincian itu sendiri."
+      },
+      {
+        "question": "Apa bedanya artikel ini dengan artikel komponen RAB rumah?",
+        "answer": "Artikel ini berfokus pada proses membaca dan mengajukan pertanyaan terhadap RAB yang sudah Anda terima. Anatomi lengkap struktur dokumen RAB dibahas pada panduan terpisah dalam cluster ini."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/cara-membaca-rab-rumah",
+    "sourcePath": "content/guides/cara-membaca-rab-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Cara Membaca RAB Rumah yang Diberikan Kontraktor",
+        "path": "/panduan/cara-membaca-rab-rumah"
+      }
+    ],
+    "wordCount": 516,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/cara-menghitung-biaya-bangun-rumah",
+      "/panduan/biaya-bangun-rumah-per-meter",
+      "/panduan/kontrak-kerja-konstruksi-rumah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-cara-memilih-kontraktor-rumah",
+    "type": "guide",
+    "status": "published",
+    "title": "Cara Memilih Kontraktor Rumah secara Terukur",
+    "slug": "cara-memilih-kontraktor-rumah",
+    "description": "Panduan memilih kontraktor rumah berdasarkan ruang lingkup, dokumen penawaran, metode kerja, komunikasi, pengendalian biaya, mutu, jadwal, dan risiko.",
+    "excerpt": "Kriteria praktis untuk mengevaluasi calon kontraktor tanpa hanya membandingkan harga penawaran.",
+    "seoTitle": "Cara Memilih Kontraktor Rumah | Arkavena",
+    "primaryKeyword": "cara memilih kontraktor rumah",
+    "secondaryKeywords": [
+      "memilih jasa kontraktor rumah",
+      "kriteria kontraktor rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "kontrak",
+      "risiko"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Pilih Kontraktor Berdasarkan Sistem Kerja, Bukan Harga Saja",
+      "summary": "Evaluasi ruang lingkup, dokumen, metode, komunikasi, dan mekanisme pengendalian sebelum membuat keputusan.",
+      "image": "/images/guides/cara-memilih-kontraktor-rumah/hero.webp",
+      "imageAlt": "Ilustrasi evaluasi dokumen dan ruang lingkup kontraktor rumah"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-kontraktor-vs-tukang",
+        "guide-checklist-persiapan-bangun-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai persiapan pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah harga penawaran terendah selalu pilihan terbaik?",
+        "answer": "Tidak selalu. Penawaran terendah yang tidak menjelaskan ruang lingkup dan exclusion secara jelas dapat menyebabkan biaya tambahan di kemudian hari. Bandingkan ruang lingkup yang setara, bukan hanya angka akhir."
+      },
+      {
+        "question": "Apakah saya perlu meminta lebih dari satu penawaran?",
+        "answer": "Membandingkan beberapa penawaran dapat membantu Anda memahami variasi ruang lingkup dan pendekatan, selama Anda memastikan ruang lingkup yang dibandingkan setara."
+      },
+      {
+        "question": "Bagaimana cara memeriksa referensi proyek sebelumnya?",
+        "answer": "Anda dapat meminta contoh proyek dan, jika diizinkan pemilik proyek sebelumnya, referensi kontak. Tidak semua kontraktor dapat membagikan detail proyek klien tanpa izin."
+      },
+      {
+        "question": "Apa bedanya memilih kontraktor dengan memilih tukang harian?",
+        "answer": "Keduanya dibahas lebih detail pada panduan Kontraktor vs Tukang — secara umum, kontraktor menawarkan sistem kerja dan tanggung jawab yang lebih terstruktur, sementara tukang harian menawarkan fleksibilitas dengan pengelolaan yang lebih banyak berada di tangan pemilik proyek."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/cara-memilih-kontraktor-rumah",
+    "sourcePath": "content/guides/cara-memilih-kontraktor-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Cara Memilih Kontraktor Rumah secara Terukur",
+        "path": "/panduan/cara-memilih-kontraktor-rumah"
+      }
+    ],
+    "wordCount": 415,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/kontraktor-vs-tukang",
+      "/panduan/borongan-vs-harian-bangun-rumah",
+      "/panduan/kontrak-kerja-konstruksi-rumah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-cara-menghitung-biaya-bangun-rumah",
+    "type": "guide",
+    "status": "published",
+    "title": "Cara Menghitung Biaya Bangun Rumah: Metode dan Komponen Perhitungan",
+    "slug": "cara-menghitung-biaya-bangun-rumah",
+    "description": "Metode menghitung biaya bangun rumah — ruang lingkup, work breakdown, quantity, unit rate, preliminaries, dan contingency. Menjelaskan metode, bukan harga pasar.",
+    "excerpt": "Metode sistematis menyusun estimasi biaya bangun rumah, disertai variabel yang perlu Anda isi sendiri sesuai data proyek.",
+    "seoTitle": "Cara Menghitung Biaya Bangun Rumah | Arkavena",
+    "primaryKeyword": "cara menghitung biaya bangun rumah",
+    "secondaryKeywords": [
+      "metode hitung biaya rumah",
+      "menyusun estimasi biaya rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "biaya",
+      "perencanaan"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Metode Menghitung Biaya Bangun Rumah, Bukan Angka Pasar Tunggal",
+      "summary": "Pelajari komponen dan langkah menyusun estimasi biaya, dengan variabel yang Anda isi sendiri berdasarkan data proyek Anda.",
+      "image": "/images/guides/cara-menghitung-biaya-bangun-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual metode perhitungan biaya konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-cara-membaca-rab-rumah",
+        "guide-checklist-persiapan-bangun-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai estimasi biaya pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Mengapa panduan ini tidak mencantumkan harga per meter?",
+        "answer": "Harga bervariasi menurut wilayah, spesifikasi, dan waktu, serta memerlukan sumber data yang terverifikasi dan bertanggal. Panduan ini menjelaskan metode perhitungan yang dapat Anda terapkan dengan data harga dari wilayah dan pemasok Anda sendiri, atau dari penawaran kontraktor."
+      },
+      {
+        "question": "Dari mana saya bisa mendapatkan angka harga satuan yang valid?",
+        "answer": "Sumber yang valid termasuk penawaran resmi dari kontraktor atau pemasok, dengan tanggal dan spesifikasi yang jelas. Hindari menggunakan angka dari artikel lama atau sumber tanpa tanggal dan konteks."
+      },
+      {
+        "question": "Apakah estimasi awal ini bisa dijadikan acuan final?",
+        "answer": "Tidak. Estimasi awal berguna untuk perencanaan anggaran, tetapi angka final baru dapat ditentukan setelah desain, spesifikasi, dan penawaran kontraktor tersedia."
+      },
+      {
+        "question": "Apa itu contingency dan mengapa perlu dimasukkan?",
+        "answer": "Contingency adalah alokasi anggaran untuk kemungkinan biaya tak terduga yang wajar terjadi dalam proyek konstruksi. Besarannya bervariasi tergantung tingkat kepastian ruang lingkup dan desain proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "process",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/cara-menghitung-biaya-bangun-rumah",
+    "sourcePath": "content/guides/cara-menghitung-biaya-bangun-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Cara Menghitung Biaya Bangun Rumah: Metode dan Komponen Perhitungan",
+        "path": "/panduan/cara-menghitung-biaya-bangun-rumah"
+      }
+    ],
+    "wordCount": 675,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/biaya-bangun-rumah-per-meter",
+      "/panduan/cara-membaca-rab-rumah",
+      "/panduan/checklist-persiapan-bangun-rumah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-checklist-persiapan-bangun-rumah",
+    "type": "guide",
+    "status": "published",
+    "title": "Checklist Persiapan Bangun Rumah Sebelum Konstruksi Dimulai",
+    "slug": "checklist-persiapan-bangun-rumah",
+    "description": "Checklist praktis untuk memastikan kesiapan sebelum memulai proyek bangun rumah — mencakup tujuan, lahan, desain, anggaran, dan dokumen.",
+    "excerpt": "Daftar periksa kesiapan sebelum konstruksi dimulai, dari kejelasan tujuan hingga dokumen kontrak.",
+    "seoTitle": "Checklist Persiapan Bangun Rumah | Arkavena",
+    "primaryKeyword": "checklist persiapan bangun rumah",
+    "secondaryKeywords": [
+      "persiapan sebelum bangun rumah",
+      "kesiapan proyek bangun rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "perencanaan"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Pastikan Kesiapan Ini Sebelum Konstruksi Rumah Dimulai",
+      "summary": "Checklist praktis untuk memeriksa kesiapan tujuan, lahan, desain, anggaran, dan dokumen sebelum tahap teknis dimulai.",
+      "image": "/images/guides/checklist-persiapan-bangun-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual daftar periksa persiapan proyek bangun rumah"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-cara-menghitung-biaya-bangun-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai persiapan pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah checklist ini menggantikan konsultasi dengan kontraktor atau arsitek?",
+        "answer": "Tidak. Checklist ini membantu Anda mempersiapkan diri sebelum konsultasi, bukan menggantikan penilaian profesional terhadap lahan dan desain Anda."
+      },
+      {
+        "question": "Apakah semua item dalam checklist harus selesai sebelum menghubungi kontraktor?",
+        "answer": "Tidak selalu. Sebagian item, seperti desain detail, dapat dikembangkan bersama kontraktor atau arsitek. Namun semakin banyak yang sudah jelas, semakin lancar proses konsultasi awal."
+      },
+      {
+        "question": "Apa yang terjadi jika saya mulai konstruksi tanpa checklist ini?",
+        "answer": "Kekurangan persiapan pada tahap awal — misalnya kebutuhan ruang yang belum jelas atau anggaran tanpa ruang lingkup — sering menjadi sumber perubahan dan penundaan di tengah proyek."
+      },
+      {
+        "question": "Apakah checklist ini berlaku untuk semua skala rumah?",
+        "answer": "Prinsip umumnya berlaku untuk berbagai skala, tetapi detail kebutuhan dapat berbeda antara rumah sederhana dan rumah dengan kompleksitas desain tinggi."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "checklist",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/checklist-persiapan-bangun-rumah",
+    "sourcePath": "content/guides/checklist-persiapan-bangun-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Checklist Persiapan Bangun Rumah Sebelum Konstruksi Dimulai",
+        "path": "/panduan/checklist-persiapan-bangun-rumah"
+      }
+    ],
+    "wordCount": 454,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/cara-memilih-kontraktor-rumah",
+      "/panduan/cara-menghitung-biaya-bangun-rumah",
+      "/panduan/tahapan-bangun-rumah-dari-nol"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "guide-contoh-panduan",
     "type": "guide",
     "status": "draft",
@@ -6175,6 +8008,1063 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [
       "/cara-kerja"
     ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-kontrak-kerja-konstruksi-rumah",
+    "type": "guide",
+    "status": "published",
+    "title": "Mengenal Elemen Umum Kontrak Kerja Konstruksi Rumah",
+    "slug": "kontrak-kerja-konstruksi-rumah",
+    "description": "Penjelasan umum elemen yang biasanya diatur dalam kontrak kerja konstruksi rumah — ruang lingkup, harga, jadwal, dan perubahan pekerjaan. Bukan nasihat hukum.",
+    "excerpt": "Pengantar informasional mengenai apa yang umumnya diatur dalam kontrak kerja konstruksi rumah.",
+    "seoTitle": "Kontrak Kerja Konstruksi Rumah | Arkavena",
+    "primaryKeyword": "kontrak kerja konstruksi rumah",
+    "secondaryKeywords": [
+      "elemen kontrak bangun rumah",
+      "isi kontrak kontraktor rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "kontrak",
+      "risiko"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Mengenal Elemen Umum Kontrak Kerja Konstruksi Rumah",
+      "summary": "Pengantar informasional mengenai konsep dasar kontrak konstruksi — bukan template hukum atau nasihat hukum untuk situasi Anda.",
+      "image": "/images/guides/kontrak-kerja-konstruksi-rumah/hero.webp",
+      "imageAlt": "Ilustrasi konseptual dokumen kontrak kerja konstruksi"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-tahapan-bangun-rumah-dari-nol",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-membaca-rab-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai persiapan pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah panduan ini bisa dijadikan template kontrak?",
+        "answer": "Tidak. Panduan ini bersifat informasional umum untuk mengenalkan konsep dasar kontrak konstruksi, bukan template hukum yang siap dipakai. Untuk kontrak spesifik proyek Anda, konsultasikan ke notaris atau profesional hukum yang berkompeten."
+      },
+      {
+        "question": "Apakah Arkavena menyediakan nasihat hukum untuk kontrak?",
+        "answer": "Tidak. Arkavena dapat menjelaskan elemen operasional kontrak konstruksi secara umum, tetapi nasihat hukum untuk kontrak spesifik Anda berada di luar cakupan layanan ini dan sebaiknya dikonsultasikan ke notaris atau profesional hukum."
+      },
+      {
+        "question": "Apa yang biasanya diatur mengenai perubahan pekerjaan dalam kontrak?",
+        "answer": "Kontrak konstruksi umumnya mengatur mekanisme change order untuk perubahan pekerjaan. Detail mekanisme yang sesuai untuk kontrak Anda sebaiknya didiskusikan dengan pelaksana dan, jika diperlukan, ditinjau oleh profesional hukum."
+      },
+      {
+        "question": "Siapa yang sebaiknya meninjau kontrak sebelum ditandatangani?",
+        "answer": "Untuk kepastian hukum atas kontrak spesifik Anda, konsultasikan ke notaris atau penasihat hukum yang memahami kontrak konstruksi, di luar pihak yang menyusun kontrak tersebut."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "explainer",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/kontrak-kerja-konstruksi-rumah",
+    "sourcePath": "content/guides/kontrak-kerja-konstruksi-rumah.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Mengenal Elemen Umum Kontrak Kerja Konstruksi Rumah",
+        "path": "/panduan/kontrak-kerja-konstruksi-rumah"
+      }
+    ],
+    "wordCount": 568,
+    "readingMinutes": 3,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/cara-memilih-kontraktor-rumah",
+      "/panduan/borongan-vs-harian-bangun-rumah",
+      "/panduan/cara-membaca-rab-rumah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-kontraktor-vs-tukang",
+    "type": "guide",
+    "status": "published",
+    "title": "Kontraktor vs Tukang: Memahami Perbedaan untuk Proyek Bangun Rumah",
+    "slug": "kontraktor-vs-tukang",
+    "description": "Perbedaan kontraktor dan tukang dari sisi organisasi kerja, tanggung jawab, dokumentasi, dan alokasi risiko dalam proyek bangun rumah.",
+    "excerpt": "Memahami perbedaan kontraktor dan tukang agar dapat memilih sesuai kompleksitas dan kebutuhan proyek Anda.",
+    "seoTitle": "Kontraktor vs Tukang | Arkavena",
+    "primaryKeyword": "kontraktor vs tukang",
+    "secondaryKeywords": [
+      "perbedaan kontraktor dan tukang",
+      "pilih kontraktor atau tukang"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "kontrak"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Kontraktor atau Tukang? Pahami Perbedaannya Sebelum Memilih",
+      "summary": "Perbedaan organisasi kerja, tanggung jawab, dan alokasi risiko antara kontraktor dan tukang.",
+      "image": "/images/guides/kontraktor-vs-tukang/hero.webp",
+      "imageAlt": "Ilustrasi konseptual perbedaan struktur kerja kontraktor dan tukang"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-cara-memilih-kontraktor-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai persiapan pembangunan rumah."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah tukang tidak bisa menangani proyek bangun rumah?",
+        "answer": "Tukang dapat menangani berbagai pekerjaan konstruksi, termasuk proyek rumah berskala kecil. Perbedaannya lebih pada struktur organisasi, dokumentasi, dan tanggung jawab yang biasanya disediakan kontraktor untuk proyek yang lebih kompleks."
+      },
+      {
+        "question": "Apakah kontraktor selalu lebih mahal daripada tukang?",
+        "answer": "Tidak selalu dapat dibandingkan secara langsung karena cakupan tanggung jawab dan layanan biasanya berbeda. Kontraktor umumnya menyertakan manajemen, dokumentasi, dan koordinasi yang tidak selalu termasuk dalam kerja tukang langsung."
+      },
+      {
+        "question": "Bagaimana jika saya hanya memerlukan renovasi kecil?",
+        "answer": "Untuk pekerjaan kecil dengan ruang lingkup sederhana, tukang dengan pengalaman yang sesuai dapat menjadi pilihan yang wajar, tergantung kompleksitas dan kemampuan Anda mengawasi pekerjaan."
+      },
+      {
+        "question": "Apakah artikel ini menyatakan tukang kurang terampil?",
+        "answer": "Tidak. Perbandingan ini berfokus pada struktur organisasi kerja, tanggung jawab, dan dokumentasi — bukan tingkat keterampilan individu, yang dapat bervariasi pada kedua jenis pelaksana."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "comparison",
+      "pillar": "guide-tahapan-bangun-rumah-dari-nol",
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/kontraktor-vs-tukang",
+    "sourcePath": "content/guides/kontraktor-vs-tukang.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Kontraktor vs Tukang: Memahami Perbedaan untuk Proyek Bangun Rumah",
+        "path": "/panduan/kontraktor-vs-tukang"
+      }
+    ],
+    "wordCount": 403,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/panduan/borongan-vs-harian-bangun-rumah",
+      "/panduan/cara-memilih-kontraktor-rumah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "guide-tahapan-bangun-rumah-dari-nol",
+    "type": "guide",
+    "status": "published",
+    "title": "Tahapan Bangun Rumah dari Nol: Panduan Lengkap dari Perencanaan hingga Serah Terima",
+    "slug": "tahapan-bangun-rumah-dari-nol",
+    "description": "Panduan lengkap tahapan membangun rumah dari nol — mulai dari menentukan kebutuhan, data lahan, desain, estimasi biaya, kontrak, pelaksanaan, hingga serah terima.",
+    "excerpt": "Ringkasan seluruh tahapan proyek bangun rumah dari nol, dari perencanaan awal hingga rumah selesai dan diserahterimakan.",
+    "seoTitle": "Tahapan Bangun Rumah dari Nol | Panduan Arkavena",
+    "primaryKeyword": "tahapan bangun rumah dari nol",
+    "secondaryKeywords": [
+      "proses membangun rumah",
+      "urutan tahapan bangun rumah"
+    ],
+    "searchIntent": "informational",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "residensial",
+      "perencanaan",
+      "pelaksanaan"
+    ],
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Panduan Bangun Rumah",
+      "heading": "Tahapan Bangun Rumah dari Nol, dari Perencanaan hingga Serah Terima",
+      "summary": "Peta lengkap proses membangun rumah — apa yang perlu diputuskan di setiap tahap, dan panduan mana yang relevan untuk masing-masing tahap tersebut.",
+      "image": "/images/guides/tahapan-bangun-rumah-dari-nol/hero.webp",
+      "imageAlt": "Ilustrasi konseptual tahapan proyek konstruksi rumah dari perencanaan hingga serah terima"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [],
+      "guides": [
+        "guide-biaya-bangun-rumah-per-meter",
+        "guide-checklist-persiapan-bangun-rumah",
+        "guide-cara-memilih-kontraktor-rumah",
+        "guide-kontrak-kerja-konstruksi-rumah",
+        "guide-borongan-vs-harian-bangun-rumah",
+        "guide-kontraktor-vs-tukang",
+        "guide-cara-menghitung-biaya-bangun-rumah",
+        "guide-cara-membaca-rab-rumah"
+      ],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Rumah",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana pembangunan rumah dari awal."
+      },
+      "secondaryCta": {
+        "label": "Lihat Layanan Bangun Rumah",
+        "href": "/layanan/bangun-rumah",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Berapa lama proses bangun rumah dari nol?",
+        "answer": "Durasi bergantung pada luas bangunan, kompleksitas desain, ketersediaan dana, kecepatan proses persetujuan, dan kondisi lapangan — tidak ada durasi universal yang berlaku untuk semua proyek. Panduan jadwal pembangunan akan membahas faktor-faktor ini lebih detail."
+      },
+      {
+        "question": "Apakah desain harus selesai sebelum menghubungi kontraktor?",
+        "answer": "Tidak selalu. Sebagian pemilik rumah menghubungi kontraktor setelah desain selesai, sebagian lain menggunakan layanan design and build yang menggabungkan desain dan pelaksanaan dalam satu alur kerja."
+      },
+      {
+        "question": "Apakah tahapan ini berlaku untuk renovasi juga?",
+        "answer": "Sebagian prinsip serupa, tetapi renovasi memiliki tahapan tambahan terkait kondisi eksisting bangunan yang tidak dibahas mendalam dalam panduan ini."
+      },
+      {
+        "question": "Dari mana sebaiknya memulai jika belum tahu harus mulai dari mana?",
+        "answer": "Checklist persiapan bangun rumah adalah titik awal yang baik untuk memetakan kebutuhan, data, dan keputusan yang perlu disiapkan sebelum masuk ke tahap teknis."
+      },
+      {
+        "question": "Apakah panduan ini menjelaskan biaya secara spesifik?",
+        "answer": "Panduan ini menjelaskan tahapan proses, bukan angka biaya. Metode menghitung biaya dan cara membaca RAB dibahas di panduan terpisah dalam cluster ini."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": true,
+    "article": {
+      "articleType": "pillar",
+      "pillar": null,
+      "dataAsOf": null,
+      "answerFirst": true,
+      "hasCalculator": false
+    },
+    "collection": "guides",
+    "route": "/panduan/tahapan-bangun-rumah-dari-nol",
+    "sourcePath": "content/guides/tahapan-bangun-rumah-dari-nol.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Panduan",
+        "path": "/panduan"
+      },
+      {
+        "name": "Tahapan Bangun Rumah dari Nol: Panduan Lengkap dari Perencanaan hingga Serah Terima",
+        "path": "/panduan/tahapan-bangun-rumah-dari-nol"
+      }
+    ],
+    "wordCount": 804,
+    "readingMinutes": 4,
+    "internalLinks": [
+      "/panduan/checklist-persiapan-bangun-rumah",
+      "/panduan/biaya-bangun-rumah-per-meter",
+      "/panduan/cara-menghitung-biaya-bangun-rumah",
+      "/panduan/cara-membaca-rab-rumah",
+      "/panduan/cara-memilih-kontraktor-rumah",
+      "/panduan/kontraktor-vs-tukang",
+      "/panduan/borongan-vs-harian-bangun-rumah",
+      "/panduan/kontrak-kerja-konstruksi-rumah",
+      "/layanan/bangun-rumah"
+    ],
+    "isIndexable": true,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "project-hunian-lamongan-2022",
+    "type": "project",
+    "status": "review",
+    "title": "Studi Proyek: Hunian di Lamongan (2022)",
+    "slug": "hunian-lamongan-2022",
+    "description": "Studi proyek hunian di Lamongan, tahun 2022. Ringkasan sedang disusun; sebagian besar detail masih menunggu konfirmasi dan izin publikasi dari klien.",
+    "excerpt": "Ringkasan awal proyek hunian di Lamongan — data masih dalam proses verifikasi dan belum mendapat izin publikasi klien.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "proyek",
+    "tags": [
+      "studi-proyek",
+      "lamongan",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Studi Proyek",
+      "heading": "Hunian di Lamongan (2022)",
+      "summary": "Ringkasan awal berdasarkan data yang tersedia. Sebagian besar detail scope, proses, dan hasil masih menunggu konfirmasi owner sebelum dapat dipublikasikan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Placeholder — foto proyek belum tersedia untuk publikasi"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [
+        "loc-lamongan"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Proyek Serupa",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek dengan kebutuhan yang serupa dengan studi proyek hunian di Lamongan."
+      },
+      "secondaryCta": {
+        "label": "Lihat Wilayah Lamongan",
+        "href": "/wilayah/lamongan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "project": {
+      "projectName": "Hunian Lamongan 2022",
+      "disclosureName": "Hunian di Lamongan",
+      "location": "Lamongan",
+      "sector": null,
+      "services": [],
+      "year": 2022,
+      "status": "completed",
+      "areaM2": null,
+      "budgetDisclosure": "confidential",
+      "clientPermission": false,
+      "factsVerified": false,
+      "outcomes": [
+        "[PENDING — isi hasil/testimoni setelah dikonfirmasi owner]"
+      ]
+    },
+    "collection": "projects",
+    "route": "/proyek/hunian-lamongan-2022",
+    "sourcePath": "content/projects/hunian-lamongan-2022.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Proyek",
+        "path": "/proyek"
+      },
+      {
+        "name": "Studi Proyek: Hunian di Lamongan (2022)",
+        "path": "/proyek/hunian-lamongan-2022"
+      }
+    ],
+    "wordCount": 301,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/wilayah/lamongan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "project-kos-dau-malang-2020",
+    "type": "project",
+    "status": "review",
+    "title": "Studi Proyek: Kos-Kosan di Dau, Malang (2020)",
+    "slug": "kos-dau-malang-2020",
+    "description": "Studi proyek kos-kosan di Dau, Malang, tahun 2020. Ringkasan sedang disusun; sebagian besar detail masih menunggu konfirmasi dan izin publikasi dari klien.",
+    "excerpt": "Ringkasan awal proyek kos-kosan di Dau, Malang — data masih dalam proses verifikasi dan belum mendapat izin publikasi klien.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "proyek",
+    "tags": [
+      "studi-proyek",
+      "malang",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Studi Proyek",
+      "heading": "Kos-Kosan di Dau, Malang (2020)",
+      "summary": "Ringkasan awal berdasarkan data yang tersedia. Sebagian besar detail scope, proses, dan hasil masih menunggu konfirmasi owner sebelum dapat dipublikasikan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Placeholder — foto proyek belum tersedia untuk publikasi"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [
+        "loc-malang"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Proyek Serupa",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek dengan kebutuhan yang serupa dengan studi proyek kos-kosan di Dau, Malang."
+      },
+      "secondaryCta": {
+        "label": "Lihat Wilayah Malang",
+        "href": "/wilayah/malang",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "project": {
+      "projectName": "Kos Dau Malang 2020",
+      "disclosureName": "Kos-kosan di Dau, Malang",
+      "location": "Dau, Malang",
+      "sector": null,
+      "services": [],
+      "year": 2020,
+      "status": "completed",
+      "areaM2": null,
+      "budgetDisclosure": "confidential",
+      "clientPermission": false,
+      "factsVerified": false,
+      "outcomes": [
+        "[PENDING — isi hasil/testimoni setelah dikonfirmasi owner]"
+      ]
+    },
+    "collection": "projects",
+    "route": "/proyek/kos-dau-malang-2020",
+    "sourcePath": "content/projects/kos-dau-malang-2020.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Proyek",
+        "path": "/proyek"
+      },
+      {
+        "name": "Studi Proyek: Kos-Kosan di Dau, Malang (2020)",
+        "path": "/proyek/kos-dau-malang-2020"
+      }
+    ],
+    "wordCount": 286,
+    "readingMinutes": 1,
+    "internalLinks": [
+      "/wilayah/malang"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "project-kos-sidoarjo-2023-2026",
+    "type": "project",
+    "status": "review",
+    "title": "Studi Proyek: Portofolio Kos Multi-Lokasi Sidoarjo (2023–2026)",
+    "slug": "kos-sidoarjo-2023-2026",
+    "description": "Studi proyek portofolio beberapa titik rumah kos di Sidoarjo, periode 2023–2026. Sebagian besar detail masih menunggu konfirmasi dan izin publikasi klien.",
+    "excerpt": "Ringkasan awal portofolio kos multi-lokasi di Sidoarjo — data masih dalam proses verifikasi dan belum mendapat izin publikasi klien.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "proyek",
+    "tags": [
+      "studi-proyek",
+      "sidoarjo",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Studi Proyek",
+      "heading": "Portofolio Kos Multi-Lokasi Sidoarjo (2023–2026)",
+      "summary": "Ringkasan awal berdasarkan data yang tersedia. Sebagian besar detail scope, proses, dan hasil masih menunggu konfirmasi owner sebelum dapat dipublikasikan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Placeholder — foto proyek belum tersedia untuk publikasi"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [
+        "loc-sidoarjo"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Proyek Serupa",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek dengan kebutuhan yang serupa dengan studi proyek kos di Sidoarjo."
+      },
+      "secondaryCta": {
+        "label": "Lihat Wilayah Sidoarjo",
+        "href": "/wilayah/sidoarjo",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "project": {
+      "projectName": "Portofolio Kos Sidoarjo 2023-2026",
+      "disclosureName": "Portofolio kos multi-lokasi Sidoarjo",
+      "location": "Sidoarjo",
+      "sector": null,
+      "services": [],
+      "year": 2023,
+      "status": "ongoing",
+      "areaM2": null,
+      "budgetDisclosure": "confidential",
+      "clientPermission": false,
+      "factsVerified": false,
+      "outcomes": [
+        "[PENDING — isi hasil/testimoni setelah dikonfirmasi owner]"
+      ]
+    },
+    "collection": "projects",
+    "route": "/proyek/kos-sidoarjo-2023-2026",
+    "sourcePath": "content/projects/kos-sidoarjo-2023-2026.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Proyek",
+        "path": "/proyek"
+      },
+      {
+        "name": "Studi Proyek: Portofolio Kos Multi-Lokasi Sidoarjo (2023–2026)",
+        "path": "/proyek/kos-sidoarjo-2023-2026"
+      }
+    ],
+    "wordCount": 380,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/wilayah/sidoarjo"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "project-kos-surabaya-2023-2026",
+    "type": "project",
+    "status": "review",
+    "title": "Studi Proyek: Portofolio Kos Multi-Lokasi Surabaya (2023–2026)",
+    "slug": "kos-surabaya-2023-2026",
+    "description": "Studi proyek portofolio beberapa titik rumah kos di Surabaya, periode 2023–2026. Sebagian besar detail masih menunggu konfirmasi dan izin publikasi klien.",
+    "excerpt": "Ringkasan awal portofolio kos multi-lokasi di Surabaya — data masih dalam proses verifikasi dan belum mendapat izin publikasi klien.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "proyek",
+    "tags": [
+      "studi-proyek",
+      "surabaya",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Studi Proyek",
+      "heading": "Portofolio Kos Multi-Lokasi Surabaya (2023–2026)",
+      "summary": "Ringkasan awal berdasarkan data yang tersedia. Sebagian besar detail scope, proses, dan hasil masih menunggu konfirmasi owner sebelum dapat dipublikasikan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Placeholder — foto proyek belum tersedia untuk publikasi"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [
+        "loc-surabaya"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Proyek Serupa",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek dengan kebutuhan yang serupa dengan studi proyek kos di Surabaya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Wilayah Surabaya",
+        "href": "/wilayah/surabaya",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "project": {
+      "projectName": "Portofolio Kos Surabaya 2023-2026",
+      "disclosureName": "Portofolio kos multi-lokasi Surabaya",
+      "location": "Surabaya",
+      "sector": null,
+      "services": [],
+      "year": 2023,
+      "status": "ongoing",
+      "areaM2": null,
+      "budgetDisclosure": "confidential",
+      "clientPermission": false,
+      "factsVerified": false,
+      "outcomes": [
+        "[PENDING — isi hasil/testimoni setelah dikonfirmasi owner]"
+      ]
+    },
+    "collection": "projects",
+    "route": "/proyek/kos-surabaya-2023-2026",
+    "sourcePath": "content/projects/kos-surabaya-2023-2026.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Proyek",
+        "path": "/proyek"
+      },
+      {
+        "name": "Studi Proyek: Portofolio Kos Multi-Lokasi Surabaya (2023–2026)",
+        "path": "/proyek/kos-surabaya-2023-2026"
+      }
+    ],
+    "wordCount": 380,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/wilayah/surabaya"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "project-perumahan-karangploso-malang-2018",
+    "type": "project",
+    "status": "review",
+    "title": "Studi Proyek: Perumahan di Karangploso, Malang (2018)",
+    "slug": "perumahan-karangploso-malang-2018",
+    "description": "Studi proyek perumahan di Karangploso, Malang, tahun 2018. Ringkasan sedang disusun; sebagian besar detail masih menunggu konfirmasi dan izin publikasi dari klien.",
+    "excerpt": "Ringkasan awal proyek perumahan di Karangploso, Malang — data masih dalam proses verifikasi dan belum mendapat izin publikasi klien.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "proyek",
+    "tags": [
+      "studi-proyek",
+      "malang",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Studi Proyek",
+      "heading": "Perumahan di Karangploso, Malang (2018)",
+      "summary": "Ringkasan awal berdasarkan data yang tersedia. Sebagian besar detail scope, proses, dan hasil masih menunggu konfirmasi owner sebelum dapat dipublikasikan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Placeholder — foto proyek belum tersedia untuk publikasi"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [
+        "loc-malang"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Proyek Serupa",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek dengan kebutuhan yang serupa dengan studi proyek perumahan di Karangploso."
+      },
+      "secondaryCta": {
+        "label": "Lihat Wilayah Malang",
+        "href": "/wilayah/malang",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "project": {
+      "projectName": "Perumahan Karangploso Malang 2018",
+      "disclosureName": "Perumahan di Karangploso, Malang",
+      "location": "Karangploso, Malang",
+      "sector": null,
+      "services": [],
+      "year": 2018,
+      "status": "completed",
+      "areaM2": null,
+      "budgetDisclosure": "confidential",
+      "clientPermission": false,
+      "factsVerified": false,
+      "outcomes": [
+        "[PENDING — isi hasil/testimoni setelah dikonfirmasi owner]"
+      ]
+    },
+    "collection": "projects",
+    "route": "/proyek/perumahan-karangploso-malang-2018",
+    "sourcePath": "content/projects/perumahan-karangploso-malang-2018.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Proyek",
+        "path": "/proyek"
+      },
+      {
+        "name": "Studi Proyek: Perumahan di Karangploso, Malang (2018)",
+        "path": "/proyek/perumahan-karangploso-malang-2018"
+      }
+    ],
+    "wordCount": 282,
+    "readingMinutes": 1,
+    "internalLinks": [
+      "/wilayah/malang"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "project-rumah-tinggal-malang-kota-2019",
+    "type": "project",
+    "status": "review",
+    "title": "Studi Proyek: Rumah Tinggal di Malang Kota (2019)",
+    "slug": "rumah-tinggal-malang-kota-2019",
+    "description": "Studi proyek rumah tinggal di Malang Kota, tahun 2019. Ringkasan sedang disusun; sebagian besar detail masih menunggu konfirmasi dan izin publikasi dari klien.",
+    "excerpt": "Ringkasan awal proyek rumah tinggal di Malang Kota — data masih dalam proses verifikasi dan belum mendapat izin publikasi klien.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "proyek",
+    "tags": [
+      "studi-proyek",
+      "malang",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Studi Proyek",
+      "heading": "Rumah Tinggal di Malang Kota (2019)",
+      "summary": "Ringkasan awal berdasarkan data yang tersedia. Sebagian besar detail scope, proses, dan hasil masih menunggu konfirmasi owner sebelum dapat dipublikasikan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Placeholder — foto proyek belum tersedia untuk publikasi"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [
+        "loc-malang"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Proyek Serupa",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek dengan kebutuhan yang serupa dengan studi proyek rumah tinggal di Malang Kota."
+      },
+      "secondaryCta": {
+        "label": "Lihat Wilayah Malang",
+        "href": "/wilayah/malang",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "project": {
+      "projectName": "Rumah Tinggal Malang Kota 2019",
+      "disclosureName": "Rumah tinggal di Malang Kota",
+      "location": "Malang Kota",
+      "sector": null,
+      "services": [],
+      "year": 2019,
+      "status": "completed",
+      "areaM2": null,
+      "budgetDisclosure": "confidential",
+      "clientPermission": false,
+      "factsVerified": false,
+      "outcomes": [
+        "[PENDING — isi hasil/testimoni setelah dikonfirmasi owner]"
+      ]
+    },
+    "collection": "projects",
+    "route": "/proyek/rumah-tinggal-malang-kota-2019",
+    "sourcePath": "content/projects/rumah-tinggal-malang-kota-2019.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Proyek",
+        "path": "/proyek"
+      },
+      {
+        "name": "Studi Proyek: Rumah Tinggal di Malang Kota (2019)",
+        "path": "/proyek/rumah-tinggal-malang-kota-2019"
+      }
+    ],
+    "wordCount": 274,
+    "readingMinutes": 1,
+    "internalLinks": [
+      "/wilayah/malang"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "project-rumah-tinggal-solo-2024",
+    "type": "project",
+    "status": "review",
+    "title": "Studi Proyek: Rumah Tinggal di Solo (2024)",
+    "slug": "rumah-tinggal-solo-2024",
+    "description": "Studi proyek rumah tinggal di Solo, tahun 2024. Ringkasan sedang disusun; sebagian besar detail masih menunggu konfirmasi dan izin publikasi dari klien.",
+    "excerpt": "Ringkasan awal proyek rumah tinggal di Solo — data masih dalam proses verifikasi dan belum mendapat izin publikasi klien.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "proyek",
+    "tags": [
+      "studi-proyek",
+      "residensial"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Studi Proyek",
+      "heading": "Rumah Tinggal di Solo (2024)",
+      "summary": "Ringkasan awal berdasarkan data yang tersedia. Sebagian besar detail scope, proses, dan hasil masih menunggu konfirmasi owner sebelum dapat dipublikasikan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Placeholder — foto proyek belum tersedia untuk publikasi"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Proyek Serupa",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek dengan kebutuhan yang serupa dengan studi proyek rumah tinggal di Solo."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "project": {
+      "projectName": "Rumah Tinggal Solo 2024",
+      "disclosureName": "Rumah tinggal di Solo",
+      "location": "Solo",
+      "sector": null,
+      "services": [],
+      "year": 2024,
+      "status": "completed",
+      "areaM2": null,
+      "budgetDisclosure": "confidential",
+      "clientPermission": false,
+      "factsVerified": false,
+      "outcomes": [
+        "[PENDING — isi hasil/testimoni setelah dikonfirmasi owner]"
+      ]
+    },
+    "collection": "projects",
+    "route": "/proyek/rumah-tinggal-solo-2024",
+    "sourcePath": "content/projects/rumah-tinggal-solo-2024.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Proyek",
+        "path": "/proyek"
+      },
+      {
+        "name": "Studi Proyek: Rumah Tinggal di Solo (2024)",
+        "path": "/proyek/rumah-tinggal-solo-2024"
+      }
+    ],
+    "wordCount": 402,
+    "readingMinutes": 2,
+    "internalLinks": [],
     "isIndexable": false,
     "isFollowable": true
   }

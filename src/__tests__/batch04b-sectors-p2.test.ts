@@ -215,12 +215,18 @@ describe("Batch 04B — technical claim guardrails", () => {
     expect(body).toMatch(/tidak menyediakan desain sistem gas medis|batas peran/i);
   });
 
-  it("cafe dan restoran menyatakan batas peran Arkavena untuk kitchen consultant/peralatan F&B", () => {
+  it("cafe dan restoran menyatakan Arkavena menyediakan desain interior (termasuk dapur) namun tidak pengadaan peralatan F&B", () => {
     for (const slug of ["cafe", "restoran"] as const) {
       const body = readBody(slug);
-      expect(body).toMatch(/kitchen consultant/i);
-      expect(body).toMatch(/batas peran/i);
+      expect(body).toMatch(/desain interior/i);
+      expect(body).toMatch(/kitchen interior design/i);
+      expect(body).toMatch(/pengadaan peralatan (dapur\/produksi F&B|produksi)/i);
     }
+  });
+
+  it("restoran tetap menyatakan batas peran Arkavena untuk kitchen consultant (perencanaan alur kerja dapur)", () => {
+    const body = readBody("restoran");
+    expect(body).toMatch(/kitchen consultant/i);
   });
 
   it("hotel menyatakan batas peran Arkavena untuk FF&E dan brand standard", () => {
@@ -247,14 +253,27 @@ describe("Batch 04B — technical claim guardrails", () => {
 });
 
 describe("Batch 04B — scope-limiting claim register", () => {
-  it("sektor dengan klaim 'Arkavena tidak menyediakan X' terdaftar dan ditandai untuk konfirmasi owner terpisah sebelum promotion", () => {
+  it("klinik, hotel, showroom-retail menyatakan klaim 'Batas peran Arkavena pada sektor ini' dan ditandai untuk konfirmasi owner terpisah sebelum promotion", () => {
     // This is a documentation/tracking test, not a content-correctness
     // test: it keeps the register in this file in sync with the actual
     // set of scope-limiting-claim pages so a future promotion cannot
     // silently skip the extra owner-confirmation step.
-    for (const slug of SCOPE_LIMITING_CLAIM_SLUGS) {
+    for (const slug of ["klinik", "hotel", "showroom-retail"] as const) {
       const body = readBody(slug);
       expect(body).toMatch(/Batas peran Arkavena pada sektor ini/i);
+    }
+  });
+
+  it("cafe dan restoran (revisi owner 2026-07-28) menyatakan cakupan desain interior aktif namun tetap mengecualikan pengadaan peralatan F&B", () => {
+    // Owner correction: cafe/restoran no longer use the "Batas peran"
+    // exclusionary framing for interior design — Arkavena actively
+    // provides it. The equipment-procurement exclusion remains, now
+    // under an "info" tone Callout titled "Cakupan desain interior
+    // Arkavena pada sektor ini" rather than a "warning" tone.
+    for (const slug of ["cafe", "restoran"] as const) {
+      const body = readBody(slug);
+      expect(body).toMatch(/Cakupan desain interior Arkavena pada sektor ini/i);
+      expect(body).not.toMatch(/Batas peran Arkavena pada sektor ini/i);
     }
   });
 

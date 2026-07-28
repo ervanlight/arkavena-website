@@ -45,12 +45,18 @@ export function ContentBreadcrumbs({ trail }: { trail: BreadcrumbEntry[] }) {
 }
 
 /**
- * Preview-only marker so unpublished content can never be mistaken for a live
- * page. Hidden on production deployments.
+ * Marker so unpublished content can never be mistaken for a live, verified
+ * page. Batch 05 defect fix: this used to hide itself on production
+ * deployments (`VERCEL_ENV === "production"`), on the assumption that draft
+ * content would only ever be reached through a Vercel Preview URL. That
+ * assumption breaks once a batch merges review-status pages to `main` and
+ * deploys them to production directly-accessible-but-noindex (as opposed to
+ * indexed/published) — the badge must render in every environment whenever
+ * the page is not published, so a draft is never visually indistinguishable
+ * from an approved page.
  */
 export function DraftBadge({ item }: { item: ContentItem }) {
-  const isProductionDeployment = process.env.VERCEL_ENV === "production";
-  if (item.status === "published" || isProductionDeployment) return null;
+  if (item.status === "published") return null;
 
   return (
     <p className="mb-6 inline-flex items-center gap-2 rounded-full bg-[#A76B1F]/10 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-[#A76B1F]">
