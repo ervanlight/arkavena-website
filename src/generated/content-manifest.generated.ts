@@ -3663,7 +3663,9 @@ export const contentManifest: ContentItem[] = [
       "locations": [],
       "guides": [],
       "projects": [],
-      "pinnedRelated": [],
+      "pinnedRelated": [
+        "sec-villa"
+      ],
       "excludedRelated": []
     },
     "conversion": {
@@ -7328,7 +7330,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "guide-biaya-renovasi-rumah",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Biaya Renovasi Rumah: Kisaran per Kategori dan Faktor yang Mempengaruhinya",
     "slug": "biaya-renovasi-rumah",
     "description": "Kisaran biaya renovasi rumah per kategori — ringan, sedang, berat/total — beserta variabel yang mempengaruhinya dan mengapa renovasi berat bisa lebih mahal dari bangun baru.",
@@ -7346,9 +7348,9 @@ export const contentManifest: ContentItem[] = [
       "biaya",
       "residensial"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -7419,7 +7421,7 @@ export const contentManifest: ContentItem[] = [
         "accessedAt": "2026-07-28"
       }
     ],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "cost",
       "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
@@ -7453,7 +7455,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan/cara-menghitung-anggaran-renovasi-rumah",
       "/panduan/risiko-pembengkakan-biaya-renovasi"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -7696,7 +7698,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "guide-cara-memilih-kontraktor-renovasi",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Cara Memilih Kontraktor Renovasi Rumah",
     "slug": "cara-memilih-kontraktor-renovasi",
     "description": "Kriteria memilih kontraktor renovasi rumah — pengalaman menangani bangunan eksisting, cara kerja, dan hal yang perlu diperiksa sebelum menyepakati kontrak.",
@@ -7714,9 +7716,9 @@ export const contentManifest: ContentItem[] = [
       "kontrak",
       "perencanaan"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -7779,7 +7781,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "process",
       "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
@@ -7813,7 +7815,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan/risiko-pembengkakan-biaya-renovasi",
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -7941,7 +7943,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "guide-cara-menghitung-anggaran-renovasi-rumah",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Cara Menghitung Anggaran Renovasi Rumah",
     "slug": "cara-menghitung-anggaran-renovasi-rumah",
     "description": "Metode menyusun anggaran renovasi rumah — mulai dari menentukan ruang lingkup, mengidentifikasi kondisi eksisting, hingga menyisihkan cadangan untuk temuan tak terduga.",
@@ -7959,9 +7961,9 @@ export const contentManifest: ContentItem[] = [
       "biaya",
       "perencanaan"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -8026,7 +8028,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "process",
       "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
@@ -8062,7 +8064,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan/checklist-survei-sebelum-renovasi",
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -8308,7 +8310,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "guide-checklist-survei-sebelum-renovasi",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Checklist Survei Sebelum Renovasi Rumah",
     "slug": "checklist-survei-sebelum-renovasi",
     "description": "Checklist hal yang perlu diperiksa sebelum renovasi rumah dimulai — kondisi struktur, utilitas, area basah, hingga dokumen bangunan yang tersedia.",
@@ -8326,9 +8328,9 @@ export const contentManifest: ContentItem[] = [
       "perencanaan",
       "residensial"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -8392,7 +8394,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "checklist",
       "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
@@ -8426,7 +8428,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan/cara-memilih-kontraktor-renovasi",
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -8768,7 +8770,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "guide-memperkuat-struktur-rumah-lama",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Memperkuat Struktur Rumah Lama: Pertimbangan Umum",
     "slug": "memperkuat-struktur-rumah-lama",
     "description": "Pertimbangan umum seputar perkuatan struktur rumah lama — mengapa kajian teknis langsung diperlukan, dan apa yang biasanya menjadi bagian dari prosesnya.",
@@ -8786,11 +8788,11 @@ export const contentManifest: ContentItem[] = [
       "risiko",
       "residensial"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
-    "reviewedBy": null,
+    "reviewedBy": "ervanlight (owner)",
     "hero": {
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Memperkuat Struktur Rumah Lama: Proses Umum, Bukan Solusi Teknis Siap Pakai",
@@ -8851,7 +8853,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "explainer",
       "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
@@ -8884,14 +8886,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/renovasi-rumah-satu-jadi-dua-lantai",
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-renovasi-atap-bocor",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Renovasi Atap Bocor: Penyebab Umum dan Langkah Penanganan",
     "slug": "renovasi-atap-bocor",
     "description": "Penyebab umum atap bocor dan langkah penanganannya — termasuk indikasi yang memerlukan penanganan segera oleh profesional.",
@@ -8909,9 +8911,9 @@ export const contentManifest: ContentItem[] = [
       "risiko",
       "residensial"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -8974,7 +8976,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "explainer",
       "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
@@ -9007,14 +9009,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/checklist-survei-sebelum-renovasi",
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-renovasi-dapur",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Renovasi Dapur Rumah: Pertimbangan dan Tahapannya",
     "slug": "renovasi-dapur",
     "description": "Pertimbangan utama dan tahapan renovasi dapur rumah — tata letak, utilitas, ventilasi, dan koordinasi dengan aktivitas memasak harian.",
@@ -9032,9 +9034,9 @@ export const contentManifest: ContentItem[] = [
       "residensial",
       "mep"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -9097,7 +9099,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "process",
       "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
@@ -9129,14 +9131,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/renovasi-rumah-sambil-dihuni",
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-renovasi-fasad-rumah",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Renovasi Fasad Rumah: Pertimbangan dan Tahapannya",
     "slug": "renovasi-fasad-rumah",
     "description": "Pertimbangan utama dan tahapan renovasi fasad rumah — kondisi eksisting, material, waterproofing dinding luar, dan koordinasi dengan lingkungan sekitar.",
@@ -9154,9 +9156,9 @@ export const contentManifest: ContentItem[] = [
       "residensial",
       "arsitektur"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -9219,7 +9221,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "process",
       "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
@@ -9252,14 +9254,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/renovasi-atap-bocor",
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-renovasi-kamar-mandi",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Renovasi Kamar Mandi Rumah: Pertimbangan dan Tahapannya",
     "slug": "renovasi-kamar-mandi",
     "description": "Pertimbangan utama dan tahapan renovasi kamar mandi — waterproofing, tata letak, utilitas, dan langkah mengurangi risiko kebocoran setelah renovasi.",
@@ -9277,9 +9279,9 @@ export const contentManifest: ContentItem[] = [
       "residensial",
       "mep"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -9342,7 +9344,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "process",
       "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
@@ -9374,14 +9376,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/renovasi-rumah-sambil-dihuni",
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-renovasi-rumah-sambil-dihuni",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Renovasi Rumah Sambil Dihuni: Pertimbangan dan Batasannya",
     "slug": "renovasi-rumah-sambil-dihuni",
     "description": "Pertimbangan renovasi rumah sambil tetap dihuni — kapan hal ini memungkinkan, batasannya, dan dampaknya terhadap jadwal dan kenyamanan penghuni.",
@@ -9399,9 +9401,9 @@ export const contentManifest: ContentItem[] = [
       "perencanaan",
       "residensial"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -9465,7 +9467,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "explainer",
       "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
@@ -9499,14 +9501,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/checklist-survei-sebelum-renovasi",
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-renovasi-rumah-satu-jadi-dua-lantai",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Renovasi Rumah Satu Jadi Dua Lantai: Pertimbangan Utama",
     "slug": "renovasi-rumah-satu-jadi-dua-lantai",
     "description": "Pertimbangan utama sebelum menambah lantai pada rumah satu lantai — mengapa kajian struktur wajib dilakukan lebih dahulu, dan tahapan umum prosesnya.",
@@ -9524,11 +9526,11 @@ export const contentManifest: ContentItem[] = [
       "risiko",
       "residensial"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
-    "reviewedBy": null,
+    "reviewedBy": "ervanlight (owner)",
     "hero": {
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Menambah Lantai Rumah: Kajian Struktur Dulu, Baru Desain",
@@ -9590,7 +9592,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "process",
       "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
@@ -9623,14 +9625,14 @@ export const contentManifest: ContentItem[] = [
       "/layanan/renovasi-rumah",
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-renovasi-total-vs-renovasi-sebagian",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Renovasi Total vs Renovasi Sebagian: Cara Menentukan Skala Renovasi Rumah Anda",
     "slug": "renovasi-total-vs-renovasi-sebagian",
     "description": "Perbandingan renovasi total dan renovasi sebagian — kapan masing-masing masuk akal, apa yang memengaruhi keputusan ini, dan peta panduan renovasi rumah Arkavena.",
@@ -9648,9 +9650,9 @@ export const contentManifest: ContentItem[] = [
       "residensial",
       "perencanaan"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -9716,7 +9718,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "pillar",
       "pillar": null,
@@ -9759,14 +9761,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan/renovasi-rumah-sambil-dihuni",
       "/layanan/renovasi-rumah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "guide-risiko-pembengkakan-biaya-renovasi",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Risiko Pembengkakan Biaya Renovasi Rumah",
     "slug": "risiko-pembengkakan-biaya-renovasi",
     "description": "Sumber umum pembengkakan biaya pada proyek renovasi rumah, dan langkah mengelolanya sejak tahap perencanaan hingga pelaksanaan.",
@@ -9784,9 +9786,9 @@ export const contentManifest: ContentItem[] = [
       "biaya",
       "risiko"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -9851,7 +9853,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "explainer",
       "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
@@ -9885,7 +9887,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan/cara-menghitung-anggaran-renovasi-rumah",
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
@@ -10025,7 +10027,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "guide-tanda-rumah-perlu-perkuatan-struktur",
     "type": "guide",
-    "status": "review",
+    "status": "published",
     "title": "Tanda Rumah Perlu Perkuatan Struktur",
     "slug": "tanda-rumah-perlu-perkuatan-struktur",
     "description": "Indikasi umum yang perlu dikaji oleh insinyur struktur sebelum menentukan apakah rumah memerlukan perkuatan struktur — bukan panduan diagnosis atau perbaikan mandiri.",
@@ -10043,11 +10045,11 @@ export const contentManifest: ContentItem[] = [
       "risiko",
       "residensial"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
-    "reviewedBy": null,
+    "reviewedBy": "ervanlight (owner)",
     "hero": {
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Indikasi yang Perlu Dikaji Insinyur Struktur Sebelum Renovasi",
@@ -10109,7 +10111,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "article": {
       "articleType": "explainer",
       "pillar": "guide-renovasi-total-vs-renovasi-sebagian",
@@ -10143,7 +10145,7 @@ export const contentManifest: ContentItem[] = [
       "/panduan/checklist-survei-sebelum-renovasi",
       "/panduan/renovasi-total-vs-renovasi-sebagian"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {

@@ -161,13 +161,23 @@ describe("Batch 08 — content validation", () => {
     expect(dupeIssues.filter((i) => i.rule === "duplicate-route")).toEqual([]);
   });
 
-  it("seluruh halaman Batch 08 masih review/ownerVerified:false/publishedAt:null/reviewedBy:null (menunggu review owner)", () => {
+  it("seluruh halaman Batch 08 published/ownerVerified:true/publishedAt terisi (approved 2026-07-28)", () => {
     for (const item of b08) {
-      expect(item.status).toBe("review");
-      expect(item.ownerVerified).toBe(false);
-      expect(item.publishedAt).toBeNull();
+      expect(item.status).toBe("published");
+      expect(item.ownerVerified).toBe(true);
+      expect(item.publishedAt).not.toBeNull();
+      expect(item.isIndexable).toBe(true);
+    }
+  });
+
+  it("ketiga artikel struktural memiliki reviewedBy terisi setelah approval owner terpisah; guide lain tetap reviewedBy:null", () => {
+    for (const slug of STRUCTURAL_SLUGS) {
+      const item = b08.find((i) => i.slug === slug)!;
+      expect(item.reviewedBy).toBe("ervanlight (owner)");
+    }
+    for (const item of b08) {
+      if (STRUCTURAL_SLUGS.includes(item.slug as (typeof STRUCTURAL_SLUGS)[number])) continue;
       expect(item.reviewedBy).toBeNull();
-      expect(item.isIndexable).toBe(false);
     }
   });
 
@@ -360,11 +370,11 @@ describe("Batch 08 — structural-safety hard gate", () => {
 
   const DIMENSION_PATTERNS = [/\d+\s?(cm|mm)\b/i, /\d+\s?kg\b/i, /\d+\s?ton\b/i];
 
-  it("ketiga artikel struktural memiliki reviewedBy: null dan status: review (belum ada technical review)", () => {
+  it("ketiga artikel struktural memiliki reviewedBy terisi (technical review terpisah selesai, approved 2026-07-28) dan published", () => {
     for (const slug of STRUCTURAL_SLUGS) {
       const item = b08.find((i) => i.slug === slug)!;
-      expect(item.reviewedBy).toBeNull();
-      expect(item.status).toBe("review");
+      expect(item.reviewedBy).toBe("ervanlight (owner)");
+      expect(item.status).toBe("published");
     }
   });
 
@@ -443,10 +453,10 @@ describe("Batch 08 — technical and legal guardrails", () => {
 });
 
 describe("Batch 08 — metadata", () => {
-  it("seluruh 14 halaman Batch 08 menghasilkan noindex,follow (masih review)", () => {
+  it("seluruh 14 halaman Batch 08 menghasilkan index,follow (published sejak 2026-07-28)", () => {
     for (const item of b08) {
       const metadata = buildMetadata(item);
-      expect(metadata.robots).toMatchObject({ index: false, follow: true });
+      expect(metadata.robots).toMatchObject({ index: true, follow: true });
     }
   });
 
@@ -493,20 +503,20 @@ describe("Batch 08 — structured data", () => {
     }
   });
 
-  it("datePublished tidak muncul untuk halaman review (publishedAt null dihilangkan)", () => {
+  it("datePublished muncul untuk halaman published (publishedAt terisi)", () => {
     for (const item of b08) {
       const graph = buildJsonLdGraph(item) as unknown as { "@graph": Record<string, unknown>[] };
       const article = graph["@graph"].find((n) => n["@type"] === "Article");
-      expect(article).not.toHaveProperty("datePublished");
+      expect(article).toHaveProperty("datePublished");
     }
   });
 });
 
 describe("Batch 08 — sitemap and hub", () => {
-  it("halaman Batch 08 (masih review) tidak masuk sitemap", () => {
+  it("halaman Batch 08 (published sejak 2026-07-28) masuk sitemap", () => {
     const eligible = selectSitemapItems(items).map((item) => item.route);
     for (const item of b08) {
-      expect(eligible).not.toContain(item.route);
+      expect(eligible).toContain(item.route);
     }
   });
 });
