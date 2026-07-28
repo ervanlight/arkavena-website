@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T01:51:23.058Z",
+  "generatedAt": "2026-07-28T02:22:55.415Z",
   "nodes": {
     "page-cara-kerja": {
       "id": "page-cara-kerja",
@@ -15,6 +15,14 @@
       ],
       "inbound": [
         "guide-contoh-panduan",
+        "loc-gresik",
+        "loc-jawa-timur",
+        "loc-lamongan",
+        "loc-malang",
+        "loc-mojokerto",
+        "loc-pasuruan",
+        "loc-sidoarjo",
+        "loc-surabaya",
         "page-faq",
         "page-home",
         "page-konsultasi-proyek",
@@ -60,6 +68,7 @@
         "page-tentang"
       ],
       "inbound": [
+        "loc-jawa-timur",
         "page-cara-kerja",
         "page-home",
         "page-konsultasi-proyek",
@@ -212,6 +221,7 @@
         "page-sektor"
       ],
       "inbound": [
+        "loc-jawa-timur",
         "page-cara-kerja",
         "page-faq",
         "page-home",
@@ -253,6 +263,7 @@
         "page-tentang"
       ],
       "inbound": [
+        "loc-jawa-timur",
         "page-cara-kerja",
         "page-faq",
         "page-layanan",
@@ -292,6 +303,7 @@
         "page-tentang"
       ],
       "inbound": [
+        "loc-jawa-timur",
         "page-cara-kerja",
         "page-faq",
         "page-mengapa-arkavena",
@@ -456,6 +468,14 @@
         "page-sektor"
       ],
       "inbound": [
+        "loc-gresik",
+        "loc-jawa-timur",
+        "loc-lamongan",
+        "loc-malang",
+        "loc-mojokerto",
+        "loc-pasuruan",
+        "loc-sidoarjo",
+        "loc-surabaya",
         "page-home",
         "page-kontak",
         "page-tentang",
@@ -501,6 +521,14 @@
       "inbound": [
         "guide-contoh-panduan",
         "loc-contoh-wilayah",
+        "loc-sidoarjo",
+        "project-hunian-lamongan-2022",
+        "project-kos-dau-malang-2020",
+        "project-kos-sidoarjo-2023-2026",
+        "project-kos-surabaya-2023-2026",
+        "project-perumahan-karangploso-malang-2018",
+        "project-rumah-tinggal-malang-kota-2019",
+        "project-rumah-tinggal-solo-2024",
         "svc-bangun-rumah",
         "svc-contoh-layanan",
         "svc-estimasi-biaya-konstruksi",
@@ -546,6 +574,20 @@
       "inbound": [
         "guide-contoh-panduan",
         "loc-contoh-wilayah",
+        "loc-gresik",
+        "loc-lamongan",
+        "loc-malang",
+        "loc-mojokerto",
+        "loc-pasuruan",
+        "loc-sidoarjo",
+        "loc-surabaya",
+        "project-hunian-lamongan-2022",
+        "project-kos-dau-malang-2020",
+        "project-kos-sidoarjo-2023-2026",
+        "project-kos-surabaya-2023-2026",
+        "project-perumahan-karangploso-malang-2018",
+        "project-rumah-tinggal-malang-kota-2019",
+        "project-rumah-tinggal-solo-2024",
         "sec-gudang",
         "sec-kantor",
         "sec-kos",
@@ -594,6 +636,20 @@
       "inbound": [
         "guide-contoh-panduan",
         "loc-contoh-wilayah",
+        "loc-gresik",
+        "loc-lamongan",
+        "loc-malang",
+        "loc-mojokerto",
+        "loc-pasuruan",
+        "loc-sidoarjo",
+        "loc-surabaya",
+        "project-hunian-lamongan-2022",
+        "project-kos-dau-malang-2020",
+        "project-kos-sidoarjo-2023-2026",
+        "project-kos-surabaya-2023-2026",
+        "project-perumahan-karangploso-malang-2018",
+        "project-rumah-tinggal-malang-kota-2019",
+        "project-rumah-tinggal-solo-2024",
         "sec-rumah-tinggal",
         "svc-contoh-layanan",
         "svc-design-and-build"
@@ -633,6 +689,19 @@
       "inbound": [
         "guide-contoh-panduan",
         "loc-contoh-wilayah",
+        "loc-gresik",
+        "loc-lamongan",
+        "loc-malang",
+        "loc-mojokerto",
+        "loc-pasuruan",
+        "loc-surabaya",
+        "project-hunian-lamongan-2022",
+        "project-kos-dau-malang-2020",
+        "project-kos-sidoarjo-2023-2026",
+        "project-kos-surabaya-2023-2026",
+        "project-perumahan-karangploso-malang-2018",
+        "project-rumah-tinggal-malang-kota-2019",
+        "project-rumah-tinggal-solo-2024",
         "sec-kantor",
         "sec-kos",
         "svc-contoh-layanan",
@@ -737,6 +806,9 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "loc-lamongan",
+        "loc-malang",
+        "loc-mojokerto",
         "sec-gudang",
         "sec-kantor",
         "sec-kos",
@@ -854,6 +926,9 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "loc-gresik",
+        "loc-pasuruan",
+        "loc-surabaya",
         "sec-gudang",
         "sec-pabrik",
         "svc-audit-biaya-proyek",
@@ -901,6 +976,7 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "loc-gresik",
         "sec-pabrik",
         "svc-audit-biaya-proyek",
         "svc-estimasi-biaya-konstruksi",
@@ -944,6 +1020,13 @@
         "svc-pengendalian-jadwal-proyek"
       ],
       "inbound": [
+        "loc-gresik",
+        "loc-lamongan",
+        "loc-malang",
+        "loc-mojokerto",
+        "loc-pasuruan",
+        "loc-sidoarjo",
+        "loc-surabaya",
         "sec-gudang",
         "sec-kos",
         "sec-pabrik",
@@ -994,6 +1077,7 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "loc-sidoarjo",
         "sec-gudang",
         "sec-kantor",
         "sec-kos",
@@ -1080,6 +1164,7 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "loc-pasuruan",
         "sec-gudang",
         "sec-pabrik",
         "svc-pengawasan-proyek"
@@ -1184,6 +1269,7 @@
         "svc-pengendalian-biaya-proyek"
       ],
       "inbound": [
+        "loc-gresik",
         "sec-gudang",
         "sec-pabrik",
         "svc-interior-fit-out"
@@ -1262,6 +1348,11 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "loc-lamongan",
+        "loc-malang",
+        "loc-mojokerto",
+        "loc-sidoarjo",
+        "loc-surabaya",
         "sec-rumah-tinggal",
         "svc-design-and-build",
         "svc-renovasi-bangunan-komersial"
@@ -1378,6 +1469,8 @@
         "svc-quality-control-konstruksi"
       ],
       "inbound": [
+        "loc-gresik",
+        "loc-pasuruan",
         "sec-contoh-sektor",
         "sec-kantor",
         "sec-kos",
@@ -1424,6 +1517,7 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "loc-surabaya",
         "sec-contoh-sektor",
         "sec-gudang",
         "sec-kos",
@@ -1475,6 +1569,9 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "loc-malang",
+        "loc-sidoarjo",
+        "loc-surabaya",
         "sec-contoh-sektor",
         "sec-gudang",
         "sec-kantor",
@@ -1525,6 +1622,8 @@
         "svc-quality-control-konstruksi"
       ],
       "inbound": [
+        "loc-gresik",
+        "loc-pasuruan",
         "sec-contoh-sektor",
         "sec-gudang",
         "sec-kantor",
@@ -1570,6 +1669,8 @@
         "svc-renovasi-bangunan-komersial"
       ],
       "inbound": [
+        "loc-mojokerto",
+        "loc-sidoarjo",
         "sec-gudang",
         "sec-kantor",
         "sec-kos",
@@ -1615,6 +1716,12 @@
         "svc-value-engineering"
       ],
       "inbound": [
+        "loc-gresik",
+        "loc-lamongan",
+        "loc-malang",
+        "loc-mojokerto",
+        "loc-sidoarjo",
+        "loc-surabaya",
         "svc-bangun-rumah",
         "svc-renovasi-rumah"
       ],
@@ -1667,6 +1774,341 @@
         }
       ]
     },
+    "loc-gresik": {
+      "id": "loc-gresik",
+      "route": "/wilayah/gresik",
+      "type": "location",
+      "outbound": [
+        "loc-jawa-timur",
+        "page-cara-kerja",
+        "page-wilayah",
+        "sec-gudang",
+        "sec-pabrik",
+        "sec-rumah-tinggal",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-quality-control-konstruksi"
+      ],
+      "inbound": [
+        "loc-jawa-timur"
+      ],
+      "related": [
+        {
+          "id": "page-wilayah",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 14
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 14
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 14
+        }
+      ]
+    },
+    "loc-jawa-timur": {
+      "id": "loc-jawa-timur",
+      "route": "/wilayah/jawa-timur",
+      "type": "location",
+      "outbound": [
+        "loc-gresik",
+        "loc-lamongan",
+        "loc-malang",
+        "loc-mojokerto",
+        "loc-pasuruan",
+        "loc-sidoarjo",
+        "loc-surabaya",
+        "page-cara-kerja",
+        "page-faq",
+        "page-layanan",
+        "page-mengapa-arkavena",
+        "page-panduan",
+        "page-wilayah"
+      ],
+      "inbound": [
+        "loc-gresik",
+        "loc-lamongan",
+        "loc-malang",
+        "loc-mojokerto",
+        "loc-pasuruan",
+        "loc-sidoarjo",
+        "loc-surabaya"
+      ],
+      "related": [
+        {
+          "id": "page-wilayah",
+          "score": 20
+        },
+        {
+          "id": "page-cara-kerja",
+          "score": 2
+        },
+        {
+          "id": "page-faq",
+          "score": 2
+        },
+        {
+          "id": "page-mengapa-arkavena",
+          "score": 2
+        }
+      ]
+    },
+    "loc-lamongan": {
+      "id": "loc-lamongan",
+      "route": "/wilayah/lamongan",
+      "type": "location",
+      "outbound": [
+        "loc-jawa-timur",
+        "page-cara-kerja",
+        "page-wilayah",
+        "project-hunian-lamongan-2022",
+        "sec-rumah-tinggal",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "loc-jawa-timur",
+        "project-hunian-lamongan-2022"
+      ],
+      "related": [
+        {
+          "id": "page-wilayah",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 14
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 14
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 14
+        }
+      ]
+    },
+    "loc-malang": {
+      "id": "loc-malang",
+      "route": "/wilayah/malang",
+      "type": "location",
+      "outbound": [
+        "loc-jawa-timur",
+        "page-cara-kerja",
+        "page-wilayah",
+        "project-kos-dau-malang-2020",
+        "project-perumahan-karangploso-malang-2018",
+        "project-rumah-tinggal-malang-kota-2019",
+        "sec-kos",
+        "sec-rumah-tinggal",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "loc-jawa-timur",
+        "project-kos-dau-malang-2020",
+        "project-perumahan-karangploso-malang-2018",
+        "project-rumah-tinggal-malang-kota-2019"
+      ],
+      "related": [
+        {
+          "id": "page-wilayah",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 14
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 14
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 14
+        }
+      ]
+    },
+    "loc-mojokerto": {
+      "id": "loc-mojokerto",
+      "route": "/wilayah/mojokerto",
+      "type": "location",
+      "outbound": [
+        "loc-jawa-timur",
+        "page-cara-kerja",
+        "page-wilayah",
+        "sec-ruko",
+        "sec-rumah-tinggal",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "loc-jawa-timur"
+      ],
+      "related": [
+        {
+          "id": "page-wilayah",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 14
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 14
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 14
+        }
+      ]
+    },
+    "loc-pasuruan": {
+      "id": "loc-pasuruan",
+      "route": "/wilayah/pasuruan",
+      "type": "location",
+      "outbound": [
+        "loc-jawa-timur",
+        "page-cara-kerja",
+        "page-wilayah",
+        "sec-gudang",
+        "sec-pabrik",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-jadwal-proyek"
+      ],
+      "inbound": [
+        "loc-jawa-timur"
+      ],
+      "related": [
+        {
+          "id": "page-wilayah",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 14
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 14
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 14
+        }
+      ]
+    },
+    "loc-sidoarjo": {
+      "id": "loc-sidoarjo",
+      "route": "/wilayah/sidoarjo",
+      "type": "location",
+      "outbound": [
+        "loc-jawa-timur",
+        "page-cara-kerja",
+        "page-wilayah",
+        "project-kos-sidoarjo-2023-2026",
+        "sec-kos",
+        "sec-ruko",
+        "sec-rumah-tinggal",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-pengawasan-proyek",
+        "svc-pengendalian-biaya-proyek",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "loc-jawa-timur",
+        "project-kos-sidoarjo-2023-2026"
+      ],
+      "related": [
+        {
+          "id": "page-wilayah",
+          "score": 20
+        },
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 14
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 14
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 14
+        }
+      ]
+    },
+    "loc-surabaya": {
+      "id": "loc-surabaya",
+      "route": "/wilayah/surabaya",
+      "type": "location",
+      "outbound": [
+        "loc-jawa-timur",
+        "page-cara-kerja",
+        "page-wilayah",
+        "project-kos-surabaya-2023-2026",
+        "sec-kantor",
+        "sec-kos",
+        "sec-rumah-tinggal",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek",
+        "svc-renovasi-rumah"
+      ],
+      "inbound": [
+        "loc-jawa-timur",
+        "project-kos-surabaya-2023-2026"
+      ],
+      "related": [
+        {
+          "id": "page-wilayah",
+          "score": 20
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 14
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 14
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 14
+        }
+      ]
+    },
     "guide-contoh-panduan": {
       "id": "guide-contoh-panduan",
       "route": "/panduan/contoh-panduan",
@@ -1695,6 +2137,234 @@
         {
           "id": "svc-building-maintenance",
           "score": 8
+        }
+      ]
+    },
+    "project-hunian-lamongan-2022": {
+      "id": "project-hunian-lamongan-2022",
+      "route": "/proyek/hunian-lamongan-2022",
+      "type": "project",
+      "outbound": [
+        "loc-lamongan",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance"
+      ],
+      "inbound": [
+        "loc-lamongan"
+      ],
+      "related": [
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 7
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 7
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 7
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 7
+        }
+      ]
+    },
+    "project-kos-dau-malang-2020": {
+      "id": "project-kos-dau-malang-2020",
+      "route": "/proyek/kos-dau-malang-2020",
+      "type": "project",
+      "outbound": [
+        "loc-malang",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance"
+      ],
+      "inbound": [
+        "loc-malang"
+      ],
+      "related": [
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 7
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 7
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 7
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 7
+        }
+      ]
+    },
+    "project-kos-sidoarjo-2023-2026": {
+      "id": "project-kos-sidoarjo-2023-2026",
+      "route": "/proyek/kos-sidoarjo-2023-2026",
+      "type": "project",
+      "outbound": [
+        "loc-sidoarjo",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance"
+      ],
+      "inbound": [
+        "loc-sidoarjo"
+      ],
+      "related": [
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 7
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 7
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 7
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 7
+        }
+      ]
+    },
+    "project-kos-surabaya-2023-2026": {
+      "id": "project-kos-surabaya-2023-2026",
+      "route": "/proyek/kos-surabaya-2023-2026",
+      "type": "project",
+      "outbound": [
+        "loc-surabaya",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance"
+      ],
+      "inbound": [
+        "loc-surabaya"
+      ],
+      "related": [
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 7
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 7
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 7
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 7
+        }
+      ]
+    },
+    "project-perumahan-karangploso-malang-2018": {
+      "id": "project-perumahan-karangploso-malang-2018",
+      "route": "/proyek/perumahan-karangploso-malang-2018",
+      "type": "project",
+      "outbound": [
+        "loc-malang",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance"
+      ],
+      "inbound": [
+        "loc-malang"
+      ],
+      "related": [
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 7
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 7
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 7
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 7
+        }
+      ]
+    },
+    "project-rumah-tinggal-malang-kota-2019": {
+      "id": "project-rumah-tinggal-malang-kota-2019",
+      "route": "/proyek/rumah-tinggal-malang-kota-2019",
+      "type": "project",
+      "outbound": [
+        "loc-malang",
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance"
+      ],
+      "inbound": [
+        "loc-malang"
+      ],
+      "related": [
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 7
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 7
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 7
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 7
+        }
+      ]
+    },
+    "project-rumah-tinggal-solo-2024": {
+      "id": "project-rumah-tinggal-solo-2024",
+      "route": "/proyek/rumah-tinggal-solo-2024",
+      "type": "project",
+      "outbound": [
+        "svc-audit-biaya-proyek",
+        "svc-bangun-bangunan-komersial",
+        "svc-bangun-rumah",
+        "svc-building-maintenance"
+      ],
+      "inbound": [],
+      "related": [
+        {
+          "id": "svc-audit-biaya-proyek",
+          "score": 7
+        },
+        {
+          "id": "svc-bangun-bangunan-komersial",
+          "score": 7
+        },
+        {
+          "id": "svc-bangun-rumah",
+          "score": 7
+        },
+        {
+          "id": "svc-building-maintenance",
+          "score": 7
         }
       ]
     }

@@ -4936,6 +4936,1110 @@ export const contentManifest: ContentItem[] = [
   },
   {
     "schemaVersion": 1,
+    "id": "loc-gresik",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi dan Pengendalian Proyek di Gresik",
+    "slug": "gresik",
+    "description": "Arkavena melayani kebutuhan pembangunan, renovasi, pengawasan, dan pengendalian proyek di Gresik sesuai ruang lingkup yang disepakati.",
+    "excerpt": "Pendekatan konstruksi dan pengendalian proyek untuk kebutuhan rumah, bangunan komersial, dan fasilitas industri di Gresik.",
+    "seoTitle": "Kontraktor Gresik dan Pengendalian Proyek | Arkavena",
+    "primaryKeyword": "kontraktor Gresik",
+    "secondaryKeywords": [
+      "jasa konstruksi Gresik",
+      "kontraktor pabrik Gresik"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "wilayah",
+    "tags": [
+      "gresik",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Gresik",
+      "heading": "Pendampingan Proyek di Gresik dengan Scope dan Pengendalian yang Jelas",
+      "summary": "Arkavena mendukung kebutuhan proyek di Gresik melalui layanan yang disesuaikan dengan jenis bangunan, tahap proyek, dan mandat owner.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi area layanan proyek Arkavena di Gresik"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-manajemen-konstruksi",
+        "svc-owner-representative",
+        "svc-pengawasan-proyek",
+        "svc-quality-control-konstruksi"
+      ],
+      "sectors": [
+        "sec-pabrik",
+        "sec-gudang",
+        "sec-rumah-tinggal"
+      ],
+      "locations": [
+        "loc-jawa-timur"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Gresik",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Gresik."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Gresik termasuk area layanan Arkavena?",
+        "answer": "Gresik termasuk salah satu area yang tercantum di halaman wilayah layanan Arkavena, tetapi detail cakupan dan batas area menunggu konfirmasi lebih lanjut dari owner sebelum halaman ini dipublikasikan."
+      },
+      {
+        "question": "Apakah Arkavena menangani proyek industri di Gresik?",
+        "answer": "[PENDING — owner belum konfirmasi apakah ada pengalaman proyek industri/pabrik spesifik di Gresik. Sektor pabrik tersedia sebagai layanan umum, bukan bukti proyek yang sudah pernah dikerjakan di kota ini.]"
+      },
+      {
+        "question": "Apakah ada studi proyek dari Gresik yang bisa dilihat?",
+        "answer": "Belum ada data proyek nyata dari Gresik yang tersedia untuk batch konten ini. Halaman ini tetap dibuat sebagai draft struktural, bukan bukti pengalaman proyek."
+      },
+      {
+        "question": "Bagaimana Arkavena menentukan mobilisasi tim untuk proyek di Gresik?",
+        "answer": "[PENDING — owner belum konfirmasi kebijakan mobilisasi spesifik untuk area Gresik.]"
+      },
+      {
+        "question": "Apakah kondisi lahan di kawasan industri Gresik memerlukan pertimbangan khusus?",
+        "answer": "[PENDING — klaim kondisi lahan atau kawasan industri Gresik memerlukan dasar verifikasi dari owner sebelum dipublikasikan.]"
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi proyek di Gresik?",
+        "answer": "Konsultasi dapat dimulai melalui WhatsApp atau halaman konsultasi proyek, dengan menyampaikan lokasi, jenis bangunan, dan kebutuhan awal proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Gresik",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "Gresik dan area sekitarnya",
+      "localChallenges": [
+        "[PENDING — local consideration 1: owner belum isi kondisi/tantangan lokal spesifik Gresik]",
+        "[PENDING — local consideration 2: owner belum isi]",
+        "[PENDING — local consideration 3: owner belum isi]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/operasional untuk area Gresik menunggu input owner]"
+      ],
+      "localProjectRefs": [],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/gresik",
+    "sourcePath": "content/locations/gresik.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi dan Pengendalian Proyek di Gresik",
+        "path": "/wilayah/gresik"
+      }
+    ],
+    "wordCount": 338,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/manajemen-konstruksi",
+      "/layanan/owner-representative",
+      "/layanan/pengawasan-proyek",
+      "/layanan/quality-control-konstruksi",
+      "/cara-kerja",
+      "/wilayah/jawa-timur"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "loc-jawa-timur",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi Arkavena di Jawa Timur",
+    "slug": "jawa-timur",
+    "description": "Arkavena memprioritaskan layanan konstruksi dan pengendalian proyek di sejumlah kota Jawa Timur, dengan cakupan area yang dievaluasi berdasarkan lokasi dan kebutuhan mobilisasi.",
+    "excerpt": "Halaman induk wilayah Jawa Timur yang menghubungkan kota-kota area layanan Arkavena — bukan klaim cakupan seluruh provinsi tanpa batas.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "wilayah",
+    "tags": [
+      "jawa-timur",
+      "korporat"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Jawa Timur",
+      "heading": "Cakupan Layanan Arkavena di Jawa Timur",
+      "summary": "Arkavena memprioritaskan layanan di sejumlah kota Jawa Timur. Kebutuhan di area lain dievaluasi berdasarkan lokasi, ruang lingkup, dan kebutuhan mobilisasi.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi peta abstrak wilayah Jawa Timur tanpa penanda kantor cabang"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [
+        "loc-surabaya",
+        "loc-sidoarjo",
+        "loc-gresik",
+        "loc-mojokerto",
+        "loc-pasuruan",
+        "loc-lamongan",
+        "loc-malang"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Jawa Timur",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Jawa Timur."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Jawa Timur",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "[PENDING — owner belum konfirmasi daftar final kota area layanan Jawa Timur]",
+      "localChallenges": [
+        "[PENDING — owner belum isi tantangan/kondisi lintas-wilayah Jawa Timur yang relevan untuk halaman induk ini]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/evaluasi cakupan regional menunggu input owner]"
+      ],
+      "localProjectRefs": [],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/jawa-timur",
+    "sourcePath": "content/locations/jawa-timur.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi Arkavena di Jawa Timur",
+        "path": "/wilayah/jawa-timur"
+      }
+    ],
+    "wordCount": 352,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/panduan",
+      "/layanan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "loc-lamongan",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi dan Pengendalian Proyek di Lamongan",
+    "slug": "lamongan",
+    "description": "Arkavena melayani kebutuhan pembangunan, renovasi, pengawasan, dan pengendalian proyek di Lamongan sesuai ruang lingkup yang disepakati.",
+    "excerpt": "Pendekatan konstruksi dan pengendalian proyek untuk kebutuhan hunian dan bangunan komersial di Lamongan.",
+    "seoTitle": "Kontraktor Lamongan dan Pengendalian Proyek | Arkavena",
+    "primaryKeyword": "kontraktor Lamongan",
+    "secondaryKeywords": [
+      "jasa konstruksi Lamongan",
+      "pengawasan proyek Lamongan"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "wilayah",
+    "tags": [
+      "lamongan",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Lamongan",
+      "heading": "Pendampingan Proyek di Lamongan dengan Scope dan Pengendalian yang Jelas",
+      "summary": "Arkavena mendukung kebutuhan proyek di Lamongan melalui layanan yang disesuaikan dengan jenis bangunan, tahap proyek, dan mandat owner.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi area layanan proyek Arkavena di Lamongan"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal"
+      ],
+      "locations": [
+        "loc-jawa-timur"
+      ],
+      "guides": [],
+      "projects": [
+        "project-hunian-lamongan-2022"
+      ],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Lamongan",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Lamongan."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Lamongan termasuk area layanan Arkavena?",
+        "answer": "Lamongan termasuk salah satu area yang tercantum di halaman wilayah layanan Arkavena, tetapi detail cakupan dan batas area menunggu konfirmasi lebih lanjut dari owner sebelum halaman ini dipublikasikan."
+      },
+      {
+        "question": "Apakah ada studi proyek dari Lamongan yang bisa dilihat?",
+        "answer": "Ada data proyek hunian di Lamongan (2022) yang sedang disusun sebagai studi proyek, tetapi belum mendapat izin publikasi klien — lihat halaman studi proyek terkait untuk status terkini."
+      },
+      {
+        "question": "Bagaimana Arkavena menentukan mobilisasi tim untuk proyek di Lamongan?",
+        "answer": "[PENDING — owner belum konfirmasi kebijakan mobilisasi spesifik untuk area Lamongan.]"
+      },
+      {
+        "question": "Apakah jarak Lamongan dari pusat operasional memengaruhi biaya mobilisasi?",
+        "answer": "[PENDING — klaim mengenai biaya atau waktu mobilisasi memerlukan dasar verifikasi dari owner sebelum dipublikasikan.]"
+      },
+      {
+        "question": "Jenis proyek apa yang paling relevan untuk area Lamongan?",
+        "answer": "[PENDING — owner belum konfirmasi jenis proyek target spesifik untuk Lamongan di luar data proyek hunian yang sudah ada.]"
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi proyek di Lamongan?",
+        "answer": "Konsultasi dapat dimulai melalui WhatsApp atau halaman konsultasi proyek, dengan menyampaikan lokasi, jenis bangunan, dan kebutuhan awal proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Lamongan",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "Lamongan dan area sekitarnya",
+      "localChallenges": [
+        "[PENDING — local consideration 1: owner belum isi kondisi/tantangan lokal spesifik Lamongan]",
+        "[PENDING — local consideration 2: owner belum isi]",
+        "[PENDING — local consideration 3: owner belum isi]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/operasional untuk area Lamongan menunggu input owner]"
+      ],
+      "localProjectRefs": [
+        "Studi proyek: Hunian di Lamongan (2022) — /proyek/hunian-lamongan-2022 (draft, belum ada izin publikasi klien)"
+      ],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/lamongan",
+    "sourcePath": "content/locations/lamongan.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi dan Pengendalian Proyek di Lamongan",
+        "path": "/wilayah/lamongan"
+      }
+    ],
+    "wordCount": 306,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/layanan/renovasi-rumah",
+      "/layanan/design-and-build",
+      "/layanan/pengawasan-proyek",
+      "/cara-kerja",
+      "/wilayah/jawa-timur"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "loc-malang",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi dan Pengendalian Proyek di Malang",
+    "slug": "malang",
+    "description": "Arkavena melayani kebutuhan pembangunan, renovasi, pengawasan, dan pengendalian proyek di Malang sesuai ruang lingkup yang disepakati.",
+    "excerpt": "Pendekatan konstruksi dan pengendalian proyek untuk kebutuhan perumahan, rumah tinggal, dan kos di area Malang.",
+    "seoTitle": "Kontraktor Malang dan Pengendalian Proyek | Arkavena",
+    "primaryKeyword": "kontraktor Malang",
+    "secondaryKeywords": [
+      "jasa konstruksi Malang",
+      "kontraktor rumah Malang"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "wilayah",
+    "tags": [
+      "malang",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Malang",
+      "heading": "Pendampingan Proyek di Malang dengan Scope dan Pengendalian yang Jelas",
+      "summary": "Arkavena mendukung kebutuhan proyek di Malang melalui layanan yang disesuaikan dengan jenis bangunan, tahap proyek, dan mandat owner.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi area layanan proyek Arkavena di Malang"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal",
+        "sec-kos"
+      ],
+      "locations": [
+        "loc-jawa-timur"
+      ],
+      "guides": [],
+      "projects": [
+        "project-perumahan-karangploso-malang-2018",
+        "project-rumah-tinggal-malang-kota-2019",
+        "project-kos-dau-malang-2020"
+      ],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Malang",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Malang."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Malang termasuk area layanan resmi Arkavena?",
+        "answer": "Malang belum tercantum di halaman wilayah layanan Arkavena yang sudah published. Halaman ini dibuat sebagai draft karena tersedia beberapa data proyek nyata di Malang, tetapi status Malang sebagai area layanan resmi masih menunggu konfirmasi eksplisit owner sebelum dipublikasikan."
+      },
+      {
+        "question": "Proyek apa saja yang pernah dikerjakan Arkavena di Malang?",
+        "answer": "Ada tiga data proyek di area Malang: perumahan di Karangploso (2018), rumah tinggal di Malang Kota (2019), dan kos-kosan di Dau (2020). Ketiganya sedang disusun sebagai studi proyek dan belum mendapat izin publikasi klien."
+      },
+      {
+        "question": "Apakah Karangploso, Malang Kota, dan Dau termasuk kecamatan yang berbeda?",
+        "answer": "Ya, ketiganya adalah area berbeda di sekitar Malang. Halaman ini tidak membuat halaman kecamatan terpisah — detail lokasi masing-masing proyek dijelaskan di halaman studi proyek terkait."
+      },
+      {
+        "question": "Bagaimana Arkavena menentukan mobilisasi tim untuk proyek di Malang?",
+        "answer": "[PENDING — owner belum konfirmasi kebijakan mobilisasi spesifik untuk area Malang.]"
+      },
+      {
+        "question": "Apakah kondisi lahan di Malang memerlukan pertimbangan khusus dibanding kota lain?",
+        "answer": "[PENDING — klaim kondisi lahan spesifik Malang, misalnya terkait kontur atau ketinggian, memerlukan dasar verifikasi dari owner sebelum dipublikasikan.]"
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi proyek di Malang?",
+        "answer": "Konsultasi dapat dimulai melalui WhatsApp atau halaman konsultasi proyek, dengan menyampaikan lokasi, jenis bangunan, dan kebutuhan awal proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Malang",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "[PENDING — Malang belum tercantum di /wilayah published; areaServedLabel final menunggu keputusan owner apakah Malang menjadi area layanan resmi]",
+      "localChallenges": [
+        "[PENDING — local consideration 1: owner belum isi kondisi/tantangan lokal spesifik Malang]",
+        "[PENDING — local consideration 2: owner belum isi]",
+        "[PENDING — local consideration 3: owner belum isi]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/operasional untuk area Malang menunggu input owner, termasuk apakah Malang dilayani dari basis operasional yang sama dengan kota-kota Jawa Timur lain]"
+      ],
+      "localProjectRefs": [
+        "Studi proyek: Perumahan di Karangploso, Malang (2018) — /proyek/perumahan-karangploso-malang-2018 (draft, belum ada izin publikasi klien)",
+        "Studi proyek: Rumah tinggal di Malang Kota (2019) — /proyek/rumah-tinggal-malang-kota-2019 (draft, belum ada izin publikasi klien)",
+        "Studi proyek: Kos-kosan di Dau, Malang (2020) — /proyek/kos-dau-malang-2020 (draft, belum ada izin publikasi klien)"
+      ],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/malang",
+    "sourcePath": "content/locations/malang.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi dan Pengendalian Proyek di Malang",
+        "path": "/wilayah/malang"
+      }
+    ],
+    "wordCount": 381,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/layanan/renovasi-rumah",
+      "/layanan/design-and-build",
+      "/layanan/pengawasan-proyek",
+      "/cara-kerja",
+      "/wilayah/jawa-timur"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "loc-mojokerto",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi dan Pengendalian Proyek di Mojokerto",
+    "slug": "mojokerto",
+    "description": "Arkavena melayani kebutuhan pembangunan, renovasi, pengawasan, dan pengendalian proyek di Mojokerto sesuai ruang lingkup yang disepakati.",
+    "excerpt": "Pendekatan konstruksi dan pengendalian proyek untuk kebutuhan rumah dan bangunan komersial di Mojokerto.",
+    "seoTitle": "Kontraktor Mojokerto dan Pengendalian Proyek | Arkavena",
+    "primaryKeyword": "kontraktor Mojokerto",
+    "secondaryKeywords": [
+      "jasa konstruksi Mojokerto",
+      "pengawasan proyek Mojokerto"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "wilayah",
+    "tags": [
+      "mojokerto",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Mojokerto",
+      "heading": "Pendampingan Proyek di Mojokerto dengan Scope dan Pengendalian yang Jelas",
+      "summary": "Arkavena mendukung kebutuhan proyek di Mojokerto melalui layanan yang disesuaikan dengan jenis bangunan, tahap proyek, dan mandat owner.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi area layanan proyek Arkavena di Mojokerto"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-design-and-build",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal",
+        "sec-ruko"
+      ],
+      "locations": [
+        "loc-jawa-timur"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Mojokerto",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Mojokerto."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Mojokerto termasuk area layanan Arkavena?",
+        "answer": "Mojokerto termasuk salah satu area yang tercantum di halaman wilayah layanan Arkavena, tetapi detail cakupan dan batas area menunggu konfirmasi lebih lanjut dari owner sebelum halaman ini dipublikasikan."
+      },
+      {
+        "question": "Apakah ada studi proyek dari Mojokerto yang bisa dilihat?",
+        "answer": "Belum ada data proyek nyata dari Mojokerto yang tersedia untuk batch konten ini. Halaman ini tetap dibuat sebagai draft struktural, bukan bukti pengalaman proyek."
+      },
+      {
+        "question": "Bagaimana Arkavena menentukan mobilisasi tim untuk proyek di Mojokerto?",
+        "answer": "[PENDING — owner belum konfirmasi kebijakan mobilisasi spesifik untuk area Mojokerto.]"
+      },
+      {
+        "question": "Jenis proyek apa yang relevan untuk area Mojokerto?",
+        "answer": "[PENDING — owner belum konfirmasi jenis proyek target spesifik untuk Mojokerto di luar katalog layanan umum.]"
+      },
+      {
+        "question": "Apakah desain dan pelaksanaan proyek dapat dikoordinasikan dalam satu alur untuk proyek di Mojokerto?",
+        "answer": "Layanan design and build tersedia dan dapat digunakan di area Mojokerto seperti area layanan lain, dengan ruang lingkup yang ditentukan pada tahap konsultasi."
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi proyek di Mojokerto?",
+        "answer": "Konsultasi dapat dimulai melalui WhatsApp atau halaman konsultasi proyek, dengan menyampaikan lokasi, jenis bangunan, dan kebutuhan awal proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Mojokerto",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "Mojokerto dan area sekitarnya",
+      "localChallenges": [
+        "[PENDING — local consideration 1: owner belum isi kondisi/tantangan lokal spesifik Mojokerto]",
+        "[PENDING — local consideration 2: owner belum isi]",
+        "[PENDING — local consideration 3: owner belum isi]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/operasional untuk area Mojokerto menunggu input owner]"
+      ],
+      "localProjectRefs": [],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/mojokerto",
+    "sourcePath": "content/locations/mojokerto.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi dan Pengendalian Proyek di Mojokerto",
+        "path": "/wilayah/mojokerto"
+      }
+    ],
+    "wordCount": 321,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/layanan/renovasi-rumah",
+      "/layanan/design-and-build",
+      "/layanan/pengawasan-proyek",
+      "/cara-kerja",
+      "/wilayah/jawa-timur"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "loc-pasuruan",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi dan Pengendalian Proyek di Pasuruan",
+    "slug": "pasuruan",
+    "description": "Arkavena melayani kebutuhan pembangunan, renovasi, pengawasan, dan pengendalian proyek di Pasuruan sesuai ruang lingkup yang disepakati.",
+    "excerpt": "Pendekatan konstruksi dan pengendalian proyek untuk kebutuhan rumah, bangunan komersial, dan fasilitas industri di Pasuruan.",
+    "seoTitle": "Kontraktor Pasuruan dan Pengendalian Proyek | Arkavena",
+    "primaryKeyword": "kontraktor Pasuruan",
+    "secondaryKeywords": [
+      "jasa konstruksi Pasuruan",
+      "kontraktor pabrik Pasuruan"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "wilayah",
+    "tags": [
+      "pasuruan",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Pasuruan",
+      "heading": "Pendampingan Proyek di Pasuruan dengan Scope dan Pengendalian yang Jelas",
+      "summary": "Arkavena mendukung kebutuhan proyek di Pasuruan melalui layanan yang disesuaikan dengan jenis bangunan, tahap proyek, dan mandat owner.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi area layanan proyek Arkavena di Pasuruan"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-bangunan-komersial",
+        "svc-manajemen-konstruksi",
+        "svc-pengendalian-jadwal-proyek",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [
+        "sec-pabrik",
+        "sec-gudang"
+      ],
+      "locations": [
+        "loc-jawa-timur"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Pasuruan",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Pasuruan."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Pasuruan termasuk area layanan Arkavena?",
+        "answer": "Pasuruan termasuk salah satu area yang tercantum di halaman wilayah layanan Arkavena, tetapi detail cakupan dan batas area menunggu konfirmasi lebih lanjut dari owner sebelum halaman ini dipublikasikan."
+      },
+      {
+        "question": "Apakah Arkavena menangani proyek pabrik atau gudang di Pasuruan?",
+        "answer": "[PENDING — owner belum konfirmasi apakah ada pengalaman proyek pabrik/gudang spesifik di Pasuruan. Sektor pabrik dan gudang tersedia sebagai layanan umum, bukan bukti proyek yang sudah pernah dikerjakan di kota ini.]"
+      },
+      {
+        "question": "Apakah ada studi proyek dari Pasuruan yang bisa dilihat?",
+        "answer": "Belum ada data proyek nyata dari Pasuruan yang tersedia untuk batch konten ini. Halaman ini tetap dibuat sebagai draft struktural, bukan bukti pengalaman proyek."
+      },
+      {
+        "question": "Bagaimana Arkavena menentukan mobilisasi tim untuk proyek di Pasuruan?",
+        "answer": "[PENDING — owner belum konfirmasi kebijakan mobilisasi spesifik untuk area Pasuruan.]"
+      },
+      {
+        "question": "Apakah kawasan industri di Pasuruan memerlukan koordinasi jadwal khusus?",
+        "answer": "[PENDING — klaim spesifik mengenai kawasan industri Pasuruan memerlukan dasar verifikasi dari owner sebelum dipublikasikan.]"
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi proyek di Pasuruan?",
+        "answer": "Konsultasi dapat dimulai melalui WhatsApp atau halaman konsultasi proyek, dengan menyampaikan lokasi, jenis bangunan, dan kebutuhan awal proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Pasuruan",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "Pasuruan dan area sekitarnya",
+      "localChallenges": [
+        "[PENDING — local consideration 1: owner belum isi kondisi/tantangan lokal spesifik Pasuruan]",
+        "[PENDING — local consideration 2: owner belum isi]",
+        "[PENDING — local consideration 3: owner belum isi]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/operasional untuk area Pasuruan menunggu input owner]"
+      ],
+      "localProjectRefs": [],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/pasuruan",
+    "sourcePath": "content/locations/pasuruan.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi dan Pengendalian Proyek di Pasuruan",
+        "path": "/wilayah/pasuruan"
+      }
+    ],
+    "wordCount": 332,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/manajemen-konstruksi",
+      "/layanan/pengendalian-jadwal-proyek",
+      "/layanan/pengawasan-proyek",
+      "/cara-kerja",
+      "/wilayah/jawa-timur"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "loc-sidoarjo",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi dan Pengendalian Proyek di Sidoarjo",
+    "slug": "sidoarjo",
+    "description": "Arkavena melayani kebutuhan pembangunan, renovasi, pengawasan, dan pengendalian proyek di Sidoarjo sesuai ruang lingkup yang disepakati.",
+    "excerpt": "Pendekatan konstruksi dan pengendalian proyek untuk kebutuhan rumah, bangunan komersial, dan properti kos di Sidoarjo.",
+    "seoTitle": "Kontraktor Sidoarjo dan Pengendalian Proyek | Arkavena",
+    "primaryKeyword": "kontraktor Sidoarjo",
+    "secondaryKeywords": [
+      "jasa konstruksi Sidoarjo",
+      "pengawasan proyek Sidoarjo"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "wilayah",
+    "tags": [
+      "sidoarjo",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Sidoarjo",
+      "heading": "Pendampingan Proyek di Sidoarjo dengan Scope dan Pengendalian yang Jelas",
+      "summary": "Arkavena mendukung kebutuhan proyek di Sidoarjo melalui layanan yang disesuaikan dengan jenis bangunan, tahap proyek, dan mandat owner.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi area layanan proyek Arkavena di Sidoarjo"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-bangun-bangunan-komersial",
+        "svc-pengendalian-biaya-proyek",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal",
+        "sec-kos",
+        "sec-ruko"
+      ],
+      "locations": [
+        "loc-jawa-timur"
+      ],
+      "guides": [],
+      "projects": [
+        "project-kos-sidoarjo-2023-2026"
+      ],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Sidoarjo",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Sidoarjo."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Sidoarjo termasuk area layanan tetap Arkavena?",
+        "answer": "Sidoarjo termasuk salah satu area yang tercantum di halaman wilayah layanan Arkavena, tetapi detail cakupan dan batas area menunggu konfirmasi lebih lanjut dari owner sebelum halaman ini dipublikasikan."
+      },
+      {
+        "question": "Apakah ada studi proyek dari Sidoarjo yang bisa dilihat?",
+        "answer": "Ada data proyek kos multi-lokasi di Sidoarjo (2023–2026) yang sedang disusun sebagai studi proyek, tetapi belum mendapat izin publikasi klien."
+      },
+      {
+        "question": "Bagaimana Arkavena menentukan mobilisasi tim untuk proyek di Sidoarjo?",
+        "answer": "[PENDING — owner belum konfirmasi kebijakan mobilisasi spesifik untuk area Sidoarjo.]"
+      },
+      {
+        "question": "Apakah ada pertimbangan khusus untuk properti kos di Sidoarjo?",
+        "answer": "[PENDING — owner belum konfirmasi pertimbangan lokal spesifik untuk properti kos di Sidoarjo di luar panduan umum sektor kos.]"
+      },
+      {
+        "question": "Layanan apa saja yang tersedia untuk proyek di Sidoarjo?",
+        "answer": "Layanan yang tersedia mengikuti katalog layanan Arkavena secara umum — pemilihan layanan spesifik bergantung pada jenis dan ruang lingkup proyek yang dibahas pada tahap konsultasi."
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi proyek di Sidoarjo?",
+        "answer": "Konsultasi dapat dimulai melalui WhatsApp atau halaman konsultasi proyek, dengan menyampaikan lokasi, jenis bangunan, dan kebutuhan awal proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Sidoarjo",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "Sidoarjo dan area sekitarnya",
+      "localChallenges": [
+        "[PENDING — local consideration 1: owner belum isi kondisi/tantangan lokal spesifik Sidoarjo]",
+        "[PENDING — local consideration 2: owner belum isi]",
+        "[PENDING — local consideration 3: owner belum isi]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/operasional untuk area Sidoarjo menunggu input owner]"
+      ],
+      "localProjectRefs": [
+        "Studi proyek: Portofolio Kos Multi-Lokasi Sidoarjo (2023–2026) — /proyek/kos-sidoarjo-2023-2026 (draft, belum ada izin publikasi klien)"
+      ],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/sidoarjo",
+    "sourcePath": "content/locations/sidoarjo.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi dan Pengendalian Proyek di Sidoarjo",
+        "path": "/wilayah/sidoarjo"
+      }
+    ],
+    "wordCount": 335,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/layanan/renovasi-rumah",
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/pengendalian-biaya-proyek",
+      "/layanan/pengawasan-proyek",
+      "/cara-kerja",
+      "/wilayah/jawa-timur"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "loc-surabaya",
+    "type": "location",
+    "status": "review",
+    "title": "Layanan Konstruksi dan Pengendalian Proyek di Surabaya",
+    "slug": "surabaya",
+    "description": "Arkavena melayani kebutuhan pembangunan, renovasi, pengawasan, dan pengendalian proyek di Surabaya sesuai ruang lingkup yang disepakati.",
+    "excerpt": "Pendekatan konstruksi dan pengendalian proyek untuk kebutuhan rumah, bangunan komersial, maintenance, dan manajemen proyek di Surabaya.",
+    "seoTitle": "Kontraktor Surabaya dan Pengendalian Proyek | Arkavena",
+    "primaryKeyword": "kontraktor Surabaya",
+    "secondaryKeywords": [
+      "jasa konstruksi Surabaya",
+      "pengawasan proyek Surabaya"
+    ],
+    "searchIntent": "transactional",
+    "cluster": "wilayah",
+    "tags": [
+      "surabaya",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Wilayah Surabaya",
+      "heading": "Pendampingan Proyek di Surabaya dengan Scope dan Pengendalian yang Jelas",
+      "summary": "Arkavena mendukung kebutuhan proyek di Surabaya melalui layanan yang disesuaikan dengan jenis bangunan, tahap proyek, dan mandat owner.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi area layanan proyek Arkavena di Surabaya"
+    },
+    "relationships": {
+      "services": [
+        "svc-bangun-rumah",
+        "svc-renovasi-rumah",
+        "svc-bangun-bangunan-komersial",
+        "svc-manajemen-konstruksi",
+        "svc-pengawasan-proyek"
+      ],
+      "sectors": [
+        "sec-rumah-tinggal",
+        "sec-kos",
+        "sec-kantor"
+      ],
+      "locations": [
+        "loc-jawa-timur"
+      ],
+      "guides": [],
+      "projects": [
+        "project-kos-surabaya-2023-2026"
+      ],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Proyek di Surabaya",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana proyek di Surabaya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena punya kantor di Surabaya?",
+        "answer": "[PENDING — owner belum konfirmasi apakah Surabaya adalah lokasi kantor fisik atau murni area layanan. Jangan diasumsikan ada kantor tanpa bukti alamat terverifikasi.]"
+      },
+      {
+        "question": "Jenis proyek apa yang paling sering ditangani Arkavena di Surabaya?",
+        "answer": "[PENDING — owner belum konfirmasi jenis proyek target di Surabaya secara spesifik di luar data proyek kos yang sudah ada.]"
+      },
+      {
+        "question": "Apakah ada proyek yang sudah dikerjakan Arkavena di Surabaya?",
+        "answer": "Ada data proyek kos multi-lokasi di Surabaya (2023–2026) yang sedang disusun sebagai studi proyek, tetapi belum mendapat izin publikasi klien — lihat halaman studi proyek terkait untuk status terkini."
+      },
+      {
+        "question": "Bagaimana proses survei lokasi di Surabaya dilakukan?",
+        "answer": "[PENDING — owner belum konfirmasi proses survei/akses lokasi yang berlaku untuk area Surabaya.]"
+      },
+      {
+        "question": "Apakah kondisi lahan di Surabaya memengaruhi jenis pondasi yang digunakan?",
+        "answer": "[PENDING — klaim kondisi tanah/lahan spesifik Surabaya memerlukan dasar verifikasi dari owner sebelum dipublikasikan.]"
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi proyek di Surabaya?",
+        "answer": "Konsultasi dapat dimulai melalui WhatsApp atau halaman konsultasi proyek, dengan menyampaikan lokasi, jenis bangunan, dan kebutuhan awal proyek Anda."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "location": {
+      "city": "Surabaya",
+      "province": "Jawa Timur",
+      "country": "Indonesia",
+      "areaServedLabel": "Surabaya dan area sekitarnya",
+      "localChallenges": [
+        "[PENDING — local consideration 1: owner belum isi kondisi/tantangan lokal spesifik Surabaya, contoh: kondisi lahan, akses lokasi, atau pola proyek yang umum di area ini]",
+        "[PENDING — local consideration 2: owner belum isi]",
+        "[PENDING — local consideration 3: owner belum isi]"
+      ],
+      "logisticsNotes": [
+        "[PENDING — catatan mobilisasi/operasional untuk area Surabaya menunggu input owner]"
+      ],
+      "localProjectRefs": [
+        "Studi proyek: Portofolio Kos Multi-Lokasi Surabaya (2023–2026) — /proyek/kos-surabaya-2023-2026 (draft, belum ada izin publikasi klien)"
+      ],
+      "localFactsVerified": false
+    },
+    "collection": "locations",
+    "route": "/wilayah/surabaya",
+    "sourcePath": "content/locations/surabaya.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Wilayah",
+        "path": "/wilayah"
+      },
+      {
+        "name": "Layanan Konstruksi dan Pengendalian Proyek di Surabaya",
+        "path": "/wilayah/surabaya"
+      }
+    ],
+    "wordCount": 359,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/layanan/bangun-rumah",
+      "/layanan/renovasi-rumah",
+      "/layanan/bangun-bangunan-komersial",
+      "/layanan/manajemen-konstruksi",
+      "/layanan/pengawasan-proyek",
+      "/cara-kerja",
+      "/wilayah/jawa-timur"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
     "id": "guide-contoh-panduan",
     "type": "guide",
     "status": "draft",
@@ -5030,6 +6134,694 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [
       "/cara-kerja"
     ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "project-hunian-lamongan-2022",
+    "type": "project",
+    "status": "review",
+    "title": "Studi Proyek: Hunian di Lamongan (2022)",
+    "slug": "hunian-lamongan-2022",
+    "description": "Studi proyek hunian di Lamongan, tahun 2022. Ringkasan sedang disusun; sebagian besar detail masih menunggu konfirmasi dan izin publikasi dari klien.",
+    "excerpt": "Ringkasan awal proyek hunian di Lamongan — data masih dalam proses verifikasi dan belum mendapat izin publikasi klien.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "proyek",
+    "tags": [
+      "studi-proyek",
+      "lamongan",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Studi Proyek",
+      "heading": "Hunian di Lamongan (2022)",
+      "summary": "Ringkasan awal berdasarkan data yang tersedia. Sebagian besar detail scope, proses, dan hasil masih menunggu konfirmasi owner sebelum dapat dipublikasikan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Placeholder — foto proyek belum tersedia untuk publikasi"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [
+        "loc-lamongan"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Proyek Serupa",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek dengan kebutuhan yang serupa dengan studi proyek hunian di Lamongan."
+      },
+      "secondaryCta": {
+        "label": "Lihat Wilayah Lamongan",
+        "href": "/wilayah/lamongan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "project": {
+      "projectName": "Hunian Lamongan 2022",
+      "disclosureName": "Hunian di Lamongan",
+      "location": "Lamongan",
+      "sector": null,
+      "services": [],
+      "year": 2022,
+      "status": "completed",
+      "areaM2": null,
+      "budgetDisclosure": "confidential",
+      "clientPermission": false,
+      "factsVerified": false,
+      "outcomes": [
+        "[PENDING — isi hasil/testimoni setelah dikonfirmasi owner]"
+      ]
+    },
+    "collection": "projects",
+    "route": "/proyek/hunian-lamongan-2022",
+    "sourcePath": "content/projects/hunian-lamongan-2022.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Proyek",
+        "path": "/proyek"
+      },
+      {
+        "name": "Studi Proyek: Hunian di Lamongan (2022)",
+        "path": "/proyek/hunian-lamongan-2022"
+      }
+    ],
+    "wordCount": 301,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/wilayah/lamongan"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "project-kos-dau-malang-2020",
+    "type": "project",
+    "status": "review",
+    "title": "Studi Proyek: Kos-Kosan di Dau, Malang (2020)",
+    "slug": "kos-dau-malang-2020",
+    "description": "Studi proyek kos-kosan di Dau, Malang, tahun 2020. Ringkasan sedang disusun; sebagian besar detail masih menunggu konfirmasi dan izin publikasi dari klien.",
+    "excerpt": "Ringkasan awal proyek kos-kosan di Dau, Malang — data masih dalam proses verifikasi dan belum mendapat izin publikasi klien.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "proyek",
+    "tags": [
+      "studi-proyek",
+      "malang",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Studi Proyek",
+      "heading": "Kos-Kosan di Dau, Malang (2020)",
+      "summary": "Ringkasan awal berdasarkan data yang tersedia. Sebagian besar detail scope, proses, dan hasil masih menunggu konfirmasi owner sebelum dapat dipublikasikan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Placeholder — foto proyek belum tersedia untuk publikasi"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [
+        "loc-malang"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Proyek Serupa",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek dengan kebutuhan yang serupa dengan studi proyek kos-kosan di Dau, Malang."
+      },
+      "secondaryCta": {
+        "label": "Lihat Wilayah Malang",
+        "href": "/wilayah/malang",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "project": {
+      "projectName": "Kos Dau Malang 2020",
+      "disclosureName": "Kos-kosan di Dau, Malang",
+      "location": "Dau, Malang",
+      "sector": null,
+      "services": [],
+      "year": 2020,
+      "status": "completed",
+      "areaM2": null,
+      "budgetDisclosure": "confidential",
+      "clientPermission": false,
+      "factsVerified": false,
+      "outcomes": [
+        "[PENDING — isi hasil/testimoni setelah dikonfirmasi owner]"
+      ]
+    },
+    "collection": "projects",
+    "route": "/proyek/kos-dau-malang-2020",
+    "sourcePath": "content/projects/kos-dau-malang-2020.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Proyek",
+        "path": "/proyek"
+      },
+      {
+        "name": "Studi Proyek: Kos-Kosan di Dau, Malang (2020)",
+        "path": "/proyek/kos-dau-malang-2020"
+      }
+    ],
+    "wordCount": 286,
+    "readingMinutes": 1,
+    "internalLinks": [
+      "/wilayah/malang"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "project-kos-sidoarjo-2023-2026",
+    "type": "project",
+    "status": "review",
+    "title": "Studi Proyek: Portofolio Kos Multi-Lokasi Sidoarjo (2023–2026)",
+    "slug": "kos-sidoarjo-2023-2026",
+    "description": "Studi proyek portofolio beberapa titik rumah kos di Sidoarjo, periode 2023–2026. Sebagian besar detail masih menunggu konfirmasi dan izin publikasi klien.",
+    "excerpt": "Ringkasan awal portofolio kos multi-lokasi di Sidoarjo — data masih dalam proses verifikasi dan belum mendapat izin publikasi klien.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "proyek",
+    "tags": [
+      "studi-proyek",
+      "sidoarjo",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Studi Proyek",
+      "heading": "Portofolio Kos Multi-Lokasi Sidoarjo (2023–2026)",
+      "summary": "Ringkasan awal berdasarkan data yang tersedia. Sebagian besar detail scope, proses, dan hasil masih menunggu konfirmasi owner sebelum dapat dipublikasikan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Placeholder — foto proyek belum tersedia untuk publikasi"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [
+        "loc-sidoarjo"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Proyek Serupa",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek dengan kebutuhan yang serupa dengan studi proyek kos di Sidoarjo."
+      },
+      "secondaryCta": {
+        "label": "Lihat Wilayah Sidoarjo",
+        "href": "/wilayah/sidoarjo",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "project": {
+      "projectName": "Portofolio Kos Sidoarjo 2023-2026",
+      "disclosureName": "Portofolio kos multi-lokasi Sidoarjo",
+      "location": "Sidoarjo",
+      "sector": null,
+      "services": [],
+      "year": 2023,
+      "status": "ongoing",
+      "areaM2": null,
+      "budgetDisclosure": "confidential",
+      "clientPermission": false,
+      "factsVerified": false,
+      "outcomes": [
+        "[PENDING — isi hasil/testimoni setelah dikonfirmasi owner]"
+      ]
+    },
+    "collection": "projects",
+    "route": "/proyek/kos-sidoarjo-2023-2026",
+    "sourcePath": "content/projects/kos-sidoarjo-2023-2026.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Proyek",
+        "path": "/proyek"
+      },
+      {
+        "name": "Studi Proyek: Portofolio Kos Multi-Lokasi Sidoarjo (2023–2026)",
+        "path": "/proyek/kos-sidoarjo-2023-2026"
+      }
+    ],
+    "wordCount": 380,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/wilayah/sidoarjo"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "project-kos-surabaya-2023-2026",
+    "type": "project",
+    "status": "review",
+    "title": "Studi Proyek: Portofolio Kos Multi-Lokasi Surabaya (2023–2026)",
+    "slug": "kos-surabaya-2023-2026",
+    "description": "Studi proyek portofolio beberapa titik rumah kos di Surabaya, periode 2023–2026. Sebagian besar detail masih menunggu konfirmasi dan izin publikasi klien.",
+    "excerpt": "Ringkasan awal portofolio kos multi-lokasi di Surabaya — data masih dalam proses verifikasi dan belum mendapat izin publikasi klien.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "proyek",
+    "tags": [
+      "studi-proyek",
+      "surabaya",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Studi Proyek",
+      "heading": "Portofolio Kos Multi-Lokasi Surabaya (2023–2026)",
+      "summary": "Ringkasan awal berdasarkan data yang tersedia. Sebagian besar detail scope, proses, dan hasil masih menunggu konfirmasi owner sebelum dapat dipublikasikan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Placeholder — foto proyek belum tersedia untuk publikasi"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [
+        "loc-surabaya"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Proyek Serupa",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek dengan kebutuhan yang serupa dengan studi proyek kos di Surabaya."
+      },
+      "secondaryCta": {
+        "label": "Lihat Wilayah Surabaya",
+        "href": "/wilayah/surabaya",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "project": {
+      "projectName": "Portofolio Kos Surabaya 2023-2026",
+      "disclosureName": "Portofolio kos multi-lokasi Surabaya",
+      "location": "Surabaya",
+      "sector": null,
+      "services": [],
+      "year": 2023,
+      "status": "ongoing",
+      "areaM2": null,
+      "budgetDisclosure": "confidential",
+      "clientPermission": false,
+      "factsVerified": false,
+      "outcomes": [
+        "[PENDING — isi hasil/testimoni setelah dikonfirmasi owner]"
+      ]
+    },
+    "collection": "projects",
+    "route": "/proyek/kos-surabaya-2023-2026",
+    "sourcePath": "content/projects/kos-surabaya-2023-2026.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Proyek",
+        "path": "/proyek"
+      },
+      {
+        "name": "Studi Proyek: Portofolio Kos Multi-Lokasi Surabaya (2023–2026)",
+        "path": "/proyek/kos-surabaya-2023-2026"
+      }
+    ],
+    "wordCount": 380,
+    "readingMinutes": 2,
+    "internalLinks": [
+      "/wilayah/surabaya"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "project-perumahan-karangploso-malang-2018",
+    "type": "project",
+    "status": "review",
+    "title": "Studi Proyek: Perumahan di Karangploso, Malang (2018)",
+    "slug": "perumahan-karangploso-malang-2018",
+    "description": "Studi proyek perumahan di Karangploso, Malang, tahun 2018. Ringkasan sedang disusun; sebagian besar detail masih menunggu konfirmasi dan izin publikasi dari klien.",
+    "excerpt": "Ringkasan awal proyek perumahan di Karangploso, Malang — data masih dalam proses verifikasi dan belum mendapat izin publikasi klien.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "proyek",
+    "tags": [
+      "studi-proyek",
+      "malang",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Studi Proyek",
+      "heading": "Perumahan di Karangploso, Malang (2018)",
+      "summary": "Ringkasan awal berdasarkan data yang tersedia. Sebagian besar detail scope, proses, dan hasil masih menunggu konfirmasi owner sebelum dapat dipublikasikan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Placeholder — foto proyek belum tersedia untuk publikasi"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [
+        "loc-malang"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Proyek Serupa",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek dengan kebutuhan yang serupa dengan studi proyek perumahan di Karangploso."
+      },
+      "secondaryCta": {
+        "label": "Lihat Wilayah Malang",
+        "href": "/wilayah/malang",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "project": {
+      "projectName": "Perumahan Karangploso Malang 2018",
+      "disclosureName": "Perumahan di Karangploso, Malang",
+      "location": "Karangploso, Malang",
+      "sector": null,
+      "services": [],
+      "year": 2018,
+      "status": "completed",
+      "areaM2": null,
+      "budgetDisclosure": "confidential",
+      "clientPermission": false,
+      "factsVerified": false,
+      "outcomes": [
+        "[PENDING — isi hasil/testimoni setelah dikonfirmasi owner]"
+      ]
+    },
+    "collection": "projects",
+    "route": "/proyek/perumahan-karangploso-malang-2018",
+    "sourcePath": "content/projects/perumahan-karangploso-malang-2018.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Proyek",
+        "path": "/proyek"
+      },
+      {
+        "name": "Studi Proyek: Perumahan di Karangploso, Malang (2018)",
+        "path": "/proyek/perumahan-karangploso-malang-2018"
+      }
+    ],
+    "wordCount": 282,
+    "readingMinutes": 1,
+    "internalLinks": [
+      "/wilayah/malang"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "project-rumah-tinggal-malang-kota-2019",
+    "type": "project",
+    "status": "review",
+    "title": "Studi Proyek: Rumah Tinggal di Malang Kota (2019)",
+    "slug": "rumah-tinggal-malang-kota-2019",
+    "description": "Studi proyek rumah tinggal di Malang Kota, tahun 2019. Ringkasan sedang disusun; sebagian besar detail masih menunggu konfirmasi dan izin publikasi dari klien.",
+    "excerpt": "Ringkasan awal proyek rumah tinggal di Malang Kota — data masih dalam proses verifikasi dan belum mendapat izin publikasi klien.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "proyek",
+    "tags": [
+      "studi-proyek",
+      "malang",
+      "jawa-timur"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Studi Proyek",
+      "heading": "Rumah Tinggal di Malang Kota (2019)",
+      "summary": "Ringkasan awal berdasarkan data yang tersedia. Sebagian besar detail scope, proses, dan hasil masih menunggu konfirmasi owner sebelum dapat dipublikasikan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Placeholder — foto proyek belum tersedia untuk publikasi"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [
+        "loc-malang"
+      ],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Proyek Serupa",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek dengan kebutuhan yang serupa dengan studi proyek rumah tinggal di Malang Kota."
+      },
+      "secondaryCta": {
+        "label": "Lihat Wilayah Malang",
+        "href": "/wilayah/malang",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "project": {
+      "projectName": "Rumah Tinggal Malang Kota 2019",
+      "disclosureName": "Rumah tinggal di Malang Kota",
+      "location": "Malang Kota",
+      "sector": null,
+      "services": [],
+      "year": 2019,
+      "status": "completed",
+      "areaM2": null,
+      "budgetDisclosure": "confidential",
+      "clientPermission": false,
+      "factsVerified": false,
+      "outcomes": [
+        "[PENDING — isi hasil/testimoni setelah dikonfirmasi owner]"
+      ]
+    },
+    "collection": "projects",
+    "route": "/proyek/rumah-tinggal-malang-kota-2019",
+    "sourcePath": "content/projects/rumah-tinggal-malang-kota-2019.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Proyek",
+        "path": "/proyek"
+      },
+      {
+        "name": "Studi Proyek: Rumah Tinggal di Malang Kota (2019)",
+        "path": "/proyek/rumah-tinggal-malang-kota-2019"
+      }
+    ],
+    "wordCount": 274,
+    "readingMinutes": 1,
+    "internalLinks": [
+      "/wilayah/malang"
+    ],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "project-rumah-tinggal-solo-2024",
+    "type": "project",
+    "status": "review",
+    "title": "Studi Proyek: Rumah Tinggal di Solo (2024)",
+    "slug": "rumah-tinggal-solo-2024",
+    "description": "Studi proyek rumah tinggal di Solo, tahun 2024. Ringkasan sedang disusun; sebagian besar detail masih menunggu konfirmasi dan izin publikasi dari klien.",
+    "excerpt": "Ringkasan awal proyek rumah tinggal di Solo — data masih dalam proses verifikasi dan belum mendapat izin publikasi klien.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "informational",
+    "cluster": "proyek",
+    "tags": [
+      "studi-proyek",
+      "residensial"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Studi Proyek",
+      "heading": "Rumah Tinggal di Solo (2024)",
+      "summary": "Ringkasan awal berdasarkan data yang tersedia. Sebagian besar detail scope, proses, dan hasil masih menunggu konfirmasi owner sebelum dapat dipublikasikan.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Placeholder — foto proyek belum tersedia untuk publikasi"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Diskusikan Proyek Serupa",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai proyek dengan kebutuhan yang serupa dengan studi proyek rumah tinggal di Solo."
+      },
+      "secondaryCta": {
+        "label": "Lihat Cakupan Layanan",
+        "href": "/layanan",
+        "whatsappMessage": null
+      }
+    },
+    "faq": [],
+    "sources": [],
+    "ownerVerified": false,
+    "project": {
+      "projectName": "Rumah Tinggal Solo 2024",
+      "disclosureName": "Rumah tinggal di Solo",
+      "location": "Solo",
+      "sector": null,
+      "services": [],
+      "year": 2024,
+      "status": "completed",
+      "areaM2": null,
+      "budgetDisclosure": "confidential",
+      "clientPermission": false,
+      "factsVerified": false,
+      "outcomes": [
+        "[PENDING — isi hasil/testimoni setelah dikonfirmasi owner]"
+      ]
+    },
+    "collection": "projects",
+    "route": "/proyek/rumah-tinggal-solo-2024",
+    "sourcePath": "content/projects/rumah-tinggal-solo-2024.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Proyek",
+        "path": "/proyek"
+      },
+      {
+        "name": "Studi Proyek: Rumah Tinggal di Solo (2024)",
+        "path": "/proyek/rumah-tinggal-solo-2024"
+      }
+    ],
+    "wordCount": 402,
+    "readingMinutes": 2,
+    "internalLinks": [],
     "isIndexable": false,
     "isFollowable": true
   }
