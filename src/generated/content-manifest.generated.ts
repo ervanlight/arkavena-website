@@ -3975,7 +3975,7 @@ export const contentManifest: ContentItem[] = [
     "schemaVersion": 1,
     "id": "sec-gudang",
     "type": "sector",
-    "status": "review",
+    "status": "published",
     "title": "Konstruksi Gudang dengan Perencanaan Fungsi, Akses, dan Risiko",
     "slug": "gudang",
     "description": "Layanan konstruksi dan pengendalian proyek gudang Arkavena dengan perhatian pada fungsi penyimpanan, akses kendaraan, lantai, utilitas, biaya, jadwal, dan risiko.",
@@ -3992,9 +3992,9 @@ export const contentManifest: ContentItem[] = [
       "industri",
       "struktur"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -4065,7 +4065,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "sector": {
       "buildingType": "Gudang",
       "primaryUseCases": [
@@ -4115,14 +4115,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan",
       "/wilayah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "sec-kantor",
     "type": "sector",
-    "status": "review",
+    "status": "published",
     "title": "Kontraktor Kantor untuk Ruang Kerja yang Fleksibel dan Fungsional",
     "slug": "kantor",
     "description": "Layanan konstruksi, renovasi, dan fit-out kantor Arkavena dengan perhatian pada pola kerja, sirkulasi, teknologi, kenyamanan, dan operasional yang tetap berjalan.",
@@ -4139,9 +4139,9 @@ export const contentManifest: ContentItem[] = [
       "komersial",
       "arsitektur"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -4211,7 +4211,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "sector": {
       "buildingType": "Kantor",
       "primaryUseCases": [
@@ -4259,14 +4259,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan",
       "/wilayah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "sec-kos",
     "type": "sector",
-    "status": "review",
+    "status": "published",
     "title": "Kontraktor Kos dengan Perencanaan Unit dan Operasional",
     "slug": "kos",
     "description": "Layanan konstruksi dan pengendalian proyek bangunan kos Arkavena dengan perhatian pada efisiensi unit, privasi, utilitas, dan kebutuhan pengelola.",
@@ -4283,9 +4283,9 @@ export const contentManifest: ContentItem[] = [
       "residensial",
       "komersial"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -4355,7 +4355,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "sector": {
       "buildingType": "Bangunan Kos",
       "primaryUseCases": [
@@ -4403,14 +4403,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan",
       "/wilayah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "sec-pabrik",
     "type": "sector",
-    "status": "review",
+    "status": "published",
     "title": "Kontraktor Pabrik untuk Bangunan Produksi dan Fasilitas Industri",
     "slug": "pabrik",
     "description": "Layanan konstruksi dan pengendalian proyek pabrik Arkavena dengan perhatian pada workflow produksi, utilitas, keselamatan, logistik, dan koordinasi dengan spesialis proses.",
@@ -4427,9 +4427,9 @@ export const contentManifest: ContentItem[] = [
       "industri",
       "mep"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -4500,7 +4500,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "sector": {
       "buildingType": "Pabrik",
       "primaryUseCases": [
@@ -4549,14 +4549,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan",
       "/wilayah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "sec-ruko",
     "type": "sector",
-    "status": "review",
+    "status": "published",
     "title": "Kontraktor Ruko dengan Perencanaan Fungsi Usaha dan Bangunan",
     "slug": "ruko",
     "description": "Layanan konstruksi dan pengendalian proyek ruko Arkavena dengan perhatian pada fungsi usaha, akses pengunjung, utilitas, dan fleksibilitas tenant.",
@@ -4573,9 +4573,9 @@ export const contentManifest: ContentItem[] = [
       "komersial",
       "struktur"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -4645,7 +4645,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "sector": {
       "buildingType": "Ruko",
       "primaryUseCases": [
@@ -4695,14 +4695,14 @@ export const contentManifest: ContentItem[] = [
       "/panduan",
       "/wilayah"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
     "schemaVersion": 1,
     "id": "sec-rumah-tinggal",
     "type": "sector",
-    "status": "review",
+    "status": "published",
     "title": "Kontraktor Rumah Tinggal dengan Pengendalian Proyek yang Terukur",
     "slug": "rumah-tinggal",
     "description": "Layanan konstruksi dan pengendalian proyek rumah tinggal Arkavena dengan perhatian pada kebutuhan penghuni, ruang, privasi, biaya, mutu, dan jadwal.",
@@ -4719,9 +4719,9 @@ export const contentManifest: ContentItem[] = [
       "residensial",
       "perencanaan"
     ],
-    "publishedAt": null,
-    "updatedAt": null,
-    "lastReviewedAt": null,
+    "publishedAt": "2026-07-28",
+    "updatedAt": "2026-07-28",
+    "lastReviewedAt": "2026-07-28",
     "author": "arkavena-editorial",
     "reviewedBy": null,
     "hero": {
@@ -4791,7 +4791,7 @@ export const contentManifest: ContentItem[] = [
       }
     ],
     "sources": [],
-    "ownerVerified": false,
+    "ownerVerified": true,
     "sector": {
       "buildingType": "Rumah Tinggal",
       "primaryUseCases": [
@@ -4842,7 +4842,7 @@ export const contentManifest: ContentItem[] = [
       "/wilayah",
       "/cara-kerja"
     ],
-    "isIndexable": false,
+    "isIndexable": true,
     "isFollowable": true
   },
   {
