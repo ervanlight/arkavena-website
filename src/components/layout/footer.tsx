@@ -31,13 +31,43 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Layanan */}
+          {/* Jelajahi — the current content-engine structure (audit finding
+              I2, owner-approved 2026-07-29: the footer previously had zero
+              links into /layanan, /sektor, /wilayah, /panduan). */}
           <div>
-            <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6 text-white">Layanan</h4>
+            <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6 text-white">Jelajahi</h4>
             <ul className="space-y-3">
               <li>
-                <Link href="/residential" className="text-[#3F4954] hover:text-white transition-colors text-sm">
-                  Residential
+                <Link href="/layanan" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                  Layanan
+                </Link>
+              </li>
+              <li>
+                <Link href="/sektor" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                  Sektor
+                </Link>
+              </li>
+              <li>
+                <Link href="/wilayah" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                  Wilayah
+                </Link>
+              </li>
+              <li>
+                <Link href="/panduan" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                  Panduan
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Perusahaan — "Residential" removed (redirected to /layanan/*,
+              audit finding I1); Facility Care kept (still a live page). */}
+          <div>
+            <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6 text-white">Perusahaan</h4>
+            <ul className="space-y-3">
+              <li>
+                <Link href="/tentang" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                  Tentang Kami
                 </Link>
               </li>
               <li>
@@ -51,25 +81,13 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/projectview" className="text-[#3F4954] hover:text-white transition-colors text-sm">
-                  ProjectView
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Perusahaan */}
-          <div>
-            <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6 text-white">Perusahaan</h4>
-            <ul className="space-y-3">
-              <li>
-                <Link href="/tentang" className="text-[#3F4954] hover:text-white transition-colors text-sm">
-                  Tentang Kami
-                </Link>
-              </li>
-              <li>
                 <Link href="/trust-center" className="text-[#3F4954] hover:text-white transition-colors text-sm">
                   Trust Center
+                </Link>
+              </li>
+              <li>
+                <Link href="/projectview" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                  ProjectView
                 </Link>
               </li>
               <li>
