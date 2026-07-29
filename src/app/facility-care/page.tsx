@@ -16,6 +16,12 @@ import {
 export const metadata: Metadata = {
   title: 'Facility Care — ARKAVENA',
   description: 'Bangunan yang terawat bukan sekadar terlihat lebih baik. Tetapi membantu bisnis tetap berjalan.',
+  // Audit finding I1 (owner-approved 2026-07-29): duplicates
+  // /layanan/building-maintenance in search results. Stays live (its 4
+  // sub-pages have no 1:1 replacement yet) but points Google at the newer,
+  // maintained equivalent instead of competing with it.
+  robots: { index: false, follow: true },
+  alternates: { canonical: 'https://arkavena.com/layanan/building-maintenance' },
 };
 
 export default function FacilityCarePage() {

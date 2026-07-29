@@ -1,9 +1,16 @@
 import { describe, expect, it } from "vitest";
 import { LEGACY_DOMAINS, redirects, toNextRedirect } from "@/config/redirects";
 import { knownRoutes, validateRedirects } from "@/lib/content/validators";
+import { loadAllContent } from "@/lib/content/loaders";
 import { asContentItem, publishedFrontmatter } from "./fixtures/content";
 
-const routes = knownRoutes([asContentItem(publishedFrontmatter())]);
+// The real redirect map's destinations point at real content routes
+// (e.g. /layanan/bangun-rumah), so this must validate against the real
+// manifest — a single fixture route isn't enough once `redirects` is
+// non-empty. Isolated validator-logic tests below still use minimal
+// fixture routes on purpose.
+const { items: realItems } = loadAllContent();
+const routes = knownRoutes(realItems);
 
 describe("redirect map", () => {
   it("konfigurasi saat ini valid", () => {
@@ -62,7 +69,7 @@ describe("redirect map", () => {
       [
         {
           source: "/lama",
-          destination: "/layanan/fixture-layanan",
+          destination: "/layanan/bangun-rumah",
           permanent: true,
           reason: "test",
         },

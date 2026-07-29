@@ -7,6 +7,11 @@ import { CheckCircle2, ShieldCheck, Ruler } from "lucide-react";
 export const metadata: Metadata = {
   title: "Minor Works & Perbaikan Fasilitas Industri | ARKAVENA",
   description: "Layanan pekerjaan sipil minor untuk kawasan industri dan pabrik dengan kepatuhan tinggi terhadap standar K3/HSE.",
+  // Audit finding I1 (owner-approved 2026-07-29): no 1:1 replacement page
+  // exists yet, so this stays live but points Google at the closest real
+  // equivalent instead of competing with it in search results.
+  robots: { index: false, follow: true },
+  alternates: { canonical: "https://arkavena.com/layanan/building-maintenance" },
 };
 
 export default function FacilityServicePage() {

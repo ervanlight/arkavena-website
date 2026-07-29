@@ -7,6 +7,11 @@ import { CheckCircle2, ShieldCheck, Ruler } from "lucide-react";
 export const metadata: Metadata = {
   title: "Perawatan & Pemeliharaan Gedung | ARKAVENA",
   description: "Layanan maintenance gedung komersial untuk menjaga operasional berjalan lancar dengan sistem work order yang terdokumentasi.",
+  // Audit finding I1 (owner-approved 2026-07-29): no 1:1 replacement page
+  // exists yet, so this stays live but points Google at the closest real
+  // equivalent instead of competing with it in search results.
+  robots: { index: false, follow: true },
+  alternates: { canonical: "https://arkavena.com/layanan/building-maintenance" },
 };
 
 export default function FacilityServicePage() {
