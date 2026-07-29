@@ -28,6 +28,15 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
   const pathname = usePathname();
 
+  // Only the homepage has a dark hero directly under the header, so only
+  // the homepage can afford a transparent, unscrolled header — logo and nav
+  // text here are styled for a dark background. Every other route (layanan,
+  // sektor, wilayah, panduan, proyek, etc.) has a light page background from
+  // the very top, so a transparent header there makes the white logo and
+  // active-link text nearly invisible until the visitor scrolls (audit C4).
+  const isHome = pathname === '/';
+  const showSolidHeader = isScrolled || !isHome;
+
   React.useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -41,7 +50,7 @@ export function Header() {
       <header
         className={cn(
           'fixed top-0 left-0 right-0 z-40 transition-all duration-300 ease-in-out',
-          isScrolled ? 'bg-[#14171B] py-2.5 shadow-sm border-b border-[#C9C3B8]/20' : 'bg-transparent py-4'
+          showSolidHeader ? 'bg-[#14171B] py-2.5 shadow-sm border-b border-[#C9C3B8]/20' : 'bg-transparent py-4'
         )}
       >
         <Container className="flex items-center justify-between">

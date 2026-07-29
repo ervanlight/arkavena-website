@@ -7227,8 +7227,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Building Maintenance",
       "heading": "Apa Itu Building Maintenance? Menjaga Kondisi Aset, Bukan Facility Management Penuh",
       "summary": "Building maintenance mencakup preventive, corrective, inspeksi, dan pelaporan untuk menjaga kondisi aset bangunan — pahami cakupan dan batasannya.",
-      "image": "/images/guides/apa-itu-building-maintenance/hero.webp",
-      "imageAlt": "Ilustrasi konseptual sistem perawatan bangunan"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -7362,8 +7362,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Design and Documentation",
       "heading": "Apa Itu Design and Build? Satu Koordinasi untuk Desain dan Pelaksanaan",
       "summary": "Design and build menggabungkan desain dan pelaksanaan dalam satu koordinasi — pahami cakupan dan batasan model ini sebelum membandingkannya dengan pendekatan lain.",
-      "image": "/images/guides/apa-itu-design-and-build/hero.webp",
-      "imageAlt": "Ilustrasi konseptual koordinasi desain dan pelaksanaan dalam design and build"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -7499,8 +7499,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Design and Documentation",
       "heading": "Apa Itu Interior Fit-Out? Menyelesaikan Ruang Sesuai Kebutuhan Tenant",
       "summary": "Interior fit-out mencakup partisi, ceiling, flooring, hingga koordinasi MEP — berbeda dari interior design, renovasi, dan pengadaan furniture semata.",
-      "image": "/images/guides/apa-itu-interior-fit-out/hero.webp",
-      "imageAlt": "Ilustrasi konseptual proses interior fit-out ruang komersial"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -7629,8 +7629,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
       "heading": "Apa Itu Manajemen Konstruksi? Sistem Pengendalian, Bukan Sekadar Pelaksanaan Fisik",
       "summary": "Manajemen konstruksi menambahkan lapisan pengendalian pada ruang lingkup, biaya, cashflow, jadwal, mutu, risiko, dan perubahan sepanjang siklus proyek.",
-      "image": "/images/guides/apa-itu-manajemen-konstruksi/hero.webp",
-      "imageAlt": "Ilustrasi konseptual sistem pengendalian proyek konstruksi"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -7772,8 +7772,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
       "heading": "Apa Itu Pengawasan Proyek? Observasi dan Verifikasi, Bukan Jaminan Bebas Cacat",
       "summary": "Pengawasan proyek mencakup observasi lapangan, inspeksi, dan verifikasi progres — pahami cakupan dan batasannya sebelum menggunakan istilah ini secara umum.",
-      "image": "/images/guides/apa-itu-pengawasan-proyek/hero.webp",
-      "imageAlt": "Ilustrasi konseptual pengawasan lapangan proyek konstruksi"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -7906,8 +7906,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
       "heading": "Apa Itu Value Engineering? Bukan Sekadar Memilih Opsi Termurah",
       "summary": "Value engineering mengevaluasi alternatif desain, material, dan metode kerja berdasarkan fungsi, biaya, risiko, dan konsekuensi jangka panjang — bukan sekadar cost cutting.",
-      "image": "/images/guides/apa-itu-value-engineering-konstruksi/hero.webp",
-      "imageAlt": "Ilustrasi konseptual proses evaluasi value engineering"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -8033,8 +8033,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangunan Komersial",
       "heading": "Biaya Bangun Cafe: Bergantung pada Spesifikasi Peralatan dan Fit-Out",
       "summary": "Biaya cafe sangat dipengaruhi spesifikasi peralatan dan tingkat fit-out yang diinginkan — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
-      "image": "/images/guides/biaya-bangun-cafe/hero.webp",
-      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan dan fit-out cafe"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -8168,8 +8168,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangunan Komersial",
       "heading": "Biaya Bangun Gudang: Bentang Struktur dan Kebutuhan Lantai Menentukan Sebagian Besar Biaya",
       "summary": "Biaya gudang sangat dipengaruhi bentang struktur, spesifikasi lantai, dan kebutuhan akses logistik — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
-      "image": "/images/guides/biaya-bangun-gudang/hero.webp",
-      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan gudang"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -8298,8 +8298,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangunan Komersial",
       "heading": "Biaya Bangun Kantor: Bedakan Shell dan Fit-Out Sebelum Membandingkan Angka",
       "summary": "Biaya kantor sangat berbeda antara pekerjaan shell dan fit-out interior — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
-      "image": "/images/guides/biaya-bangun-kantor/hero.webp",
-      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan kantor"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -8434,8 +8434,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangunan Komersial",
       "heading": "Biaya Bangun Klinik: Jenis Layanan dan Utilitas Spesialis Menentukan Sebagian Besar Biaya",
       "summary": "Biaya klinik sangat dipengaruhi jenis layanan kesehatan dan kebutuhan utilitas spesialis — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
-      "image": "/images/guides/biaya-bangun-klinik/hero.webp",
-      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan klinik"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -8559,8 +8559,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangunan Komersial",
       "heading": "Biaya Bangun Kos: Jumlah Unit dan Fasilitas Bersama Menentukan Sebagian Besar Biaya",
       "summary": "Biaya kos sangat dipengaruhi jumlah unit dan spesifikasi fasilitas bersama — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
-      "image": "/images/guides/biaya-bangun-kos/hero.webp",
-      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan rumah kos"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -8690,8 +8690,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangunan Komersial",
       "heading": "Biaya Bangun Masjid: Kapasitas dan Fase Pembangunan Menentukan Sebagian Besar Biaya",
       "summary": "Biaya masjid sangat dipengaruhi kapasitas ruang ibadah dan sering dibangun bertahap sesuai ketersediaan dana — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
-      "image": "/images/guides/biaya-bangun-masjid/hero.webp",
-      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan masjid"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -8823,8 +8823,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangunan Komersial",
       "heading": "Biaya Bangun Pabrik: Bukan Hanya Biaya Bangunan Shell",
       "summary": "Biaya pabrik dipengaruhi kebutuhan proses produksi, interface mesin, dan utilitas — jauh lebih kompleks dari sekadar biaya bangunan shell. Pahami faktornya sebelum meminta estimasi personal.",
-      "image": "/images/guides/biaya-bangun-pabrik/hero.webp",
-      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan pabrik"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -8946,8 +8946,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangunan Komersial",
       "heading": "Biaya Bangun Restoran: Kompleksitas Dapur Produksi Menentukan Sebagian Besar Biaya",
       "summary": "Biaya restoran sangat dipengaruhi kompleksitas dapur produksi dan utilitas skala besar — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
-      "image": "/images/guides/biaya-bangun-restoran/hero.webp",
-      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan restoran"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -9073,8 +9073,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangunan Komersial",
       "heading": "Biaya Bangun Ruko: Faktor Penentu, Bukan Kisaran Harga Publik",
       "summary": "Setiap ruko punya kombinasi fungsi usaha, jumlah lantai, dan spesifikasi yang berbeda — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
-      "image": "/images/guides/biaya-bangun-ruko/hero.webp",
-      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan ruko"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -9210,8 +9210,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangun Rumah",
       "heading": "Biaya Bangun Rumah per Meter: Mulai dari Rp4.000.000/m²",
       "summary": "Angka awal untuk spesifikasi kelas menengah-atas, beserta variabel yang memengaruhi biaya akhir dan cara membaca kisaran ini dengan benar.",
-      "image": "/images/guides/biaya-bangun-rumah-per-meter/hero.webp",
-      "imageAlt": "Ilustrasi konseptual komponen biaya konstruksi rumah per meter persegi"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -9340,8 +9340,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangunan Komersial",
       "heading": "Biaya Bangun Sekolah: Jenjang Pendidikan dan Fasilitas Menentukan Sebagian Besar Biaya",
       "summary": "Biaya sekolah sangat dipengaruhi jenjang pendidikan, jumlah ruang kelas, dan fasilitas bersama — pahami faktor yang menentukan biaya sebelum meminta estimasi personal.",
-      "image": "/images/guides/biaya-bangun-sekolah/hero.webp",
-      "imageAlt": "Ilustrasi konseptual faktor biaya pembangunan sekolah"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -9473,8 +9473,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Biaya Renovasi Rumah: Kenapa Tidak Ada Satu Angka Pasti",
       "summary": "Kisaran biaya renovasi rumah per kategori pekerjaan — ringan, sedang, dan berat/total — beserta variabel yang mempengaruhi angka ini di dalam setiap kategori.",
-      "image": "/images/guides/biaya-renovasi-rumah/hero.webp",
-      "imageAlt": "Ilustrasi konseptual kategori dan komponen biaya renovasi rumah"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -9604,8 +9604,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangun Rumah",
       "heading": "Borongan atau Harian? Bandingkan Berdasarkan Kebutuhan Proyek Anda",
       "summary": "Perbandingan model kerja borongan dan harian dari sisi kepastian ruang lingkup, biaya, dan keterlibatan owner.",
-      "image": "/images/guides/borongan-vs-harian-bangun-rumah/hero.webp",
-      "imageAlt": "Ilustrasi konseptual perbandingan dua model kerja konstruksi"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -9721,8 +9721,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangun Rumah",
       "heading": "Cara Membaca RAB Rumah Sebelum Menyetujuinya",
       "summary": "Pahami item, volume, satuan, harga satuan, dan asumsi dalam RAB yang Anda terima, serta pertanyaan yang perlu diajukan sebelum menyetujuinya.",
-      "image": "/images/guides/cara-membaca-rab-rumah/hero.webp",
-      "imageAlt": "Ilustrasi konseptual dokumen rencana anggaran biaya"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -9841,8 +9841,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Memilih Kontraktor Renovasi: Pengalaman dengan Bangunan Eksisting adalah Kuncinya",
       "summary": "Kriteria evaluasi kontraktor renovasi rumah, dengan penekanan pada pengalaman menangani kondisi bangunan eksisting yang menjadi tantangan utama proyek renovasi.",
-      "image": "/images/guides/cara-memilih-kontraktor-renovasi/hero.webp",
-      "imageAlt": "Ilustrasi konseptual proses evaluasi dan pemilihan kontraktor renovasi rumah"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -9965,8 +9965,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangun Rumah",
       "heading": "Pilih Kontraktor Berdasarkan Sistem Kerja, Bukan Harga Saja",
       "summary": "Evaluasi ruang lingkup, dokumen, metode, komunikasi, dan mekanisme pengendalian sebelum membuat keputusan.",
-      "image": "/images/guides/cara-memilih-kontraktor-rumah/hero.webp",
-      "imageAlt": "Ilustrasi evaluasi dokumen dan ruang lingkup kontraktor rumah"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -10086,8 +10086,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Menyusun Anggaran Renovasi yang Realistis, Bukan Hanya Berdasarkan Area yang Terlihat",
       "summary": "Metode menyusun anggaran renovasi rumah, termasuk cara mengalokasikan cadangan untuk kondisi eksisting yang baru diketahui setelah pekerjaan dimulai.",
-      "image": "/images/guides/cara-menghitung-anggaran-renovasi-rumah/hero.webp",
-      "imageAlt": "Ilustrasi konseptual penyusunan anggaran proyek renovasi rumah"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -10214,8 +10214,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangun Rumah",
       "heading": "Metode Menghitung Biaya Bangun Rumah, Bukan Angka Pasar Tunggal",
       "summary": "Pelajari komponen dan langkah menyusun estimasi biaya, dengan variabel yang Anda isi sendiri berdasarkan data proyek Anda.",
-      "image": "/images/guides/cara-menghitung-biaya-bangun-rumah/hero.webp",
-      "imageAlt": "Ilustrasi konseptual metode perhitungan biaya konstruksi"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -10333,8 +10333,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Building Maintenance",
       "heading": "Checklist Inspeksi Gedung: Pemetaan Visual, Bukan Sertifikat Keselamatan",
       "summary": "Checklist inspeksi gedung membantu memetakan kondisi visual yang perlu diperiksa secara berkala — bukan pengganti audit struktur, fire safety, atau inspeksi spesialis.",
-      "image": "/images/guides/checklist-inspeksi-gedung/hero.webp",
-      "imageAlt": "Ilustrasi konseptual proses inspeksi kondisi gedung"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -10463,8 +10463,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangun Rumah",
       "heading": "Pastikan Kesiapan Ini Sebelum Konstruksi Rumah Dimulai",
       "summary": "Checklist praktis untuk memeriksa kesiapan tujuan, lahan, desain, anggaran, dan dokumen sebelum tahap teknis dimulai.",
-      "image": "/images/guides/checklist-persiapan-bangun-rumah/hero.webp",
-      "imageAlt": "Ilustrasi konseptual daftar periksa persiapan proyek bangun rumah"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -10583,8 +10583,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Apa yang Perlu Diperiksa Sebelum Renovasi Rumah Dimulai",
       "summary": "Checklist survei kondisi eksisting yang membantu memetakan ruang lingkup renovasi secara lebih akurat sebelum anggaran dan jadwal ditetapkan.",
-      "image": "/images/guides/checklist-survei-sebelum-renovasi/hero.webp",
-      "imageAlt": "Ilustrasi konseptual pemeriksaan kondisi bangunan sebelum renovasi"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -10806,8 +10806,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Design and Documentation",
       "heading": "Gambar Kerja vs Gambar Desain: Istilah Bisa Berbeda Antarproyek",
       "summary": "Perbandingan praktis gambar kerja dan gambar desain — tujuan, tingkat detail, dan fase penggunaan berbeda, dan istilah dapat bervariasi antarproyek dan kontrak.",
-      "image": "/images/guides/gambar-kerja-vs-gambar-desain/hero.webp",
-      "imageAlt": "Ilustrasi konseptual perbandingan gambar kerja dan gambar desain"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -10933,8 +10933,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Building Maintenance",
       "heading": "Menyusun Jadwal Preventive Maintenance: Berdasarkan Kekritisan, Bukan Interval Universal",
       "summary": "Langkah konseptual menyusun jadwal preventive maintenance bangunan berdasarkan kekritisan aset, kondisi operasional, dan rekomendasi manufacturer — bukan satu interval yang berlaku untuk semua.",
-      "image": "/images/guides/jadwal-preventive-maintenance-bangunan/hero.webp",
-      "imageAlt": "Ilustrasi konseptual penyusunan jadwal preventive maintenance bangunan"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -11060,8 +11060,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Design and Documentation",
       "heading": "Keuntungan Design and Build: Potensi, Bukan Jaminan",
       "summary": "Design and build menawarkan keuntungan potensial seperti koordinasi lebih awal dan integrasi jadwal — panduan ini juga membahas trade-off yang perlu dipertimbangkan.",
-      "image": "/images/guides/keuntungan-design-and-build/hero.webp",
-      "imageAlt": "Ilustrasi konseptual keuntungan dan trade-off pendekatan design and build"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -11188,8 +11188,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Building Maintenance",
       "heading": "Kontrak Building Maintenance: Hal yang Perlu Diperjelas Sebelum Menandatangani",
       "summary": "Panduan umum elemen kontrak building maintenance — ruang lingkup, exclusions, response classification, dan payment basis — bukan term resmi Arkavena atau nasihat hukum.",
-      "image": "/images/guides/kontrak-building-maintenance/hero.webp",
-      "imageAlt": "Ilustrasi konseptual elemen kontrak layanan building maintenance"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -11322,8 +11322,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangun Rumah",
       "heading": "Mengenal Elemen Umum Kontrak Kerja Konstruksi Rumah",
       "summary": "Pengantar informasional mengenai konsep dasar kontrak konstruksi — bukan template hukum atau nasihat hukum untuk situasi Anda.",
-      "image": "/images/guides/kontrak-kerja-konstruksi-rumah/hero.webp",
-      "imageAlt": "Ilustrasi konseptual dokumen kontrak kerja konstruksi"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -11441,8 +11441,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangun Rumah",
       "heading": "Kontraktor atau Tukang? Pahami Perbedaannya Sebelum Memilih",
       "summary": "Perbedaan organisasi kerja, tanggung jawab, dan alokasi risiko antara kontraktor dan tukang.",
-      "image": "/images/guides/kontraktor-vs-tukang/hero.webp",
-      "imageAlt": "Ilustrasi konseptual perbedaan struktur kerja kontraktor dan tukang"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -11558,8 +11558,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Design and Documentation",
       "heading": "Koordinasi Arsitektur, Struktur, dan MEP: Proses, Bukan Detail Teknis Siap Pakai",
       "summary": "Koordinasi antar disiplin mencegah konflik yang baru terdeteksi di lapangan — panduan ini menjelaskan proses identifikasi interface, bukan ukuran atau clearance teknis.",
-      "image": "/images/guides/koordinasi-arsitektur-struktur-mep/hero.webp",
-      "imageAlt": "Ilustrasi konseptual koordinasi antar disiplin arsitektur, struktur, dan MEP"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -11686,8 +11686,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
       "heading": "Manajemen Konstruksi vs Kontraktor: Posisi Kontraktual yang Berbeda",
       "summary": "Perbandingan peran, posisi kontraktual, dan tanggung jawab antara manajemen konstruksi dan kontraktor pelaksana — bukan menyatakan salah satu selalu lebih unggul.",
-      "image": "/images/guides/manajemen-konstruksi-vs-kontraktor/hero.webp",
-      "imageAlt": "Ilustrasi konseptual perbandingan peran manajemen konstruksi dan kontraktor"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -11822,8 +11822,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Memperkuat Struktur Rumah Lama: Proses Umum, Bukan Solusi Teknis Siap Pakai",
       "summary": "Gambaran umum proses perkuatan struktur rumah lama — solusi teknis spesifik hanya dapat ditentukan insinyur struktur setelah kajian langsung.",
-      "image": "/images/guides/memperkuat-struktur-rumah-lama/hero.webp",
-      "imageAlt": "Ilustrasi konseptual proses kajian dan perkuatan struktur bangunan lama"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -11945,8 +11945,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
       "heading": "Owner Representative: Mandat Owner, Bukan Kuasa Hukum",
       "summary": "Owner representative membantu mengonsolidasikan informasi dan mendokumentasikan keputusan proyek sesuai mandat yang disepakati — bukan pengganti penasihat hukum atau seluruh keputusan owner.",
-      "image": "/images/guides/owner-representative-proyek-konstruksi/hero.webp",
-      "imageAlt": "Ilustrasi konseptual peran owner representative dalam proyek konstruksi"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -12079,8 +12079,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
       "heading": "Pengendalian Biaya Proyek: Baseline, Variance, dan Forecast",
       "summary": "Pengendalian biaya proyek memantau budget baseline terhadap committed cost, actual cost, dan forecast — bukan sekadar mencatat pengeluaran setelah terjadi.",
-      "image": "/images/guides/pengendalian-biaya-proyek/hero.webp",
-      "imageAlt": "Ilustrasi konseptual pengendalian biaya proyek konstruksi"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -12208,8 +12208,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
       "heading": "Cashflow Proyek: Soal Waktu Kebutuhan Dana, Bukan Hanya Total Biaya",
       "summary": "Pengendalian cashflow proyek memantau kebutuhan dana dari waktu ke waktu — proyek dengan total biaya sesuai anggaran tetap bisa mengalami masalah cashflow.",
-      "image": "/images/guides/pengendalian-cashflow-proyek/hero.webp",
-      "imageAlt": "Ilustrasi konseptual pengendalian cashflow proyek konstruksi"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -12335,8 +12335,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Building Maintenance",
       "heading": "Perawatan Atap: Kenali Tanda dari Area Aman, Serahkan Perbaikan ke Spesialis",
       "summary": "Panduan mengenali tanda kondisi atap yang perlu diperhatikan dari area aman, beserta kapan perlu mengeskalasi ke spesialis — bukan tutorial naik ke atap atau memperbaiki sendiri.",
-      "image": "/images/guides/perawatan-atap-bangunan/hero.webp",
-      "imageAlt": "Ilustrasi konseptual observasi kondisi atap dari area aman"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -12465,8 +12465,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Building Maintenance",
       "heading": "Perawatan Fasad: Kenali Tanda Visual, Serahkan Akses Ketinggian ke Spesialis",
       "summary": "Panduan mengenali tanda kondisi fasad yang perlu diperhatikan, beserta kapan perlu mengeskalasi ke spesialis — bukan instruksi kerja di ketinggian, scaffolding, gondola, atau rope access.",
-      "image": "/images/guides/perawatan-fasad-bangunan/hero.webp",
-      "imageAlt": "Ilustrasi konseptual observasi kondisi fasad bangunan"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -12596,8 +12596,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Building Maintenance",
       "heading": "Perawatan MEP: Kenali Indikasi, Serahkan Pekerjaan Sistem ke Tenaga Kompeten",
       "summary": "Panduan mengenali indikasi abnormal pada sistem mekanikal, elektrikal, dan plumbing, beserta kapan perlu melibatkan tenaga kompeten — bukan instruksi membuka atau memperbaiki sistem sendiri.",
-      "image": "/images/guides/perawatan-mep-bangunan/hero.webp",
-      "imageAlt": "Ilustrasi konseptual pemantauan kondisi sistem MEP bangunan"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -12725,8 +12725,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Building Maintenance",
       "heading": "Preventive vs Corrective Maintenance: Saling Melengkapi, Bukan Saling Menggantikan",
       "summary": "Perbandingan trigger, tujuan, dan timing antara preventive dan corrective maintenance — preventive tidak menghilangkan kebutuhan corrective.",
-      "image": "/images/guides/preventive-vs-corrective-maintenance/hero.webp",
-      "imageAlt": "Ilustrasi konseptual perbandingan preventive dan corrective maintenance"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -12855,8 +12855,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Atap Bocor: Penyebab Umum dan Kapan Perlu Penanganan Segera",
       "summary": "Gambaran penyebab umum kebocoran atap dan langkah penanganannya, termasuk indikasi yang memerlukan tindakan segera untuk mencegah kerusakan lebih lanjut.",
-      "image": "/images/guides/renovasi-atap-bocor/hero.webp",
-      "imageAlt": "Ilustrasi konseptual pemeriksaan dan perbaikan atap rumah yang bocor"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -12978,8 +12978,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Renovasi Dapur: Tata Letak, Utilitas, dan Kelancaran Aktivitas Harian",
       "summary": "Pertimbangan dan tahapan renovasi dapur rumah, termasuk cara mengelola gangguan terhadap aktivitas memasak harian selama pekerjaan berlangsung.",
-      "image": "/images/guides/renovasi-dapur/hero.webp",
-      "imageAlt": "Ilustrasi konseptual proses renovasi dapur rumah tinggal"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -13100,8 +13100,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Renovasi Fasad Rumah: Tampilan Baru dengan Perlindungan yang Tepat",
       "summary": "Tahapan dan pertimbangan renovasi fasad rumah, dengan perhatian pada kondisi eksisting dan waterproofing dinding luar agar tampilan baru tidak menimbulkan masalah baru.",
-      "image": "/images/guides/renovasi-fasad-rumah/hero.webp",
-      "imageAlt": "Ilustrasi konseptual proses renovasi fasad atau tampak depan rumah"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -13223,8 +13223,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Renovasi Kamar Mandi: Waterproofing sebagai Prioritas Utama",
       "summary": "Tahapan dan pertimbangan renovasi kamar mandi, dengan perhatian khusus pada waterproofing untuk mengurangi risiko kebocoran ke area lain setelah renovasi.",
-      "image": "/images/guides/renovasi-kamar-mandi/hero.webp",
-      "imageAlt": "Ilustrasi konseptual proses renovasi kamar mandi rumah tinggal"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -13345,8 +13345,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Renovasi Rumah Sambil Dihuni: Kapan Memungkinkan dan Kapan Sebaiknya Tidak",
       "summary": "Pertimbangan yang menentukan apakah rumah Anda tetap bisa dihuni selama renovasi, beserta batasan dan dampaknya terhadap jadwal dan kenyamanan.",
-      "image": "/images/guides/renovasi-rumah-sambil-dihuni/hero.webp",
-      "imageAlt": "Ilustrasi konseptual rumah yang sebagian direnovasi sementara penghuni tetap tinggal"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -13470,8 +13470,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Menambah Lantai Rumah: Kajian Struktur Dulu, Baru Desain",
       "summary": "Pertimbangan utama sebelum menambah lantai pada rumah eksisting — kajian struktur adalah langkah wajib pertama, bukan opsional.",
-      "image": "/images/guides/renovasi-rumah-satu-jadi-dua-lantai/hero.webp",
-      "imageAlt": "Ilustrasi konseptual proses penambahan lantai pada rumah eksisting"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -13594,8 +13594,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Renovasi Total atau Sebagian? Menentukan Skala Sebelum Menentukan Anggaran",
       "summary": "Peta keputusan renovasi rumah — apa yang membedakan renovasi total dari renovasi sebagian, dan panduan mana yang relevan untuk tahap yang sedang Anda hadapi.",
-      "image": "/images/guides/renovasi-total-vs-renovasi-sebagian/hero.webp",
-      "imageAlt": "Ilustrasi konseptual perbandingan skala renovasi rumah sebagian dan menyeluruh"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -13730,8 +13730,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Mengapa Biaya Renovasi Sering Membengkak, dan Cara Mengelolanya",
       "summary": "Sumber umum pembengkakan biaya pada proyek renovasi rumah, beserta langkah yang dapat membantu menjaga anggaran tetap terkendali.",
-      "image": "/images/guides/risiko-pembengkakan-biaya-renovasi/hero.webp",
-      "imageAlt": "Ilustrasi konseptual pengendalian anggaran proyek renovasi rumah"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -13855,8 +13855,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Design and Documentation",
       "heading": "Shop Drawing: Informasi Fabrikasi, Bukan Pengalihan Tanggung Jawab Desain",
       "summary": "Shop drawing menerjemahkan design documents menjadi informasi fabrikasi dan instalasi — kewenangan penyiapan dan review-nya bergantung pada kontrak setiap proyek.",
-      "image": "/images/guides/shop-drawing-konstruksi/hero.webp",
-      "imageAlt": "Ilustrasi konseptual proses shop drawing dalam koordinasi konstruksi"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -13983,8 +13983,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangun Rumah",
       "heading": "Tahapan Bangun Rumah dari Nol, dari Perencanaan hingga Serah Terima",
       "summary": "Peta lengkap proses membangun rumah — apa yang perlu diputuskan di setiap tahap, dan panduan mana yang relevan untuk masing-masing tahap tersebut.",
-      "image": "/images/guides/tahapan-bangun-rumah-dari-nol/hero.webp",
-      "imageAlt": "Ilustrasi konseptual tahapan proyek konstruksi rumah dari perencanaan hingga serah terima"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -14116,8 +14116,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Bangunan Komersial",
       "heading": "Tahapan Proyek Bangunan Komersial, dari Kebutuhan Bisnis hingga Siap Operasional",
       "summary": "Peta lengkap siklus proyek bangunan komersial untuk pemilik usaha, investor, pengembang, dan operator bangunan — apa yang perlu diputuskan di setiap tahap, dan panduan mana yang relevan.",
-      "image": "/images/guides/tahapan-proyek-bangunan-komersial/hero.webp",
-      "imageAlt": "Ilustrasi konseptual tahapan proyek bangunan komersial dari perencanaan bisnis hingga operasional"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -14270,8 +14270,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Renovasi Rumah",
       "heading": "Indikasi yang Perlu Dikaji Insinyur Struktur Sebelum Renovasi",
       "summary": "Daftar indikasi umum yang perlu mendorong Anda menghubungi insinyur struktur — bukan panduan untuk menilai sendiri kondisi struktur atau melakukan perbaikan.",
-      "image": "/images/guides/tanda-rumah-perlu-perkuatan-struktur/hero.webp",
-      "imageAlt": "Ilustrasi konseptual pemeriksaan kondisi struktur bangunan oleh profesional"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -14395,8 +14395,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
       "heading": "Tugas Manajemen Konstruksi: Bergantung pada Mandat, Bukan Daftar Universal",
       "summary": "Aktivitas dan deliverables manajemen konstruksi bervariasi tergantung ruang lingkup yang disepakati — pahami bedanya dengan kewenangan dan tanggung jawab pihak lain.",
-      "image": "/images/guides/tugas-manajemen-konstruksi/hero.webp",
-      "imageAlt": "Ilustrasi konseptual aktivitas dan deliverables manajemen konstruksi"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [
@@ -14530,8 +14530,8 @@ export const contentManifest: ContentItem[] = [
       "eyebrow": "Panduan Manajemen Risiko dan Pengendalian Proyek",
       "heading": "Menerapkan Value Engineering: Proses, Bukan Sekadar Keputusan Sepihak",
       "summary": "Langkah konseptual menerapkan value engineering untuk mengendalikan biaya proyek, dari identifikasi cost driver hingga dokumentasi keputusan.",
-      "image": "/images/guides/value-engineering-untuk-mengendalikan-biaya/hero.webp",
-      "imageAlt": "Ilustrasi konseptual proses evaluasi alternatif dalam value engineering"
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
     },
     "relationships": {
       "services": [

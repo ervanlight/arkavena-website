@@ -142,7 +142,10 @@ export function TagList({ items, label }: { items: readonly string[]; label: str
 
 export function ContentLayout({ children }: { children: React.ReactNode }) {
   return (
-    <Container className="py-12 lg:py-16">
+    // pt-24/lg:pt-28 clears the fixed header (~64-72px tall depending on
+    // breakpoint) with margin to spare — without this, the header overlapped
+    // the breadcrumb and hero on every content page (audit finding C5).
+    <Container className="pt-24 pb-12 lg:pt-28 lg:pb-16">
       <article className="mx-auto w-full max-w-3xl">{children}</article>
     </Container>
   );
