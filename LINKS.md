@@ -1,6 +1,6 @@
 # Arkavena — Daftar Link Halaman
 
-Update terakhir: 2026-07-29 (Batch 10 & 11 merge tapi belum promote; Batch 12 — landing page iklan — dibuka sebagai PR #16, batch terakhir dari roadmap 00-12)
+Update terakhir: 2026-07-29 (PR #16 Batch 12, #17 business facts, #18 audit Wave 1 Critical, #19 audit Wave 2 I4/I5 — semua di-merge dan sudah live di production. Batch 10 & 11 masih merge tapi belum dipromote.)
 
 Legenda status:
 - 🟢 **Live & indexable** — published, ownerVerified, masuk sitemap Google
@@ -237,27 +237,36 @@ Batch 07A (PR #11), Batch 08 (PR #12), dan Batch 09A (PR #13) sudah di-approve, 
 
 ⚠️ = butuh technical/contractual review terpisah sebelum promote (9 dari 14 panduan batch ini).
 
-## 10. Landing Pages Iklan (Batch 12) — di PR #16, belum merge
+## 10. Landing Pages Iklan (Batch 12) — sudah live, PR #16 merged
 
-| Landing page | Link (Vercel Preview) |
+| Landing page | Link |
 |---|---|
-| Bangun Rumah Surabaya | /lp/bangun-rumah-surabaya |
-| Renovasi Rumah Surabaya | /lp/renovasi-rumah-surabaya |
-| Manajemen Konstruksi | /lp/manajemen-konstruksi |
-| Building Maintenance | /lp/building-maintenance |
+| Bangun Rumah Surabaya | https://arkavena.com/lp/bangun-rumah-surabaya |
+| Renovasi Rumah Surabaya | https://arkavena.com/lp/renovasi-rumah-surabaya |
+| Manajemen Konstruksi | https://arkavena.com/lp/manajemen-konstruksi |
+| Building Maintenance | https://arkavena.com/lp/building-maintenance |
 
-Semuanya `noindex` dan di luar sitemap permanen (by design, ini landing page iklan berbayar, bukan halaman organik). Formulir lead, event tracking, dan CTA WhatsApp sudah dibangun lengkap tapi belum aktif di production — menunggu `LEAD_WEBHOOK_URL`, `NEXT_PUBLIC_WHATSAPP_NUMBER`, dan ID GTM/GA4 dari kamu (detail di `reports/final-pending-owner-actions.md`).
+Semuanya `noindex` dan di luar sitemap permanen (by design, ini landing page iklan berbayar, bukan halaman organik). CTA WhatsApp sudah aktif (nomor sudah terpasang). Formulir lead dan event tracking (GTM/GA4) sudah dibangun lengkap tapi belum benar-benar mengirim/merekam apa pun — menunggu `LEAD_WEBHOOK_URL` dan ID GTM/GA4 dari kamu (detail di `reports/final-pending-owner-actions.md`). Belum ada campaign Google Ads yang mengarah ke halaman-halaman ini — itu di luar scope Batch 12.
+
+## 11. Perbaikan Audit Pasca-Roadmap (Wave 1 & 2) — sudah live
+
+Lihat `reports/audit-pasca-roadmap-2026-07-29.md` untuk laporan lengkap. Yang sudah diperbaiki dan live di production:
+
+- **PR #17**: data bisnis terverifikasi (alamat, telepon, email, tahun berdiri) sekarang tampil di JSON-LD Google; nomor WhatsApp `6285128071580` aktif di semua CTA situs; copy `/terima-kasih` diperbarui jadi "1-2 hari kerja".
+- **PR #18** (Critical): endpoint `/api/revalidate` yang bisa diakses tanpa password sudah dihapus; 57 panduan dengan gambar rusak sudah diperbaiki (plus validasi otomatis baru supaya tidak terulang); judul footer & CTA yang tadinya tidak terbaca (warna sama dengan latar) sudah diperbaiki; menu atas yang tadinya tak terlihat/menimpa konten di semua halaman non-beranda sudah diperbaiki.
+- **PR #19**: banner cookie sekarang benar-benar muncul dan menghormati pilihan "Tolak" (sebelumnya nama variabelnya salah sehingga banner tidak pernah tampil, dan skrip analytics tetap jalan meski ditolak).
+- Rate limiting sederhana juga ditambahkan ke `/api/lead` (bagian dari PR #16) untuk mencegah spam.
 
 ---
 
 ## PR yang masih terbuka, menunggu review kamu
 
-- **PR #16** (Batch 12 — landing pages + conversion instrumentation): https://github.com/ervanlight/arkavena-website/pull/16
+Tidak ada — PR #16, #17, #18, #19 semuanya sudah di-merge dan di-deploy ke production per 2026-07-29.
 
 Batch 10 (PR #14) dan Batch 11 (PR #15) sudah merge tapi **belum dipromote** — semua panduannya live-tapi-noindex, menunggu review kamu (lihat bagian 8 & 9 di atas).
 
 ## Ringkasan angka
 
 - 🟢 Live & indexable: 76 halaman (hub + korporat + 20 layanan + 14 sektor + 31 panduan)
-- 🟡 Live tapi noindex (bisa dicek langsung): 41 halaman (8 wilayah + 7 proyek + 3 panduan biaya komersial + 9 panduan manajemen risiko + 14 panduan maintenance/design, semuanya menunggu review kamu)
-- 🔵 Belum live: 4 landing page (Batch 12, PR #16, hanya bisa dilihat lewat Vercel Preview sampai merge)
+- 🟡 Live tapi noindex (bisa dicek langsung): 45 halaman (8 wilayah + 7 proyek + 3 panduan biaya komersial + 9 panduan manajemen risiko + 14 panduan maintenance/design + 4 landing page iklan)
+- 🔵 Belum live: 0 (semua PR yang sudah selesai sudah merge dan deploy)
