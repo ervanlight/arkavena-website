@@ -33,7 +33,7 @@ export function Footer() {
 
           {/* Layanan */}
           <div>
-            <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6">Layanan</h4>
+            <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6 text-white">Layanan</h4>
             <ul className="space-y-3">
               <li>
                 <Link href="/residential" className="text-[#3F4954] hover:text-white transition-colors text-sm">
@@ -60,7 +60,7 @@ export function Footer() {
 
           {/* Perusahaan */}
           <div>
-            <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6">Perusahaan</h4>
+            <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6 text-white">Perusahaan</h4>
             <ul className="space-y-3">
               <li>
                 <Link href="/tentang" className="text-[#3F4954] hover:text-white transition-colors text-sm">
@@ -82,7 +82,7 @@ export function Footer() {
 
           {/* Newsletter / Contact */}
           <div>
-            <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6">Newsletter</h4>
+            <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6 text-white">Newsletter</h4>
             <p className="text-[#3F4954] text-sm mb-4">
               Dapatkan panduan tentang pengelolaan proyek konstruksi dan perawatannya.
             </p>

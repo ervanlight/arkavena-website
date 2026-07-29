@@ -22,12 +22,14 @@ type Graph = { "@graph": Record<string, unknown>[] };
 const typesIn = (graph: Graph) => graph["@graph"].map((node) => node["@type"]);
 
 describe("structured data", () => {
-  it("tidak menyerialisasi business field yang null", () => {
+  it("tidak menyerialisasi business field yang masih null, tapi menyertakan yang sudah terverifikasi", () => {
     const organization = buildOrganizationSchema();
-    expect(organization).not.toHaveProperty("address");
-    expect(organization).not.toHaveProperty("telephone");
-    expect(organization).not.toHaveProperty("legalName");
+    // Verified since the owner supplied telephone/email/address/foundingYear.
+    expect(organization).toHaveProperty("address");
+    expect(organization).toHaveProperty("telephone");
     expect(organization).toHaveProperty("name");
+    // legalName is still unregistered — must stay absent, never guessed.
+    expect(organization).not.toHaveProperty("legalName");
   });
 
   it("stripEmpty membuang null, string kosong, dan array kosong", () => {
@@ -158,12 +160,20 @@ describe("structured data", () => {
     expect(graph["@graph"]).toHaveLength(0);
   });
 
-  it("business entity null selama physicalAddress belum terverifikasi", () => {
-    // Current real state: businessFacts.address is null (no verified office).
-    // A GeneralContractor with no physical address is indistinguishable from
-    // Organization and must not be emitted (Batch 01 §14).
-    expect(businessFacts.address).toBeNull();
-    expect(buildBusinessSchema()).toBeNull();
+  it("business entity ada sekarang karena physicalAddress sudah terverifikasi, tapi geo/identifier tetap tidak diserialisasi selama masih kosong", () => {
+    // Current real state: businessFacts.address is verified (office address
+    // supplied by the owner), but geo coordinates and registration numbers
+    // (NIB/SBU/IUJK) have not been provided yet — those must stay absent
+    // from the emitted schema rather than being guessed (Batch 01 §14).
+    expect(businessFacts.address).not.toBeNull();
+    expect(businessFacts.geo).toBeNull();
+    expect(businessFacts.identifiers).toEqual([]);
+
+    const business = buildBusinessSchema();
+    expect(business).not.toBeNull();
+    expect(business).toHaveProperty("address");
+    expect(business).not.toHaveProperty("geo");
+    expect(business).not.toHaveProperty("identifier");
   });
 
   it("business entity, ketika alamat terverifikasi, tidak menyerialisasi fakta lain yang masih null", () => {
