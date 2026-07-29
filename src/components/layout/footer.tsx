@@ -1,11 +1,15 @@
-"use client";
-
-import * as React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Container } from '../ui/container';
-import { Input } from '../ui/input';
-import { Button } from '../ui/button';
+import { NewsletterForm } from './newsletter-form';
+
+// text-[#C9C3B8] not text-[#3F4954] (audit finding I7): #3F4954 measured
+// 1.96:1 against this footer's dark background, far below the 4.5:1
+// minimum — it's designed for use on light backgrounds (see its definition
+// in globals.css), not dark ones. #C9C3B8 is the palette's existing
+// on-dark secondary tone (already used for this footer's own border).
+const LINK_CLASS =
+  'inline-block py-2 -my-2 text-[#C9C3B8] hover:text-white transition-colors text-sm';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -17,16 +21,16 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="space-y-3">
-              <Image 
-                src="/logo.png" 
-                alt="ARKAVENA Construction & Facility Care" 
-                width={200} 
-                height={60} 
+              <Image
+                src="/logo.png"
+                alt="ARKAVENA Construction & Facility Care"
+                width={200}
+                height={60}
                 className="h-12 w-auto object-contain"
                 unoptimized
               />
             </div>
-            <p className="text-[#3F4954] text-sm leading-relaxed max-w-xs">
+            <p className="text-[#C9C3B8] text-sm leading-relaxed max-w-xs">
               Kami percaya bahwa proyek terbaik lahir dari proses yang dapat dipertanggungjawabkan. ARKAVENA membantu pemilik properti menjaga setiap keputusan, biaya, kualitas, dan progres tetap berada dalam kendali.
             </p>
           </div>
@@ -36,24 +40,24 @@ export function Footer() {
               links into /layanan, /sektor, /wilayah, /panduan). */}
           <div>
             <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6 text-white">Jelajahi</h4>
-            <ul className="space-y-3">
+            <ul className="space-y-1">
               <li>
-                <Link href="/layanan" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                <Link href="/layanan" className={LINK_CLASS}>
                   Layanan
                 </Link>
               </li>
               <li>
-                <Link href="/sektor" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                <Link href="/sektor" className={LINK_CLASS}>
                   Sektor
                 </Link>
               </li>
               <li>
-                <Link href="/wilayah" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                <Link href="/wilayah" className={LINK_CLASS}>
                   Wilayah
                 </Link>
               </li>
               <li>
-                <Link href="/panduan" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                <Link href="/panduan" className={LINK_CLASS}>
                   Panduan
                 </Link>
               </li>
@@ -64,34 +68,34 @@ export function Footer() {
               audit finding I1); Facility Care kept (still a live page). */}
           <div>
             <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6 text-white">Perusahaan</h4>
-            <ul className="space-y-3">
+            <ul className="space-y-1">
               <li>
-                <Link href="/tentang" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                <Link href="/tentang" className={LINK_CLASS}>
                   Tentang Kami
                 </Link>
               </li>
               <li>
-                <Link href="/facility-care" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                <Link href="/facility-care" className={LINK_CLASS}>
                   Facility Care
                 </Link>
               </li>
               <li>
-                <Link href="/portfolio" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                <Link href="/portfolio" className={LINK_CLASS}>
                   Portofolio Proyek
                 </Link>
               </li>
               <li>
-                <Link href="/trust-center" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                <Link href="/trust-center" className={LINK_CLASS}>
                   Trust Center
                 </Link>
               </li>
               <li>
-                <Link href="/projectview" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                <Link href="/projectview" className={LINK_CLASS}>
                   ProjectView
                 </Link>
               </li>
               <li>
-                <Link href="/kontak" className="text-[#3F4954] hover:text-white transition-colors text-sm">
+                <Link href="/kontak" className={LINK_CLASS}>
                   Hubungi Kami
                 </Link>
               </li>
@@ -101,27 +105,20 @@ export function Footer() {
           {/* Newsletter / Contact */}
           <div>
             <h4 className="font-[family-name:var(--font-space-grotesk)] text-lg font-bold mb-6 text-white">Newsletter</h4>
-            <p className="text-[#3F4954] text-sm mb-4">
+            <p className="text-[#C9C3B8] text-sm mb-4">
               Dapatkan panduan tentang pengelolaan proyek konstruksi dan perawatannya.
             </p>
-            <form className="flex flex-col gap-2" onSubmit={(e) => e.preventDefault()}>
-              <Input 
-                type="email" 
-                placeholder="Masukkan alamat email" 
-                className="bg-white/5 border-white/10 text-white placeholder:text-[#3F4954] h-10"
-              />
-              <Button className="w-full">Berlangganan</Button>
-            </form>
+            <NewsletterForm />
           </div>
         </div>
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-[#3F4954]">
+            <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-[#C9C3B8]">
               <p>&copy; {currentYear} ARKAVENA. All rights reserved.</p>
               <div className="flex gap-4">
-                <Link href="/kebijakan-privasi" className="hover:text-[#3F4954] transition-colors">Kebijakan Privasi</Link>
+                <Link href="/kebijakan-privasi" className="py-2 -my-2 hover:text-white transition-colors">Kebijakan Privasi</Link>
                 <span>•</span>
-                <Link href="/syarat-ketentuan" className="hover:text-[#3F4954] transition-colors">Syarat & Ketentuan</Link>
+                <Link href="/syarat-ketentuan" className="py-2 -my-2 hover:text-white transition-colors">Syarat & Ketentuan</Link>
               </div>
             </div>
         </div>

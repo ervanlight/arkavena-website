@@ -94,7 +94,9 @@ export function Header() {
 
           <button
             type="button"
-            className={cn("lg:hidden p-2 -mr-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C] rounded-md text-white")}
+            // p-3 not p-2 (audit finding I6): with the 20px icon, p-2 gave a
+            // 36x36px tap target, below the 44x44px minimum.
+            className={cn("lg:hidden p-3 -mr-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E2A63C] rounded-md text-white")}
             onClick={() => setMobileMenuOpen(true)}
             aria-expanded={mobileMenuOpen}
             aria-label="Open menu"

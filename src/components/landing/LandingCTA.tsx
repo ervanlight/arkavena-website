@@ -41,7 +41,7 @@ export function LandingCTA({ campaign, pagePath, label, href, whatsappMessage }:
       target={isWhatsApp ? "_blank" : undefined}
       rel={isWhatsApp ? "noopener noreferrer" : undefined}
       onClick={handleClick}
-      className="inline-flex items-center justify-center rounded-md bg-[#B88A4A] px-6 py-3.5 font-semibold text-white transition-colors hover:bg-[#a2793f]"
+      className="inline-flex items-center justify-center rounded-md bg-[#B88A4A] px-6 py-3.5 font-semibold text-[#14171B] transition-colors hover:bg-[#a2793f]"
     >
       {label}
     </a>

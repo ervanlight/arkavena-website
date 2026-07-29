@@ -2,7 +2,6 @@ import { describe, expect, it } from "vitest";
 import { LEGACY_DOMAINS, redirects, toNextRedirect } from "@/config/redirects";
 import { knownRoutes, validateRedirects } from "@/lib/content/validators";
 import { loadAllContent } from "@/lib/content/loaders";
-import { asContentItem, publishedFrontmatter } from "./fixtures/content";
 
 // The real redirect map's destinations point at real content routes
 // (e.g. /layanan/bangun-rumah), so this must validate against the real
