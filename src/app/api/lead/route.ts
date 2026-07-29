@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { leadPayloadSchema } from "@/lib/lead/schema";
+import { checkRateLimit, clientKeyFromHeaders } from "@/lib/lead/rate-limit";
 
 /**
  * Server-side lead delivery for /lp/* landing pages (Batch 12 §17).
@@ -14,8 +15,21 @@ import { leadPayloadSchema } from "@/lib/lead/schema";
  * fake success — the client falls back to ConsultationChannels (WhatsApp /
  * email) instead of claiming the lead was sent (ARCHITECTURE.md §16:
  * "Jangan menampilkan fake success state").
+ *
+ * Rate-limited per client IP (src/lib/lead/rate-limit.ts, audit finding I8)
+ * on top of the honeypot field below — neither is a substitute for the
+ * other, a scripted submitter can fill the honeypot and stay under the
+ * rate limit just as easily as it can skip both.
  */
 export async function POST(request: NextRequest) {
+  const clientKey = clientKeyFromHeaders(request.headers);
+  if (!checkRateLimit(clientKey)) {
+    return NextResponse.json(
+      { delivered: false, reason: "rate_limited" },
+      { status: 429 }
+    );
+  }
+
   let body: unknown;
   try {
     body = await request.json();

@@ -7,6 +7,7 @@ import type { LandingItem } from "@/schemas/content-types";
 import { getAnalyticsMode, LANDING_EVENTS } from "@/lib/landing/analytics";
 import { ALLOWED_PARAMS } from "@/lib/landing/attribution";
 import { leadPayloadSchema } from "@/lib/lead/schema";
+import { checkRateLimit, clientKeyFromHeaders } from "@/lib/lead/rate-limit";
 
 const LANDING_SLUGS = [
   "bangun-rumah-surabaya",
@@ -190,6 +191,36 @@ describe("Batch 12 — lead payload server-side validation", () => {
       companyWebsite: "",
     });
     expect(result.success).toBe(true);
+  });
+});
+
+describe("Batch 12 — /api/lead rate limiting (audit finding I8)", () => {
+  it("allows requests under the limit and blocks once the limit is exceeded", () => {
+    const key = `test-key-${Math.random()}`;
+    for (let i = 0; i < 5; i++) {
+      expect(checkRateLimit(key)).toBe(true);
+    }
+    expect(checkRateLimit(key)).toBe(false);
+  });
+
+  it("tracks each client key independently", () => {
+    const keyA = `test-key-a-${Math.random()}`;
+    const keyB = `test-key-b-${Math.random()}`;
+    for (let i = 0; i < 5; i++) checkRateLimit(keyA);
+    expect(checkRateLimit(keyA)).toBe(false);
+    expect(checkRateLimit(keyB)).toBe(true);
+  });
+
+  it("reads the first IP from a comma-separated x-forwarded-for header", () => {
+    const headers = new Headers({ "x-forwarded-for": "203.0.113.5, 70.41.3.18, 150.172.238.178" });
+    expect(clientKeyFromHeaders(headers)).toBe("203.0.113.5");
+  });
+
+  it("falls back to x-real-ip, then 'unknown', when x-forwarded-for is absent", () => {
+    expect(clientKeyFromHeaders(new Headers({ "x-real-ip": "203.0.113.9" }))).toBe(
+      "203.0.113.9"
+    );
+    expect(clientKeyFromHeaders(new Headers())).toBe("unknown");
   });
 });
 
