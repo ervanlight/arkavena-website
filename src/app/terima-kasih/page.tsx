@@ -21,7 +21,7 @@ export default function TerimaKasihPage() {
             <CheckCircle2 className="w-20 h-20 text-[#25775A] mx-auto mb-8" />
             <h1 className="text-4xl font-bold font-[family-name:var(--font-space-grotesk)] text-[#0E1B26] mb-4">Pengajuan Berhasil!</h1>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              Terima kasih telah mempercayakan rencana proyek Anda kepada ARKAVENA. Tim kami sedang meninjau informasi yang Anda berikan dan akan segera menghubungi Anda dalam waktu <strong>1x24 jam kerja</strong> untuk langkah selanjutnya.
+              Terima kasih telah mempercayakan rencana proyek Anda kepada ARKAVENA. Tim kami sedang meninjau informasi yang Anda berikan dan akan segera menghubungi Anda dalam waktu <strong>1-2 hari kerja</strong> untuk langkah selanjutnya.
             </p>
             
             <div className="bg-slate-50 p-6 rounded-xl border border-slate-100 mb-10 text-left">

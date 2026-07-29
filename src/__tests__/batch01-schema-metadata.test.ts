@@ -56,11 +56,14 @@ describe("Batch 01 — metadata", () => {
 });
 
 describe("Batch 01 — structured data mapping", () => {
-  it("homepage tidak menghasilkan LocalBusiness/GeneralContractor karena address null", () => {
+  it("homepage menghasilkan GeneralContractor sekarang karena address sudah terverifikasi", () => {
+    // businessFacts.address is now verified (owner-supplied office address),
+    // so buildHomepageGraph emits the GeneralContractor node — never
+    // LocalBusiness (ARCHITECTURE.md §9 forbids one LocalBusiness per city).
     const graph = buildHomepageGraph() as unknown as Graph;
-    expect(typesIn(graph)).not.toContain("GeneralContractor");
+    expect(typesIn(graph)).toContain("GeneralContractor");
     expect(typesIn(graph)).not.toContain("LocalBusiness");
-    expect(graph["@graph"]).toEqual([]);
+    expect(graph["@graph"]).toHaveLength(1);
   });
 
   it("sitewide graph tetap hanya satu Organization dan satu WebSite", () => {
