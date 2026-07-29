@@ -40,15 +40,28 @@ export interface BusinessFacts {
 export const businessFacts: BusinessFacts = {
   legalName: null,
   name: "ARKAVENA",
-  address: null,
-  telephone: null,
-  email: null,
+  address: {
+    streetAddress: "Rungkut Asri Utara RL II, Kec. Rungkut",
+    addressLocality: "Surabaya",
+    addressRegion: "Jawa Timur",
+    // Not provided by the owner yet — never guessed.
+    postalCode: null,
+    addressCountry: "ID",
+  },
+  telephone: "+6285128071580",
+  email: "admin@arkavena.com",
+  // Not provided yet — owner will supply lat/long from Google Maps in a
+  // separate task. Never estimate coordinates from a city/address name.
   geo: null,
   openingHours: [],
+  // NIB/SBU/IUJK not registered yet — stays empty, never invented.
   identifiers: [],
-  foundingYear: null,
+  foundingYear: 2018,
   areaServed: ["Surabaya", "Sidoarjo", "Gresik"],
-  sameAs: [],
+  sameAs: [
+    "https://instagram.com/arkavenahq",
+    "https://tiktok.com/@arkavenahq",
+  ],
 };
 
 /**
