@@ -1,29 +1,25 @@
 'use client';
 
 import * as React from 'react';
-import { cn } from '@/lib/utils';
 import { Button } from '../ui/button';
+import { getConsent, isAnalyticsConfigured, setConsent } from '@/lib/analytics/consent';
 
 export function CookieConsent() {
   const [show, setShow] = React.useState(false);
 
   React.useEffect(() => {
-    // Only show if analytics are configured (simulated here)
-    const hasAnalytics = process.env.NEXT_PUBLIC_ANALYTICS_ID;
-    const hasConsent = localStorage.getItem('arkavena_cookie_consent');
-    
-    if (hasAnalytics && !hasConsent) {
+    if (isAnalyticsConfigured() && getConsent() === 'unset') {
       setShow(true);
     }
   }, []);
 
   const handleAccept = () => {
-    localStorage.setItem('arkavena_cookie_consent', 'true');
+    setConsent(true);
     setShow(false);
   };
 
   const handleDecline = () => {
-    localStorage.setItem('arkavena_cookie_consent', 'false');
+    setConsent(false);
     setShow(false);
   };
 
@@ -34,7 +30,7 @@ export function CookieConsent() {
       <div className="bg-[#0E1B26] text-white p-6 rounded-lg shadow-2xl border border-[#1C2D38] animate-in slide-in-from-bottom-5">
         <h4 className="font-[family-name:var(--font-space-grotesk)] font-semibold mb-2">Penggunaan Cookie</h4>
         <p className="text-sm text-[#E8DED0] mb-6">
-          Kami menggunakan cookie untuk meningkatkan pengalaman Anda dan menganalisis trafik situs. 
+          Kami menggunakan cookie untuk meningkatkan pengalaman Anda dan menganalisis trafik situs.
           Dengan melanjutkan, Anda menyetujui penggunaan cookie kami.
         </p>
         <div className="flex flex-col sm:flex-row gap-3">
