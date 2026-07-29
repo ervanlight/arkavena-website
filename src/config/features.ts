@@ -30,8 +30,12 @@ export const features = {
       process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
   ),
 
-  // Analytics
-  GA4_CONFIGURED: Boolean(process.env.NEXT_PUBLIC_GA4_ID),
+  // Analytics — the actual vendor scripts (src/app/layout.tsx,
+  // src/components/shared/analytics-scripts.tsx) read NEXT_PUBLIC_GTM_ID and
+  // NEXT_PUBLIC_GA_MEASUREMENT_ID directly; these flags exist only for code
+  // that needs a plain boolean without importing the layout logic.
+  GTM_CONFIGURED: Boolean(process.env.NEXT_PUBLIC_GTM_ID),
+  GA4_CONFIGURED: Boolean(process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID),
   GOOGLE_ADS_CONFIGURED: Boolean(process.env.NEXT_PUBLIC_GOOGLE_ADS_ID),
   META_PIXEL_CONFIGURED: Boolean(process.env.NEXT_PUBLIC_META_PIXEL_ID),
 

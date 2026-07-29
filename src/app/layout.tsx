@@ -5,6 +5,7 @@ import { siteConfig } from "@/config/site";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { CookieConsent } from "@/components/shared/cookie-consent";
+import { AnalyticsScripts } from "@/components/shared/analytics-scripts";
 import { WhatsAppFloatingButton } from "@/components/shared/whatsapp-floating-button";
 import { JsonLd } from "@/components/seo/json-ld";
 import { buildSiteEntityGraph } from "@/lib/seo/schema-builders";
@@ -63,8 +64,6 @@ export const metadata: Metadata = {
   },
 };
 
-import Script from "next/script";
-
 export const viewport: Viewport = {
   themeColor: "#14171B",
   width: "device-width",
@@ -86,41 +85,6 @@ export default function RootLayout({
       className={`${spaceGrotesk.variable} ${inter.variable} ${ibmPlexMono.variable}`}
     >
       <head>
-        {/* Google Tag Manager */}
-        {gtmId && (
-          <Script
-            id="gtm-script"
-            strategy="afterInteractive"
-            dangerouslySetInnerHTML={{
-              __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','${gtmId}');`,
-            }}
-          />
-        )}
-        
-        {/* Google Analytics 4 */}
-        {gaId && !gtmId && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
-              strategy="afterInteractive"
-            />
-            <Script
-              id="ga4-script"
-              strategy="afterInteractive"
-              dangerouslySetInnerHTML={{
-                __html: `window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '${gaId}', { page_path: window.location.pathname });`,
-              }}
-            />
-          </>
-        )}
-
         {/*
           Single sitewide source of Organization/WebSite JSON-LD. Content
           pages (buildJsonLdGraph) reference these by @id rather than
@@ -129,16 +93,7 @@ gtag('config', '${gaId}', { page_path: window.location.pathname });`,
         <JsonLd data={siteEntityGraph} />
       </head>
       <body className="min-h-screen flex flex-col bg-[#ECE8E1] text-[#14171B] antialiased">
-        {gtmId && (
-          <noscript>
-            <iframe
-              src={`https://www.googletagmanager.com/ns.html?id=${gtmId}`}
-              height="0"
-              width="0"
-              style={{ display: "none", visibility: "hidden" }}
-            />
-          </noscript>
-        )}
+        <AnalyticsScripts gtmId={gtmId} gaId={gaId} />
         <a href="#main-content" className="skip-to-content">
           Langsung ke konten utama
         </a>
