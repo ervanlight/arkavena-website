@@ -1,6 +1,6 @@
 # Arkavena — Daftar Link Halaman
 
-Update terakhir: 2026-07-28 (setelah pillar + 7 panduan biaya bangunan komersial dipromosikan live, PR #13 merged)
+Update terakhir: 2026-07-29 (Batch 10 & 11 merge tapi belum promote; Batch 12 — landing page iklan — dibuka sebagai PR #16, batch terakhir dari roadmap 00-12)
 
 Legenda status:
 - 🟢 **Live & indexable** — published, ownerVerified, masuk sitemap Google
@@ -200,14 +200,64 @@ Kebijakan cluster ini: Arkavena tidak mempublikasikan kisaran harga proyek komer
 
 Batch 07A (PR #11), Batch 08 (PR #12), dan Batch 09A (PR #13) sudah di-approve, merge, dan promote 2026-07-28 (Batch 09A: pillar + 7 dari 10 panduan biaya; 3 panduan menunggu technical review terpisah).
 
+## 8. Panduan Manajemen Risiko (Batch 10) — sudah merge, belum dipromote
+
+| Panduan | Link |
+|---|---|
+| Apa Itu Manajemen Konstruksi (pillar) | https://arkavena.com/panduan/apa-itu-manajemen-konstruksi (noindex) |
+| Tugas Manajemen Konstruksi | https://arkavena.com/panduan/tugas-manajemen-konstruksi (noindex) |
+| Manajemen Konstruksi vs Kontraktor ⚠️ | https://arkavena.com/panduan/manajemen-konstruksi-vs-kontraktor (noindex) |
+| Apa Itu Pengawasan Proyek | https://arkavena.com/panduan/apa-itu-pengawasan-proyek (noindex) |
+| Owner Representative Proyek Konstruksi ⚠️ | https://arkavena.com/panduan/owner-representative-proyek-konstruksi (noindex) |
+| Apa Itu Value Engineering Konstruksi | https://arkavena.com/panduan/apa-itu-value-engineering-konstruksi (noindex) |
+| Value Engineering untuk Mengendalikan Biaya | https://arkavena.com/panduan/value-engineering-untuk-mengendalikan-biaya (noindex) |
+| Pengendalian Biaya Proyek | https://arkavena.com/panduan/pengendalian-biaya-proyek (noindex) |
+| Pengendalian Cashflow Proyek | https://arkavena.com/panduan/pengendalian-cashflow-proyek (noindex) |
+
+⚠️ = butuh contractual review terpisah sebelum promote, bukan promote rutin bareng batch.
+
+## 9. Panduan Maintenance & Design (Batch 11) — sudah merge, belum dipromote
+
+| Panduan | Link |
+|---|---|
+| Apa Itu Building Maintenance (pillar) | https://arkavena.com/panduan/apa-itu-building-maintenance (noindex) |
+| Preventive vs Corrective Maintenance | https://arkavena.com/panduan/preventive-vs-corrective-maintenance (noindex) |
+| Jadwal Preventive Maintenance Bangunan ⚠️ | https://arkavena.com/panduan/jadwal-preventive-maintenance-bangunan (noindex) |
+| Checklist Inspeksi Gedung ⚠️ | https://arkavena.com/panduan/checklist-inspeksi-gedung (noindex) |
+| Perawatan Atap Bangunan ⚠️ | https://arkavena.com/panduan/perawatan-atap-bangunan (noindex) |
+| Perawatan Fasad Bangunan ⚠️ | https://arkavena.com/panduan/perawatan-fasad-bangunan (noindex) |
+| Perawatan MEP Bangunan ⚠️ | https://arkavena.com/panduan/perawatan-mep-bangunan (noindex) |
+| Kontrak Building Maintenance ⚠️ | https://arkavena.com/panduan/kontrak-building-maintenance (noindex) |
+| Apa Itu Design and Build (pillar) | https://arkavena.com/panduan/apa-itu-design-and-build (noindex) |
+| Keuntungan Design and Build | https://arkavena.com/panduan/keuntungan-design-and-build (noindex) |
+| Apa Itu Interior Fit-Out | https://arkavena.com/panduan/apa-itu-interior-fit-out (noindex) |
+| Shop Drawing Konstruksi ⚠️ | https://arkavena.com/panduan/shop-drawing-konstruksi (noindex) |
+| Gambar Kerja vs Gambar Desain ⚠️ | https://arkavena.com/panduan/gambar-kerja-vs-gambar-desain (noindex) |
+| Koordinasi Arsitektur, Struktur, dan MEP ⚠️ | https://arkavena.com/panduan/koordinasi-arsitektur-struktur-mep (noindex) |
+
+⚠️ = butuh technical/contractual review terpisah sebelum promote (9 dari 14 panduan batch ini).
+
+## 10. Landing Pages Iklan (Batch 12) — di PR #16, belum merge
+
+| Landing page | Link (Vercel Preview) |
+|---|---|
+| Bangun Rumah Surabaya | /lp/bangun-rumah-surabaya |
+| Renovasi Rumah Surabaya | /lp/renovasi-rumah-surabaya |
+| Manajemen Konstruksi | /lp/manajemen-konstruksi |
+| Building Maintenance | /lp/building-maintenance |
+
+Semuanya `noindex` dan di luar sitemap permanen (by design, ini landing page iklan berbayar, bukan halaman organik). Formulir lead, event tracking, dan CTA WhatsApp sudah dibangun lengkap tapi belum aktif di production — menunggu `LEAD_WEBHOOK_URL`, `NEXT_PUBLIC_WHATSAPP_NUMBER`, dan ID GTM/GA4 dari kamu (detail di `reports/final-pending-owner-actions.md`).
+
 ---
 
 ## PR yang masih terbuka, menunggu review kamu
 
-Tidak ada — semua PR yang sudah selesai (Batch 04A/04B/05/06A/07A/08/09A, admin-auth fix) sudah merge dan promote per 2026-07-28.
+- **PR #16** (Batch 12 — landing pages + conversion instrumentation): https://github.com/ervanlight/arkavena-website/pull/16
+
+Batch 10 (PR #14) dan Batch 11 (PR #15) sudah merge tapi **belum dipromote** — semua panduannya live-tapi-noindex, menunggu review kamu (lihat bagian 8 & 9 di atas).
 
 ## Ringkasan angka
 
 - 🟢 Live & indexable: 76 halaman (hub + korporat + 20 layanan + 14 sektor + 31 panduan)
-- 🟡 Live tapi noindex (bisa dicek langsung): 18 halaman (8 wilayah + 7 proyek + 3 panduan biaya komersial menunggu technical review)
-- 🔵 Belum live: 0 (semua PR yang sudah selesai sudah merge)
+- 🟡 Live tapi noindex (bisa dicek langsung): 41 halaman (8 wilayah + 7 proyek + 3 panduan biaya komersial + 9 panduan manajemen risiko + 14 panduan maintenance/design, semuanya menunggu review kamu)
+- 🔵 Belum live: 4 landing page (Batch 12, PR #16, hanya bisa dilihat lewat Vercel Preview sampai merge)

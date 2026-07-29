@@ -2,11 +2,9 @@ import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
-import { Header } from "@/components/layout/header";
-import { Footer } from "@/components/layout/footer";
+import { SiteHeader, SiteFooter, SiteWhatsAppButton } from "@/components/site-chrome";
 import { CookieConsent } from "@/components/shared/cookie-consent";
 import { AnalyticsScripts } from "@/components/shared/analytics-scripts";
-import { WhatsAppFloatingButton } from "@/components/shared/whatsapp-floating-button";
 import { JsonLd } from "@/components/seo/json-ld";
 import { buildSiteEntityGraph } from "@/lib/seo/schema-builders";
 
@@ -97,12 +95,12 @@ export default function RootLayout({
         <a href="#main-content" className="skip-to-content">
           Langsung ke konten utama
         </a>
-        <Header />
+        <SiteHeader />
         <main id="main-content" className="flex-1">
           {children}
         </main>
-        <Footer />
-        <WhatsAppFloatingButton />
+        <SiteFooter />
+        <SiteWhatsAppButton />
         <CookieConsent />
       </body>
     </html>

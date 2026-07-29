@@ -133,4 +133,8 @@ export const contentModules: Record<string, () => Promise<MdxModule>> = {
   "projects/perumahan-karangploso-malang-2018": () => import("../../content/projects/perumahan-karangploso-malang-2018.mdx"),
   "projects/rumah-tinggal-malang-kota-2019": () => import("../../content/projects/rumah-tinggal-malang-kota-2019.mdx"),
   "projects/rumah-tinggal-solo-2024": () => import("../../content/projects/rumah-tinggal-solo-2024.mdx"),
+  "landing/bangun-rumah-surabaya": () => import("../../content/landing/bangun-rumah-surabaya.mdx"),
+  "landing/building-maintenance": () => import("../../content/landing/building-maintenance.mdx"),
+  "landing/manajemen-konstruksi": () => import("../../content/landing/manajemen-konstruksi.mdx"),
+  "landing/renovasi-rumah-surabaya": () => import("../../content/landing/renovasi-rumah-surabaya.mdx"),
 };

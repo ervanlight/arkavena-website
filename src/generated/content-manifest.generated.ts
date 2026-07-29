@@ -15316,5 +15316,401 @@ export const contentManifest: ContentItem[] = [
     "internalLinks": [],
     "isIndexable": false,
     "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "lp-bangun-rumah-surabaya",
+    "type": "landing",
+    "status": "review",
+    "title": "Jasa Bangun Rumah Surabaya dengan Pengendalian Proyek Terukur",
+    "slug": "bangun-rumah-surabaya",
+    "description": "Jasa bangun rumah di Surabaya dengan pengendalian ruang lingkup, biaya, jadwal, dan mutu yang terdokumentasi dari konsultasi hingga serah terima.",
+    "excerpt": "Konsultasikan rencana bangun rumah Anda di Surabaya dengan proses yang terukur dan terdokumentasi.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "transactional",
+    "cluster": "bangun-rumah",
+    "tags": [
+      "pelaksanaan",
+      "perencanaan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Bangun Rumah Surabaya",
+      "heading": "Bangun Rumah di Surabaya dengan Ruang Lingkup dan Pengendalian yang Jelas",
+      "summary": "Arkavena membantu mengelola proses pembangunan rumah di Surabaya melalui perencanaan, pelaksanaan, pemantauan, dan pelaporan sesuai ruang lingkup proyek.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Bangun Rumah Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana bangun rumah di Surabaya."
+      },
+      "secondaryCta": null
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena melayani proyek bangun rumah di Surabaya?",
+        "answer": "Ya. Surabaya adalah salah satu area layanan utama Arkavena, bersama Sidoarjo dan Gresik."
+      },
+      {
+        "question": "Apa yang terjadi jika ada perubahan permintaan saat rumah sudah mulai dibangun?",
+        "answer": "Perubahan pekerjaan didokumentasikan sebagai bagian dari change log, dievaluasi dampaknya terhadap biaya dan jadwal, lalu dikonfirmasikan kepada Anda sebelum dilaksanakan."
+      },
+      {
+        "question": "Apa yang perlu saya siapkan sebelum konsultasi?",
+        "answer": "Gambaran kebutuhan rumah, lokasi lahan di Surabaya atau sekitarnya, dokumen desain bila sudah ada, dan perkiraan anggaran awal akan membantu diskusi berjalan lebih terarah."
+      },
+      {
+        "question": "Bagaimana biaya jasa ditentukan?",
+        "answer": "Biaya jasa ditentukan setelah ruang lingkup, lokasi, dan kebutuhan proyek dibahas pada tahap konsultasi dan peninjauan awal — bukan angka baku di muka."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "landing": {
+      "campaign": "bangun-rumah-surabaya",
+      "organicEquivalent": "/layanan/bangun-rumah",
+      "index": false,
+      "follow": true,
+      "showGlobalNavigation": false,
+      "thankYouPath": "/terima-kasih"
+    },
+    "collection": "landing",
+    "route": "/lp/bangun-rumah-surabaya",
+    "sourcePath": "content/landing/bangun-rumah-surabaya.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Landing",
+        "path": "/lp"
+      },
+      {
+        "name": "Jasa Bangun Rumah Surabaya dengan Pengendalian Proyek Terukur",
+        "path": "/lp/bangun-rumah-surabaya"
+      }
+    ],
+    "wordCount": 119,
+    "readingMinutes": 1,
+    "internalLinks": [],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "lp-building-maintenance",
+    "type": "landing",
+    "status": "review",
+    "title": "Jasa Building Maintenance untuk Perawatan Bangunan Terencana",
+    "slug": "building-maintenance",
+    "description": "Jasa building maintenance Arkavena mencakup inspeksi kondisi, prioritas pekerjaan berbasis risiko, preventive maintenance, dan dokumentasi riwayat.",
+    "excerpt": "Konsultasikan kebutuhan perawatan bangunan Anda dengan pendekatan yang terencana dan terdokumentasi.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "transactional",
+    "cluster": "building-maintenance",
+    "tags": [
+      "pengawasan",
+      "risiko"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Building Maintenance",
+      "heading": "Perawatan Bangunan yang Terencana, Bukan Reaktif",
+      "summary": "Arkavena membantu mengelola perawatan bangunan melalui inspeksi, prioritas pekerjaan berbasis risiko, dan dokumentasi riwayat yang terencana.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Kebutuhan Perawatan Bangunan Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai kebutuhan building maintenance untuk bangunan saya."
+      },
+      "secondaryCta": null
+    },
+    "faq": [
+      {
+        "question": "Apa saja yang tercakup dalam layanan building maintenance?",
+        "answer": "Ruang lingkup dapat mencakup inspeksi kondisi bangunan, penetapan prioritas pekerjaan berdasarkan risiko, penyusunan rencana preventive maintenance, penjadwalan pekerjaan, dan pencatatan riwayat perawatan — dibahas dan disepakati pada tahap konsultasi."
+      },
+      {
+        "question": "Apakah layanan ini mencakup layanan darurat 24 jam?",
+        "answer": "Tidak secara otomatis. Layanan darurat 24 jam hanya tercakup apabila disepakati secara khusus dalam ruang lingkup."
+      },
+      {
+        "question": "Apakah layanan ini menjamin tidak akan terjadi kegagalan komponen?",
+        "answer": "Tidak. Perawatan terencana mengurangi risiko kegagalan mendadak melalui inspeksi dan prioritas berbasis risiko, tetapi tidak menjamin bahwa kegagalan tidak akan pernah terjadi."
+      },
+      {
+        "question": "Bagaimana biaya jasa ditentukan?",
+        "answer": "Biaya jasa ditentukan setelah cakupan aset, kondisi bangunan, dan kebutuhan proyek dibahas pada tahap konsultasi dan peninjauan awal — bukan angka baku di muka."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "landing": {
+      "campaign": "building-maintenance",
+      "organicEquivalent": "/layanan/building-maintenance",
+      "index": false,
+      "follow": true,
+      "showGlobalNavigation": false,
+      "thankYouPath": "/terima-kasih"
+    },
+    "collection": "landing",
+    "route": "/lp/building-maintenance",
+    "sourcePath": "content/landing/building-maintenance.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Landing",
+        "path": "/lp"
+      },
+      {
+        "name": "Jasa Building Maintenance untuk Perawatan Bangunan Terencana",
+        "path": "/lp/building-maintenance"
+      }
+    ],
+    "wordCount": 114,
+    "readingMinutes": 1,
+    "internalLinks": [],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "lp-manajemen-konstruksi",
+    "type": "landing",
+    "status": "review",
+    "title": "Jasa Manajemen Konstruksi untuk Pengelolaan Proyek Terintegrasi",
+    "slug": "manajemen-konstruksi",
+    "description": "Jasa manajemen konstruksi Arkavena mengelola ruang lingkup, biaya, jadwal, mutu, risiko, dan koordinasi antar pihak dalam satu proyek terintegrasi.",
+    "excerpt": "Konsultasikan kebutuhan manajemen konstruksi proyek Anda dengan pengelolaan yang terintegrasi dan terdokumentasi.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "transactional",
+    "cluster": "manajemen-risiko",
+    "tags": [
+      "pengawasan",
+      "perencanaan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Manajemen Konstruksi",
+      "heading": "Manajemen Konstruksi dengan Pengelolaan Proyek Terintegrasi",
+      "summary": "Arkavena membantu mengelola ruang lingkup, biaya, jadwal, mutu, dan risiko proyek secara menyeluruh agar Anda memiliki gambaran yang konsisten.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Kebutuhan Manajemen Konstruksi Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai kebutuhan manajemen konstruksi proyek saya."
+      },
+      "secondaryCta": null
+    },
+    "faq": [
+      {
+        "question": "Untuk proyek seperti apa manajemen konstruksi ini relevan?",
+        "answer": "Relevan untuk proyek yang melibatkan banyak pihak — desainer, kontraktor, supplier, dan konsultan — yang membutuhkan satu titik konsolidasi informasi dan pengendalian yang konsisten."
+      },
+      {
+        "question": "Apa saja yang dipantau dalam layanan ini?",
+        "answer": "Baseline ruang lingkup, biaya, dan jadwal ditetapkan sejak awal, dengan risk register, proses change-control, dan pelaporan progres berkala sebagai bagian dari pengendalian."
+      },
+      {
+        "question": "Apakah layanan ini menggantikan peran kontraktor pelaksana?",
+        "answer": "Tidak. Manajemen konstruksi mengelola dan mengoordinasikan proyek secara menyeluruh — peran kontraktor pelaksana dan pihak lain tetap ada sesuai kontrak masing-masing."
+      },
+      {
+        "question": "Bagaimana biaya jasa ditentukan?",
+        "answer": "Biaya jasa ditentukan setelah ruang lingkup, skala, dan kompleksitas proyek dibahas pada tahap konsultasi dan peninjauan awal — bukan angka baku di muka."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "landing": {
+      "campaign": "manajemen-konstruksi",
+      "organicEquivalent": "/layanan/manajemen-konstruksi",
+      "index": false,
+      "follow": true,
+      "showGlobalNavigation": false,
+      "thankYouPath": "/terima-kasih"
+    },
+    "collection": "landing",
+    "route": "/lp/manajemen-konstruksi",
+    "sourcePath": "content/landing/manajemen-konstruksi.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Landing",
+        "path": "/lp"
+      },
+      {
+        "name": "Jasa Manajemen Konstruksi untuk Pengelolaan Proyek Terintegrasi",
+        "path": "/lp/manajemen-konstruksi"
+      }
+    ],
+    "wordCount": 115,
+    "readingMinutes": 1,
+    "internalLinks": [],
+    "isIndexable": false,
+    "isFollowable": true
+  },
+  {
+    "schemaVersion": 1,
+    "id": "lp-renovasi-rumah-surabaya",
+    "type": "landing",
+    "status": "review",
+    "title": "Jasa Renovasi Rumah Surabaya dengan Perhatian pada Kondisi Eksisting",
+    "slug": "renovasi-rumah-surabaya",
+    "description": "Jasa renovasi rumah di Surabaya dengan perhatian pada kondisi eksisting, pekerjaan tersembunyi, penghuni, dan pengendalian perubahan ruang lingkup.",
+    "excerpt": "Konsultasikan rencana renovasi rumah Anda di Surabaya dengan proses yang memperhatikan kondisi bangunan lama.",
+    "seoTitle": null,
+    "primaryKeyword": null,
+    "secondaryKeywords": [],
+    "searchIntent": "transactional",
+    "cluster": "renovasi",
+    "tags": [
+      "pelaksanaan",
+      "perencanaan"
+    ],
+    "publishedAt": null,
+    "updatedAt": null,
+    "lastReviewedAt": null,
+    "author": "arkavena-editorial",
+    "reviewedBy": null,
+    "hero": {
+      "eyebrow": "Renovasi Rumah Surabaya",
+      "heading": "Renovasi Rumah di Surabaya dengan Perhatian pada Kondisi Eksisting",
+      "summary": "Arkavena membantu mengelola proses renovasi rumah di Surabaya dengan memperhatikan kondisi eksisting, kebutuhan penghuni, dan integrasi pekerjaan baru dan lama.",
+      "image": "/images/placeholders/hero.png",
+      "imageAlt": "Ilustrasi abstrak komposisi geometris bertema konstruksi dengan garis dan bidang terstruktur"
+    },
+    "relationships": {
+      "services": [],
+      "sectors": [],
+      "locations": [],
+      "guides": [],
+      "projects": [],
+      "pinnedRelated": [],
+      "excludedRelated": []
+    },
+    "conversion": {
+      "goal": "consultation",
+      "primaryCta": {
+        "label": "Konsultasikan Rencana Renovasi Anda",
+        "href": "/konsultasi-proyek",
+        "whatsappMessage": "Halo Arkavena, saya ingin berkonsultasi mengenai rencana renovasi rumah di Surabaya."
+      },
+      "secondaryCta": null
+    },
+    "faq": [
+      {
+        "question": "Apakah Arkavena melayani proyek renovasi rumah di Surabaya?",
+        "answer": "Ya. Surabaya adalah salah satu area layanan utama Arkavena, bersama Sidoarjo dan Gresik."
+      },
+      {
+        "question": "Apakah rumah tetap bisa dihuni selama renovasi?",
+        "answer": "Bergantung pada lingkup dan kondisi pekerjaan. Pertimbangan rumah yang tetap dihuni selama proyek berlangsung dibahas pada tahap peninjauan awal, termasuk pengaturan urutan pekerjaan untuk meminimalkan gangguan."
+      },
+      {
+        "question": "Bagaimana jika ditemukan kondisi tersembunyi setelah pembongkaran dimulai?",
+        "answer": "Kondisi tersembunyi yang baru diketahui setelah pembongkaran dievaluasi dampaknya terhadap ruang lingkup, biaya, dan jadwal, lalu dikonfirmasikan kepada Anda sebelum pekerjaan lanjutan dilaksanakan."
+      },
+      {
+        "question": "Bagaimana biaya jasa ditentukan?",
+        "answer": "Biaya jasa ditentukan setelah ruang lingkup, kondisi eksisting, dan kebutuhan proyek dibahas pada tahap konsultasi dan peninjauan awal — bukan angka baku di muka."
+      }
+    ],
+    "sources": [],
+    "ownerVerified": false,
+    "landing": {
+      "campaign": "renovasi-rumah-surabaya",
+      "organicEquivalent": "/layanan/renovasi-rumah",
+      "index": false,
+      "follow": true,
+      "showGlobalNavigation": false,
+      "thankYouPath": "/terima-kasih"
+    },
+    "collection": "landing",
+    "route": "/lp/renovasi-rumah-surabaya",
+    "sourcePath": "content/landing/renovasi-rumah-surabaya.mdx",
+    "breadcrumb": [
+      {
+        "name": "Beranda",
+        "path": "/"
+      },
+      {
+        "name": "Landing",
+        "path": "/lp"
+      },
+      {
+        "name": "Jasa Renovasi Rumah Surabaya dengan Perhatian pada Kondisi Eksisting",
+        "path": "/lp/renovasi-rumah-surabaya"
+      }
+    ],
+    "wordCount": 115,
+    "readingMinutes": 1,
+    "internalLinks": [],
+    "isIndexable": false,
+    "isFollowable": true
   }
 ];
