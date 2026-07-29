@@ -4,7 +4,8 @@
  * Fails the build on: schema violations, duplicate IDs / slugs / routes /
  * published keywords, filename-slug mismatch, collection-type mismatch,
  * unresolved relationships on published pages, orphaned published pages,
- * disallowed MDX constructs, and sitemap contract violations.
+ * disallowed MDX constructs, sitemap contract violations, and published
+ * pages whose hero.image does not exist under public/.
  */
 
 import fs from "node:fs";
@@ -75,6 +76,34 @@ function validateBodies(sourcePaths: string[]): ValidationIssue[] {
   return issues;
 }
 
+/**
+ * Every published page's hero.image must point at a file that actually
+ * exists under public/ — a broken image on a live page renders as an empty
+ * box at the top of the page and a blank social-share preview (audit
+ * finding C2, 2026-07-29: 57 guides referenced hero images that were never
+ * created, 31 of them already published).
+ */
+function validateHeroImages(
+  items: { status: string; hero: { image: string }; sourcePath: string }[]
+): ValidationIssue[] {
+  const issues: ValidationIssue[] = [];
+
+  for (const item of items) {
+    if (item.status !== "published") continue;
+    const imagePath = path.join(process.cwd(), "public", item.hero.image);
+    if (!fs.existsSync(imagePath)) {
+      issues.push({
+        severity: "error",
+        rule: "hero-image",
+        file: item.sourcePath,
+        message: `hero.image "${item.hero.image}" tidak ditemukan di public/ — halaman published wajib memiliki gambar yang benar-benar ada`,
+      });
+    }
+  }
+
+  return issues;
+}
+
 function report(issues: ValidationIssue[]): number {
   const errors = issues.filter((issue) => issue.severity === "error");
   const warnings = issues.filter((issue) => issue.severity === "warning");
@@ -105,6 +134,7 @@ function main() {
   issues.push(...validateUniqueness(items));
   issues.push(...validateRelationships(items));
   issues.push(...validateBodies(items.map((item) => item.sourcePath)));
+  issues.push(...validateHeroImages(items));
 
   const graph = buildLinkGraph(items);
   issues.push(...validateOrphans(items, inboundCounts(graph)));
