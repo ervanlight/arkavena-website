@@ -48,7 +48,7 @@ export function CTA({ heading, body, primary, secondary }: CTAProps) {
   return (
     <section className="my-10 rounded-lg bg-[#1C2D38] px-6 py-8 text-white sm:px-8">
       {heading && (
-        <h2 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold">
+        <h2 className="font-[family-name:var(--font-space-grotesk)] text-2xl font-bold text-white">
           {heading}
         </h2>
       )}
