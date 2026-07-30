@@ -54,9 +54,13 @@ export function CTA({ heading, body, primary, secondary }: CTAProps) {
       )}
       {body && <p className="mt-2 max-w-2xl text-white/80">{body}</p>}
       <div className="mt-6 flex flex-wrap gap-3">
+        {/* text-[#14171B] not text-white (audit finding I7): white-on-bronze
+            here measured 3.10:1 contrast, below the 4.5:1 minimum for body
+            text. Every other bg-[#B88A4A] button on the site already pairs
+            it with dark text — this just matches that established pattern. */}
         <CTAButton
           link={primary}
-          className="inline-flex items-center rounded-md bg-[#B88A4A] px-5 py-3 font-semibold text-white transition-colors hover:bg-[#a2793f]"
+          className="inline-flex items-center rounded-md bg-[#B88A4A] px-5 py-3 font-semibold text-[#14171B] transition-colors hover:bg-[#a2793f]"
         />
         {secondary && (
           <CTAButton

@@ -12,6 +12,7 @@ import { SourceNote } from "@/components/content/blocks/SourceNote";
 import { RelatedContent } from "@/components/content/blocks/RelatedContent";
 import { ContentCTA } from "@/components/content/blocks/CTA";
 import { Callout } from "@/components/content/blocks/Callout";
+import { StickyCtaBar } from "@/components/content/sticky-cta-bar";
 import type { ContentItem, SectorItem } from "@/schemas/content-types";
 
 export function SectorTemplate({
@@ -54,6 +55,7 @@ export function SectorTemplate({
       <SourceNote sources={item.sources} />
       <ContentCTA item={item} />
       <RelatedContent items={related} title="Layanan yang relevan untuk sektor ini" />
+      <StickyCtaBar item={item} />
     </ContentLayout>
   );
 }

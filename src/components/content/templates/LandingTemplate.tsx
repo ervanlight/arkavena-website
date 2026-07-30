@@ -31,13 +31,15 @@ export function LandingTemplate({
         <DraftBadge item={item} />
 
         <header className="mb-10">
-          <p className="text-xs font-bold uppercase tracking-wider text-[#B88A4A]">
+          {/* Contrast fixes matching content-shell.tsx's ContentHero — audit
+              finding I7. */}
+          <p className="text-xs font-bold uppercase tracking-wider text-[#805A22]">
             {item.hero.eyebrow}
           </p>
-          <h1 className="mt-3 font-[family-name:var(--font-space-grotesk)] text-3xl font-bold tracking-tight text-[#0E1B26] sm:text-4xl">
+          <h1 className="mt-3 font-[family-name:var(--font-space-grotesk)] text-[1.75rem] font-bold tracking-tight text-[#0E1B26] sm:text-4xl">
             {item.hero.heading}
           </h1>
-          <p className="mt-4 text-lg leading-relaxed text-[#68757D]">
+          <p className="mt-4 text-lg leading-relaxed text-[#576067]">
             {item.hero.summary}
           </p>
           <div className="mt-6">

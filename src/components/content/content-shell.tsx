@@ -15,7 +15,10 @@ export function ContentBreadcrumbs({ trail }: { trail: BreadcrumbEntry[] }) {
 
   return (
     <nav aria-label="Breadcrumb" className="mb-6">
-      <ol className="flex flex-wrap items-center gap-2 text-sm text-[#68757D]">
+      {/* text-[#576067] not text-[#68757D] (audit finding I7): the latter
+          measured 3.88:1 against this page's background, below the 4.5:1
+          minimum. Scoped to breadcrumbs only, not the shared color token. */}
+      <ol className="flex flex-wrap items-center gap-2 text-sm text-[#576067]">
         {trail.map((entry, index) => {
           const isLast = index === trail.length - 1;
           return (
@@ -31,7 +34,12 @@ export function ContentBreadcrumbs({ trail }: { trail: BreadcrumbEntry[] }) {
                     {entry.name}
                   </span>
                 ) : (
-                  <Link href={entry.path} className="transition-colors hover:text-[#B88A4A]">
+                  // py-2 -my-2 (audit finding I6): expands the tap target to
+                  // ~44px tall without changing the visible line spacing.
+                  <Link
+                    href={entry.path}
+                    className="inline-block py-2 -my-2 transition-colors hover:text-[#B88A4A]"
+                  >
                     {entry.name}
                   </Link>
                 )}
@@ -68,13 +76,23 @@ export function DraftBadge({ item }: { item: ContentItem }) {
 export function ContentHero({ item }: { item: ContentItem }) {
   return (
     <header className="mb-10">
-      <p className="text-xs font-bold uppercase tracking-wider text-[#B88A4A]">
+      {/* text-[#805A22] not text-[#B88A4A] (audit finding I7): the latter
+          measured 2.54:1 at this 12px size against this page's background,
+          below the 4.5:1 minimum small text requires. Scoped to this eyebrow
+          only — #B88A4A stays the shared accent everywhere else it already
+          passes (borders, focus rings, dark-on-light buttons). */}
+      <p className="text-xs font-bold uppercase tracking-wider text-[#805A22]">
         {item.hero.eyebrow}
       </p>
-      <h1 className="mt-3 font-[family-name:var(--font-space-grotesk)] text-3xl font-bold tracking-tight text-[#0E1B26] sm:text-4xl">
+      {/* text-[1.75rem] on mobile (audit finding Q6): at 30px (text-3xl), a
+          realistic title like "Biaya Bangun Kos: Jumlah Unit dan Fasilitas
+          Bersama Menentukan Sebagian Besar Biaya" wraps to 4-5 lines on a
+          375px screen, pushing all real content below the fold. */}
+      <h1 className="mt-3 font-[family-name:var(--font-space-grotesk)] text-[1.75rem] font-bold tracking-tight text-[#0E1B26] sm:text-4xl">
         {item.hero.heading}
       </h1>
-      <p className="mt-4 max-w-3xl text-lg leading-relaxed text-[#68757D]">
+      {/* text-[#576067] not text-[#68757D] (audit finding I7): 3.88:1 -> 4.5+. */}
+      <p className="mt-4 max-w-3xl text-lg leading-relaxed text-[#576067]">
         {item.hero.summary}
       </p>
       <div className="relative mt-8 aspect-[16/9] overflow-hidden rounded-lg border border-[#E8DED0] bg-white">

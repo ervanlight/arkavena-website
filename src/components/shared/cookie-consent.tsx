@@ -3,6 +3,7 @@
 import * as React from 'react';
 import { Button } from '../ui/button';
 import { getConsent, isAnalyticsConfigured, setConsent } from '@/lib/analytics/consent';
+import { announceBannerVisibility } from '@/lib/ui/floating-ui-coordination';
 
 export function CookieConsent() {
   const [show, setShow] = React.useState(false);
@@ -12,6 +13,13 @@ export function CookieConsent() {
       setShow(true);
     }
   }, []);
+
+  // Lets the WhatsApp floating button move out of the way while the banner
+  // covers it on mobile (audit finding Q5).
+  React.useEffect(() => {
+    announceBannerVisibility(show);
+    return () => announceBannerVisibility(false);
+  }, [show]);
 
   const handleAccept = () => {
     setConsent(true);

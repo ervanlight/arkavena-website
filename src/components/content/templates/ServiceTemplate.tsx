@@ -11,6 +11,7 @@ import { FAQList } from "@/components/content/blocks/FAQList";
 import { SourceNote } from "@/components/content/blocks/SourceNote";
 import { RelatedContent } from "@/components/content/blocks/RelatedContent";
 import { ContentCTA } from "@/components/content/blocks/CTA";
+import { StickyCtaBar } from "@/components/content/sticky-cta-bar";
 import type { ContentItem, ServiceItem } from "@/schemas/content-types";
 
 const PRICING_LABELS: Record<string, string> = {
@@ -75,6 +76,7 @@ export function ServiceTemplate({
       <SourceNote sources={item.sources} />
       <ContentCTA item={item} />
       <RelatedContent items={related} title="Layanan dan panduan terkait" />
+      <StickyCtaBar item={item} />
     </ContentLayout>
   );
 }

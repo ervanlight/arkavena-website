@@ -7,7 +7,7 @@ export default function NotFound() {
     <div className="min-h-screen bg-white flex items-center justify-center py-40">
       <Container>
         <div className="max-w-2xl mx-auto text-center">
-          <h1 className="text-6xl md:text-7xl font-[family-name:var(--font-space-grotesk)] font-bold text-white leading-none mb-8 tracking-tighter">
+          <h1 className="text-6xl md:text-7xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B]/10 leading-none mb-8 tracking-tighter">
             404
           </h1>
           <h2 className="text-xl md:text-2xl lg:text-3xl font-[family-name:var(--font-space-grotesk)] font-bold text-[#14171B] mb-6 tracking-tight">
