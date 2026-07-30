@@ -11,6 +11,7 @@ import { SourceNote } from "@/components/content/blocks/SourceNote";
 import { RelatedContent } from "@/components/content/blocks/RelatedContent";
 import { ContentCTA } from "@/components/content/blocks/CTA";
 import { Checklist } from "@/components/content/blocks/Checklist";
+import { StickyCtaBar } from "@/components/content/sticky-cta-bar";
 import type { ContentItem, LocationItem } from "@/schemas/content-types";
 
 /**
@@ -59,6 +60,7 @@ export function LocationTemplate({
       <SourceNote sources={item.sources} />
       <ContentCTA item={item} />
       <RelatedContent items={related} title="Layanan di area ini" />
+      <StickyCtaBar item={item} />
     </ContentLayout>
   );
 }

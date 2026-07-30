@@ -10,6 +10,7 @@ import { SourceNote } from "@/components/content/blocks/SourceNote";
 import { RelatedContent } from "@/components/content/blocks/RelatedContent";
 import { ContentCTA } from "@/components/content/blocks/CTA";
 import { Callout } from "@/components/content/blocks/Callout";
+import { StickyCtaBar } from "@/components/content/sticky-cta-bar";
 import type { ContentItem, GuideItem } from "@/schemas/content-types";
 
 const ARTICLE_TYPE_LABELS: Record<string, string> = {
@@ -66,6 +67,7 @@ export function GuideTemplate({
       <SourceNote sources={item.sources} />
       <ContentCTA item={item} />
       <RelatedContent items={related} title="Baca juga" />
+      <StickyCtaBar item={item} />
     </ContentLayout>
   );
 }

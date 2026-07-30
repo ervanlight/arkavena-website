@@ -5,6 +5,7 @@ import { siteConfig } from "@/config/site";
 import { SiteHeader, SiteFooter, SiteWhatsAppButton } from "@/components/site-chrome";
 import { CookieConsent } from "@/components/shared/cookie-consent";
 import { AnalyticsScripts } from "@/components/shared/analytics-scripts";
+import { PageTransition } from "@/components/shared/page-transition";
 import { JsonLd } from "@/components/seo/json-ld";
 import { buildSiteEntityGraph } from "@/lib/seo/schema-builders";
 
@@ -97,7 +98,7 @@ export default function RootLayout({
         </a>
         <SiteHeader />
         <main id="main-content" className="flex-1">
-          {children}
+          <PageTransition>{children}</PageTransition>
         </main>
         <SiteFooter />
         <SiteWhatsAppButton />

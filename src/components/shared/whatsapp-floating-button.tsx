@@ -5,10 +5,10 @@ import { MessageCircle } from "lucide-react";
 import { analytics } from "@/lib/analytics";
 import { siteConfig } from "@/config/site";
 import { buildWhatsAppUrl, GENERIC_WHATSAPP_PREFILL } from "@/lib/contact/whatsapp";
-import { useCookieBannerVisible } from "@/lib/ui/floating-ui-coordination";
+import { useAnyBottomBarVisible } from "@/lib/ui/floating-ui-coordination";
 
 export function WhatsAppFloatingButton() {
-  const bannerVisible = useCookieBannerVisible();
+  const bottomBarVisible = useAnyBottomBarVisible();
   const whatsappUrl = buildWhatsAppUrl({
     number: siteConfig.whatsApp,
     message: GENERIC_WHATSAPP_PREFILL,
@@ -18,12 +18,12 @@ export function WhatsAppFloatingButton() {
   // (ARCHITECTURE.md Batch 01 §8.6).
   if (!whatsappUrl) return null;
 
-  // Hidden while the cookie banner is open (audit finding Q5): the banner's
-  // mobile wrapper spans the full viewport width and its height varies with
-  // content/viewport, so a fixed offset can't reliably clear it — hiding is
-  // simpler and can't under-shoot. The banner is only up for a few seconds
-  // until the visitor decides, and WhatsApp remains reachable elsewhere.
-  if (bannerVisible) return null;
+  // Hidden while the cookie banner or the sticky contextual CTA bar is open
+  // (audit findings Q5/Q4): both can span the full viewport width on mobile
+  // and their height varies with content, so a fixed offset can't reliably
+  // clear them — hiding is simpler and can't under-shoot. WhatsApp remains
+  // reachable elsewhere (both bars carry their own WhatsApp CTA too).
+  if (bottomBarVisible) return null;
 
   const handleClick = () => {
     analytics.trackEvent('whatsapp_click', { location: 'floating_button' });
