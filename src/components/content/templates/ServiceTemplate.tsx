@@ -5,7 +5,6 @@ import {
   ContentLayout,
   DraftBadge,
   FactList,
-  TagList,
 } from "@/components/content/content-shell";
 import { FAQList } from "@/components/content/blocks/FAQList";
 import { SourceNote } from "@/components/content/blocks/SourceNote";
@@ -43,12 +42,11 @@ export function ServiceTemplate({
             value: PRICING_LABELS[item.service.pricingMode],
           },
         ]}
+        tags={[
+          { label: "Untuk siapa", items: item.service.audience },
+          { label: "Area layanan", items: item.service.areaServed },
+        ]}
       />
-
-      <div className="my-8 grid gap-6 sm:grid-cols-2">
-        <TagList label="Untuk siapa" items={item.service.audience} />
-        <TagList label="Area layanan" items={item.service.areaServed} />
-      </div>
 
       {item.service.deliverables.length > 0 && (
         <section className="my-8">

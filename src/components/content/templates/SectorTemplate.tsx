@@ -5,7 +5,6 @@ import {
   ContentLayout,
   DraftBadge,
   FactList,
-  TagList,
 } from "@/components/content/content-shell";
 import { FAQList } from "@/components/content/blocks/FAQList";
 import { SourceNote } from "@/components/content/blocks/SourceNote";
@@ -32,11 +31,8 @@ export function SectorTemplate({
       <FactList
         title="Profil sektor"
         entries={[{ label: "Jenis bangunan", value: item.sector.buildingType }]}
+        tags={[{ label: "Kasus penggunaan utama", items: item.sector.primaryUseCases }]}
       />
-
-      <div className="my-8">
-        <TagList label="Kasus penggunaan utama" items={item.sector.primaryUseCases} />
-      </div>
 
       {item.sector.commonRisks.length > 0 && (
         <Callout tone="risk" title="Risiko yang sering muncul di sektor ini">

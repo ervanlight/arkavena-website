@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ChevronRight } from "lucide-react";
 import { Container } from "@/components/ui/container";
+import { cn } from "@/lib/utils";
 import type { BreadcrumbEntry, ContentItem } from "@/schemas/content-types";
 
 /**
@@ -91,32 +92,56 @@ export function ContentHero({ item }: { item: ContentItem }) {
   );
 }
 
-/** Key/value strip used by templates to surface collection-specific facts. */
+/**
+ * Key/value strip used by templates to surface collection-specific facts,
+ * with an optional set of tag groups (audience, coverage area, use cases…)
+ * folded into the same card. Facts and tags describe the same "at a glance"
+ * summary; rendering them as two visually unrelated blocks (one boxed, one
+ * not) read as two different kinds of information when they are not.
+ */
 export function FactList({
   title,
   entries,
+  tags,
 }: {
   title: string;
   entries: { label: string; value: React.ReactNode }[];
+  tags?: { label: string; items: readonly string[] }[];
 }) {
-  const visible = entries.filter((entry) => entry.value);
-  if (visible.length === 0) return null;
+  const visibleEntries = entries.filter((entry) => entry.value);
+  const visibleTags = (tags ?? []).filter((tag) => tag.items.length > 0);
+  if (visibleEntries.length === 0 && visibleTags.length === 0) return null;
 
   return (
     <section className="my-8 rounded-lg border border-[#E8DED0] bg-white p-6">
       <h2 className="mb-4 font-[family-name:var(--font-space-grotesk)] text-lg font-semibold text-[#0E1B26]">
         {title}
       </h2>
-      <dl className="grid gap-4 sm:grid-cols-2">
-        {visible.map((entry) => (
-          <div key={entry.label}>
-            <dt className="text-xs font-bold uppercase tracking-wider text-[#68757D]">
-              {entry.label}
-            </dt>
-            <dd className="mt-1 text-[#26333C]">{entry.value}</dd>
-          </div>
-        ))}
-      </dl>
+      {visibleEntries.length > 0 && (
+        <dl className="grid gap-4 sm:grid-cols-2">
+          {visibleEntries.map((entry) => (
+            <div key={entry.label}>
+              <dt className="text-xs font-bold uppercase tracking-wider text-[#68757D]">
+                {entry.label}
+              </dt>
+              <dd className="mt-1 text-[#26333C]">{entry.value}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
+      {visibleTags.length > 0 && (
+        <div
+          className={cn(
+            "grid gap-4",
+            visibleTags.length > 1 && "sm:grid-cols-2",
+            visibleEntries.length > 0 && "mt-6 border-t border-[#E8DED0] pt-6"
+          )}
+        >
+          {visibleTags.map((tag) => (
+            <TagList key={tag.label} label={tag.label} items={tag.items} />
+          ))}
+        </div>
+      )}
     </section>
   );
 }
