@@ -59,7 +59,7 @@ export default function HomePage() {
       role: "Surabaya Barat"
     },
     {
-      quote: "Pemeliharaan fasilitas sekolah kami menjadiauh lebih terencana. Laporan rutin dan dokumentasi pekerjaan sangat membantu manajemen Yayasan.",
+      quote: "Pemeliharaan fasilitas sekolah kami menjadi jauh lebih terencana. Laporan rutin dan dokumentasi pekerjaan sangat membantu manajemen Yayasan.",
       initial: "Ibu Maria L.",
       name: "Pengurus Yayasan Pendidikan",
       role: "Sidoarjo"
@@ -195,11 +195,11 @@ export default function HomePage() {
                 { title: "Kualitas Tidak Konsisten", desc: "Tanpa sistem pemeriksaan yang jelas, kualitas pekerjaan bergantung pada kebiasaan masing-masing pelaksana.", icon: ShieldAlert }
               ].map((item, idx) => (
                 <div key={idx} className="bg-[#14171B] p-8 lg:p-10 hover:bg-white/5 transition-colors">
-                  <div className="w-12 h-12 bg-white/5 border border-white/10 rounded-xl flex items-center justify-center mb-8 text-[#3F4954]">
+                  <div className="w-12 h-12 bg-white/5 border border-white/10 rounded-xl flex items-center justify-center mb-8 text-[#DCD6CD]">
                     <item.icon className="w-6 h-6" />
                   </div>
                   <h3 className="text-xl font-[family-name:var(--font-space-grotesk)] font-bold text-white mb-4">{item.title}</h3>
-                  <p className="text-[#3F4954] leading-relaxed">{item.desc}</p>
+                  <p className="text-[#DCD6CD] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -408,9 +408,9 @@ export default function HomePage() {
                 <div key={idx} className="bg-white/5 border border-white/10 p-8 rounded-2xl flex flex-col">
                   <p className="text-white/70 leading-relaxed mb-8 flex-grow">&ldquo;{testi.quote}&rdquo;</p>
                   <div className="pt-6 border-t border-white/10">
-                    <p className="text-[#3F4954] text-sm mb-4 italic">{testi.initial}</p>
+                    <p className="text-white/50 text-sm mb-4 italic">{testi.initial}</p>
                     <p className="font-bold text-white">{testi.name}</p>
-                    <p className="text-[#3F4954] text-sm">{testi.role}</p>
+                    <p className="text-white/50 text-sm">{testi.role}</p>
                   </div>
                 </div>
               ))}
